@@ -1,0 +1,514 @@
+{
+  "inverted_index": {
+    "Q1 FY19": {
+      "type": "string",
+      "ranges": [
+        "C4",
+        "C7:E7"
+      ]
+    },
+    "Q2 FY19": {
+      "type": "string",
+      "ranges": [
+        "D4",
+        "F7:H7"
+      ]
+    },
+    "Q3 FY19": {
+      "type": "string",
+      "ranges": [
+        "E4",
+        "I7:K7"
+      ]
+    },
+    "Q4 FY19": {
+      "type": "string",
+      "ranges": [
+        "F4",
+        "L7:N7"
+      ]
+    },
+    "Q1 FY20": {
+      "type": "string",
+      "ranges": [
+        "G4",
+        "O7:Q7"
+      ]
+    },
+    "Q2 FY20": {
+      "type": "string",
+      "ranges": [
+        "H4",
+        "R7:T7"
+      ]
+    },
+    "Q3 FY20": {
+      "type": "string",
+      "ranges": [
+        "I4",
+        "U7:W7"
+      ]
+    },
+    "Q4 FY20": {
+      "type": "string",
+      "ranges": [
+        "J4",
+        "X7:Z7"
+      ]
+    },
+    "Q1 FY21": {
+      "type": "string",
+      "ranges": [
+        "K4",
+        "AA7:AC7"
+      ]
+    },
+    "Q2 FY21": {
+      "type": "string",
+      "ranges": [
+        "L4",
+        "AD7:AF7"
+      ]
+    },
+    "Q3 FY21": {
+      "type": "string",
+      "ranges": [
+        "M4",
+        "AG7:AI7"
+      ]
+    },
+    "Q4 FY21": {
+      "type": "string",
+      "ranges": [
+        "N4",
+        "AJ7:AL7"
+      ]
+    },
+    "Q1 FY22": {
+      "type": "string",
+      "ranges": [
+        "O4",
+        "AM7:AO7"
+      ]
+    },
+    "Q2 FY22": {
+      "type": "string",
+      "ranges": [
+        "P4",
+        "AP7:AR7"
+      ]
+    },
+    "Q3 FY22": {
+      "type": "string",
+      "ranges": [
+        "Q4",
+        "AS7:AU7"
+      ]
+    },
+    "Q4 FY22": {
+      "type": "string",
+      "ranges": [
+        "R4",
+        "AV7:AX7"
+      ]
+    },
+    "Q1 FY23": {
+      "type": "string",
+      "ranges": [
+        "S4",
+        "AY7:BA7",
+        "C15",
+        "C23:E23"
+      ]
+    },
+    "Q2 FY23": {
+      "type": "string",
+      "ranges": [
+        "T4",
+        "BB7:BD7",
+        "D15",
+        "F23:H23"
+      ]
+    },
+    "Q3 FY23": {
+      "type": "string",
+      "ranges": [
+        "U4",
+        "BE7:BG7",
+        "E15",
+        "I23:K23"
+      ]
+    },
+    "Q4 FY23": {
+      "type": "string",
+      "ranges": [
+        "V4",
+        "BH7:BJ7",
+        "F15",
+        "L23:N23"
+      ]
+    },
+    "Cash BOP": {
+      "type": "string",
+      "ranges": [
+        "B16",
+        "B26",
+        "B39",
+        "B52"
+      ]
+    },
+    "Incoming Cash": {
+      "type": "string",
+      "ranges": [
+        "B17",
+        "B27",
+        "B40",
+        "B53",
+        "AR66",
+        "AR73"
+      ]
+    },
+    "Total Expenses": {
+      "type": "string",
+      "ranges": [
+        "B18",
+        "B28",
+        "B41",
+        "B54",
+        "AR67",
+        "AR74"
+      ]
+    },
+    "Equity": {
+      "type": "string",
+      "ranges": [
+        "B19",
+        "B29",
+        "B43",
+        "B56",
+        "AR69",
+        "AR76"
+      ]
+    },
+    "Cash EOP": {
+      "type": "string",
+      "ranges": [
+        "B20",
+        "B30",
+        "B44",
+        "B57"
+      ]
+    },
+    "Other Non-Recurring": {
+      "type": "string",
+      "ranges": [
+        "B42",
+        "B55",
+        "AR68",
+        "AR75"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Historical P&L Adj",
+    "format_ranges": [
+      {
+        "range": "B2",
+        "type": "string",
+        "value": "ASC606 - Only Quarterly in the Model"
+      },
+      {
+        "range": "B5",
+        "type": "string",
+        "value": "ASC 606 Adjustment - Quarterly"
+      },
+      {
+        "range": "C5:V5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C9:BJ9",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "B10",
+        "type": "string",
+        "value": "ASC 606 Adjustment - Monthly"
+      },
+      {
+        "range": "C10:BJ10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B13",
+        "type": "string",
+        "value": "Cash Burn - Only Quarterly in the model for FY23"
+      },
+      {
+        "range": "C16:F16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C17:F17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C18:F18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C19:F19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C20:F21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C25:N25",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "C26:N26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C27:N27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C28:N28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C29:N29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C30:N30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C38:AX38",
+        "type": "date",
+        "date_series_id": "ds_3"
+      },
+      {
+        "range": "C39:AX39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C40:AX40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C41:AX41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C42:AX42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C43:AX43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C44:AX45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B47",
+        "type": "string",
+        "value": "Hedge"
+      },
+      {
+        "range": "C47:AX47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C51:AX51",
+        "type": "date",
+        "date_series_id": "ds_3"
+      },
+      {
+        "range": "C52:AX52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C53:AX53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C54:AX54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C55:AX55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C56:AX56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C57:AX57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C59:AX59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AR63",
+        "type": "string",
+        "value": "Fix"
+      },
+      {
+        "range": "AS65",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "AT65",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "AS66:AT66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AS67:AT67",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AS68:AT68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AS69:AT69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AS72",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "AT72",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "AS73:AT73",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AS74:AT74",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AS76:AT76",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV76",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AS77:AT77",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 69.64,
+      "cells_analyzed": 1220,
+      "total_ranges": 176,
+      "format_counts": {
+        "string": 136,
+        "number": 36,
+        "date": 4
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T19:48:27.321452Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2018-02-01",
+        "pattern": "Monthly series from 2018-02 to 2023-01"
+      },
+      "ds_2": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2022-02-01",
+        "pattern": "Monthly series from 2022-02 to 2023-01"
+      },
+      "ds_3": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2018-02-01",
+        "pattern": "Monthly series from 2018-02 to 2022-01"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 26,
+    "entries_moved_to_index": 126,
+    "entries_remaining": 50,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 9687,
+    "compressed_size_bytes": 4872,
+    "inverted_index_size_bytes": 1577,
+    "compressed_data_size_bytes": 3295,
+    "compression_ratio": 0.503,
+    "space_saved_bytes": 4815,
+    "space_saved_percent": 49.7
+  }
+}

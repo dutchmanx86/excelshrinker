@@ -1,0 +1,351 @@
+{
+  "inverted_index": {
+    "Cash": {
+      "type": "string",
+      "ranges": [
+        "B40",
+        "B60"
+      ]
+    },
+    "Debt": {
+      "type": "string",
+      "ranges": [
+        "B41",
+        "B61"
+      ]
+    },
+    "ARR": {
+      "type": "string",
+      "ranges": [
+        "B43",
+        "B57"
+      ]
+    },
+    "Bookings": {
+      "type": "string",
+      "ranges": [
+        "B44",
+        "B64"
+      ]
+    },
+    "FCF": {
+      "type": "string",
+      "ranges": [
+        "B50",
+        "B58"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Summary",
+    "format_ranges": [
+      {
+        "range": "A1",
+        "type": "string",
+        "value": "CHANGES"
+      },
+      {
+        "range": "A2",
+        "type": "string",
+        "value": "Changed Other Costs which includes Bad Debt and Web Service; both now have individual drivers"
+      },
+      {
+        "range": "A3",
+        "type": "string",
+        "value": "Took Web Service COGS to actuals in April (accounting for adjustment)"
+      },
+      {
+        "range": "A4",
+        "type": "string",
+        "value": "Corrected allocation between broker research and AMR in actual financial statements"
+      },
+      {
+        "range": "A5",
+        "type": "string",
+        "value": "Cleared out Acquire News - double counted in data feeds and COGS"
+      },
+      {
+        "range": "C39:BV39",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "C40",
+        "type": "number"
+      },
+      {
+        "range": "D40:BV40",
+        "type": "number"
+      },
+      {
+        "range": "C41",
+        "type": "number"
+      },
+      {
+        "range": "D41:BV41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C42:BJ42",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "C43",
+        "type": "number"
+      },
+      {
+        "range": "D43:BJ43",
+        "type": "number"
+      },
+      {
+        "range": "C44",
+        "type": "number"
+      },
+      {
+        "range": "D44:BJ44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B45",
+        "type": "string",
+        "value": "ARR TTM Growth"
+      },
+      {
+        "range": "C45",
+        "type": "number"
+      },
+      {
+        "range": "D45:BJ45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C46:BJ46",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "B47",
+        "type": "string",
+        "value": "Margin"
+      },
+      {
+        "range": "C47",
+        "type": "number"
+      },
+      {
+        "range": "D47:BJ47",
+        "type": "number"
+      },
+      {
+        "range": "C48:BJ48",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "B49",
+        "type": "string",
+        "value": "EBITDA"
+      },
+      {
+        "range": "C49",
+        "type": "number"
+      },
+      {
+        "range": "D49:BJ49",
+        "type": "number"
+      },
+      {
+        "range": "C50",
+        "type": "number"
+      },
+      {
+        "range": "D50:BJ50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B51",
+        "type": "string",
+        "value": "Reps"
+      },
+      {
+        "range": "C51",
+        "type": "number"
+      },
+      {
+        "range": "D51:BJ51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B52",
+        "type": "string",
+        "value": "Eff Reps"
+      },
+      {
+        "range": "C52",
+        "type": "number"
+      },
+      {
+        "range": "D52:BJ52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C56:G56",
+        "type": "number"
+      },
+      {
+        "range": "C56:G56",
+        "type": "date",
+        "date_series_id": "ds_3"
+      },
+      {
+        "range": "C57:G57",
+        "type": "number"
+      },
+      {
+        "range": "C58",
+        "type": "number"
+      },
+      {
+        "range": "D58:G58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B59",
+        "type": "string",
+        "value": "Avg FCF"
+      },
+      {
+        "range": "C59",
+        "type": "number"
+      },
+      {
+        "range": "D59:G59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C60",
+        "type": "number"
+      },
+      {
+        "range": "D60:G60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C61",
+        "type": "number"
+      },
+      {
+        "range": "D61:G61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B62",
+        "type": "string",
+        "value": "Growth Rate"
+      },
+      {
+        "range": "C62",
+        "type": "number"
+      },
+      {
+        "range": "D62:G62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B63",
+        "type": "string",
+        "value": "Avg Eff Reps"
+      },
+      {
+        "range": "C63",
+        "type": "number"
+      },
+      {
+        "range": "D63:G63",
+        "type": "number"
+      },
+      {
+        "range": "C64",
+        "type": "number"
+      },
+      {
+        "range": "D64:G64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B65",
+        "type": "string",
+        "value": "Avg Bkgs"
+      },
+      {
+        "range": "C65",
+        "type": "number"
+      },
+      {
+        "range": "D65:G65",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 2465.07,
+      "cells_analyzed": 950,
+      "total_ranges": 67,
+      "format_counts": {
+        "string": 24,
+        "date": 5,
+        "number": 38
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-14T01:52:52.524606Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2018-01-31",
+        "pattern": "Monthly series from 2018-01 to 2023-12"
+      },
+      "ds_2": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2018-01-31",
+        "pattern": "Monthly series from 2018-01 to 2022-12"
+      },
+      "ds_3": {
+        "series_type": "annual",
+        "increment": "1 year",
+        "start_date": "2018-01-01",
+        "pattern": "Annual series from 2018 to 2022"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 5,
+    "entries_moved_to_index": 10,
+    "entries_remaining": 57,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 3895,
+    "compressed_size_bytes": 3664,
+    "inverted_index_size_bytes": 243,
+    "compressed_data_size_bytes": 3421,
+    "compression_ratio": 0.941,
+    "space_saved_bytes": 231,
+    "space_saved_percent": 5.9
+  }
+}

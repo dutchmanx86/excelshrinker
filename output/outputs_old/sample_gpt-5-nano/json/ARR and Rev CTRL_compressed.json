@@ -1,0 +1,2069 @@
+{
+  "inverted_index": {
+    "Base - $25mm": {
+      "type": "string",
+      "ranges": [
+        "B14",
+        "B21",
+        "B28",
+        "B37",
+        "B44",
+        "B50",
+        "B56",
+        "B63",
+        "B69",
+        "B75",
+        "B82",
+        "B88",
+        "B94",
+        "B101",
+        "B107",
+        "B114",
+        "B122",
+        "B128",
+        "B134",
+        "B140",
+        "B146",
+        "B152",
+        "B160",
+        "B166",
+        "B172",
+        "B178",
+        "B184",
+        "B192",
+        "B198",
+        "B204",
+        "B210",
+        "B216",
+        "B224",
+        "B230",
+        "B236",
+        "B242",
+        "B252",
+        "B259",
+        "B266",
+        "B276",
+        "B283",
+        "B290",
+        "B300",
+        "B307",
+        "B314"
+      ]
+    },
+    "Growth - $25mm": {
+      "type": "string",
+      "ranges": [
+        "B15",
+        "B22",
+        "B29",
+        "B38",
+        "B45",
+        "B51",
+        "B57",
+        "B64",
+        "B70",
+        "B76",
+        "B83",
+        "B89",
+        "B95",
+        "B102",
+        "B108",
+        "B115",
+        "B123",
+        "B129",
+        "B135",
+        "B141",
+        "B147",
+        "B153",
+        "B161",
+        "B167",
+        "B173",
+        "B179",
+        "B185",
+        "B193",
+        "B199",
+        "B205",
+        "B211",
+        "B217",
+        "B225",
+        "B231",
+        "B237",
+        "B243",
+        "B253",
+        "B260",
+        "B267",
+        "B277",
+        "B284",
+        "B291",
+        "B301",
+        "B308",
+        "B315"
+      ]
+    },
+    "Base - $50mm": {
+      "type": "string",
+      "ranges": [
+        "B16",
+        "B23",
+        "B30",
+        "B39",
+        "B46",
+        "B52",
+        "B58",
+        "B65",
+        "B71",
+        "B77",
+        "B84",
+        "B90",
+        "B96",
+        "B103",
+        "B109",
+        "B116",
+        "B124",
+        "B130",
+        "B136",
+        "B142",
+        "B148",
+        "B154",
+        "B162",
+        "B168",
+        "B174",
+        "B180",
+        "B186",
+        "B194",
+        "B200",
+        "B206",
+        "B212",
+        "B218",
+        "B226",
+        "B232",
+        "B238",
+        "B244",
+        "B254",
+        "B261",
+        "B268",
+        "B278",
+        "B285",
+        "B292",
+        "B302",
+        "B309",
+        "B316"
+      ]
+    },
+    "Base - $50mm (R&D)": {
+      "type": "string",
+      "ranges": [
+        "B17",
+        "B24",
+        "B31",
+        "B40",
+        "B47",
+        "B53",
+        "B59",
+        "B66",
+        "B72",
+        "B78",
+        "B85",
+        "B91",
+        "B97",
+        "B104",
+        "B110",
+        "B117",
+        "B125",
+        "B131",
+        "B137",
+        "B143",
+        "B149",
+        "B155",
+        "B163",
+        "B169",
+        "B175",
+        "B181",
+        "B187",
+        "B195",
+        "B201",
+        "B207",
+        "B213",
+        "B219",
+        "B227",
+        "B233",
+        "B239",
+        "B245",
+        "B255",
+        "B262",
+        "B269",
+        "B279",
+        "B286",
+        "B293",
+        "B303",
+        "B310",
+        "B317"
+      ]
+    },
+    "Annual Quota Accelerator": {
+      "type": "string",
+      "ranges": [
+        "B42",
+        "B61",
+        "B80",
+        "B99",
+        "B112"
+      ]
+    },
+    "Account Manager": {
+      "type": "string",
+      "ranges": [
+        "B127",
+        "B159",
+        "B191"
+      ]
+    },
+    "AE - Financial": {
+      "type": "string",
+      "ranges": [
+        "B133",
+        "B165",
+        "B197"
+      ]
+    },
+    "AE - Corporate": {
+      "type": "string",
+      "ranges": [
+        "B139",
+        "B171",
+        "B203"
+      ]
+    },
+    "AE - Enterprise": {
+      "type": "string",
+      "ranges": [
+        "B151",
+        "B183",
+        "B215"
+      ]
+    },
+    "VP Bus Dev": {
+      "type": "string",
+      "ranges": [
+        "B177",
+        "B209"
+      ]
+    },
+    "% YoY Growth": {
+      "type": "string",
+      "ranges": [
+        "B250",
+        "B257",
+        "B264",
+        "B274",
+        "B281",
+        "B298",
+        "B305",
+        "B312"
+      ]
+    },
+    "ARR / User - Active": {
+      "type": "string",
+      "ranges": [
+        "B251",
+        "B275",
+        "B299"
+      ]
+    },
+    "ARR / User - Base": {
+      "type": "string",
+      "ranges": [
+        "B258",
+        "B282",
+        "B306"
+      ]
+    },
+    "ARR / User - Target": {
+      "type": "string",
+      "ranges": [
+        "B289",
+        "B313"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "ARR and Rev CTRL",
+    "format_ranges": [
+      {
+        "range": "B1",
+        "type": "string",
+        "value": "AlphaSense, Inc."
+      },
+      {
+        "range": "J1",
+        "type": "number"
+      },
+      {
+        "range": "B2",
+        "type": "string",
+        "value": "ARR and Revenue CTRL"
+      },
+      {
+        "range": "H2",
+        "type": "string",
+        "value": "Productivity"
+      },
+      {
+        "range": "I2:Q2",
+        "type": "number"
+      },
+      {
+        "range": "B3",
+        "type": "string",
+        "value": "1 - Base - $25mm"
+      },
+      {
+        "range": "B6",
+        "type": "string",
+        "value": "Year"
+      },
+      {
+        "range": "E6:P6",
+        "type": "number"
+      },
+      {
+        "range": "T6:FS6",
+        "type": "number"
+      },
+      {
+        "range": "E6:Q6",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "T6:FS6",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "B7",
+        "type": "string",
+        "value": "Month"
+      },
+      {
+        "range": "T7:FS7",
+        "type": "number"
+      },
+      {
+        "range": "E8:Q8",
+        "type": "number"
+      },
+      {
+        "range": "T8:FS8",
+        "type": "date",
+        "date_series_id": "ds_3"
+      },
+      {
+        "range": "A11",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B11",
+        "type": "string",
+        "value": "Revenue"
+      },
+      {
+        "range": "A13",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B13",
+        "type": "string",
+        "value": "Rev % of MRR - Financial"
+      },
+      {
+        "range": "H13:Q13",
+        "type": "number"
+      },
+      {
+        "range": "T13:FS13",
+        "type": "number"
+      },
+      {
+        "range": "I14:Q14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I15:Q15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I16:Q16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I17:Q17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A20",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B20",
+        "type": "string",
+        "value": "Rev % of MRR - Corporate"
+      },
+      {
+        "range": "H20:Q20",
+        "type": "number"
+      },
+      {
+        "range": "T20:FS20",
+        "type": "number"
+      },
+      {
+        "range": "I21:Q21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I22:Q22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I23:Q23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I24:Q24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A27",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B27",
+        "type": "string",
+        "value": "Rev % of MRR - Other"
+      },
+      {
+        "range": "H27:Q27",
+        "type": "number"
+      },
+      {
+        "range": "T27:FS27",
+        "type": "number"
+      },
+      {
+        "range": "I28:Q28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I29:Q29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I30:Q30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I31:Q31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A34",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B34",
+        "type": "string",
+        "value": "Quota"
+      },
+      {
+        "range": "A36",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B36",
+        "type": "string",
+        "value": "Account Manager - Active"
+      },
+      {
+        "range": "I36:N36",
+        "type": "number"
+      },
+      {
+        "range": "O36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "P36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX36:FS36",
+        "type": "number"
+      },
+      {
+        "range": "I37:Q37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J42:Q42",
+        "type": "number"
+      },
+      {
+        "range": "A43",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B43",
+        "type": "string",
+        "value": "Account Manager - Base"
+      },
+      {
+        "range": "I43",
+        "type": "number"
+      },
+      {
+        "range": "J43:Q43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX43:FS43",
+        "type": "number"
+      },
+      {
+        "range": "I44:Q44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A49",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B49",
+        "type": "string",
+        "value": "Account Manager - Upside"
+      },
+      {
+        "range": "I49:Q49",
+        "type": "number"
+      },
+      {
+        "range": "BX49:FS49",
+        "type": "number"
+      },
+      {
+        "range": "I50:Q50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A55",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B55",
+        "type": "string",
+        "value": "Quota - AE - Financial"
+      },
+      {
+        "range": "I55:Q55",
+        "type": "number"
+      },
+      {
+        "range": "BX55:FS55",
+        "type": "number"
+      },
+      {
+        "range": "I56:Q56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J61:Q61",
+        "type": "number"
+      },
+      {
+        "range": "A62",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B62",
+        "type": "string",
+        "value": "Quota - AE - Financial Base"
+      },
+      {
+        "range": "I62",
+        "type": "number"
+      },
+      {
+        "range": "J62:Q62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX62:FS62",
+        "type": "number"
+      },
+      {
+        "range": "I63:Q63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A68",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B68",
+        "type": "string",
+        "value": "Quota - AE - Financial Upside"
+      },
+      {
+        "range": "I68:Q68",
+        "type": "number"
+      },
+      {
+        "range": "BX68:FS68",
+        "type": "number"
+      },
+      {
+        "range": "I69:Q69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A74",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B74",
+        "type": "string",
+        "value": "Quota - AE - Corporate"
+      },
+      {
+        "range": "I74:Q74",
+        "type": "number"
+      },
+      {
+        "range": "BX74:FS74",
+        "type": "number"
+      },
+      {
+        "range": "I75:Q75",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J80:Q80",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A81",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B81",
+        "type": "string",
+        "value": "Quota - AE - Corporate Base"
+      },
+      {
+        "range": "I81",
+        "type": "number"
+      },
+      {
+        "range": "J81:Q81",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX81:FS81",
+        "type": "number"
+      },
+      {
+        "range": "I82:Q82",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A87",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B87",
+        "type": "string",
+        "value": "Quota - AE - Corporate Upside"
+      },
+      {
+        "range": "I87:Q87",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX87:FS87",
+        "type": "number"
+      },
+      {
+        "range": "I88:Q88",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A93",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B93",
+        "type": "string",
+        "value": "Quota - VP - Bus Dev"
+      },
+      {
+        "range": "I93:Q93",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX93:FS93",
+        "type": "number"
+      },
+      {
+        "range": "I94:Q94",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J99:Q99",
+        "type": "number"
+      },
+      {
+        "range": "A100",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B100",
+        "type": "string",
+        "value": "Quota - VP - Bus Dev Base"
+      },
+      {
+        "range": "I100",
+        "type": "number"
+      },
+      {
+        "range": "J100:Q100",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX100:FS100",
+        "type": "number"
+      },
+      {
+        "range": "I101:Q101",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A106",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B106",
+        "type": "string",
+        "value": "Quota - VP - Bus Dev Upside"
+      },
+      {
+        "range": "I106:Q106",
+        "type": "number"
+      },
+      {
+        "range": "BX106:FS106",
+        "type": "number"
+      },
+      {
+        "range": "I107:Q107",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J112:Q112",
+        "type": "number"
+      },
+      {
+        "range": "A113",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B113",
+        "type": "string",
+        "value": "Quota - AE - Enterprise"
+      },
+      {
+        "range": "I113",
+        "type": "number"
+      },
+      {
+        "range": "J113:Q113",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX113:FS113",
+        "type": "number"
+      },
+      {
+        "range": "I114:Q114",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A119",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B119",
+        "type": "string",
+        "value": "Productivity - % of Quota"
+      },
+      {
+        "range": "B120",
+        "type": "string",
+        "value": "Adjustment"
+      },
+      {
+        "range": "CB120:FS120",
+        "type": "number"
+      },
+      {
+        "range": "A121",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B121",
+        "type": "string",
+        "value": "Seasonality"
+      },
+      {
+        "range": "I121:Q121",
+        "type": "number"
+      },
+      {
+        "range": "BX121:CA121",
+        "type": "number"
+      },
+      {
+        "range": "CB121:FS121",
+        "type": "number"
+      },
+      {
+        "range": "I122:Q122",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX122:CA122",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I123:Q123",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CB123",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I124:Q124",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I125:Q125",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A127",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "I127:Q127",
+        "type": "number"
+      },
+      {
+        "range": "BX127:FS127",
+        "type": "number"
+      },
+      {
+        "range": "I128:Q128",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX128:FS128",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I129:Q129",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I130:Q130",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I131:Q131",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CN132:EI132",
+        "type": "number"
+      },
+      {
+        "range": "A133",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "I133:Q133",
+        "type": "number"
+      },
+      {
+        "range": "BX133:CM133",
+        "type": "number"
+      },
+      {
+        "range": "CN133:EI133",
+        "type": "number"
+      },
+      {
+        "range": "EJ133:FS133",
+        "type": "number"
+      },
+      {
+        "range": "I134:Q134",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX134:FS134",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I135:Q135",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I136:Q136",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I137:Q137",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A139",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "I139:Q139",
+        "type": "number"
+      },
+      {
+        "range": "BX139:FS139",
+        "type": "number"
+      },
+      {
+        "range": "I140:Q140",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX140:FS140",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I141:Q141",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I142:Q142",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I143:Q143",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A145",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B145",
+        "type": "string",
+        "value": "VP - Bus Dev"
+      },
+      {
+        "range": "I145:Q145",
+        "type": "number"
+      },
+      {
+        "range": "BX145:FS145",
+        "type": "number"
+      },
+      {
+        "range": "I146:Q146",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CB146:FS146",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I147:Q147",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I148:Q148",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I149:Q149",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A151",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "I151:Q151",
+        "type": "number"
+      },
+      {
+        "range": "BX151:FS151",
+        "type": "number"
+      },
+      {
+        "range": "I152:Q152",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CB152:FS152",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I153:Q153",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I154:Q154",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I155:Q155",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A157",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B157",
+        "type": "string",
+        "value": "Total ARR - % New Bookings"
+      },
+      {
+        "range": "A159",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "H159:Q159",
+        "type": "number"
+      },
+      {
+        "range": "BX159:FS159",
+        "type": "number"
+      },
+      {
+        "range": "I160:Q160",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I161:Q161",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I162:Q162",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I163:Q163",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A165",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "H165:Q165",
+        "type": "number"
+      },
+      {
+        "range": "BX165:FS165",
+        "type": "number"
+      },
+      {
+        "range": "I166:Q166",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I167:Q167",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I168:Q168",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I169:Q169",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A171",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "H171:Q171",
+        "type": "number"
+      },
+      {
+        "range": "BX171:FS171",
+        "type": "number"
+      },
+      {
+        "range": "I172:Q172",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I173:Q173",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I174:Q174",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I175:Q175",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A177",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "H177:Q177",
+        "type": "number"
+      },
+      {
+        "range": "BX177:FS177",
+        "type": "number"
+      },
+      {
+        "range": "I178:Q178",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I179:Q179",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I180:Q180",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I181:Q181",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A183",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "H183:Q183",
+        "type": "number"
+      },
+      {
+        "range": "BX183:FS183",
+        "type": "number"
+      },
+      {
+        "range": "I184:Q184",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I185:Q185",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I186:Q186",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I187:Q187",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A189",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B189",
+        "type": "string",
+        "value": "Total ARR - % Upsell"
+      },
+      {
+        "range": "A191",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "H191:Q191",
+        "type": "number"
+      },
+      {
+        "range": "BX191:FS191",
+        "type": "number"
+      },
+      {
+        "range": "I192:Q192",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I193:Q193",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I194:Q194",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I195:Q195",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A197",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "H197:Q197",
+        "type": "number"
+      },
+      {
+        "range": "BX197:FS197",
+        "type": "number"
+      },
+      {
+        "range": "I198:Q198",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I199:Q199",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I200:Q200",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I201:Q201",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A203",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "H203:Q203",
+        "type": "number"
+      },
+      {
+        "range": "BX203:FS203",
+        "type": "number"
+      },
+      {
+        "range": "I204:Q204",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I205:Q205",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I206:Q206",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I207:Q207",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A209",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "H209:Q209",
+        "type": "number"
+      },
+      {
+        "range": "BX209:FS209",
+        "type": "number"
+      },
+      {
+        "range": "I210:Q210",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I211:Q211",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I212:Q212",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I213:Q213",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A215",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "H215:Q215",
+        "type": "number"
+      },
+      {
+        "range": "BX215:FS215",
+        "type": "number"
+      },
+      {
+        "range": "I216:Q216",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I217:Q217",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I218:Q218",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I219:Q219",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A221",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B221",
+        "type": "string",
+        "value": "Productivity - Allocation"
+      },
+      {
+        "range": "A223",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B223",
+        "type": "string",
+        "value": "VP - Bus Dev - % to Financial"
+      },
+      {
+        "range": "I223:Q223",
+        "type": "number"
+      },
+      {
+        "range": "BX223:FS223",
+        "type": "number"
+      },
+      {
+        "range": "I224:Q224",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I225:Q225",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I226:Q226",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I227:Q227",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A229",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B229",
+        "type": "string",
+        "value": "VP - Bus Dev - % to Corporate"
+      },
+      {
+        "range": "I229:Q229",
+        "type": "number"
+      },
+      {
+        "range": "BX229:FS229",
+        "type": "number"
+      },
+      {
+        "range": "A235",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B235",
+        "type": "string",
+        "value": "AE - Enterprise - % to Financial"
+      },
+      {
+        "range": "I235:Q235",
+        "type": "number"
+      },
+      {
+        "range": "BX235:FS235",
+        "type": "number"
+      },
+      {
+        "range": "I236:Q236",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I237:Q237",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I238:Q238",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I239:Q239",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A241",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B241",
+        "type": "string",
+        "value": "AE - Enterprise - % to Corporate"
+      },
+      {
+        "range": "I241:Q241",
+        "type": "number"
+      },
+      {
+        "range": "BX241:FS241",
+        "type": "number"
+      },
+      {
+        "range": "A248",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B248",
+        "type": "string",
+        "value": "Financial"
+      },
+      {
+        "range": "F250:Q250",
+        "type": "number"
+      },
+      {
+        "range": "A251",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E251",
+        "type": "number"
+      },
+      {
+        "range": "F251:Q251",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T251:FS251",
+        "type": "number"
+      },
+      {
+        "range": "I252:Q252",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I253:Q253",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I254:Q254",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I255:Q255",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F257:Q257",
+        "type": "number"
+      },
+      {
+        "range": "A258",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E258",
+        "type": "number"
+      },
+      {
+        "range": "F258:Q258",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T258:FS258",
+        "type": "number"
+      },
+      {
+        "range": "I259:Q259",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I260:Q260",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I261:Q261",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I262:Q262",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F264:K264",
+        "type": "number"
+      },
+      {
+        "range": "A265",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B265",
+        "type": "string",
+        "value": "ARR / User - Upside"
+      },
+      {
+        "range": "E265",
+        "type": "number"
+      },
+      {
+        "range": "F265:Q265",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T265:FS265",
+        "type": "number"
+      },
+      {
+        "range": "I266:Q266",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I267:Q267",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I268:Q268",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I269:Q269",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A272",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B272",
+        "type": "string",
+        "value": "Corporate"
+      },
+      {
+        "range": "F274:Q274",
+        "type": "number"
+      },
+      {
+        "range": "A275",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E275",
+        "type": "number"
+      },
+      {
+        "range": "F275:Q275",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T275:FS275",
+        "type": "number"
+      },
+      {
+        "range": "I276:Q276",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I277:Q277",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I278:Q278",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I279:Q279",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F281:Q281",
+        "type": "number"
+      },
+      {
+        "range": "A282",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E282",
+        "type": "number"
+      },
+      {
+        "range": "F282:Q282",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T282:FS282",
+        "type": "number"
+      },
+      {
+        "range": "I283:Q283",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I284:Q284",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I285:Q285",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I286:Q286",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F288:K288",
+        "type": "number"
+      },
+      {
+        "range": "A289",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E289",
+        "type": "number"
+      },
+      {
+        "range": "F289:Q289",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T289:FS289",
+        "type": "number"
+      },
+      {
+        "range": "I290:Q290",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I291:Q291",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I292:Q292",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I293:Q293",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A296",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B296",
+        "type": "string",
+        "value": "Other"
+      },
+      {
+        "range": "F298:Q298",
+        "type": "number"
+      },
+      {
+        "range": "A299",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E299",
+        "type": "number"
+      },
+      {
+        "range": "F299:Q299",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T299:FS299",
+        "type": "number"
+      },
+      {
+        "range": "I300:Q300",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I301:Q301",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I302:Q302",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I303:Q303",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F305:Q305",
+        "type": "number"
+      },
+      {
+        "range": "A306",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E306",
+        "type": "number"
+      },
+      {
+        "range": "F306:Q306",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T306:FS306",
+        "type": "number"
+      },
+      {
+        "range": "I307:Q307",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I308:Q308",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I309:Q309",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I310:Q310",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F312:K312",
+        "type": "number"
+      },
+      {
+        "range": "A313",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E313",
+        "type": "number"
+      },
+      {
+        "range": "F313:Q313",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T313:FS313",
+        "type": "number"
+      },
+      {
+        "range": "I314:Q314",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I315:Q315",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I316:Q316",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I317:Q317",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 2657.49,
+      "cells_analyzed": 8406,
+      "total_ranges": 583,
+      "format_counts": {
+        "string": 308,
+        "number": 272,
+        "date": 3
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-14T01:53:33.307856Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "annual",
+        "increment": "1 year",
+        "start_date": "2015-01-01",
+        "pattern": "Annual series from 2015 to 2027"
+      },
+      "ds_2": {
+        "series_type": "repeating_annual",
+        "increment": "12 months (annual)",
+        "start_date": "2015-01-01",
+        "pattern": "Annual values repeating 12 times from 2015 to 2027"
+      },
+      "ds_3": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2015-01-31",
+        "pattern": "Monthly series from 2015-01 to 2027-12"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 14,
+    "entries_moved_to_index": 215,
+    "entries_remaining": 368,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 30521,
+    "compressed_size_bytes": 20154,
+    "inverted_index_size_bytes": 2113,
+    "compressed_data_size_bytes": 18041,
+    "compression_ratio": 0.66,
+    "space_saved_bytes": 10367,
+    "space_saved_percent": 34.0
+  }
+}

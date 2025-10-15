@@ -1,0 +1,297 @@
+{
+  "inverted_index": {
+    "Total": {
+      "type": "string",
+      "ranges": [
+        "I7",
+        "B11",
+        "F20",
+        "B23"
+      ]
+    },
+    "Matt": {
+      "type": "string",
+      "ranges": [
+        "F8",
+        "B21",
+        "B25"
+      ]
+    },
+    "Ben": {
+      "type": "string",
+      "ranges": [
+        "F9",
+        "B22",
+        "B26"
+      ]
+    },
+    "Cash": {
+      "type": "string",
+      "ranges": [
+        "B10",
+        "D20"
+      ]
+    },
+    "100% Increase": {
+      "type": "string",
+      "ranges": [
+        "B15",
+        "I20"
+      ]
+    },
+    "150% Increase": {
+      "type": "string",
+      "ranges": [
+        "B16",
+        "J20"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Founder Waterfall",
+    "format_ranges": [
+      {
+        "range": "B3",
+        "type": "string",
+        "value": "Any box color is an assumption"
+      },
+      {
+        "range": "B5",
+        "type": "string",
+        "value": "Sale Price"
+      },
+      {
+        "range": "C5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B6",
+        "type": "string",
+        "value": "Founder Consideration"
+      },
+      {
+        "range": "C6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F6",
+        "type": "string",
+        "value": "Cash Payout Summary"
+      },
+      {
+        "range": "F7",
+        "type": "string",
+        "value": "Founders"
+      },
+      {
+        "range": "G7",
+        "type": "string",
+        "value": "Day 1 Cash"
+      },
+      {
+        "range": "H7",
+        "type": "string",
+        "value": "Holdback Amount"
+      },
+      {
+        "range": "G8:I8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B9",
+        "type": "string",
+        "value": "Stock"
+      },
+      {
+        "range": "C9",
+        "type": "number"
+      },
+      {
+        "range": "D9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G9:I9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C10",
+        "type": "number"
+      },
+      {
+        "range": "D10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F10",
+        "type": "string",
+        "value": "% of holdback"
+      },
+      {
+        "range": "G10:I10",
+        "type": "number"
+      },
+      {
+        "range": "C11",
+        "type": "number"
+      },
+      {
+        "range": "D11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B13",
+        "type": "string",
+        "value": "Stock Value at Purchase"
+      },
+      {
+        "range": "C13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B14",
+        "type": "string",
+        "value": ".50% Increase"
+      },
+      {
+        "range": "C14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H19",
+        "type": "string",
+        "value": "Value of stock portion as price increases"
+      },
+      {
+        "range": "B20",
+        "type": "string",
+        "value": "Key Shareholders (founders)"
+      },
+      {
+        "range": "C20",
+        "type": "string",
+        "value": "FD Ownership"
+      },
+      {
+        "range": "E20",
+        "type": "string",
+        "value": "Stock Value ($12.13)"
+      },
+      {
+        "range": "H20",
+        "type": "string",
+        "value": "50% Increase"
+      },
+      {
+        "range": "C21",
+        "type": "number"
+      },
+      {
+        "range": "D21:F21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H21:J21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C22",
+        "type": "number"
+      },
+      {
+        "range": "D22:F22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H22:J22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C23",
+        "type": "number"
+      },
+      {
+        "range": "D23:F23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H23:J23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C25",
+        "type": "number"
+      },
+      {
+        "range": "D25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C26",
+        "type": "number"
+      },
+      {
+        "range": "D26",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 57.17,
+      "cells_analyzed": 79,
+      "total_ranges": 61,
+      "format_counts": {
+        "string": 32,
+        "number": 29
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T19:46:03.717110Z"
+    }
+  },
+  "compression_stats": {
+    "unique_values": 6,
+    "entries_moved_to_index": 16,
+    "entries_remaining": 45,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 3206,
+    "compressed_size_bytes": 2748,
+    "inverted_index_size_bytes": 328,
+    "compressed_data_size_bytes": 2420,
+    "compression_ratio": 0.857,
+    "space_saved_bytes": 458,
+    "space_saved_percent": 14.3
+  }
+}

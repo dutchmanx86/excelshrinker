@@ -1,0 +1,483 @@
+{
+  "inverted_index": {},
+  "data": {
+    "success": true,
+    "sheet_name": "PoP Usage Data",
+    "format_ranges": [
+      {
+        "range": "C2",
+        "type": "string",
+        "value": "Pool of Pools Chassis on the Street* - WEEKLY AVERAGE"
+      },
+      {
+        "range": "E3",
+        "type": "string",
+        "value": "W.E. 3/7/2015"
+      },
+      {
+        "range": "F3",
+        "type": "string",
+        "value": "W.E. 3/14/2015"
+      },
+      {
+        "range": "C4",
+        "type": "string",
+        "value": "Horizon Lines"
+      },
+      {
+        "range": "E4:F4",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C5",
+        "type": "string",
+        "value": "Hamburg Sud - SSA Piers A and J"
+      },
+      {
+        "range": "E5:F5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C6",
+        "type": "string",
+        "value": "Maersk"
+      },
+      {
+        "range": "E6:F6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C7",
+        "type": "string",
+        "value": "MSC"
+      },
+      {
+        "range": "E7:F7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C8",
+        "type": "string",
+        "value": "DCLP"
+      },
+      {
+        "range": "E8:F8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C10",
+        "type": "string",
+        "value": "APL"
+      },
+      {
+        "range": "E10:F10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C11",
+        "type": "string",
+        "value": "Evergreen - YTI"
+      },
+      {
+        "range": "E11:F11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C12",
+        "type": "string",
+        "value": "Hanjin - YTI"
+      },
+      {
+        "range": "E12:F12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C13",
+        "type": "string",
+        "value": "Hapag-Lloyd"
+      },
+      {
+        "range": "E13:F13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C14",
+        "type": "string",
+        "value": "Hyundai"
+      },
+      {
+        "range": "E14:F14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C15",
+        "type": "string",
+        "value": "MOL"
+      },
+      {
+        "range": "E15:F15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C16",
+        "type": "string",
+        "value": "NYK"
+      },
+      {
+        "range": "E16:F16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C17",
+        "type": "string",
+        "value": "OOCL"
+      },
+      {
+        "range": "E17:F17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C18",
+        "type": "string",
+        "value": "GACP"
+      },
+      {
+        "range": "E18:F18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C20",
+        "type": "string",
+        "value": "China Shipping"
+      },
+      {
+        "range": "E20:F20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C21",
+        "type": "string",
+        "value": "CMA-CGM"
+      },
+      {
+        "range": "E21:F21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C22",
+        "type": "string",
+        "value": "COSCO"
+      },
+      {
+        "range": "E22:F22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C23",
+        "type": "string",
+        "value": "Evergreen - All Other"
+      },
+      {
+        "range": "E23:F23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C24",
+        "type": "string",
+        "value": "Hamburg Sud - All Other"
+      },
+      {
+        "range": "E24:F24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C25",
+        "type": "string",
+        "value": "Hanjin - All Other"
+      },
+      {
+        "range": "E25:F25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C26",
+        "type": "string",
+        "value": "K Line"
+      },
+      {
+        "range": "E26:F26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C27",
+        "type": "string",
+        "value": "Pacific International"
+      },
+      {
+        "range": "E27:F27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C28",
+        "type": "string",
+        "value": "Polynesia Line"
+      },
+      {
+        "range": "E28:F28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C29",
+        "type": "string",
+        "value": "United Arab Shipping"
+      },
+      {
+        "range": "E29:F29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C30",
+        "type": "string",
+        "value": "Wan Hai Lines"
+      },
+      {
+        "range": "E30:F30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C31",
+        "type": "string",
+        "value": "Yang Ming Line"
+      },
+      {
+        "range": "E31:F31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C32",
+        "type": "string",
+        "value": "Zim Israel Navigation Co."
+      },
+      {
+        "range": "E32:F32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C33",
+        "type": "string",
+        "value": "LABP"
+      },
+      {
+        "range": "E33:F33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C35",
+        "type": "string",
+        "value": "DCSZ (bare outs, no SS SCAC)**"
+      },
+      {
+        "range": "E35:F35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C37",
+        "type": "string",
+        "value": "Unassigned (no SS SCAC or unauthorized)"
+      },
+      {
+        "range": "E37:F37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C39",
+        "type": "string",
+        "value": "Total Chassis on the Street"
+      },
+      {
+        "range": "E39:F39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C41",
+        "type": "string",
+        "value": "Pool of Pools Fleet"
+      },
+      {
+        "range": "E41:F41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C42",
+        "type": "string",
+        "value": "Total Street Utilization (incl. DCSZ and unassigned)"
+      },
+      {
+        "range": "E42:F42",
+        "type": "number"
+      },
+      {
+        "range": "C44",
+        "type": "string",
+        "value": "DCLP Fleet"
+      },
+      {
+        "range": "E44:F44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C45",
+        "type": "string",
+        "value": "GACP Fleet"
+      },
+      {
+        "range": "E45:F45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C46",
+        "type": "string",
+        "value": "DCLI-GACP Fleet"
+      },
+      {
+        "range": "E46:F46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C47",
+        "type": "string",
+        "value": "TRAC-GACP Fleet"
+      },
+      {
+        "range": "E47:F47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C48",
+        "type": "string",
+        "value": "LABP Fleet"
+      },
+      {
+        "range": "E48:F48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C50",
+        "type": "string",
+        "value": "DCLP Street Utilization"
+      },
+      {
+        "range": "E50:F50",
+        "type": "number"
+      },
+      {
+        "range": "C51",
+        "type": "string",
+        "value": "GACP Street Utilization"
+      },
+      {
+        "range": "E51:F51",
+        "type": "number"
+      },
+      {
+        "range": "C52",
+        "type": "string",
+        "value": "DCLI-GACP Street Utilization"
+      },
+      {
+        "range": "E52:F52",
+        "type": "number"
+      },
+      {
+        "range": "C53",
+        "type": "string",
+        "value": "TRAC-GACP Street Utilization"
+      },
+      {
+        "range": "E53:F53",
+        "type": "number"
+      },
+      {
+        "range": "C54",
+        "type": "string",
+        "value": "LABP Street Utilization"
+      },
+      {
+        "range": "E54:F54",
+        "type": "number"
+      },
+      {
+        "range": "C56",
+        "type": "string",
+        "value": "* Reflects chassis with gated-out status by day by steamship line scac"
+      },
+      {
+        "range": "C57",
+        "type": "string",
+        "value": "** Generally, DCSZ is used as the steamship scac when the chassis gates out bare with no container"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 121.59,
+      "cells_analyzed": 134,
+      "total_ranges": 91,
+      "format_counts": {
+        "string": 48,
+        "number": 43
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T18:33:53.819458Z"
+    }
+  },
+  "compression_stats": {
+    "unique_values": 0,
+    "entries_moved_to_index": 0,
+    "entries_remaining": 91,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 5244,
+    "compressed_size_bytes": 5246,
+    "inverted_index_size_bytes": 2,
+    "compressed_data_size_bytes": 5244,
+    "compression_ratio": 1.0,
+    "space_saved_bytes": -2,
+    "space_saved_percent": -0.0
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "inverted_index": {
+    "Corporate": {
+      "type": "string",
+      "ranges": [
+        "A2",
+        "A12"
+      ]
+    },
+    "Financial": {
+      "type": "string",
+      "ranges": [
+        "A3",
+        "A5",
+        "A11",
+        "A13"
+      ]
+    },
+    "Other": {
+      "type": "string",
+      "ranges": [
+        "A4",
+        "A14"
+      ]
+    },
+    "Broker Partner": {
+      "type": "string",
+      "ranges": [
+        "A6",
+        "A15"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "TR Transcripts",
+    "format_ranges": [
+      {
+        "range": "B1:G1",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "B2:G2",
+        "type": "number"
+      },
+      {
+        "range": "B3:G3",
+        "type": "number"
+      },
+      {
+        "range": "B4:G4",
+        "type": "number"
+      },
+      {
+        "range": "B5:G5",
+        "type": "number"
+      },
+      {
+        "range": "B6:G7",
+        "type": "number"
+      },
+      {
+        "range": "B10:S10",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "B11",
+        "type": "number"
+      },
+      {
+        "range": "C11:S11",
+        "type": "number"
+      },
+      {
+        "range": "B12:S12",
+        "type": "number"
+      },
+      {
+        "range": "B13:S13",
+        "type": "number"
+      },
+      {
+        "range": "B14:S14",
+        "type": "number"
+      },
+      {
+        "range": "B15:S16",
+        "type": "number"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 2404.6,
+      "cells_analyzed": 178,
+      "total_ranges": 23,
+      "format_counts": {
+        "date": 2,
+        "string": 10,
+        "number": 11
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-14T01:55:20.345171Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "quarterly",
+        "increment": "1 quarter",
+        "start_date": "2017-Q1",
+        "pattern": "Quarterly series from Q1 2017 to Q2 2018"
+      },
+      "ds_2": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2017-01-01",
+        "pattern": "Monthly series from 2017-01 to 2018-06"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 4,
+    "entries_moved_to_index": 10,
+    "entries_remaining": 13,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 1562,
+    "compressed_size_bytes": 1266,
+    "inverted_index_size_bytes": 221,
+    "compressed_data_size_bytes": 1045,
+    "compression_ratio": 0.81,
+    "space_saved_bytes": 296,
+    "space_saved_percent": 19.0
+  }
+}

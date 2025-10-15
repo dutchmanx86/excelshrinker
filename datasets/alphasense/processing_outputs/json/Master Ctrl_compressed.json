@@ -1,0 +1,202 @@
+{
+  "inverted_index": {
+    "1 - Base - $25mm": {
+      "type": "string",
+      "ranges": [
+        "B4",
+        "E14"
+      ]
+    },
+    "1 - Base": {
+      "type": "string",
+      "ranges": [
+        "E27",
+        "E31"
+      ]
+    },
+    "Base": {
+      "type": "string",
+      "ranges": [
+        "B28",
+        "B32"
+      ]
+    },
+    "Target": {
+      "type": "string",
+      "ranges": [
+        "B29",
+        "B33"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Master Ctrl",
+    "format_ranges": [
+      {
+        "range": "B2",
+        "type": "string",
+        "value": "AlphaSense, Inc."
+      },
+      {
+        "range": "B3",
+        "type": "string",
+        "value": "Master CTRL"
+      },
+      {
+        "range": "B7",
+        "type": "string",
+        "value": "Year"
+      },
+      {
+        "range": "B8",
+        "type": "string",
+        "value": "Month"
+      },
+      {
+        "range": "A12",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B12",
+        "type": "string",
+        "value": "Control"
+      },
+      {
+        "range": "A14",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B14",
+        "type": "string",
+        "value": "Master Case"
+      },
+      {
+        "range": "C14",
+        "type": "number"
+      },
+      {
+        "range": "B15",
+        "type": "string",
+        "value": "Base - $25mm"
+      },
+      {
+        "range": "C15",
+        "type": "number"
+      },
+      {
+        "range": "B16",
+        "type": "string",
+        "value": "Growth - $25mm"
+      },
+      {
+        "range": "C16",
+        "type": "number"
+      },
+      {
+        "range": "B17",
+        "type": "string",
+        "value": "Base - $50mm"
+      },
+      {
+        "range": "C17",
+        "type": "number"
+      },
+      {
+        "range": "B18",
+        "type": "string",
+        "value": "Base - $50mm (R&D)"
+      },
+      {
+        "range": "C18",
+        "type": "number"
+      },
+      {
+        "range": "A20",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B20",
+        "type": "string",
+        "value": "Global Assumptions"
+      },
+      {
+        "range": "B22",
+        "type": "string",
+        "value": "Latest Actual Month"
+      },
+      {
+        "range": "B25",
+        "type": "string",
+        "value": "Months Left in Year"
+      },
+      {
+        "range": "E25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B27",
+        "type": "string",
+        "value": "Productivity Case"
+      },
+      {
+        "range": "C27",
+        "type": "number"
+      },
+      {
+        "range": "C28",
+        "type": "number"
+      },
+      {
+        "range": "C29",
+        "type": "number"
+      },
+      {
+        "range": "B31",
+        "type": "string",
+        "value": "Margin Case"
+      },
+      {
+        "range": "C31",
+        "type": "number"
+      },
+      {
+        "range": "C32",
+        "type": "number"
+      },
+      {
+        "range": "C33",
+        "type": "number"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 7145.02,
+      "cells_analyzed": 39,
+      "total_ranges": 38,
+      "format_counts": {
+        "string": 26,
+        "number": 12
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T10:59:31.958305Z"
+    }
+  },
+  "compression_stats": {
+    "unique_values": 4,
+    "entries_moved_to_index": 8,
+    "entries_remaining": 30,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 2017,
+    "compressed_size_bytes": 1816,
+    "inverted_index_size_bytes": 210,
+    "compressed_data_size_bytes": 1606,
+    "compression_ratio": 0.9,
+    "space_saved_bytes": 201,
+    "space_saved_percent": 10.0
+  }
+}

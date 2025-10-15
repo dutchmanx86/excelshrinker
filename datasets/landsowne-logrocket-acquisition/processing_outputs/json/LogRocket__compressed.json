@@ -1,0 +1,43 @@
+{
+  "inverted_index": {},
+  "data": {
+    "success": true,
+    "sheet_name": "LogRocket>",
+    "format_ranges": [
+      {
+        "range": "B13",
+        "type": "string",
+        "value": "Project Lansdowne - Financial Model (Q3 Rollforward)"
+      },
+      {
+        "range": "B14",
+        "type": "string",
+        "value": "CY2018A - CY2023E"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 220.26,
+      "cells_analyzed": 2,
+      "total_ranges": 2,
+      "format_counts": {
+        "string": 2
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T19:45:58.274261Z"
+    }
+  },
+  "compression_stats": {
+    "unique_values": 0,
+    "entries_moved_to_index": 0,
+    "entries_remaining": 2,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 380,
+    "compressed_size_bytes": 382,
+    "inverted_index_size_bytes": 2,
+    "compressed_data_size_bytes": 380,
+    "compression_ratio": 1.005,
+    "space_saved_bytes": -2,
+    "space_saved_percent": -0.5
+  }
+}

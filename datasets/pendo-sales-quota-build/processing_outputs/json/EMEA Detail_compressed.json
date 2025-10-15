@@ -1,0 +1,595 @@
+{
+  "inverted_index": {
+    "Q2-Q4": {
+      "type": "string",
+      "ranges": [
+        "F6",
+        "L6",
+        "R6",
+        "X6",
+        "F19",
+        "L19",
+        "R19",
+        "L28",
+        "R28"
+      ]
+    },
+    "Company Budget": {
+      "type": "string",
+      "ranges": [
+        "B7",
+        "H7",
+        "N7"
+      ]
+    },
+    "CRO": {
+      "type": "string",
+      "ranges": [
+        "N8",
+        "B9",
+        "H9",
+        "T10"
+      ]
+    },
+    "Coverage": {
+      "type": "string",
+      "ranges": [
+        "B10",
+        "H10",
+        "B13",
+        "H13",
+        "B16",
+        "H16"
+      ]
+    },
+    "Managers": {
+      "type": "string",
+      "ranges": [
+        "N10",
+        "T12",
+        "B15",
+        "H15",
+        "B18",
+        "H18",
+        "N18"
+      ]
+    },
+    "SMB": {
+      "type": "string",
+      "ranges": [
+        "B20",
+        "H20",
+        "N20",
+        "H29",
+        "N29"
+      ]
+    },
+    "Foundation": {
+      "type": "string",
+      "ranges": [
+        "B21",
+        "H21",
+        "N21",
+        "H30",
+        "N30"
+      ]
+    },
+    "Growth": {
+      "type": "string",
+      "ranges": [
+        "B22",
+        "H22",
+        "N22",
+        "H31",
+        "N31"
+      ]
+    },
+    "Enterprise": {
+      "type": "string",
+      "ranges": [
+        "B23",
+        "H23",
+        "N23",
+        "H32",
+        "N32"
+      ]
+    },
+    "SubServ": {
+      "type": "string",
+      "ranges": [
+        "B24",
+        "H24",
+        "N24",
+        "H33",
+        "N33"
+      ]
+    },
+    "Total Manager Target": {
+      "type": "string",
+      "ranges": [
+        "B25",
+        "H25",
+        "N25",
+        "H34",
+        "N34"
+      ]
+    },
+    "Managers - Gross (No Attrition)": {
+      "type": "string",
+      "ranges": [
+        "H27",
+        "N27"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "EMEA Detail",
+    "format_ranges": [
+      {
+        "range": "B2",
+        "type": "string",
+        "value": "EMEA"
+      },
+      {
+        "range": "B4",
+        "type": "string",
+        "value": "Bookings Targets"
+      },
+      {
+        "range": "H4",
+        "type": "string",
+        "value": "QoS (Net)"
+      },
+      {
+        "range": "N4",
+        "type": "string",
+        "value": "Attainment"
+      },
+      {
+        "range": "T4",
+        "type": "string",
+        "value": "Attainment (% Manager QoS)"
+      },
+      {
+        "range": "C6",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "D6",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "E6",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "I6",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "J6",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "K6",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "O6",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "P6",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "Q6",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "U6",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "V6",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "W6",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "Z6",
+        "type": "string",
+        "value": "Notes"
+      },
+      {
+        "range": "C7:F7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I7:L7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O7:R7",
+        "type": "number"
+      },
+      {
+        "range": "T7",
+        "type": "string",
+        "value": "Manager QoS"
+      },
+      {
+        "range": "U7:X7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Z7",
+        "type": "string",
+        "value": "2% walk-up in Q2 (tight bookings to quota), 95%, 95% manager attainment in Q3-Q4"
+      },
+      {
+        "range": "O8:R8",
+        "type": "number"
+      },
+      {
+        "range": "C9:F9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I9:L9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N9",
+        "type": "string",
+        "value": "VP"
+      },
+      {
+        "range": "O9:R9",
+        "type": "number"
+      },
+      {
+        "range": "T9",
+        "type": "string",
+        "value": "Company"
+      },
+      {
+        "range": "U9:X9",
+        "type": "number"
+      },
+      {
+        "range": "C10:F10",
+        "type": "number"
+      },
+      {
+        "range": "I10:L10",
+        "type": "number"
+      },
+      {
+        "range": "O10:R10",
+        "type": "number"
+      },
+      {
+        "range": "U10:X10",
+        "type": "number"
+      },
+      {
+        "range": "T11",
+        "type": "string",
+        "value": "VP"
+      },
+      {
+        "range": "U11:X11",
+        "type": "number"
+      },
+      {
+        "range": "B12",
+        "type": "string",
+        "value": "VP"
+      },
+      {
+        "range": "C12:F12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H12",
+        "type": "string",
+        "value": "VP"
+      },
+      {
+        "range": "I12:L12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "U12:X12",
+        "type": "number"
+      },
+      {
+        "range": "C13:F13",
+        "type": "number"
+      },
+      {
+        "range": "I13:L13",
+        "type": "number"
+      },
+      {
+        "range": "C15:F15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I15:L15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C16:F16",
+        "type": "number"
+      },
+      {
+        "range": "I16:L16",
+        "type": "number"
+      },
+      {
+        "range": "C19",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "D19",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "E19",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "I19",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "J19",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "K19",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "O19",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "P19",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "Q19",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "C20:F20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I20:L20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O20:R20",
+        "type": "number"
+      },
+      {
+        "range": "C21:F21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I21:L21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O21:R21",
+        "type": "number"
+      },
+      {
+        "range": "C22:F22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I22:L22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O22:R22",
+        "type": "number"
+      },
+      {
+        "range": "C23:F23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I23:L23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O23:R23",
+        "type": "number"
+      },
+      {
+        "range": "C24:F24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I24:L24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O24:R24",
+        "type": "number"
+      },
+      {
+        "range": "C25:F25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I25:L25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O25:R25",
+        "type": "number"
+      },
+      {
+        "range": "I28",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "J28",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "K28",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "O28",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "P28",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "Q28",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "I29:L29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O29:R29",
+        "type": "number"
+      },
+      {
+        "range": "I30:L30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O30:R30",
+        "type": "number"
+      },
+      {
+        "range": "I31:L31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O31:R31",
+        "type": "number"
+      },
+      {
+        "range": "I32:L32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O32:R32",
+        "type": "number"
+      },
+      {
+        "range": "I33:L33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O33:R33",
+        "type": "number"
+      },
+      {
+        "range": "I34:L34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O34:R34",
+        "type": "number"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 31.18,
+      "cells_analyzed": 313,
+      "total_ranges": 154,
+      "format_counts": {
+        "string": 101,
+        "number": 53
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T19:03:14.369843Z"
+    }
+  },
+  "compression_stats": {
+    "unique_values": 12,
+    "entries_moved_to_index": 61,
+    "entries_remaining": 93,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 7570,
+    "compressed_size_bytes": 5278,
+    "inverted_index_size_bytes": 866,
+    "compressed_data_size_bytes": 4412,
+    "compression_ratio": 0.697,
+    "space_saved_bytes": 2292,
+    "space_saved_percent": 30.3
+  }
+}

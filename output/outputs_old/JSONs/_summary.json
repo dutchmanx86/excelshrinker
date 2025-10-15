@@ -1,0 +1,873 @@
+{
+  "file": "sample_data/sample.xlsx",
+  "total_sheets": 86,
+  "processed_sheets": 86,
+  "sheets_using_compression": 65,
+  "total_format_size_bytes": 5297095,
+  "total_final_size_bytes": 2861182,
+  "space_saved_bytes": 2435913,
+  "space_saved_percent": 46.0,
+  "processing_time_minutes": 0.44,
+  "results": [
+    {
+      "sheet_name": "Summary",
+      "cells_analyzed": 950,
+      "format_ranges": 67,
+      "format_time_ms": 2643.84388923645,
+      "format_json_size": 4296,
+      "inverted_size": 4406,
+      "used_compression": false,
+      "final_size": 4296
+    },
+    {
+      "sheet_name": "Master Ctrl",
+      "cells_analyzed": 39,
+      "format_ranges": 38,
+      "format_time_ms": 2750.5710124969482,
+      "format_json_size": 2227,
+      "inverted_size": 2371,
+      "used_compression": false,
+      "final_size": 2227
+    },
+    {
+      "sheet_name": "Dash Control",
+      "cells_analyzed": 2347,
+      "format_ranges": 118,
+      "format_time_ms": 2828.975200653076,
+      "format_json_size": 7328,
+      "inverted_size": 6110,
+      "used_compression": true,
+      "final_size": 6110
+    },
+    {
+      "sheet_name": "Dash",
+      "cells_analyzed": 32426,
+      "format_ranges": 824,
+      "format_time_ms": 3647.2554206848145,
+      "format_json_size": 47253,
+      "inverted_size": 37541,
+      "used_compression": true,
+      "final_size": 37541
+    },
+    {
+      "sheet_name": "CAC by Segment",
+      "cells_analyzed": 13671,
+      "format_ranges": 364,
+      "format_time_ms": 3250.767707824707,
+      "format_json_size": 20675,
+      "inverted_size": 16320,
+      "used_compression": true,
+      "final_size": 16320
+    },
+    {
+      "sheet_name": "Payback Period",
+      "cells_analyzed": 9909,
+      "format_ranges": 2281,
+      "format_time_ms": 2932.2566986083984,
+      "format_json_size": 110535,
+      "inverted_size": 107654,
+      "used_compression": true,
+      "final_size": 107654
+    },
+    {
+      "sheet_name": "Fin CTRL",
+      "cells_analyzed": 7756,
+      "format_ranges": 354,
+      "format_time_ms": 3179.4962882995605,
+      "format_json_size": 20261,
+      "inverted_size": 15015,
+      "used_compression": true,
+      "final_size": 15015
+    },
+    {
+      "sheet_name": "Fin",
+      "cells_analyzed": 74218,
+      "format_ranges": 1971,
+      "format_time_ms": 19440.190076828003,
+      "format_json_size": 116156,
+      "inverted_size": 110876,
+      "used_compression": true,
+      "final_size": 110876
+    },
+    {
+      "sheet_name": "Debt Compliance",
+      "cells_analyzed": 3284,
+      "format_ranges": 422,
+      "format_time_ms": 2906.123399734497,
+      "format_json_size": 23113,
+      "inverted_size": 18096,
+      "used_compression": true,
+      "final_size": 18096
+    },
+    {
+      "sheet_name": "ARR and Revenue -->",
+      "cells_analyzed": 0,
+      "format_ranges": 0,
+      "format_time_ms": 2763.714551925659,
+      "format_json_size": 243,
+      "inverted_size": 610,
+      "used_compression": false,
+      "final_size": 243
+    },
+    {
+      "sheet_name": "ARR and Rev CTRL",
+      "cells_analyzed": 8406,
+      "format_ranges": 583,
+      "format_time_ms": 3058.12406539917,
+      "format_json_size": 33844,
+      "inverted_size": 22838,
+      "used_compression": true,
+      "final_size": 22838
+    },
+    {
+      "sheet_name": "Sales Prod Input",
+      "cells_analyzed": 235,
+      "format_ranges": 57,
+      "format_time_ms": 2691.025972366333,
+      "format_json_size": 3167,
+      "inverted_size": 2950,
+      "used_compression": true,
+      "final_size": 2950
+    },
+    {
+      "sheet_name": "ARR and Revenue",
+      "cells_analyzed": 22085,
+      "format_ranges": 655,
+      "format_time_ms": 3198.316812515259,
+      "format_json_size": 37035,
+      "inverted_size": 30565,
+      "used_compression": true,
+      "final_size": 30565
+    },
+    {
+      "sheet_name": "Sales CTRL",
+      "cells_analyzed": 15426,
+      "format_ranges": 1075,
+      "format_time_ms": 3468.356132507324,
+      "format_json_size": 63772,
+      "inverted_size": 45339,
+      "used_compression": true,
+      "final_size": 45339
+    },
+    {
+      "sheet_name": "Sales Role Input",
+      "cells_analyzed": 1835,
+      "format_ranges": 98,
+      "format_time_ms": 2761.9001865386963,
+      "format_json_size": 6085,
+      "inverted_size": 5549,
+      "used_compression": true,
+      "final_size": 5549
+    },
+    {
+      "sheet_name": "Sales Reps",
+      "cells_analyzed": 46166,
+      "format_ranges": 1169,
+      "format_time_ms": 4332.075357437134,
+      "format_json_size": 66153,
+      "inverted_size": 51289,
+      "used_compression": true,
+      "final_size": 51289
+    },
+    {
+      "sheet_name": "Clients CTRL",
+      "cells_analyzed": 2404,
+      "format_ranges": 130,
+      "format_time_ms": 2957.573175430298,
+      "format_json_size": 8136,
+      "inverted_size": 6232,
+      "used_compression": true,
+      "final_size": 6232
+    },
+    {
+      "sheet_name": "Clients",
+      "cells_analyzed": 7486,
+      "format_ranges": 196,
+      "format_time_ms": 3177.475929260254,
+      "format_json_size": 10477,
+      "inverted_size": 8947,
+      "used_compression": true,
+      "final_size": 8947
+    },
+    {
+      "sheet_name": "Retention CTRL",
+      "cells_analyzed": 1373,
+      "format_ranges": 77,
+      "format_time_ms": 2725.092649459839,
+      "format_json_size": 5058,
+      "inverted_size": 4511,
+      "used_compression": true,
+      "final_size": 4511
+    },
+    {
+      "sheet_name": "Retention",
+      "cells_analyzed": 6966,
+      "format_ranges": 174,
+      "format_time_ms": 3089.8497104644775,
+      "format_json_size": 10209,
+      "inverted_size": 8426,
+      "used_compression": true,
+      "final_size": 8426
+    },
+    {
+      "sheet_name": "Renewed",
+      "cells_analyzed": 74214,
+      "format_ranges": 45664,
+      "format_time_ms": 4860.081911087036,
+      "format_json_size": 2702349,
+      "inverted_size": 875470,
+      "used_compression": true,
+      "final_size": 875470
+    },
+    {
+      "sheet_name": "Renewal Base",
+      "cells_analyzed": 14930,
+      "format_ranges": 7506,
+      "format_time_ms": 3345.057249069214,
+      "format_json_size": 403914,
+      "inverted_size": 203562,
+      "used_compression": true,
+      "final_size": 203562
+    },
+    {
+      "sheet_name": "Deferred Build",
+      "cells_analyzed": 2306,
+      "format_ranges": 52,
+      "format_time_ms": 2844.7439670562744,
+      "format_json_size": 3498,
+      "inverted_size": 3756,
+      "used_compression": false,
+      "final_size": 3498
+    },
+    {
+      "sheet_name": "Expenses -->",
+      "cells_analyzed": 0,
+      "format_ranges": 0,
+      "format_time_ms": 3035.9585285186768,
+      "format_json_size": 236,
+      "inverted_size": 603,
+      "used_compression": false,
+      "final_size": 236
+    },
+    {
+      "sheet_name": "Headcount and Salaries CTRL",
+      "cells_analyzed": 3870,
+      "format_ranges": 273,
+      "format_time_ms": 3086.5426063537598,
+      "format_json_size": 16102,
+      "inverted_size": 12685,
+      "used_compression": true,
+      "final_size": 12685
+    },
+    {
+      "sheet_name": "Headcount and Salaries",
+      "cells_analyzed": 17290,
+      "format_ranges": 380,
+      "format_time_ms": 3324.157953262329,
+      "format_json_size": 21640,
+      "inverted_size": 17188,
+      "used_compression": true,
+      "final_size": 17188
+    },
+    {
+      "sheet_name": "Opex CTRL",
+      "cells_analyzed": 85257,
+      "format_ranges": 6782,
+      "format_time_ms": 7711.190223693848,
+      "format_json_size": 374847,
+      "inverted_size": 270474,
+      "used_compression": true,
+      "final_size": 270474
+    },
+    {
+      "sheet_name": "Operating Expenses",
+      "cells_analyzed": 24234,
+      "format_ranges": 528,
+      "format_time_ms": 3598.3564853668213,
+      "format_json_size": 31501,
+      "inverted_size": 29101,
+      "used_compression": true,
+      "final_size": 29101
+    },
+    {
+      "sheet_name": "Content",
+      "cells_analyzed": 21975,
+      "format_ranges": 556,
+      "format_time_ms": 3681.777238845825,
+      "format_json_size": 33503,
+      "inverted_size": 28042,
+      "used_compression": true,
+      "final_size": 28042
+    },
+    {
+      "sheet_name": "Engineering",
+      "cells_analyzed": 21632,
+      "format_ranges": 565,
+      "format_time_ms": 4047.9161739349365,
+      "format_json_size": 34232,
+      "inverted_size": 28822,
+      "used_compression": true,
+      "final_size": 28822
+    },
+    {
+      "sheet_name": "Executive",
+      "cells_analyzed": 20073,
+      "format_ranges": 547,
+      "format_time_ms": 3717.162847518921,
+      "format_json_size": 33196,
+      "inverted_size": 27993,
+      "used_compression": true,
+      "final_size": 27993
+    },
+    {
+      "sheet_name": "Finance & Admin",
+      "cells_analyzed": 21520,
+      "format_ranges": 594,
+      "format_time_ms": 3429.053544998169,
+      "format_json_size": 36616,
+      "inverted_size": 31818,
+      "used_compression": true,
+      "final_size": 31818
+    },
+    {
+      "sheet_name": "Marketing",
+      "cells_analyzed": 18600,
+      "format_ranges": 526,
+      "format_time_ms": 3394.301176071167,
+      "format_json_size": 31966,
+      "inverted_size": 27415,
+      "used_compression": true,
+      "final_size": 27415
+    },
+    {
+      "sheet_name": "Product",
+      "cells_analyzed": 19765,
+      "format_ranges": 555,
+      "format_time_ms": 3609.0714931488037,
+      "format_json_size": 33442,
+      "inverted_size": 28190,
+      "used_compression": true,
+      "final_size": 28190
+    },
+    {
+      "sheet_name": "Sales",
+      "cells_analyzed": 23828,
+      "format_ranges": 634,
+      "format_time_ms": 4162.664413452148,
+      "format_json_size": 37708,
+      "inverted_size": 30705,
+      "used_compression": true,
+      "final_size": 30705
+    },
+    {
+      "sheet_name": "Commission Waterfall",
+      "cells_analyzed": 39274,
+      "format_ranges": 1142,
+      "format_time_ms": 4430.753231048584,
+      "format_json_size": 63664,
+      "inverted_size": 63691,
+      "used_compression": false,
+      "final_size": 63664
+    },
+    {
+      "sheet_name": "Bad Debt",
+      "cells_analyzed": 1455,
+      "format_ranges": 44,
+      "format_time_ms": 2970.205307006836,
+      "format_json_size": 2861,
+      "inverted_size": 3171,
+      "used_compression": false,
+      "final_size": 2861
+    },
+    {
+      "sheet_name": "COGS CTRL",
+      "cells_analyzed": 43423,
+      "format_ranges": 2905,
+      "format_time_ms": 5918.633222579956,
+      "format_json_size": 171799,
+      "inverted_size": 118874,
+      "used_compression": true,
+      "final_size": 118874
+    },
+    {
+      "sheet_name": "Cost of Goods Sold",
+      "cells_analyzed": 62075,
+      "format_ranges": 1713,
+      "format_time_ms": 4884.990453720093,
+      "format_json_size": 97039,
+      "inverted_size": 76170,
+      "used_compression": true,
+      "final_size": 76170
+    },
+    {
+      "sheet_name": "Total FDS Cost",
+      "cells_analyzed": 2944,
+      "format_ranges": 139,
+      "format_time_ms": 2868.0813312530518,
+      "format_json_size": 7370,
+      "inverted_size": 7165,
+      "used_compression": true,
+      "final_size": 7165
+    },
+    {
+      "sheet_name": "FDS AMR",
+      "cells_analyzed": 6426,
+      "format_ranges": 281,
+      "format_time_ms": 3065.833568572998,
+      "format_json_size": 14964,
+      "inverted_size": 14592,
+      "used_compression": true,
+      "final_size": 14592
+    },
+    {
+      "sheet_name": "Direct Broker",
+      "cells_analyzed": 19590,
+      "format_ranges": 780,
+      "format_time_ms": 3358.9043617248535,
+      "format_json_size": 39448,
+      "inverted_size": 32329,
+      "used_compression": true,
+      "final_size": 32329
+    },
+    {
+      "sheet_name": "Additional FDS Content",
+      "cells_analyzed": 7950,
+      "format_ranges": 368,
+      "format_time_ms": 3201.533079147339,
+      "format_json_size": 18932,
+      "inverted_size": 17580,
+      "used_compression": true,
+      "final_size": 17580
+    },
+    {
+      "sheet_name": "FDS User Growth",
+      "cells_analyzed": 17685,
+      "format_ranges": 819,
+      "format_time_ms": 3339.292049407959,
+      "format_json_size": 42852,
+      "inverted_size": 35007,
+      "used_compression": true,
+      "final_size": 35007
+    },
+    {
+      "sheet_name": "FDS RT Minimums",
+      "cells_analyzed": 197,
+      "format_ranges": 150,
+      "format_time_ms": 3080.2149772644043,
+      "format_json_size": 9355,
+      "inverted_size": 9725,
+      "used_compression": false,
+      "final_size": 9355
+    },
+    {
+      "sheet_name": "User Split Support-->",
+      "cells_analyzed": 0,
+      "format_ranges": 0,
+      "format_time_ms": 3157.1497917175293,
+      "format_json_size": 245,
+      "inverted_size": 612,
+      "used_compression": false,
+      "final_size": 245
+    },
+    {
+      "sheet_name": "Product User Splits",
+      "cells_analyzed": 4088,
+      "format_ranges": 324,
+      "format_time_ms": 3187.485694885254,
+      "format_json_size": 17134,
+      "inverted_size": 13944,
+      "used_compression": true,
+      "final_size": 13944
+    },
+    {
+      "sheet_name": "TR BRM",
+      "cells_analyzed": 808,
+      "format_ranges": 194,
+      "format_time_ms": 3065.333843231201,
+      "format_json_size": 10860,
+      "inverted_size": 6895,
+      "used_compression": true,
+      "final_size": 6895
+    },
+    {
+      "sheet_name": "AMR",
+      "cells_analyzed": 482,
+      "format_ranges": 128,
+      "format_time_ms": 3329.085350036621,
+      "format_json_size": 6570,
+      "inverted_size": 5874,
+      "used_compression": true,
+      "final_size": 5874
+    },
+    {
+      "sheet_name": "LN",
+      "cells_analyzed": 129,
+      "format_ranges": 27,
+      "format_time_ms": 3179.6720027923584,
+      "format_json_size": 1877,
+      "inverted_size": 2188,
+      "used_compression": false,
+      "final_size": 1877
+    },
+    {
+      "sheet_name": "DJ",
+      "cells_analyzed": 112,
+      "format_ranges": 10,
+      "format_time_ms": 2894.228935241699,
+      "format_json_size": 905,
+      "inverted_size": 1213,
+      "used_compression": false,
+      "final_size": 905
+    },
+    {
+      "sheet_name": "TR Transcripts",
+      "cells_analyzed": 178,
+      "format_ranges": 23,
+      "format_time_ms": 3238.2216453552246,
+      "format_json_size": 1719,
+      "inverted_size": 1761,
+      "used_compression": false,
+      "final_size": 1719
+    },
+    {
+      "sheet_name": "FS Transcripts",
+      "cells_analyzed": 154,
+      "format_ranges": 23,
+      "format_time_ms": 3132.673501968384,
+      "format_json_size": 1717,
+      "inverted_size": 1758,
+      "used_compression": false,
+      "final_size": 1717
+    },
+    {
+      "sheet_name": "Filings",
+      "cells_analyzed": 131,
+      "format_ranges": 23,
+      "format_time_ms": 2974.867343902588,
+      "format_json_size": 1504,
+      "inverted_size": 1816,
+      "used_compression": false,
+      "final_size": 1504
+    },
+    {
+      "sheet_name": "Support>>>",
+      "cells_analyzed": 0,
+      "format_ranges": 0,
+      "format_time_ms": 3570.603370666504,
+      "format_json_size": 233,
+      "inverted_size": 600,
+      "used_compression": false,
+      "final_size": 233
+    },
+    {
+      "sheet_name": "Detailed Income Statement",
+      "cells_analyzed": 8414,
+      "format_ranges": 688,
+      "format_time_ms": 3109.104633331299,
+      "format_json_size": 37274,
+      "inverted_size": 29873,
+      "used_compression": true,
+      "final_size": 29873
+    },
+    {
+      "sheet_name": "Detailed Balance Sheet",
+      "cells_analyzed": 5706,
+      "format_ranges": 370,
+      "format_time_ms": 3651.689052581787,
+      "format_json_size": 20592,
+      "inverted_size": 14627,
+      "used_compression": true,
+      "final_size": 14627
+    },
+    {
+      "sheet_name": "Detailed Cash Flow Satement",
+      "cells_analyzed": 4442,
+      "format_ranges": 188,
+      "format_time_ms": 3371.102809906006,
+      "format_json_size": 11954,
+      "inverted_size": 9309,
+      "used_compression": true,
+      "final_size": 9309
+    },
+    {
+      "sheet_name": "Key Metrics",
+      "cells_analyzed": 15379,
+      "format_ranges": 1069,
+      "format_time_ms": 3755.2542686462402,
+      "format_json_size": 58222,
+      "inverted_size": 44310,
+      "used_compression": true,
+      "final_size": 44310
+    },
+    {
+      "sheet_name": "Revenue by Client",
+      "cells_analyzed": 572,
+      "format_ranges": 84,
+      "format_time_ms": 3119.4510459899902,
+      "format_json_size": 4568,
+      "inverted_size": 3329,
+      "used_compression": true,
+      "final_size": 3329
+    },
+    {
+      "sheet_name": "Client Support",
+      "cells_analyzed": 2031,
+      "format_ranges": 68,
+      "format_time_ms": 3688.263416290283,
+      "format_json_size": 3678,
+      "inverted_size": 3537,
+      "used_compression": true,
+      "final_size": 3537
+    },
+    {
+      "sheet_name": "Subscriber Support",
+      "cells_analyzed": 1621,
+      "format_ranges": 62,
+      "format_time_ms": 3540.740966796875,
+      "format_json_size": 3499,
+      "inverted_size": 3468,
+      "used_compression": true,
+      "final_size": 3468
+    },
+    {
+      "sheet_name": "Headcount Support",
+      "cells_analyzed": 2379,
+      "format_ranges": 159,
+      "format_time_ms": 3689.0110969543457,
+      "format_json_size": 9156,
+      "inverted_size": 8503,
+      "used_compression": true,
+      "final_size": 8503
+    },
+    {
+      "sheet_name": "Salary Support",
+      "cells_analyzed": 2586,
+      "format_ranges": 159,
+      "format_time_ms": 2969.64430809021,
+      "format_json_size": 9921,
+      "inverted_size": 9073,
+      "used_compression": true,
+      "final_size": 9073
+    },
+    {
+      "sheet_name": "Bonus Support",
+      "cells_analyzed": 3988,
+      "format_ranges": 143,
+      "format_time_ms": 3645.9877490997314,
+      "format_json_size": 8462,
+      "inverted_size": 7024,
+      "used_compression": true,
+      "final_size": 7024
+    },
+    {
+      "sheet_name": "Bonus Support (Sales non Ops)",
+      "cells_analyzed": 3618,
+      "format_ranges": 162,
+      "format_time_ms": 3129.676103591919,
+      "format_json_size": 9216,
+      "inverted_size": 8582,
+      "used_compression": true,
+      "final_size": 8582
+    },
+    {
+      "sheet_name": "Bonus Support (Sales Ops Only)",
+      "cells_analyzed": 3717,
+      "format_ranges": 168,
+      "format_time_ms": 3379.9381256103516,
+      "format_json_size": 9779,
+      "inverted_size": 8400,
+      "used_compression": true,
+      "final_size": 8400
+    },
+    {
+      "sheet_name": "Headcount Adds",
+      "cells_analyzed": 1419,
+      "format_ranges": 514,
+      "format_time_ms": 3140.526056289673,
+      "format_json_size": 26993,
+      "inverted_size": 14327,
+      "used_compression": true,
+      "final_size": 14327
+    },
+    {
+      "sheet_name": "OpEx - Content",
+      "cells_analyzed": 2410,
+      "format_ranges": 295,
+      "format_time_ms": 3490.7665252685547,
+      "format_json_size": 18546,
+      "inverted_size": 16793,
+      "used_compression": true,
+      "final_size": 16793
+    },
+    {
+      "sheet_name": "OpEx - Engineering",
+      "cells_analyzed": 2514,
+      "format_ranges": 297,
+      "format_time_ms": 3403.508424758911,
+      "format_json_size": 18747,
+      "inverted_size": 16918,
+      "used_compression": true,
+      "final_size": 16918
+    },
+    {
+      "sheet_name": "OpEx - Executive",
+      "cells_analyzed": 2515,
+      "format_ranges": 298,
+      "format_time_ms": 2893.8651084899902,
+      "format_json_size": 18765,
+      "inverted_size": 16974,
+      "used_compression": true,
+      "final_size": 16974
+    },
+    {
+      "sheet_name": "OpEx - Finance & Admin",
+      "cells_analyzed": 2511,
+      "format_ranges": 297,
+      "format_time_ms": 2925.7915019989014,
+      "format_json_size": 18831,
+      "inverted_size": 16926,
+      "used_compression": true,
+      "final_size": 16926
+    },
+    {
+      "sheet_name": "OpEx - Marketing",
+      "cells_analyzed": 2513,
+      "format_ranges": 297,
+      "format_time_ms": 3031.472682952881,
+      "format_json_size": 18704,
+      "inverted_size": 16913,
+      "used_compression": true,
+      "final_size": 16913
+    },
+    {
+      "sheet_name": "OpEx - Product",
+      "cells_analyzed": 2514,
+      "format_ranges": 297,
+      "format_time_ms": 3172.1556186676025,
+      "format_json_size": 18662,
+      "inverted_size": 16909,
+      "used_compression": true,
+      "final_size": 16909
+    },
+    {
+      "sheet_name": "OpEx - Sales",
+      "cells_analyzed": 2513,
+      "format_ranges": 297,
+      "format_time_ms": 3032.033681869507,
+      "format_json_size": 18620,
+      "inverted_size": 16904,
+      "used_compression": true,
+      "final_size": 16904
+    },
+    {
+      "sheet_name": "Historical Quota& Productivity",
+      "cells_analyzed": 533,
+      "format_ranges": 55,
+      "format_time_ms": 3245.2962398529053,
+      "format_json_size": 3407,
+      "inverted_size": 3414,
+      "used_compression": false,
+      "final_size": 3407
+    },
+    {
+      "sheet_name": "Fixed Asset Depreciation",
+      "cells_analyzed": 1355,
+      "format_ranges": 46,
+      "format_time_ms": 3260.9760761260986,
+      "format_json_size": 2518,
+      "inverted_size": 2682,
+      "used_compression": false,
+      "final_size": 2518
+    },
+    {
+      "sheet_name": "INTERNAL>>>",
+      "cells_analyzed": 0,
+      "format_ranges": 0,
+      "format_time_ms": 2978.513240814209,
+      "format_json_size": 235,
+      "inverted_size": 602,
+      "used_compression": false,
+      "final_size": 235
+    },
+    {
+      "sheet_name": "COGS vs. Marginal",
+      "cells_analyzed": 88,
+      "format_ranges": 86,
+      "format_time_ms": 3056.0271739959717,
+      "format_json_size": 5263,
+      "inverted_size": 4208,
+      "used_compression": true,
+      "final_size": 4208
+    },
+    {
+      "sheet_name": "Benchmarking",
+      "cells_analyzed": 560,
+      "format_ranges": 152,
+      "format_time_ms": 2899.0118503570557,
+      "format_json_size": 8213,
+      "inverted_size": 7122,
+      "used_compression": true,
+      "final_size": 7122
+    },
+    {
+      "sheet_name": "Accrued Expenses",
+      "cells_analyzed": 494,
+      "format_ranges": 165,
+      "format_time_ms": 2845.4525470733643,
+      "format_json_size": 9016,
+      "inverted_size": 8451,
+      "used_compression": true,
+      "final_size": 8451
+    },
+    {
+      "sheet_name": "Prepaid Expenses",
+      "cells_analyzed": 1187,
+      "format_ranges": 237,
+      "format_time_ms": 2911.9157791137695,
+      "format_json_size": 13739,
+      "inverted_size": 12007,
+      "used_compression": true,
+      "final_size": 12007
+    },
+    {
+      "sheet_name": "Accrued Wages",
+      "cells_analyzed": 310,
+      "format_ranges": 34,
+      "format_time_ms": 2807.5411319732666,
+      "format_json_size": 2314,
+      "inverted_size": 2685,
+      "used_compression": false,
+      "final_size": 2314
+    },
+    {
+      "sheet_name": "Cap R&D Exisiting Runoff",
+      "cells_analyzed": 383,
+      "format_ranges": 17,
+      "format_time_ms": 2768.6290740966797,
+      "format_json_size": 1310,
+      "inverted_size": 1681,
+      "used_compression": false,
+      "final_size": 1310
+    },
+    {
+      "sheet_name": "Deposits",
+      "cells_analyzed": 49,
+      "format_ranges": 3,
+      "format_time_ms": 2815.431594848633,
+      "format_json_size": 592,
+      "inverted_size": 959,
+      "used_compression": false,
+      "final_size": 592
+    },
+    {
+      "sheet_name": "Tekes Loans",
+      "cells_analyzed": 695,
+      "format_ranges": 79,
+      "format_time_ms": 2770.9009647369385,
+      "format_json_size": 4478,
+      "inverted_size": 3586,
+      "used_compression": true,
+      "final_size": 3586
+    }
+  ]
+}

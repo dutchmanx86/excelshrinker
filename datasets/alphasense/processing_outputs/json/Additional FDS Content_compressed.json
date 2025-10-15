@@ -1,0 +1,1223 @@
+{
+  "inverted_index": {
+    "% of Total Users": {
+      "type": "string",
+      "ranges": [
+        "B8",
+        "B54",
+        "B86"
+      ]
+    },
+    "User Tiers": {
+      "type": "string",
+      "ranges": [
+        "B10",
+        "B56",
+        "B88"
+      ]
+    },
+    "Users": {
+      "type": "string",
+      "ranges": [
+        "C10",
+        "C56",
+        "C88"
+      ]
+    },
+    "Cost": {
+      "type": "string",
+      "ranges": [
+        "D10",
+        "D56",
+        "D88"
+      ]
+    },
+    "Total FDS RT Excess Expense": {
+      "type": "string",
+      "ranges": [
+        "B36",
+        "B49"
+      ]
+    },
+    "Pool Floor": {
+      "type": "string",
+      "ranges": [
+        "B37",
+        "B43"
+      ]
+    },
+    "Up to 6000": {
+      "type": "string",
+      "ranges": [
+        "B57",
+        "B89"
+      ]
+    },
+    ">25000": {
+      "type": "string",
+      "ranges": [
+        "B78:C78"
+      ]
+    },
+    "TBD": {
+      "type": "string",
+      "ranges": [
+        "B90:B110"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Additional FDS Content",
+    "format_ranges": [
+      {
+        "range": "O2:DF2",
+        "type": "number"
+      },
+      {
+        "range": "O2:DF2",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "F3:M3",
+        "type": "number"
+      },
+      {
+        "range": "F3:M3",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "O3:DF3",
+        "type": "date",
+        "date_series_id": "ds_3"
+      },
+      {
+        "range": "B5",
+        "type": "string",
+        "value": "FDS RT Expense"
+      },
+      {
+        "range": "B7",
+        "type": "string",
+        "value": "Total FDS RT Users"
+      },
+      {
+        "range": "O7:DF7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B11",
+        "type": "string",
+        "value": "Up to 1500"
+      },
+      {
+        "range": "C11:D11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V11:DF11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B12",
+        "type": "string",
+        "value": "2000 - 425000"
+      },
+      {
+        "range": "C12:D12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V12:DF12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B13",
+        "type": "string",
+        "value": "2500 - 600000"
+      },
+      {
+        "range": "C13:D13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V13:DF13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B14",
+        "type": "string",
+        "value": "3000 - 750000"
+      },
+      {
+        "range": "C14:D14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V14:DF14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B15",
+        "type": "string",
+        "value": "3500 - 875000"
+      },
+      {
+        "range": "C15:D15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V15:DF15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B16",
+        "type": "string",
+        "value": "4000 - 990000"
+      },
+      {
+        "range": "C16:D16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V16:DF16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B17",
+        "type": "string",
+        "value": "4500 - 1120000"
+      },
+      {
+        "range": "C17:D17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V17:DF17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B18",
+        "type": "string",
+        "value": "5000 - 1280000"
+      },
+      {
+        "range": "C18:D18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V18:DF18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B19",
+        "type": "string",
+        "value": "5500 - 1395000"
+      },
+      {
+        "range": "C19:D19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V19:DF19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B20",
+        "type": "string",
+        "value": "6000 - 1500000"
+      },
+      {
+        "range": "C20:D20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V20:DF20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B21",
+        "type": "string",
+        "value": "6500 - 1650000"
+      },
+      {
+        "range": "C21:D21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V21:DF21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B22",
+        "type": "string",
+        "value": "7000 - 1800000"
+      },
+      {
+        "range": "C22:D22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V22:DF22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B23",
+        "type": "string",
+        "value": "8500 - 1950000"
+      },
+      {
+        "range": "C23:D23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V23:DF23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B24",
+        "type": "string",
+        "value": "10000 - 2070000"
+      },
+      {
+        "range": "C24:D24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V24:DF24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B25",
+        "type": "string",
+        "value": "11500 - 2205000"
+      },
+      {
+        "range": "C25:D25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V25:DF25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B26",
+        "type": "string",
+        "value": "13000 - 2340000"
+      },
+      {
+        "range": "C26:D26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V26:DF26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B27",
+        "type": "string",
+        "value": "14500 - 2497500"
+      },
+      {
+        "range": "C27:D27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V27:DF27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B28",
+        "type": "string",
+        "value": "16000 - 2700000"
+      },
+      {
+        "range": "C28:D28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V28:DF28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B29",
+        "type": "string",
+        "value": "17500 - 2887500"
+      },
+      {
+        "range": "C29:D29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V29:DF29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B30",
+        "type": "string",
+        "value": "19000 - 3060000"
+      },
+      {
+        "range": "C30:D30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V30:DF30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B31",
+        "type": "string",
+        "value": "20500 - 3217500"
+      },
+      {
+        "range": "C31:D31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V31:DF31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B32",
+        "type": "string",
+        "value": "22000 - 3360000"
+      },
+      {
+        "range": "C32:D32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V32:DF32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B33",
+        "type": "string",
+        "value": "23500 - 3487500"
+      },
+      {
+        "range": "C33:D33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V33:DF33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B34",
+        "type": "string",
+        "value": "25000 - 3600000"
+      },
+      {
+        "range": "C34:D34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V34:DF34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F36:M36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O36:DF36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F37:M37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O37:U37",
+        "type": "number"
+      },
+      {
+        "range": "V37:DF37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B38",
+        "type": "string",
+        "value": "Total Adjusted FDS RT Excess Expense"
+      },
+      {
+        "range": "F38:M38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O38:DF38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B40",
+        "type": "string",
+        "value": "Discount (%)"
+      },
+      {
+        "range": "O40:DF40",
+        "type": "number"
+      },
+      {
+        "range": "B42",
+        "type": "string",
+        "value": "Discount Adjusted FDS RT Excess Expense"
+      },
+      {
+        "range": "F42:M42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O42:DF42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F43:M43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O43:DF43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B44",
+        "type": "string",
+        "value": "Total Discount Adjusted FDS RT Excess Expense"
+      },
+      {
+        "range": "F44:M44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O44:DF44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B46",
+        "type": "string",
+        "value": "Minimum Excess Spend (Bucket)"
+      },
+      {
+        "range": "V46:DF46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B47",
+        "type": "string",
+        "value": "Minimum Excess Spend"
+      },
+      {
+        "range": "F47:M47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V47:DF47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F49:M49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O49:DF49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B51",
+        "type": "string",
+        "value": "Factset Transcripts"
+      },
+      {
+        "range": "B53",
+        "type": "string",
+        "value": "Total FDS Transcript Users"
+      },
+      {
+        "range": "O53:DF53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D57",
+        "type": "number"
+      },
+      {
+        "range": "V57:DF57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B58",
+        "type": "string",
+        "value": "7001 - 65000"
+      },
+      {
+        "range": "C58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D58",
+        "type": "number"
+      },
+      {
+        "range": "V58:DF58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B59",
+        "type": "string",
+        "value": "8001 - 65000"
+      },
+      {
+        "range": "C59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D59",
+        "type": "number"
+      },
+      {
+        "range": "V59:DF59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B60",
+        "type": "string",
+        "value": "9001 - 55000"
+      },
+      {
+        "range": "C60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D60",
+        "type": "number"
+      },
+      {
+        "range": "V60:DF60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B61",
+        "type": "string",
+        "value": "10001 - 55000"
+      },
+      {
+        "range": "C61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D61",
+        "type": "number"
+      },
+      {
+        "range": "V61:DF61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B62",
+        "type": "string",
+        "value": "11001 - 40000"
+      },
+      {
+        "range": "C62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D62",
+        "type": "number"
+      },
+      {
+        "range": "V62:DF62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B63",
+        "type": "string",
+        "value": "12001 - 40000"
+      },
+      {
+        "range": "C63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D63",
+        "type": "number"
+      },
+      {
+        "range": "V63:DF63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B64",
+        "type": "string",
+        "value": "12501 - 40000"
+      },
+      {
+        "range": "C64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D64",
+        "type": "number"
+      },
+      {
+        "range": "V64:DF64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B65",
+        "type": "string",
+        "value": "13001 - 30000"
+      },
+      {
+        "range": "C65",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D65",
+        "type": "number"
+      },
+      {
+        "range": "V65:DF65",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B66",
+        "type": "string",
+        "value": "14001 - 30000"
+      },
+      {
+        "range": "C66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D66",
+        "type": "number"
+      },
+      {
+        "range": "V66:DF66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B67",
+        "type": "string",
+        "value": "15001 - 30000"
+      },
+      {
+        "range": "C67",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D67",
+        "type": "number"
+      },
+      {
+        "range": "V67:DF67",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B68",
+        "type": "string",
+        "value": "16001 - 25000"
+      },
+      {
+        "range": "C68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D68",
+        "type": "number"
+      },
+      {
+        "range": "V68:DF68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B69",
+        "type": "string",
+        "value": "17001 - 25000"
+      },
+      {
+        "range": "C69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D69",
+        "type": "number"
+      },
+      {
+        "range": "V69:DF69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B70",
+        "type": "string",
+        "value": "18001 - 25000"
+      },
+      {
+        "range": "C70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D70",
+        "type": "number"
+      },
+      {
+        "range": "V70:DF70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B71",
+        "type": "string",
+        "value": "19001 - 25000"
+      },
+      {
+        "range": "C71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D71",
+        "type": "number"
+      },
+      {
+        "range": "V71:DF71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B72",
+        "type": "string",
+        "value": "20001 - 25000"
+      },
+      {
+        "range": "C72",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D72",
+        "type": "number"
+      },
+      {
+        "range": "V72:DF72",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B73",
+        "type": "string",
+        "value": "21001 - 25000"
+      },
+      {
+        "range": "C73",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D73",
+        "type": "number"
+      },
+      {
+        "range": "V73:DF73",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B74",
+        "type": "string",
+        "value": "22001 - 25000"
+      },
+      {
+        "range": "C74",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D74",
+        "type": "number"
+      },
+      {
+        "range": "V74:DF74",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B75",
+        "type": "string",
+        "value": "23001 - 25000"
+      },
+      {
+        "range": "C75",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D75",
+        "type": "number"
+      },
+      {
+        "range": "V75:DF75",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B76",
+        "type": "string",
+        "value": "24001 - 25000"
+      },
+      {
+        "range": "C76",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D76",
+        "type": "number"
+      },
+      {
+        "range": "V76:DF76",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B77",
+        "type": "string",
+        "value": "25001 - 25000"
+      },
+      {
+        "range": "C77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D77",
+        "type": "number"
+      },
+      {
+        "range": "V77:DF77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D78",
+        "type": "number"
+      },
+      {
+        "range": "V78:DF78",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B80",
+        "type": "string",
+        "value": "Total FDS Transcripts Excess Expense"
+      },
+      {
+        "range": "F80:M80",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O80:DF80",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B83",
+        "type": "string",
+        "value": "Factset M&A"
+      },
+      {
+        "range": "B85",
+        "type": "string",
+        "value": "Total FDS M&A Users"
+      },
+      {
+        "range": "O85:U85",
+        "type": "number"
+      },
+      {
+        "range": "V85:DF85",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C89:D89",
+        "type": "number"
+      },
+      {
+        "range": "V89:DF89",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V90:DF90",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V91:DF91",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V92:DF92",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V93:DF93",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V94:DF94",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V95:DF95",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V96:DF96",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V97:DF97",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V98:DF98",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V99:DF99",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V100:DF100",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V101:DF101",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V102:DF102",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V103:DF103",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V104:DF104",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V105:DF105",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V106:DF106",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V107:DF107",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V108:DF108",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V109:DF109",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V110:DF110",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B112",
+        "type": "string",
+        "value": "Total FDS M&A Excess Expense"
+      },
+      {
+        "range": "F112:M112",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O112:DF112",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 1308.48,
+      "cells_analyzed": 7950,
+      "total_ranges": 267,
+      "format_counts": {
+        "number": 165,
+        "date": 3,
+        "string": 99
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T11:03:01.289900Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "repeating_annual",
+        "increment": "12 months (annual)",
+        "start_date": "2020-01-01",
+        "pattern": "Annual values repeating 12 times from 2020 to 2027"
+      },
+      "ds_2": {
+        "series_type": "annual",
+        "increment": "1 year",
+        "start_date": "2020-01-01",
+        "pattern": "Annual series from 2020 to 2027"
+      },
+      "ds_3": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2020-01-31",
+        "pattern": "Monthly series from 2020-01 to 2027-12"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 9,
+    "entries_moved_to_index": 41,
+    "entries_remaining": 226,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 14023,
+    "compressed_size_bytes": 12484,
+    "inverted_index_size_bytes": 508,
+    "compressed_data_size_bytes": 11976,
+    "compression_ratio": 0.89,
+    "space_saved_bytes": 1539,
+    "space_saved_percent": 11.0
+  }
+}

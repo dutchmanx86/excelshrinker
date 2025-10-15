@@ -1,0 +1,1740 @@
+{
+  "inverted_index": {
+    "Drivers": {
+      "type": "string",
+      "ranges": [
+        "C19",
+        "C73"
+      ]
+    },
+    "Other": {
+      "type": "string",
+      "ranges": [
+        "C31",
+        "C96"
+      ]
+    },
+    "R&D": {
+      "type": "string",
+      "ranges": [
+        "C44",
+        "C123"
+      ]
+    },
+    "G&A": {
+      "type": "string",
+      "ranges": [
+        "C45",
+        "C125"
+      ]
+    },
+    "Metrics": {
+      "type": "string",
+      "ranges": [
+        "C51",
+        "C78"
+      ]
+    },
+    "Headcount": {
+      "type": "string",
+      "ranges": [
+        "C116",
+        "C118"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Forecast",
+    "format_ranges": [
+      {
+        "range": "D2:L2",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "AY2:FB2",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "D4",
+        "type": "string",
+        "value": "Actuals"
+      },
+      {
+        "range": "G4",
+        "type": "string",
+        "value": "Forecast"
+      },
+      {
+        "range": "D5:L5",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "N5:AW5",
+        "type": "date",
+        "date_series_id": "ds_3"
+      },
+      {
+        "range": "AY5:FB5",
+        "type": "date",
+        "date_series_id": "ds_4"
+      },
+      {
+        "range": "C7",
+        "type": "string",
+        "value": "ARR"
+      },
+      {
+        "range": "C9",
+        "type": "string",
+        "value": "BOP ARR"
+      },
+      {
+        "range": "D9:L9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N9:AW9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AZ9:CT9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CU9:FB9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C10",
+        "type": "string",
+        "value": "Acquisitions"
+      },
+      {
+        "range": "D10:L10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N10:AW10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY10:FB10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C11",
+        "type": "string",
+        "value": "New Customer ARR"
+      },
+      {
+        "range": "D11:L11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N11:AW11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY11:FB11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C12",
+        "type": "string",
+        "value": "Expansion ARR"
+      },
+      {
+        "range": "D12:L12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N12:AW12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY12:FB12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C13",
+        "type": "string",
+        "value": "Churn"
+      },
+      {
+        "range": "D13:L13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N13:AW13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY13:FB13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C14",
+        "type": "string",
+        "value": "EOP ARR"
+      },
+      {
+        "range": "D14:L14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N14:AW14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY14:FB14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C15",
+        "type": "string",
+        "value": "YoY Growth"
+      },
+      {
+        "range": "D15:L15",
+        "type": "number"
+      },
+      {
+        "range": "N15:AW15",
+        "type": "number"
+      },
+      {
+        "range": "BJ15:FB15",
+        "type": "number"
+      },
+      {
+        "range": "C17",
+        "type": "string",
+        "value": "PS Bookings"
+      },
+      {
+        "range": "D17:L17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N17:AW17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY17:FB17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CW19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CZ19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C20",
+        "type": "string",
+        "value": "PS % Total Bookings"
+      },
+      {
+        "range": "D20:L20",
+        "type": "number"
+      },
+      {
+        "range": "N20:AW20",
+        "type": "number"
+      },
+      {
+        "range": "AY20:FB20",
+        "type": "number"
+      },
+      {
+        "range": "C21",
+        "type": "string",
+        "value": "Gross Bookings"
+      },
+      {
+        "range": "D21:L21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N21:AW21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY21:FB21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C22",
+        "type": "string",
+        "value": "Seasonality of Churn"
+      },
+      {
+        "range": "D22:L22",
+        "type": "number"
+      },
+      {
+        "range": "N22:AW22",
+        "type": "number"
+      },
+      {
+        "range": "AY22:FB22",
+        "type": "number"
+      },
+      {
+        "range": "C23",
+        "type": "string",
+        "value": "Seasonality of Bookings"
+      },
+      {
+        "range": "D23:L23",
+        "type": "number"
+      },
+      {
+        "range": "N23:AW23",
+        "type": "number"
+      },
+      {
+        "range": "AY23:FB23",
+        "type": "number"
+      },
+      {
+        "range": "C26",
+        "type": "string",
+        "value": "GAAP P&L"
+      },
+      {
+        "range": "C28",
+        "type": "string",
+        "value": "Revenue"
+      },
+      {
+        "range": "D28:L28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N28:AW28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AZ28:CT28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CU28:FB28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C29",
+        "type": "string",
+        "value": "Subscription"
+      },
+      {
+        "range": "D29:L29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N29:AW29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY29:FB29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C30",
+        "type": "string",
+        "value": "PS"
+      },
+      {
+        "range": "D30:L30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N30:AW30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY30:FB30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D31:L31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N31:AW31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY31:FB31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C33",
+        "type": "string",
+        "value": "COGS"
+      },
+      {
+        "range": "D33:L33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N33:AW33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AZ33:CT33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CU33:FB33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C34",
+        "type": "string",
+        "value": "Subscription COGS"
+      },
+      {
+        "range": "D34:L34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N34:AW34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY34:FB34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C35",
+        "type": "string",
+        "value": "PS COGS"
+      },
+      {
+        "range": "D35:L35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N35:AW35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY35:FB35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C37",
+        "type": "string",
+        "value": "Gross Margin"
+      },
+      {
+        "range": "D37:L37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N37:AW37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY37:CT37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CU37:FB37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C38",
+        "type": "string",
+        "value": "GM %"
+      },
+      {
+        "range": "D38:L38",
+        "type": "number"
+      },
+      {
+        "range": "N38:AW38",
+        "type": "number"
+      },
+      {
+        "range": "AY38:FB38",
+        "type": "number"
+      },
+      {
+        "range": "C39",
+        "type": "string",
+        "value": "Subscription GM %"
+      },
+      {
+        "range": "D39:L39",
+        "type": "number"
+      },
+      {
+        "range": "N39:AW39",
+        "type": "number"
+      },
+      {
+        "range": "AY39:FB39",
+        "type": "number"
+      },
+      {
+        "range": "C40",
+        "type": "string",
+        "value": "PS GM %"
+      },
+      {
+        "range": "D40:L40",
+        "type": "number"
+      },
+      {
+        "range": "N40:AW40",
+        "type": "number"
+      },
+      {
+        "range": "AY40:FB40",
+        "type": "number"
+      },
+      {
+        "range": "C42",
+        "type": "string",
+        "value": "Operating Expenses"
+      },
+      {
+        "range": "D42:L42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N42:AW42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AZ42:FB42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C43",
+        "type": "string",
+        "value": "Sales & Marketing"
+      },
+      {
+        "range": "D43:L43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N43:AW43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY43:FB43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D44:L44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N44:AW44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY44:FB44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D45:L45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N45:AW45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY45:FB45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C46",
+        "type": "string",
+        "value": "ASC 606 Adjustment"
+      },
+      {
+        "range": "D46:L46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N46:AW46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY46:FB46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C48",
+        "type": "string",
+        "value": "Operating EBITDA Income/(Loss)"
+      },
+      {
+        "range": "D48:L48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N48:AW48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY48:FB48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C49",
+        "type": "string",
+        "value": "CHECK"
+      },
+      {
+        "range": "D49:G49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY49:CT49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C52",
+        "type": "string",
+        "value": "Sub Rev % ARR (per mo)"
+      },
+      {
+        "range": "D52:L52",
+        "type": "number"
+      },
+      {
+        "range": "N52:AW52",
+        "type": "number"
+      },
+      {
+        "range": "AY52:FB52",
+        "type": "number"
+      },
+      {
+        "range": "C53",
+        "type": "string",
+        "value": "PS Rev % PS Bookings"
+      },
+      {
+        "range": "D53:L53",
+        "type": "number"
+      },
+      {
+        "range": "N53:AW53",
+        "type": "number"
+      },
+      {
+        "range": "AY53:FB53",
+        "type": "number"
+      },
+      {
+        "range": "C54",
+        "type": "string",
+        "value": "ASC 606 Adjustment % S&M"
+      },
+      {
+        "range": "D54:L54",
+        "type": "number"
+      },
+      {
+        "range": "N54:AW54",
+        "type": "number"
+      },
+      {
+        "range": "AY54:FB54",
+        "type": "number"
+      },
+      {
+        "range": "C55",
+        "type": "string",
+        "value": "Subscription COGS % Rev"
+      },
+      {
+        "range": "D55:L55",
+        "type": "number"
+      },
+      {
+        "range": "N55:AW55",
+        "type": "number"
+      },
+      {
+        "range": "AY55:FB55",
+        "type": "number"
+      },
+      {
+        "range": "C56",
+        "type": "string",
+        "value": "PS COGS % Rev"
+      },
+      {
+        "range": "D56:L56",
+        "type": "number"
+      },
+      {
+        "range": "N56:AW56",
+        "type": "number"
+      },
+      {
+        "range": "AY56:FB56",
+        "type": "number"
+      },
+      {
+        "range": "C57",
+        "type": "string",
+        "value": "Total Bookings / S&M Excl 606"
+      },
+      {
+        "range": "D57:L57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N57:AW57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY57:FB57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C61",
+        "type": "string",
+        "value": "Cash Burn"
+      },
+      {
+        "range": "C63",
+        "type": "string",
+        "value": "Cash BOP"
+      },
+      {
+        "range": "D63:L63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N63:AW63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY63:FB63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C64",
+        "type": "string",
+        "value": "Incoming Cash"
+      },
+      {
+        "range": "D64:L64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N64:AW64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY64:DG64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "DH64:FB64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C65",
+        "type": "string",
+        "value": "Total Expenses"
+      },
+      {
+        "range": "D65:L65",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N65:AW65",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY65:FB65",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C66",
+        "type": "string",
+        "value": "Other Non-Recurring"
+      },
+      {
+        "range": "D66:L66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N66:AW66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY66:FB66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C67",
+        "type": "string",
+        "value": "Equity"
+      },
+      {
+        "range": "D67:L67",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N67:AW67",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY67:FB67",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C68",
+        "type": "string",
+        "value": "Cash EOP"
+      },
+      {
+        "range": "D68:L68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N68:AW68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY68:FB68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C69",
+        "type": "string",
+        "value": "Check to Model"
+      },
+      {
+        "range": "D69:G69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C71",
+        "type": "string",
+        "value": "Operating Cash Burn"
+      },
+      {
+        "range": "D71:L71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N71:AW71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY71:FB71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C74",
+        "type": "string",
+        "value": "Incoming Cash % Revenue"
+      },
+      {
+        "range": "D74:L74",
+        "type": "number"
+      },
+      {
+        "range": "N74:AW74",
+        "type": "number"
+      },
+      {
+        "range": "AY74:CT74",
+        "type": "number"
+      },
+      {
+        "range": "CU74:FB74",
+        "type": "number"
+      },
+      {
+        "range": "C75",
+        "type": "string",
+        "value": "Outgoing Cash % Op Ex + COGS"
+      },
+      {
+        "range": "D75:L75",
+        "type": "number"
+      },
+      {
+        "range": "N75:AW75",
+        "type": "number"
+      },
+      {
+        "range": "AY75:CT75",
+        "type": "number"
+      },
+      {
+        "range": "CU75:FB75",
+        "type": "number"
+      },
+      {
+        "range": "D76:K76",
+        "type": "number"
+      },
+      {
+        "range": "C80",
+        "type": "string",
+        "value": "Revenue %"
+      },
+      {
+        "range": "C81",
+        "type": "string",
+        "value": "  COGS"
+      },
+      {
+        "range": "D81:L81",
+        "type": "number"
+      },
+      {
+        "range": "N81:AW81",
+        "type": "number"
+      },
+      {
+        "range": "AY81:FB81",
+        "type": "number"
+      },
+      {
+        "range": "C82",
+        "type": "string",
+        "value": "  S&M"
+      },
+      {
+        "range": "D82:L82",
+        "type": "number"
+      },
+      {
+        "range": "N82:AW82",
+        "type": "number"
+      },
+      {
+        "range": "AY82:FB82",
+        "type": "number"
+      },
+      {
+        "range": "C83",
+        "type": "string",
+        "value": "  R&D"
+      },
+      {
+        "range": "D83:L83",
+        "type": "number"
+      },
+      {
+        "range": "N83:AW83",
+        "type": "number"
+      },
+      {
+        "range": "AY83:FB83",
+        "type": "number"
+      },
+      {
+        "range": "C84",
+        "type": "string",
+        "value": "  G&A"
+      },
+      {
+        "range": "D84:L84",
+        "type": "number"
+      },
+      {
+        "range": "N84:AW84",
+        "type": "number"
+      },
+      {
+        "range": "AY84:FB84",
+        "type": "number"
+      },
+      {
+        "range": "C85",
+        "type": "string",
+        "value": "  S&M incl 606"
+      },
+      {
+        "range": "D85:L85",
+        "type": "number"
+      },
+      {
+        "range": "N85:AW85",
+        "type": "number"
+      },
+      {
+        "range": "AY85:FB85",
+        "type": "number"
+      },
+      {
+        "range": "C87",
+        "type": "string",
+        "value": "Efficiency"
+      },
+      {
+        "range": "C88",
+        "type": "string",
+        "value": "Net New ARR"
+      },
+      {
+        "range": "D88:L88",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N88:AW88",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY88:FB88",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C89",
+        "type": "string",
+        "value": "Cash Burn per Net New ARR $"
+      },
+      {
+        "range": "D89:L89",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N89:AW89",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C90",
+        "type": "string",
+        "value": "The Rule of 40%"
+      },
+      {
+        "range": "D90:L90",
+        "type": "number"
+      },
+      {
+        "range": "Q90:AW90",
+        "type": "number"
+      },
+      {
+        "range": "BJ90:FB90",
+        "type": "number"
+      },
+      {
+        "range": "C91",
+        "type": "string",
+        "value": "Cash Burn % Rev"
+      },
+      {
+        "range": "D91:K91",
+        "type": "number"
+      },
+      {
+        "range": "N91:AW91",
+        "type": "number"
+      },
+      {
+        "range": "AY91:FB91",
+        "type": "number"
+      },
+      {
+        "range": "C92",
+        "type": "string",
+        "value": "CAC Ratio"
+      },
+      {
+        "range": "D92:L92",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O92:AW92",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BD92:FB92",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C93",
+        "type": "string",
+        "value": "Payback Period (Mo)"
+      },
+      {
+        "range": "D93:L93",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O93:AW93",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BD93:FB93",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C94",
+        "type": "string",
+        "value": "Magic Number"
+      },
+      {
+        "range": "D94:L94",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q94:AW94",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BJ94:FB94",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C97",
+        "type": "string",
+        "value": "NRR (Annual)"
+      },
+      {
+        "range": "D97:L97",
+        "type": "number"
+      },
+      {
+        "range": "Q97:AW97",
+        "type": "number"
+      },
+      {
+        "range": "AY97:FB97",
+        "type": "number"
+      },
+      {
+        "range": "C98",
+        "type": "string",
+        "value": "GRR (Annual)"
+      },
+      {
+        "range": "D98:L98",
+        "type": "number"
+      },
+      {
+        "range": "Q98:AW98",
+        "type": "number"
+      },
+      {
+        "range": "AY98:FB98",
+        "type": "number"
+      },
+      {
+        "range": "C99",
+        "type": "string",
+        "value": "Logo Churn %"
+      },
+      {
+        "range": "D99:L99",
+        "type": "number"
+      },
+      {
+        "range": "Q99:AW99",
+        "type": "number"
+      },
+      {
+        "range": "AY99:FB99",
+        "type": "number"
+      },
+      {
+        "range": "C100",
+        "type": "string",
+        "value": "ARR per Employee"
+      },
+      {
+        "range": "D100:L100",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N100:AW100",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY100:FB100",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C101",
+        "type": "string",
+        "value": "LTM Rev per Employee"
+      },
+      {
+        "range": "D101:L101",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q101:AW101",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BJ101:FB101",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C102",
+        "type": "string",
+        "value": "Op Burn % Revenue"
+      },
+      {
+        "range": "D102:L102",
+        "type": "number"
+      },
+      {
+        "range": "N102:AW102",
+        "type": "number"
+      },
+      {
+        "range": "AY102:FB102",
+        "type": "number"
+      },
+      {
+        "range": "C104",
+        "type": "string",
+        "value": "Customer Counts"
+      },
+      {
+        "range": "C106",
+        "type": "string",
+        "value": "BOP Customer"
+      },
+      {
+        "range": "D106:L106",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N106:AW106",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY106:FB106",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C107",
+        "type": "string",
+        "value": "Acquisition"
+      },
+      {
+        "range": "D107:L107",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N107:AW107",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY107:FB107",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C108",
+        "type": "string",
+        "value": "New Customer"
+      },
+      {
+        "range": "D108:L108",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N108:AW108",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY108:FB108",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C109",
+        "type": "string",
+        "value": "Churn Customer"
+      },
+      {
+        "range": "D109:L109",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N109:AW109",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY109:FB109",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C110",
+        "type": "string",
+        "value": "EOP Customer"
+      },
+      {
+        "range": "D110:L110",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N110:AW110",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY110:FB110",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C112",
+        "type": "string",
+        "value": "ARPA New"
+      },
+      {
+        "range": "D112:L112",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N112:AW112",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY112:FB112",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C113",
+        "type": "string",
+        "value": "ARPA Base"
+      },
+      {
+        "range": "D113:L113",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N113:AW113",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY113:FB113",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C114",
+        "type": "string",
+        "value": "Churn ARPA"
+      },
+      {
+        "range": "B114",
+        "type": "number"
+      },
+      {
+        "range": "D114:K114",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N114:AW114",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY114:FB114",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C119",
+        "type": "string",
+        "value": "Marketing"
+      },
+      {
+        "range": "D119:L119",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N119:AW119",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY119:FB119",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C120",
+        "type": "string",
+        "value": "Sales"
+      },
+      {
+        "range": "D120:L120",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N120:AW120",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY120:FB120",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C121",
+        "type": "string",
+        "value": "CS/TS"
+      },
+      {
+        "range": "D121:L121",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N121:AW121",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY121:FB121",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C122",
+        "type": "string",
+        "value": "PS"
+      },
+      {
+        "range": "D122:L122",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N122:AW122",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY122:FB122",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D123:L123",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N123:AW123",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY123:FB123",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C124",
+        "type": "string",
+        "value": "Product"
+      },
+      {
+        "range": "D124:L124",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N124:AW124",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY124:FB124",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D125:L125",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N125:AW125",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY125:FB125",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C126",
+        "type": "string",
+        "value": "People"
+      },
+      {
+        "range": "D126:L126",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N126:AW126",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY126:FB126",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C127",
+        "type": "string",
+        "value": "Grand Total"
+      },
+      {
+        "range": "D127:L127",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N127:AW127",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY127:FB127",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 187.49,
+      "cells_analyzed": 12354,
+      "total_ranges": 355,
+      "format_counts": {
+        "date": 5,
+        "string": 96,
+        "number": 254
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T19:47:14.694485Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "annual",
+        "increment": "1 year",
+        "start_date": "2019-01-01",
+        "pattern": "Annual series from 2019 to 2027"
+      },
+      "ds_2": {
+        "series_type": "repeating_annual",
+        "increment": "12 months (annual)",
+        "start_date": "2019-01-01",
+        "pattern": "Annual values repeating 12 times from 2019 to 2027"
+      },
+      "ds_3": {
+        "series_type": "quarterly",
+        "increment": "1 quarter",
+        "start_date": "2019-Q1",
+        "pattern": "Quarterly series from Q1 2019 to Q4 2027"
+      },
+      "ds_4": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2018-02-01",
+        "pattern": "Monthly series from 2018-02 to 2027-01"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 6,
+    "entries_moved_to_index": 12,
+    "entries_remaining": 343,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 18145,
+    "compressed_size_bytes": 17860,
+    "inverted_index_size_bytes": 303,
+    "compressed_data_size_bytes": 17557,
+    "compression_ratio": 0.984,
+    "space_saved_bytes": 285,
+    "space_saved_percent": 1.6
+  }
+}

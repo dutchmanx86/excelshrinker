@@ -1,0 +1,253 @@
+{
+  "inverted_index": {
+    "LTD": {
+      "type": "string",
+      "ranges": [
+        "B5",
+        "B13"
+      ]
+    },
+    "Mgmt": {
+      "type": "string",
+      "ranges": [
+        "B6",
+        "B14"
+      ]
+    },
+    "Inc": {
+      "type": "string",
+      "ranges": [
+        "B7",
+        "B15"
+      ]
+    },
+    "Total": {
+      "type": "string",
+      "ranges": [
+        "B10",
+        "B18"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Fixed Asset Depreciation",
+    "format_ranges": [
+      {
+        "range": "C3",
+        "type": "string",
+        "value": "Account"
+      },
+      {
+        "range": "D3",
+        "type": "string",
+        "value": "Starting Balance"
+      },
+      {
+        "range": "E3",
+        "type": "string",
+        "value": "Conversion"
+      },
+      {
+        "range": "F3",
+        "type": "string",
+        "value": "Starting Balance (USD)"
+      },
+      {
+        "range": "D5:E5",
+        "type": "number"
+      },
+      {
+        "range": "F5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E6",
+        "type": "number"
+      },
+      {
+        "range": "F6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G6:DV6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E7",
+        "type": "number"
+      },
+      {
+        "range": "F7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G7:DV7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B8",
+        "type": "string",
+        "value": "Oy"
+      },
+      {
+        "range": "C8",
+        "type": "number"
+      },
+      {
+        "range": "D8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G8:DV8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B9",
+        "type": "string",
+        "value": "Oy"
+      },
+      {
+        "range": "C9",
+        "type": "number"
+      },
+      {
+        "range": "D9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G9:DV9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F10:DV10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H14:DV14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H15:DV15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B16",
+        "type": "string",
+        "value": "Oy"
+      },
+      {
+        "range": "G16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H16:DV16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B17",
+        "type": "string",
+        "value": "Oy"
+      },
+      {
+        "range": "G17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H17:DV17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G18:DV18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B22",
+        "type": "string",
+        "value": "R&D"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 2985.23,
+      "cells_analyzed": 1355,
+      "total_ranges": 47,
+      "format_counts": {
+        "string": 17,
+        "number": 30
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T11:05:52.960238Z"
+    }
+  },
+  "compression_stats": {
+    "unique_values": 4,
+    "entries_moved_to_index": 8,
+    "entries_remaining": 39,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 2389,
+    "compressed_size_bytes": 2207,
+    "inverted_index_size_bytes": 189,
+    "compressed_data_size_bytes": 2018,
+    "compression_ratio": 0.924,
+    "space_saved_bytes": 182,
+    "space_saved_percent": 7.6
+  }
+}

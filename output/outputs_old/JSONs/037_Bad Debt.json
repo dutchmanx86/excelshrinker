@@ -1,0 +1,231 @@
+{
+  "success": true,
+  "sheet_name": "Bad Debt",
+  "format_ranges": [
+    {
+      "range": "A1",
+      "type": "string",
+      "value": "ADFDA Reconciliation 2020"
+    },
+    {
+      "range": "B4:CS4",
+      "type": "date",
+      "date_series_id": "ds_1"
+    },
+    {
+      "range": "A5",
+      "type": "string",
+      "value": "ADFA beg balance per WP"
+    },
+    {
+      "range": "B5",
+      "type": "number"
+    },
+    {
+      "range": "C5:CS5",
+      "type": "number"
+    },
+    {
+      "range": "A6",
+      "type": "string",
+      "value": "ADFA beg balance per Intacct"
+    },
+    {
+      "range": "B6",
+      "type": "number"
+    },
+    {
+      "range": "C6:CS6",
+      "type": "number",
+      "scale": 1000
+    },
+    {
+      "range": "A7",
+      "type": "string",
+      "value": "Difference"
+    },
+    {
+      "range": "B7",
+      "type": "number"
+    },
+    {
+      "range": "C7:CS7",
+      "type": "number",
+      "scale": 1000
+    },
+    {
+      "range": "A9",
+      "type": "string",
+      "value": "Invoices written-off/collected"
+    },
+    {
+      "range": "B9",
+      "type": "number"
+    },
+    {
+      "range": "C9:CS9",
+      "type": "number",
+      "scale": 1000
+    },
+    {
+      "range": "A10",
+      "type": "string",
+      "value": "AFDA balance before adj"
+    },
+    {
+      "range": "B10",
+      "type": "number"
+    },
+    {
+      "range": "C10:CS10",
+      "type": "number",
+      "scale": 1000
+    },
+    {
+      "range": "A12",
+      "type": "string",
+      "value": "A/R ending balance per Intacct"
+    },
+    {
+      "range": "B12",
+      "type": "number"
+    },
+    {
+      "range": "C12:CS12",
+      "type": "number",
+      "scale": 1000
+    },
+    {
+      "range": "A13",
+      "type": "string",
+      "value": "AFDA as % of A/R to be maintained"
+    },
+    {
+      "range": "B13",
+      "type": "number"
+    },
+    {
+      "range": "C13:CS13",
+      "type": "number",
+      "scale": 1000
+    },
+    {
+      "range": "A14",
+      "type": "string",
+      "value": "3.18% of current A/R"
+    },
+    {
+      "range": "B14",
+      "type": "number"
+    },
+    {
+      "range": "C14:CS14",
+      "type": "number"
+    },
+    {
+      "range": "A15",
+      "type": "string",
+      "value": "Less: AFDA balance before adj"
+    },
+    {
+      "range": "B15",
+      "type": "number"
+    },
+    {
+      "range": "C15:CS15",
+      "type": "number",
+      "scale": 1000
+    },
+    {
+      "range": "B16",
+      "type": "number"
+    },
+    {
+      "range": "C16:CS16",
+      "type": "number",
+      "scale": 1000
+    },
+    {
+      "range": "A17",
+      "type": "string",
+      "value": "Amount to be added to AFDA"
+    },
+    {
+      "range": "B17",
+      "type": "number"
+    },
+    {
+      "range": "C17:CS17",
+      "type": "number",
+      "scale": 1000
+    },
+    {
+      "range": "A18",
+      "type": "string",
+      "value": "AFDA end balance per WP"
+    },
+    {
+      "range": "B18",
+      "type": "number"
+    },
+    {
+      "range": "C18:CS18",
+      "type": "number",
+      "scale": 1000
+    },
+    {
+      "range": "A19",
+      "type": "string",
+      "value": "ADFA end balance per Intacct"
+    },
+    {
+      "range": "B19",
+      "type": "number"
+    },
+    {
+      "range": "C19:CS19",
+      "type": "number",
+      "scale": 1000
+    },
+    {
+      "range": "A20",
+      "type": "string",
+      "value": "Difference"
+    },
+    {
+      "range": "B20",
+      "type": "number"
+    },
+    {
+      "range": "C20:CS20",
+      "type": "number",
+      "scale": 1000
+    },
+    {
+      "range": "J23",
+      "type": "string",
+      "value": "Higher of specific allowance or 3.18% of AR"
+    }
+  ],
+  "statistics": {
+    "processing_time_ms": 2970.21,
+    "cells_analyzed": 1455,
+    "total_ranges": 44,
+    "format_counts": {
+      "string": 15,
+      "date": 1,
+      "number": 28
+    }
+  },
+  "metadata": {
+    "detected_at": "2025-10-13T21:35:49.897677Z"
+  },
+  "date_series_definitions": {
+    "ds_1": {
+      "series_type": "monthly",
+      "increment": "1 month",
+      "start_date": "2020-01-01",
+      "pattern": "Monthly series from 2020-01 to 2027-12"
+    }
+  }
+}

@@ -1,0 +1,1469 @@
+{
+  "inverted_index": {
+    "% of Wages": {
+      "type": "string",
+      "ranges": [
+        "B17",
+        "B22",
+        "B26",
+        "B32",
+        "B38",
+        "B46"
+      ]
+    },
+    "Cost Per Head": {
+      "type": "string",
+      "ranges": [
+        "B42",
+        "B55",
+        "B60",
+        "B79",
+        "B84",
+        "B96",
+        "B104",
+        "B109",
+        "B116",
+        "B121",
+        "B126",
+        "B131",
+        "B141",
+        "B161",
+        "B170",
+        "B179",
+        "B188",
+        "B197",
+        "B206",
+        "B215",
+        "B237",
+        "B242",
+        "B247",
+        "B252",
+        "B257",
+        "B262",
+        "B269",
+        "B274",
+        "B279",
+        "B284",
+        "B289",
+        "B294",
+        "B299",
+        "B304",
+        "B309",
+        "B319",
+        "B324",
+        "B332",
+        "B337",
+        "B353",
+        "B361",
+        "B366",
+        "B371",
+        "B376",
+        "B383",
+        "B388",
+        "B393",
+        "B398",
+        "B403"
+      ]
+    },
+    "Sales Worker Compensation": {
+      "type": "string",
+      "ranges": [
+        "B47",
+        "B51",
+        "B56",
+        "B61"
+      ]
+    },
+    "Headcount": {
+      "type": "string",
+      "ranges": [
+        "B54",
+        "B59",
+        "B78",
+        "B83",
+        "B95",
+        "B103",
+        "B108",
+        "B115",
+        "B120",
+        "B125",
+        "B130",
+        "B140",
+        "B220",
+        "B236",
+        "B241",
+        "B246",
+        "B251",
+        "B256",
+        "B261",
+        "B268",
+        "B273",
+        "B278",
+        "B283",
+        "B288",
+        "B293",
+        "B298",
+        "B303",
+        "B308",
+        "B318",
+        "B323",
+        "B331",
+        "B336",
+        "B341",
+        "B352",
+        "B360",
+        "B365",
+        "B370",
+        "B375",
+        "B382",
+        "B387",
+        "B392",
+        "B397",
+        "B402"
+      ]
+    },
+    "Corporate/IR AE": {
+      "type": "string",
+      "ranges": [
+        "B147",
+        "B156",
+        "B165",
+        "B174",
+        "B183",
+        "B192",
+        "B201",
+        "B210"
+      ]
+    },
+    "Corporate/IR AM": {
+      "type": "string",
+      "ranges": [
+        "B148",
+        "B157",
+        "B166",
+        "B175",
+        "B184",
+        "B193",
+        "B202",
+        "B211"
+      ]
+    },
+    "Financial Services AE": {
+      "type": "string",
+      "ranges": [
+        "B149",
+        "B158",
+        "B167",
+        "B176",
+        "B185",
+        "B194",
+        "B203",
+        "B212"
+      ]
+    },
+    "Financial Services AM": {
+      "type": "string",
+      "ranges": [
+        "B150",
+        "B159",
+        "B168",
+        "B177",
+        "B186",
+        "B195",
+        "B204",
+        "B213"
+      ]
+    },
+    "Sales Management": {
+      "type": "string",
+      "ranges": [
+        "B151",
+        "B160",
+        "B169",
+        "B178",
+        "B187",
+        "B196",
+        "B205",
+        "B214"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Sales",
+    "format_ranges": [
+      {
+        "range": "B1",
+        "type": "string",
+        "value": "AlphaSense, Inc."
+      },
+      {
+        "range": "B2",
+        "type": "string",
+        "value": "Operating Expenses Reorganization"
+      },
+      {
+        "range": "E2:Q2",
+        "type": "number"
+      },
+      {
+        "range": "T2:FS2",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "B3",
+        "type": "string",
+        "value": "1 - Base - $25mm"
+      },
+      {
+        "range": "A5",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B5",
+        "type": "string",
+        "value": "Sales Operating Expenses Summary"
+      },
+      {
+        "range": "B7",
+        "type": "string",
+        "value": "Total Sales Expense"
+      },
+      {
+        "range": "I7:Q7",
+        "type": "number"
+      },
+      {
+        "range": "A9",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B9",
+        "type": "string",
+        "value": "Total Sales People Costs"
+      },
+      {
+        "range": "I9:Q9",
+        "type": "number"
+      },
+      {
+        "range": "B12",
+        "type": "string",
+        "value": "Wages"
+      },
+      {
+        "range": "B13",
+        "type": "string",
+        "value": "Sales"
+      },
+      {
+        "range": "I13:Q13",
+        "type": "number"
+      },
+      {
+        "range": "B14",
+        "type": "string",
+        "value": "Sales Wages"
+      },
+      {
+        "range": "I14:Q14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B16",
+        "type": "string",
+        "value": "Salaries Working Abroad"
+      },
+      {
+        "range": "B18",
+        "type": "string",
+        "value": "Sales Salaries Working Abroad"
+      },
+      {
+        "range": "I18:Q18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B21",
+        "type": "string",
+        "value": "Holiday Pay"
+      },
+      {
+        "range": "B23",
+        "type": "string",
+        "value": "Sales Holiday Pay"
+      },
+      {
+        "range": "I23:Q23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B25",
+        "type": "string",
+        "value": "Additional Holiday Pay"
+      },
+      {
+        "range": "B27",
+        "type": "string",
+        "value": "Sales Additional Holiday Pay"
+      },
+      {
+        "range": "I27:Q27",
+        "type": "number"
+      },
+      {
+        "range": "B31",
+        "type": "string",
+        "value": "Sick Leave"
+      },
+      {
+        "range": "B33",
+        "type": "string",
+        "value": "Sales Sick Leave"
+      },
+      {
+        "range": "I33:Q33",
+        "type": "number"
+      },
+      {
+        "range": "B35",
+        "type": "string",
+        "value": "Commission Expense"
+      },
+      {
+        "range": "I35:Q35",
+        "type": "number"
+      },
+      {
+        "range": "B37",
+        "type": "string",
+        "value": "Bonus"
+      },
+      {
+        "range": "B39",
+        "type": "string",
+        "value": "Sales Bonus"
+      },
+      {
+        "range": "I39:Q39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J40:Q40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B41",
+        "type": "string",
+        "value": "Benefits"
+      },
+      {
+        "range": "B43",
+        "type": "string",
+        "value": "Sales Benefits"
+      },
+      {
+        "range": "I43:Q43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B45",
+        "type": "string",
+        "value": "Work Compensation"
+      },
+      {
+        "range": "I47:Q47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B49",
+        "type": "string",
+        "value": "Payroll Taxes"
+      },
+      {
+        "range": "B50",
+        "type": "string",
+        "value": "% of Wages, Commission, & Bonus"
+      },
+      {
+        "range": "I51:Q51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B53",
+        "type": "string",
+        "value": "Finish Side Costs"
+      },
+      {
+        "range": "I56:Q56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B58",
+        "type": "string",
+        "value": "Share Based Compensation"
+      },
+      {
+        "range": "I61:Q61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B63",
+        "type": "string",
+        "value": "Recruiting Fees"
+      },
+      {
+        "range": "B80",
+        "type": "string",
+        "value": "Sales Recruiting Fees"
+      },
+      {
+        "range": "I80:Q80",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B82",
+        "type": "string",
+        "value": "Relocation"
+      },
+      {
+        "range": "B85",
+        "type": "string",
+        "value": "Sales Relocation"
+      },
+      {
+        "range": "I85:Q85",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B87",
+        "type": "string",
+        "value": "Contractors"
+      },
+      {
+        "range": "B90",
+        "type": "string",
+        "value": "Contractor Cost"
+      },
+      {
+        "range": "B91",
+        "type": "string",
+        "value": "Sales Contractors"
+      },
+      {
+        "range": "I91:Q91",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B94",
+        "type": "string",
+        "value": "Outsourced R&D"
+      },
+      {
+        "range": "B97",
+        "type": "string",
+        "value": "Sales Outsourced R&D"
+      },
+      {
+        "range": "I97:Q97",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B99",
+        "type": "string",
+        "value": "Capitalized Wages"
+      },
+      {
+        "range": "B100",
+        "type": "string",
+        "value": "Sales Capitalized Wages"
+      },
+      {
+        "range": "B102",
+        "type": "string",
+        "value": "Capitalized Outsourced R&D"
+      },
+      {
+        "range": "B105",
+        "type": "string",
+        "value": "Sales Capitalized Outsourced R&D"
+      },
+      {
+        "range": "I105:Q105",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B107",
+        "type": "string",
+        "value": "Capitalized R&D"
+      },
+      {
+        "range": "B110",
+        "type": "string",
+        "value": "Sales Capitalized R&D"
+      },
+      {
+        "range": "I110:Q110",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A112",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B112",
+        "type": "string",
+        "value": "Total Sales Other Employee Costs"
+      },
+      {
+        "range": "I112:Q112",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B114",
+        "type": "string",
+        "value": "Celluar Phone Service"
+      },
+      {
+        "range": "B117",
+        "type": "string",
+        "value": "Sales Celluar Phone Service"
+      },
+      {
+        "range": "I117:Q117",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B119",
+        "type": "string",
+        "value": "Home Internet Service"
+      },
+      {
+        "range": "B122",
+        "type": "string",
+        "value": "Sales Home Internet Service"
+      },
+      {
+        "range": "I122:Q122",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B124",
+        "type": "string",
+        "value": "Home Office Phone"
+      },
+      {
+        "range": "B127",
+        "type": "string",
+        "value": "Sales Home Office Phone"
+      },
+      {
+        "range": "I127:Q127",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B129",
+        "type": "string",
+        "value": "Home Office"
+      },
+      {
+        "range": "B132",
+        "type": "string",
+        "value": "Sales Home Office"
+      },
+      {
+        "range": "I132:Q132",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B136",
+        "type": "string",
+        "value": "Membership Dues"
+      },
+      {
+        "range": "B137",
+        "type": "string",
+        "value": "Sales Membership Dues"
+      },
+      {
+        "range": "I137:Q137",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B139",
+        "type": "string",
+        "value": "Subscriptions"
+      },
+      {
+        "range": "B142",
+        "type": "string",
+        "value": "Sales Subscriptions"
+      },
+      {
+        "range": "I142:Q142",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A144",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B144",
+        "type": "string",
+        "value": "Total Sales Travel Costs"
+      },
+      {
+        "range": "I144:Q144",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B145",
+        "type": "string",
+        "value": "Adjustment"
+      },
+      {
+        "range": "B146",
+        "type": "string",
+        "value": "Airfare/Train"
+      },
+      {
+        "range": "B152",
+        "type": "string",
+        "value": "Cost Per Corporate/IR AE"
+      },
+      {
+        "range": "B153",
+        "type": "string",
+        "value": "Sales Airfare/Train"
+      },
+      {
+        "range": "I153:Q153",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B155",
+        "type": "string",
+        "value": "Auto/Cab"
+      },
+      {
+        "range": "B162",
+        "type": "string",
+        "value": "Sales Auto/Cab"
+      },
+      {
+        "range": "I162:Q162",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B164",
+        "type": "string",
+        "value": "Mileage"
+      },
+      {
+        "range": "B171",
+        "type": "string",
+        "value": "Sales Mileage"
+      },
+      {
+        "range": "I171:Q171",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B173",
+        "type": "string",
+        "value": "Lodging"
+      },
+      {
+        "range": "B180",
+        "type": "string",
+        "value": "Sales Lodging"
+      },
+      {
+        "range": "I180:Q180",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B182",
+        "type": "string",
+        "value": "Travel Internet"
+      },
+      {
+        "range": "B189",
+        "type": "string",
+        "value": "Sales Travel Internet"
+      },
+      {
+        "range": "I189:Q189",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B191",
+        "type": "string",
+        "value": "Employee Meals / Entertainment"
+      },
+      {
+        "range": "B198",
+        "type": "string",
+        "value": "Sales Employee Meals / Entertainment"
+      },
+      {
+        "range": "I198:Q198",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B200",
+        "type": "string",
+        "value": "Daily Meal Allowance When Abroad"
+      },
+      {
+        "range": "B207",
+        "type": "string",
+        "value": "Content Daily Mail Allowance When Abroad"
+      },
+      {
+        "range": "I207:Q207",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B209",
+        "type": "string",
+        "value": "Business Meals / Entertainment"
+      },
+      {
+        "range": "B216",
+        "type": "string",
+        "value": "Sales Business Meals / Entertainment"
+      },
+      {
+        "range": "I216:Q216",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B219",
+        "type": "string",
+        "value": "Internal Events"
+      },
+      {
+        "range": "B221",
+        "type": "string",
+        "value": "SKO Cost Per Head"
+      },
+      {
+        "range": "B222",
+        "type": "string",
+        "value": "Total SKO Cost"
+      },
+      {
+        "range": "B223",
+        "type": "string",
+        "value": "President's Club Cost Per Head"
+      },
+      {
+        "range": "B224",
+        "type": "string",
+        "value": "% of Sales Attendees"
+      },
+      {
+        "range": "B225",
+        "type": "string",
+        "value": "Total Presiden's Club Cost"
+      },
+      {
+        "range": "B226",
+        "type": "string",
+        "value": "Sales Internal Events"
+      },
+      {
+        "range": "I226:Q226",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A228",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B228",
+        "type": "string",
+        "value": "Total Sales Facility Costs"
+      },
+      {
+        "range": "I228:Q228",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B230",
+        "type": "string",
+        "value": "Rent"
+      },
+      {
+        "range": "B231",
+        "type": "string",
+        "value": "% of Headcount"
+      },
+      {
+        "range": "B232",
+        "type": "string",
+        "value": "Monthly Rent"
+      },
+      {
+        "range": "B233",
+        "type": "string",
+        "value": "Sales Rent"
+      },
+      {
+        "range": "I233:Q233",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B235",
+        "type": "string",
+        "value": "CAM"
+      },
+      {
+        "range": "B238",
+        "type": "string",
+        "value": "Sales CAM"
+      },
+      {
+        "range": "I238:Q238",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B240",
+        "type": "string",
+        "value": "Repairs & Maintenance"
+      },
+      {
+        "range": "B243",
+        "type": "string",
+        "value": "Sales Repairs & Maintenance"
+      },
+      {
+        "range": "I243:Q243",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B245",
+        "type": "string",
+        "value": "Amortization of Leasehold Improvements"
+      },
+      {
+        "range": "B248",
+        "type": "string",
+        "value": "Sales Amortization of Leasehold Improvements"
+      },
+      {
+        "range": "I248:Q248",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B250",
+        "type": "string",
+        "value": "Utilities"
+      },
+      {
+        "range": "B253",
+        "type": "string",
+        "value": "Sales Utilities"
+      },
+      {
+        "range": "I253:Q253",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B255",
+        "type": "string",
+        "value": "Telephone"
+      },
+      {
+        "range": "B258",
+        "type": "string",
+        "value": "Sales Telephone"
+      },
+      {
+        "range": "I258:Q258",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B260",
+        "type": "string",
+        "value": "Computer & Internet"
+      },
+      {
+        "range": "B263",
+        "type": "string",
+        "value": "Sales Computer & Internet"
+      },
+      {
+        "range": "I263:Q263",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A265",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B265",
+        "type": "string",
+        "value": "Total Sales Marketing"
+      },
+      {
+        "range": "I265:Q265",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B267",
+        "type": "string",
+        "value": "Advertising & Promotion"
+      },
+      {
+        "range": "B270",
+        "type": "string",
+        "value": "Sales Advertising & Promotion"
+      },
+      {
+        "range": "I270:Q270",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B272",
+        "type": "string",
+        "value": "Other Marketing"
+      },
+      {
+        "range": "B275",
+        "type": "string",
+        "value": "Sales Other Marketing"
+      },
+      {
+        "range": "I275:Q275",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B277",
+        "type": "string",
+        "value": "Omarketing Research"
+      },
+      {
+        "range": "B280",
+        "type": "string",
+        "value": "Sales Omarketing Research"
+      },
+      {
+        "range": "I280:Q280",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B282",
+        "type": "string",
+        "value": "Marketing Events"
+      },
+      {
+        "range": "B285",
+        "type": "string",
+        "value": "Sales Marketing Events"
+      },
+      {
+        "range": "I285:Q285",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B287",
+        "type": "string",
+        "value": "Public Relations"
+      },
+      {
+        "range": "B290",
+        "type": "string",
+        "value": "Sales Public Relations"
+      },
+      {
+        "range": "I290:Q290",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B292",
+        "type": "string",
+        "value": "Paid Search"
+      },
+      {
+        "range": "B295",
+        "type": "string",
+        "value": "Sales Paid Search"
+      },
+      {
+        "range": "I295:Q295",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B297",
+        "type": "string",
+        "value": "Paid Social"
+      },
+      {
+        "range": "B300",
+        "type": "string",
+        "value": "Sales Paid Social"
+      },
+      {
+        "range": "I300:Q300",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B302",
+        "type": "string",
+        "value": "Paid Display"
+      },
+      {
+        "range": "B305",
+        "type": "string",
+        "value": "Sales Paid Display"
+      },
+      {
+        "range": "I305:Q305",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B307",
+        "type": "string",
+        "value": "Paid SWAG"
+      },
+      {
+        "range": "B310",
+        "type": "string",
+        "value": "Sales SWAG"
+      },
+      {
+        "range": "I310:Q310",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A312",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B312",
+        "type": "string",
+        "value": "Total Sales General & Admin"
+      },
+      {
+        "range": "I312:Q312",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B314",
+        "type": "string",
+        "value": "Insurance"
+      },
+      {
+        "range": "B315",
+        "type": "string",
+        "value": "Sales Insurance"
+      },
+      {
+        "range": "I315:Q315",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B317",
+        "type": "string",
+        "value": "Payroll & Benefit Admin"
+      },
+      {
+        "range": "B320",
+        "type": "string",
+        "value": "Sales Payroll & Benefit Admin"
+      },
+      {
+        "range": "I320:Q320",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B322",
+        "type": "string",
+        "value": "Postage & Delivery"
+      },
+      {
+        "range": "B325",
+        "type": "string",
+        "value": "Sales Postage & Delivery"
+      },
+      {
+        "range": "I325:Q325",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B327",
+        "type": "string",
+        "value": "Conferences & Meetings"
+      },
+      {
+        "range": "B328",
+        "type": "string",
+        "value": "Sales Conference & Meetings"
+      },
+      {
+        "range": "I328:Q328",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B330",
+        "type": "string",
+        "value": "Furniture"
+      },
+      {
+        "range": "B333",
+        "type": "string",
+        "value": "Sales Furniture"
+      },
+      {
+        "range": "I333:Q333",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B335",
+        "type": "string",
+        "value": "Hardware"
+      },
+      {
+        "range": "B338",
+        "type": "string",
+        "value": "Sales Hardware"
+      },
+      {
+        "range": "I338:Q338",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B340",
+        "type": "string",
+        "value": "Software"
+      },
+      {
+        "range": "B342",
+        "type": "string",
+        "value": "Clearbit"
+      },
+      {
+        "range": "B343",
+        "type": "string",
+        "value": "Leandata"
+      },
+      {
+        "range": "B344",
+        "type": "string",
+        "value": "Rekener"
+      },
+      {
+        "range": "B345",
+        "type": "string",
+        "value": "Chorus"
+      },
+      {
+        "range": "B346",
+        "type": "string",
+        "value": "Ipreo"
+      },
+      {
+        "range": "B347",
+        "type": "string",
+        "value": "Salesforce"
+      },
+      {
+        "range": "B348",
+        "type": "string",
+        "value": "Salesforce Cost Per Head"
+      },
+      {
+        "range": "B349",
+        "type": "string",
+        "value": "Sales Software"
+      },
+      {
+        "range": "I349:Q349",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B351",
+        "type": "string",
+        "value": "Office Supplies"
+      },
+      {
+        "range": "B354",
+        "type": "string",
+        "value": "Sales Office Supplies"
+      },
+      {
+        "range": "I354:Q354",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B356",
+        "type": "string",
+        "value": "Audit & Tax"
+      },
+      {
+        "range": "B357",
+        "type": "string",
+        "value": "Sales Audit & Tax"
+      },
+      {
+        "range": "I357:Q357",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B359",
+        "type": "string",
+        "value": "Bank Fees"
+      },
+      {
+        "range": "B362",
+        "type": "string",
+        "value": "Sales Bank Fees"
+      },
+      {
+        "range": "I362:Q362",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B364",
+        "type": "string",
+        "value": "Professional Services"
+      },
+      {
+        "range": "B367",
+        "type": "string",
+        "value": "Sales Professional Services"
+      },
+      {
+        "range": "I367:Q367",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B369",
+        "type": "string",
+        "value": "Fundraising"
+      },
+      {
+        "range": "B372",
+        "type": "string",
+        "value": "Sales Fundraising"
+      },
+      {
+        "range": "I372:Q372",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B374",
+        "type": "string",
+        "value": "Miscellaneous"
+      },
+      {
+        "range": "B377",
+        "type": "string",
+        "value": "Sales Miscellaneous"
+      },
+      {
+        "range": "I377:Q377",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A379",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B379",
+        "type": "string",
+        "value": "Total Sales Other Costs"
+      },
+      {
+        "range": "I379:Q379",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B381",
+        "type": "string",
+        "value": "Legal Fees"
+      },
+      {
+        "range": "B384",
+        "type": "string",
+        "value": "Sales Legal Fees"
+      },
+      {
+        "range": "I384:Q384",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B386",
+        "type": "string",
+        "value": "DataFeeds"
+      },
+      {
+        "range": "B389",
+        "type": "string",
+        "value": "Sales DataFeeds"
+      },
+      {
+        "range": "I389:Q389",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B391",
+        "type": "string",
+        "value": "Web Service"
+      },
+      {
+        "range": "B394",
+        "type": "string",
+        "value": "Sales Web Service"
+      },
+      {
+        "range": "I394:Q394",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B396",
+        "type": "string",
+        "value": "Penalties"
+      },
+      {
+        "range": "B399",
+        "type": "string",
+        "value": "Sales Penalties"
+      },
+      {
+        "range": "I399:Q399",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B401",
+        "type": "string",
+        "value": "Bad Debt"
+      },
+      {
+        "range": "B404",
+        "type": "string",
+        "value": "Sales Bad Debt"
+      },
+      {
+        "range": "I404:Q404",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 3097.67,
+      "cells_analyzed": 1048,
+      "total_ranges": 391,
+      "format_counts": {
+        "string": 312,
+        "number": 78,
+        "date": 1
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-14T01:54:37.797157Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2015-01-31",
+        "pattern": "Monthly series from 2015-01 to 2027-12"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 9,
+    "entries_moved_to_index": 142,
+    "entries_remaining": 249,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 22715,
+    "compressed_size_bytes": 16007,
+    "inverted_index_size_bytes": 1407,
+    "compressed_data_size_bytes": 14600,
+    "compression_ratio": 0.705,
+    "space_saved_bytes": 6708,
+    "space_saved_percent": 29.5
+  }
+}

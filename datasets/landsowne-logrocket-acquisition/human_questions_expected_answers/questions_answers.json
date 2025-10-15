@@ -1,0 +1,63 @@
+{
+  "dataset": "landsowne-logrocket-acquisition",
+  "created": "2025-09-19",
+  "questions": [
+    {
+      "id": "q1_logrocket_cash_burn_2022",
+      "category": "data_retrieval",
+      "question": "What does cash burn look like by quarter for Logrocket in 2022?",
+      "answer": "$(3,261), $(3,015), $(3,038), $(2,632)",
+      "location_notes": {
+        "primary_sources": [
+          {
+            "sheet": "Cash Summary",
+            "description": "Contains quarterly cash burn data for LogRocket"
+          },
+          {
+            "sheet": "Merger Model",
+            "description": "Contains cash flow data for LogRocket specifically"
+          },
+          {
+            "sheet": "Functional P&L",
+            "description": "Contains P&L data that feeds into cash calculations"
+          }
+        ],
+        "important_notes": {
+          "company_separation": "Must distinguish LogRocket from Pendo data - file contains both companies",
+          "false_positives": "The 'Forecast' tab contains Pendo cashflow only and should be avoided for LogRocket queries",
+          "merger_model_caveat": "Merger Model tab contains cash summaries for Pendo as well"
+        }
+      }
+    },
+    {
+      "id": "q2_combined_headcount_ye2023",
+      "category": "data_retrieval",
+      "question": "What is combined company headcount for YE 2023?",
+      "answer": "LogRocket 139 + Pendo 1,146 = 1,285",
+      "location_notes": {
+        "primary_sources": [
+          {
+            "sheet": "Expense Build",
+            "description": "Contains LogRocket headcount data"
+          },
+          {
+            "sheet": "Forecast",
+            "description": "Contains Pendo headcount data"
+          },
+          {
+            "sheet": "Merger Model",
+            "description": "Should contain combined headcount but has an error"
+          }
+        ],
+        "data_quality_issues": {
+          "merger_model_error": "The Merger Model has an error where it only pulls in Pendo headcount (1,146) and doesn't add LogRocket (139), though it should show the combined total of 1,285"
+        },
+        "calculation": {
+          "logrocket_headcount": 139,
+          "pendo_headcount": 1146,
+          "combined_total": 1285
+        }
+      }
+    }
+  ]
+}

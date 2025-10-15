@@ -1,0 +1,760 @@
+{
+  "inverted_index": {
+    "Content": {
+      "type": "string",
+      "ranges": [
+        "B3",
+        "B13",
+        "B23"
+      ]
+    },
+    "Engineering (ex India)": {
+      "type": "string",
+      "ranges": [
+        "B4",
+        "B14",
+        "B24"
+      ]
+    },
+    "Executive": {
+      "type": "string",
+      "ranges": [
+        "B5",
+        "B15",
+        "B25"
+      ]
+    },
+    "Finance & Admin": {
+      "type": "string",
+      "ranges": [
+        "B6",
+        "B16",
+        "B26"
+      ]
+    },
+    "Marketing": {
+      "type": "string",
+      "ranges": [
+        "B7",
+        "B17",
+        "B27"
+      ]
+    },
+    "Product": {
+      "type": "string",
+      "ranges": [
+        "B8",
+        "B18",
+        "B28"
+      ]
+    },
+    "VP Bus Dev": {
+      "type": "string",
+      "ranges": [
+        "B9",
+        "B19",
+        "B29"
+      ]
+    },
+    "Engineering (India)": {
+      "type": "string",
+      "ranges": [
+        "B10",
+        "B20",
+        "B30"
+      ]
+    },
+    "CRO": {
+      "type": "string",
+      "ranges": [
+        "B44",
+        "B67"
+      ]
+    },
+    "Product Specialist": {
+      "type": "string",
+      "ranges": [
+        "B46",
+        "B77"
+      ]
+    },
+    "Sales Operations Manager": {
+      "type": "string",
+      "ranges": [
+        "B49",
+        "B82"
+      ]
+    },
+    "Sales Manager": {
+      "type": "string",
+      "ranges": [
+        "B51",
+        "B68"
+      ]
+    },
+    "Operations": {
+      "type": "string",
+      "ranges": [
+        "B54",
+        "B79"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Salary Support",
+    "format_ranges": [
+      {
+        "range": "A1",
+        "type": "string",
+        "value": "Department"
+      },
+      {
+        "range": "CK1",
+        "type": "string",
+        "value": "R&D"
+      },
+      {
+        "range": "CN1",
+        "type": "string",
+        "value": "G&A"
+      },
+      {
+        "range": "CQ1",
+        "type": "string",
+        "value": "Mktg"
+      },
+      {
+        "range": "D1:CI1",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "CY1:GD1",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "A2",
+        "type": "string",
+        "value": "Salary"
+      },
+      {
+        "range": "BW2",
+        "type": "string",
+        "value": "2020 Budget"
+      },
+      {
+        "range": "D3:CI3",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CK3:CV3",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D4:BH4",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BI4:BS4",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BT4:CI4",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CK4:CV4",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D5:CI5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D6:CI6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CK6:CV6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D7:BH7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BI7:BS7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BT7:CI7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CK7:CV7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D8:BH8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BI8:BS8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BT8:CI8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CK8:CV8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D9:BH9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BI10:BS10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BT10:CI10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CK10:CV10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BL13:BW13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BL14:BW14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CL14",
+        "type": "number"
+      },
+      {
+        "range": "BL15:BW15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CL15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BL16:BW16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CL16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BL17:BW17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CL17",
+        "type": "number"
+      },
+      {
+        "range": "BL18:BW18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BL20:BW20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D23:BW23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D24:BH24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BI24:BN24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BO24:BW24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D25:BW25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D26:BW26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D27:BH27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BI27:BN27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BO27:BW27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D28:BH28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BI28:BN28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BO28:BW28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D29:BH29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BI30:BN30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BO30:BW30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B38",
+        "type": "string",
+        "value": "Account Manager"
+      },
+      {
+        "range": "D38:BH38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B39",
+        "type": "string",
+        "value": "Account Manager - Corp"
+      },
+      {
+        "range": "D39:BH39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B40",
+        "type": "string",
+        "value": "Account Executive - Financial"
+      },
+      {
+        "range": "D40:BH40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BK40",
+        "type": "string",
+        "value": "15 offers"
+      },
+      {
+        "range": "BL40:BW40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B41",
+        "type": "string",
+        "value": "Account Executive - Corporate"
+      },
+      {
+        "range": "D41:BH41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B42",
+        "type": "string",
+        "value": "Account Executive - Enterprise"
+      },
+      {
+        "range": "D42:BH42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B43",
+        "type": "string",
+        "value": "Account Executive - Other"
+      },
+      {
+        "range": "D43:BH43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D44:BH44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B45",
+        "type": "string",
+        "value": "Manager - Corporate"
+      },
+      {
+        "range": "D45:BH45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D46:BH46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B47",
+        "type": "string",
+        "value": "Product Specialist - Manager"
+      },
+      {
+        "range": "D47:BH47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B48",
+        "type": "string",
+        "value": "Admin"
+      },
+      {
+        "range": "D48:BH48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D49:BH49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B50",
+        "type": "string",
+        "value": "Sales Development Rep"
+      },
+      {
+        "range": "D50:BH50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D51:BH51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B52",
+        "type": "string",
+        "value": "Sales Recruiter"
+      },
+      {
+        "range": "D52:BH52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D54:AK54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B57",
+        "type": "string",
+        "value": "FX RATE"
+      },
+      {
+        "range": "AL57:AV57",
+        "type": "number"
+      },
+      {
+        "range": "AW57:BD57",
+        "type": "number"
+      },
+      {
+        "range": "B60",
+        "type": "string",
+        "value": "Quota Sales Reps"
+      },
+      {
+        "range": "B61",
+        "type": "string",
+        "value": "AE - Financial (Quota)"
+      },
+      {
+        "range": "BI61:BM61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B62",
+        "type": "string",
+        "value": "AE - Corporate (Quota)"
+      },
+      {
+        "range": "BI62:BM62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B63",
+        "type": "string",
+        "value": "AM - Financial (Quota)"
+      },
+      {
+        "range": "BI63:BM63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B64",
+        "type": "string",
+        "value": "VP Partnerships (Quota)"
+      },
+      {
+        "range": "BI64:BM64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B66",
+        "type": "string",
+        "value": "Sales Team"
+      },
+      {
+        "range": "BI67:BM67",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BI68:BM68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B69",
+        "type": "string",
+        "value": "SDR Manager"
+      },
+      {
+        "range": "BI69:BM69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B70",
+        "type": "string",
+        "value": "SDR"
+      },
+      {
+        "range": "BI70:BM70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B72",
+        "type": "string",
+        "value": "Customer Success"
+      },
+      {
+        "range": "B73",
+        "type": "string",
+        "value": "CS Manager"
+      },
+      {
+        "range": "BI73:BM73",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B74",
+        "type": "string",
+        "value": "AM - Financial"
+      },
+      {
+        "range": "BI74:BM74",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B75",
+        "type": "string",
+        "value": "AM - Corporate"
+      },
+      {
+        "range": "BI75:BM75",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B76",
+        "type": "string",
+        "value": "PS Manager"
+      },
+      {
+        "range": "BI76:BM76",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BI77:BM77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B80",
+        "type": "string",
+        "value": "Enablement Manager"
+      },
+      {
+        "range": "BI80:BM80",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B81",
+        "type": "string",
+        "value": "Sales Admin"
+      },
+      {
+        "range": "BI81:BM81",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BI82:BM82",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B83",
+        "type": "string",
+        "value": "Sales Operations"
+      },
+      {
+        "range": "BI83:BM83",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B85",
+        "type": "string",
+        "value": "Business Development"
+      },
+      {
+        "range": "B86",
+        "type": "string",
+        "value": "GTM Strategy"
+      },
+      {
+        "range": "BI86:BM86",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 1414.43,
+      "cells_analyzed": 2417,
+      "total_ranges": 157,
+      "format_counts": {
+        "string": 71,
+        "date": 2,
+        "number": 84
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T11:05:10.214567Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2015-01-01",
+        "pattern": "Monthly series from 2015-01 to 2021-12"
+      },
+      "ds_2": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2021-01-31",
+        "pattern": "Monthly series from 2021-01 to 2027-12"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 13,
+    "entries_moved_to_index": 34,
+    "entries_remaining": 123,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 8846,
+    "compressed_size_bytes": 7741,
+    "inverted_index_size_bytes": 780,
+    "compressed_data_size_bytes": 6961,
+    "compression_ratio": 0.875,
+    "space_saved_bytes": 1105,
+    "space_saved_percent": 12.5
+  }
+}

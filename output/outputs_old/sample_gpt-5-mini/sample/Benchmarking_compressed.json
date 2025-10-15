@@ -1,0 +1,660 @@
+{
+  "inverted_index": {
+    "% Growth": {
+      "type": "string",
+      "ranges": [
+        "C5",
+        "C8",
+        "C24",
+        "C33",
+        "C36",
+        "C52"
+      ]
+    },
+    "COGS": {
+      "type": "string",
+      "ranges": [
+        "C7",
+        "C47",
+        "C53",
+        "C59"
+      ]
+    },
+    "% Margin": {
+      "type": "string",
+      "ranges": [
+        "C9",
+        "C25",
+        "C39",
+        "C42"
+      ]
+    },
+    "Sales and Marketing": {
+      "type": "string",
+      "ranges": [
+        "C11",
+        "C48",
+        "C54",
+        "C60"
+      ]
+    },
+    "% Growth ": {
+      "type": "string",
+      "ranges": [
+        "C12",
+        "C16",
+        "C20"
+      ]
+    },
+    "% of Revenue": {
+      "type": "string",
+      "ranges": [
+        "C13",
+        "C17",
+        "C21",
+        "C58"
+      ]
+    },
+    "G&A": {
+      "type": "string",
+      "ranges": [
+        "C15",
+        "C49",
+        "C55",
+        "C61"
+      ]
+    },
+    "R&D": {
+      "type": "string",
+      "ranges": [
+        "C19",
+        "C50",
+        "C56",
+        "C62"
+      ]
+    },
+    "EBITDA": {
+      "type": "string",
+      "ranges": [
+        "C23",
+        "C41"
+      ]
+    },
+    "Revenue(1)": {
+      "type": "string",
+      "ranges": [
+        "C28",
+        "C32",
+        "C35"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Benchmarking",
+    "format_ranges": [
+      {
+        "range": "B1",
+        "type": "string",
+        "value": "1 - Base - $25mm"
+      },
+      {
+        "range": "D1",
+        "type": "string",
+        "value": "AlphaSense"
+      },
+      {
+        "range": "H2",
+        "type": "string",
+        "value": "Average"
+      },
+      {
+        "range": "D2:G2",
+        "type": "number"
+      },
+      {
+        "range": "I2",
+        "type": "string",
+        "value": "Workday"
+      },
+      {
+        "range": "J2",
+        "type": "string",
+        "value": "Salesforce"
+      },
+      {
+        "range": "K2",
+        "type": "string",
+        "value": "ServiceNow"
+      },
+      {
+        "range": "L2",
+        "type": "string",
+        "value": "Splunk"
+      },
+      {
+        "range": "M2",
+        "type": "string",
+        "value": "Atlassian"
+      },
+      {
+        "range": "N2",
+        "type": "string",
+        "value": "Box"
+      },
+      {
+        "range": "O2",
+        "type": "string",
+        "value": "Tableau"
+      },
+      {
+        "range": "C4",
+        "type": "string",
+        "value": "Revenue"
+      },
+      {
+        "range": "D4:G4",
+        "type": "number"
+      },
+      {
+        "range": "I4:O4",
+        "type": "number"
+      },
+      {
+        "range": "D5:G5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I5:O5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D7:G7",
+        "type": "number"
+      },
+      {
+        "range": "I7:O7",
+        "type": "number"
+      },
+      {
+        "range": "D8:G8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I8:O8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D9:G9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I9:O9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D11:G11",
+        "type": "number"
+      },
+      {
+        "range": "I11:O11",
+        "type": "number"
+      },
+      {
+        "range": "D12:G12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I12:O12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D13:G13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I13:O13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D15:G15",
+        "type": "number"
+      },
+      {
+        "range": "I15:O15",
+        "type": "number"
+      },
+      {
+        "range": "D16:G16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I16:O16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D17:G17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I17:O17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D19:G19",
+        "type": "number"
+      },
+      {
+        "range": "I19:O19",
+        "type": "number"
+      },
+      {
+        "range": "D20:G20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I20:O20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D21:G21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I21:O21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D23:G23",
+        "type": "number"
+      },
+      {
+        "range": "I23:O23",
+        "type": "number"
+      },
+      {
+        "range": "D24:G24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I24:O24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D25:G25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I25:J25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N25:O25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A28",
+        "type": "number"
+      },
+      {
+        "range": "D28:G28",
+        "type": "number"
+      },
+      {
+        "range": "I28:O28",
+        "type": "number"
+      },
+      {
+        "range": "C29",
+        "type": "string",
+        "value": "% LTM Growth"
+      },
+      {
+        "range": "D29:G29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I29:O29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C30",
+        "type": "string",
+        "value": "2018E % Growth"
+      },
+      {
+        "range": "I30:O30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A32",
+        "type": "number"
+      },
+      {
+        "range": "H32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I32:O32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I33:O33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A35",
+        "type": "number"
+      },
+      {
+        "range": "H35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I35:O35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I36:O36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C38",
+        "type": "string",
+        "value": "Gross Profit"
+      },
+      {
+        "range": "D38:G38",
+        "type": "number"
+      },
+      {
+        "range": "I38:O38",
+        "type": "number"
+      },
+      {
+        "range": "D39:G39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I39:O39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D41",
+        "type": "number"
+      },
+      {
+        "range": "E41:G41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I41:O41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D42",
+        "type": "string",
+        "value": "na"
+      },
+      {
+        "range": "E42",
+        "type": "string",
+        "value": "na"
+      },
+      {
+        "range": "F42:G42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I42",
+        "type": "string",
+        "value": "na"
+      },
+      {
+        "range": "L42",
+        "type": "string",
+        "value": "na"
+      },
+      {
+        "range": "J42:K42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N42",
+        "type": "string",
+        "value": "na"
+      },
+      {
+        "range": "M42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O42",
+        "type": "string",
+        "value": "na"
+      },
+      {
+        "range": "C44",
+        "type": "string",
+        "value": "2017 Expenses"
+      },
+      {
+        "range": "C46",
+        "type": "string",
+        "value": "$ Amount"
+      },
+      {
+        "range": "D47:O47",
+        "type": "number"
+      },
+      {
+        "range": "D48:O48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D49:O49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D50:O50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D53:O53",
+        "type": "number"
+      },
+      {
+        "range": "D54:O54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D55:O55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D56:O56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D59:O59",
+        "type": "number"
+      },
+      {
+        "range": "D60:O60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D61:O61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D62:O62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C64",
+        "type": "string",
+        "value": "Revenue Multiples"
+      },
+      {
+        "range": "C66",
+        "type": "string",
+        "value": "EV / Revenue"
+      },
+      {
+        "range": "C67",
+        "type": "number"
+      },
+      {
+        "range": "H67:O67",
+        "type": "number"
+      },
+      {
+        "range": "C68",
+        "type": "number"
+      },
+      {
+        "range": "H68:O68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C70",
+        "type": "string",
+        "value": "EV / Revenue / Growth"
+      },
+      {
+        "range": "C71",
+        "type": "number"
+      },
+      {
+        "range": "H71:O71",
+        "type": "number"
+      },
+      {
+        "range": "C72",
+        "type": "number"
+      },
+      {
+        "range": "H72:O72",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C74",
+        "type": "string",
+        "value": "Source: Capital IQ"
+      },
+      {
+        "range": "C77",
+        "type": "string",
+        "value": "Employees"
+      },
+      {
+        "range": "D77:G77",
+        "type": "number"
+      },
+      {
+        "range": "I77:O77",
+        "type": "number"
+      },
+      {
+        "range": "C79",
+        "type": "string",
+        "value": "Revenue per Employee"
+      },
+      {
+        "range": "D79:O79",
+        "type": "number"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 2379.58,
+      "cells_analyzed": 560,
+      "total_ranges": 152,
+      "format_counts": {
+        "string": 66,
+        "number": 86
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-14T01:37:33.700008Z"
+    }
+  },
+  "compression_stats": {
+    "unique_values": 10,
+    "entries_moved_to_index": 38,
+    "entries_remaining": 114,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 7348,
+    "compressed_size_bytes": 6032,
+    "inverted_index_size_bytes": 627,
+    "compressed_data_size_bytes": 5405,
+    "compression_ratio": 0.821,
+    "space_saved_bytes": 1316,
+    "space_saved_percent": 17.9
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "inverted_index": {},
+  "data": {
+    "success": true,
+    "sheet_name": "Support Data -->",
+    "format_ranges": [
+      {
+        "range": "A1",
+        "type": "string",
+        "value": "Support Data -- >"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 42.45,
+      "cells_analyzed": 1,
+      "total_ranges": 1,
+      "format_counts": {
+        "string": 1
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T18:33:41.655852Z"
+    }
+  },
+  "compression_stats": {
+    "unique_values": 0,
+    "entries_moved_to_index": 0,
+    "entries_remaining": 1,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 289,
+    "compressed_size_bytes": 291,
+    "inverted_index_size_bytes": 2,
+    "compressed_data_size_bytes": 289,
+    "compression_ratio": 1.007,
+    "space_saved_bytes": -2,
+    "space_saved_percent": -0.7
+  }
+}

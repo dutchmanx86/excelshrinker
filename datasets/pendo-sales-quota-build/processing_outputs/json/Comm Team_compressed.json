@@ -1,0 +1,1362 @@
+{
+  "inverted_index": {
+    "Commercial": {
+      "type": "string",
+      "ranges": [
+        "B3",
+        "D7:D20",
+        "D22:D35",
+        "D37:D50",
+        "D52:D65",
+        "D67:D80",
+        "D82:D95"
+      ]
+    },
+    "Ferguson, Brook": {
+      "type": "string",
+      "ranges": [
+        "B7:B20"
+      ]
+    },
+    "Lizzie O'Keefe": {
+      "type": "string",
+      "ranges": [
+        "E7",
+        "F8:G8",
+        "AX14"
+      ]
+    },
+    "Mazzie Anouna": {
+      "type": "string",
+      "ranges": [
+        "F7:G7",
+        "AX13",
+        "H22:P22"
+      ]
+    },
+    "Future Hire": {
+      "type": "string",
+      "ranges": [
+        "H7:P7",
+        "J8:P8",
+        "AX9",
+        "K11:P11",
+        "J23:P23",
+        "J24:P24",
+        "I38:P38",
+        "I55:P55",
+        "K82:P82",
+        "K83:P83",
+        "K84:P84",
+        "M85:P85",
+        "M86:P86",
+        "M87:P87"
+      ]
+    },
+    "Julie Marcott": {
+      "type": "string",
+      "ranges": [
+        "AX7",
+        "E22:G22",
+        "H23:I23",
+        "J25:P25"
+      ]
+    },
+    "Jay Ravani": {
+      "type": "string",
+      "ranges": [
+        "E8",
+        "F9:G9",
+        "AX15"
+      ]
+    },
+    "Ian Grady": {
+      "type": "string",
+      "ranges": [
+        "H8:I8",
+        "J9:P9",
+        "AX10",
+        "E38:G38"
+      ]
+    },
+    "Alex Krumm": {
+      "type": "string",
+      "ranges": [
+        "AX8",
+        "H24:I24",
+        "J26:P26",
+        "E37:G37"
+      ]
+    },
+    "Yvonne Coleman": {
+      "type": "string",
+      "ranges": [
+        "E9",
+        "F10:G10",
+        "AX16"
+      ]
+    },
+    "Martin Murphy": {
+      "type": "string",
+      "ranges": [
+        "H9:I9",
+        "J10:P10",
+        "AX11",
+        "E39:G39"
+      ]
+    },
+    "Aaron Shiansky": {
+      "type": "string",
+      "ranges": [
+        "E10",
+        "F11",
+        "AX20",
+        "H39",
+        "I40:P40",
+        "G67"
+      ]
+    },
+    "Justin Turnley": {
+      "type": "string",
+      "ranges": [
+        "H10:I10",
+        "G11",
+        "J11",
+        "F12",
+        "K12:P12",
+        "F13",
+        "AX17"
+      ]
+    },
+    "Dayna Liso": {
+      "type": "string",
+      "ranges": [
+        "AX12",
+        "H25:I25",
+        "J27:P27",
+        "E40:G40"
+      ]
+    },
+    "Ashley O'Bannon": {
+      "type": "string",
+      "ranges": [
+        "AX18",
+        "H37:P37",
+        "E41:G41"
+      ]
+    },
+    "Cassie Sweet": {
+      "type": "string",
+      "ranges": [
+        "AX19",
+        "H38",
+        "I39:P39",
+        "E42:G42"
+      ]
+    },
+    "Jeff Schafer": {
+      "type": "string",
+      "ranges": [
+        "AX21",
+        "H40",
+        "I41:P41",
+        "G69"
+      ]
+    },
+    "Braithwaite-Stanford, Andre": {
+      "type": "string",
+      "ranges": [
+        "B22:B35"
+      ]
+    },
+    "Elizabeth Evans": {
+      "type": "string",
+      "ranges": [
+        "AX22",
+        "H41",
+        "I42:P42",
+        "F67",
+        "G70"
+      ]
+    },
+    "Marcus Lee": {
+      "type": "string",
+      "ranges": [
+        "AX23",
+        "G52",
+        "H56",
+        "I57:P57"
+      ]
+    },
+    "Liz Gaffron": {
+      "type": "string",
+      "ranges": [
+        "AX24",
+        "H52:P52"
+      ]
+    },
+    "Stephen Wallison": {
+      "type": "string",
+      "ranges": [
+        "AX25",
+        "H53:P53"
+      ]
+    },
+    "Kevin Russell": {
+      "type": "string",
+      "ranges": [
+        "AX26",
+        "H54:P54"
+      ]
+    },
+    "Zane Greason": {
+      "type": "string",
+      "ranges": [
+        "AX27",
+        "H55",
+        "I56:P56"
+      ]
+    },
+    "Ionescu, Sarah": {
+      "type": "string",
+      "ranges": [
+        "B37:B50"
+      ]
+    },
+    "Wilson, Cari": {
+      "type": "string",
+      "ranges": [
+        "B52:B65"
+      ]
+    },
+    "Commercial Select RVP": {
+      "type": "string",
+      "ranges": [
+        "B67:B80"
+      ]
+    },
+    "TBD RVP #5": {
+      "type": "string",
+      "ranges": [
+        "B82:B95"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Comm Team",
+    "format_ranges": [
+      {
+        "range": "R1",
+        "type": "string",
+        "value": "Z"
+      },
+      {
+        "range": "S1",
+        "type": "string",
+        "value": "AA"
+      },
+      {
+        "range": "T1",
+        "type": "string",
+        "value": "AB"
+      },
+      {
+        "range": "U1",
+        "type": "string",
+        "value": "AC"
+      },
+      {
+        "range": "V1",
+        "type": "string",
+        "value": "AD"
+      },
+      {
+        "range": "W1",
+        "type": "string",
+        "value": "AE"
+      },
+      {
+        "range": "X1",
+        "type": "string",
+        "value": "AF"
+      },
+      {
+        "range": "Y1",
+        "type": "string",
+        "value": "AG"
+      },
+      {
+        "range": "Z1",
+        "type": "string",
+        "value": "AH"
+      },
+      {
+        "range": "AB1",
+        "type": "string",
+        "value": "N"
+      },
+      {
+        "range": "AC1",
+        "type": "string",
+        "value": "O"
+      },
+      {
+        "range": "AD1",
+        "type": "string",
+        "value": "P"
+      },
+      {
+        "range": "AE1",
+        "type": "string",
+        "value": "Q"
+      },
+      {
+        "range": "AF1",
+        "type": "string",
+        "value": "R"
+      },
+      {
+        "range": "AG1",
+        "type": "string",
+        "value": "S"
+      },
+      {
+        "range": "AH1",
+        "type": "string",
+        "value": "T"
+      },
+      {
+        "range": "AI1",
+        "type": "string",
+        "value": "U"
+      },
+      {
+        "range": "AJ1",
+        "type": "string",
+        "value": "V"
+      },
+      {
+        "range": "AL1",
+        "type": "string",
+        "value": "AL"
+      },
+      {
+        "range": "AM1",
+        "type": "string",
+        "value": "AM"
+      },
+      {
+        "range": "AN1",
+        "type": "string",
+        "value": "AN"
+      },
+      {
+        "range": "AO1",
+        "type": "string",
+        "value": "AO"
+      },
+      {
+        "range": "AP1",
+        "type": "string",
+        "value": "AP"
+      },
+      {
+        "range": "AQ1",
+        "type": "string",
+        "value": "AQ"
+      },
+      {
+        "range": "AR1",
+        "type": "string",
+        "value": "AR"
+      },
+      {
+        "range": "AS1",
+        "type": "string",
+        "value": "AS"
+      },
+      {
+        "range": "AT1",
+        "type": "string",
+        "value": "AT"
+      },
+      {
+        "range": "R3",
+        "type": "string",
+        "value": "Headcount"
+      },
+      {
+        "range": "AB3",
+        "type": "string",
+        "value": "Ramped Headcount"
+      },
+      {
+        "range": "AL3",
+        "type": "string",
+        "value": "Quota"
+      },
+      {
+        "range": "E5:P5",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "R5:Z5",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "AB5:AJ5",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "AL5:AT5",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "AY5:BG5",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "C7",
+        "type": "number"
+      },
+      {
+        "range": "R7:Z7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB7:AJ7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL7:AT7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY7:BG7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C8",
+        "type": "number"
+      },
+      {
+        "range": "R8:Z8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB8:AJ8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL8:AT8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY8:BG8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C9",
+        "type": "number"
+      },
+      {
+        "range": "R9:Z9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB9:AJ9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL9:AT9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY9:BG9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C10",
+        "type": "number"
+      },
+      {
+        "range": "R10:Z10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB10:AJ10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL10:AT10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY10:BG10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C11",
+        "type": "number"
+      },
+      {
+        "range": "T11:Z11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AD11:AJ11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AN11:AT11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY11:BG11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C12",
+        "type": "number"
+      },
+      {
+        "range": "U12:Z12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE12:AJ12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AO12:AT12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY12:BG12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C13",
+        "type": "number"
+      },
+      {
+        "range": "AY13:BG13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C14",
+        "type": "number"
+      },
+      {
+        "range": "AY14:BG14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C15",
+        "type": "number"
+      },
+      {
+        "range": "AY15:BG15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C16",
+        "type": "number"
+      },
+      {
+        "range": "AY16:BG16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C17",
+        "type": "number"
+      },
+      {
+        "range": "AY17:BG17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C18",
+        "type": "number"
+      },
+      {
+        "range": "AY18:BG18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C19",
+        "type": "number"
+      },
+      {
+        "range": "AY19:BG19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C20",
+        "type": "number"
+      },
+      {
+        "range": "AY20:BG20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY21:BG21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C22",
+        "type": "number"
+      },
+      {
+        "range": "R22:Z22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB22:AJ22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL22:AT22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY22:BG22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C23",
+        "type": "number"
+      },
+      {
+        "range": "R23:Z23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB23:AJ23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL23:AT23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY23:BG23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C24",
+        "type": "number"
+      },
+      {
+        "range": "R24:Z24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB24:AJ24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL24:AT24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY24:BG24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C25",
+        "type": "number"
+      },
+      {
+        "range": "R25:Z25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB25:AJ25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL25:AT25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY25:BG25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C26",
+        "type": "number"
+      },
+      {
+        "range": "T26:Z26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AD26:AJ26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AN26:AT26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY26:BG26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C27",
+        "type": "number"
+      },
+      {
+        "range": "T27:Z27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AD27:AJ27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AN27:AT27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY27:BG27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C28",
+        "type": "number"
+      },
+      {
+        "range": "C29",
+        "type": "number"
+      },
+      {
+        "range": "C30",
+        "type": "number"
+      },
+      {
+        "range": "C31",
+        "type": "number"
+      },
+      {
+        "range": "C32",
+        "type": "number"
+      },
+      {
+        "range": "C33",
+        "type": "number"
+      },
+      {
+        "range": "C34",
+        "type": "number"
+      },
+      {
+        "range": "C35",
+        "type": "number"
+      },
+      {
+        "range": "C37",
+        "type": "number"
+      },
+      {
+        "range": "R37:Z37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB37:AJ37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL37:AT37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C38",
+        "type": "number"
+      },
+      {
+        "range": "R38:Z38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB38:AJ38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL38:AT38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C39",
+        "type": "number"
+      },
+      {
+        "range": "R39:Z39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB39:AJ39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL39:AT39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C40",
+        "type": "number"
+      },
+      {
+        "range": "R40:Z40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB40:AJ40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL40:AT40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C41",
+        "type": "number"
+      },
+      {
+        "range": "R41:Z41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB41:AJ41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL41:AT41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C42",
+        "type": "number"
+      },
+      {
+        "range": "S42:Z42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC42:AJ42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AM42:AT42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C43",
+        "type": "number"
+      },
+      {
+        "range": "C44",
+        "type": "number"
+      },
+      {
+        "range": "C45",
+        "type": "number"
+      },
+      {
+        "range": "C46",
+        "type": "number"
+      },
+      {
+        "range": "C47",
+        "type": "number"
+      },
+      {
+        "range": "C48",
+        "type": "number"
+      },
+      {
+        "range": "C49",
+        "type": "number"
+      },
+      {
+        "range": "C50",
+        "type": "number"
+      },
+      {
+        "range": "C52",
+        "type": "number"
+      },
+      {
+        "range": "R52:Z52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB52:AJ52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL52:AT52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C53",
+        "type": "number"
+      },
+      {
+        "range": "R53:Z53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB53:AJ53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL53:AT53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C54",
+        "type": "number"
+      },
+      {
+        "range": "R54:Z54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB54:AJ54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL54:AT54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C55",
+        "type": "number"
+      },
+      {
+        "range": "R55:Z55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB55:AJ55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL55:AT55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C56",
+        "type": "number"
+      },
+      {
+        "range": "R56:Z56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB56:AJ56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL56:AT56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C57",
+        "type": "number"
+      },
+      {
+        "range": "S57:Z57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC57:AJ57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AM57:AT57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C58",
+        "type": "number"
+      },
+      {
+        "range": "C59",
+        "type": "number"
+      },
+      {
+        "range": "C60",
+        "type": "number"
+      },
+      {
+        "range": "C61",
+        "type": "number"
+      },
+      {
+        "range": "C62",
+        "type": "number"
+      },
+      {
+        "range": "C63",
+        "type": "number"
+      },
+      {
+        "range": "C64",
+        "type": "number"
+      },
+      {
+        "range": "C65",
+        "type": "number"
+      },
+      {
+        "range": "C67",
+        "type": "number"
+      },
+      {
+        "range": "C68",
+        "type": "number"
+      },
+      {
+        "range": "G68",
+        "type": "string",
+        "value": "Cari Levine"
+      },
+      {
+        "range": "C69",
+        "type": "number"
+      },
+      {
+        "range": "C70",
+        "type": "number"
+      },
+      {
+        "range": "C71",
+        "type": "number"
+      },
+      {
+        "range": "C72",
+        "type": "number"
+      },
+      {
+        "range": "C73",
+        "type": "number"
+      },
+      {
+        "range": "C74",
+        "type": "number"
+      },
+      {
+        "range": "C75",
+        "type": "number"
+      },
+      {
+        "range": "C76",
+        "type": "number"
+      },
+      {
+        "range": "C77",
+        "type": "number"
+      },
+      {
+        "range": "C78",
+        "type": "number"
+      },
+      {
+        "range": "C79",
+        "type": "number"
+      },
+      {
+        "range": "C80",
+        "type": "number"
+      },
+      {
+        "range": "C82",
+        "type": "number"
+      },
+      {
+        "range": "U82:Z82",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE82:AJ82",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AO82:AT82",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C83",
+        "type": "number"
+      },
+      {
+        "range": "U83:Z83",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE83:AJ83",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AO83:AT83",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C84",
+        "type": "number"
+      },
+      {
+        "range": "U84:Z84",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE84:AJ84",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AO84:AT84",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C85",
+        "type": "number"
+      },
+      {
+        "range": "W85:Z85",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AG85:AJ85",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AQ85:AT85",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C86",
+        "type": "number"
+      },
+      {
+        "range": "W86:Z86",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AG86:AJ86",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AQ86:AT86",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C87",
+        "type": "number"
+      },
+      {
+        "range": "W87:Z87",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AG87:AJ87",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AQ87:AT87",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C88",
+        "type": "number"
+      },
+      {
+        "range": "C89",
+        "type": "number"
+      },
+      {
+        "range": "C90",
+        "type": "number"
+      },
+      {
+        "range": "C91",
+        "type": "number"
+      },
+      {
+        "range": "C92",
+        "type": "number"
+      },
+      {
+        "range": "C93",
+        "type": "number"
+      },
+      {
+        "range": "C94",
+        "type": "number"
+      },
+      {
+        "range": "C95",
+        "type": "number"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 60.83,
+      "cells_analyzed": 1524,
+      "total_ranges": 698,
+      "format_counts": {
+        "string": 498,
+        "date": 5,
+        "number": 195
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T19:03:51.678960Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2021-02-01",
+        "pattern": "Monthly series from 2021-02 to 2022-01"
+      },
+      "ds_2": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2021-05-01",
+        "pattern": "Monthly series from 2021-05 to 2022-01"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 28,
+    "entries_moved_to_index": 467,
+    "entries_remaining": 231,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 36385,
+    "compressed_size_bytes": 12605,
+    "inverted_index_size_bytes": 2105,
+    "compressed_data_size_bytes": 10500,
+    "compression_ratio": 0.346,
+    "space_saved_bytes": 23780,
+    "space_saved_percent": 65.4
+  }
+}

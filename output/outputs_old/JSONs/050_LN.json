@@ -1,0 +1,157 @@
+{
+  "success": true,
+  "sheet_name": "LN",
+  "format_ranges": [
+    {
+      "range": "C1",
+      "type": "string",
+      "value": "2017-2 Feb"
+    },
+    {
+      "range": "D1",
+      "type": "string",
+      "value": "2017-3 Mar"
+    },
+    {
+      "range": "E1",
+      "type": "string",
+      "value": "2017-4 Apr"
+    },
+    {
+      "range": "F1",
+      "type": "string",
+      "value": "2017-5 May"
+    },
+    {
+      "range": "G1",
+      "type": "string",
+      "value": "2017-6 June"
+    },
+    {
+      "range": "H1",
+      "type": "string",
+      "value": "2017-7 July"
+    },
+    {
+      "range": "I1",
+      "type": "string",
+      "value": "2017-8 Aug"
+    },
+    {
+      "range": "J1",
+      "type": "string",
+      "value": "2017-9 Sept"
+    },
+    {
+      "range": "K1",
+      "type": "string",
+      "value": "2017-10 Oct"
+    },
+    {
+      "range": "L1",
+      "type": "string",
+      "value": "2017-11 Nov"
+    },
+    {
+      "range": "M1",
+      "type": "string",
+      "value": "2017-12 Dec"
+    },
+    {
+      "range": "N1",
+      "type": "string",
+      "value": "2018-1"
+    },
+    {
+      "range": "O1",
+      "type": "string",
+      "value": "2018-2"
+    },
+    {
+      "range": "P1",
+      "type": "string",
+      "value": "2018-3"
+    },
+    {
+      "range": "Q1",
+      "type": "string",
+      "value": "2018-4"
+    },
+    {
+      "range": "R1",
+      "type": "string",
+      "value": "2018-5"
+    },
+    {
+      "range": "S1",
+      "type": "string",
+      "value": "2018-6"
+    },
+    {
+      "range": "B3:S3",
+      "type": "date",
+      "date_series_id": "ds_1"
+    },
+    {
+      "range": "A4",
+      "type": "string",
+      "value": "Financial"
+    },
+    {
+      "range": "B4:S4",
+      "type": "number"
+    },
+    {
+      "range": "A5",
+      "type": "string",
+      "value": "Corporate"
+    },
+    {
+      "range": "B5:S5",
+      "type": "number"
+    },
+    {
+      "range": "A6",
+      "type": "string",
+      "value": "Financial"
+    },
+    {
+      "range": "B6:S6",
+      "type": "number"
+    },
+    {
+      "range": "A7",
+      "type": "string",
+      "value": "Other"
+    },
+    {
+      "range": "B7:S7",
+      "type": "number"
+    },
+    {
+      "range": "B9:S9",
+      "type": "number"
+    }
+  ],
+  "statistics": {
+    "processing_time_ms": 3179.67,
+    "cells_analyzed": 129,
+    "total_ranges": 27,
+    "format_counts": {
+      "string": 21,
+      "date": 1,
+      "number": 5
+    }
+  },
+  "metadata": {
+    "detected_at": "2025-10-13T21:35:53.142828Z"
+  },
+  "date_series_definitions": {
+    "ds_1": {
+      "series_type": "monthly",
+      "increment": "1 month",
+      "start_date": "2017-01-31",
+      "pattern": "Monthly series from 2017-01 to 2018-06"
+    }
+  }
+}

@@ -1,0 +1,713 @@
+{
+  "inverted_index": {
+    "In USD": {
+      "type": "string",
+      "ranges": [
+        "E12",
+        "E45",
+        "E47"
+      ]
+    },
+    "66100--DataFeeds": {
+      "type": "string",
+      "ranges": [
+        "C15:C24",
+        "C26"
+      ]
+    },
+    "LexisNexis": {
+      "type": "string",
+      "ranges": [
+        "B35:B36"
+      ]
+    },
+    "AWS": {
+      "type": "string",
+      "ranges": [
+        "B39:B40"
+      ]
+    },
+    "Factset Sell side research": {
+      "type": "string",
+      "ranges": [
+        "B41:B42"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Accrued Expenses",
+    "format_ranges": [
+      {
+        "range": "D1",
+        "type": "string",
+        "value": "Euro"
+      },
+      {
+        "range": "C1",
+        "type": "number"
+      },
+      {
+        "range": "F1:AC1",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "D2",
+        "type": "string",
+        "value": "GBP"
+      },
+      {
+        "range": "C2",
+        "type": "number"
+      },
+      {
+        "range": "F2",
+        "type": "string",
+        "value": "Inc"
+      },
+      {
+        "range": "G2:AC2",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E3",
+        "type": "string",
+        "value": "Deloitte"
+      },
+      {
+        "range": "F3",
+        "type": "number"
+      },
+      {
+        "range": "L3",
+        "type": "number"
+      },
+      {
+        "range": "X3",
+        "type": "number"
+      },
+      {
+        "range": "E4",
+        "type": "string",
+        "value": "Monthly audit accrual"
+      },
+      {
+        "range": "F4:Q4",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "R4:AC4",
+        "type": "number"
+      },
+      {
+        "range": "F5:AC5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F7",
+        "type": "string",
+        "value": "UK"
+      },
+      {
+        "range": "G7:AC7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E8",
+        "type": "string",
+        "value": "2019 Audit accrual"
+      },
+      {
+        "range": "F8",
+        "type": "number"
+      },
+      {
+        "range": "L8",
+        "type": "number"
+      },
+      {
+        "range": "X8",
+        "type": "number"
+      },
+      {
+        "range": "E9",
+        "type": "string",
+        "value": "2020 Monthly audit accrual"
+      },
+      {
+        "range": "F9:AC9",
+        "type": "number"
+      },
+      {
+        "range": "F10:AC10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F12:AC12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F14",
+        "type": "string",
+        "value": "Oy"
+      },
+      {
+        "range": "G14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B15",
+        "type": "string",
+        "value": "2018-6 MSCI"
+      },
+      {
+        "range": "D15",
+        "type": "number"
+      },
+      {
+        "range": "E15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F15:G15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B16",
+        "type": "string",
+        "value": "2018-7 MSCI"
+      },
+      {
+        "range": "D16",
+        "type": "number"
+      },
+      {
+        "range": "E16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F16:G16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B17",
+        "type": "string",
+        "value": "2018-9 MSCI"
+      },
+      {
+        "range": "D17",
+        "type": "number"
+      },
+      {
+        "range": "E17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F17:G17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B18",
+        "type": "string",
+        "value": "2018-8 MSCI"
+      },
+      {
+        "range": "D18",
+        "type": "number"
+      },
+      {
+        "range": "E18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F18:G18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B19",
+        "type": "string",
+        "value": "2018-10 MSCI"
+      },
+      {
+        "range": "D19",
+        "type": "number"
+      },
+      {
+        "range": "E19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F19:G19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B20",
+        "type": "string",
+        "value": "2018-11 MSCI"
+      },
+      {
+        "range": "D20",
+        "type": "number"
+      },
+      {
+        "range": "E20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F20:G20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B21",
+        "type": "string",
+        "value": "2018-12 MSCI"
+      },
+      {
+        "range": "D21:E21",
+        "type": "number"
+      },
+      {
+        "range": "F21:G21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B22",
+        "type": "string",
+        "value": "2019-01 MSCI"
+      },
+      {
+        "range": "D22:E22",
+        "type": "number"
+      },
+      {
+        "range": "F22:G22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B23",
+        "type": "string",
+        "value": "2019-02 MSCI"
+      },
+      {
+        "range": "D23",
+        "type": "number"
+      },
+      {
+        "range": "E23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F23:G23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B24",
+        "type": "string",
+        "value": "2019-3 MSCI"
+      },
+      {
+        "range": "D24",
+        "type": "number"
+      },
+      {
+        "range": "E24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F24:G24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B25",
+        "type": "string",
+        "value": "Oct TR Transcript"
+      },
+      {
+        "range": "C25",
+        "type": "string",
+        "value": "Transcripts"
+      },
+      {
+        "range": "F25:G25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B26",
+        "type": "string",
+        "value": "Oct MSCI Royal"
+      },
+      {
+        "range": "F26:G26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B27",
+        "type": "string",
+        "value": "True Up Oct Trans"
+      },
+      {
+        "range": "D27",
+        "type": "number"
+      },
+      {
+        "range": "E27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F27:G27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B28",
+        "type": "string",
+        "value": "2019-11 MSCI"
+      },
+      {
+        "range": "D28",
+        "type": "number"
+      },
+      {
+        "range": "E28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F28:G28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B29",
+        "type": "string",
+        "value": "2019-11 TR Transcripts"
+      },
+      {
+        "range": "D29",
+        "type": "number"
+      },
+      {
+        "range": "E29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F29:G29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B30",
+        "type": "string",
+        "value": "2019-11 TR AMR"
+      },
+      {
+        "range": "F30:G30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B31",
+        "type": "string",
+        "value": "2019-12 MSCI V00051--MSCI Inc."
+      },
+      {
+        "range": "D31",
+        "type": "number"
+      },
+      {
+        "range": "E31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F31:G31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B32",
+        "type": "string",
+        "value": "2019-12 TR Transcripts V00077--Thomson Reuters"
+      },
+      {
+        "range": "D32",
+        "type": "number"
+      },
+      {
+        "range": "E32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F32:G32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B33",
+        "type": "string",
+        "value": "TR Transcripts "
+      },
+      {
+        "range": "D33:E33",
+        "type": "number"
+      },
+      {
+        "range": "I33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "R33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "U33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B34",
+        "type": "string",
+        "value": "TR Transcripts"
+      },
+      {
+        "range": "F34:AC34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D35:E35",
+        "type": "number"
+      },
+      {
+        "range": "I35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "R35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "U35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F36:AC36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B37",
+        "type": "string",
+        "value": " Six Financials"
+      },
+      {
+        "range": "D37:E37",
+        "type": "number"
+      },
+      {
+        "range": "F37:AC37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B38",
+        "type": "string",
+        "value": "Six Financials - "
+      },
+      {
+        "range": "G38:AC38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E39",
+        "type": "number"
+      },
+      {
+        "range": "F39:G39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "R41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "U41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I42:AC42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B47",
+        "type": "string",
+        "value": "Account 21000 (Oy)"
+      },
+      {
+        "range": "F47:AC47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E49",
+        "type": "string",
+        "value": "Total Accrued Expenses (USD)"
+      },
+      {
+        "range": "F49",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 1543.16,
+      "cells_analyzed": 494,
+      "total_ranges": 153,
+      "format_counts": {
+        "string": 54,
+        "number": 98,
+        "date": 1
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T11:06:00.456079Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2020-01-01",
+        "pattern": "Monthly series from 2020-01 to 2021-12"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 5,
+    "entries_moved_to_index": 20,
+    "entries_remaining": 133,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 7734,
+    "compressed_size_bytes": 6888,
+    "inverted_index_size_bytes": 286,
+    "compressed_data_size_bytes": 6602,
+    "compression_ratio": 0.891,
+    "space_saved_bytes": 846,
+    "space_saved_percent": 10.9
+  }
+}

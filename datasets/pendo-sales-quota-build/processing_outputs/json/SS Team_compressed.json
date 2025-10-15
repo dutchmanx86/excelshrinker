@@ -1,0 +1,835 @@
+{
+  "inverted_index": {
+    "SubSuccess": {
+      "type": "string",
+      "ranges": [
+        "B3",
+        "D7:D20",
+        "D22:D35",
+        "D37:D50"
+      ]
+    },
+    "Bumgardner, Josh": {
+      "type": "string",
+      "ranges": [
+        "B7:B20"
+      ]
+    },
+    "Molly Bodin": {
+      "type": "string",
+      "ranges": [
+        "E7:P7",
+        "AX7"
+      ]
+    },
+    "Malcolm Harris": {
+      "type": "string",
+      "ranges": [
+        "E8:H8",
+        "AX8"
+      ]
+    },
+    "Future Hire": {
+      "type": "string",
+      "ranges": [
+        "I8:P8",
+        "AX10",
+        "L22:P22",
+        "L23:P23",
+        "O24:P24",
+        "O25:P25",
+        "J42:P42",
+        "J43:P43"
+      ]
+    },
+    "Chelsey Parks": {
+      "type": "string",
+      "ranges": [
+        "E9:P9",
+        "AX9"
+      ]
+    },
+    "Scott Magri": {
+      "type": "string",
+      "ranges": [
+        "E10:P10",
+        "AX11"
+      ]
+    },
+    "Mike Warnick": {
+      "type": "string",
+      "ranges": [
+        "G11:P11",
+        "AX12"
+      ]
+    },
+    "Virgil Fowler": {
+      "type": "string",
+      "ranges": [
+        "G12:P12",
+        "AX13"
+      ]
+    },
+    "Emily Coleman": {
+      "type": "string",
+      "ranges": [
+        "AX14",
+        "E37:P37"
+      ]
+    },
+    "Blair Lithgow": {
+      "type": "string",
+      "ranges": [
+        "AX15",
+        "E38:P38"
+      ]
+    },
+    "Bob Kime": {
+      "type": "string",
+      "ranges": [
+        "AX16",
+        "E39:P39"
+      ]
+    },
+    "Hannah Kiger": {
+      "type": "string",
+      "ranges": [
+        "AX17",
+        "E40:P40"
+      ]
+    },
+    "Natalie Hawley": {
+      "type": "string",
+      "ranges": [
+        "AX18",
+        "E41:P41"
+      ]
+    },
+    "TBD SS Corp Dir": {
+      "type": "string",
+      "ranges": [
+        "B22:B35"
+      ]
+    },
+    "TBD SS Comm Dir": {
+      "type": "string",
+      "ranges": [
+        "B37:B50"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "SS Team",
+    "format_ranges": [
+      {
+        "range": "R1",
+        "type": "string",
+        "value": "Z"
+      },
+      {
+        "range": "S1",
+        "type": "string",
+        "value": "AA"
+      },
+      {
+        "range": "T1",
+        "type": "string",
+        "value": "AB"
+      },
+      {
+        "range": "U1",
+        "type": "string",
+        "value": "AC"
+      },
+      {
+        "range": "V1",
+        "type": "string",
+        "value": "AD"
+      },
+      {
+        "range": "W1",
+        "type": "string",
+        "value": "AE"
+      },
+      {
+        "range": "X1",
+        "type": "string",
+        "value": "AF"
+      },
+      {
+        "range": "Y1",
+        "type": "string",
+        "value": "AG"
+      },
+      {
+        "range": "Z1",
+        "type": "string",
+        "value": "AH"
+      },
+      {
+        "range": "AB1",
+        "type": "string",
+        "value": "N"
+      },
+      {
+        "range": "AC1",
+        "type": "string",
+        "value": "O"
+      },
+      {
+        "range": "AD1",
+        "type": "string",
+        "value": "P"
+      },
+      {
+        "range": "AE1",
+        "type": "string",
+        "value": "Q"
+      },
+      {
+        "range": "AF1",
+        "type": "string",
+        "value": "R"
+      },
+      {
+        "range": "AG1",
+        "type": "string",
+        "value": "S"
+      },
+      {
+        "range": "AH1",
+        "type": "string",
+        "value": "T"
+      },
+      {
+        "range": "AI1",
+        "type": "string",
+        "value": "U"
+      },
+      {
+        "range": "AJ1",
+        "type": "string",
+        "value": "V"
+      },
+      {
+        "range": "AL1",
+        "type": "string",
+        "value": "AL"
+      },
+      {
+        "range": "AM1",
+        "type": "string",
+        "value": "AM"
+      },
+      {
+        "range": "AN1",
+        "type": "string",
+        "value": "AN"
+      },
+      {
+        "range": "AO1",
+        "type": "string",
+        "value": "AO"
+      },
+      {
+        "range": "AP1",
+        "type": "string",
+        "value": "AP"
+      },
+      {
+        "range": "AQ1",
+        "type": "string",
+        "value": "AQ"
+      },
+      {
+        "range": "AR1",
+        "type": "string",
+        "value": "AR"
+      },
+      {
+        "range": "AS1",
+        "type": "string",
+        "value": "AS"
+      },
+      {
+        "range": "AT1",
+        "type": "string",
+        "value": "AT"
+      },
+      {
+        "range": "R3",
+        "type": "string",
+        "value": "Headcount"
+      },
+      {
+        "range": "AB3",
+        "type": "string",
+        "value": "Ramped Headcount"
+      },
+      {
+        "range": "AL3",
+        "type": "string",
+        "value": "Quota"
+      },
+      {
+        "range": "E5:P5",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "R5:Z5",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "AB5:AJ5",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "AL5:AT5",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "AY5:BG5",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "C7",
+        "type": "number"
+      },
+      {
+        "range": "R7:Z7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB7:AJ7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL7:AT7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY7:BG7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C8",
+        "type": "number"
+      },
+      {
+        "range": "R8:Z8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB8:AJ8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL8:AT8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY8:BG8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C9",
+        "type": "number"
+      },
+      {
+        "range": "R9:Z9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB9:AJ9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL9:AT9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY9:BG9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C10",
+        "type": "number"
+      },
+      {
+        "range": "R10:Z10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB10:AJ10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL10:AT10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY10:BG10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C11",
+        "type": "number"
+      },
+      {
+        "range": "R11:Z11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB11:AJ11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL11:AT11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY11:BG11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C12",
+        "type": "number"
+      },
+      {
+        "range": "R12:Z12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB12:AJ12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL12:AT12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY12:BG12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C13",
+        "type": "number"
+      },
+      {
+        "range": "AY13:BG13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C14",
+        "type": "number"
+      },
+      {
+        "range": "AY14:BG14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C15",
+        "type": "number"
+      },
+      {
+        "range": "AY15:BG15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C16",
+        "type": "number"
+      },
+      {
+        "range": "AY16:BG16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C17",
+        "type": "number"
+      },
+      {
+        "range": "AY17:BG17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C18",
+        "type": "number"
+      },
+      {
+        "range": "AY18:BG18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C19",
+        "type": "number"
+      },
+      {
+        "range": "AX19",
+        "type": "string",
+        "value": "Gerlinde Rudelstorfer"
+      },
+      {
+        "range": "AY19:BG19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C20",
+        "type": "number"
+      },
+      {
+        "range": "C22",
+        "type": "number"
+      },
+      {
+        "range": "V22:Z22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF22:AJ22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AP22:AT22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C23",
+        "type": "number"
+      },
+      {
+        "range": "V23:Z23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF23:AJ23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AP23:AT23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C24",
+        "type": "number"
+      },
+      {
+        "range": "Y24:Z24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AI24:AJ24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AS24:AT24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C25",
+        "type": "number"
+      },
+      {
+        "range": "Y25:Z25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AI25:AJ25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AS25:AT25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C26",
+        "type": "number"
+      },
+      {
+        "range": "C27",
+        "type": "number"
+      },
+      {
+        "range": "C28",
+        "type": "number"
+      },
+      {
+        "range": "C29",
+        "type": "number"
+      },
+      {
+        "range": "C30",
+        "type": "number"
+      },
+      {
+        "range": "C31",
+        "type": "number"
+      },
+      {
+        "range": "C32",
+        "type": "number"
+      },
+      {
+        "range": "C33",
+        "type": "number"
+      },
+      {
+        "range": "C34",
+        "type": "number"
+      },
+      {
+        "range": "C35",
+        "type": "number"
+      },
+      {
+        "range": "C37",
+        "type": "number"
+      },
+      {
+        "range": "R37:Z37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB37:AJ37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL37:AT37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C38",
+        "type": "number"
+      },
+      {
+        "range": "R38:Z38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB38:AJ38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL38:AT38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C39",
+        "type": "number"
+      },
+      {
+        "range": "R39:Z39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB39:AJ39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL39:AT39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C40",
+        "type": "number"
+      },
+      {
+        "range": "R40:Z40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB40:AJ40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL40:AT40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C41",
+        "type": "number"
+      },
+      {
+        "range": "R41:Z41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB41:AJ41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL41:AT41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C42",
+        "type": "number"
+      },
+      {
+        "range": "T42:Z42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AD42:AJ42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AN42:AT42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C43",
+        "type": "number"
+      },
+      {
+        "range": "T43:Z43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AD43:AJ43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AN43:AT43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C44",
+        "type": "number"
+      },
+      {
+        "range": "C45",
+        "type": "number"
+      },
+      {
+        "range": "C46",
+        "type": "number"
+      },
+      {
+        "range": "C47",
+        "type": "number"
+      },
+      {
+        "range": "C48",
+        "type": "number"
+      },
+      {
+        "range": "C49",
+        "type": "number"
+      },
+      {
+        "range": "C50",
+        "type": "number"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 43.8,
+      "cells_analyzed": 872,
+      "total_ranges": 395,
+      "format_counts": {
+        "string": 284,
+        "date": 5,
+        "number": 106
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T19:03:31.081424Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2021-02-01",
+        "pattern": "Monthly series from 2021-02 to 2022-01"
+      },
+      "ds_2": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2021-05-01",
+        "pattern": "Monthly series from 2021-05 to 2022-01"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 16,
+    "entries_moved_to_index": 253,
+    "entries_remaining": 142,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 20698,
+    "compressed_size_bytes": 7822,
+    "inverted_index_size_bytes": 1030,
+    "compressed_data_size_bytes": 6792,
+    "compression_ratio": 0.378,
+    "space_saved_bytes": 12876,
+    "space_saved_percent": 62.2
+  }
+}

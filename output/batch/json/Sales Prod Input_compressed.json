@@ -1,0 +1,232 @@
+{
+  "inverted_index": {
+    "Account Manager": {
+      "type": "string",
+      "ranges": [
+        "B7",
+        "B19",
+        "B27"
+      ]
+    },
+    "AE - Financial": {
+      "type": "string",
+      "ranges": [
+        "B8",
+        "B20",
+        "B28"
+      ]
+    },
+    "AE - Corporate": {
+      "type": "string",
+      "ranges": [
+        "B9",
+        "B21",
+        "B29"
+      ]
+    },
+    "VP - Bus Dev": {
+      "type": "string",
+      "ranges": [
+        "B10",
+        "B22",
+        "B30"
+      ]
+    },
+    "AE - Enterprise": {
+      "type": "string",
+      "ranges": [
+        "B11",
+        "B23",
+        "B31"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Sales Prod Input",
+    "format_ranges": [
+      {
+        "range": "D3",
+        "type": "number"
+      },
+      {
+        "range": "F3:Q3",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "B5",
+        "type": "string",
+        "value": "Quota per Person"
+      },
+      {
+        "range": "D7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F7:Q7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F8:Q8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F9:Q9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F10:Q10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F11:Q11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B13",
+        "type": "string",
+        "value": "Seasonality"
+      },
+      {
+        "range": "B15",
+        "type": "string",
+        "value": "All Roles"
+      },
+      {
+        "range": "F15:Q15",
+        "type": "number"
+      },
+      {
+        "range": "B17",
+        "type": "string",
+        "value": "Productivity"
+      },
+      {
+        "range": "D19",
+        "type": "number"
+      },
+      {
+        "range": "F19:Q19",
+        "type": "number"
+      },
+      {
+        "range": "D20",
+        "type": "number"
+      },
+      {
+        "range": "F20:Q20",
+        "type": "number"
+      },
+      {
+        "range": "D21",
+        "type": "number"
+      },
+      {
+        "range": "F21:Q21",
+        "type": "number"
+      },
+      {
+        "range": "D22",
+        "type": "number"
+      },
+      {
+        "range": "F22:Q22",
+        "type": "number"
+      },
+      {
+        "range": "D23",
+        "type": "number"
+      },
+      {
+        "range": "F23:Q23",
+        "type": "number"
+      },
+      {
+        "range": "B25",
+        "type": "string",
+        "value": "Productivity (Adjusted for Seasonality)"
+      },
+      {
+        "range": "F27:Q27",
+        "type": "number"
+      },
+      {
+        "range": "F28:Q28",
+        "type": "number"
+      },
+      {
+        "range": "F29:Q29",
+        "type": "number"
+      },
+      {
+        "range": "F30:Q30",
+        "type": "number"
+      },
+      {
+        "range": "F31:Q31",
+        "type": "number"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 5154.91,
+      "cells_analyzed": 235,
+      "total_ranges": 48,
+      "format_counts": {
+        "number": 27,
+        "date": 1,
+        "string": 20
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T11:00:02.477012Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2021-01-31",
+        "pattern": "Monthly series from 2021-01 to 2021-12"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 5,
+    "entries_moved_to_index": 15,
+    "entries_remaining": 33,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 2674,
+    "compressed_size_bytes": 2140,
+    "inverted_index_size_bytes": 318,
+    "compressed_data_size_bytes": 1822,
+    "compression_ratio": 0.8,
+    "space_saved_bytes": 534,
+    "space_saved_percent": 20.0
+  }
+}

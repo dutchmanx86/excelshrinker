@@ -1,0 +1,166 @@
+{
+  "dataset": "pendo-sales-quota-build",
+  "created": "2025-09-19",
+  "questions": [
+    {
+      "id": "q1_corporate_sales_managers",
+      "category": "data_retrieval",
+      "question": "Who are the corporate sales managers?",
+      "answer": "Kate Batt, Michael Hoy, Brian Klemm + there's a prospective new hire in the plan (\"PFSU - Other\")",
+      "location_notes": {
+        "primary_sources": [
+          {
+            "sheet": "Corp Quotas",
+            "description": "Contains list of corporate sales managers with quotas assigned"
+          },
+          {
+            "sheet": "Corp Detail",
+            "description": "Contains detailed information about corporate sales managers"
+          },
+          {
+            "sheet": "Corp Team",
+            "description": "Contains corporate team structure including managers"
+          },
+          {
+            "sheet": "Overview",
+            "description": "Contains overview of managers with quotas assigned"
+          }
+        ],
+        "managers_list": [
+          "Kate Batt",
+          "Michael Hoy",
+          "Brian Klemm",
+          "PFSU - Other (prospective new hire)"
+        ],
+        "coverage_note": "All 4 tabs contain the list of managers with quotas assigned"
+      }
+    },
+    {
+      "id": "q2_leadership_quota_overassign",
+      "category": "model_logic",
+      "question": "What kind of overassign are we giving leadership for quotas in this model?",
+      "answer": "Manager Target: 7% over the budget, VP Target: 4% over the budget, CRO Target: 2% over the budget",
+      "location_notes": {
+        "primary_sources": [
+          {
+            "sheet": "Targets",
+            "description": "Contains the overassign percentages for different leadership levels"
+          },
+          {
+            "sheet": "Overview",
+            "description": "Contains overview of quota targets and overassign structure"
+          }
+        ],
+        "overassign_structure": {
+          "manager_target": "7% over budget",
+          "vp_target": "4% over budget",
+          "cro_target": "2% over budget"
+        }
+      }
+    },
+    {
+      "id": "q_corp_rep_ramp_schedule_quota",
+      "category": "retrieval",
+      "question": "What is a corporate rep ramp schedule and annual quota?",
+      "answer": "0, 25%, 50%, 75%, 100% for months 1, 2, 3, 4, and 5 respectively, with a full annual quota of $550k",
+      "location_notes": {
+        "primary_sources": [
+          {
+            "sheet": "FY22 QoS",
+            "description": "Contains a table of master data for different representative types, including ramp schedules."
+          },
+          {
+            "sheet": "Corp Team",
+            "description": "Future hire ramping schedules might need to be inferred by analyzing existing data, as it's not explicitly stated."
+          },
+          {
+            "sheet": "Corp Model",
+            "description": "Contains a ramp schedule and average monthly quotas so you can calculate the annual quota."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q_ent_attrition_factor_nov24",
+      "category": "retrieval",
+      "question": "what is the active attrition factor for the enterprise team in November 2024?",
+      "answer": "88%",
+      "location_notes": {
+        "primary_sources": [
+          {
+            "sheet": "Ent Quotas",
+            "description": "Repeated figure and there’s a table at the bottom of the sheet clearly marking it as the active one"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4_emea_bookings_target",
+      "category": "retrieval",
+      "question": "What’s the company bookings target in Q4 for EMEA?",
+      "answer": "$2,487k",
+      "location_notes": {
+        "primary_sources": [
+          {
+            "sheet": "EMEA Detail",
+            "description": "Company Budget line in Q4 under the Bookings Target header."
+          },
+          {
+            "sheet": "Overview",
+            "description": "Budget Bookings Target in Q4 for EMEA."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3_company_qos_vs_manager_targets",
+      "category": "retrieval",
+      "question": "For the entire company, what is the quota on the street in Q3 and what is the sum of all managers’ bookings targets?",
+      "answer": "Total QoS is $19,868k, sum of managers’ targets is $18,047k",
+      "location_notes": {
+        "primary_sources": [
+          {
+            "sheet": "Overview",
+            "description": "Slide contains summary metrics for entire company."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q_justin_turnley_manager",
+      "category": "retrieval",
+      "question": "Who is Justin Turnley’s manager in our sales forecast?",
+      "answer": "Brooke Ferguson",
+      "location_notes": {
+        "primary_sources": [
+          {
+            "sheet": "Comm Team",
+            "description": "Justin is on Brooke Ferguson’s team for the whole forecast period."
+          },
+          {
+            "sheet": "FY22 QoS",
+            "description": "The base data shows Justin having Brooke Ferguson as his manager for 1 month, then switching managers to Andre Braithwaite-Stanford in May 2021. However, there is a “Manager (Clean)” column that overrides to Brooke Ferguson for the whole forecast period."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q_stephen_wallison_quota_hire_date",
+      "category": "retrieval",
+      "question": "What is Stephen Wallison’s annual quota and when was he hired?",
+      "answer": "Stephen was hired on 8/19/2019 and has an annual quota of $750k.",
+      "location_notes": {
+        "primary_sources": [
+          {
+            "sheet": "FY22 QoS",
+            "description": "Stephen has a manager change in the model, but his quota remains consistent. Important to note that the hire data is not labeled. It’s in a column next to termination date that looks like a hire date, but the model should probably flag that it’s a reasonable assumption, not explicit."
+          },
+          {
+            "sheet": "Comm Team",
+            "description": "You can find Stephen’s quota here by annualizing his monthly totals, but you cannot find his hire date."
+          }
+        ]
+      }
+    }
+  ]
+}

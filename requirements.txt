@@ -1,0 +1,4 @@
+python-calamine>=0.2.0
+openpyxl>=3.1.2
+tqdm>=4.66.1
+google-generativeai

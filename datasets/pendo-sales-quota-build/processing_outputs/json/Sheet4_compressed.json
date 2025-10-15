@@ -1,0 +1,88 @@
+{
+  "inverted_index": {},
+  "data": {
+    "success": true,
+    "sheet_name": "Sheet4",
+    "format_ranges": [
+      {
+        "range": "A2",
+        "type": "string",
+        "value": "Delaney Branner"
+      },
+      {
+        "range": "A3",
+        "type": "string",
+        "value": "Martin Devine"
+      },
+      {
+        "range": "A4",
+        "type": "string",
+        "value": "Future Hire"
+      },
+      {
+        "range": "A5",
+        "type": "string",
+        "value": "Justin Samuel"
+      },
+      {
+        "range": "A6",
+        "type": "string",
+        "value": "Ben Manning"
+      },
+      {
+        "range": "A7",
+        "type": "string",
+        "value": "Heena Shah"
+      },
+      {
+        "range": "A8",
+        "type": "string",
+        "value": "Charlie Hobbs"
+      },
+      {
+        "range": "A9",
+        "type": "string",
+        "value": "Anna Barker"
+      },
+      {
+        "range": "A10",
+        "type": "string",
+        "value": "Biola, Emmanuelle"
+      },
+      {
+        "range": "A11",
+        "type": "string",
+        "value": "Rowena Sidhu"
+      },
+      {
+        "range": "A12",
+        "type": "string",
+        "value": "Rida Hariri"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 36.65,
+      "cells_analyzed": 11,
+      "total_ranges": 11,
+      "format_counts": {
+        "string": 11
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T19:04:32.408951Z"
+    }
+  },
+  "compression_stats": {
+    "unique_values": 0,
+    "entries_moved_to_index": 0,
+    "entries_remaining": 11,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 825,
+    "compressed_size_bytes": 827,
+    "inverted_index_size_bytes": 2,
+    "compressed_data_size_bytes": 825,
+    "compression_ratio": 1.002,
+    "space_saved_bytes": -2,
+    "space_saved_percent": -0.2
+  }
+}

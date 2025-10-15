@@ -1,0 +1,948 @@
+{
+  "inverted_index": {
+    "COCP*": {
+      "type": "string",
+      "ranges": [
+        "B10",
+        "B30"
+      ]
+    },
+    "DCCP*": {
+      "type": "string",
+      "ranges": [
+        "B11",
+        "B31"
+      ]
+    },
+    "GCCP*": {
+      "type": "string",
+      "ranges": [
+        "B12",
+        "B32"
+      ]
+    },
+    "MCCP*": {
+      "type": "string",
+      "ranges": [
+        "B13",
+        "B33"
+      ]
+    },
+    "MWCP*": {
+      "type": "string",
+      "ranges": [
+        "B14",
+        "B34"
+      ]
+    },
+    "SACP*": {
+      "type": "string",
+      "ranges": [
+        "B15",
+        "B35"
+      ]
+    },
+    "LSA/LGB***": {
+      "type": "string",
+      "ranges": [
+        "B16",
+        "B36"
+      ]
+    },
+    "PNW**": {
+      "type": "string",
+      "ranges": [
+        "B17",
+        "B37"
+      ]
+    },
+    "Oakland**": {
+      "type": "string",
+      "ranges": [
+        "B18",
+        "B38"
+      ]
+    },
+    "Northeast** (NL)": {
+      "type": "string",
+      "ranges": [
+        "B19",
+        "B39"
+      ]
+    },
+    "HRCP** (NL)": {
+      "type": "string",
+      "ranges": [
+        "B20",
+        "B40"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Region Assumptions",
+    "format_ranges": [
+      {
+        "range": "A1",
+        "type": "string",
+        "value": "Direct ChassisLink Inc."
+      },
+      {
+        "range": "A2",
+        "type": "string",
+        "value": "Evergreen Model Assumptions"
+      },
+      {
+        "range": "B4",
+        "type": "string",
+        "value": "Purhcase (1) / Lease (0)"
+      },
+      {
+        "range": "C4",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B6",
+        "type": "string",
+        "value": "Bad Debt as % of Revenue"
+      },
+      {
+        "range": "C6",
+        "type": "number"
+      },
+      {
+        "range": "E6",
+        "type": "number"
+      },
+      {
+        "range": "B8",
+        "type": "string",
+        "value": "Region"
+      },
+      {
+        "range": "C8",
+        "type": "string",
+        "value": "Total EVG Owned Chassis"
+      },
+      {
+        "range": "D8",
+        "type": "string",
+        "value": "Total EVG Leased Chassis"
+      },
+      {
+        "range": "E8",
+        "type": "string",
+        "value": "Total EVG Chassis for Scrap"
+      },
+      {
+        "range": "F8",
+        "type": "string",
+        "value": "Chassis Purchased by DCLI"
+      },
+      {
+        "range": "G8",
+        "type": "string",
+        "value": "EVG Owned Chassis Leased by DCLI"
+      },
+      {
+        "range": "H8",
+        "type": "string",
+        "value": "EVG Leases Taken on by DCLI"
+      },
+      {
+        "range": "I8",
+        "type": "string",
+        "value": "Additional Capacity Leased"
+      },
+      {
+        "range": "J8",
+        "type": "string",
+        "value": "Total DCLI Backfill"
+      },
+      {
+        "range": "K8",
+        "type": "string",
+        "value": "EVG Average Daily Usage"
+      },
+      {
+        "range": "L8",
+        "type": "string",
+        "value": "EVG Utilization Rate"
+      },
+      {
+        "range": "M8",
+        "type": "string",
+        "value": "Average Book Value per Chassis"
+      },
+      {
+        "range": "N8",
+        "type": "string",
+        "value": "Premium / (Discount) to Book "
+      },
+      {
+        "range": "O8",
+        "type": "string",
+        "value": "Purchase Price"
+      },
+      {
+        "range": "P8",
+        "type": "string",
+        "value": "Cost to Lease Owned EVG Chassis"
+      },
+      {
+        "range": "Q8",
+        "type": "string",
+        "value": "Cost to Takeover EVG Existing Leases"
+      },
+      {
+        "range": "R8",
+        "type": "string",
+        "value": "Lease Cost per Day for Add. Capacity"
+      },
+      {
+        "range": "S8",
+        "type": "string",
+        "value": "Repo Cost per Chassis"
+      },
+      {
+        "range": "T8",
+        "type": "string",
+        "value": "Recon. Cost per Chassis"
+      },
+      {
+        "range": "U8",
+        "type": "string",
+        "value": "Decouping Cost per Chassis"
+      },
+      {
+        "range": "V8",
+        "type": "string",
+        "value": "Retitling & Stenciling Cost per Chassis"
+      },
+      {
+        "range": "W8",
+        "type": "string",
+        "value": "Offhire Cost per Chassis"
+      },
+      {
+        "range": "X8",
+        "type": "string",
+        "value": "Sales Tax"
+      },
+      {
+        "range": "Y8",
+        "type": "string",
+        "value": "Terminal % of Daily Usage"
+      },
+      {
+        "range": "Z8",
+        "type": "string",
+        "value": "M&R per Billed Day"
+      },
+      {
+        "range": "AA8",
+        "type": "string",
+        "value": "Repo per Billed Day"
+      },
+      {
+        "range": "AB8",
+        "type": "string",
+        "value": "Admin per Chassis per Day"
+      },
+      {
+        "range": "AC8",
+        "type": "string",
+        "value": "Terminal Rate"
+      },
+      {
+        "range": "AD8",
+        "type": "string",
+        "value": "Market MH Rate"
+      },
+      {
+        "range": "AE8",
+        "type": "string",
+        "value": "MH Conversion per Year"
+      },
+      {
+        "range": "AF8",
+        "type": "string",
+        "value": "Gain Sharing % on MH Transition"
+      },
+      {
+        "range": "C9",
+        "type": "string",
+        "value": "`"
+      },
+      {
+        "range": "A10",
+        "type": "string",
+        "value": "MW"
+      },
+      {
+        "range": "C10:K10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L10",
+        "type": "number"
+      },
+      {
+        "range": "M10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N10",
+        "type": "number"
+      },
+      {
+        "range": "O10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "P10:R10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S10:W10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X10:Y10",
+        "type": "number"
+      },
+      {
+        "range": "Z10:AD10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE10:AF10",
+        "type": "number"
+      },
+      {
+        "range": "A11",
+        "type": "string",
+        "value": "PNW"
+      },
+      {
+        "range": "C11:K11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L11",
+        "type": "number"
+      },
+      {
+        "range": "M11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N11",
+        "type": "number"
+      },
+      {
+        "range": "O11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "P11:R11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S11:W11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X11:Y11",
+        "type": "number"
+      },
+      {
+        "range": "Z11:AD11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE11:AF11",
+        "type": "number"
+      },
+      {
+        "range": "A12",
+        "type": "string",
+        "value": "GUL"
+      },
+      {
+        "range": "C12:K12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L12",
+        "type": "number"
+      },
+      {
+        "range": "M12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N12",
+        "type": "number"
+      },
+      {
+        "range": "O12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "P12:R12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S12:W12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X12:Y12",
+        "type": "number"
+      },
+      {
+        "range": "Z12:AD12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE12:AF12",
+        "type": "number"
+      },
+      {
+        "range": "A13",
+        "type": "string",
+        "value": "SE"
+      },
+      {
+        "range": "C13:K13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L13",
+        "type": "number"
+      },
+      {
+        "range": "M13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N13",
+        "type": "number"
+      },
+      {
+        "range": "O13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "P13:R13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S13:W13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X13:Y13",
+        "type": "number"
+      },
+      {
+        "range": "Z13:AD13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE13:AF13",
+        "type": "number"
+      },
+      {
+        "range": "A14",
+        "type": "string",
+        "value": "MW"
+      },
+      {
+        "range": "C14:K14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L14",
+        "type": "number"
+      },
+      {
+        "range": "M14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N14",
+        "type": "number"
+      },
+      {
+        "range": "O14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "P14:R14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S14:W14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X14:Y14",
+        "type": "number"
+      },
+      {
+        "range": "Z14:AD14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE14:AF14",
+        "type": "number"
+      },
+      {
+        "range": "C15:K15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L15",
+        "type": "number"
+      },
+      {
+        "range": "M15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N15",
+        "type": "number"
+      },
+      {
+        "range": "O15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "P15:R15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S15:W15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X15:Y15",
+        "type": "number"
+      },
+      {
+        "range": "Z15:AD15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE15:AF15",
+        "type": "number"
+      },
+      {
+        "range": "C16:K16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L16",
+        "type": "number"
+      },
+      {
+        "range": "M16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N16",
+        "type": "number"
+      },
+      {
+        "range": "O16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "P16:R16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S16:W16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X16:Y16",
+        "type": "number"
+      },
+      {
+        "range": "Z16:AD16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE16:AF16",
+        "type": "number"
+      },
+      {
+        "range": "C17:D17",
+        "type": "number"
+      },
+      {
+        "range": "E17:K17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L17",
+        "type": "number"
+      },
+      {
+        "range": "M17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N17",
+        "type": "number"
+      },
+      {
+        "range": "O17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "P17:R17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S17:W17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X17:Y17",
+        "type": "number"
+      },
+      {
+        "range": "Z17:AD17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE17:AF17",
+        "type": "number"
+      },
+      {
+        "range": "C18:D18",
+        "type": "number"
+      },
+      {
+        "range": "E18:K18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L18",
+        "type": "number"
+      },
+      {
+        "range": "M18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N18",
+        "type": "number"
+      },
+      {
+        "range": "O18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "P18:R18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S18:W18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X18:Y18",
+        "type": "number"
+      },
+      {
+        "range": "Z18:AD18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE18:AF18",
+        "type": "number"
+      },
+      {
+        "range": "C19:D19",
+        "type": "number"
+      },
+      {
+        "range": "E19:K19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L19",
+        "type": "number"
+      },
+      {
+        "range": "M19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N19",
+        "type": "number"
+      },
+      {
+        "range": "O19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "P19:R19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S19:W19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X19:Y19",
+        "type": "number"
+      },
+      {
+        "range": "Z19:AD19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE19:AF19",
+        "type": "number"
+      },
+      {
+        "range": "C20:K20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L20",
+        "type": "number"
+      },
+      {
+        "range": "M20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N20",
+        "type": "number"
+      },
+      {
+        "range": "O20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "P20:R20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S20:W20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X20:Y20",
+        "type": "number"
+      },
+      {
+        "range": "Z20:AD20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE20:AF20",
+        "type": "number"
+      },
+      {
+        "range": "B21",
+        "type": "string",
+        "value": "Total"
+      },
+      {
+        "range": "C21:K21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B23",
+        "type": "string",
+        "value": "Scrap Value of Chassis"
+      },
+      {
+        "range": "C23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B25",
+        "type": "string",
+        "value": "Source:"
+      },
+      {
+        "range": "B26",
+        "type": "string",
+        "value": "* CCM"
+      },
+      {
+        "range": "B27",
+        "type": "string",
+        "value": "** Estimated"
+      },
+      {
+        "range": "B28",
+        "type": "string",
+        "value": "*** Evergreen"
+      },
+      {
+        "range": "C30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K35",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 821.99,
+      "cells_analyzed": 424,
+      "total_ranges": 199,
+      "format_counts": {
+        "string": 69,
+        "number": 130
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T18:32:15.081024Z"
+    }
+  },
+  "compression_stats": {
+    "unique_values": 11,
+    "entries_moved_to_index": 22,
+    "entries_remaining": 177,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 9785,
+    "compressed_size_bytes": 9243,
+    "inverted_index_size_bytes": 566,
+    "compressed_data_size_bytes": 8677,
+    "compression_ratio": 0.945,
+    "space_saved_bytes": 542,
+    "space_saved_percent": 5.5
+  }
+}

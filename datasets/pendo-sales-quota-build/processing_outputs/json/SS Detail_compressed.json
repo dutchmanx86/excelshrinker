@@ -1,0 +1,541 @@
+{
+  "inverted_index": {
+    "Q2-Q4": {
+      "type": "string",
+      "ranges": [
+        "F6",
+        "L6",
+        "R6",
+        "X6",
+        "F19",
+        "L19",
+        "R19",
+        "L26",
+        "R26"
+      ]
+    },
+    "Company Budget": {
+      "type": "string",
+      "ranges": [
+        "B7",
+        "H7",
+        "N7"
+      ]
+    },
+    "CRO": {
+      "type": "string",
+      "ranges": [
+        "N8",
+        "B9",
+        "H9",
+        "T10"
+      ]
+    },
+    "Coverage": {
+      "type": "string",
+      "ranges": [
+        "B10",
+        "H10",
+        "B13",
+        "H13",
+        "B16",
+        "H16"
+      ]
+    },
+    "Managers": {
+      "type": "string",
+      "ranges": [
+        "N10",
+        "T12",
+        "B15",
+        "H15",
+        "B18",
+        "H18",
+        "N18"
+      ]
+    },
+    "Bumgardner, Josh": {
+      "type": "string",
+      "ranges": [
+        "B20",
+        "H20",
+        "N20",
+        "H27"
+      ]
+    },
+    "TBD SS Corp Dir": {
+      "type": "string",
+      "ranges": [
+        "B21",
+        "H21",
+        "N21",
+        "H28"
+      ]
+    },
+    "TBD SS Comm Dir": {
+      "type": "string",
+      "ranges": [
+        "B22",
+        "H22",
+        "N22",
+        "H29"
+      ]
+    },
+    "Total Manager Target": {
+      "type": "string",
+      "ranges": [
+        "B23",
+        "H23",
+        "N23",
+        "H30",
+        "N30"
+      ]
+    },
+    "Managers - Gross (No Attrition)": {
+      "type": "string",
+      "ranges": [
+        "H25",
+        "N25"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "SS Detail",
+    "format_ranges": [
+      {
+        "range": "B2",
+        "type": "string",
+        "value": "Subscription Success"
+      },
+      {
+        "range": "B4",
+        "type": "string",
+        "value": "Bookings Targets"
+      },
+      {
+        "range": "H4",
+        "type": "string",
+        "value": "QoS (Net)"
+      },
+      {
+        "range": "N4",
+        "type": "string",
+        "value": "Attainment"
+      },
+      {
+        "range": "T4",
+        "type": "string",
+        "value": "Attainment (% Manager QoS)"
+      },
+      {
+        "range": "C6",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "D6",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "E6",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "I6",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "J6",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "K6",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "O6",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "P6",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "Q6",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "U6",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "V6",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "W6",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "Z6",
+        "type": "string",
+        "value": "Notes"
+      },
+      {
+        "range": "C7:F7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I7:L7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O7:R7",
+        "type": "number"
+      },
+      {
+        "range": "T7",
+        "type": "string",
+        "value": "Manager QoS"
+      },
+      {
+        "range": "U7:X7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Z7",
+        "type": "string",
+        "value": "2% walk-up in Q2 (tight bookings to quota), 94% in Q3, 1.5% walk-up in Q4"
+      },
+      {
+        "range": "O8:R8",
+        "type": "number"
+      },
+      {
+        "range": "C9:F9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I9:L9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N9",
+        "type": "string",
+        "value": "VP"
+      },
+      {
+        "range": "O9:R9",
+        "type": "number"
+      },
+      {
+        "range": "T9",
+        "type": "string",
+        "value": "Company"
+      },
+      {
+        "range": "U9:X9",
+        "type": "number"
+      },
+      {
+        "range": "C10:F10",
+        "type": "number"
+      },
+      {
+        "range": "I10:L10",
+        "type": "number"
+      },
+      {
+        "range": "O10:R10",
+        "type": "number"
+      },
+      {
+        "range": "U10:X10",
+        "type": "number"
+      },
+      {
+        "range": "T11",
+        "type": "string",
+        "value": "VP"
+      },
+      {
+        "range": "U11:X11",
+        "type": "number"
+      },
+      {
+        "range": "B12",
+        "type": "string",
+        "value": "VP"
+      },
+      {
+        "range": "C12:F12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H12",
+        "type": "string",
+        "value": "VP"
+      },
+      {
+        "range": "I12:L12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "U12:X12",
+        "type": "number"
+      },
+      {
+        "range": "C13:F13",
+        "type": "number"
+      },
+      {
+        "range": "I13:L13",
+        "type": "number"
+      },
+      {
+        "range": "C15:F15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I15:L15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C16:F16",
+        "type": "number"
+      },
+      {
+        "range": "I16:L16",
+        "type": "number"
+      },
+      {
+        "range": "C19",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "D19",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "E19",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "I19",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "J19",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "K19",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "O19",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "P19",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "Q19",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "C20:F20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I20:L20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O20:R20",
+        "type": "number"
+      },
+      {
+        "range": "C21:F21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I21:L21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "P21:R21",
+        "type": "number"
+      },
+      {
+        "range": "C22:F22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I22:L22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O22:R22",
+        "type": "number"
+      },
+      {
+        "range": "C23:F23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I23:L23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O23:R23",
+        "type": "number"
+      },
+      {
+        "range": "I26",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "J26",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "K26",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "O26",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "P26",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "Q26",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "I27:L27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N27",
+        "type": "string",
+        "value": "Wise, Matt"
+      },
+      {
+        "range": "O27:R27",
+        "type": "number"
+      },
+      {
+        "range": "I28:L28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N28",
+        "type": "string",
+        "value": "Chowdhury, Nadil"
+      },
+      {
+        "range": "P28:R28",
+        "type": "number"
+      },
+      {
+        "range": "I29:L29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N29",
+        "type": "string",
+        "value": "VOC/DAP"
+      },
+      {
+        "range": "O29:R29",
+        "type": "number"
+      },
+      {
+        "range": "I30:L30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O30:R30",
+        "type": "number"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 33.68,
+      "cells_analyzed": 261,
+      "total_ranges": 134,
+      "format_counts": {
+        "string": 91,
+        "number": 43
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T19:03:09.124276Z"
+    }
+  },
+  "compression_stats": {
+    "unique_values": 10,
+    "entries_moved_to_index": 48,
+    "entries_remaining": 86,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 6745,
+    "compressed_size_bytes": 4876,
+    "inverted_index_size_bytes": 734,
+    "compressed_data_size_bytes": 4142,
+    "compression_ratio": 0.723,
+    "space_saved_bytes": 1869,
+    "space_saved_percent": 27.7
+  }
+}

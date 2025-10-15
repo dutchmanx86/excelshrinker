@@ -1,0 +1,1173 @@
+{
+  "inverted_index": {
+    "Assumptions": {
+      "type": "string",
+      "ranges": [
+        "B3",
+        "B15",
+        "B48"
+      ]
+    },
+    "CYE December 31": {
+      "type": "string",
+      "ranges": [
+        "B5",
+        "D10",
+        "M10",
+        "V10"
+      ]
+    },
+    "2018A": {
+      "type": "string",
+      "ranges": [
+        "D11",
+        "M11",
+        "V11"
+      ]
+    },
+    "2019A": {
+      "type": "string",
+      "ranges": [
+        "E11",
+        "N11",
+        "W11"
+      ]
+    },
+    "2020A": {
+      "type": "string",
+      "ranges": [
+        "F11",
+        "O11",
+        "X11"
+      ]
+    },
+    "2021E": {
+      "type": "string",
+      "ranges": [
+        "G11",
+        "P11",
+        "Y11"
+      ]
+    },
+    "2022E": {
+      "type": "string",
+      "ranges": [
+        "H11",
+        "Q11",
+        "Z11"
+      ]
+    },
+    "2023E": {
+      "type": "string",
+      "ranges": [
+        "I11",
+        "R11",
+        "AA11"
+      ]
+    },
+    "Headcount Assumptions": {
+      "type": "string",
+      "ranges": [
+        "K13",
+        "B25",
+        "B36"
+      ]
+    },
+    "Sales": {
+      "type": "string",
+      "ranges": [
+        "K15",
+        "K25",
+        "K32",
+        "K48"
+      ]
+    },
+    "Marketing": {
+      "type": "string",
+      "ranges": [
+        "K16",
+        "K26",
+        "K33",
+        "K55"
+      ]
+    },
+    "n/a": {
+      "type": "string",
+      "ranges": [
+        "E17",
+        "V18",
+        "D33",
+        "V38"
+      ]
+    },
+    "Customer Success": {
+      "type": "string",
+      "ranges": [
+        "K17",
+        "K27",
+        "K34",
+        "K60"
+      ]
+    },
+    "R&D": {
+      "type": "string",
+      "ranges": [
+        "K18",
+        "K28",
+        "K35",
+        "K67"
+      ]
+    },
+    "y/y growth": {
+      "type": "string",
+      "ranges": [
+        "T18",
+        "T30",
+        "T38"
+      ]
+    },
+    "Avg. Initial ARR, New Bookings": {
+      "type": "string",
+      "ranges": [
+        "B19",
+        "B31",
+        "B42",
+        "B51"
+      ]
+    },
+    "G&A": {
+      "type": "string",
+      "ranges": [
+        "K19",
+        "K29",
+        "K36",
+        "K74"
+      ]
+    },
+    "Upsell % of Beginning ARR": {
+      "type": "string",
+      "ranges": [
+        "B20",
+        "B33",
+        "B44"
+      ]
+    },
+    "New AEs": {
+      "type": "string",
+      "ranges": [
+        "B26",
+        "B37"
+      ]
+    },
+    "Fully Ramped Equivalent Reps (avg.)": {
+      "type": "string",
+      "ranges": [
+        "B27",
+        "B38"
+      ]
+    },
+    "Total AEs": {
+      "type": "string",
+      "ranges": [
+        "B28",
+        "B39"
+      ]
+    },
+    "Other Assumptions": {
+      "type": "string",
+      "ranges": [
+        "B30",
+        "B41"
+      ]
+    },
+    "# of New Logos": {
+      "type": "string",
+      "ranges": [
+        "B32",
+        "B43"
+      ]
+    },
+    "Revenue": {
+      "type": "string",
+      "ranges": [
+        "T35:T36"
+      ]
+    },
+    "Credit Card Fees": {
+      "type": "string",
+      "ranges": [
+        "K40",
+        "T41"
+      ]
+    },
+    "Hosting ": {
+      "type": "string",
+      "ranges": [
+        "K41",
+        "T42"
+      ]
+    },
+    "Software Subscriptions": {
+      "type": "string",
+      "ranges": [
+        "K44",
+        "K52",
+        "K57",
+        "K64",
+        "K71"
+      ]
+    },
+    "Computer Equipment": {
+      "type": "string",
+      "ranges": [
+        "K46",
+        "K53",
+        "K58",
+        "K65",
+        "K69"
+      ]
+    },
+    "% margin": {
+      "type": "string",
+      "ranges": [
+        "T46",
+        "T61",
+        "T67"
+      ]
+    },
+    "Other": {
+      "type": "string",
+      "ranges": [
+        "K47",
+        "K54",
+        "K59",
+        "K66",
+        "K73"
+      ]
+    },
+    "% revenue": {
+      "type": "string",
+      "ranges": [
+        "T50",
+        "T52",
+        "T54",
+        "T56"
+      ]
+    },
+    "Contractors": {
+      "type": "string",
+      "ranges": [
+        "K51",
+        "K63",
+        "K72"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Assumptions",
+    "format_ranges": [
+      {
+        "range": "A1",
+        "type": "string",
+        "value": " "
+      },
+      {
+        "range": "B2",
+        "type": "string",
+        "value": "LogRocket"
+      },
+      {
+        "range": "B4",
+        "type": "string",
+        "value": "$ in 000s"
+      },
+      {
+        "range": "B8",
+        "type": "string",
+        "value": "Bookings Assumptions"
+      },
+      {
+        "range": "K8",
+        "type": "string",
+        "value": "Expense Assumptions"
+      },
+      {
+        "range": "T8",
+        "type": "string",
+        "value": "ARR Waterfall & Summary P&L"
+      },
+      {
+        "range": "B13",
+        "type": "string",
+        "value": "Inbound Lead Assumptions"
+      },
+      {
+        "range": "T13",
+        "type": "string",
+        "value": "Bookings"
+      },
+      {
+        "range": "T14",
+        "type": "string",
+        "value": "Inbound"
+      },
+      {
+        "range": "V14:AA14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M15:R15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T15",
+        "type": "string",
+        "value": "Outbound"
+      },
+      {
+        "range": "V15:AA15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B16",
+        "type": "string",
+        "value": "Total MQLs from Website and Blogs (#s as is)"
+      },
+      {
+        "range": "E16:I16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M16:R16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T16",
+        "type": "string",
+        "value": "Tradeshow"
+      },
+      {
+        "range": "V16:AA16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B17",
+        "type": "string",
+        "value": "% YoY Growth"
+      },
+      {
+        "range": "F17:I17",
+        "type": "number"
+      },
+      {
+        "range": "M17:R17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T17",
+        "type": "string",
+        "value": "Total Bookings"
+      },
+      {
+        "range": "V17:AA17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B18",
+        "type": "string",
+        "value": "MQL to Paying Conversion %"
+      },
+      {
+        "range": "E18:I18",
+        "type": "number"
+      },
+      {
+        "range": "M18:R18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "W18:AA18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D19:I19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M19:R19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D20:I20",
+        "type": "number"
+      },
+      {
+        "range": "K20",
+        "type": "string",
+        "value": "Total Headcount"
+      },
+      {
+        "range": "M20:R20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T20",
+        "type": "string",
+        "value": "Consolidated ARR Snowball"
+      },
+      {
+        "range": "T21",
+        "type": "string",
+        "value": "Beginning Balance"
+      },
+      {
+        "range": "V21:AA21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B22",
+        "type": "string",
+        "value": "Outbound Lead Assumptions"
+      },
+      {
+        "range": "K22",
+        "type": "string",
+        "value": "Headcount Expense Assumptions"
+      },
+      {
+        "range": "T22",
+        "type": "string",
+        "value": "(+) New"
+      },
+      {
+        "range": "V22:AA22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T23",
+        "type": "string",
+        "value": "(+) Returning"
+      },
+      {
+        "range": "V23:AA23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B24",
+        "type": "string",
+        "value": "Enterprise"
+      },
+      {
+        "range": "K24",
+        "type": "string",
+        "value": "Average Annual Headcount Expense by Function"
+      },
+      {
+        "range": "T24",
+        "type": "string",
+        "value": "(+) Upsell"
+      },
+      {
+        "range": "V24:AA24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M25:R25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T25",
+        "type": "string",
+        "value": "(-) Churn"
+      },
+      {
+        "range": "V25:AA25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G26:I26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M26:R26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T26",
+        "type": "string",
+        "value": "(-) Lapsed"
+      },
+      {
+        "range": "V26:AA26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G27:I27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M27",
+        "type": "string",
+        "value": "-"
+      },
+      {
+        "range": "N27:R27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T27",
+        "type": "string",
+        "value": "(-) Downsell"
+      },
+      {
+        "range": "V27:AA27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G28:I28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M28:R28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T28",
+        "type": "string",
+        "value": "(+) Other"
+      },
+      {
+        "range": "V28:AA28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M29:R29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T29",
+        "type": "string",
+        "value": "Ending Balance"
+      },
+      {
+        "range": "V29:AA29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "W30:AA30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D31:I31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K31",
+        "type": "string",
+        "value": "Headcount Expense by Function"
+      },
+      {
+        "range": "D32:I32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M32:R32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T32",
+        "type": "string",
+        "value": "% Gross $ Retention (cancellations)"
+      },
+      {
+        "range": "V32:AA32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E33:I33",
+        "type": "number"
+      },
+      {
+        "range": "M33:R33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T33",
+        "type": "string",
+        "value": "% Net $ Retention"
+      },
+      {
+        "range": "V33:AA33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M34:R34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B35",
+        "type": "string",
+        "value": "Commercial"
+      },
+      {
+        "range": "M35:R35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M36:R36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V36:AA36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D37:I37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T37",
+        "type": "string",
+        "value": "Total Revenue"
+      },
+      {
+        "range": "V37:AA37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D38:I38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K38",
+        "type": "string",
+        "value": "Non-Headcount Expense Assumptions"
+      },
+      {
+        "range": "W38:AA38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D39:I39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M40:R40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T40",
+        "type": "string",
+        "value": "COS"
+      },
+      {
+        "range": "M41:R41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V41:AA41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D42",
+        "type": "string",
+        "value": "-"
+      },
+      {
+        "range": "E42:I42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K42",
+        "type": "string",
+        "value": "Cost of Sales"
+      },
+      {
+        "range": "M42:R42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V42:AA42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D43:I43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T43",
+        "type": "string",
+        "value": "Total COGS"
+      },
+      {
+        "range": "V43:AA43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D44",
+        "type": "string",
+        "value": "-"
+      },
+      {
+        "range": "E44",
+        "type": "string",
+        "value": "-"
+      },
+      {
+        "range": "F44:I44",
+        "type": "number"
+      },
+      {
+        "range": "O44:R44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K45",
+        "type": "string",
+        "value": "Travel"
+      },
+      {
+        "range": "O45:R45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T45",
+        "type": "string",
+        "value": "Gross Profit"
+      },
+      {
+        "range": "V45:AA45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B46",
+        "type": "string",
+        "value": "Tradeshow Assumptions"
+      },
+      {
+        "range": "O46:R46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V46:AA46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O47:R47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M48:R48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T48",
+        "type": "string",
+        "value": "Operating Expenses"
+      },
+      {
+        "range": "B49",
+        "type": "string",
+        "value": "# of Events"
+      },
+      {
+        "range": "D49:I49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T49",
+        "type": "string",
+        "value": "Sales & Marketing"
+      },
+      {
+        "range": "V49:AA49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B50",
+        "type": "string",
+        "value": "Converted Logos From Events"
+      },
+      {
+        "range": "D50:I50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K50",
+        "type": "string",
+        "value": "Advertising & Marketing"
+      },
+      {
+        "range": "O50:R50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V50:AA50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D51:I51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O51:R51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T51",
+        "type": "string",
+        "value": "Research & Development"
+      },
+      {
+        "range": "V51:AA51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O52:R52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V52:AA52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O53:R53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T53",
+        "type": "string",
+        "value": "General & Administrative"
+      },
+      {
+        "range": "V53:AA53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O54:R54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V54:AA54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M55:R55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T55",
+        "type": "string",
+        "value": "Total Operating Expenses"
+      },
+      {
+        "range": "V55:AA55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V56:AA56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O57:R57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O58:R58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T58",
+        "type": "string",
+        "value": "Stock Compensation"
+      },
+      {
+        "range": "V58:AA58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O59:R59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M60:R60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T60",
+        "type": "string",
+        "value": "EBITDA"
+      },
+      {
+        "range": "V60:AA60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V61:AA61",
+        "type": "number"
+      },
+      {
+        "range": "K62",
+        "type": "string",
+        "value": "Cloud Hosting - G&A"
+      },
+      {
+        "range": "O62:R62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O63:R63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T63",
+        "type": "string",
+        "value": "Change in Deferred Revenue"
+      },
+      {
+        "range": "V63:AA63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O64:R64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T64",
+        "type": "string",
+        "value": "% of Change in ARR"
+      },
+      {
+        "range": "V64:AA64",
+        "type": "number"
+      },
+      {
+        "range": "O65:R65",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O66:R66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T66",
+        "type": "string",
+        "value": "Cash EBITDA"
+      },
+      {
+        "range": "V66:AA66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M67:R67",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V67:AA67",
+        "type": "number"
+      },
+      {
+        "range": "O69:R69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T69",
+        "type": "string",
+        "value": "D&A"
+      },
+      {
+        "range": "V69:AA69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K70",
+        "type": "string",
+        "value": "Rent & Lease"
+      },
+      {
+        "range": "O70:R70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T70",
+        "type": "string",
+        "value": "% ARR"
+      },
+      {
+        "range": "V70:AA70",
+        "type": "number"
+      },
+      {
+        "range": "O71:R71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O72:R72",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T72",
+        "type": "string",
+        "value": "EBIT"
+      },
+      {
+        "range": "V72:AA72",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O73:R73",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M74:R74",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T74",
+        "type": "string",
+        "value": "Interest Income"
+      },
+      {
+        "range": "V74:AA74",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T76",
+        "type": "string",
+        "value": "Net Profit"
+      },
+      {
+        "range": "V76:AA76",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 59.91,
+      "cells_analyzed": 770,
+      "total_ranges": 280,
+      "format_counts": {
+        "string": 169,
+        "number": 111
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T19:46:00.046463Z"
+    }
+  },
+  "compression_stats": {
+    "unique_values": 32,
+    "entries_moved_to_index": 103,
+    "entries_remaining": 177,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 15047,
+    "compressed_size_bytes": 11455,
+    "inverted_index_size_bytes": 2007,
+    "compressed_data_size_bytes": 9448,
+    "compression_ratio": 0.761,
+    "space_saved_bytes": 3592,
+    "space_saved_percent": 23.9
+  }
+}

@@ -1,0 +1,653 @@
+{
+  "inverted_index": {
+    "Pool Floor": {
+      "type": "string",
+      "ranges": [
+        "A7",
+        "A14"
+      ]
+    },
+    "BRM": {
+      "type": "string",
+      "ranges": [
+        "A8",
+        "A18",
+        "A42"
+      ]
+    },
+    "AMR": {
+      "type": "string",
+      "ranges": [
+        "A9",
+        "A19",
+        "A43"
+      ]
+    },
+    "Transcripts": {
+      "type": "string",
+      "ranges": [
+        "A10",
+        "A20",
+        "A44"
+      ]
+    },
+    "M&A": {
+      "type": "string",
+      "ranges": [
+        "A11",
+        "A21",
+        "A45"
+      ]
+    },
+    "Total": {
+      "type": "string",
+      "ranges": [
+        "A12",
+        "A46"
+      ]
+    },
+    "Change in Carryover": {
+      "type": "string",
+      "ranges": [
+        "A34",
+        "A37"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Total FDS Cost",
+    "format_ranges": [
+      {
+        "range": "C1:J1",
+        "type": "number"
+      },
+      {
+        "range": "C1:J1",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "L1:DC1",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "A3",
+        "type": "string",
+        "value": "Summary FDS COGS Expense"
+      },
+      {
+        "range": "A5",
+        "type": "string",
+        "value": "FDS Content"
+      },
+      {
+        "range": "C7:J7",
+        "type": "number"
+      },
+      {
+        "range": "L7:DC7",
+        "type": "number"
+      },
+      {
+        "range": "C8",
+        "type": "number"
+      },
+      {
+        "range": "D8:J8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L8",
+        "type": "number"
+      },
+      {
+        "range": "M8:DC8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C9",
+        "type": "number"
+      },
+      {
+        "range": "D9:J9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L9",
+        "type": "number"
+      },
+      {
+        "range": "M9:DC9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C10",
+        "type": "number"
+      },
+      {
+        "range": "D10:J10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L10",
+        "type": "number"
+      },
+      {
+        "range": "M10:DC10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C11",
+        "type": "number"
+      },
+      {
+        "range": "D11:J11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L11",
+        "type": "number"
+      },
+      {
+        "range": "M11:DC11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C12",
+        "type": "number"
+      },
+      {
+        "range": "D12:J12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L12",
+        "type": "number"
+      },
+      {
+        "range": "M12:DC12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C14",
+        "type": "number"
+      },
+      {
+        "range": "D14:J14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L14:DC14",
+        "type": "number"
+      },
+      {
+        "range": "A16",
+        "type": "string",
+        "value": "FDS Excess Expense"
+      },
+      {
+        "range": "C18",
+        "type": "number"
+      },
+      {
+        "range": "D18:J18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L18:DC18",
+        "type": "number"
+      },
+      {
+        "range": "C19",
+        "type": "number"
+      },
+      {
+        "range": "D19:J19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L19",
+        "type": "number"
+      },
+      {
+        "range": "M19:DC19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C20",
+        "type": "number"
+      },
+      {
+        "range": "D20:J20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L20",
+        "type": "number"
+      },
+      {
+        "range": "M20:DC20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C21",
+        "type": "number"
+      },
+      {
+        "range": "D21:J21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L21",
+        "type": "number"
+      },
+      {
+        "range": "M21:DC21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A22",
+        "type": "string",
+        "value": "Total Excess"
+      },
+      {
+        "range": "C22",
+        "type": "number"
+      },
+      {
+        "range": "D22:J22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L22",
+        "type": "number"
+      },
+      {
+        "range": "M22:DC22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A24",
+        "type": "string",
+        "value": "Total FDS Spend"
+      },
+      {
+        "range": "C24",
+        "type": "number"
+      },
+      {
+        "range": "D24:J24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L24",
+        "type": "number"
+      },
+      {
+        "range": "M24:DC24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A25",
+        "type": "string",
+        "value": "Total FDS Minimum"
+      },
+      {
+        "range": "C25",
+        "type": "number"
+      },
+      {
+        "range": "D25:J25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L25",
+        "type": "number"
+      },
+      {
+        "range": "M25:DC25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A27",
+        "type": "string",
+        "value": "Pool Contribution"
+      },
+      {
+        "range": "A29",
+        "type": "string",
+        "value": "Paid"
+      },
+      {
+        "range": "C29",
+        "type": "number"
+      },
+      {
+        "range": "D29:J29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L29:S29",
+        "type": "number"
+      },
+      {
+        "range": "T29:DC29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A30",
+        "type": "string",
+        "value": "Carryover"
+      },
+      {
+        "range": "C30",
+        "type": "number"
+      },
+      {
+        "range": "D30:J30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L30",
+        "type": "number"
+      },
+      {
+        "range": "M30:DC30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A31",
+        "type": "string",
+        "value": "Excess"
+      },
+      {
+        "range": "C31",
+        "type": "number"
+      },
+      {
+        "range": "D31:J31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L31",
+        "type": "number"
+      },
+      {
+        "range": "M31:DC31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A33",
+        "type": "string",
+        "value": "Carryover Balance"
+      },
+      {
+        "range": "C33",
+        "type": "number"
+      },
+      {
+        "range": "D33:J33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L33",
+        "type": "number"
+      },
+      {
+        "range": "M33:DC33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C34",
+        "type": "number"
+      },
+      {
+        "range": "D34:J34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L34",
+        "type": "number"
+      },
+      {
+        "range": "M34:DC34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A36",
+        "type": "string",
+        "value": "AMR Expense"
+      },
+      {
+        "range": "C36",
+        "type": "number"
+      },
+      {
+        "range": "D36:J36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L36",
+        "type": "number"
+      },
+      {
+        "range": "M36:DC36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C37",
+        "type": "number"
+      },
+      {
+        "range": "D37:J37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L37",
+        "type": "number"
+      },
+      {
+        "range": "M37:DC37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A38",
+        "type": "string",
+        "value": "Adjusted AMR Expense"
+      },
+      {
+        "range": "C38",
+        "type": "number"
+      },
+      {
+        "range": "D38:J38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L38",
+        "type": "number"
+      },
+      {
+        "range": "M38:DC38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A40",
+        "type": "string",
+        "value": "Adjusted FDS COGS Expense"
+      },
+      {
+        "range": "C42",
+        "type": "number"
+      },
+      {
+        "range": "D42:J42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L42:S42",
+        "type": "number"
+      },
+      {
+        "range": "T42:DC42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C43",
+        "type": "number"
+      },
+      {
+        "range": "D43:J43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L43",
+        "type": "number"
+      },
+      {
+        "range": "M43:DC43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C44",
+        "type": "number"
+      },
+      {
+        "range": "D44:J44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L44",
+        "type": "number"
+      },
+      {
+        "range": "M44:DC44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C45",
+        "type": "number"
+      },
+      {
+        "range": "D45:J45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L45",
+        "type": "number"
+      },
+      {
+        "range": "M45:DC45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C46",
+        "type": "number"
+      },
+      {
+        "range": "D46:J46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L46",
+        "type": "number"
+      },
+      {
+        "range": "M46:DC46",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 2868.08,
+      "cells_analyzed": 2944,
+      "total_ranges": 139,
+      "format_counts": {
+        "number": 105,
+        "date": 2,
+        "string": 32
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-13T21:35:49.897677Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "annual",
+        "increment": "1 year",
+        "start_date": "2020-01-01",
+        "pattern": "Annual series from 2020 to 2027"
+      },
+      "ds_2": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2020-01-31",
+        "pattern": "Monthly series from 2020-01 to 2027-12"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 7,
+    "entries_moved_to_index": 18,
+    "entries_remaining": 121,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 6606,
+    "compressed_size_bytes": 6091,
+    "inverted_index_size_bytes": 384,
+    "compressed_data_size_bytes": 5707,
+    "compression_ratio": 0.922,
+    "space_saved_bytes": 515,
+    "space_saved_percent": 7.8
+  }
+}

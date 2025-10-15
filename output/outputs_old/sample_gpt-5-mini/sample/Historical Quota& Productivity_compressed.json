@@ -1,0 +1,288 @@
+{
+  "inverted_index": {
+    "Account Manager": {
+      "type": "string",
+      "ranges": [
+        "A3",
+        "A14"
+      ]
+    },
+    "AE - Financial": {
+      "type": "string",
+      "ranges": [
+        "A4",
+        "A12"
+      ]
+    },
+    "AE - Corporate": {
+      "type": "string",
+      "ranges": [
+        "A5",
+        "A15"
+      ]
+    },
+    "AE - Enterprise": {
+      "type": "string",
+      "ranges": [
+        "A6",
+        "A13"
+      ]
+    },
+    "AE - Other": {
+      "type": "string",
+      "ranges": [
+        "A7",
+        "A16"
+      ]
+    },
+    "VP Bus Dev": {
+      "type": "string",
+      "ranges": [
+        "A8",
+        "A18"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Historical Quota& Productivity",
+    "format_ranges": [
+      {
+        "range": "D1:G1",
+        "type": "number"
+      },
+      {
+        "range": "D1:G1",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "I1:BG1",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "A2",
+        "type": "string",
+        "value": "Historical Quota"
+      },
+      {
+        "range": "E3:G3",
+        "type": "number"
+      },
+      {
+        "range": "E4:G4",
+        "type": "number"
+      },
+      {
+        "range": "E5:G5",
+        "type": "number"
+      },
+      {
+        "range": "E6:G6",
+        "type": "number"
+      },
+      {
+        "range": "E7",
+        "type": "number"
+      },
+      {
+        "range": "F7:G7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E8",
+        "type": "number"
+      },
+      {
+        "range": "F8:G8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "U8:AR8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A11",
+        "type": "string",
+        "value": "Historical Productivity"
+      },
+      {
+        "range": "D12:E12",
+        "type": "number"
+      },
+      {
+        "range": "F12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I12:AT12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU12:BG12",
+        "type": "number"
+      },
+      {
+        "range": "D13:E13",
+        "type": "number"
+      },
+      {
+        "range": "F13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I13:AT13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU13",
+        "type": "number"
+      },
+      {
+        "range": "D14:E14",
+        "type": "number"
+      },
+      {
+        "range": "F14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I14:AT14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU14:BG14",
+        "type": "number"
+      },
+      {
+        "range": "D15:F15",
+        "type": "number"
+      },
+      {
+        "range": "I15:BG15",
+        "type": "number"
+      },
+      {
+        "range": "D16",
+        "type": "number"
+      },
+      {
+        "range": "E16:F16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I16:AU16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A17",
+        "type": "string",
+        "value": "Other"
+      },
+      {
+        "range": "D17",
+        "type": "number"
+      },
+      {
+        "range": "E17:F17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I17:AU17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D18",
+        "type": "number"
+      },
+      {
+        "range": "E18:F18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I18:AU18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A19",
+        "type": "string",
+        "value": "Total"
+      },
+      {
+        "range": "D19",
+        "type": "number"
+      },
+      {
+        "range": "E19:F19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I19:BG19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I22:AR22",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 2157.05,
+      "cells_analyzed": 533,
+      "total_ranges": 55,
+      "format_counts": {
+        "number": 37,
+        "date": 2,
+        "string": 16
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-14T01:37:25.001185Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "annual",
+        "increment": "1 year",
+        "start_date": "2015-01-01",
+        "pattern": "Annual series from 2015 to 2018"
+      },
+      "ds_2": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2015-01-31",
+        "pattern": "Monthly series from 2015-01 to 2019-03"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 6,
+    "entries_moved_to_index": 12,
+    "entries_remaining": 43,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 3076,
+    "compressed_size_bytes": 2747,
+    "inverted_index_size_bytes": 337,
+    "compressed_data_size_bytes": 2410,
+    "compression_ratio": 0.893,
+    "space_saved_bytes": 329,
+    "space_saved_percent": 10.7
+  }
+}

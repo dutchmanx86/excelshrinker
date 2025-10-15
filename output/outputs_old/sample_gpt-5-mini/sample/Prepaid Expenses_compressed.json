@@ -1,0 +1,1096 @@
+{
+  "inverted_index": {
+    "Outreach Corporation": {
+      "type": "string",
+      "ranges": [
+        "B4:B5"
+      ]
+    },
+    "Salesforce.com Inc": {
+      "type": "string",
+      "ranges": [
+        "B6:B7"
+      ]
+    },
+    "HackerRank": {
+      "type": "string",
+      "ranges": [
+        "B8:B9"
+      ]
+    },
+    "Rekener, Inc.": {
+      "type": "string",
+      "ranges": [
+        "B10:B11"
+      ]
+    },
+    "Zoom Information, Inc": {
+      "type": "string",
+      "ranges": [
+        "B12:B13"
+      ]
+    },
+    "HubSpot": {
+      "type": "string",
+      "ranges": [
+        "B14:B15"
+      ]
+    },
+    "Vistage": {
+      "type": "string",
+      "ranges": [
+        "B16:B17"
+      ]
+    },
+    "North 6th Agency, Inc.": {
+      "type": "string",
+      "ranges": [
+        "B18:B19"
+      ]
+    },
+    "Axis Enterprises": {
+      "type": "string",
+      "ranges": [
+        "B20:B21"
+      ]
+    },
+    "Sage Intacct, Inc": {
+      "type": "string",
+      "ranges": [
+        "B22:B23"
+      ]
+    },
+    "Marketo": {
+      "type": "string",
+      "ranges": [
+        "B24:B25"
+      ]
+    },
+    "Linkedin Corporation": {
+      "type": "string",
+      "ranges": [
+        "B26:B27"
+      ]
+    },
+    "Topo Research, LLC": {
+      "type": "string",
+      "ranges": [
+        "B28:B29"
+      ]
+    },
+    "ON24": {
+      "type": "string",
+      "ranges": [
+        "B30:B31"
+      ]
+    },
+    "Splash": {
+      "type": "string",
+      "ranges": [
+        "B32:B33"
+      ]
+    },
+    "215 Park Avenue Associates, LP": {
+      "type": "string",
+      "ranges": [
+        "B34:B35"
+      ]
+    },
+    "Porter Labs Inc.": {
+      "type": "string",
+      "ranges": [
+        "B36:B37"
+      ]
+    },
+    "ABD Insurance & Financial Services": {
+      "type": "string",
+      "ranges": [
+        "B38:B39"
+      ]
+    },
+    "Venwise": {
+      "type": "string",
+      "ranges": [
+        "B40:B41"
+      ]
+    },
+    "AppSec": {
+      "type": "string",
+      "ranges": [
+        "B42:B43"
+      ]
+    },
+    "Zoom Video Communications Inc.": {
+      "type": "string",
+      "ranges": [
+        "B44:B45"
+      ]
+    },
+    "Chorus": {
+      "type": "string",
+      "ranges": [
+        "B46:B47"
+      ]
+    },
+    "The National Investor Relations Institute \u00e2\u20ac\u201c New York Chapter": {
+      "type": "string",
+      "ranges": [
+        "B48:B49"
+      ]
+    },
+    "Greenhouse Software, Inc.": {
+      "type": "string",
+      "ranges": [
+        "B50:B51"
+      ]
+    },
+    "eShares, Inc.": {
+      "type": "string",
+      "ranges": [
+        "B52:B53"
+      ]
+    },
+    "Built In, Inc.": {
+      "type": "string",
+      "ranges": [
+        "B54:B55"
+      ]
+    },
+    "NIRI ATL": {
+      "type": "string",
+      "ranges": [
+        "B56:B57"
+      ]
+    },
+    "S. Klein Family LLC": {
+      "type": "string",
+      "ranges": [
+        "B58:B59"
+      ]
+    },
+    "Employee Fiduciary": {
+      "type": "string",
+      "ranges": [
+        "B60:B61"
+      ]
+    },
+    "Ipreo Data Inc.": {
+      "type": "string",
+      "ranges": [
+        "B62:B63"
+      ]
+    },
+    "Vonage": {
+      "type": "string",
+      "ranges": [
+        "B64:B65"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Prepaid Expenses",
+    "format_ranges": [
+      {
+        "range": "B1",
+        "type": "string",
+        "value": "Growth rate"
+      },
+      {
+        "range": "D1:Z1",
+        "type": "number"
+      },
+      {
+        "range": "C2:Z2",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "A3",
+        "type": "string",
+        "value": "Unit Price"
+      },
+      {
+        "range": "B3",
+        "type": "string",
+        "value": "Vendors"
+      },
+      {
+        "range": "C3",
+        "type": "string",
+        "value": "Amount"
+      },
+      {
+        "range": "C4:E4",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H4",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J4:K4",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M4:Z4",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D5:Z5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A6",
+        "type": "number"
+      },
+      {
+        "range": "C6:F6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J6:Z6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D7:Z7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D9:Z9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A10",
+        "type": "number"
+      },
+      {
+        "range": "C10:F10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J10:R10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T10:Z10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D11:Z11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A12",
+        "type": "number"
+      },
+      {
+        "range": "C12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "R12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D13:Z13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Y14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D15:Z15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Z16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D17:Z17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C18:Z18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D19:Z19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A22",
+        "type": "number"
+      },
+      {
+        "range": "C22:D22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D23:Z23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Y24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D25:Z25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "R26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D27:Z27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Z28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D29:Z29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "U30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D31:Z31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D33:Z33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D35:U35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D37:E37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D39:Z39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "R40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "U40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D41:Z41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A42",
+        "type": "number"
+      },
+      {
+        "range": "C42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "U42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D43:Z43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A44",
+        "type": "number"
+      },
+      {
+        "range": "C44:Z44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D45:Z45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D47:Z47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D49:E49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "W50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Z50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D51:Z51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "R52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D53:Z53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D55:Z55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D57:H57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D59:H59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "W60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Z60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D61:Z61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C62:D62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "P62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Y62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D63:Z63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "R64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "U64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D65:Z65",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B67",
+        "type": "string",
+        "value": "Opening balance"
+      },
+      {
+        "range": "D67:Z67",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B68",
+        "type": "string",
+        "value": "Inc Prepaids"
+      },
+      {
+        "range": "C68:Z68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B69",
+        "type": "string",
+        "value": "Intacct Diff"
+      },
+      {
+        "range": "C69:Z69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B70",
+        "type": "string",
+        "value": "Total Inc Prepaids"
+      },
+      {
+        "range": "C70:Z70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B72",
+        "type": "string",
+        "value": "Total Mgmt Prepaids (Jack's relocation bonus)"
+      },
+      {
+        "range": "C72:Z72",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B74",
+        "type": "string",
+        "value": "Total India Prepaids (INR)"
+      },
+      {
+        "range": "C74:D74",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E74:Z74",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B75",
+        "type": "string",
+        "value": "INR"
+      },
+      {
+        "range": "C75",
+        "type": "number"
+      },
+      {
+        "range": "C76:Z76",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B77",
+        "type": "string",
+        "value": "Total Oy Prepaids (EURO)"
+      },
+      {
+        "range": "C77:Z77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B78",
+        "type": "string",
+        "value": "Euro"
+      },
+      {
+        "range": "C78",
+        "type": "number"
+      },
+      {
+        "range": "B79",
+        "type": "string",
+        "value": "Total Oy Prepaids (USD)"
+      },
+      {
+        "range": "C79:Z79",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B81",
+        "type": "string",
+        "value": "Total Prepaids (USD)"
+      },
+      {
+        "range": "C81:Z81",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 2154.08,
+      "cells_analyzed": 1187,
+      "total_ranges": 237,
+      "format_counts": {
+        "string": 77,
+        "number": 159,
+        "date": 1
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-14T01:37:38.262170Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2020-01-01",
+        "pattern": "Monthly series from 2020-01 to 2021-12"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 31,
+    "entries_moved_to_index": 62,
+    "entries_remaining": 175,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 12304,
+    "compressed_size_bytes": 10411,
+    "inverted_index_size_bytes": 1827,
+    "compressed_data_size_bytes": 8584,
+    "compression_ratio": 0.846,
+    "space_saved_bytes": 1893,
+    "space_saved_percent": 15.4
+  }
+}

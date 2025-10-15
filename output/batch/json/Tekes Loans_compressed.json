@@ -1,0 +1,314 @@
+{
+  "inverted_index": {
+    "Opening Principal Balance": {
+      "type": "string",
+      "ranges": [
+        "C3",
+        "C13",
+        "C24",
+        "C37",
+        "C48"
+      ]
+    },
+    "Principal Payment": {
+      "type": "string",
+      "ranges": [
+        "C4",
+        "C14",
+        "C25",
+        "C38",
+        "C49"
+      ]
+    },
+    "Accrued Interest": {
+      "type": "string",
+      "ranges": [
+        "C5",
+        "C15",
+        "C26",
+        "C39",
+        "C50"
+      ]
+    },
+    "Interest Payment": {
+      "type": "string",
+      "ranges": [
+        "C6",
+        "C16",
+        "C27",
+        "C40",
+        "C51"
+      ]
+    },
+    "Principal Payment FX Rate": {
+      "type": "string",
+      "ranges": [
+        "C8",
+        "C18",
+        "C29",
+        "C42",
+        "C53"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Tekes Loans",
+    "format_ranges": [
+      {
+        "range": "D2:AZ2",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "B3",
+        "type": "string",
+        "value": "Tekes -14223, 114850 \u20ac"
+      },
+      {
+        "range": "D3:I3",
+        "type": "number"
+      },
+      {
+        "range": "H4",
+        "type": "number"
+      },
+      {
+        "range": "D5:G5",
+        "type": "number"
+      },
+      {
+        "range": "H6",
+        "type": "number"
+      },
+      {
+        "range": "G8:AZ8",
+        "type": "number"
+      },
+      {
+        "range": "B13",
+        "type": "string",
+        "value": "Tekes -14560, 337265,82 \u20ac"
+      },
+      {
+        "range": "D13:AH13",
+        "type": "number"
+      },
+      {
+        "range": "I14",
+        "type": "number"
+      },
+      {
+        "range": "U14",
+        "type": "number"
+      },
+      {
+        "range": "AG14",
+        "type": "number"
+      },
+      {
+        "range": "D15:AG15",
+        "type": "number"
+      },
+      {
+        "range": "I16",
+        "type": "number"
+      },
+      {
+        "range": "U16",
+        "type": "number"
+      },
+      {
+        "range": "AG16",
+        "type": "number"
+      },
+      {
+        "range": "G18:AZ18",
+        "type": "number"
+      },
+      {
+        "range": "B24",
+        "type": "string",
+        "value": "Tekes -14887, 343615 \u20ac"
+      },
+      {
+        "range": "D24:AF24",
+        "type": "number"
+      },
+      {
+        "range": "G25",
+        "type": "number"
+      },
+      {
+        "range": "S25",
+        "type": "number"
+      },
+      {
+        "range": "AE25",
+        "type": "number"
+      },
+      {
+        "range": "D26:AD26",
+        "type": "number"
+      },
+      {
+        "range": "G27",
+        "type": "number"
+      },
+      {
+        "range": "S27",
+        "type": "number"
+      },
+      {
+        "range": "AE27",
+        "type": "number"
+      },
+      {
+        "range": "G29:AZ29",
+        "type": "number"
+      },
+      {
+        "range": "B37",
+        "type": "string",
+        "value": "Tekes -15118, 186500 \u20ac"
+      },
+      {
+        "range": "D37:AC37",
+        "type": "number"
+      },
+      {
+        "range": "P38",
+        "type": "number"
+      },
+      {
+        "range": "AB38",
+        "type": "number"
+      },
+      {
+        "range": "D39:AA39",
+        "type": "number"
+      },
+      {
+        "range": "P40",
+        "type": "number"
+      },
+      {
+        "range": "AB40",
+        "type": "number"
+      },
+      {
+        "range": "G42:AZ42",
+        "type": "number"
+      },
+      {
+        "range": "B48",
+        "type": "string",
+        "value": "Tekes -15543, 159800 \u20ac"
+      },
+      {
+        "range": "D48:AW48",
+        "type": "number"
+      },
+      {
+        "range": "L49",
+        "type": "number"
+      },
+      {
+        "range": "X49",
+        "type": "number"
+      },
+      {
+        "range": "AJ49",
+        "type": "number"
+      },
+      {
+        "range": "AV49",
+        "type": "number"
+      },
+      {
+        "range": "D50:AV50",
+        "type": "number"
+      },
+      {
+        "range": "L51",
+        "type": "number"
+      },
+      {
+        "range": "X51",
+        "type": "number"
+      },
+      {
+        "range": "AJ51",
+        "type": "number"
+      },
+      {
+        "range": "AV51",
+        "type": "number"
+      },
+      {
+        "range": "G53:AZ53",
+        "type": "number"
+      },
+      {
+        "range": "C57",
+        "type": "string",
+        "value": "Accrued Interest Balance"
+      },
+      {
+        "range": "E57:AV57",
+        "type": "number"
+      },
+      {
+        "range": "C59",
+        "type": "string",
+        "value": "1/31/20 FX Rate"
+      },
+      {
+        "range": "E59:AV59",
+        "type": "number"
+      },
+      {
+        "range": "C60",
+        "type": "number"
+      },
+      {
+        "range": "F61",
+        "type": "number"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 1207.38,
+      "cells_analyzed": 695,
+      "total_ranges": 78,
+      "format_counts": {
+        "date": 1,
+        "string": 32,
+        "number": 45
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T11:06:20.910998Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2019-12-01",
+        "pattern": "Monthly series from 2019-12 to 2023-12"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 5,
+    "entries_moved_to_index": 25,
+    "entries_remaining": 53,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 4036,
+    "compressed_size_bytes": 2876,
+    "inverted_index_size_bytes": 405,
+    "compressed_data_size_bytes": 2471,
+    "compression_ratio": 0.713,
+    "space_saved_bytes": 1160,
+    "space_saved_percent": 28.7
+  }
+}

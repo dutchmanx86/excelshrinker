@@ -1,0 +1,240 @@
+{
+  "inverted_index": {
+    "LTD": {
+      "type": "string",
+      "ranges": [
+        "A3",
+        "A11"
+      ]
+    },
+    "Mgmt": {
+      "type": "string",
+      "ranges": [
+        "A4",
+        "A12"
+      ]
+    },
+    "Inc": {
+      "type": "string",
+      "ranges": [
+        "A5",
+        "A13"
+      ]
+    },
+    "Total": {
+      "type": "string",
+      "ranges": [
+        "A8",
+        "A16"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Fixed Asset Depreciation",
+    "format_ranges": [
+      {
+        "range": "B1",
+        "type": "string",
+        "value": "Account"
+      },
+      {
+        "range": "C1",
+        "type": "string",
+        "value": "Starting Balance"
+      },
+      {
+        "range": "D1",
+        "type": "string",
+        "value": "Conversion"
+      },
+      {
+        "range": "E1",
+        "type": "string",
+        "value": "Starting Balance (USD)"
+      },
+      {
+        "range": "C3:E3",
+        "type": "number"
+      },
+      {
+        "range": "C4:DU4",
+        "type": "number"
+      },
+      {
+        "range": "C5:E5",
+        "type": "number"
+      },
+      {
+        "range": "F5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G5:DU5",
+        "type": "number"
+      },
+      {
+        "range": "A6",
+        "type": "string",
+        "value": "Oy"
+      },
+      {
+        "range": "B6:C6",
+        "type": "number"
+      },
+      {
+        "range": "D6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E6",
+        "type": "number"
+      },
+      {
+        "range": "F6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G6:DU6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A7",
+        "type": "string",
+        "value": "Oy"
+      },
+      {
+        "range": "B7:C7",
+        "type": "number"
+      },
+      {
+        "range": "D7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E7",
+        "type": "number"
+      },
+      {
+        "range": "F7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G7:DU7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G8:DU8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F12:DU12",
+        "type": "number"
+      },
+      {
+        "range": "F13:DU13",
+        "type": "number"
+      },
+      {
+        "range": "A14",
+        "type": "string",
+        "value": "Oy"
+      },
+      {
+        "range": "F14",
+        "type": "number"
+      },
+      {
+        "range": "G14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H14:DU14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A15",
+        "type": "string",
+        "value": "Oy"
+      },
+      {
+        "range": "F15",
+        "type": "number"
+      },
+      {
+        "range": "G15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H15:DU15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F16",
+        "type": "number"
+      },
+      {
+        "range": "G16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H16:DU16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A20",
+        "type": "string",
+        "value": "R&D"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 2091.5,
+      "cells_analyzed": 1355,
+      "total_ranges": 46,
+      "format_counts": {
+        "string": 17,
+        "number": 29
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-14T01:37:27.092688Z"
+    }
+  },
+  "compression_stats": {
+    "unique_values": 4,
+    "entries_moved_to_index": 8,
+    "entries_remaining": 38,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 2248,
+    "compressed_size_bytes": 2066,
+    "inverted_index_size_bytes": 188,
+    "compressed_data_size_bytes": 1878,
+    "compression_ratio": 0.919,
+    "space_saved_bytes": 182,
+    "space_saved_percent": 8.1
+  }
+}

@@ -1,0 +1,798 @@
+{
+  "inverted_index": {
+    "Assumption Drivers": {
+      "type": "string",
+      "ranges": [
+        "B6",
+        "B38"
+      ]
+    },
+    "Revenue": {
+      "type": "string",
+      "ranges": [
+        "B15",
+        "B42",
+        "B59"
+      ]
+    },
+    "COGS": {
+      "type": "string",
+      "ranges": [
+        "B16",
+        "B43",
+        "B60",
+        "B74",
+        "B82"
+      ]
+    },
+    "Gross Margin": {
+      "type": "string",
+      "ranges": [
+        "B17",
+        "B44",
+        "B61"
+      ]
+    },
+    "Gross Margin %": {
+      "type": "string",
+      "ranges": [
+        "B18",
+        "B45"
+      ]
+    },
+    "Sales": {
+      "type": "string",
+      "ranges": [
+        "B20",
+        "B47",
+        "B63",
+        "B75",
+        "B83"
+      ]
+    },
+    "Marketing": {
+      "type": "string",
+      "ranges": [
+        "B21",
+        "B48",
+        "B64",
+        "B76",
+        "B84"
+      ]
+    },
+    "CS/TS": {
+      "type": "string",
+      "ranges": [
+        "B22",
+        "B49",
+        "B65",
+        "B77",
+        "B85"
+      ]
+    },
+    "ASC 606": {
+      "type": "string",
+      "ranges": [
+        "B23",
+        "B50",
+        "B66",
+        "B78",
+        "B86"
+      ]
+    },
+    "Total Op Ex": {
+      "type": "string",
+      "ranges": [
+        "B29",
+        "B53",
+        "B69"
+      ]
+    },
+    "Cash In": {
+      "type": "string",
+      "ranges": [
+        "B33",
+        "B94"
+      ]
+    },
+    "Cash Out": {
+      "type": "string",
+      "ranges": [
+        "B34",
+        "B95"
+      ]
+    },
+    "R&D": {
+      "type": "string",
+      "ranges": [
+        "B51",
+        "B67",
+        "B79",
+        "B87"
+      ]
+    },
+    "G&A": {
+      "type": "string",
+      "ranges": [
+        "B52",
+        "B68",
+        "B80",
+        "B88"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Overview",
+    "format_ranges": [
+      {
+        "range": "C4:G4",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "I4:AB4",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "B8",
+        "type": "string",
+        "value": "Total BOP ARR"
+      },
+      {
+        "range": "C8:G8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I8:AB8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B9",
+        "type": "string",
+        "value": "Initial Sale"
+      },
+      {
+        "range": "C9:G9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I9:AB9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B10",
+        "type": "string",
+        "value": "Expansion"
+      },
+      {
+        "range": "C10:G10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I10:AB10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B11",
+        "type": "string",
+        "value": "Churn"
+      },
+      {
+        "range": "C11:G11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I11:AB11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B12",
+        "type": "string",
+        "value": "EOP ARR"
+      },
+      {
+        "range": "C12:G12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I12:AB12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B13",
+        "type": "string",
+        "value": "GRR %"
+      },
+      {
+        "range": "D13:G13",
+        "type": "number"
+      },
+      {
+        "range": "C15:G15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I15:AB15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C16:G16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I16:AB16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C17:G17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I17:AB17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C18:G18",
+        "type": "number"
+      },
+      {
+        "range": "I18:AB18",
+        "type": "number"
+      },
+      {
+        "range": "C20:G20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I20:AB20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C21:G21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I21:AB21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C22:G22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I22:AB22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C23:G23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I23:AB23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B24",
+        "type": "string",
+        "value": "Total S&M"
+      },
+      {
+        "range": "C24:G24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I24:AB24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B26",
+        "type": "string",
+        "value": "Total R&D"
+      },
+      {
+        "range": "C26:G26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I26:AB26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B27",
+        "type": "string",
+        "value": "Total G&A"
+      },
+      {
+        "range": "C27:G27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I27:AB27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C29:G29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I29:AB29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B31",
+        "type": "string",
+        "value": "Total Op Income"
+      },
+      {
+        "range": "C31:G31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I31:AB31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C33:G33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I33:AB33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C34:G34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I34:AB34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B35",
+        "type": "string",
+        "value": "Cash Generated"
+      },
+      {
+        "range": "C35:G35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I35:AB35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B40",
+        "type": "string",
+        "value": "Pendo LT Model"
+      },
+      {
+        "range": "C42:G42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I42:AB42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C43:G43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I43:AB43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C44:G44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I44:AB44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C45:G45",
+        "type": "number"
+      },
+      {
+        "range": "I45:AB45",
+        "type": "number"
+      },
+      {
+        "range": "C47:G47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I47:AB47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C48:G48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I48:AB48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C49:G49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I49:AB49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C50:G50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I50:AB50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C51:G51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I51:AB51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C52:G52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I52:AB52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C53:G53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I53:AB53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B54",
+        "type": "string",
+        "value": "CHECK"
+      },
+      {
+        "range": "C54:G54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B57",
+        "type": "string",
+        "value": "% Revenue"
+      },
+      {
+        "range": "C59:G59",
+        "type": "number"
+      },
+      {
+        "range": "I59:AB59",
+        "type": "number"
+      },
+      {
+        "range": "C60:G60",
+        "type": "number"
+      },
+      {
+        "range": "I60:AB60",
+        "type": "number"
+      },
+      {
+        "range": "C61:G61",
+        "type": "number"
+      },
+      {
+        "range": "I61:AB61",
+        "type": "number"
+      },
+      {
+        "range": "C63:G63",
+        "type": "number"
+      },
+      {
+        "range": "I63:AB63",
+        "type": "number"
+      },
+      {
+        "range": "C64:G64",
+        "type": "number"
+      },
+      {
+        "range": "I64:AB64",
+        "type": "number"
+      },
+      {
+        "range": "C65:G65",
+        "type": "number"
+      },
+      {
+        "range": "I65:AB65",
+        "type": "number"
+      },
+      {
+        "range": "C66:G66",
+        "type": "number"
+      },
+      {
+        "range": "I66:AB66",
+        "type": "number"
+      },
+      {
+        "range": "C67:G67",
+        "type": "number"
+      },
+      {
+        "range": "I67:AB67",
+        "type": "number"
+      },
+      {
+        "range": "C68:G68",
+        "type": "number"
+      },
+      {
+        "range": "I68:AB68",
+        "type": "number"
+      },
+      {
+        "range": "C69:G69",
+        "type": "number"
+      },
+      {
+        "range": "I69:AB69",
+        "type": "number"
+      },
+      {
+        "range": "B72",
+        "type": "string",
+        "value": "Harpoon Assumption Adjustments"
+      },
+      {
+        "range": "C74:G74",
+        "type": "number"
+      },
+      {
+        "range": "I74:AB74",
+        "type": "number"
+      },
+      {
+        "range": "C75:G75",
+        "type": "number"
+      },
+      {
+        "range": "I75:AB75",
+        "type": "number"
+      },
+      {
+        "range": "C76:G76",
+        "type": "number"
+      },
+      {
+        "range": "I76:AB76",
+        "type": "number"
+      },
+      {
+        "range": "C77:G77",
+        "type": "number"
+      },
+      {
+        "range": "I77:AB77",
+        "type": "number"
+      },
+      {
+        "range": "C78:G78",
+        "type": "number"
+      },
+      {
+        "range": "I78:AB78",
+        "type": "number"
+      },
+      {
+        "range": "C79:G79",
+        "type": "number"
+      },
+      {
+        "range": "I79:AB79",
+        "type": "number"
+      },
+      {
+        "range": "C80:G80",
+        "type": "number"
+      },
+      {
+        "range": "I80:AB80",
+        "type": "number"
+      },
+      {
+        "range": "C82:G82",
+        "type": "number"
+      },
+      {
+        "range": "I82:AB82",
+        "type": "number"
+      },
+      {
+        "range": "C83:G83",
+        "type": "number"
+      },
+      {
+        "range": "I83:AB83",
+        "type": "number"
+      },
+      {
+        "range": "C84:G84",
+        "type": "number"
+      },
+      {
+        "range": "I84:AB84",
+        "type": "number"
+      },
+      {
+        "range": "C85:G85",
+        "type": "number"
+      },
+      {
+        "range": "I85:AB85",
+        "type": "number"
+      },
+      {
+        "range": "C86:G86",
+        "type": "number"
+      },
+      {
+        "range": "I86:AB86",
+        "type": "number"
+      },
+      {
+        "range": "C87:G87",
+        "type": "number"
+      },
+      {
+        "range": "I87:AB87",
+        "type": "number"
+      },
+      {
+        "range": "C88:G88",
+        "type": "number"
+      },
+      {
+        "range": "I88:AB88",
+        "type": "number"
+      },
+      {
+        "range": "B91",
+        "type": "string",
+        "value": "Harpoon Assumptions - Cashflow"
+      },
+      {
+        "range": "B93",
+        "type": "string",
+        "value": "Pendo"
+      },
+      {
+        "range": "C94:G94",
+        "type": "number"
+      },
+      {
+        "range": "I94:AB94",
+        "type": "number"
+      },
+      {
+        "range": "C95:G95",
+        "type": "number"
+      },
+      {
+        "range": "I95:AB95",
+        "type": "number"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 137.43,
+      "cells_analyzed": 1556,
+      "total_ranges": 187,
+      "format_counts": {
+        "date": 2,
+        "string": 67,
+        "number": 118
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T19:46:24.544303Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "annual",
+        "increment": "1 year",
+        "start_date": "2023-01-01",
+        "pattern": "Annual series from 2023 to 2027"
+      },
+      "ds_2": {
+        "series_type": "quarterly",
+        "increment": "1 quarter",
+        "start_date": "2023-Q1",
+        "pattern": "Quarterly series from Q1 2023 to Q4 2027"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 14,
+    "entries_moved_to_index": 50,
+    "entries_remaining": 137,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 9177,
+    "compressed_size_bytes": 7531,
+    "inverted_index_size_bytes": 861,
+    "compressed_data_size_bytes": 6670,
+    "compression_ratio": 0.821,
+    "space_saved_bytes": 1646,
+    "space_saved_percent": 17.9
+  }
+}

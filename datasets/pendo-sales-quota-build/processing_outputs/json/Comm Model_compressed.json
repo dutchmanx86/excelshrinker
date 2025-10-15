@@ -1,0 +1,610 @@
+{
+  "inverted_index": {
+    "Attrition": {
+      "type": "string",
+      "ranges": [
+        "C9",
+        "C13",
+        "C36",
+        "M59"
+      ]
+    },
+    "Month 1": {
+      "type": "string",
+      "ranges": [
+        "C27",
+        "M45"
+      ]
+    },
+    "Month 2": {
+      "type": "string",
+      "ranges": [
+        "C28",
+        "M46"
+      ]
+    },
+    "Month 3": {
+      "type": "string",
+      "ranges": [
+        "C29",
+        "M47"
+      ]
+    },
+    "Month 4": {
+      "type": "string",
+      "ranges": [
+        "C30",
+        "M48"
+      ]
+    },
+    "Month 5": {
+      "type": "string",
+      "ranges": [
+        "C31",
+        "M49"
+      ]
+    },
+    "Month 6": {
+      "type": "string",
+      "ranges": [
+        "C32",
+        "M50"
+      ]
+    },
+    "Month 7": {
+      "type": "string",
+      "ranges": [
+        "C33",
+        "M51"
+      ]
+    },
+    "Month 8": {
+      "type": "string",
+      "ranges": [
+        "C34",
+        "M52"
+      ]
+    },
+    "Month 9": {
+      "type": "string",
+      "ranges": [
+        "C35",
+        "M53"
+      ]
+    },
+    "Active": {
+      "type": "string",
+      "ranges": [
+        "N44",
+        "N57"
+      ]
+    },
+    "Commercial": {
+      "type": "string",
+      "ranges": [
+        "O44",
+        "O57"
+      ]
+    },
+    "Corporate": {
+      "type": "string",
+      "ranges": [
+        "P44",
+        "D45",
+        "P57"
+      ]
+    },
+    "Enterprise": {
+      "type": "string",
+      "ranges": [
+        "Q44",
+        "Q57"
+      ]
+    },
+    "SS Corp": {
+      "type": "string",
+      "ranges": [
+        "R44",
+        "R57"
+      ]
+    },
+    "SS Comm": {
+      "type": "string",
+      "ranges": [
+        "S44",
+        "S57"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Comm Model",
+    "format_ranges": [
+      {
+        "range": "B2",
+        "type": "string",
+        "value": "Corporate: Forecast Details"
+      },
+      {
+        "range": "C4",
+        "type": "string",
+        "value": "From QoS Model"
+      },
+      {
+        "range": "C5",
+        "type": "string",
+        "value": "Total QoS"
+      },
+      {
+        "range": "W5:AE5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C6",
+        "type": "string",
+        "value": "Average Quota"
+      },
+      {
+        "range": "W6:AE6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C8",
+        "type": "string",
+        "value": "Gross Headcount"
+      },
+      {
+        "range": "W8:AE8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "W9:AE9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C10",
+        "type": "string",
+        "value": "Net Headcount"
+      },
+      {
+        "range": "W10:AE10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C12",
+        "type": "string",
+        "value": "Gross Ramped Headcount"
+      },
+      {
+        "range": "W12:AE12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "W13:AE13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C14",
+        "type": "string",
+        "value": "Net Ramped Headcount"
+      },
+      {
+        "range": "W14:AE14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B17",
+        "type": "string",
+        "value": "Corporate: Ramped Team - Value Team"
+      },
+      {
+        "range": "C19",
+        "type": "string",
+        "value": "Ramp Build - Corporate"
+      },
+      {
+        "range": "H19:AE19",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "C21",
+        "type": "string",
+        "value": "Beginning of Period"
+      },
+      {
+        "range": "F21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H21:AE21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C22",
+        "type": "string",
+        "value": "Added"
+      },
+      {
+        "range": "D22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H22:AE22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AG22",
+        "type": "string",
+        "value": "Assume 1 headcount attrition spread over year for promos out (offset by ramped heads coming in)"
+      },
+      {
+        "range": "C23",
+        "type": "string",
+        "value": "Removed"
+      },
+      {
+        "range": "D23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H23:AE23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C24",
+        "type": "string",
+        "value": "End of Period"
+      },
+      {
+        "range": "F24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H24:AE24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C26",
+        "type": "string",
+        "value": "Ramp"
+      },
+      {
+        "range": "D26",
+        "type": "string",
+        "value": "Efficiency"
+      },
+      {
+        "range": "H26:AE26",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "D27:E27",
+        "type": "number"
+      },
+      {
+        "range": "I27:AE27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D28:E28",
+        "type": "number"
+      },
+      {
+        "range": "J28:AE28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D29:E29",
+        "type": "number"
+      },
+      {
+        "range": "K29:AE29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D30:E30",
+        "type": "number"
+      },
+      {
+        "range": "L30:AE30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D31:E31",
+        "type": "number"
+      },
+      {
+        "range": "M31:AE31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D32:E32",
+        "type": "number"
+      },
+      {
+        "range": "N32:AE32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D33:E33",
+        "type": "number"
+      },
+      {
+        "range": "O33:AE33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D34:E34",
+        "type": "number"
+      },
+      {
+        "range": "P34:AE34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D35:E35",
+        "type": "number"
+      },
+      {
+        "range": "Q35:AE35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I36:AE36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H38:AE38",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "C39",
+        "type": "string",
+        "value": "Effective Start"
+      },
+      {
+        "range": "F39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H39:AE39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AH39",
+        "type": "string",
+        "value": "Ramped Team Adjustment Factor"
+      },
+      {
+        "range": "AG39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C40",
+        "type": "string",
+        "value": "Add"
+      },
+      {
+        "range": "F40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H40:AE40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AH40",
+        "type": "string",
+        "value": "Adjustment as % of 6 total heads"
+      },
+      {
+        "range": "AG40",
+        "type": "number"
+      },
+      {
+        "range": "C41",
+        "type": "string",
+        "value": "Effective End"
+      },
+      {
+        "range": "F41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H41:AE41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B43",
+        "type": "string",
+        "value": "Inputs"
+      },
+      {
+        "range": "C45",
+        "type": "string",
+        "value": "Plan:"
+      },
+      {
+        "range": "N45:S45",
+        "type": "number"
+      },
+      {
+        "range": "N46:S46",
+        "type": "number"
+      },
+      {
+        "range": "N47:S47",
+        "type": "number"
+      },
+      {
+        "range": "N48:S48",
+        "type": "number"
+      },
+      {
+        "range": "N49:S49",
+        "type": "number"
+      },
+      {
+        "range": "N50:S50",
+        "type": "number"
+      },
+      {
+        "range": "N51:S51",
+        "type": "number"
+      },
+      {
+        "range": "N52:S52",
+        "type": "number"
+      },
+      {
+        "range": "N53:S53",
+        "type": "number"
+      },
+      {
+        "range": "M58",
+        "type": "string",
+        "value": "Quota"
+      },
+      {
+        "range": "N58:S58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N59:S59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M60",
+        "type": "string",
+        "value": "Ramped"
+      },
+      {
+        "range": "N60:S60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O61:S61",
+        "type": "number"
+      },
+      {
+        "range": "M62",
+        "type": "string",
+        "value": "Q1 Attnmt"
+      },
+      {
+        "range": "N62:S62",
+        "type": "number"
+      },
+      {
+        "range": "M63",
+        "type": "string",
+        "value": "Q2 Attnmt"
+      },
+      {
+        "range": "N63:S63",
+        "type": "number"
+      },
+      {
+        "range": "M64",
+        "type": "string",
+        "value": "Q3 Attnmt"
+      },
+      {
+        "range": "N64:S64",
+        "type": "number"
+      },
+      {
+        "range": "M65",
+        "type": "string",
+        "value": "Q4 Attnmt"
+      },
+      {
+        "range": "N65:S65",
+        "type": "number"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 41.68,
+      "cells_analyzed": 704,
+      "total_ranges": 130,
+      "format_counts": {
+        "string": 65,
+        "number": 62,
+        "date": 3
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T19:04:23.335222Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2020-02-01",
+        "pattern": "Monthly series from 2020-02 to 2022-01"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 16,
+    "entries_moved_to_index": 35,
+    "entries_remaining": 95,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 6842,
+    "compressed_size_bytes": 5912,
+    "inverted_index_size_bytes": 843,
+    "compressed_data_size_bytes": 5069,
+    "compression_ratio": 0.864,
+    "space_saved_bytes": 930,
+    "space_saved_percent": 13.6
+  }
+}

@@ -1,0 +1,1426 @@
+{
+  "inverted_index": {
+    "CYE December 31": {
+      "type": "string",
+      "ranges": [
+        "B5",
+        "AC7"
+      ]
+    },
+    "Q1A": {
+      "type": "string",
+      "ranges": [
+        "D8",
+        "H8",
+        "L8",
+        "P8"
+      ]
+    },
+    "Q2A": {
+      "type": "string",
+      "ranges": [
+        "E8",
+        "I8",
+        "M8",
+        "Q8"
+      ]
+    },
+    "Q3A": {
+      "type": "string",
+      "ranges": [
+        "F8",
+        "J8",
+        "N8",
+        "R8"
+      ]
+    },
+    "Q4A": {
+      "type": "string",
+      "ranges": [
+        "G8",
+        "K8",
+        "O8"
+      ]
+    },
+    "Q4E": {
+      "type": "string",
+      "ranges": [
+        "S8",
+        "W8",
+        "AA8"
+      ]
+    },
+    "Q1E": {
+      "type": "string",
+      "ranges": [
+        "T8",
+        "X8"
+      ]
+    },
+    "Q2E": {
+      "type": "string",
+      "ranges": [
+        "U8",
+        "Y8"
+      ]
+    },
+    "Q3E": {
+      "type": "string",
+      "ranges": [
+        "V8",
+        "Z8"
+      ]
+    },
+    "Cost of Sales": {
+      "type": "string",
+      "ranges": [
+        "B13",
+        "B30",
+        "B70"
+      ]
+    },
+    "Sales": {
+      "type": "string",
+      "ranges": [
+        "B14",
+        "B22",
+        "B31",
+        "B41",
+        "B49",
+        "B61",
+        "B76"
+      ]
+    },
+    "Marketing": {
+      "type": "string",
+      "ranges": [
+        "B15",
+        "B23",
+        "B32",
+        "B42",
+        "B50",
+        "B62",
+        "B84"
+      ]
+    },
+    "Customer Success": {
+      "type": "string",
+      "ranges": [
+        "B16",
+        "B24",
+        "B33",
+        "B43",
+        "B51",
+        "B63",
+        "B93"
+      ]
+    },
+    "R&D": {
+      "type": "string",
+      "ranges": [
+        "B17",
+        "B25",
+        "B34",
+        "B44",
+        "B52",
+        "B64",
+        "B100"
+      ]
+    },
+    "G&A": {
+      "type": "string",
+      "ranges": [
+        "B18",
+        "B26",
+        "B35",
+        "B45",
+        "B53",
+        "B65",
+        "B109"
+      ]
+    },
+    "Total Headcount Expenses": {
+      "type": "string",
+      "ranges": [
+        "B21",
+        "B27"
+      ]
+    },
+    "% revenue": {
+      "type": "string",
+      "ranges": [
+        "B74",
+        "B82",
+        "B91",
+        "B98",
+        "B107",
+        "B116"
+      ]
+    },
+    "Software Subscriptions": {
+      "type": "string",
+      "ranges": [
+        "B77",
+        "B87",
+        "B94",
+        "B103",
+        "B112"
+      ]
+    },
+    "Computer Equipment": {
+      "type": "string",
+      "ranges": [
+        "B79",
+        "B88",
+        "B95",
+        "B104",
+        "B110"
+      ]
+    },
+    "Other": {
+      "type": "string",
+      "ranges": [
+        "B80",
+        "B89",
+        "B96",
+        "B105",
+        "B114"
+      ]
+    },
+    "Contractors": {
+      "type": "string",
+      "ranges": [
+        "B86",
+        "B102",
+        "B113"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Expense Build",
+    "format_ranges": [
+      {
+        "range": "B2",
+        "type": "string",
+        "value": "LogRocket"
+      },
+      {
+        "range": "B3",
+        "type": "string",
+        "value": "Expense Build"
+      },
+      {
+        "range": "B4",
+        "type": "string",
+        "value": "$ in 000s"
+      },
+      {
+        "range": "D7",
+        "type": "string",
+        "value": "CY2018A"
+      },
+      {
+        "range": "H7",
+        "type": "string",
+        "value": "CY2019A"
+      },
+      {
+        "range": "L7",
+        "type": "string",
+        "value": "CY2020A"
+      },
+      {
+        "range": "P7",
+        "type": "string",
+        "value": "CY2021E"
+      },
+      {
+        "range": "T7",
+        "type": "string",
+        "value": "CY2022E"
+      },
+      {
+        "range": "X7",
+        "type": "string",
+        "value": "CY2023E"
+      },
+      {
+        "range": "AC8",
+        "type": "string",
+        "value": "2018A"
+      },
+      {
+        "range": "AD8",
+        "type": "string",
+        "value": "2019A"
+      },
+      {
+        "range": "AE8",
+        "type": "string",
+        "value": "2020A"
+      },
+      {
+        "range": "AF8",
+        "type": "string",
+        "value": "2021E"
+      },
+      {
+        "range": "AG8",
+        "type": "string",
+        "value": "2022E"
+      },
+      {
+        "range": "AH8",
+        "type": "string",
+        "value": "2023E"
+      },
+      {
+        "range": "A10",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B10",
+        "type": "string",
+        "value": "Expense Summary"
+      },
+      {
+        "range": "B12",
+        "type": "string",
+        "value": "Total Expense by Function"
+      },
+      {
+        "range": "D13:AA13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC13:AH13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D14:AA14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC14:AH14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D15:AA15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC15:AH15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D16:AA16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC16:AH16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D17:AA17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC17:AH17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D18:AA18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC18:AH18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B19",
+        "type": "string",
+        "value": "Total Expenses"
+      },
+      {
+        "range": "D19:AA19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC19:AH19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D22:AA22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC22:AH22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D23:AA23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC23:AH23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D24:AA24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC24:AH24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D25:AA25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC25:AH25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D26:AA26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC26:AH26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D27:AA27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC27:AH27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B29",
+        "type": "string",
+        "value": "Non-Headcount Expenses"
+      },
+      {
+        "range": "D30:AA30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC30:AH30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D31:AA31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC31:AH31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D32:AA32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC32:AH32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D33:AA33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC33:AH33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D34:AA34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC34:AH34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D35:AA35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC35:AH35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B36",
+        "type": "string",
+        "value": "Total Non-Headcount Expenses"
+      },
+      {
+        "range": "D36:AA36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC36:AH36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A38",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B38",
+        "type": "string",
+        "value": "Headcount Summary"
+      },
+      {
+        "range": "B40",
+        "type": "string",
+        "value": "Average Headcount by Function"
+      },
+      {
+        "range": "E41:AA41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC41:AH41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E42:AA42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC42:AH42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E43:AA43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC43:AH43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E44:AA44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC44:AH44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E45:AA45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC45:AH45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B46",
+        "type": "string",
+        "value": "Average Headcount"
+      },
+      {
+        "range": "E46:AA46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC46:AH46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "R47:AA47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B48",
+        "type": "string",
+        "value": "Total Headcount by Function"
+      },
+      {
+        "range": "R48:AA48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D49:AA49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC49:AG49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AH49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D50:AA50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC50:AG50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AH50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D51:AA51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC51:AF51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AG51:AH51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D52:AA52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC52:AF52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AG52:AH52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D53:AA53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC53:AF53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AG53:AH53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B54",
+        "type": "string",
+        "value": "Total Headcount"
+      },
+      {
+        "range": "D54:AA54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC54:AH54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B56",
+        "type": "string",
+        "value": "Assumptions and Calculations"
+      },
+      {
+        "range": "A58",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B58",
+        "type": "string",
+        "value": "Headcount Expense Assumptions"
+      },
+      {
+        "range": "AG59",
+        "type": "number"
+      },
+      {
+        "range": "B60",
+        "type": "string",
+        "value": "Average Qtrly Headcount Expense by Function (EoP)"
+      },
+      {
+        "range": "D61",
+        "type": "string",
+        "value": "-"
+      },
+      {
+        "range": "E61:AA61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC61:AF61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AG61:AH61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D62",
+        "type": "string",
+        "value": "-"
+      },
+      {
+        "range": "E62:AA62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC62:AF62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AG62:AH62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D63",
+        "type": "string",
+        "value": "-"
+      },
+      {
+        "range": "E63",
+        "type": "string",
+        "value": "-"
+      },
+      {
+        "range": "F63",
+        "type": "string",
+        "value": "-"
+      },
+      {
+        "range": "G63",
+        "type": "string",
+        "value": "-"
+      },
+      {
+        "range": "H63",
+        "type": "string",
+        "value": "-"
+      },
+      {
+        "range": "I63:AA63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC63",
+        "type": "string",
+        "value": "-"
+      },
+      {
+        "range": "AD63:AF63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AG63:AH63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D64",
+        "type": "string",
+        "value": "-"
+      },
+      {
+        "range": "E64:AA64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC64:AF64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AG64:AH64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D65",
+        "type": "string",
+        "value": "-"
+      },
+      {
+        "range": "E65:AA65",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC65:AF65",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AG65:AH65",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B66",
+        "type": "string",
+        "value": "Total Average Employee Headcount Expense"
+      },
+      {
+        "range": "D66:AA66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC66:AH66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A68",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B68",
+        "type": "string",
+        "value": "Non-Headcount Expense Assumptions"
+      },
+      {
+        "range": "B71",
+        "type": "string",
+        "value": "Credit Card Fees"
+      },
+      {
+        "range": "D71:AA71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC71:AE71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF71:AH71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B72",
+        "type": "string",
+        "value": "Hosting "
+      },
+      {
+        "range": "D72:AA72",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC72:AE72",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF72:AH72",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B73",
+        "type": "string",
+        "value": "Total Cost of Sales"
+      },
+      {
+        "range": "D73:AA73",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC73:AH73",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D74:AA74",
+        "type": "number"
+      },
+      {
+        "range": "AC74:AH74",
+        "type": "number"
+      },
+      {
+        "range": "L77:AA77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF77:AH77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B78",
+        "type": "string",
+        "value": "Travel"
+      },
+      {
+        "range": "L78:AA78",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE78",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF78:AH78",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L79:AA79",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE79",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF79:AH79",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L80:AA80",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE80",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF80:AH80",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B81",
+        "type": "string",
+        "value": "Total Sales"
+      },
+      {
+        "range": "D81:AA81",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC81:AH81",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D82:AA82",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC82:AH82",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B85",
+        "type": "string",
+        "value": "Advertising & Marketing"
+      },
+      {
+        "range": "L85:AA85",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE85",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF85:AH85",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L86:AA86",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE86",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF86:AH86",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L87:AA87",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE87",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF87:AH87",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L88:AA88",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE88",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF88:AH88",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L89:AA89",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE89",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF89:AH89",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B90",
+        "type": "string",
+        "value": "Total Marketing"
+      },
+      {
+        "range": "D90:AA90",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC90:AH90",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D91:AA91",
+        "type": "number"
+      },
+      {
+        "range": "AC91:AH91",
+        "type": "number"
+      },
+      {
+        "range": "L94:AA94",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE94",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF94:AH94",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L95:AA95",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE95",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF95:AH95",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L96:AA96",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE96",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF96:AH96",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B97",
+        "type": "string",
+        "value": "Total Customer Success"
+      },
+      {
+        "range": "D97:AA97",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC97:AH97",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D98:AA98",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC98:AH98",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B101",
+        "type": "string",
+        "value": "Cloud Hosting - G&A"
+      },
+      {
+        "range": "L101:AA101",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE101",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF101:AH101",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L102:AA102",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE102",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF102:AH102",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L103:AA103",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE103",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF103:AH103",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L104:AA104",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE104",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF104:AH104",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L105:AA105",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE105",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF105:AH105",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B106",
+        "type": "string",
+        "value": "Total Research & Development"
+      },
+      {
+        "range": "D106:AA106",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC106:AH106",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D107:AA107",
+        "type": "number"
+      },
+      {
+        "range": "AC107:AH107",
+        "type": "number"
+      },
+      {
+        "range": "L110:AA110",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE110",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF110:AH110",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B111",
+        "type": "string",
+        "value": "Rent & Lease"
+      },
+      {
+        "range": "L111:AA111",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE111",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF111:AH111",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L112:AA112",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE112",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF112:AH112",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L113:AA113",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE113",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF113:AH113",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L114:AA114",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE114",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF114:AH114",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B115",
+        "type": "string",
+        "value": "Total General & Administrative"
+      },
+      {
+        "range": "D115:AA115",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC115:AH115",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D116:AA116",
+        "type": "number"
+      },
+      {
+        "range": "AC116:AH116",
+        "type": "number"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 76.28,
+      "cells_analyzed": 2151,
+      "total_ranges": 331,
+      "format_counts": {
+        "string": 146,
+        "number": 185
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T19:46:15.504352Z"
+    }
+  },
+  "compression_stats": {
+    "unique_values": 21,
+    "entries_moved_to_index": 90,
+    "entries_remaining": 241,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 17159,
+    "compressed_size_bytes": 13926,
+    "inverted_index_size_bytes": 1378,
+    "compressed_data_size_bytes": 12548,
+    "compression_ratio": 0.812,
+    "space_saved_bytes": 3233,
+    "space_saved_percent": 18.8
+  }
+}

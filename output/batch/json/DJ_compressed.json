@@ -1,0 +1,82 @@
+{
+  "inverted_index": {
+    "Financial": {
+      "type": "string",
+      "ranges": [
+        "B3",
+        "B5"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "DJ",
+    "format_ranges": [
+      {
+        "range": "C2:T2",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "C3:T3",
+        "type": "number"
+      },
+      {
+        "range": "B4",
+        "type": "string",
+        "value": "Corporate"
+      },
+      {
+        "range": "C4:T4",
+        "type": "number"
+      },
+      {
+        "range": "C5:T5",
+        "type": "number"
+      },
+      {
+        "range": "B6",
+        "type": "string",
+        "value": "Other"
+      },
+      {
+        "range": "C6:T7",
+        "type": "number"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 2842.41,
+      "cells_analyzed": 112,
+      "total_ranges": 9,
+      "format_counts": {
+        "date": 1,
+        "string": 4,
+        "number": 4
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T11:03:49.388811Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2017-01-01",
+        "pattern": "Monthly series from 2017-01 to 2018-06"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 1,
+    "entries_moved_to_index": 2,
+    "entries_remaining": 7,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 792,
+    "compressed_size_bytes": 742,
+    "inverted_index_size_bytes": 52,
+    "compressed_data_size_bytes": 690,
+    "compression_ratio": 0.937,
+    "space_saved_bytes": 50,
+    "space_saved_percent": 6.3
+  }
+}

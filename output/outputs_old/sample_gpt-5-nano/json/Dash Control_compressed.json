@@ -1,0 +1,517 @@
+{
+  "inverted_index": {
+    "Base - $25mm": {
+      "type": "string",
+      "ranges": [
+        "B14",
+        "B20",
+        "B27",
+        "B34",
+        "B41",
+        "B48",
+        "B55",
+        "B62"
+      ]
+    },
+    "Growth - $25mm": {
+      "type": "string",
+      "ranges": [
+        "B15",
+        "B21",
+        "B28",
+        "B35",
+        "B42",
+        "B49",
+        "B56",
+        "B63"
+      ]
+    },
+    "Base - $50mm": {
+      "type": "string",
+      "ranges": [
+        "B16",
+        "B22",
+        "B29",
+        "B36",
+        "B43",
+        "B50",
+        "B57",
+        "B64"
+      ]
+    },
+    "Base - $50mm (R&D)": {
+      "type": "string",
+      "ranges": [
+        "B17",
+        "B23",
+        "B30",
+        "B37",
+        "B44",
+        "B51",
+        "B58",
+        "B65"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Dash Control",
+    "format_ranges": [
+      {
+        "range": "B1",
+        "type": "string",
+        "value": "AlphaSense, Inc."
+      },
+      {
+        "range": "B2",
+        "type": "string",
+        "value": "Dashboard CTRL"
+      },
+      {
+        "range": "B3",
+        "type": "string",
+        "value": "1 - Base - $25mm"
+      },
+      {
+        "range": "B6",
+        "type": "string",
+        "value": "Year"
+      },
+      {
+        "range": "E6:Q6",
+        "type": "number"
+      },
+      {
+        "range": "T6:FS6",
+        "type": "number"
+      },
+      {
+        "range": "E6:Q6",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "T6:FS6",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "B7",
+        "type": "string",
+        "value": "Month"
+      },
+      {
+        "range": "T7:FS7",
+        "type": "number"
+      },
+      {
+        "range": "E8:Q8",
+        "type": "number"
+      },
+      {
+        "range": "T8:FS8",
+        "type": "date",
+        "date_series_id": "ds_3"
+      },
+      {
+        "range": "A11",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B11",
+        "type": "string",
+        "value": "Dashboard Control"
+      },
+      {
+        "range": "A13",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B13",
+        "type": "string",
+        "value": "Support Fees - % of CAC"
+      },
+      {
+        "range": "J13:Q13",
+        "type": "number"
+      },
+      {
+        "range": "AR13:FS13",
+        "type": "number"
+      },
+      {
+        "range": "J14:Q14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J15:Q15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J16:Q16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J17:Q17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A19",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B19",
+        "type": "string",
+        "value": "ARR Multipler "
+      },
+      {
+        "range": "E19:I19",
+        "type": "number"
+      },
+      {
+        "range": "J19:Q19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T19:BA19",
+        "type": "number"
+      },
+      {
+        "range": "BB19:BO19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BP19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BQ19:FS19",
+        "type": "number"
+      },
+      {
+        "range": "J20:Q20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J21:Q21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J22:Q22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J23:Q23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A26",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B26",
+        "type": "string",
+        "value": "Perpetuity Factor"
+      },
+      {
+        "range": "E26:Q26",
+        "type": "number"
+      },
+      {
+        "range": "T26:FS26",
+        "type": "number"
+      },
+      {
+        "range": "J27:Q27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J28:Q28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J29:Q29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J30:Q30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A33",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B33",
+        "type": "string",
+        "value": "ARR Multipler  - Financial"
+      },
+      {
+        "range": "E33:Q33",
+        "type": "number"
+      },
+      {
+        "range": "T33:FS33",
+        "type": "number"
+      },
+      {
+        "range": "J34:Q34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J35:Q35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J36:Q36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J37:Q37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A40",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B40",
+        "type": "string",
+        "value": "Perpetuity Factor - Financial"
+      },
+      {
+        "range": "E40:Q40",
+        "type": "number"
+      },
+      {
+        "range": "T40:FS40",
+        "type": "number"
+      },
+      {
+        "range": "J41:Q41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J42:Q42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J43:Q43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J44:Q44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A47",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B47",
+        "type": "string",
+        "value": "ARR Multipler - Corporate"
+      },
+      {
+        "range": "E47:Q47",
+        "type": "number"
+      },
+      {
+        "range": "T47:FS47",
+        "type": "number"
+      },
+      {
+        "range": "J48:Q48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J49:Q49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J50:Q50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J51:Q51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A54",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B54",
+        "type": "string",
+        "value": "Perpetuity Factor - Corporate"
+      },
+      {
+        "range": "E54:Q54",
+        "type": "number"
+      },
+      {
+        "range": "T54:FS54",
+        "type": "number"
+      },
+      {
+        "range": "J55:Q55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J56:Q56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J57:Q57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J58:Q58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A61",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B61",
+        "type": "string",
+        "value": "% Travel Costs"
+      },
+      {
+        "range": "J61:Q61",
+        "type": "number"
+      },
+      {
+        "range": "T61:FS61",
+        "type": "number"
+      },
+      {
+        "range": "J62:Q62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T62:BW62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J63:Q63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T63:BW63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J64:Q64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T64:BW64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J65:Q65",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T65:BW65",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 2315.95,
+      "cells_analyzed": 2347,
+      "total_ranges": 118,
+      "format_counts": {
+        "string": 55,
+        "number": 60,
+        "date": 3
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-14T01:52:57.167296Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "annual",
+        "increment": "1 year",
+        "start_date": "2015-01-01",
+        "pattern": "Annual series from 2015 to 2027"
+      },
+      "ds_2": {
+        "series_type": "repeating_annual",
+        "increment": "12 months (annual)",
+        "start_date": "2015-01-01",
+        "pattern": "Annual values repeating 12 times from 2015 to 2027"
+      },
+      "ds_3": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2015-01-31",
+        "pattern": "Monthly series from 2015-01 to 2027-12"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 4,
+    "entries_moved_to_index": 32,
+    "entries_remaining": 86,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 6613,
+    "compressed_size_bytes": 5166,
+    "inverted_index_size_bytes": 377,
+    "compressed_data_size_bytes": 4789,
+    "compression_ratio": 0.781,
+    "space_saved_bytes": 1447,
+    "space_saved_percent": 21.9
+  }
+}

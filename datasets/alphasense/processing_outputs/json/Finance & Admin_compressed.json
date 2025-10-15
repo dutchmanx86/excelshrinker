@@ -1,0 +1,1557 @@
+{
+  "inverted_index": {
+    "% of Wages": {
+      "type": "string",
+      "ranges": [
+        "B18",
+        "B23",
+        "B27",
+        "B33",
+        "B39",
+        "B43",
+        "B47",
+        "B51"
+      ]
+    },
+    "Finance & Admin Worker Compensation": {
+      "type": "string",
+      "ranges": [
+        "B48",
+        "B52",
+        "B57",
+        "B62"
+      ]
+    },
+    "Headcount": {
+      "type": "string",
+      "ranges": [
+        "B55",
+        "B60",
+        "B84",
+        "B96",
+        "B116",
+        "B121",
+        "B126",
+        "B131",
+        "B136",
+        "B141",
+        "B152",
+        "B161",
+        "B170",
+        "B179",
+        "B188",
+        "B197",
+        "B206",
+        "B215",
+        "B220",
+        "B237",
+        "B242",
+        "B247",
+        "B252",
+        "B257",
+        "B262",
+        "B274",
+        "B279",
+        "B284",
+        "B289",
+        "B294",
+        "B299",
+        "B304",
+        "B309",
+        "B314",
+        "B324",
+        "B329",
+        "B341",
+        "B346",
+        "B357",
+        "B371",
+        "B376",
+        "B386",
+        "B391",
+        "B396"
+      ]
+    },
+    "Cost Per Head": {
+      "type": "string",
+      "ranges": [
+        "B56",
+        "B61",
+        "B85",
+        "B97",
+        "B117",
+        "B122",
+        "B127",
+        "B132",
+        "B137",
+        "B142",
+        "B153",
+        "B162",
+        "B171",
+        "B180",
+        "B189",
+        "B198",
+        "B207",
+        "B216",
+        "B238",
+        "B243",
+        "B248",
+        "B253",
+        "B258",
+        "B263",
+        "B275",
+        "B280",
+        "B285",
+        "B290",
+        "B295",
+        "B300",
+        "B305",
+        "B310",
+        "B315",
+        "B325",
+        "B330",
+        "B342",
+        "B347",
+        "B352",
+        "B358",
+        "B372",
+        "B377",
+        "B387",
+        "B392",
+        "B397"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Finance & Admin",
+    "format_ranges": [
+      {
+        "range": "B2",
+        "type": "string",
+        "value": "AlphaSense, Inc."
+      },
+      {
+        "range": "B3",
+        "type": "string",
+        "value": "Operating Expenses Reorganization"
+      },
+      {
+        "range": "E3:H3",
+        "type": "number"
+      },
+      {
+        "range": "I3:Q3",
+        "type": "number"
+      },
+      {
+        "range": "T3:FS3",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "B4",
+        "type": "string",
+        "value": "1 - Base - $25mm"
+      },
+      {
+        "range": "A6",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B6",
+        "type": "string",
+        "value": "Finance & Admin Operating Expenses Summary"
+      },
+      {
+        "range": "B8",
+        "type": "string",
+        "value": "Total Finance & Admin Expense"
+      },
+      {
+        "range": "I8:Q8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B9",
+        "type": "string",
+        "value": "Total Finance & Admin Expense (excl Cap Wages)"
+      },
+      {
+        "range": "I9:Q9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A10",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B10",
+        "type": "string",
+        "value": "Total Finance & Admin Admin Costs"
+      },
+      {
+        "range": "I10:Q10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B11",
+        "type": "string",
+        "value": "Total Engineering Admin Costs (excl Cap Wages)"
+      },
+      {
+        "range": "I11:Q11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B13",
+        "type": "string",
+        "value": "Wages"
+      },
+      {
+        "range": "B14",
+        "type": "string",
+        "value": "Finance & Admin"
+      },
+      {
+        "range": "I14:Q14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B15",
+        "type": "string",
+        "value": "Finance & Admin Wages"
+      },
+      {
+        "range": "I15:Q15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B17",
+        "type": "string",
+        "value": "Salaries Working Abroad"
+      },
+      {
+        "range": "B19",
+        "type": "string",
+        "value": "Finance & Admin Salaries Working Abroad"
+      },
+      {
+        "range": "I19:Q19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B22",
+        "type": "string",
+        "value": "Holiday Pay"
+      },
+      {
+        "range": "B24",
+        "type": "string",
+        "value": "Finance & Admin Holiday Pay"
+      },
+      {
+        "range": "I24:Q24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B26",
+        "type": "string",
+        "value": "Additional Holiday Pay"
+      },
+      {
+        "range": "B28",
+        "type": "string",
+        "value": "Finance & Admin Additional Holiday Pay"
+      },
+      {
+        "range": "I28:Q28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B32",
+        "type": "string",
+        "value": "Sick Leave"
+      },
+      {
+        "range": "B34",
+        "type": "string",
+        "value": "Finance & Admin Sick Leave"
+      },
+      {
+        "range": "I34:Q34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B36",
+        "type": "string",
+        "value": "Commission Expense"
+      },
+      {
+        "range": "I36:Q36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B38",
+        "type": "string",
+        "value": "Bonus"
+      },
+      {
+        "range": "B40",
+        "type": "string",
+        "value": "Finance & Admin Bonus"
+      },
+      {
+        "range": "I40:Q40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B42",
+        "type": "string",
+        "value": "Benefits"
+      },
+      {
+        "range": "B44",
+        "type": "string",
+        "value": "Finance & Admin Benefits"
+      },
+      {
+        "range": "I44:Q44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B46",
+        "type": "string",
+        "value": "Work Compensation"
+      },
+      {
+        "range": "I48:Q48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B50",
+        "type": "string",
+        "value": "Payroll Taxes"
+      },
+      {
+        "range": "I52:Q52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B54",
+        "type": "string",
+        "value": "Finish Side Costs"
+      },
+      {
+        "range": "I57:Q57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B59",
+        "type": "string",
+        "value": "Share Based Compensation"
+      },
+      {
+        "range": "I62:Q62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B64",
+        "type": "string",
+        "value": "Recruiting Fees"
+      },
+      {
+        "range": "B65",
+        "type": "string",
+        "value": "Greenhouse PRO"
+      },
+      {
+        "range": "B66",
+        "type": "string",
+        "value": "Jopwell"
+      },
+      {
+        "range": "B67",
+        "type": "string",
+        "value": "Underdog"
+      },
+      {
+        "range": "B68",
+        "type": "string",
+        "value": "Linkedin Enterprise"
+      },
+      {
+        "range": "B69",
+        "type": "string",
+        "value": "Lusha"
+      },
+      {
+        "range": "B70",
+        "type": "string",
+        "value": "HackerRank"
+      },
+      {
+        "range": "B71",
+        "type": "string",
+        "value": "Built in NYC"
+      },
+      {
+        "range": "B72",
+        "type": "string",
+        "value": "Hirist"
+      },
+      {
+        "range": "B73",
+        "type": "string",
+        "value": "Glassdoor"
+      },
+      {
+        "range": "B74",
+        "type": "string",
+        "value": "Mercer"
+      },
+      {
+        "range": "B75",
+        "type": "string",
+        "value": "Docusign"
+      },
+      {
+        "range": "B76",
+        "type": "string",
+        "value": "Event & Meetups"
+      },
+      {
+        "range": "B77",
+        "type": "string",
+        "value": "Swag"
+      },
+      {
+        "range": "B78",
+        "type": "string",
+        "value": "Career Fairs"
+      },
+      {
+        "range": "B79",
+        "type": "string",
+        "value": "Cost per Career Fair"
+      },
+      {
+        "range": "B80",
+        "type": "string",
+        "value": "Other Costs"
+      },
+      {
+        "range": "B81",
+        "type": "string",
+        "value": "Finance & Admin Recruiting Fees"
+      },
+      {
+        "range": "I81:Q81",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B83",
+        "type": "string",
+        "value": "Relocation"
+      },
+      {
+        "range": "B86",
+        "type": "string",
+        "value": "Finance & Admin Relocation"
+      },
+      {
+        "range": "I86:Q86",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B88",
+        "type": "string",
+        "value": "Contractors"
+      },
+      {
+        "range": "B92",
+        "type": "string",
+        "value": "Finance & Admin Contractors"
+      },
+      {
+        "range": "I92:Q92",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B95",
+        "type": "string",
+        "value": "Outsourced R&D"
+      },
+      {
+        "range": "B98",
+        "type": "string",
+        "value": "Finance & Admin Outsourced R&D"
+      },
+      {
+        "range": "I98:Q98",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B100",
+        "type": "string",
+        "value": "Capitalized Wages"
+      },
+      {
+        "range": "B101",
+        "type": "string",
+        "value": "Finance & Admin Capitalized Wages"
+      },
+      {
+        "range": "I101:Q101",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B103",
+        "type": "string",
+        "value": "Capitalized Outsourced R&D"
+      },
+      {
+        "range": "B104",
+        "type": "string",
+        "value": "Finance & Admin Capitalized Outsourced R&D"
+      },
+      {
+        "range": "I104:Q104",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B106",
+        "type": "string",
+        "value": "Capitalized R&D"
+      },
+      {
+        "range": "B107",
+        "type": "string",
+        "value": "Finance & Admin Capitalized R&D"
+      },
+      {
+        "range": "I107:Q107",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A113",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B113",
+        "type": "string",
+        "value": "Total Finance & Admin Other Employee Costs"
+      },
+      {
+        "range": "I113:Q113",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B115",
+        "type": "string",
+        "value": "Celluar Phone Service"
+      },
+      {
+        "range": "B118",
+        "type": "string",
+        "value": "Finance & Admin Celluar Phone Service"
+      },
+      {
+        "range": "I118:Q118",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B120",
+        "type": "string",
+        "value": "Home Internet Service"
+      },
+      {
+        "range": "B123",
+        "type": "string",
+        "value": "Finance & Admin Home Internet Service"
+      },
+      {
+        "range": "I123:Q123",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B125",
+        "type": "string",
+        "value": "Home Office Phone"
+      },
+      {
+        "range": "B128",
+        "type": "string",
+        "value": "Finance & Admin Home Office Phone"
+      },
+      {
+        "range": "I128:Q128",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B130",
+        "type": "string",
+        "value": "Home Office"
+      },
+      {
+        "range": "B133",
+        "type": "string",
+        "value": "Finance & Admin Home Office"
+      },
+      {
+        "range": "I133:Q133",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B135",
+        "type": "string",
+        "value": "Membership Dues"
+      },
+      {
+        "range": "B138",
+        "type": "string",
+        "value": "Finance & Admin Membership Dues"
+      },
+      {
+        "range": "I138:Q138",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B140",
+        "type": "string",
+        "value": "Subscriptions"
+      },
+      {
+        "range": "B143",
+        "type": "string",
+        "value": "Finance & Admin Subscriptions"
+      },
+      {
+        "range": "I143:Q143",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A145",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B145",
+        "type": "string",
+        "value": "Total Finance & Admin Travel Costs"
+      },
+      {
+        "range": "I145:Q145",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B147",
+        "type": "string",
+        "value": "Adjustment"
+      },
+      {
+        "range": "B151",
+        "type": "string",
+        "value": "Airfare/Train"
+      },
+      {
+        "range": "B154",
+        "type": "string",
+        "value": "Finance & Admin Airfare/Train"
+      },
+      {
+        "range": "I154:Q154",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B160",
+        "type": "string",
+        "value": "Auto/Cab"
+      },
+      {
+        "range": "B163",
+        "type": "string",
+        "value": "Finance & Admin Auto/Cab"
+      },
+      {
+        "range": "I163:Q163",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B169",
+        "type": "string",
+        "value": "Mileage"
+      },
+      {
+        "range": "B172",
+        "type": "string",
+        "value": "Finance & Admin Mileage"
+      },
+      {
+        "range": "I172:Q172",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B178",
+        "type": "string",
+        "value": "Lodging"
+      },
+      {
+        "range": "B181",
+        "type": "string",
+        "value": "Finance & Admin Lodging"
+      },
+      {
+        "range": "I181:Q181",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B187",
+        "type": "string",
+        "value": "Travel Internet"
+      },
+      {
+        "range": "B190",
+        "type": "string",
+        "value": "Finance & Admin Travel Internet"
+      },
+      {
+        "range": "I190:Q190",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B196",
+        "type": "string",
+        "value": "Employee Meals / Entertainment"
+      },
+      {
+        "range": "B199",
+        "type": "string",
+        "value": "Finance & Admin Employee Meals / Entertainment"
+      },
+      {
+        "range": "I199:Q199",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B205",
+        "type": "string",
+        "value": "Daily Meal Allowance When Abroad"
+      },
+      {
+        "range": "B208",
+        "type": "string",
+        "value": "Content Daily Mail Allowance When Abroad"
+      },
+      {
+        "range": "B214",
+        "type": "string",
+        "value": "Business Meals / Entertainment"
+      },
+      {
+        "range": "B217",
+        "type": "string",
+        "value": "Finance & Admin Business Meals / Entertainment"
+      },
+      {
+        "range": "I217:Q217",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B219",
+        "type": "string",
+        "value": "Internal Events"
+      },
+      {
+        "range": "B221",
+        "type": "string",
+        "value": "SKO Cost Per Head"
+      },
+      {
+        "range": "B222",
+        "type": "string",
+        "value": "Total SKO Cost"
+      },
+      {
+        "range": "B223",
+        "type": "string",
+        "value": "President's Club Cost Per Head"
+      },
+      {
+        "range": "B224",
+        "type": "string",
+        "value": "% of Finance & Admin Attendees"
+      },
+      {
+        "range": "B225",
+        "type": "string",
+        "value": "Total Presiden's Club Cost"
+      },
+      {
+        "range": "B226",
+        "type": "string",
+        "value": "Other Internal Events"
+      },
+      {
+        "range": "B227",
+        "type": "string",
+        "value": "Finance & Admin Internal Events"
+      },
+      {
+        "range": "I227:Q227",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A229",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B229",
+        "type": "string",
+        "value": "Total Finance & Admin Facility Costs"
+      },
+      {
+        "range": "I229:Q229",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B231",
+        "type": "string",
+        "value": "Rent"
+      },
+      {
+        "range": "B232",
+        "type": "string",
+        "value": "% of Headcount"
+      },
+      {
+        "range": "B233",
+        "type": "string",
+        "value": "Monthly Rent"
+      },
+      {
+        "range": "B234",
+        "type": "string",
+        "value": "Finance & Admin Rent"
+      },
+      {
+        "range": "I234:Q234",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B236",
+        "type": "string",
+        "value": "CAM"
+      },
+      {
+        "range": "B239",
+        "type": "string",
+        "value": "Finance & Admin CAM"
+      },
+      {
+        "range": "I239:Q239",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B241",
+        "type": "string",
+        "value": "Repairs & Maintenance"
+      },
+      {
+        "range": "B244",
+        "type": "string",
+        "value": "Finance & Admin Repairs & Maintenance"
+      },
+      {
+        "range": "I244:Q244",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B246",
+        "type": "string",
+        "value": "Amortization of Leasehold Improvements"
+      },
+      {
+        "range": "B249",
+        "type": "string",
+        "value": "Finance & Admin Amortization of Leasehold Improvements"
+      },
+      {
+        "range": "I249:Q249",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B251",
+        "type": "string",
+        "value": "Utilities"
+      },
+      {
+        "range": "B254",
+        "type": "string",
+        "value": "Finance & Admin Utilities"
+      },
+      {
+        "range": "I254:Q254",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B256",
+        "type": "string",
+        "value": "Telephone"
+      },
+      {
+        "range": "B259",
+        "type": "string",
+        "value": "Finance & Admin Telephone"
+      },
+      {
+        "range": "I259:Q259",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B261",
+        "type": "string",
+        "value": "Computer & Internet"
+      },
+      {
+        "range": "B264",
+        "type": "string",
+        "value": "Finance & Admin Computer & Internet"
+      },
+      {
+        "range": "I264:Q264",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A266",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B266",
+        "type": "string",
+        "value": "Total Finance & Admin Rental Income"
+      },
+      {
+        "range": "I266:Q266",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B268",
+        "type": "string",
+        "value": "Rental Income"
+      },
+      {
+        "range": "B269",
+        "type": "string",
+        "value": "Finance & Admin Rental Income"
+      },
+      {
+        "range": "I269:Q269",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A271",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B271",
+        "type": "string",
+        "value": "Total Finance & Admin Marketing"
+      },
+      {
+        "range": "I271:Q271",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B273",
+        "type": "string",
+        "value": "Advertising & Promotion"
+      },
+      {
+        "range": "B276",
+        "type": "string",
+        "value": "Finance & Admin Advertising & Promotion"
+      },
+      {
+        "range": "I276:Q276",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B278",
+        "type": "string",
+        "value": "Other Marketing"
+      },
+      {
+        "range": "B281",
+        "type": "string",
+        "value": "Finance & Admin Other Marketing"
+      },
+      {
+        "range": "I281:Q281",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B283",
+        "type": "string",
+        "value": "Omarketing Research"
+      },
+      {
+        "range": "B286",
+        "type": "string",
+        "value": "Finance & Admin Omarketing Research"
+      },
+      {
+        "range": "I286:Q286",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B288",
+        "type": "string",
+        "value": "Marketing Events"
+      },
+      {
+        "range": "B291",
+        "type": "string",
+        "value": "Finance & Admin Marketing Events"
+      },
+      {
+        "range": "I291:Q291",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B293",
+        "type": "string",
+        "value": "Public Relations"
+      },
+      {
+        "range": "B296",
+        "type": "string",
+        "value": "Finance & Admin Public Relations"
+      },
+      {
+        "range": "I296:Q296",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B298",
+        "type": "string",
+        "value": "Paid Search"
+      },
+      {
+        "range": "B301",
+        "type": "string",
+        "value": "Finance & Admin Paid Search"
+      },
+      {
+        "range": "I301:Q301",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B303",
+        "type": "string",
+        "value": "Paid Social"
+      },
+      {
+        "range": "B306",
+        "type": "string",
+        "value": "Finance & Admin Paid Social"
+      },
+      {
+        "range": "I306:Q306",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B308",
+        "type": "string",
+        "value": "Paid Display"
+      },
+      {
+        "range": "B311",
+        "type": "string",
+        "value": "Finance & Admin Paid Display"
+      },
+      {
+        "range": "I311:Q311",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B313",
+        "type": "string",
+        "value": "Paid SWAG"
+      },
+      {
+        "range": "B316",
+        "type": "string",
+        "value": "Finance & Admin SWAG"
+      },
+      {
+        "range": "I316:Q316",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A318",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B318",
+        "type": "string",
+        "value": "Total Finance & Admin General & Admin"
+      },
+      {
+        "range": "I318:Q318",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B320",
+        "type": "string",
+        "value": "Insurance"
+      },
+      {
+        "range": "B321",
+        "type": "string",
+        "value": "Finance & Admin Insurance"
+      },
+      {
+        "range": "I321:Q321",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B323",
+        "type": "string",
+        "value": "Payroll & Benefit Admin"
+      },
+      {
+        "range": "B326",
+        "type": "string",
+        "value": "Finance & Admin Payroll & Benefit Admin"
+      },
+      {
+        "range": "I326:Q326",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B328",
+        "type": "string",
+        "value": "Postage & Delivery"
+      },
+      {
+        "range": "B331",
+        "type": "string",
+        "value": "Finance & Admin Postage & Delivery"
+      },
+      {
+        "range": "I331:Q331",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B333",
+        "type": "string",
+        "value": "Conferences & Meetings"
+      },
+      {
+        "range": "B334",
+        "type": "string",
+        "value": "Monthly Spend"
+      },
+      {
+        "range": "B335",
+        "type": "string",
+        "value": "Board Meeting (non-Helsinki)"
+      },
+      {
+        "range": "B336",
+        "type": "string",
+        "value": "Board Meeting Cost Per Head - Helsinki"
+      },
+      {
+        "range": "B337",
+        "type": "string",
+        "value": "Board Meeting Headcount - Helsinki"
+      },
+      {
+        "range": "B338",
+        "type": "string",
+        "value": "Finance & Admin Conference & Meetings"
+      },
+      {
+        "range": "I338:Q338",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B340",
+        "type": "string",
+        "value": "Furniture"
+      },
+      {
+        "range": "B343",
+        "type": "string",
+        "value": "Finance & Admin Furniture"
+      },
+      {
+        "range": "I343:Q343",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B345",
+        "type": "string",
+        "value": "Hardware"
+      },
+      {
+        "range": "B348",
+        "type": "string",
+        "value": "Finance & Admin Hardware"
+      },
+      {
+        "range": "I348:Q348",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B350",
+        "type": "string",
+        "value": "Software"
+      },
+      {
+        "range": "B351",
+        "type": "string",
+        "value": "Companywide Headcount"
+      },
+      {
+        "range": "B353",
+        "type": "string",
+        "value": "G&A Software - HR + Finance"
+      },
+      {
+        "range": "B354",
+        "type": "string",
+        "value": "Finance & Admin Software"
+      },
+      {
+        "range": "I354:Q354",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B356",
+        "type": "string",
+        "value": "Office Supplies"
+      },
+      {
+        "range": "B359",
+        "type": "string",
+        "value": "Finance & Admin Office Supplies"
+      },
+      {
+        "range": "I359:Q359",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B361",
+        "type": "string",
+        "value": "Audit & Tax"
+      },
+      {
+        "range": "B362",
+        "type": "string",
+        "value": "Finance & Admin Audit & Tax"
+      },
+      {
+        "range": "I362:Q362",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B364",
+        "type": "string",
+        "value": "Bank Fees"
+      },
+      {
+        "range": "B365",
+        "type": "string",
+        "value": "Finance & Admin Bank Fees"
+      },
+      {
+        "range": "I365:Q365",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B367",
+        "type": "string",
+        "value": "Professional Services"
+      },
+      {
+        "range": "B368",
+        "type": "string",
+        "value": "Finance & Admin Professional Services"
+      },
+      {
+        "range": "I368:Q368",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B370",
+        "type": "string",
+        "value": "Fundraising"
+      },
+      {
+        "range": "B373",
+        "type": "string",
+        "value": "Finance & Admin Fundraising"
+      },
+      {
+        "range": "I373:Q373",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B375",
+        "type": "string",
+        "value": "Miscellaneous"
+      },
+      {
+        "range": "B378",
+        "type": "string",
+        "value": "Finance & Admin Miscellaneous"
+      },
+      {
+        "range": "I378:Q378",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A380",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B380",
+        "type": "string",
+        "value": "Total Finance & Admin Other Costs"
+      },
+      {
+        "range": "I380:Q380",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B382",
+        "type": "string",
+        "value": "Legal Fees"
+      },
+      {
+        "range": "B383",
+        "type": "string",
+        "value": "Finance & Admin Legal Fees"
+      },
+      {
+        "range": "I383:Q383",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B385",
+        "type": "string",
+        "value": "DataFeeds"
+      },
+      {
+        "range": "B388",
+        "type": "string",
+        "value": "Finance & Admin DataFeeds"
+      },
+      {
+        "range": "I388",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B390",
+        "type": "string",
+        "value": "Web Service"
+      },
+      {
+        "range": "B393",
+        "type": "string",
+        "value": "Finance & Admin Web Service"
+      },
+      {
+        "range": "I393:Q393",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B395",
+        "type": "string",
+        "value": "Penalties"
+      },
+      {
+        "range": "B398",
+        "type": "string",
+        "value": "Finance & Admin Penalties"
+      },
+      {
+        "range": "I398:Q398",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B400",
+        "type": "string",
+        "value": "Bad Debt"
+      },
+      {
+        "range": "B401",
+        "type": "string",
+        "value": "Revenue"
+      },
+      {
+        "range": "B402",
+        "type": "string",
+        "value": "%"
+      },
+      {
+        "range": "B403",
+        "type": "string",
+        "value": "Finance & Admin Bad Debt"
+      },
+      {
+        "range": "C403",
+        "type": "string",
+        "value": "1% Update Methodology"
+      },
+      {
+        "range": "I403:Q403",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C404",
+        "type": "string",
+        "value": "Accounting Methodology"
+      },
+      {
+        "range": "I404:Q404",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D405",
+        "type": "string",
+        "value": "Variance"
+      },
+      {
+        "range": "I405:Q405",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 3781.27,
+      "cells_analyzed": 1068,
+      "total_ranges": 379,
+      "format_counts": {
+        "string": 294,
+        "number": 84,
+        "date": 1
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T11:02:22.106850Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2015-01-31",
+        "pattern": "Monthly series from 2015-01 to 2027-12"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 4,
+    "entries_moved_to_index": 100,
+    "entries_remaining": 279,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 22748,
+    "compressed_size_bytes": 18056,
+    "inverted_index_size_bytes": 876,
+    "compressed_data_size_bytes": 17180,
+    "compression_ratio": 0.794,
+    "space_saved_bytes": 4692,
+    "space_saved_percent": 20.6
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "inverted_index": {
+    "Difference": {
+      "type": "string",
+      "ranges": [
+        "B8",
+        "B21"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Bad Debt",
+    "format_ranges": [
+      {
+        "range": "B2",
+        "type": "string",
+        "value": "ADFDA Reconciliation 2020"
+      },
+      {
+        "range": "C5:CT5",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "B6",
+        "type": "string",
+        "value": "ADFA beg balance per WP"
+      },
+      {
+        "range": "C6:CT6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B7",
+        "type": "string",
+        "value": "ADFA beg balance per Intacct"
+      },
+      {
+        "range": "C7:CT7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C8:CT8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B10",
+        "type": "string",
+        "value": "Invoices written-off/collected"
+      },
+      {
+        "range": "C10:CT10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B11",
+        "type": "string",
+        "value": "AFDA balance before adj"
+      },
+      {
+        "range": "C11:CT11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B13",
+        "type": "string",
+        "value": "A/R ending balance per Intacct"
+      },
+      {
+        "range": "C13:CT13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B14",
+        "type": "string",
+        "value": "AFDA as % of A/R to be maintained"
+      },
+      {
+        "range": "C14:CT14",
+        "type": "number"
+      },
+      {
+        "range": "B15",
+        "type": "string",
+        "value": "3.18% of current A/R"
+      },
+      {
+        "range": "C15:CT15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B16",
+        "type": "string",
+        "value": "Less: AFDA balance before adj"
+      },
+      {
+        "range": "C16:CT17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B18",
+        "type": "string",
+        "value": "Amount to be added to AFDA"
+      },
+      {
+        "range": "C18:CT18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B19",
+        "type": "string",
+        "value": "AFDA end balance per WP"
+      },
+      {
+        "range": "C19:CT19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B20",
+        "type": "string",
+        "value": "ADFA end balance per Intacct"
+      },
+      {
+        "range": "C20:CT20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C21:CT21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K24",
+        "type": "string",
+        "value": "Higher of specific allowance or 3.18% of AR"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 1395.09,
+      "cells_analyzed": 1455,
+      "total_ranges": 29,
+      "format_counts": {
+        "string": 15,
+        "date": 1,
+        "number": 13
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T11:02:42.079547Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2020-01-01",
+        "pattern": "Monthly series from 2020-01 to 2027-12"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 1,
+    "entries_moved_to_index": 2,
+    "entries_remaining": 27,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 2120,
+    "compressed_size_bytes": 2069,
+    "inverted_index_size_bytes": 54,
+    "compressed_data_size_bytes": 2015,
+    "compression_ratio": 0.976,
+    "space_saved_bytes": 51,
+    "space_saved_percent": 2.4
+  }
+}

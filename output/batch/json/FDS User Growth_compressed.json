@@ -1,0 +1,2259 @@
+{
+  "inverted_index": {
+    "Average Corporate Users": {
+      "type": "string",
+      "ranges": [
+        "B12",
+        "B166"
+      ]
+    },
+    "Average Financial Users": {
+      "type": "string",
+      "ranges": [
+        "B13",
+        "B171"
+      ]
+    },
+    "Corporate Users at Year End": {
+      "type": "string",
+      "ranges": [
+        "B16",
+        "B176"
+      ]
+    },
+    "Financial Users at Year End": {
+      "type": "string",
+      "ranges": [
+        "B17",
+        "B181"
+      ]
+    },
+    "Corporate": {
+      "type": "string",
+      "ranges": [
+        "B37",
+        "B49",
+        "B61",
+        "B75",
+        "B149",
+        "B265",
+        "B271",
+        "B277",
+        "B283",
+        "B289",
+        "B295"
+      ]
+    },
+    "WSI": {
+      "type": "string",
+      "ranges": [
+        "B38",
+        "B43",
+        "B50",
+        "B55"
+      ]
+    },
+    "Non-WSI": {
+      "type": "string",
+      "ranges": [
+        "B39",
+        "B44",
+        "B51",
+        "B56"
+      ]
+    },
+    "Total Corporate": {
+      "type": "string",
+      "ranges": [
+        "B40",
+        "B52",
+        "B67",
+        "B81"
+      ]
+    },
+    "Financial": {
+      "type": "string",
+      "ranges": [
+        "B42",
+        "B54",
+        "B69:B70",
+        "B83",
+        "B157:B158",
+        "B226",
+        "B266",
+        "B272",
+        "B278",
+        "B284",
+        "B290",
+        "B296"
+      ]
+    },
+    "Total Financial": {
+      "type": "string",
+      "ranges": [
+        "B45",
+        "B57",
+        "B71",
+        "B85",
+        "B279"
+      ]
+    },
+    "Professional Services": {
+      "type": "string",
+      "ranges": [
+        "B62",
+        "B76",
+        "B92",
+        "B101",
+        "B110",
+        "B119",
+        "B128",
+        "B137",
+        "B150",
+        "B188",
+        "B198",
+        "B208",
+        "B221",
+        "B232",
+        "B242",
+        "B252"
+      ]
+    },
+    "Pharma & Life Sciences": {
+      "type": "string",
+      "ranges": [
+        "B63",
+        "B77",
+        "B93",
+        "B102",
+        "B111",
+        "B120",
+        "B129",
+        "B138",
+        "B151",
+        "B189",
+        "B199",
+        "B209",
+        "B222",
+        "B233",
+        "B243",
+        "B253"
+      ]
+    },
+    "Tech, Media & Telecom": {
+      "type": "string",
+      "ranges": [
+        "B64",
+        "B78",
+        "B94",
+        "B103",
+        "B112",
+        "B121",
+        "B130",
+        "B139",
+        "B152",
+        "B190",
+        "B200",
+        "B210",
+        "B223",
+        "B234",
+        "B244",
+        "B254"
+      ]
+    },
+    "Energy & Utilities": {
+      "type": "string",
+      "ranges": [
+        "B65",
+        "B79",
+        "B95",
+        "B104",
+        "B113",
+        "B122",
+        "B131",
+        "B140",
+        "B153",
+        "B191",
+        "B201",
+        "B211",
+        "B224",
+        "B235",
+        "B245",
+        "B255"
+      ]
+    },
+    "Retail & Consumer Products": {
+      "type": "string",
+      "ranges": [
+        "B66",
+        "B80",
+        "B96",
+        "B105",
+        "B114",
+        "B123",
+        "B132",
+        "B141",
+        "B154",
+        "B192",
+        "B202",
+        "B212",
+        "B225",
+        "B236",
+        "B246",
+        "B256"
+      ]
+    },
+    "Financial - Other": {
+      "type": "string",
+      "ranges": [
+        "B84",
+        "B237"
+      ]
+    },
+    "Total": {
+      "type": "string",
+      "ranges": [
+        "B97",
+        "B106",
+        "B115",
+        "B124",
+        "B133",
+        "B142",
+        "B155",
+        "B159",
+        "B194",
+        "B204",
+        "B214",
+        "B238",
+        "B248",
+        "B258",
+        "B267",
+        "B273"
+      ]
+    },
+    "Average WSI Enabled Users": {
+      "type": "string",
+      "ranges": [
+        "B167",
+        "B172"
+      ]
+    },
+    "Average Non-WSI Users": {
+      "type": "string",
+      "ranges": [
+        "B168",
+        "B173"
+      ]
+    },
+    "WSI Enabled Users at Year End": {
+      "type": "string",
+      "ranges": [
+        "B177",
+        "B182"
+      ]
+    },
+    "Non-WSI Users at Year End": {
+      "type": "string",
+      "ranges": [
+        "B178",
+        "B183"
+      ]
+    },
+    "Finacial": {
+      "type": "string",
+      "ranges": [
+        "B193",
+        "B203",
+        "B213"
+      ]
+    },
+    "Finacial - Other": {
+      "type": "string",
+      "ranges": [
+        "B247",
+        "B257"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "FDS User Growth",
+    "format_ranges": [
+      {
+        "range": "M2:DD2",
+        "type": "number"
+      },
+      {
+        "range": "M2:DD2",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "D3:K3",
+        "type": "number"
+      },
+      {
+        "range": "D3:K3",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "M3:DD3",
+        "type": "date",
+        "date_series_id": "ds_3"
+      },
+      {
+        "range": "B6",
+        "type": "string",
+        "value": "User Summary"
+      },
+      {
+        "range": "B8",
+        "type": "string",
+        "value": "Corporate ARR"
+      },
+      {
+        "range": "D8:K8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M8:DD8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B9",
+        "type": "string",
+        "value": "Financial ARR"
+      },
+      {
+        "range": "D9:K9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M9:DD9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B10",
+        "type": "string",
+        "value": "Total ARR"
+      },
+      {
+        "range": "D10:K10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M10:DD10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D12:K12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M12:DD12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D13:K13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M13:DD13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B14",
+        "type": "string",
+        "value": "Total Average Users"
+      },
+      {
+        "range": "D14:K14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M14:DD14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D16:K16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M16:DD16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D17:K17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M17:DD17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B18",
+        "type": "string",
+        "value": "Total Users at Year End"
+      },
+      {
+        "range": "D18:K18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M18:DD18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B20",
+        "type": "string",
+        "value": "Corporate Users (Added)"
+      },
+      {
+        "range": "D20:K20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M20:DD20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B21",
+        "type": "string",
+        "value": "Financial Users (Added)"
+      },
+      {
+        "range": "D21:K21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M21:DD21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B22",
+        "type": "string",
+        "value": "Total Users (Added)"
+      },
+      {
+        "range": "D22:K22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M22:DD22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B24",
+        "type": "string",
+        "value": "Corporate Enabled WSI Users"
+      },
+      {
+        "range": "D24:K24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M24:DD24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B25",
+        "type": "string",
+        "value": "Financial Enabled WSI Users"
+      },
+      {
+        "range": "D25:K25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M25:DD25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B26",
+        "type": "string",
+        "value": "Total Enabled WSI Users"
+      },
+      {
+        "range": "D26:K26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M26:DD26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B28",
+        "type": "string",
+        "value": "% of Corporate Users"
+      },
+      {
+        "range": "D28:K28",
+        "type": "number"
+      },
+      {
+        "range": "M28:DD28",
+        "type": "number"
+      },
+      {
+        "range": "B29",
+        "type": "string",
+        "value": "% of Financial Users"
+      },
+      {
+        "range": "D29:K29",
+        "type": "number"
+      },
+      {
+        "range": "M29:DD29",
+        "type": "number"
+      },
+      {
+        "range": "B30",
+        "type": "string",
+        "value": "% of Total Users"
+      },
+      {
+        "range": "D30:K30",
+        "type": "number"
+      },
+      {
+        "range": "M30:DD30",
+        "type": "number"
+      },
+      {
+        "range": "B33",
+        "type": "string",
+        "value": "New WSI Users Additions"
+      },
+      {
+        "range": "B35",
+        "type": "string",
+        "value": "Percent of New Users Added by Product"
+      },
+      {
+        "range": "D38:K38",
+        "type": "number"
+      },
+      {
+        "range": "S38:DD38",
+        "type": "number"
+      },
+      {
+        "range": "D39:K39",
+        "type": "number"
+      },
+      {
+        "range": "S39:DD39",
+        "type": "number"
+      },
+      {
+        "range": "D40:K40",
+        "type": "number"
+      },
+      {
+        "range": "S40:DD40",
+        "type": "number"
+      },
+      {
+        "range": "D43:K43",
+        "type": "number"
+      },
+      {
+        "range": "S43:DD43",
+        "type": "number"
+      },
+      {
+        "range": "D44:K44",
+        "type": "number"
+      },
+      {
+        "range": "S44:DD44",
+        "type": "number"
+      },
+      {
+        "range": "D45:K45",
+        "type": "number"
+      },
+      {
+        "range": "S45:DD45",
+        "type": "number"
+      },
+      {
+        "range": "B47",
+        "type": "string",
+        "value": "New Users Added by Product"
+      },
+      {
+        "range": "D50:K50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S50:DD50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D51:K51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S51:DD51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D52:K52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S52:DD52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D55:K55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S55:DD55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D56:K56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S56:DD56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D57:K57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S57:DD57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B59",
+        "type": "string",
+        "value": "Percent of New Users Added"
+      },
+      {
+        "range": "D62:K62",
+        "type": "number"
+      },
+      {
+        "range": "M62:DD62",
+        "type": "number"
+      },
+      {
+        "range": "D63:K63",
+        "type": "number"
+      },
+      {
+        "range": "M63:DD63",
+        "type": "number"
+      },
+      {
+        "range": "D64:K64",
+        "type": "number"
+      },
+      {
+        "range": "M64:DD64",
+        "type": "number"
+      },
+      {
+        "range": "D65:K65",
+        "type": "number"
+      },
+      {
+        "range": "M65:DD65",
+        "type": "number"
+      },
+      {
+        "range": "D66:K66",
+        "type": "number"
+      },
+      {
+        "range": "M66:DD66",
+        "type": "number"
+      },
+      {
+        "range": "D67:K67",
+        "type": "number"
+      },
+      {
+        "range": "M67:DD67",
+        "type": "number"
+      },
+      {
+        "range": "D70:K70",
+        "type": "number"
+      },
+      {
+        "range": "M70:DD70",
+        "type": "number"
+      },
+      {
+        "range": "D71:K71",
+        "type": "number"
+      },
+      {
+        "range": "M71:DD71",
+        "type": "number"
+      },
+      {
+        "range": "B73",
+        "type": "string",
+        "value": "New WSI Users Added by Sector"
+      },
+      {
+        "range": "D76:K76",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M76",
+        "type": "number"
+      },
+      {
+        "range": "N76:DD76",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D77:K77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M77",
+        "type": "number"
+      },
+      {
+        "range": "N77:DD77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D78:K78",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M78",
+        "type": "number"
+      },
+      {
+        "range": "N78:DD78",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D79:K79",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M79",
+        "type": "number"
+      },
+      {
+        "range": "N79:DD79",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D80:K80",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M80",
+        "type": "number"
+      },
+      {
+        "range": "N80:DD80",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D81:K81",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M81",
+        "type": "number"
+      },
+      {
+        "range": "N81:DD81",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D84:K84",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M84",
+        "type": "number"
+      },
+      {
+        "range": "N84:DD84",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D85:K85",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M85",
+        "type": "number"
+      },
+      {
+        "range": "N85:DD85",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B88",
+        "type": "string",
+        "value": "Non-WSI Corporate Users Converted"
+      },
+      {
+        "range": "B90",
+        "type": "string",
+        "value": "Percent Converted by Sector"
+      },
+      {
+        "range": "D92:K92",
+        "type": "number"
+      },
+      {
+        "range": "S92:DD92",
+        "type": "number"
+      },
+      {
+        "range": "D93:K93",
+        "type": "number"
+      },
+      {
+        "range": "S93:DD93",
+        "type": "number"
+      },
+      {
+        "range": "D94:K94",
+        "type": "number"
+      },
+      {
+        "range": "S94:DD94",
+        "type": "number"
+      },
+      {
+        "range": "D95:K95",
+        "type": "number"
+      },
+      {
+        "range": "S95:DD95",
+        "type": "number"
+      },
+      {
+        "range": "D96:K96",
+        "type": "number"
+      },
+      {
+        "range": "S96:DD96",
+        "type": "number"
+      },
+      {
+        "range": "D97:K97",
+        "type": "number"
+      },
+      {
+        "range": "S97:DD97",
+        "type": "number"
+      },
+      {
+        "range": "B99",
+        "type": "string",
+        "value": "Non-WSI Users Converted"
+      },
+      {
+        "range": "D101:K101",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S101:DD101",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D102:K102",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S102:DD102",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D103:K103",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S103:DD103",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D104:K104",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S104:DD104",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D105:K105",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S105:DD105",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D106:K106",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S106:DD106",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B108",
+        "type": "string",
+        "value": "Percent of New Non-WSI Users Added by Sector"
+      },
+      {
+        "range": "D110:K110",
+        "type": "number"
+      },
+      {
+        "range": "S110:DD110",
+        "type": "number"
+      },
+      {
+        "range": "D111:K111",
+        "type": "number"
+      },
+      {
+        "range": "S111:DD111",
+        "type": "number"
+      },
+      {
+        "range": "D112:K112",
+        "type": "number"
+      },
+      {
+        "range": "S112:DD112",
+        "type": "number"
+      },
+      {
+        "range": "D113:K113",
+        "type": "number"
+      },
+      {
+        "range": "S113:DD113",
+        "type": "number"
+      },
+      {
+        "range": "D114:K114",
+        "type": "number"
+      },
+      {
+        "range": "S114:DD114",
+        "type": "number"
+      },
+      {
+        "range": "D115:K115",
+        "type": "number"
+      },
+      {
+        "range": "S115:DD115",
+        "type": "number"
+      },
+      {
+        "range": "B117",
+        "type": "string",
+        "value": "Non-WSI Users Added"
+      },
+      {
+        "range": "D119:K119",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S119:DD119",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D120:K120",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S120:DD120",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D121:K121",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S121:DD121",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D122:K122",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S122:DD122",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D123:K123",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S123:DD123",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D124:K124",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S124:DD124",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B126",
+        "type": "string",
+        "value": "Non-WSI Net User Change"
+      },
+      {
+        "range": "D128:K128",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S128:DD128",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D129:K129",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S129:DD129",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D130:K130",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S130:DD130",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D131:K131",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S131:DD131",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D132:K132",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S132:DD132",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D133:K133",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S133:DD133",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B135",
+        "type": "string",
+        "value": "Non-WSI Users by Sector"
+      },
+      {
+        "range": "D137:K137",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "R137:DD137",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D138:K138",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "R138:DD138",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D139:K139",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "R139:DD139",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D140:K140",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "R140:DD140",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D141:K141",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "R141:DD141",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D142:K142",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "R142:DD142",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B145",
+        "type": "string",
+        "value": "WSI User Additions"
+      },
+      {
+        "range": "B147",
+        "type": "string",
+        "value": "Total Users Added by Sector"
+      },
+      {
+        "range": "D150:K150",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M150:DD150",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D151:K151",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M151:DD151",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D152:K152",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M152:DD152",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D153:K153",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M153:DD153",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D154:K154",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M154:DD154",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D155:K155",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M155:DD155",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D158:K158",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M158:DD158",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D159:K159",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M159:DD159",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B162",
+        "type": "string",
+        "value": "Total Users"
+      },
+      {
+        "range": "B164",
+        "type": "string",
+        "value": "Users by Product"
+      },
+      {
+        "range": "D167:K167",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M167:DD167",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D168:K168",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M168:DD168",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B169",
+        "type": "string",
+        "value": "Total Average Corporate Users"
+      },
+      {
+        "range": "D169:K169",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M169:DD169",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D172:K172",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M172:DD172",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D173:K173",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M173:DD173",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B174",
+        "type": "string",
+        "value": "Total Average Financial Users"
+      },
+      {
+        "range": "D174:K174",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M174:DD174",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D177:K177",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M177:DD177",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D178:K178",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M178:DD178",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B179",
+        "type": "string",
+        "value": "Total Corporate Users at Year End"
+      },
+      {
+        "range": "D179:K179",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M179:DD179",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D182:K182",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M182:DD182",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D183:K183",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M183:DD183",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B184",
+        "type": "string",
+        "value": "Total Financial Users at Year End"
+      },
+      {
+        "range": "D184:K184",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M184:DD184",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B186",
+        "type": "string",
+        "value": "Total Enabled Users"
+      },
+      {
+        "range": "D188:K188",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M188:DD188",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D189:K189",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M189:DD189",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D190:K190",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M190:DD190",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D191:K191",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M191:DD191",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D192:K192",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M192:DD192",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D193:K193",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M193:DD193",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D194:K194",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M194:DD194",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B196",
+        "type": "string",
+        "value": "Percent of Active Users"
+      },
+      {
+        "range": "D198:K198",
+        "type": "number"
+      },
+      {
+        "range": "M198:DD198",
+        "type": "number"
+      },
+      {
+        "range": "D199:K199",
+        "type": "number"
+      },
+      {
+        "range": "M199:DD199",
+        "type": "number"
+      },
+      {
+        "range": "D200:K200",
+        "type": "number"
+      },
+      {
+        "range": "M200:DD200",
+        "type": "number"
+      },
+      {
+        "range": "D201:K201",
+        "type": "number"
+      },
+      {
+        "range": "M201:DD201",
+        "type": "number"
+      },
+      {
+        "range": "D202:K202",
+        "type": "number"
+      },
+      {
+        "range": "M202:DD202",
+        "type": "number"
+      },
+      {
+        "range": "D203:K203",
+        "type": "number"
+      },
+      {
+        "range": "M203:DD203",
+        "type": "number"
+      },
+      {
+        "range": "D204:K204",
+        "type": "number"
+      },
+      {
+        "range": "M204:DD204",
+        "type": "number"
+      },
+      {
+        "range": "B206",
+        "type": "string",
+        "value": "Total Active Users"
+      },
+      {
+        "range": "D208:K208",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M208:DD208",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D209:K209",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M209:DD209",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D210:K210",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M210:DD210",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D211:K211",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M211:DD211",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D212:K212",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M212:DD212",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D213:K213",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M213:DD213",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D214:K214",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M214:DD214",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B217",
+        "type": "string",
+        "value": "Document Consumption"
+      },
+      {
+        "range": "B219",
+        "type": "string",
+        "value": "Docs Per Active User per Month"
+      },
+      {
+        "range": "D221:K221",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M221:DD221",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D222:K222",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M222:DD222",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D223:K223",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M223:DD223",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D224:K224",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M224:DD224",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D225:K225",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M225:DD225",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D226:K226",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M226:DD226",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B228",
+        "type": "string",
+        "value": "Consumpstion Reduction"
+      },
+      {
+        "range": "D228:K228",
+        "type": "number"
+      },
+      {
+        "range": "M228:DD228",
+        "type": "number"
+      },
+      {
+        "range": "B230",
+        "type": "string",
+        "value": "Docs Per Active User per Month - Reduction"
+      },
+      {
+        "range": "D232:K232",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M232:DD232",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D233:K233",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M233:DD233",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D234:K234",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M234:DD234",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D235:K235",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M235:DD235",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D236:K236",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M236:DD236",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D237:K237",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M237:DD237",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D238:K238",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M238:DD238",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B240",
+        "type": "string",
+        "value": "Total Docs - Reduction"
+      },
+      {
+        "range": "D242:K242",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M242:DD242",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D243:K243",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M243:DD243",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D244:K244",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M244:DD244",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D245:K245",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M245:DD245",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D246:K246",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M246:DD246",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D247:K247",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M247:DD247",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D248:K248",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M248:DD248",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B250",
+        "type": "string",
+        "value": "Total Docs - Unadjusted"
+      },
+      {
+        "range": "D252:K252",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M252:DD252",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D253:K253",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M253:DD253",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D254:K254",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M254:DD254",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D255:K255",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M255:DD255",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D256:K256",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M256:DD256",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D257:K257",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M257:DD257",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D258:K258",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M258:DD258",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B261",
+        "type": "string",
+        "value": "FDS RT Users Detail"
+      },
+      {
+        "range": "B263",
+        "type": "string",
+        "value": "Users Added"
+      },
+      {
+        "range": "D265:K265",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M265:DD265",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D266:K266",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M266:DD266",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D267:K267",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M267:DD267",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B269",
+        "type": "string",
+        "value": "Percent of New FDS RT Users Added"
+      },
+      {
+        "range": "D271:K271",
+        "type": "number"
+      },
+      {
+        "range": "S271:DD271",
+        "type": "number"
+      },
+      {
+        "range": "D272:K272",
+        "type": "number"
+      },
+      {
+        "range": "S272:DD272",
+        "type": "number"
+      },
+      {
+        "range": "D273:K273",
+        "type": "number"
+      },
+      {
+        "range": "M273:DD273",
+        "type": "number"
+      },
+      {
+        "range": "B275",
+        "type": "string",
+        "value": "New FDS RT Users Added by Product"
+      },
+      {
+        "range": "D277:K277",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S277:DD277",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D278:K278",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S278:DD278",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D279:K279",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M279:DD279",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B281",
+        "type": "string",
+        "value": "Enabled FDS RT Users"
+      },
+      {
+        "range": "D283:K283",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M283:DD283",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D284:K284",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M284:DD284",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B285",
+        "type": "string",
+        "value": "Total Enabled RT Users"
+      },
+      {
+        "range": "D285:K285",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M285:DD285",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B287",
+        "type": "string",
+        "value": "Active FDS RT Users"
+      },
+      {
+        "range": "D289:K289",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M289:DD289",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D290:K290",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M290:DD290",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B291",
+        "type": "string",
+        "value": "Total Active RT Users"
+      },
+      {
+        "range": "D291:K291",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M291:DD291",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B293",
+        "type": "string",
+        "value": "Percent of Active FDS RT Users"
+      },
+      {
+        "range": "D295:K295",
+        "type": "number"
+      },
+      {
+        "range": "M295:DD295",
+        "type": "number"
+      },
+      {
+        "range": "D296:K296",
+        "type": "number"
+      },
+      {
+        "range": "M296:DD296",
+        "type": "number"
+      },
+      {
+        "range": "B297",
+        "type": "string",
+        "value": "Total Percent of Active RT Users"
+      },
+      {
+        "range": "D297:K297",
+        "type": "number"
+      },
+      {
+        "range": "M297:DD297",
+        "type": "number"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 1488.03,
+      "cells_analyzed": 17685,
+      "total_ranges": 566,
+      "format_counts": {
+        "number": 348,
+        "date": 3,
+        "string": 215
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T11:03:09.099111Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "repeating_annual",
+        "increment": "12 months (annual)",
+        "start_date": "2020-01-01",
+        "pattern": "Annual values repeating 12 times from 2020 to 2027"
+      },
+      "ds_2": {
+        "series_type": "annual",
+        "increment": "1 year",
+        "start_date": "2020-01-01",
+        "pattern": "Annual series from 2020 to 2027"
+      },
+      "ds_3": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2020-01-31",
+        "pattern": "Monthly series from 2020-01 to 2027-12"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 23,
+    "entries_moved_to_index": 161,
+    "entries_remaining": 405,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 30637,
+    "compressed_size_bytes": 23127,
+    "inverted_index_size_bytes": 2226,
+    "compressed_data_size_bytes": 20901,
+    "compression_ratio": 0.755,
+    "space_saved_bytes": 7510,
+    "space_saved_percent": 24.5
+  }
+}

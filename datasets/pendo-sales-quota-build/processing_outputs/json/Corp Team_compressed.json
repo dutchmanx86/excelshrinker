@@ -1,0 +1,1448 @@
+{
+  "inverted_index": {
+    "Corporate": {
+      "type": "string",
+      "ranges": [
+        "B3",
+        "D7:D20",
+        "D22:D35",
+        "D37:D50",
+        "D52:D65",
+        "D67:D80"
+      ]
+    },
+    "Batt, Kate": {
+      "type": "string",
+      "ranges": [
+        "B7:B20"
+      ]
+    },
+    "Allie Winstead": {
+      "type": "string",
+      "ranges": [
+        "E7:P7"
+      ]
+    },
+    "Mackenzie Smith--Old Mgr": {
+      "type": "string",
+      "ranges": [
+        "E8:F8"
+      ]
+    },
+    "Ash Cochran": {
+      "type": "string",
+      "ranges": [
+        "G8:P8",
+        "E9:F9"
+      ]
+    },
+    "Cassie Davis": {
+      "type": "string",
+      "ranges": [
+        "G9:P9",
+        "E10:F10"
+      ]
+    },
+    "Future Hire": {
+      "type": "string",
+      "ranges": [
+        "AX9",
+        "I10:P10",
+        "H11:P11",
+        "J12:P12",
+        "I52:P52",
+        "J53:P53",
+        "J54:P54",
+        "J55:P55",
+        "J56:P56",
+        "L57:P57",
+        "L58:P58",
+        "L59:P59",
+        "N60:P62",
+        "I67:P67",
+        "I68:P68",
+        "I69:P69"
+      ]
+    },
+    "Brian Coules": {
+      "type": "string",
+      "ranges": [
+        "G10:H10",
+        "F11",
+        "I23:P23"
+      ]
+    },
+    "Sean McWilliams": {
+      "type": "string",
+      "ranges": [
+        "G11",
+        "E12:F12",
+        "H37:P37"
+      ]
+    },
+    "Hoy, Michael": {
+      "type": "string",
+      "ranges": [
+        "B22:B35"
+      ]
+    },
+    "Taylor Tharrington": {
+      "type": "string",
+      "ranges": [
+        "E22:F22",
+        "G23:H23",
+        "I24:P24"
+      ]
+    },
+    "Mackenzie Smith": {
+      "type": "string",
+      "ranges": [
+        "G22:P22"
+      ]
+    },
+    "Sam Turner": {
+      "type": "string",
+      "ranges": [
+        "E23:F23",
+        "G24"
+      ]
+    },
+    "Laura Vancosky": {
+      "type": "string",
+      "ranges": [
+        "E24:F24",
+        "H24",
+        "G25",
+        "I25:P25"
+      ]
+    },
+    "Melissa Moriarty": {
+      "type": "string",
+      "ranges": [
+        "E25:F25",
+        "H25",
+        "G26",
+        "I26:P26"
+      ]
+    },
+    "Abbey Freeman": {
+      "type": "string",
+      "ranges": [
+        "E26:F26",
+        "H26",
+        "G27",
+        "I27:P27"
+      ]
+    },
+    "Klemm, Brian": {
+      "type": "string",
+      "ranges": [
+        "B37:B50"
+      ]
+    },
+    "Jack Miller": {
+      "type": "string",
+      "ranges": [
+        "E37:G37",
+        "H38:P38"
+      ]
+    },
+    "Lara George": {
+      "type": "string",
+      "ranges": [
+        "E38:G38",
+        "H39:P39"
+      ]
+    },
+    "Emily Cutts": {
+      "type": "string",
+      "ranges": [
+        "E39:G39",
+        "H40:P40"
+      ]
+    },
+    "Will Jones": {
+      "type": "string",
+      "ranges": [
+        "E40:G40",
+        "H41:P41"
+      ]
+    },
+    "Steph Hastings--East": {
+      "type": "string",
+      "ranges": [
+        "F41:G41",
+        "H42:P42"
+      ]
+    },
+    "TBD Corp Dir #1": {
+      "type": "string",
+      "ranges": [
+        "B52:B65"
+      ]
+    },
+    "TBD Corp Dir #2": {
+      "type": "string",
+      "ranges": [
+        "B67:B80"
+      ]
+    },
+    "James Ferraro": {
+      "type": "string",
+      "ranges": [
+        "G67:H67",
+        "I70:P70"
+      ]
+    },
+    "Briauna Smith": {
+      "type": "string",
+      "ranges": [
+        "G68:H68",
+        "I71:P71"
+      ]
+    },
+    "Douglas Godette": {
+      "type": "string",
+      "ranges": [
+        "G69:H69",
+        "I72:P72"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Corp Team",
+    "format_ranges": [
+      {
+        "range": "R1",
+        "type": "string",
+        "value": "Z"
+      },
+      {
+        "range": "S1",
+        "type": "string",
+        "value": "AA"
+      },
+      {
+        "range": "T1",
+        "type": "string",
+        "value": "AB"
+      },
+      {
+        "range": "U1",
+        "type": "string",
+        "value": "AC"
+      },
+      {
+        "range": "V1",
+        "type": "string",
+        "value": "AD"
+      },
+      {
+        "range": "W1",
+        "type": "string",
+        "value": "AE"
+      },
+      {
+        "range": "X1",
+        "type": "string",
+        "value": "AF"
+      },
+      {
+        "range": "Y1",
+        "type": "string",
+        "value": "AG"
+      },
+      {
+        "range": "Z1",
+        "type": "string",
+        "value": "AH"
+      },
+      {
+        "range": "AB1",
+        "type": "string",
+        "value": "N"
+      },
+      {
+        "range": "AC1",
+        "type": "string",
+        "value": "O"
+      },
+      {
+        "range": "AD1",
+        "type": "string",
+        "value": "P"
+      },
+      {
+        "range": "AE1",
+        "type": "string",
+        "value": "Q"
+      },
+      {
+        "range": "AF1",
+        "type": "string",
+        "value": "R"
+      },
+      {
+        "range": "AG1",
+        "type": "string",
+        "value": "S"
+      },
+      {
+        "range": "AH1",
+        "type": "string",
+        "value": "T"
+      },
+      {
+        "range": "AI1",
+        "type": "string",
+        "value": "U"
+      },
+      {
+        "range": "AJ1",
+        "type": "string",
+        "value": "V"
+      },
+      {
+        "range": "AL1",
+        "type": "string",
+        "value": "AL"
+      },
+      {
+        "range": "AM1",
+        "type": "string",
+        "value": "AM"
+      },
+      {
+        "range": "AN1",
+        "type": "string",
+        "value": "AN"
+      },
+      {
+        "range": "AO1",
+        "type": "string",
+        "value": "AO"
+      },
+      {
+        "range": "AP1",
+        "type": "string",
+        "value": "AP"
+      },
+      {
+        "range": "AQ1",
+        "type": "string",
+        "value": "AQ"
+      },
+      {
+        "range": "AR1",
+        "type": "string",
+        "value": "AR"
+      },
+      {
+        "range": "AS1",
+        "type": "string",
+        "value": "AS"
+      },
+      {
+        "range": "AT1",
+        "type": "string",
+        "value": "AT"
+      },
+      {
+        "range": "R3",
+        "type": "string",
+        "value": "Headcount"
+      },
+      {
+        "range": "AB3",
+        "type": "string",
+        "value": "Ramped Headcount"
+      },
+      {
+        "range": "AL3",
+        "type": "string",
+        "value": "Quota"
+      },
+      {
+        "range": "E5:P5",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "R5:Z5",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "AB5:AJ5",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "AL5:AT5",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "AY5:BG5",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "C7",
+        "type": "number"
+      },
+      {
+        "range": "R7:Z7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB7:AJ7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL7:AT7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX7",
+        "type": "string",
+        "value": "Julie Marcott"
+      },
+      {
+        "range": "AY7:BG7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C8",
+        "type": "number"
+      },
+      {
+        "range": "R8:Z8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB8:AJ8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL8:AT8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX8",
+        "type": "string",
+        "value": "Alex Krumm"
+      },
+      {
+        "range": "AY8:BG8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C9",
+        "type": "number"
+      },
+      {
+        "range": "R9:Z9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB9:AJ9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL9:AT9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY9:BG9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C10",
+        "type": "number"
+      },
+      {
+        "range": "R10:Z10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB10:AJ10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL10:AT10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX10",
+        "type": "string",
+        "value": "Ian Grady"
+      },
+      {
+        "range": "AY10:BG10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C11",
+        "type": "number"
+      },
+      {
+        "range": "E11",
+        "type": "string",
+        "value": "Steph Hastings--PFSU"
+      },
+      {
+        "range": "R11:Z11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB11:AJ11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL11:AT11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX11",
+        "type": "string",
+        "value": "Martin Murphy"
+      },
+      {
+        "range": "AY11:BG11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C12",
+        "type": "number"
+      },
+      {
+        "range": "T12:Z12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AD12:AJ12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AN12:AT12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX12",
+        "type": "string",
+        "value": "Dayna Liso"
+      },
+      {
+        "range": "AY12:BG12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C13",
+        "type": "number"
+      },
+      {
+        "range": "AX13",
+        "type": "string",
+        "value": "Mazzie Anouna"
+      },
+      {
+        "range": "AY13:BG13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C14",
+        "type": "number"
+      },
+      {
+        "range": "AX14",
+        "type": "string",
+        "value": "Lizzie O'Keefe"
+      },
+      {
+        "range": "AY14:BG14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C15",
+        "type": "number"
+      },
+      {
+        "range": "AX15",
+        "type": "string",
+        "value": "Jay Ravani"
+      },
+      {
+        "range": "AY15:BG15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C16",
+        "type": "number"
+      },
+      {
+        "range": "AX16",
+        "type": "string",
+        "value": "Yvonne Coleman"
+      },
+      {
+        "range": "AY16:BG16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C17",
+        "type": "number"
+      },
+      {
+        "range": "AX17",
+        "type": "string",
+        "value": "Justin Turnley"
+      },
+      {
+        "range": "AY17:BG17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C18",
+        "type": "number"
+      },
+      {
+        "range": "AX18",
+        "type": "string",
+        "value": "Ashley O'Bannon"
+      },
+      {
+        "range": "AY18:BG18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C19",
+        "type": "number"
+      },
+      {
+        "range": "AX19",
+        "type": "string",
+        "value": "Cassie Sweet"
+      },
+      {
+        "range": "AY19:BG19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C20",
+        "type": "number"
+      },
+      {
+        "range": "AX20",
+        "type": "string",
+        "value": "Aaron Shiansky"
+      },
+      {
+        "range": "AY20:BG20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX21",
+        "type": "string",
+        "value": "Jeff Schafer"
+      },
+      {
+        "range": "AY21:BG21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C22",
+        "type": "number"
+      },
+      {
+        "range": "R22:Z22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB22:AJ22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL22:AT22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX22",
+        "type": "string",
+        "value": "Elizabeth Evans"
+      },
+      {
+        "range": "AY22:BG22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C23",
+        "type": "number"
+      },
+      {
+        "range": "R23:Z23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB23:AJ23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL23:AT23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX23",
+        "type": "string",
+        "value": "Marcus Lee"
+      },
+      {
+        "range": "AY23:BG23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C24",
+        "type": "number"
+      },
+      {
+        "range": "R24:Z24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB24:AJ24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL24:AT24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX24",
+        "type": "string",
+        "value": "Liz Gaffron"
+      },
+      {
+        "range": "AY24:BG24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C25",
+        "type": "number"
+      },
+      {
+        "range": "R25:Z25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB25:AJ25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL25:AT25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX25",
+        "type": "string",
+        "value": "Stephen Wallison"
+      },
+      {
+        "range": "AY25:BG25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C26",
+        "type": "number"
+      },
+      {
+        "range": "R26:Z26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB26:AJ26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL26:AT26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX26",
+        "type": "string",
+        "value": "Kevin Russell"
+      },
+      {
+        "range": "AY26:BG26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C27",
+        "type": "number"
+      },
+      {
+        "range": "S27:Z27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC27:AJ27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AM27:AT27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX27",
+        "type": "string",
+        "value": "Zane Greason"
+      },
+      {
+        "range": "AY27:BG27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C28",
+        "type": "number"
+      },
+      {
+        "range": "C29",
+        "type": "number"
+      },
+      {
+        "range": "C30",
+        "type": "number"
+      },
+      {
+        "range": "C31",
+        "type": "number"
+      },
+      {
+        "range": "C32",
+        "type": "number"
+      },
+      {
+        "range": "C33",
+        "type": "number"
+      },
+      {
+        "range": "C34",
+        "type": "number"
+      },
+      {
+        "range": "C35",
+        "type": "number"
+      },
+      {
+        "range": "C37",
+        "type": "number"
+      },
+      {
+        "range": "R37:Z37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB37:AJ37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL37:AT37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C38",
+        "type": "number"
+      },
+      {
+        "range": "R38:Z38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB38:AJ38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL38:AT38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C39",
+        "type": "number"
+      },
+      {
+        "range": "R39:Z39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB39:AJ39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL39:AT39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C40",
+        "type": "number"
+      },
+      {
+        "range": "R40:Z40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB40:AJ40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL40:AT40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C41",
+        "type": "number"
+      },
+      {
+        "range": "R41:Z41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB41:AJ41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL41:AT41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C42",
+        "type": "number"
+      },
+      {
+        "range": "R42:Z42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB42:AJ42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL42:AT42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C43",
+        "type": "number"
+      },
+      {
+        "range": "C44",
+        "type": "number"
+      },
+      {
+        "range": "C45",
+        "type": "number"
+      },
+      {
+        "range": "C46",
+        "type": "number"
+      },
+      {
+        "range": "C47",
+        "type": "number"
+      },
+      {
+        "range": "C48",
+        "type": "number"
+      },
+      {
+        "range": "C49",
+        "type": "number"
+      },
+      {
+        "range": "C50",
+        "type": "number"
+      },
+      {
+        "range": "C52",
+        "type": "number"
+      },
+      {
+        "range": "S52:Z52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC52:AJ52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AM52:AT52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C53",
+        "type": "number"
+      },
+      {
+        "range": "T53:Z53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AD53:AJ53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AN53:AT53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C54",
+        "type": "number"
+      },
+      {
+        "range": "T54:Z54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AD54:AJ54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AN54:AT54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C55",
+        "type": "number"
+      },
+      {
+        "range": "T55:Z55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AD55:AJ55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AN55:AT55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C56",
+        "type": "number"
+      },
+      {
+        "range": "T56:Z56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AD56:AJ56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AN56:AT56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C57",
+        "type": "number"
+      },
+      {
+        "range": "V57:Z57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF57:AJ57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AP57:AT57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C58",
+        "type": "number"
+      },
+      {
+        "range": "V58:Z58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF58:AJ58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AP58:AT58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C59",
+        "type": "number"
+      },
+      {
+        "range": "V59:Z59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF59:AJ59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AP59:AT59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C60",
+        "type": "number"
+      },
+      {
+        "range": "X60:Z60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AH60:AJ60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AR60:AT60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C61",
+        "type": "number"
+      },
+      {
+        "range": "Z61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AJ61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AT61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C62",
+        "type": "number"
+      },
+      {
+        "range": "Z62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AJ62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AT62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C63",
+        "type": "number"
+      },
+      {
+        "range": "C64",
+        "type": "number"
+      },
+      {
+        "range": "C65",
+        "type": "number"
+      },
+      {
+        "range": "C67",
+        "type": "number"
+      },
+      {
+        "range": "R67:Z67",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB67:AJ67",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL67:AT67",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C68",
+        "type": "number"
+      },
+      {
+        "range": "R68:Z68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB68:AJ68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL68:AT68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C69",
+        "type": "number"
+      },
+      {
+        "range": "R69:Z69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB69:AJ69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL69:AT69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C70",
+        "type": "number"
+      },
+      {
+        "range": "S70:Z70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC70:AJ70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AM70:AT70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C71",
+        "type": "number"
+      },
+      {
+        "range": "S71:Z71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC71:AJ71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AM71:AT71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C72",
+        "type": "number"
+      },
+      {
+        "range": "S72:Z72",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC72:AJ72",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AM72:AT72",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C73",
+        "type": "number"
+      },
+      {
+        "range": "C74",
+        "type": "number"
+      },
+      {
+        "range": "C75",
+        "type": "number"
+      },
+      {
+        "range": "C76",
+        "type": "number"
+      },
+      {
+        "range": "C77",
+        "type": "number"
+      },
+      {
+        "range": "C78",
+        "type": "number"
+      },
+      {
+        "range": "C79",
+        "type": "number"
+      },
+      {
+        "range": "C80",
+        "type": "number"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 47.77,
+      "cells_analyzed": 1613,
+      "total_ranges": 709,
+      "format_counts": {
+        "string": 508,
+        "date": 5,
+        "number": 196
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T19:03:34.333808Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2021-02-01",
+        "pattern": "Monthly series from 2021-02 to 2022-01"
+      },
+      "ds_2": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2021-05-01",
+        "pattern": "Monthly series from 2021-05 to 2022-01"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 27,
+    "entries_moved_to_index": 457,
+    "entries_remaining": 252,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 37076,
+    "compressed_size_bytes": 13816,
+    "inverted_index_size_bytes": 1900,
+    "compressed_data_size_bytes": 11916,
+    "compression_ratio": 0.373,
+    "space_saved_bytes": 23260,
+    "space_saved_percent": 62.7
+  }
+}

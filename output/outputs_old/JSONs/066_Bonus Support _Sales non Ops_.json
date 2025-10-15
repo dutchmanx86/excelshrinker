@@ -1,0 +1,784 @@
+{
+  "inverted_index": {
+    "Sales": {
+      "type": "string",
+      "ranges": [
+        "B4",
+        "B7",
+        "B9"
+      ]
+    },
+    "CRO": {
+      "type": "string",
+      "ranges": [
+        "B21",
+        "B40"
+      ]
+    },
+    "VP of Sales": {
+      "type": "string",
+      "ranges": [
+        "B22",
+        "B41"
+      ]
+    },
+    "Sales Manager": {
+      "type": "string",
+      "ranges": [
+        "B23",
+        "B42"
+      ]
+    },
+    "SDR Manager": {
+      "type": "string",
+      "ranges": [
+        "B24",
+        "B43"
+      ]
+    },
+    "SDR": {
+      "type": "string",
+      "ranges": [
+        "B25",
+        "B44"
+      ]
+    },
+    "CS Manager": {
+      "type": "string",
+      "ranges": [
+        "B26",
+        "B45"
+      ]
+    },
+    "AM - Corporate": {
+      "type": "string",
+      "ranges": [
+        "B27",
+        "B46"
+      ]
+    },
+    "AM - Financial": {
+      "type": "string",
+      "ranges": [
+        "B28",
+        "B47"
+      ]
+    },
+    "PS Manager": {
+      "type": "string",
+      "ranges": [
+        "B29",
+        "B48"
+      ]
+    },
+    "Product Specialist": {
+      "type": "string",
+      "ranges": [
+        "B30",
+        "B49"
+      ]
+    },
+    "Enablement Manager": {
+      "type": "string",
+      "ranges": [
+        "B31",
+        "B50"
+      ]
+    },
+    "Sales Admin": {
+      "type": "string",
+      "ranges": [
+        "B32",
+        "B51"
+      ]
+    },
+    "Sales Operations Manager": {
+      "type": "string",
+      "ranges": [
+        "B33",
+        "B52"
+      ]
+    },
+    "Sales Operations": {
+      "type": "string",
+      "ranges": [
+        "B34",
+        "B53"
+      ]
+    },
+    "GTM Strategy": {
+      "type": "string",
+      "ranges": [
+        "B35",
+        "B54"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Bonus Support (Sales non Ops)",
+    "format_ranges": [
+      {
+        "range": "A1",
+        "type": "string",
+        "value": "Department"
+      },
+      {
+        "range": "D1:CX1",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "A3",
+        "type": "string",
+        "value": "Salary"
+      },
+      {
+        "range": "D3",
+        "type": "string",
+        "value": "2019 Budget"
+      },
+      {
+        "range": "R3",
+        "type": "string",
+        "value": "2020 Budget"
+      },
+      {
+        "range": "D4:CX4",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B6",
+        "type": "string",
+        "value": "Adjustment"
+      },
+      {
+        "range": "D9:CX9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B12",
+        "type": "string",
+        "value": "Total Sales Bonus"
+      },
+      {
+        "range": "D12:CX12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B13",
+        "type": "string",
+        "value": "Quarterly Bonus Paid"
+      },
+      {
+        "range": "G13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "P13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Y13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AH13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AN13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AQ13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AT13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AW13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AZ13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BC13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BF13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BI13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BL13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BO13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BR13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BU13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CA13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CD13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CG13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CM13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CP13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CS13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CV13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B14",
+        "type": "string",
+        "value": "Quarterly Bonus Paid (Adj Kiva)"
+      },
+      {
+        "range": "G14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "P14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Y14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AH14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AN14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AQ14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AT14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AW14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AZ14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BC14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BF14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BI14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BL14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BO14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BR14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BU14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CA14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CD14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CG14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CM14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CP14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CS14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CV14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B17",
+        "type": "string",
+        "value": "AVERAGE BONUS ATTAINMENT"
+      },
+      {
+        "range": "F17:CX17",
+        "type": "number"
+      },
+      {
+        "range": "G19",
+        "type": "number"
+      },
+      {
+        "range": "S19",
+        "type": "number"
+      },
+      {
+        "range": "AE19",
+        "type": "number"
+      },
+      {
+        "range": "AQ19",
+        "type": "number"
+      },
+      {
+        "range": "BC19",
+        "type": "number"
+      },
+      {
+        "range": "BO19",
+        "type": "number"
+      },
+      {
+        "range": "CA19",
+        "type": "number"
+      },
+      {
+        "range": "CM19",
+        "type": "number"
+      },
+      {
+        "range": "D20",
+        "type": "string",
+        "value": "Count"
+      },
+      {
+        "range": "E20",
+        "type": "string",
+        "value": "Total"
+      },
+      {
+        "range": "F20",
+        "type": "string",
+        "value": "Avg"
+      },
+      {
+        "range": "F21:CX21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F22:CX22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G23:CX23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G24:CX24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G25:CX25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G26:CX26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G27:CX27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G28:CX28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F29:CX29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G30:CX30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F31:CX31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F32:CX32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F33:CX33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F34:CX34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G35:CX35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F37",
+        "type": "string",
+        "value": "TOTAL SALES BONUS"
+      },
+      {
+        "range": "F39:CX39",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "F40:CX40",
+        "type": "number"
+      },
+      {
+        "range": "F41:CX41",
+        "type": "number"
+      },
+      {
+        "range": "F42:CX42",
+        "type": "number"
+      },
+      {
+        "range": "F43:CX43",
+        "type": "number"
+      },
+      {
+        "range": "F44:CX44",
+        "type": "number"
+      },
+      {
+        "range": "F45:CX45",
+        "type": "number"
+      },
+      {
+        "range": "F46:CX46",
+        "type": "number"
+      },
+      {
+        "range": "F47:CX47",
+        "type": "number"
+      },
+      {
+        "range": "F48:CX48",
+        "type": "number"
+      },
+      {
+        "range": "F49:CX49",
+        "type": "number"
+      },
+      {
+        "range": "F50:CX50",
+        "type": "number"
+      },
+      {
+        "range": "F51:CX51",
+        "type": "number"
+      },
+      {
+        "range": "F52:CX52",
+        "type": "number"
+      },
+      {
+        "range": "F53:CX53",
+        "type": "number"
+      },
+      {
+        "range": "F54:CX54",
+        "type": "number"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 3129.68,
+      "cells_analyzed": 3618,
+      "total_ranges": 162,
+      "format_counts": {
+        "string": 46,
+        "date": 2,
+        "number": 114
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-13T21:35:54.829840Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2019-10-01",
+        "pattern": "Monthly series from 2019-10 to 2027-12"
+      },
+      "ds_2": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2019-12-31",
+        "pattern": "Monthly series from 2019-12 to 2027-12"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 16,
+    "entries_moved_to_index": 33,
+    "entries_remaining": 129,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 8252,
+    "compressed_size_bytes": 7346,
+    "inverted_index_size_bytes": 901,
+    "compressed_data_size_bytes": 6445,
+    "compression_ratio": 0.89,
+    "space_saved_bytes": 906,
+    "space_saved_percent": 11.0
+  }
+}

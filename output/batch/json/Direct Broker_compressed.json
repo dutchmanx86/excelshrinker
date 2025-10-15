@@ -1,0 +1,1399 @@
+{
+  "inverted_index": {
+    "Bernstein Expense": {
+      "type": "string",
+      "ranges": [
+        "B8",
+        "B107"
+      ]
+    },
+    "Deutsche Bank Expense": {
+      "type": "string",
+      "ranges": [
+        "B9",
+        "B117"
+      ]
+    },
+    "Barclays Expense": {
+      "type": "string",
+      "ranges": [
+        "B10",
+        "B127"
+      ]
+    },
+    "HSBC Expense": {
+      "type": "string",
+      "ranges": [
+        "B11",
+        "B137"
+      ]
+    },
+    "BOA Expense": {
+      "type": "string",
+      "ranges": [
+        "B12",
+        "B147"
+      ]
+    },
+    "UBS Expense": {
+      "type": "string",
+      "ranges": [
+        "B13",
+        "B157"
+      ]
+    },
+    "Morgan Stanley Expense": {
+      "type": "string",
+      "ranges": [
+        "B14",
+        "B167"
+      ]
+    },
+    "Cowen Expense": {
+      "type": "string",
+      "ranges": [
+        "B15",
+        "B177"
+      ]
+    },
+    "Autonomous Expense": {
+      "type": "string",
+      "ranges": [
+        "B16",
+        "B187"
+      ]
+    },
+    "Evercore Expense": {
+      "type": "string",
+      "ranges": [
+        "B17",
+        "B197"
+      ]
+    },
+    "Citi Expense": {
+      "type": "string",
+      "ranges": [
+        "B18",
+        "B207"
+      ]
+    },
+    "Credit Suisse Expense": {
+      "type": "string",
+      "ranges": [
+        "B19",
+        "B217"
+      ]
+    },
+    "JP Morgan Expense": {
+      "type": "string",
+      "ranges": [
+        "B20",
+        "B227"
+      ]
+    },
+    "Raymond James Expense": {
+      "type": "string",
+      "ranges": [
+        "B21",
+        "B237"
+      ]
+    },
+    "RBC Expense": {
+      "type": "string",
+      "ranges": [
+        "B22",
+        "B247"
+      ]
+    },
+    "Direct Consumption Expense": {
+      "type": "string",
+      "ranges": [
+        "B23",
+        "B26",
+        "B99"
+      ]
+    },
+    "Bernstein": {
+      "type": "string",
+      "ranges": [
+        "B51",
+        "B75"
+      ]
+    },
+    "Deutsche Bank": {
+      "type": "string",
+      "ranges": [
+        "B52",
+        "B76"
+      ]
+    },
+    "Barclays": {
+      "type": "string",
+      "ranges": [
+        "B53",
+        "B77"
+      ]
+    },
+    "HSBC": {
+      "type": "string",
+      "ranges": [
+        "B54",
+        "B78"
+      ]
+    },
+    "BOA": {
+      "type": "string",
+      "ranges": [
+        "B55",
+        "B79"
+      ]
+    },
+    "UBS": {
+      "type": "string",
+      "ranges": [
+        "B56",
+        "B80"
+      ]
+    },
+    "Morgan Stanley": {
+      "type": "string",
+      "ranges": [
+        "B57",
+        "B81"
+      ]
+    },
+    "Cowen": {
+      "type": "string",
+      "ranges": [
+        "B58",
+        "B82"
+      ]
+    },
+    "Autonomous": {
+      "type": "string",
+      "ranges": [
+        "B59",
+        "B83"
+      ]
+    },
+    "Evercore": {
+      "type": "string",
+      "ranges": [
+        "B60",
+        "B84"
+      ]
+    },
+    "Citi ": {
+      "type": "string",
+      "ranges": [
+        "B61",
+        "B85"
+      ]
+    },
+    "Credit Suisse ": {
+      "type": "string",
+      "ranges": [
+        "B62",
+        "B86"
+      ]
+    },
+    "JP Morgan ": {
+      "type": "string",
+      "ranges": [
+        "B63",
+        "B87"
+      ]
+    },
+    "Raymond James": {
+      "type": "string",
+      "ranges": [
+        "B64",
+        "B88"
+      ]
+    },
+    "RBC": {
+      "type": "string",
+      "ranges": [
+        "B65",
+        "B89"
+      ]
+    },
+    "Direct Broker": {
+      "type": "string",
+      "ranges": [
+        "B66",
+        "B90"
+      ]
+    },
+    "FactSet AMR": {
+      "type": "string",
+      "ranges": [
+        "B68",
+        "B92"
+      ]
+    },
+    "FactSet RT": {
+      "type": "string",
+      "ranges": [
+        "B69",
+        "B93"
+      ]
+    },
+    "Total": {
+      "type": "string",
+      "ranges": [
+        "B71",
+        "B95"
+      ]
+    },
+    "Strategic Investment": {
+      "type": "string",
+      "ranges": [
+        "B104",
+        "B114",
+        "B124",
+        "B134",
+        "B144",
+        "B154",
+        "B164",
+        "B174",
+        "B184",
+        "B194",
+        "B204",
+        "B214",
+        "B224",
+        "B234",
+        "B244",
+        "B254"
+      ]
+    },
+    "Usage": {
+      "type": "string",
+      "ranges": [
+        "B109",
+        "B119",
+        "B129",
+        "B139",
+        "B149",
+        "B159",
+        "B169",
+        "B179",
+        "B189",
+        "B199",
+        "B209",
+        "B219",
+        "B229",
+        "B239",
+        "B249"
+      ]
+    },
+    "Consumption": {
+      "type": "string",
+      "ranges": [
+        "B110",
+        "B120",
+        "B130",
+        "B140",
+        "B150",
+        "B160",
+        "B170",
+        "B180",
+        "B190",
+        "B200",
+        "B210",
+        "B220",
+        "B230",
+        "B240",
+        "B250"
+      ]
+    },
+    "Revenue Share": {
+      "type": "string",
+      "ranges": [
+        "B111",
+        "B121",
+        "B131",
+        "B141",
+        "B151",
+        "B161",
+        "B171",
+        "B181",
+        "B191",
+        "B201",
+        "B211",
+        "B221",
+        "B231",
+        "B241",
+        "B251"
+      ]
+    },
+    "Expense": {
+      "type": "string",
+      "ranges": [
+        "B112",
+        "B122",
+        "B132",
+        "B142",
+        "B152",
+        "B162",
+        "B172",
+        "B182",
+        "B192",
+        "B202",
+        "B212",
+        "B222",
+        "B232",
+        "B242",
+        "B252"
+      ]
+    },
+    "Minimum": {
+      "type": "string",
+      "ranges": [
+        "B113",
+        "B123",
+        "B133",
+        "B143",
+        "B153",
+        "B163",
+        "B173",
+        "B183",
+        "B193",
+        "B203",
+        "B213",
+        "B223",
+        "B233",
+        "B243",
+        "B253"
+      ]
+    },
+    "Adjusted Expense": {
+      "type": "string",
+      "ranges": [
+        "B115",
+        "B125",
+        "B135",
+        "B145",
+        "B155",
+        "B165",
+        "B175",
+        "B185",
+        "B195",
+        "B205",
+        "B215",
+        "B225",
+        "B235",
+        "B245",
+        "B255"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Direct Broker",
+    "format_ranges": [
+      {
+        "range": "B2",
+        "type": "string",
+        "value": "AlphaSense, Inc."
+      },
+      {
+        "range": "B3",
+        "type": "string",
+        "value": "Cost of Goods Sold Detail"
+      },
+      {
+        "range": "E3:H3",
+        "type": "number"
+      },
+      {
+        "range": "I3:Q3",
+        "type": "number"
+      },
+      {
+        "range": "T3:FS3",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "B4",
+        "type": "string",
+        "value": "1 - Base - $25mm"
+      },
+      {
+        "range": "B6",
+        "type": "string",
+        "value": "Overview"
+      },
+      {
+        "range": "E8:Q8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E9:Q9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E10:Q10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E11:Q11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E12:Q12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E13:Q13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E14:Q14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E15:Q15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E16:Q16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E17:Q17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E18:Q18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E19:Q19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E20:Q20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E21:Q21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E22:Q22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E23:Q23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B25",
+        "type": "string",
+        "value": "FS AMR Expense"
+      },
+      {
+        "range": "E25:Q25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E26:Q26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B27",
+        "type": "string",
+        "value": "Total WSI"
+      },
+      {
+        "range": "E27:Q27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B29",
+        "type": "string",
+        "value": "Total Active Users"
+      },
+      {
+        "range": "E29:Q29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B31",
+        "type": "string",
+        "value": "Cost per User"
+      },
+      {
+        "range": "J31:Q31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B33",
+        "type": "string",
+        "value": "FS BRM Expense"
+      },
+      {
+        "range": "E33:Q33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B34",
+        "type": "string",
+        "value": "Note: Cost per User + BRM"
+      },
+      {
+        "range": "J34:Q34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B36",
+        "type": "string",
+        "value": "WSI Page Consumption"
+      },
+      {
+        "range": "B38",
+        "type": "string",
+        "value": "Total Users"
+      },
+      {
+        "range": "E38:Q38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B39",
+        "type": "string",
+        "value": "Active Users"
+      },
+      {
+        "range": "E39:Q39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B40",
+        "type": "string",
+        "value": "Active (%)"
+      },
+      {
+        "range": "E40:Q40",
+        "type": "number"
+      },
+      {
+        "range": "B42",
+        "type": "string",
+        "value": "Total Page Reads"
+      },
+      {
+        "range": "E42:Q42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B43",
+        "type": "string",
+        "value": "Page Reads per Active User"
+      },
+      {
+        "range": "E43:Q43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B45",
+        "type": "string",
+        "value": "Contribution per User"
+      },
+      {
+        "range": "E45:Q45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B47",
+        "type": "string",
+        "value": "Total Pool Contribution ($)"
+      },
+      {
+        "range": "E47:Q47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B49",
+        "type": "string",
+        "value": "Reads Consumption"
+      },
+      {
+        "range": "E51:Q51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E52:Q52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E53:Q53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E54:Q54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E55:Q55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E56:Q56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E57:Q57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E58:Q58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E59:Q59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E60:Q60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E61:Q61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E62:Q62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E63:Q63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E64:Q64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E65:Q65",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E66:Q66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E68:Q68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E69:Q69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E71:Q71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B73",
+        "type": "string",
+        "value": "Reads Consumption (%)"
+      },
+      {
+        "range": "E75:Q75",
+        "type": "number"
+      },
+      {
+        "range": "E76:Q76",
+        "type": "number"
+      },
+      {
+        "range": "E77:Q77",
+        "type": "number"
+      },
+      {
+        "range": "E78:Q78",
+        "type": "number"
+      },
+      {
+        "range": "E79:Q79",
+        "type": "number"
+      },
+      {
+        "range": "E80:Q80",
+        "type": "number"
+      },
+      {
+        "range": "E81:Q81",
+        "type": "number"
+      },
+      {
+        "range": "E82:Q82",
+        "type": "number"
+      },
+      {
+        "range": "E83:Q83",
+        "type": "number"
+      },
+      {
+        "range": "E84:Q84",
+        "type": "number"
+      },
+      {
+        "range": "E85:Q85",
+        "type": "number"
+      },
+      {
+        "range": "E86:Q86",
+        "type": "number"
+      },
+      {
+        "range": "E87:Q87",
+        "type": "number"
+      },
+      {
+        "range": "E88:Q88",
+        "type": "number"
+      },
+      {
+        "range": "E89:Q89",
+        "type": "number"
+      },
+      {
+        "range": "E90:Q90",
+        "type": "number"
+      },
+      {
+        "range": "E92:Q92",
+        "type": "number"
+      },
+      {
+        "range": "E93:Q93",
+        "type": "number"
+      },
+      {
+        "range": "E95:Q95",
+        "type": "number"
+      },
+      {
+        "range": "B97",
+        "type": "string",
+        "value": "WSI Broker Expense"
+      },
+      {
+        "range": "B101",
+        "type": "string",
+        "value": "Total Pool Contribution"
+      },
+      {
+        "range": "E101:Q101",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B103",
+        "type": "string",
+        "value": "Direct Broker Expense"
+      },
+      {
+        "range": "E103:Q103",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E104:Q104",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B105",
+        "type": "string",
+        "value": "Adjusted Direct Broker Expense"
+      },
+      {
+        "range": "E105:Q105",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J109:Q109",
+        "type": "number"
+      },
+      {
+        "range": "E110:Q110",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E111:Q111",
+        "type": "number"
+      },
+      {
+        "range": "E112:Q112",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E113:Q113",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E114:Q114",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E115:Q115",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J119:Q119",
+        "type": "number"
+      },
+      {
+        "range": "E120:Q120",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E121:Q121",
+        "type": "number"
+      },
+      {
+        "range": "E122:Q122",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E123:Q123",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E124:Q124",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E125:Q125",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J129:Q129",
+        "type": "number"
+      },
+      {
+        "range": "E130:Q130",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E131:Q131",
+        "type": "number"
+      },
+      {
+        "range": "E132:Q132",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E133:Q133",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E134:Q134",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E135:Q135",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J139:Q139",
+        "type": "number"
+      },
+      {
+        "range": "E140:Q140",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E141:Q141",
+        "type": "number"
+      },
+      {
+        "range": "E142:Q142",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E143:Q143",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E144:Q144",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E145:Q145",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J149:Q149",
+        "type": "number"
+      },
+      {
+        "range": "E150:Q150",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E151:Q151",
+        "type": "number"
+      },
+      {
+        "range": "E152:Q152",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E153:Q153",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E154:Q154",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E155:Q155",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J159:Q159",
+        "type": "number"
+      },
+      {
+        "range": "E160:Q160",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E161:Q161",
+        "type": "number"
+      },
+      {
+        "range": "E162:Q162",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E163:Q163",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E164:Q164",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E165:Q165",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J169:Q169",
+        "type": "number"
+      },
+      {
+        "range": "E170:Q170",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E171:Q171",
+        "type": "number"
+      },
+      {
+        "range": "E172:Q172",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E173:Q173",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E174:Q174",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E175:Q175",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J179:Q179",
+        "type": "number"
+      },
+      {
+        "range": "E180:Q180",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E181:Q181",
+        "type": "number"
+      },
+      {
+        "range": "E182:Q182",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E183:Q183",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E184:Q184",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E185:Q185",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J189:Q189",
+        "type": "number"
+      },
+      {
+        "range": "E190:Q190",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E191:Q191",
+        "type": "number"
+      },
+      {
+        "range": "E192:Q192",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E193:Q193",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E194:Q194",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E195:Q195",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J199:Q199",
+        "type": "number"
+      },
+      {
+        "range": "E200:Q200",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E201:Q201",
+        "type": "number"
+      },
+      {
+        "range": "E202:Q202",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E203:Q203",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E204:Q204",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E205:Q205",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J209:Q209",
+        "type": "number"
+      },
+      {
+        "range": "E210:Q210",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E211:Q211",
+        "type": "number"
+      },
+      {
+        "range": "E212:Q212",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E213:Q213",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E214:Q214",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E215:Q215",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J219:Q219",
+        "type": "number"
+      },
+      {
+        "range": "E220:Q220",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E221:Q221",
+        "type": "number"
+      },
+      {
+        "range": "E222:Q222",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E223:Q223",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E224:Q224",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E225:Q225",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J229:Q229",
+        "type": "number"
+      },
+      {
+        "range": "E230:Q230",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E231:Q231",
+        "type": "number"
+      },
+      {
+        "range": "E232:Q232",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E233:Q233",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E234:Q234",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E235:Q235",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J239:Q239",
+        "type": "number"
+      },
+      {
+        "range": "E240:Q240",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E241:Q241",
+        "type": "number"
+      },
+      {
+        "range": "E242:Q242",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E243:Q243",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E244:Q244",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E245:Q245",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J249:Q249",
+        "type": "number"
+      },
+      {
+        "range": "E250:Q250",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E251:Q251",
+        "type": "number"
+      },
+      {
+        "range": "E252:Q252",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E253:Q253",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E254:Q254",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E255:Q255",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 1427.29,
+      "cells_analyzed": 2462,
+      "total_ranges": 381,
+      "format_counts": {
+        "string": 201,
+        "number": 179,
+        "date": 1
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T11:02:57.304692Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2015-01-31",
+        "pattern": "Monthly series from 2015-01 to 2027-12"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 42,
+    "entries_moved_to_index": 177,
+    "entries_remaining": 204,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 20055,
+    "compressed_size_bytes": 13273,
+    "inverted_index_size_bytes": 3031,
+    "compressed_data_size_bytes": 10242,
+    "compression_ratio": 0.662,
+    "space_saved_bytes": 6782,
+    "space_saved_percent": 33.8
+  }
+}

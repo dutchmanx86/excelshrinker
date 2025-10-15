@@ -1,0 +1,1263 @@
+{
+  "inverted_index": {
+    "Actual": {
+      "type": "string",
+      "ranges": [
+        "S2:BV2"
+      ]
+    },
+    "Asset": {
+      "type": "string",
+      "ranges": [
+        "E7:E8",
+        "E10:E11",
+        "E13:E18",
+        "E22",
+        "E26",
+        "E28"
+      ]
+    },
+    "Fixed Assets": {
+      "type": "string",
+      "ranges": [
+        "B25",
+        "D26"
+      ]
+    },
+    "Contra-Asset": {
+      "type": "string",
+      "ranges": [
+        "E27",
+        "E29"
+      ]
+    },
+    "Liability": {
+      "type": "string",
+      "ranges": [
+        "E37:E50",
+        "E52",
+        "E54:E69",
+        "E73:E79"
+      ]
+    },
+    "Convertible Notes": {
+      "type": "string",
+      "ranges": [
+        "D81",
+        "D95"
+      ]
+    },
+    "Equity": {
+      "type": "string",
+      "ranges": [
+        "A87",
+        "E88:E90",
+        "E92:E93",
+        "E95:E97"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Detailed Balance Sheet",
+    "format_ranges": [
+      {
+        "range": "A1",
+        "type": "string",
+        "value": "Balance Sheet"
+      },
+      {
+        "range": "A3",
+        "type": "string",
+        "value": "Account Group"
+      },
+      {
+        "range": "C3",
+        "type": "string",
+        "value": "Account Number"
+      },
+      {
+        "range": "D3",
+        "type": "string",
+        "value": "Account Name"
+      },
+      {
+        "range": "E3",
+        "type": "string",
+        "value": "Account Type"
+      },
+      {
+        "range": "A4",
+        "type": "string",
+        "value": "Assets"
+      },
+      {
+        "range": "B6",
+        "type": "string",
+        "value": "Current Assets"
+      },
+      {
+        "range": "D7",
+        "type": "string",
+        "value": "Cash"
+      },
+      {
+        "range": "C7",
+        "type": "number"
+      },
+      {
+        "range": "F7:BV7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D8",
+        "type": "string",
+        "value": "Custody Account"
+      },
+      {
+        "range": "C8",
+        "type": "number"
+      },
+      {
+        "range": "F8:BV8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D9",
+        "type": "string",
+        "value": "Restricted Cash"
+      },
+      {
+        "range": "C9",
+        "type": "number"
+      },
+      {
+        "range": "AE9:BV9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D10",
+        "type": "string",
+        "value": "Cash Clearing"
+      },
+      {
+        "range": "C10",
+        "type": "number"
+      },
+      {
+        "range": "F10:BV10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D11",
+        "type": "string",
+        "value": "Accounts Receivable"
+      },
+      {
+        "range": "C11",
+        "type": "number"
+      },
+      {
+        "range": "F11:BV11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D12",
+        "type": "string",
+        "value": "Allowance for Doubtful Accounts"
+      },
+      {
+        "range": "C12",
+        "type": "number"
+      },
+      {
+        "range": "AE12:BV12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D13",
+        "type": "string",
+        "value": "Other Receivable"
+      },
+      {
+        "range": "C13",
+        "type": "number"
+      },
+      {
+        "range": "F13:BV13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D14",
+        "type": "string",
+        "value": "VAT Receivable"
+      },
+      {
+        "range": "C14",
+        "type": "number"
+      },
+      {
+        "range": "F14:BV14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D15",
+        "type": "string",
+        "value": "Prepaid Expenses"
+      },
+      {
+        "range": "C15",
+        "type": "number"
+      },
+      {
+        "range": "F15:BV15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D16",
+        "type": "string",
+        "value": "Prepaid Rent"
+      },
+      {
+        "range": "C16",
+        "type": "number"
+      },
+      {
+        "range": "F16:BV16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D17",
+        "type": "string",
+        "value": "Deferred Commissions"
+      },
+      {
+        "range": "C17",
+        "type": "number"
+      },
+      {
+        "range": "F17:BV17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D18",
+        "type": "string",
+        "value": "Deposits"
+      },
+      {
+        "range": "C18",
+        "type": "number"
+      },
+      {
+        "range": "F18:BV18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B19",
+        "type": "string",
+        "value": "Total Current Assets"
+      },
+      {
+        "range": "F19:BV19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B21",
+        "type": "string",
+        "value": "Long Term Assets"
+      },
+      {
+        "range": "D22",
+        "type": "string",
+        "value": "Other Long Term Assets"
+      },
+      {
+        "range": "C22",
+        "type": "number"
+      },
+      {
+        "range": "F22:BV22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B23",
+        "type": "string",
+        "value": "Total Long Term Assets"
+      },
+      {
+        "range": "F23:BV23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C26",
+        "type": "number"
+      },
+      {
+        "range": "F26:BV26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D27",
+        "type": "string",
+        "value": "Accumulated Depreciation"
+      },
+      {
+        "range": "C27",
+        "type": "number"
+      },
+      {
+        "range": "F27:BV27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D28",
+        "type": "string",
+        "value": "Capitalized R&D"
+      },
+      {
+        "range": "C28",
+        "type": "number"
+      },
+      {
+        "range": "F28:BV28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D29",
+        "type": "string",
+        "value": "Cap R&D Amortization"
+      },
+      {
+        "range": "C29",
+        "type": "number"
+      },
+      {
+        "range": "F29:BV29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B30",
+        "type": "string",
+        "value": "Total Fixed Assets"
+      },
+      {
+        "range": "F30:BV30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A32",
+        "type": "string",
+        "value": "Total Assets"
+      },
+      {
+        "range": "F32:BV32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A34",
+        "type": "string",
+        "value": "Liabilities"
+      },
+      {
+        "range": "B36",
+        "type": "string",
+        "value": "Current Liabilities"
+      },
+      {
+        "range": "D37",
+        "type": "string",
+        "value": "Accounts Payable"
+      },
+      {
+        "range": "C37",
+        "type": "number"
+      },
+      {
+        "range": "F37:BV37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D38",
+        "type": "string",
+        "value": "Commission Payable"
+      },
+      {
+        "range": "C38",
+        "type": "number"
+      },
+      {
+        "range": "F38:BV38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D39",
+        "type": "string",
+        "value": "Credit Card Payable"
+      },
+      {
+        "range": "C39",
+        "type": "number"
+      },
+      {
+        "range": "F39:BV39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D40",
+        "type": "string",
+        "value": "VAT Payable"
+      },
+      {
+        "range": "C40",
+        "type": "number"
+      },
+      {
+        "range": "F40:BV40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D41",
+        "type": "string",
+        "value": "Accrued Expenses"
+      },
+      {
+        "range": "C41",
+        "type": "number"
+      },
+      {
+        "range": "F41:BV41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D42",
+        "type": "string",
+        "value": "Accrued Commissions"
+      },
+      {
+        "range": "C42",
+        "type": "number"
+      },
+      {
+        "range": "F42:BV42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D43",
+        "type": "string",
+        "value": "Accrued Bonus"
+      },
+      {
+        "range": "C43",
+        "type": "number"
+      },
+      {
+        "range": "F43:BV43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D44",
+        "type": "string",
+        "value": "Accrued Wages"
+      },
+      {
+        "range": "C44",
+        "type": "number"
+      },
+      {
+        "range": "F44:BV44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D45",
+        "type": "string",
+        "value": "Accrued Holiday Pay"
+      },
+      {
+        "range": "C45",
+        "type": "number"
+      },
+      {
+        "range": "F45:BV45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D46",
+        "type": "string",
+        "value": "Accrued Interest"
+      },
+      {
+        "range": "C46",
+        "type": "number"
+      },
+      {
+        "range": "F46:BV46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D47",
+        "type": "string",
+        "value": "Payroll Taxes Payable"
+      },
+      {
+        "range": "C47",
+        "type": "number"
+      },
+      {
+        "range": "F47:BV47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D48",
+        "type": "string",
+        "value": "Payroll Clearing Account"
+      },
+      {
+        "range": "C48",
+        "type": "number"
+      },
+      {
+        "range": "F48:BV48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D49",
+        "type": "string",
+        "value": "Sales Taxes Payable"
+      },
+      {
+        "range": "C49",
+        "type": "number"
+      },
+      {
+        "range": "F49:BV49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D50",
+        "type": "string",
+        "value": "Tax Clearing"
+      },
+      {
+        "range": "C50",
+        "type": "number"
+      },
+      {
+        "range": "F50:BV50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D51",
+        "type": "string",
+        "value": "Social Security Deferral"
+      },
+      {
+        "range": "F51:BV51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D52",
+        "type": "string",
+        "value": "Other Payable"
+      },
+      {
+        "range": "C52",
+        "type": "number"
+      },
+      {
+        "range": "F52:BV52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D53",
+        "type": "string",
+        "value": "Taxes Payable"
+      },
+      {
+        "range": "C53",
+        "type": "number"
+      },
+      {
+        "range": "G53:BV53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D54",
+        "type": "string",
+        "value": "Intercompany Current Account 1"
+      },
+      {
+        "range": "C54",
+        "type": "number"
+      },
+      {
+        "range": "F54:BV54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D55",
+        "type": "string",
+        "value": "Intercompany Current Account 2"
+      },
+      {
+        "range": "C55",
+        "type": "number"
+      },
+      {
+        "range": "F55:BV55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D56",
+        "type": "string",
+        "value": "Intercompany Current Account 3"
+      },
+      {
+        "range": "C56",
+        "type": "number"
+      },
+      {
+        "range": "F56:BV56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D57",
+        "type": "string",
+        "value": "Intercompany Current Account 4"
+      },
+      {
+        "range": "C57",
+        "type": "number"
+      },
+      {
+        "range": "F57:BV57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D58",
+        "type": "string",
+        "value": "Intercompany Current Account 5"
+      },
+      {
+        "range": "C58",
+        "type": "number"
+      },
+      {
+        "range": "F58:BV58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D59",
+        "type": "string",
+        "value": "Intercompany Loan 1"
+      },
+      {
+        "range": "C59",
+        "type": "number"
+      },
+      {
+        "range": "F59:BV59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D60",
+        "type": "string",
+        "value": "Intercompany Loan 2"
+      },
+      {
+        "range": "C60",
+        "type": "number"
+      },
+      {
+        "range": "F60:BV60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D61",
+        "type": "string",
+        "value": "Intercompany Loan 3"
+      },
+      {
+        "range": "C61",
+        "type": "number"
+      },
+      {
+        "range": "F61:BV61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D62",
+        "type": "string",
+        "value": "Intercompany Loan 4"
+      },
+      {
+        "range": "C62",
+        "type": "number"
+      },
+      {
+        "range": "F62:BV62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D63",
+        "type": "string",
+        "value": "Intercompany Loan 5"
+      },
+      {
+        "range": "C63",
+        "type": "number"
+      },
+      {
+        "range": "F63:BV63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D64",
+        "type": "string",
+        "value": "Intercompany Custody Account"
+      },
+      {
+        "range": "C64",
+        "type": "number"
+      },
+      {
+        "range": "F64:BV64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D65",
+        "type": "string",
+        "value": "Deferred Revenue"
+      },
+      {
+        "range": "C65",
+        "type": "number"
+      },
+      {
+        "range": "F65:BV65",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D66",
+        "type": "string",
+        "value": "Deferred Rent"
+      },
+      {
+        "range": "C66",
+        "type": "number"
+      },
+      {
+        "range": "F66:BV66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D67",
+        "type": "string",
+        "value": "Unrealized Subsidy"
+      },
+      {
+        "range": "C67",
+        "type": "number"
+      },
+      {
+        "range": "F67:BV67",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D68",
+        "type": "string",
+        "value": "Short Term Loans"
+      },
+      {
+        "range": "C68",
+        "type": "number"
+      },
+      {
+        "range": "F68:BV68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D69",
+        "type": "string",
+        "value": "Capital Loans"
+      },
+      {
+        "range": "C69",
+        "type": "number"
+      },
+      {
+        "range": "F69:BV69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B70",
+        "type": "string",
+        "value": "Total Current Liabilities"
+      },
+      {
+        "range": "F70:BV70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B72",
+        "type": "string",
+        "value": "Long Term Liabilities"
+      },
+      {
+        "range": "D73",
+        "type": "string",
+        "value": "Long-term loan from credit institution 1"
+      },
+      {
+        "range": "C73",
+        "type": "number"
+      },
+      {
+        "range": "F73",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G73:BV73",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D74",
+        "type": "string",
+        "value": "Tekes -14887"
+      },
+      {
+        "range": "C74",
+        "type": "number"
+      },
+      {
+        "range": "F74",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G74:BV74",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D75",
+        "type": "string",
+        "value": "Tekes 15118"
+      },
+      {
+        "range": "C75",
+        "type": "number"
+      },
+      {
+        "range": "F75",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G75:BV75",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D76",
+        "type": "string",
+        "value": "Tekes -14560"
+      },
+      {
+        "range": "C76",
+        "type": "number"
+      },
+      {
+        "range": "F76",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G76:BV76",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D77",
+        "type": "string",
+        "value": "Tekes -14223"
+      },
+      {
+        "range": "C77",
+        "type": "number"
+      },
+      {
+        "range": "F77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G77:BV77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D78",
+        "type": "string",
+        "value": "Tekes -15543"
+      },
+      {
+        "range": "C78",
+        "type": "number"
+      },
+      {
+        "range": "F78",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G78:BV78",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D79",
+        "type": "string",
+        "value": "Other long-term loans"
+      },
+      {
+        "range": "C79",
+        "type": "number"
+      },
+      {
+        "range": "F79",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G79:BV79",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D80",
+        "type": "string",
+        "value": "SVB Line of Credit"
+      },
+      {
+        "range": "C80",
+        "type": "number"
+      },
+      {
+        "range": "AE80:BV80",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C81",
+        "type": "number"
+      },
+      {
+        "range": "AE81:BV81",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C82",
+        "type": "string",
+        "value": "LLC"
+      },
+      {
+        "range": "D82",
+        "type": "string",
+        "value": "Convertible Notes Accrued Interest"
+      },
+      {
+        "range": "AE82:BV82",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B83",
+        "type": "string",
+        "value": "Total Long Term Liabilities"
+      },
+      {
+        "range": "F83:BV83",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A85",
+        "type": "string",
+        "value": "Total Liabilities"
+      },
+      {
+        "range": "F85:BV85",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D88",
+        "type": "string",
+        "value": "Common Stock"
+      },
+      {
+        "range": "C88",
+        "type": "number"
+      },
+      {
+        "range": "F88:BV88",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D89",
+        "type": "string",
+        "value": "Preferred Series A"
+      },
+      {
+        "range": "C89",
+        "type": "number"
+      },
+      {
+        "range": "F89:BV89",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D90",
+        "type": "string",
+        "value": "Shares In Subsidiary"
+      },
+      {
+        "range": "C90",
+        "type": "number"
+      },
+      {
+        "range": "F90:BV90",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D91",
+        "type": "string",
+        "value": "Unrealized Stock Compensation"
+      },
+      {
+        "range": "C91",
+        "type": "number"
+      },
+      {
+        "range": "F91:BV91",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D92",
+        "type": "string",
+        "value": "Investment in Subsidiary"
+      },
+      {
+        "range": "C92",
+        "type": "number"
+      },
+      {
+        "range": "F92:BV92",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D93",
+        "type": "string",
+        "value": "Investment From Parent"
+      },
+      {
+        "range": "C93",
+        "type": "number"
+      },
+      {
+        "range": "F93:BV93",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D94",
+        "type": "string",
+        "value": "Cumulative Translation Adjustment"
+      },
+      {
+        "range": "C94",
+        "type": "number"
+      },
+      {
+        "range": "F94:BV94",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C95",
+        "type": "number"
+      },
+      {
+        "range": "F95:AD95",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D96",
+        "type": "string",
+        "value": "Net Income"
+      },
+      {
+        "range": "C96",
+        "type": "number"
+      },
+      {
+        "range": "F96:BV96",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D97",
+        "type": "string",
+        "value": "Retained Earnings"
+      },
+      {
+        "range": "C97",
+        "type": "number"
+      },
+      {
+        "range": "F97:BV97",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A98",
+        "type": "string",
+        "value": "Total Equity"
+      },
+      {
+        "range": "F98:BV98",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A100",
+        "type": "string",
+        "value": "Total Liabilities & Equity"
+      },
+      {
+        "range": "F100:BV100",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A101",
+        "type": "string",
+        "value": "Check"
+      },
+      {
+        "range": "F101:AE101",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF101:BB101",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BC101:BJ101",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BO101:BV101",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AQ102:BB102",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 2330.98,
+      "cells_analyzed": 5706,
+      "total_ranges": 370,
+      "format_counts": {
+        "string": 211,
+        "number": 159
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-14T01:55:31.655309Z"
+    }
+  },
+  "compression_stats": {
+    "unique_values": 7,
+    "entries_moved_to_index": 122,
+    "entries_remaining": 248,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 18489,
+    "compressed_size_bytes": 12829,
+    "inverted_index_size_bytes": 455,
+    "compressed_data_size_bytes": 12374,
+    "compression_ratio": 0.694,
+    "space_saved_bytes": 5660,
+    "space_saved_percent": 30.6
+  }
+}

@@ -1,0 +1,1047 @@
+{
+  "inverted_index": {
+    "Core": {
+      "type": "string",
+      "ranges": [
+        "B4",
+        "B28",
+        "B50"
+      ]
+    },
+    "Commercial": {
+      "type": "string",
+      "ranges": [
+        "B5",
+        "B29",
+        "B51"
+      ]
+    },
+    "Corporate": {
+      "type": "string",
+      "ranges": [
+        "B6",
+        "B30",
+        "B52"
+      ]
+    },
+    "Enterprise": {
+      "type": "string",
+      "ranges": [
+        "B7",
+        "B31",
+        "B53"
+      ]
+    },
+    "SubSuccess": {
+      "type": "string",
+      "ranges": [
+        "B8",
+        "B32",
+        "B54"
+      ]
+    },
+    "Emerging": {
+      "type": "string",
+      "ranges": [
+        "B10",
+        "B34",
+        "B56"
+      ]
+    },
+    "Adopt1": {
+      "type": "string",
+      "ranges": [
+        "B11",
+        "B35",
+        "B57"
+      ]
+    },
+    "VoC": {
+      "type": "string",
+      "ranges": [
+        "B12",
+        "B36",
+        "B58"
+      ]
+    },
+    "DAP": {
+      "type": "string",
+      "ranges": [
+        "B13",
+        "B37",
+        "B59"
+      ]
+    },
+    "ANZ": {
+      "type": "string",
+      "ranges": [
+        "B14",
+        "B38",
+        "B60"
+      ]
+    },
+    "EMEA": {
+      "type": "string",
+      "ranges": [
+        "B16",
+        "B40",
+        "B62"
+      ]
+    },
+    "JPN": {
+      "type": "string",
+      "ranges": [
+        "B17",
+        "B41",
+        "B63"
+      ]
+    },
+    "Total": {
+      "type": "string",
+      "ranges": [
+        "B20",
+        "B44",
+        "B66"
+      ]
+    },
+    "Co.": {
+      "type": "string",
+      "ranges": [
+        "D27",
+        "I27",
+        "N27",
+        "S27"
+      ]
+    },
+    "CRO": {
+      "type": "string",
+      "ranges": [
+        "E27",
+        "J27",
+        "O27",
+        "T27"
+      ]
+    },
+    "Manager": {
+      "type": "string",
+      "ranges": [
+        "G27",
+        "L27",
+        "Q27",
+        "V27"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Targets",
+    "format_ranges": [
+      {
+        "range": "B2",
+        "type": "string",
+        "value": "Budget Total QoS"
+      },
+      {
+        "range": "I2",
+        "type": "string",
+        "value": "Budget Total Bookings"
+      },
+      {
+        "range": "P2",
+        "type": "string",
+        "value": "CRO Target"
+      },
+      {
+        "range": "O2",
+        "type": "number"
+      },
+      {
+        "range": "V2",
+        "type": "string",
+        "value": "VP Target"
+      },
+      {
+        "range": "U2",
+        "type": "number"
+      },
+      {
+        "range": "AB2",
+        "type": "string",
+        "value": "Manager Target (Budget-based)"
+      },
+      {
+        "range": "AA2",
+        "type": "number"
+      },
+      {
+        "range": "C3",
+        "type": "string",
+        "value": "Q1"
+      },
+      {
+        "range": "D3",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "E3",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "F3",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "G3",
+        "type": "string",
+        "value": "FY"
+      },
+      {
+        "range": "I3",
+        "type": "string",
+        "value": "Q1"
+      },
+      {
+        "range": "J3",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "K3",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "L3",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "M3",
+        "type": "string",
+        "value": "FY"
+      },
+      {
+        "range": "O3",
+        "type": "string",
+        "value": "Q1"
+      },
+      {
+        "range": "P3",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "Q3",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "R3",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "S3",
+        "type": "string",
+        "value": "FY"
+      },
+      {
+        "range": "U3",
+        "type": "string",
+        "value": "Q1"
+      },
+      {
+        "range": "V3",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "W3",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "X3",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "Y3",
+        "type": "string",
+        "value": "FY"
+      },
+      {
+        "range": "AA3",
+        "type": "string",
+        "value": "Q1"
+      },
+      {
+        "range": "AB3",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "AC3",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "AD3",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "AE3",
+        "type": "string",
+        "value": "FY"
+      },
+      {
+        "range": "C5:G5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I5:M5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "P5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q5:S5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "U5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "W5:Y5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA5:AE5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C6:G6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I6:M6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O6:S6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "U6:Y6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA6:AE6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C7:G7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I7:M7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O7:S7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "U7:Y7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA7:AE7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C8:G8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I8:M8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O8:S8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "U8:Y8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA8:AE8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C9:G9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I9:M9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O9:S9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "U9:Y9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA9:AE9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C11:G11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I11:M11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O11:S11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "U11:Y11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA11:AE11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C12:G12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I12:M12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O12:S12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "U12:Y12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA12:AE12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C13:G13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I13:M13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O13:S13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "U13:Y13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA13:AE13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C14:G14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I14:M14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O14:S14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "U14:Y14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA14:AE14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B15",
+        "type": "string",
+        "value": "BD"
+      },
+      {
+        "range": "C15:G15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I15:M15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O15:S15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "U15:Y15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA15:AE15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C16:G16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I16:M16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O16:S16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "U16:Y16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA16:AE16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C17:G17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I17:M17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O17:S17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "U17:Y17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA17:AE17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C18:G18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I18:M18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O18:S18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "U18:Y18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA18:AE18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C20:G20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I20:M20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O20:S20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "U20:Y20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA20:AE20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B24",
+        "type": "string",
+        "value": "Starting Point for Attainment Targets"
+      },
+      {
+        "range": "D26",
+        "type": "string",
+        "value": "Q1 Attainment"
+      },
+      {
+        "range": "I26",
+        "type": "string",
+        "value": "Q2 Attainment"
+      },
+      {
+        "range": "N26",
+        "type": "string",
+        "value": "Q3 Attainment"
+      },
+      {
+        "range": "S26",
+        "type": "string",
+        "value": "Q4 Attainment"
+      },
+      {
+        "range": "F27",
+        "type": "string",
+        "value": "VP"
+      },
+      {
+        "range": "K27",
+        "type": "string",
+        "value": "VP"
+      },
+      {
+        "range": "P27",
+        "type": "string",
+        "value": "VP"
+      },
+      {
+        "range": "U27",
+        "type": "string",
+        "value": "VP"
+      },
+      {
+        "range": "D29:G29",
+        "type": "number"
+      },
+      {
+        "range": "I29:L29",
+        "type": "number"
+      },
+      {
+        "range": "N29:Q29",
+        "type": "number"
+      },
+      {
+        "range": "S29:V29",
+        "type": "number"
+      },
+      {
+        "range": "D30:G30",
+        "type": "number"
+      },
+      {
+        "range": "I30:L30",
+        "type": "number"
+      },
+      {
+        "range": "N30:Q30",
+        "type": "number"
+      },
+      {
+        "range": "S30:V30",
+        "type": "number"
+      },
+      {
+        "range": "D31:G31",
+        "type": "number"
+      },
+      {
+        "range": "I31:L31",
+        "type": "number"
+      },
+      {
+        "range": "N31:Q31",
+        "type": "number"
+      },
+      {
+        "range": "S31:V31",
+        "type": "number"
+      },
+      {
+        "range": "D32:G32",
+        "type": "number"
+      },
+      {
+        "range": "I32:L32",
+        "type": "number"
+      },
+      {
+        "range": "N32:Q32",
+        "type": "number"
+      },
+      {
+        "range": "S32:V32",
+        "type": "number"
+      },
+      {
+        "range": "D33:G33",
+        "type": "number"
+      },
+      {
+        "range": "I33:L33",
+        "type": "number"
+      },
+      {
+        "range": "N33:Q33",
+        "type": "number"
+      },
+      {
+        "range": "S33:V33",
+        "type": "number"
+      },
+      {
+        "range": "D35:G35",
+        "type": "number"
+      },
+      {
+        "range": "I35:L35",
+        "type": "number"
+      },
+      {
+        "range": "N35:Q35",
+        "type": "number"
+      },
+      {
+        "range": "S35:V35",
+        "type": "number"
+      },
+      {
+        "range": "D36:G36",
+        "type": "number"
+      },
+      {
+        "range": "I36:L36",
+        "type": "number"
+      },
+      {
+        "range": "N36:Q36",
+        "type": "number"
+      },
+      {
+        "range": "S36:V36",
+        "type": "number"
+      },
+      {
+        "range": "I37:L37",
+        "type": "number"
+      },
+      {
+        "range": "N37:Q37",
+        "type": "number"
+      },
+      {
+        "range": "S37:V37",
+        "type": "number"
+      },
+      {
+        "range": "D38:G38",
+        "type": "number"
+      },
+      {
+        "range": "I38:L38",
+        "type": "number"
+      },
+      {
+        "range": "N38:Q38",
+        "type": "number"
+      },
+      {
+        "range": "S38:V38",
+        "type": "number"
+      },
+      {
+        "range": "B39",
+        "type": "string",
+        "value": "BD"
+      },
+      {
+        "range": "D39:G39",
+        "type": "number"
+      },
+      {
+        "range": "I39:L39",
+        "type": "number"
+      },
+      {
+        "range": "N39:Q39",
+        "type": "number"
+      },
+      {
+        "range": "S39:V39",
+        "type": "number"
+      },
+      {
+        "range": "D40:G40",
+        "type": "number"
+      },
+      {
+        "range": "I40:L40",
+        "type": "number"
+      },
+      {
+        "range": "N40:Q40",
+        "type": "number"
+      },
+      {
+        "range": "S40:V40",
+        "type": "number"
+      },
+      {
+        "range": "N41:Q41",
+        "type": "number"
+      },
+      {
+        "range": "S41:V41",
+        "type": "number"
+      },
+      {
+        "range": "D42:G42",
+        "type": "number"
+      },
+      {
+        "range": "I42:L42",
+        "type": "number"
+      },
+      {
+        "range": "N42:Q42",
+        "type": "number"
+      },
+      {
+        "range": "S42:V42",
+        "type": "number"
+      },
+      {
+        "range": "D44:G44",
+        "type": "number"
+      },
+      {
+        "range": "I44:L44",
+        "type": "number"
+      },
+      {
+        "range": "N44:Q44",
+        "type": "number"
+      },
+      {
+        "range": "S44:V44",
+        "type": "number"
+      },
+      {
+        "range": "D48",
+        "type": "string",
+        "value": "Manager Attainment"
+      },
+      {
+        "range": "D49",
+        "type": "string",
+        "value": "Q1"
+      },
+      {
+        "range": "E49",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "F49",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "G49",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "D51:G51",
+        "type": "number"
+      },
+      {
+        "range": "D52:G52",
+        "type": "number"
+      },
+      {
+        "range": "D53:G53",
+        "type": "number"
+      },
+      {
+        "range": "D54:G55",
+        "type": "number"
+      },
+      {
+        "range": "D57:G57",
+        "type": "number"
+      },
+      {
+        "range": "D58:G58",
+        "type": "number"
+      },
+      {
+        "range": "E59:G59",
+        "type": "number"
+      },
+      {
+        "range": "D60:G60",
+        "type": "number"
+      },
+      {
+        "range": "B61",
+        "type": "string",
+        "value": "BD"
+      },
+      {
+        "range": "D61:G61",
+        "type": "number"
+      },
+      {
+        "range": "D62:G62",
+        "type": "number"
+      },
+      {
+        "range": "F63:G63",
+        "type": "number"
+      },
+      {
+        "range": "D64:G64",
+        "type": "number"
+      },
+      {
+        "range": "D66:G66",
+        "type": "number"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 116.2,
+      "cells_analyzed": 716,
+      "total_ranges": 241,
+      "format_counts": {
+        "string": 98,
+        "number": 143
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T19:04:20.129748Z"
+    }
+  },
+  "compression_stats": {
+    "unique_values": 16,
+    "entries_moved_to_index": 51,
+    "entries_remaining": 190,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 11028,
+    "compressed_size_bytes": 9459,
+    "inverted_index_size_bytes": 905,
+    "compressed_data_size_bytes": 8554,
+    "compression_ratio": 0.858,
+    "space_saved_bytes": 1569,
+    "space_saved_percent": 14.2
+  }
+}

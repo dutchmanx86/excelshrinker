@@ -1,0 +1,2180 @@
+{
+  "inverted_index": {
+    "CHECK": {
+      "type": "string",
+      "ranges": [
+        "O5",
+        "T5",
+        "Y5"
+      ]
+    },
+    "Enterprise": {
+      "type": "string",
+      "ranges": [
+        "C11",
+        "C80"
+      ]
+    },
+    "ANZ": {
+      "type": "string",
+      "ranges": [
+        "C17",
+        "B70"
+      ]
+    },
+    "JPN": {
+      "type": "string",
+      "ranges": [
+        "C20",
+        "B84"
+      ]
+    },
+    "VP/Manager Target buffer": {
+      "type": "string",
+      "ranges": [
+        "AK61",
+        "AK64",
+        "AK68",
+        "AK74",
+        "AK85"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Overview",
+    "format_ranges": [
+      {
+        "range": "B2",
+        "type": "string",
+        "value": "Manager Targets"
+      },
+      {
+        "range": "AI2",
+        "type": "string",
+        "value": "Manager QoS Forecast vs. Budget"
+      },
+      {
+        "range": "AQ2",
+        "type": "string",
+        "value": "Manager Bookings Targets vs. Budget"
+      },
+      {
+        "range": "D4",
+        "type": "string",
+        "value": "Total Headcount (Gross)"
+      },
+      {
+        "range": "H4",
+        "type": "string",
+        "value": "Average Ramped Headcount (Gross)"
+      },
+      {
+        "range": "L4",
+        "type": "string",
+        "value": "Total Quota on Street (Gross)"
+      },
+      {
+        "range": "Q4",
+        "type": "string",
+        "value": "Forecast Quota on Street (Net)"
+      },
+      {
+        "range": "V4",
+        "type": "string",
+        "value": "Manager Bookings Target"
+      },
+      {
+        "range": "AA4",
+        "type": "string",
+        "value": "% Attainment (Gross)"
+      },
+      {
+        "range": "AE4",
+        "type": "string",
+        "value": "% Attainment (Net)"
+      },
+      {
+        "range": "AI4",
+        "type": "string",
+        "value": "Budget QoS Target"
+      },
+      {
+        "range": "AM4",
+        "type": "string",
+        "value": "Manager % Budget QoS"
+      },
+      {
+        "range": "AQ4",
+        "type": "string",
+        "value": "Budget Bookings Target"
+      },
+      {
+        "range": "AU4",
+        "type": "string",
+        "value": "Manager % Target"
+      },
+      {
+        "range": "D5",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "E5",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "F5",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "H5",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "I5",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "J5",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "L5",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "M5",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "N5",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "Q5",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "R5",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "S5",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "V5",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "W5",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "X5",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "AA5",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "AB5",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "AC5",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "AE5",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "AF5",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "AG5",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "AI5",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "AJ5",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "AK5",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "AM5",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "AN5",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "AO5",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "AQ5",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "AR5",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "AS5",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "AU5",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "AV5",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "AW5",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "B7",
+        "type": "string",
+        "value": "Summary"
+      },
+      {
+        "range": "C9",
+        "type": "string",
+        "value": "Corporate"
+      },
+      {
+        "range": "L9:N9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q9:S9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V9:X9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA9:AC9",
+        "type": "number"
+      },
+      {
+        "range": "AE9:AG9",
+        "type": "number"
+      },
+      {
+        "range": "AI9:AK9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AM9:AO9",
+        "type": "number"
+      },
+      {
+        "range": "AQ9:AS9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU9:AW9",
+        "type": "number"
+      },
+      {
+        "range": "C10",
+        "type": "string",
+        "value": "Commercial"
+      },
+      {
+        "range": "L10:N10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q10:S10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V10:X10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA10:AC10",
+        "type": "number"
+      },
+      {
+        "range": "AE10:AG10",
+        "type": "number"
+      },
+      {
+        "range": "AI10:AK10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AM10:AO10",
+        "type": "number"
+      },
+      {
+        "range": "AQ10:AS10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU10:AW10",
+        "type": "number"
+      },
+      {
+        "range": "L11:N11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q11:S11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V11:X11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA11:AC11",
+        "type": "number"
+      },
+      {
+        "range": "AE11:AG11",
+        "type": "number"
+      },
+      {
+        "range": "AI11:AK11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AM11:AO11",
+        "type": "number"
+      },
+      {
+        "range": "AQ11:AS11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU11:AW11",
+        "type": "number"
+      },
+      {
+        "range": "C12",
+        "type": "string",
+        "value": "Sub Success"
+      },
+      {
+        "range": "L12:N12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q12:S12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V12:X12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA12:AC12",
+        "type": "number"
+      },
+      {
+        "range": "AE12:AG12",
+        "type": "number"
+      },
+      {
+        "range": "AI12:AK12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AM12:AO12",
+        "type": "number"
+      },
+      {
+        "range": "AQ12:AS12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU12:AW12",
+        "type": "number"
+      },
+      {
+        "range": "C14",
+        "type": "string",
+        "value": "Adopt"
+      },
+      {
+        "range": "Q14:S14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V14:X14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE14:AG14",
+        "type": "number"
+      },
+      {
+        "range": "AI14:AK14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AM14:AO14",
+        "type": "number"
+      },
+      {
+        "range": "AQ14:AS14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU14:AW14",
+        "type": "number"
+      },
+      {
+        "range": "C15",
+        "type": "string",
+        "value": "VoC"
+      },
+      {
+        "range": "Q15:S15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V15:X15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE15:AG15",
+        "type": "number"
+      },
+      {
+        "range": "AI15:AK15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AM15:AO15",
+        "type": "number"
+      },
+      {
+        "range": "AQ15:AS15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU15:AW15",
+        "type": "number"
+      },
+      {
+        "range": "C16",
+        "type": "string",
+        "value": "DAP"
+      },
+      {
+        "range": "Q16:S16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V16:X16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE16:AG16",
+        "type": "number"
+      },
+      {
+        "range": "AI16:AK16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AM16:AO16",
+        "type": "number"
+      },
+      {
+        "range": "AQ16:AS16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU16:AW16",
+        "type": "number"
+      },
+      {
+        "range": "Q17:S17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V17:X17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE17:AG17",
+        "type": "number"
+      },
+      {
+        "range": "AI17:AK17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AM17:AO17",
+        "type": "number"
+      },
+      {
+        "range": "AQ17:AS17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU17:AW17",
+        "type": "number"
+      },
+      {
+        "range": "C18",
+        "type": "string",
+        "value": "BD"
+      },
+      {
+        "range": "Q18:S18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V18:X18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE18:AG18",
+        "type": "number"
+      },
+      {
+        "range": "AI18:AK18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AM18:AO18",
+        "type": "number"
+      },
+      {
+        "range": "AQ18:AS18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU18:AW18",
+        "type": "number"
+      },
+      {
+        "range": "C19",
+        "type": "string",
+        "value": "EMEA"
+      },
+      {
+        "range": "L19:N19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q19:S19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V19:X19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA19:AC19",
+        "type": "number"
+      },
+      {
+        "range": "AE19:AG19",
+        "type": "number"
+      },
+      {
+        "range": "AI19:AK19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AM19:AO19",
+        "type": "number"
+      },
+      {
+        "range": "AQ19:AS19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU19:AW19",
+        "type": "number"
+      },
+      {
+        "range": "Q20:S20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V20:X20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE20:AG20",
+        "type": "number"
+      },
+      {
+        "range": "AI20:AK20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AN20:AO20",
+        "type": "number"
+      },
+      {
+        "range": "AQ20:AS20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV20:AW20",
+        "type": "number"
+      },
+      {
+        "range": "C22",
+        "type": "string",
+        "value": "Total"
+      },
+      {
+        "range": "Q22:S22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V22:X22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE22:AG22",
+        "type": "number"
+      },
+      {
+        "range": "AI22:AK22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AM22:AO22",
+        "type": "number"
+      },
+      {
+        "range": "AQ22:AS22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU22:AW22",
+        "type": "number"
+      },
+      {
+        "range": "C24",
+        "type": "string",
+        "value": "Adopt (Mgr)"
+      },
+      {
+        "range": "Q24:S24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AR24",
+        "type": "string",
+        "value": "Forecast QoS"
+      },
+      {
+        "range": "AQ24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B26",
+        "type": "string",
+        "value": "Segments"
+      },
+      {
+        "range": "B28",
+        "type": "string",
+        "value": "Corporate - Jim"
+      },
+      {
+        "range": "C29",
+        "type": "string",
+        "value": "Batt, Kate"
+      },
+      {
+        "range": "D29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA29",
+        "type": "number"
+      },
+      {
+        "range": "AE29",
+        "type": "number"
+      },
+      {
+        "range": "C30",
+        "type": "string",
+        "value": "Hoy, Michael"
+      },
+      {
+        "range": "D30:F30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H30:J30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L30:N30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q30:S30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V30:X30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA30:AC30",
+        "type": "number"
+      },
+      {
+        "range": "AE30:AG30",
+        "type": "number"
+      },
+      {
+        "range": "C31",
+        "type": "string",
+        "value": "Klemm, Brian"
+      },
+      {
+        "range": "D31:F31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H31:J31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L31:N31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q31:S31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V31:X31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA31:AC31",
+        "type": "number"
+      },
+      {
+        "range": "AE31:AG31",
+        "type": "number"
+      },
+      {
+        "range": "C32",
+        "type": "string",
+        "value": "PFSU - Other"
+      },
+      {
+        "range": "D32:F32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H32:J32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L32:N32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q32:S32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V32:X32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA32:AC32",
+        "type": "number"
+      },
+      {
+        "range": "AE32:AG32",
+        "type": "number"
+      },
+      {
+        "range": "B33",
+        "type": "string",
+        "value": "Total Corporate"
+      },
+      {
+        "range": "D33:F33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H33:J33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L33:N33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q33:S33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V33:X33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Y33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA33:AC33",
+        "type": "number"
+      },
+      {
+        "range": "AE33:AG33",
+        "type": "number"
+      },
+      {
+        "range": "B35",
+        "type": "string",
+        "value": "Commercial - Dean"
+      },
+      {
+        "range": "C36",
+        "type": "string",
+        "value": "Ferguson, Brook"
+      },
+      {
+        "range": "D36:F36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H36:J36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L36:N36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q36:S36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V36:X36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA36:AC36",
+        "type": "number"
+      },
+      {
+        "range": "AE36:AG36",
+        "type": "number"
+      },
+      {
+        "range": "C37",
+        "type": "string",
+        "value": "Braithwaite-Stanford, Andre"
+      },
+      {
+        "range": "D37:F37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H37:J37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L37:N37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q37:S37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V37:X37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA37:AC37",
+        "type": "number"
+      },
+      {
+        "range": "AE37:AG37",
+        "type": "number"
+      },
+      {
+        "range": "C38",
+        "type": "string",
+        "value": "Ionescu, Sarah"
+      },
+      {
+        "range": "D38:F38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H38:J38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L38:N38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q38:S38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V38:X38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA38:AC38",
+        "type": "number"
+      },
+      {
+        "range": "AE38:AG38",
+        "type": "number"
+      },
+      {
+        "range": "C39",
+        "type": "string",
+        "value": "Wilson, Cari"
+      },
+      {
+        "range": "D39:F39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H39:J39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L39:N39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q39:S39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V39:X39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA39:AC39",
+        "type": "number"
+      },
+      {
+        "range": "AE39:AG39",
+        "type": "number"
+      },
+      {
+        "range": "C40",
+        "type": "string",
+        "value": "Commercial Select RVP"
+      },
+      {
+        "range": "D40:F40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H40:J40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L40:N40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q40:S40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V40:X40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C41",
+        "type": "string",
+        "value": "TBD RVP #5"
+      },
+      {
+        "range": "D41:F41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H41:J41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L41:N41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q41:S41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V41:X41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB41:AC41",
+        "type": "number"
+      },
+      {
+        "range": "AF41:AG41",
+        "type": "number"
+      },
+      {
+        "range": "B42",
+        "type": "string",
+        "value": "Total Commercial"
+      },
+      {
+        "range": "D42:F42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H42:J42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L42:N42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q42:S42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V42:X42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Y42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA42:AC42",
+        "type": "number"
+      },
+      {
+        "range": "AE42:AG42",
+        "type": "number"
+      },
+      {
+        "range": "B44",
+        "type": "string",
+        "value": "Enterprise - Gary"
+      },
+      {
+        "range": "C45",
+        "type": "string",
+        "value": "Sabikihi, Harsh"
+      },
+      {
+        "range": "D45:F45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H45:J45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L45:N45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q45:S45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V45:X45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA45:AC45",
+        "type": "number"
+      },
+      {
+        "range": "AE45:AG45",
+        "type": "number"
+      },
+      {
+        "range": "C46",
+        "type": "string",
+        "value": "NYC ENT RVP"
+      },
+      {
+        "range": "D46:F46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H46:J46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L46:N46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q46:S46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V46:X46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA46:AC46",
+        "type": "number"
+      },
+      {
+        "range": "AE46:AG46",
+        "type": "number"
+      },
+      {
+        "range": "C47",
+        "type": "string",
+        "value": "Miller, BJ"
+      },
+      {
+        "range": "D47:F47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H47:J47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L47:N47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q47:S47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V47:X47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA47:AC47",
+        "type": "number"
+      },
+      {
+        "range": "AE47:AG47",
+        "type": "number"
+      },
+      {
+        "range": "C48",
+        "type": "string",
+        "value": "Tuttle, Patrick"
+      },
+      {
+        "range": "D48:F48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H48:J48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L48:N48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q48:S48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V48:X48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA48:AC48",
+        "type": "number"
+      },
+      {
+        "range": "AE48:AG48",
+        "type": "number"
+      },
+      {
+        "range": "C49",
+        "type": "string",
+        "value": "Yatsko, Natalie"
+      },
+      {
+        "range": "D49:F49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H49:J49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L49:N49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q49:S49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V49:X49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA49:AC49",
+        "type": "number"
+      },
+      {
+        "range": "AE49:AG49",
+        "type": "number"
+      },
+      {
+        "range": "C50",
+        "type": "string",
+        "value": "Wilson, Matt"
+      },
+      {
+        "range": "D50:F50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H50:J50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L50:N50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q50:S50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V50:X50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA50:AC50",
+        "type": "number"
+      },
+      {
+        "range": "AE50:AG50",
+        "type": "number"
+      },
+      {
+        "range": "B51",
+        "type": "string",
+        "value": "Total Enterprise"
+      },
+      {
+        "range": "D51:F51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H51:J51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L51:N51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q51:S51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V51:X51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Y51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA51:AC51",
+        "type": "number"
+      },
+      {
+        "range": "AE51:AG51",
+        "type": "number"
+      },
+      {
+        "range": "B53",
+        "type": "string",
+        "value": "Sub Success - Coro"
+      },
+      {
+        "range": "C54",
+        "type": "string",
+        "value": "Bumgardner, Josh"
+      },
+      {
+        "range": "D54:F54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H54:J54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L54:N54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q54:S54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V54:X54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA54:AC54",
+        "type": "number"
+      },
+      {
+        "range": "AE54:AG54",
+        "type": "number"
+      },
+      {
+        "range": "C55",
+        "type": "string",
+        "value": "TBD SS Corp Dir"
+      },
+      {
+        "range": "D55:F55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H55:J55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L55:N55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q55:S55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V55:X55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB55:AC55",
+        "type": "number"
+      },
+      {
+        "range": "AF55:AG55",
+        "type": "number"
+      },
+      {
+        "range": "C56",
+        "type": "string",
+        "value": "TBD SS Comm Dir"
+      },
+      {
+        "range": "D56:F56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H56:J56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L56:N56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q56:S56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V56:X56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA56:AC56",
+        "type": "number"
+      },
+      {
+        "range": "AE56:AG56",
+        "type": "number"
+      },
+      {
+        "range": "B57",
+        "type": "string",
+        "value": "Total Sub Success"
+      },
+      {
+        "range": "D57:F57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H57:J57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L57:N57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q57:S57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V57:X57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Y57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA57:AC57",
+        "type": "number"
+      },
+      {
+        "range": "AE57:AG57",
+        "type": "number"
+      },
+      {
+        "range": "B59",
+        "type": "string",
+        "value": "Emerging"
+      },
+      {
+        "range": "B60",
+        "type": "string",
+        "value": "Adopt1 - Boduch"
+      },
+      {
+        "range": "C61",
+        "type": "string",
+        "value": "Sandman, Josh"
+      },
+      {
+        "range": "Q61:S61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V61:X61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE61:AG61",
+        "type": "number"
+      },
+      {
+        "range": "AJ61",
+        "type": "number"
+      },
+      {
+        "range": "B63",
+        "type": "string",
+        "value": "VoC - Dean"
+      },
+      {
+        "range": "C64",
+        "type": "string",
+        "value": "VOC RVP TBH 1"
+      },
+      {
+        "range": "Q64:S64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V64:X64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE64:AG64",
+        "type": "number"
+      },
+      {
+        "range": "AJ64",
+        "type": "number"
+      },
+      {
+        "range": "C65",
+        "type": "string",
+        "value": "VOC Overlay"
+      },
+      {
+        "range": "Q65:S65",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V65:X65",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE65:AG65",
+        "type": "number"
+      },
+      {
+        "range": "B67",
+        "type": "string",
+        "value": "DAP - Dustin"
+      },
+      {
+        "range": "C68",
+        "type": "string",
+        "value": "DAP RVP TBH 1"
+      },
+      {
+        "range": "Q68:S68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V68:X68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE68:AG68",
+        "type": "number"
+      },
+      {
+        "range": "AJ68",
+        "type": "number"
+      },
+      {
+        "range": "C71",
+        "type": "string",
+        "value": "TBH"
+      },
+      {
+        "range": "Q71:S71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V71:X71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE71:AG71",
+        "type": "number"
+      },
+      {
+        "range": "B73",
+        "type": "string",
+        "value": "BD - Rahul"
+      },
+      {
+        "range": "C74",
+        "type": "string",
+        "value": "John Dorrian"
+      },
+      {
+        "range": "Q74:S74",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V74:X74",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE74:AG74",
+        "type": "number"
+      },
+      {
+        "range": "AJ74",
+        "type": "number"
+      },
+      {
+        "range": "B76",
+        "type": "string",
+        "value": "EMEA - Chas"
+      },
+      {
+        "range": "C77",
+        "type": "string",
+        "value": "SMB"
+      },
+      {
+        "range": "D77:F77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H77:J77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L77:N77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q77:S77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V77:X77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA77:AC77",
+        "type": "number"
+      },
+      {
+        "range": "AE77:AG77",
+        "type": "number"
+      },
+      {
+        "range": "C78",
+        "type": "string",
+        "value": "Foundation"
+      },
+      {
+        "range": "D78:F78",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H78:J78",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L78:N78",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q78:S78",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V78:X78",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA78:AC78",
+        "type": "number"
+      },
+      {
+        "range": "AE78:AG78",
+        "type": "number"
+      },
+      {
+        "range": "C79",
+        "type": "string",
+        "value": "Growth"
+      },
+      {
+        "range": "D79:F79",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H79:J79",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L79:N79",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q79:S79",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V79:X79",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA79:AC79",
+        "type": "number"
+      },
+      {
+        "range": "AE79:AG79",
+        "type": "number"
+      },
+      {
+        "range": "D80:F80",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H80:J80",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L80:N80",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q80:S80",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V80:X80",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA80:AC80",
+        "type": "number"
+      },
+      {
+        "range": "AE80:AG80",
+        "type": "number"
+      },
+      {
+        "range": "C81",
+        "type": "string",
+        "value": "SubServ"
+      },
+      {
+        "range": "D81:F81",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H81:J81",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L81:N81",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q81:S81",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V81:X81",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA81:AC81",
+        "type": "number"
+      },
+      {
+        "range": "AE81:AG81",
+        "type": "number"
+      },
+      {
+        "range": "B82",
+        "type": "string",
+        "value": "Total EMEA"
+      },
+      {
+        "range": "D82:F82",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H82:J82",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L82:N82",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O82",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q82:S82",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T82",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V82:X82",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Y82",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA82:AC82",
+        "type": "number"
+      },
+      {
+        "range": "AE82:AG82",
+        "type": "number"
+      },
+      {
+        "range": "C85",
+        "type": "string",
+        "value": "Takayama, Kiyomitsu"
+      },
+      {
+        "range": "Q85:S85",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V85:X85",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE85:AG85",
+        "type": "number"
+      },
+      {
+        "range": "AJ85",
+        "type": "number"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 176.2,
+      "cells_analyzed": 1071,
+      "total_ranges": 457,
+      "format_counts": {
+        "string": 119,
+        "number": 338
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T19:02:56.146347Z"
+    }
+  },
+  "compression_stats": {
+    "unique_values": 5,
+    "entries_moved_to_index": 14,
+    "entries_remaining": 443,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 21854,
+    "compressed_size_bytes": 21375,
+    "inverted_index_size_bytes": 292,
+    "compressed_data_size_bytes": 21083,
+    "compression_ratio": 0.978,
+    "space_saved_bytes": 479,
+    "space_saved_percent": 2.2
+  }
+}

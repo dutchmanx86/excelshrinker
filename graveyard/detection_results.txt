@@ -1,0 +1,1563 @@
+Step 1: Loading workbook to get sheet names...
+  Loaded successfully
+
+Analyzing file: sample_data/sample.xlsx
+Found 86 sheet(s): ['Summary', 'Master Ctrl', 'Dash Control', 'Dash', 'CAC by Segment', 'Payback Period', 'Fin CTRL', 'Fin', 'Debt Compliance', 'ARR and Revenue -->', 'ARR and Rev CTRL', 'Sales Prod Input', 'ARR and Revenue', 'Sales CTRL', 'Sales Role Input', 'Sales Reps', 'Clients CTRL', 'Clients', 'Retention CTRL', 'Retention', 'Renewed', 'Renewal Base', 'Deferred Build', 'Expenses -->', 'Headcount and Salaries CTRL', 'Headcount and Salaries', 'Opex CTRL', 'Operating Expenses', 'Content', 'Engineering', 'Executive', 'Finance & Admin', 'Marketing', 'Product', 'Sales', 'Commission Waterfall', 'Bad Debt', 'COGS CTRL', 'Cost of Goods Sold', 'Total FDS Cost', 'FDS AMR', 'Direct Broker', 'Additional FDS Content', 'FDS User Growth', 'FDS RT Minimums', 'User Split Support-->', 'Product User Splits', 'TR BRM', 'AMR', 'LN', 'DJ', 'TR Transcripts', 'FS Transcripts', 'Filings', 'Support>>>', 'Detailed Income Statement', 'Detailed Balance Sheet', 'Detailed Cash Flow Satement', 'Key Metrics', 'Revenue by Client', 'Client Support', 'Subscriber Support', 'Headcount Support', 'Salary Support', 'Bonus Support', 'Bonus Support (Sales non Ops)', 'Bonus Support (Sales Ops Only)', 'Headcount Adds', 'OpEx - Content', 'OpEx - Engineering', 'OpEx - Executive', 'OpEx - Finance & Admin', 'OpEx - Marketing', 'OpEx - Product', 'OpEx - Sales', 'Historical Quota& Productivity', 'Fixed Asset Depreciation', 'INTERNAL>>>', 'COGS vs. Marginal', 'Benchmarking', 'Accrued Expenses', 'Prepaid Expenses', 'Accrued Wages', 'Cap R&D Exisiting Runoff', 'Deposits', 'Tekes Loans']
+
+================================================================================
+
+Step 2: Creating BoundaryDetector...
+  Detector created with config: empty_threshold=20
+
+[1/86] Processing sheet: 'Summary'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 74
+  Max Row (0-indexed):    65
+  Total Columns:          75
+  Total Rows:             66
+  Cells Scanned:          5,387
+  Non-Empty Cells:        950
+  Processing Time:        14.87 ms
+  Excel Range:            A1:BW66
+
+[2/86] Processing sheet: 'Master Ctrl'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 5
+  Max Row (0-indexed):    32
+  Total Columns:          6
+  Total Rows:             33
+  Cells Scanned:          5,000
+  Non-Empty Cells:        39
+  Processing Time:        15.03 ms
+  Excel Range:            A1:F33
+
+[3/86] Processing sheet: 'Dash Control'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 175
+  Max Row (0-indexed):    65
+  Total Columns:          176
+  Total Rows:             66
+  Cells Scanned:          6,605
+  Non-Empty Cells:        2,347
+  Processing Time:        17.53 ms
+  Excel Range:            A1:FT66
+
+[4/86] Processing sheet: 'Dash'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 175
+  Max Row (0-indexed):    372
+  Total Columns:          176
+  Total Rows:             373
+  Cells Scanned:          42,468
+  Non-Empty Cells:        30,858
+  Processing Time:        59.59 ms
+  Excel Range:            A1:FT373
+
+[5/86] Processing sheet: 'CAC by Segment'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 175
+  Max Row (0-indexed):    140
+  Total Columns:          176
+  Total Rows:             141
+  Cells Scanned:          18,300
+  Non-Empty Cells:        13,644
+  Processing Time:        27.48 ms
+  Excel Range:            A1:FT141
+
+[6/86] Processing sheet: 'Payback Period'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 16
+  Max Row (0-indexed):    804
+  Total Columns:          17
+  Total Rows:             805
+  Cells Scanned:          40,200
+  Non-Empty Cells:        9,909
+  Processing Time:        26.55 ms
+  Excel Range:            A1:Q805
+
+[7/86] Processing sheet: 'Fin CTRL'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 175
+  Max Row (0-indexed):    188
+  Total Columns:          176
+  Total Rows:             189
+  Cells Scanned:          12,812
+  Non-Empty Cells:        5,032
+  Processing Time:        23.02 ms
+  Excel Range:            A1:FT189
+
+[8/86] Processing sheet: 'Fin'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 175
+  Max Row (0-indexed):    836
+  Total Columns:          176
+  Total Rows:             837
+  Cells Scanned:          79,012
+  Non-Empty Cells:        46,141
+  Processing Time:        1073.24 ms
+  Excel Range:            A1:FT837
+
+[9/86] Processing sheet: 'Debt Compliance'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 133
+  Max Row (0-indexed):    52
+  Total Columns:          134
+  Total Rows:             53
+  Cells Scanned:          7,512
+  Non-Empty Cells:        3,282
+  Processing Time:        17.31 ms
+  Excel Range:            A1:ED53
+
+[10/86] Processing sheet: 'ARR and Revenue -->'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 1
+  Max Row (0-indexed):    1
+  Total Columns:          2
+  Total Rows:             2
+  Cells Scanned:          5,000
+  Non-Empty Cells:        0
+  Processing Time:        14.50 ms
+  Excel Range:            A1:B2
+
+[11/86] Processing sheet: 'ARR and Rev CTRL'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 175
+  Max Row (0-indexed):    317
+  Total Columns:          176
+  Total Rows:             318
+  Cells Scanned:          18,027
+  Non-Empty Cells:        4,465
+  Processing Time:        26.61 ms
+  Excel Range:            A1:FT318
+
+[12/86] Processing sheet: 'Sales Prod Input'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 16
+  Max Row (0-indexed):    29
+  Total Columns:          17
+  Total Rows:             30
+  Cells Scanned:          5,000
+  Non-Empty Cells:        235
+  Processing Time:        15.29 ms
+  Excel Range:            A1:Q30
+
+[13/86] Processing sheet: 'ARR and Revenue'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 175
+  Max Row (0-indexed):    232
+  Total Columns:          176
+  Total Rows:             233
+  Cells Scanned:          24,064
+  Non-Empty Cells:        17,365
+  Processing Time:        35.79 ms
+  Excel Range:            A1:FT233
+
+[14/86] Processing sheet: 'Sales CTRL'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 175
+  Max Row (0-indexed):    574
+  Total Columns:          176
+  Total Rows:             575
+  Cells Scanned:          37,810
+  Non-Empty Cells:        14,826
+  Processing Time:        40.36 ms
+  Excel Range:            A1:FT575
+
+[15/86] Processing sheet: 'Sales Role Input'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 125
+  Max Row (0-indexed):    57
+  Total Columns:          126
+  Total Rows:             58
+  Cells Scanned:          6,492
+  Non-Empty Cells:        1,835
+  Processing Time:        15.58 ms
+  Excel Range:            A1:DV58
+
+[16/86] Processing sheet: 'Sales Reps'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 175
+  Max Row (0-indexed):    523
+  Total Columns:          176
+  Total Rows:             524
+  Cells Scanned:          55,193
+  Non-Empty Cells:        38,951
+  Processing Time:        65.69 ms
+  Excel Range:            A1:FT524
+
+[17/86] Processing sheet: 'Clients CTRL'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 175
+  Max Row (0-indexed):    77
+  Total Columns:          176
+  Total Rows:             78
+  Cells Scanned:          6,565
+  Non-Empty Cells:        2,404
+  Processing Time:        19.57 ms
+  Excel Range:            A1:FT78
+
+[18/86] Processing sheet: 'Clients'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 174
+  Max Row (0-indexed):    67
+  Total Columns:          175
+  Total Rows:             68
+  Cells Scanned:          10,479
+  Non-Empty Cells:        7,486
+  Processing Time:        24.85 ms
+  Excel Range:            A1:FS68
+
+[19/86] Processing sheet: 'Retention CTRL'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 175
+  Max Row (0-indexed):    45
+  Total Columns:          176
+  Total Rows:             46
+  Cells Scanned:          5,665
+  Non-Empty Cells:        1,073
+  Processing Time:        16.02 ms
+  Excel Range:            A1:FT46
+
+[20/86] Processing sheet: 'Retention'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 175
+  Max Row (0-indexed):    85
+  Total Columns:          176
+  Total Rows:             86
+  Cells Scanned:          8,433
+  Non-Empty Cells:        4,760
+  Processing Time:        22.05 ms
+  Excel Range:            A1:FT86
+
+[21/86] Processing sheet: 'Renewed'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 14
+  Max Row (0-indexed):    7599
+  Total Columns:          15
+  Total Rows:             7600
+  Cells Scanned:          379,950
+  Non-Empty Cells:        74,214
+  Processing Time:        98.91 ms
+  Excel Range:            A1:O7600
+
+[22/86] Processing sheet: 'Renewal Base'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 14
+  Max Row (0-indexed):    1858
+  Total Columns:          15
+  Total Rows:             1859
+  Cells Scanned:          92,900
+  Non-Empty Cells:        14,930
+  Processing Time:        53.08 ms
+  Excel Range:            A1:O1859
+
+[23/86] Processing sheet: 'Deferred Build'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 175
+  Max Row (0-indexed):    33
+  Total Columns:          176
+  Total Rows:             34
+  Cells Scanned:          5,653
+  Non-Empty Cells:        894
+  Processing Time:        16.03 ms
+  Excel Range:            A1:FT34
+
+[24/86] Processing sheet: 'Expenses -->'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 1
+  Max Row (0-indexed):    1
+  Total Columns:          2
+  Total Rows:             2
+  Cells Scanned:          5,000
+  Non-Empty Cells:        0
+  Processing Time:        14.57 ms
+  Excel Range:            A1:B2
+
+[25/86] Processing sheet: 'Headcount and Salaries CTRL'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 175
+  Max Row (0-indexed):    151
+  Total Columns:          176
+  Total Rows:             152
+  Cells Scanned:          9,933
+  Non-Empty Cells:        3,770
+  Processing Time:        22.14 ms
+  Excel Range:            A1:FT152
+
+[26/86] Processing sheet: 'Headcount and Salaries'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 175
+  Max Row (0-indexed):    193
+  Total Columns:          176
+  Total Rows:             194
+  Cells Scanned:          22,039
+  Non-Empty Cells:        16,770
+  Processing Time:        31.20 ms
+  Excel Range:            A1:FT194
+
+[27/86] Processing sheet: 'Opex CTRL'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 175
+  Max Row (0-indexed):    2491
+  Total Columns:          176
+  Total Rows:             2492
+  Cells Scanned:          176,145
+  Non-Empty Cells:        83,656
+  Processing Time:        160.59 ms
+  Excel Range:            A1:FT2492
+
+[28/86] Processing sheet: 'Operating Expenses'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 175
+  Max Row (0-indexed):    231
+  Total Columns:          176
+  Total Rows:             232
+  Cells Scanned:          28,318
+  Non-Empty Cells:        22,795
+  Processing Time:        39.72 ms
+  Excel Range:            A1:FT232
+
+[29/86] Processing sheet: 'Content'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 175
+  Max Row (0-indexed):    398
+  Total Columns:          176
+  Total Rows:             399
+  Cells Scanned:          20,422
+  Non-Empty Cells:        1,147
+  Processing Time:        42.56 ms
+  Excel Range:            A1:FT399
+
+[30/86] Processing sheet: 'Engineering'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 175
+  Max Row (0-indexed):    396
+  Total Columns:          176
+  Total Rows:             397
+  Cells Scanned:          20,320
+  Non-Empty Cells:        1,141
+  Processing Time:        43.09 ms
+  Excel Range:            A1:FT397
+
+[31/86] Processing sheet: 'Executive'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 175
+  Max Row (0-indexed):    398
+  Total Columns:          176
+  Total Rows:             399
+  Cells Scanned:          20,422
+  Non-Empty Cells:        1,110
+  Processing Time:        41.09 ms
+  Excel Range:            A1:FT399
+
+[32/86] Processing sheet: 'Finance & Admin'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 175
+  Max Row (0-indexed):    404
+  Total Columns:          176
+  Total Rows:             405
+  Cells Scanned:          20,728
+  Non-Empty Cells:        1,193
+  Processing Time:        41.30 ms
+  Excel Range:            A1:FT405
+
+[33/86] Processing sheet: 'Marketing'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 175
+  Max Row (0-indexed):    384
+  Total Columns:          176
+  Total Rows:             385
+  Cells Scanned:          19,708
+  Non-Empty Cells:        1,112
+  Processing Time:        38.65 ms
+  Excel Range:            A1:FT385
+
+[34/86] Processing sheet: 'Product'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 175
+  Max Row (0-indexed):    397
+  Total Columns:          176
+  Total Rows:             398
+  Cells Scanned:          20,371
+  Non-Empty Cells:        1,145
+  Processing Time:        42.01 ms
+  Excel Range:            A1:FT398
+
+[35/86] Processing sheet: 'Sales'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 175
+  Max Row (0-indexed):    404
+  Total Columns:          176
+  Total Rows:             405
+  Cells Scanned:          20,728
+  Non-Empty Cells:        1,173
+  Processing Time:        62.43 ms
+  Excel Range:            A1:FT405
+
+[36/86] Processing sheet: 'Commission Waterfall'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 175
+  Max Row (0-indexed):    582
+  Total Columns:          176
+  Total Rows:             583
+  Cells Scanned:          36,130
+  Non-Empty Cells:        8,066
+  Processing Time:        52.62 ms
+  Excel Range:            A1:FT583
+
+[37/86] Processing sheet: 'Bad Debt'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 97
+  Max Row (0-indexed):    23
+  Total Columns:          98
+  Total Rows:             24
+  Cells Scanned:          5,713
+  Non-Empty Cells:        1,455
+  Processing Time:        14.16 ms
+  Excel Range:            A1:CT24
+
+[38/86] Processing sheet: 'COGS CTRL'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 175
+  Max Row (0-indexed):    1589
+  Total Columns:          176
+  Total Rows:             1590
+  Cells Scanned:          81,411
+  Non-Empty Cells:        11,575
+  Processing Time:        93.04 ms
+  Excel Range:            A1:FT1590
+
+[39/86] Processing sheet: 'Cost of Goods Sold'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 175
+  Max Row (0-indexed):    816
+  Total Columns:          176
+  Total Rows:             817
+  Cells Scanned:          77,150
+  Non-Empty Cells:        43,454
+  Processing Time:        86.85 ms
+  Excel Range:            A1:FT817
+
+[40/86] Processing sheet: 'Total FDS Cost'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 107
+  Max Row (0-indexed):    46
+  Total Columns:          108
+  Total Rows:             47
+  Cells Scanned:          6,614
+  Non-Empty Cells:        2,944
+  Processing Time:        16.04 ms
+  Excel Range:            A1:DD47
+
+[41/86] Processing sheet: 'FDS AMR'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 107
+  Max Row (0-indexed):    88
+  Total Columns:          108
+  Total Rows:             89
+  Cells Scanned:          8,560
+  Non-Empty Cells:        6,426
+  Processing Time:        20.15 ms
+  Excel Range:            A1:DD89
+
+[42/86] Processing sheet: 'Direct Broker'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 174
+  Max Row (0-indexed):    254
+  Total Columns:          175
+  Total Rows:             255
+  Cells Scanned:          13,077
+  Non-Empty Cells:        2,586
+  Processing Time:        31.56 ms
+  Excel Range:            A1:FS255
+
+[43/86] Processing sheet: 'Additional FDS Content'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 109
+  Max Row (0-indexed):    111
+  Total Columns:          110
+  Total Rows:             112
+  Cells Scanned:          10,591
+  Non-Empty Cells:        7,950
+  Processing Time:        21.24 ms
+  Excel Range:            A1:DF112
+
+[44/86] Processing sheet: 'FDS User Growth'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 107
+  Max Row (0-indexed):    296
+  Total Columns:          108
+  Total Rows:             297
+  Cells Scanned:          24,672
+  Non-Empty Cells:        17,685
+  Processing Time:        32.34 ms
+  Excel Range:            A1:DD297
+
+[45/86] Processing sheet: 'FDS RT Minimums'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 9
+  Max Row (0-indexed):    25
+  Total Columns:          10
+  Total Rows:             26
+  Cells Scanned:          5,000
+  Non-Empty Cells:        197
+  Processing Time:        13.04 ms
+  Excel Range:            A1:J26
+
+[46/86] Processing sheet: 'User Split Support-->'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 1
+  Max Row (0-indexed):    1
+  Total Columns:          2
+  Total Rows:             2
+  Cells Scanned:          5,000
+  Non-Empty Cells:        0
+  Processing Time:        14.53 ms
+  Excel Range:            A1:B2
+
+[47/86] Processing sheet: 'Product User Splits'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 67
+  Max Row (0-indexed):    117
+  Total Columns:          68
+  Total Rows:             118
+  Cells Scanned:          7,198
+  Non-Empty Cells:        4,088
+  Processing Time:        17.03 ms
+  Excel Range:            A1:BP118
+
+[48/86] Processing sheet: 'TR BRM'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 28
+  Max Row (0-indexed):    43
+  Total Columns:          29
+  Total Rows:             44
+  Cells Scanned:          5,000
+  Non-Empty Cells:        808
+  Processing Time:        15.29 ms
+  Excel Range:            A1:AC44
+
+[49/86] Processing sheet: 'AMR'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 27
+  Max Row (0-indexed):    25
+  Total Columns:          28
+  Total Rows:             26
+  Cells Scanned:          5,000
+  Non-Empty Cells:        482
+  Processing Time:        14.19 ms
+  Excel Range:            A1:AB26
+
+[50/86] Processing sheet: 'LN'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 19
+  Max Row (0-indexed):    9
+  Total Columns:          20
+  Total Rows:             10
+  Cells Scanned:          5,000
+  Non-Empty Cells:        129
+  Processing Time:        13.52 ms
+  Excel Range:            A1:T10
+
+[51/86] Processing sheet: 'DJ'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 19
+  Max Row (0-indexed):    6
+  Total Columns:          20
+  Total Rows:             7
+  Cells Scanned:          5,000
+  Non-Empty Cells:        112
+  Processing Time:        13.60 ms
+  Excel Range:            A1:T7
+
+[52/86] Processing sheet: 'TR Transcripts'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 19
+  Max Row (0-indexed):    16
+  Total Columns:          20
+  Total Rows:             17
+  Cells Scanned:          5,000
+  Non-Empty Cells:        178
+  Processing Time:        14.09 ms
+  Excel Range:            A1:T17
+
+[53/86] Processing sheet: 'FS Transcripts'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 19
+  Max Row (0-indexed):    14
+  Total Columns:          20
+  Total Rows:             15
+  Cells Scanned:          5,000
+  Non-Empty Cells:        154
+  Processing Time:        15.02 ms
+  Excel Range:            A1:T15
+
+[54/86] Processing sheet: 'Filings'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 19
+  Max Row (0-indexed):    7
+  Total Columns:          20
+  Total Rows:             8
+  Cells Scanned:          5,000
+  Non-Empty Cells:        131
+  Processing Time:        15.04 ms
+  Excel Range:            A1:T8
+
+[55/86] Processing sheet: 'Support>>>'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 1
+  Max Row (0-indexed):    1
+  Total Columns:          2
+  Total Rows:             2
+  Cells Scanned:          5,000
+  Non-Empty Cells:        0
+  Processing Time:        13.53 ms
+  Excel Range:            A1:B2
+
+[56/86] Processing sheet: 'Detailed Income Statement'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 74
+  Max Row (0-indexed):    167
+  Total Columns:          75
+  Total Rows:             168
+  Cells Scanned:          11,121
+  Non-Empty Cells:        8,243
+  Processing Time:        21.74 ms
+  Excel Range:            A1:BW168
+
+[57/86] Processing sheet: 'Detailed Balance Sheet'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 74
+  Max Row (0-indexed):    102
+  Total Columns:          75
+  Total Rows:             103
+  Cells Scanned:          7,088
+  Non-Empty Cells:        5,706
+  Processing Time:        18.55 ms
+  Excel Range:            A1:BW103
+
+[58/86] Processing sheet: 'Detailed Cash Flow Satement'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 74
+  Max Row (0-indexed):    86
+  Total Columns:          75
+  Total Rows:             87
+  Cells Scanned:          6,578
+  Non-Empty Cells:        4,442
+  Processing Time:        18.05 ms
+  Excel Range:            A1:BW87
+
+[59/86] Processing sheet: 'Key Metrics'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 85
+  Max Row (0-indexed):    499
+  Total Columns:          86
+  Total Rows:             500
+  Cells Scanned:          35,356
+  Non-Empty Cells:        15,355
+  Processing Time:        30.55 ms
+  Excel Range:            A1:CH500
+
+[60/86] Processing sheet: 'Revenue by Client'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 73
+  Max Row (0-indexed):    20
+  Total Columns:          74
+  Total Rows:             21
+  Cells Scanned:          5,288
+  Non-Empty Cells:        570
+  Processing Time:        15.39 ms
+  Excel Range:            A1:BV21
+
+[61/86] Processing sheet: 'Client Support'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 133
+  Max Row (0-indexed):    25
+  Total Columns:          134
+  Total Rows:             26
+  Cells Scanned:          6,414
+  Non-Empty Cells:        2,028
+  Processing Time:        15.41 ms
+  Excel Range:            A1:ED26
+
+[62/86] Processing sheet: 'Subscriber Support'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 131
+  Max Row (0-indexed):    25
+  Total Columns:          132
+  Total Rows:             26
+  Cells Scanned:          6,066
+  Non-Empty Cells:        1,582
+  Processing Time:        16.19 ms
+  Excel Range:            A1:EB26
+
+[63/86] Processing sheet: 'Headcount Support'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 87
+  Max Row (0-indexed):    77
+  Total Columns:          88
+  Total Rows:             78
+  Cells Scanned:          6,027
+  Non-Empty Cells:        2,017
+  Processing Time:        15.08 ms
+  Excel Range:            A1:CJ78
+
+[64/86] Processing sheet: 'Salary Support'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 186
+  Max Row (0-indexed):    86
+  Total Columns:          187
+  Total Rows:             87
+  Cells Scanned:          6,491
+  Non-Empty Cells:        2,353
+  Processing Time:        16.17 ms
+  Excel Range:            A1:GE87
+
+[65/86] Processing sheet: 'Bonus Support'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 102
+  Max Row (0-indexed):    75
+  Total Columns:          103
+  Total Rows:             76
+  Cells Scanned:          6,962
+  Non-Empty Cells:        3,988
+  Processing Time:        17.32 ms
+  Excel Range:            A1:CY76
+
+[66/86] Processing sheet: 'Bonus Support (Sales non Ops)'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 102
+  Max Row (0-indexed):    54
+  Total Columns:          103
+  Total Rows:             55
+  Cells Scanned:          7,043
+  Non-Empty Cells:        3,618
+  Processing Time:        16.40 ms
+  Excel Range:            A1:CY55
+
+[67/86] Processing sheet: 'Bonus Support (Sales Ops Only)'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 102
+  Max Row (0-indexed):    75
+  Total Columns:          103
+  Total Rows:             76
+  Cells Scanned:          6,911
+  Non-Empty Cells:        3,717
+  Processing Time:        16.11 ms
+  Excel Range:            A1:CY76
+
+[68/86] Processing sheet: 'Headcount Adds'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 22
+  Max Row (0-indexed):    99
+  Total Columns:          23
+  Total Rows:             100
+  Cells Scanned:          5,000
+  Non-Empty Cells:        1,419
+  Processing Time:        14.52 ms
+  Excel Range:            A1:W100
+
+[69/86] Processing sheet: 'OpEx - Content'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 21
+  Max Row (0-indexed):    138
+  Total Columns:          22
+  Total Rows:             139
+  Cells Scanned:          6,900
+  Non-Empty Cells:        2,410
+  Processing Time:        14.68 ms
+  Excel Range:            A1:V139
+
+[70/86] Processing sheet: 'OpEx - Engineering'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 21
+  Max Row (0-indexed):    138
+  Total Columns:          22
+  Total Rows:             139
+  Cells Scanned:          6,900
+  Non-Empty Cells:        2,514
+  Processing Time:        15.50 ms
+  Excel Range:            A1:V139
+
+[71/86] Processing sheet: 'OpEx - Executive'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 21
+  Max Row (0-indexed):    138
+  Total Columns:          22
+  Total Rows:             139
+  Cells Scanned:          6,900
+  Non-Empty Cells:        2,515
+  Processing Time:        14.54 ms
+  Excel Range:            A1:V139
+
+[72/86] Processing sheet: 'OpEx - Finance & Admin'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 21
+  Max Row (0-indexed):    138
+  Total Columns:          22
+  Total Rows:             139
+  Cells Scanned:          6,900
+  Non-Empty Cells:        2,511
+  Processing Time:        15.52 ms
+  Excel Range:            A1:V139
+
+[73/86] Processing sheet: 'OpEx - Marketing'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 21
+  Max Row (0-indexed):    138
+  Total Columns:          22
+  Total Rows:             139
+  Cells Scanned:          6,900
+  Non-Empty Cells:        2,513
+  Processing Time:        14.73 ms
+  Excel Range:            A1:V139
+
+[74/86] Processing sheet: 'OpEx - Product'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 21
+  Max Row (0-indexed):    138
+  Total Columns:          22
+  Total Rows:             139
+  Cells Scanned:          6,900
+  Non-Empty Cells:        2,514
+  Processing Time:        16.05 ms
+  Excel Range:            A1:V139
+
+[75/86] Processing sheet: 'OpEx - Sales'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 21
+  Max Row (0-indexed):    138
+  Total Columns:          22
+  Total Rows:             139
+  Cells Scanned:          6,900
+  Non-Empty Cells:        2,513
+  Processing Time:        14.09 ms
+  Excel Range:            A1:V139
+
+[76/86] Processing sheet: 'Historical Quota& Productivity'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 59
+  Max Row (0-indexed):    22
+  Total Columns:          60
+  Total Rows:             23
+  Cells Scanned:          5,110
+  Non-Empty Cells:        533
+  Processing Time:        13.99 ms
+  Excel Range:            A1:BH23
+
+[77/86] Processing sheet: 'Fixed Asset Depreciation'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 125
+  Max Row (0-indexed):    20
+  Total Columns:          126
+  Total Rows:             21
+  Cells Scanned:          5,834
+  Non-Empty Cells:        1,355
+  Processing Time:        15.14 ms
+  Excel Range:            A1:DV21
+
+[78/86] Processing sheet: 'INTERNAL>>>'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 1
+  Max Row (0-indexed):    1
+  Total Columns:          2
+  Total Rows:             2
+  Cells Scanned:          5,000
+  Non-Empty Cells:        0
+  Processing Time:        12.41 ms
+  Excel Range:            A1:B2
+
+[79/86] Processing sheet: 'COGS vs. Marginal'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 5
+  Max Row (0-indexed):    102
+  Total Columns:          6
+  Total Rows:             103
+  Cells Scanned:          5,100
+  Non-Empty Cells:        88
+  Processing Time:        13.57 ms
+  Excel Range:            A1:F103
+
+[80/86] Processing sheet: 'Benchmarking'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 15
+  Max Row (0-indexed):    79
+  Total Columns:          16
+  Total Rows:             80
+  Cells Scanned:          5,000
+  Non-Empty Cells:        560
+  Processing Time:        13.27 ms
+  Excel Range:            A1:P80
+
+[81/86] Processing sheet: 'Accrued Expenses'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 28
+  Max Row (0-indexed):    49
+  Total Columns:          29
+  Total Rows:             50
+  Cells Scanned:          5,000
+  Non-Empty Cells:        494
+  Processing Time:        14.52 ms
+  Excel Range:            A1:AC50
+
+[82/86] Processing sheet: 'Prepaid Expenses'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 26
+  Max Row (0-indexed):    81
+  Total Columns:          27
+  Total Rows:             82
+  Cells Scanned:          5,000
+  Non-Empty Cells:        1,187
+  Processing Time:        14.05 ms
+  Excel Range:            A1:AA82
+
+[83/86] Processing sheet: 'Accrued Wages'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 27
+  Max Row (0-indexed):    14
+  Total Columns:          28
+  Total Rows:             15
+  Cells Scanned:          5,000
+  Non-Empty Cells:        310
+  Processing Time:        14.51 ms
+  Excel Range:            A1:AB15
+
+[84/86] Processing sheet: 'Cap R&D Exisiting Runoff'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 62
+  Max Row (0-indexed):    17
+  Total Columns:          63
+  Total Rows:             18
+  Cells Scanned:          5,079
+  Non-Empty Cells:        383
+  Processing Time:        14.04 ms
+  Excel Range:            A1:BK18
+
+[85/86] Processing sheet: 'Deposits'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 25
+  Max Row (0-indexed):    2
+  Total Columns:          26
+  Total Rows:             3
+  Cells Scanned:          5,000
+  Non-Empty Cells:        49
+  Processing Time:        14.63 ms
+  Excel Range:            A1:Z3
+
+[86/86] Processing sheet: 'Tekes Loans'
+--------------------------------------------------------------------------------
+  Calling detector.detect() without chart detection...
+  Detection complete!
+  Max Column (0-indexed): 51
+  Max Row (0-indexed):    60
+  Total Columns:          52
+  Total Rows:             61
+  Cells Scanned:          5,060
+  Non-Empty Cells:        695
+  Processing Time:        13.99 ms
+  Excel Range:            A1:AZ61
+
+================================================================================
+
+Summary for test file creation:
+--------------------------------------------------------------------------------
+  'Summary': {
+    'max_column': 74,
+    'max_row': 65,
+    'range': 'A1:BW66'
+  },
+  'Master Ctrl': {
+    'max_column': 5,
+    'max_row': 32,
+    'range': 'A1:F33'
+  },
+  'Dash Control': {
+    'max_column': 175,
+    'max_row': 65,
+    'range': 'A1:FT66'
+  },
+  'Dash': {
+    'max_column': 175,
+    'max_row': 372,
+    'range': 'A1:FT373'
+  },
+  'CAC by Segment': {
+    'max_column': 175,
+    'max_row': 140,
+    'range': 'A1:FT141'
+  },
+  'Payback Period': {
+    'max_column': 16,
+    'max_row': 804,
+    'range': 'A1:Q805'
+  },
+  'Fin CTRL': {
+    'max_column': 175,
+    'max_row': 188,
+    'range': 'A1:FT189'
+  },
+  'Fin': {
+    'max_column': 175,
+    'max_row': 836,
+    'range': 'A1:FT837'
+  },
+  'Debt Compliance': {
+    'max_column': 133,
+    'max_row': 52,
+    'range': 'A1:ED53'
+  },
+  'ARR and Revenue -->': {
+    'max_column': 1,
+    'max_row': 1,
+    'range': 'A1:B2'
+  },
+  'ARR and Rev CTRL': {
+    'max_column': 175,
+    'max_row': 317,
+    'range': 'A1:FT318'
+  },
+  'Sales Prod Input': {
+    'max_column': 16,
+    'max_row': 29,
+    'range': 'A1:Q30'
+  },
+  'ARR and Revenue': {
+    'max_column': 175,
+    'max_row': 232,
+    'range': 'A1:FT233'
+  },
+  'Sales CTRL': {
+    'max_column': 175,
+    'max_row': 574,
+    'range': 'A1:FT575'
+  },
+  'Sales Role Input': {
+    'max_column': 125,
+    'max_row': 57,
+    'range': 'A1:DV58'
+  },
+  'Sales Reps': {
+    'max_column': 175,
+    'max_row': 523,
+    'range': 'A1:FT524'
+  },
+  'Clients CTRL': {
+    'max_column': 175,
+    'max_row': 77,
+    'range': 'A1:FT78'
+  },
+  'Clients': {
+    'max_column': 174,
+    'max_row': 67,
+    'range': 'A1:FS68'
+  },
+  'Retention CTRL': {
+    'max_column': 175,
+    'max_row': 45,
+    'range': 'A1:FT46'
+  },
+  'Retention': {
+    'max_column': 175,
+    'max_row': 85,
+    'range': 'A1:FT86'
+  },
+  'Renewed': {
+    'max_column': 14,
+    'max_row': 7599,
+    'range': 'A1:O7600'
+  },
+  'Renewal Base': {
+    'max_column': 14,
+    'max_row': 1858,
+    'range': 'A1:O1859'
+  },
+  'Deferred Build': {
+    'max_column': 175,
+    'max_row': 33,
+    'range': 'A1:FT34'
+  },
+  'Expenses -->': {
+    'max_column': 1,
+    'max_row': 1,
+    'range': 'A1:B2'
+  },
+  'Headcount and Salaries CTRL': {
+    'max_column': 175,
+    'max_row': 151,
+    'range': 'A1:FT152'
+  },
+  'Headcount and Salaries': {
+    'max_column': 175,
+    'max_row': 193,
+    'range': 'A1:FT194'
+  },
+  'Opex CTRL': {
+    'max_column': 175,
+    'max_row': 2491,
+    'range': 'A1:FT2492'
+  },
+  'Operating Expenses': {
+    'max_column': 175,
+    'max_row': 231,
+    'range': 'A1:FT232'
+  },
+  'Content': {
+    'max_column': 175,
+    'max_row': 398,
+    'range': 'A1:FT399'
+  },
+  'Engineering': {
+    'max_column': 175,
+    'max_row': 396,
+    'range': 'A1:FT397'
+  },
+  'Executive': {
+    'max_column': 175,
+    'max_row': 398,
+    'range': 'A1:FT399'
+  },
+  'Finance & Admin': {
+    'max_column': 175,
+    'max_row': 404,
+    'range': 'A1:FT405'
+  },
+  'Marketing': {
+    'max_column': 175,
+    'max_row': 384,
+    'range': 'A1:FT385'
+  },
+  'Product': {
+    'max_column': 175,
+    'max_row': 397,
+    'range': 'A1:FT398'
+  },
+  'Sales': {
+    'max_column': 175,
+    'max_row': 404,
+    'range': 'A1:FT405'
+  },
+  'Commission Waterfall': {
+    'max_column': 175,
+    'max_row': 582,
+    'range': 'A1:FT583'
+  },
+  'Bad Debt': {
+    'max_column': 97,
+    'max_row': 23,
+    'range': 'A1:CT24'
+  },
+  'COGS CTRL': {
+    'max_column': 175,
+    'max_row': 1589,
+    'range': 'A1:FT1590'
+  },
+  'Cost of Goods Sold': {
+    'max_column': 175,
+    'max_row': 816,
+    'range': 'A1:FT817'
+  },
+  'Total FDS Cost': {
+    'max_column': 107,
+    'max_row': 46,
+    'range': 'A1:DD47'
+  },
+  'FDS AMR': {
+    'max_column': 107,
+    'max_row': 88,
+    'range': 'A1:DD89'
+  },
+  'Direct Broker': {
+    'max_column': 174,
+    'max_row': 254,
+    'range': 'A1:FS255'
+  },
+  'Additional FDS Content': {
+    'max_column': 109,
+    'max_row': 111,
+    'range': 'A1:DF112'
+  },
+  'FDS User Growth': {
+    'max_column': 107,
+    'max_row': 296,
+    'range': 'A1:DD297'
+  },
+  'FDS RT Minimums': {
+    'max_column': 9,
+    'max_row': 25,
+    'range': 'A1:J26'
+  },
+  'User Split Support-->': {
+    'max_column': 1,
+    'max_row': 1,
+    'range': 'A1:B2'
+  },
+  'Product User Splits': {
+    'max_column': 67,
+    'max_row': 117,
+    'range': 'A1:BP118'
+  },
+  'TR BRM': {
+    'max_column': 28,
+    'max_row': 43,
+    'range': 'A1:AC44'
+  },
+  'AMR': {
+    'max_column': 27,
+    'max_row': 25,
+    'range': 'A1:AB26'
+  },
+  'LN': {
+    'max_column': 19,
+    'max_row': 9,
+    'range': 'A1:T10'
+  },
+  'DJ': {
+    'max_column': 19,
+    'max_row': 6,
+    'range': 'A1:T7'
+  },
+  'TR Transcripts': {
+    'max_column': 19,
+    'max_row': 16,
+    'range': 'A1:T17'
+  },
+  'FS Transcripts': {
+    'max_column': 19,
+    'max_row': 14,
+    'range': 'A1:T15'
+  },
+  'Filings': {
+    'max_column': 19,
+    'max_row': 7,
+    'range': 'A1:T8'
+  },
+  'Support>>>': {
+    'max_column': 1,
+    'max_row': 1,
+    'range': 'A1:B2'
+  },
+  'Detailed Income Statement': {
+    'max_column': 74,
+    'max_row': 167,
+    'range': 'A1:BW168'
+  },
+  'Detailed Balance Sheet': {
+    'max_column': 74,
+    'max_row': 102,
+    'range': 'A1:BW103'
+  },
+  'Detailed Cash Flow Satement': {
+    'max_column': 74,
+    'max_row': 86,
+    'range': 'A1:BW87'
+  },
+  'Key Metrics': {
+    'max_column': 85,
+    'max_row': 499,
+    'range': 'A1:CH500'
+  },
+  'Revenue by Client': {
+    'max_column': 73,
+    'max_row': 20,
+    'range': 'A1:BV21'
+  },
+  'Client Support': {
+    'max_column': 133,
+    'max_row': 25,
+    'range': 'A1:ED26'
+  },
+  'Subscriber Support': {
+    'max_column': 131,
+    'max_row': 25,
+    'range': 'A1:EB26'
+  },
+  'Headcount Support': {
+    'max_column': 87,
+    'max_row': 77,
+    'range': 'A1:CJ78'
+  },
+  'Salary Support': {
+    'max_column': 186,
+    'max_row': 86,
+    'range': 'A1:GE87'
+  },
+  'Bonus Support': {
+    'max_column': 102,
+    'max_row': 75,
+    'range': 'A1:CY76'
+  },
+  'Bonus Support (Sales non Ops)': {
+    'max_column': 102,
+    'max_row': 54,
+    'range': 'A1:CY55'
+  },
+  'Bonus Support (Sales Ops Only)': {
+    'max_column': 102,
+    'max_row': 75,
+    'range': 'A1:CY76'
+  },
+  'Headcount Adds': {
+    'max_column': 22,
+    'max_row': 99,
+    'range': 'A1:W100'
+  },
+  'OpEx - Content': {
+    'max_column': 21,
+    'max_row': 138,
+    'range': 'A1:V139'
+  },
+  'OpEx - Engineering': {
+    'max_column': 21,
+    'max_row': 138,
+    'range': 'A1:V139'
+  },
+  'OpEx - Executive': {
+    'max_column': 21,
+    'max_row': 138,
+    'range': 'A1:V139'
+  },
+  'OpEx - Finance & Admin': {
+    'max_column': 21,
+    'max_row': 138,
+    'range': 'A1:V139'
+  },
+  'OpEx - Marketing': {
+    'max_column': 21,
+    'max_row': 138,
+    'range': 'A1:V139'
+  },
+  'OpEx - Product': {
+    'max_column': 21,
+    'max_row': 138,
+    'range': 'A1:V139'
+  },
+  'OpEx - Sales': {
+    'max_column': 21,
+    'max_row': 138,
+    'range': 'A1:V139'
+  },
+  'Historical Quota& Productivity': {
+    'max_column': 59,
+    'max_row': 22,
+    'range': 'A1:BH23'
+  },
+  'Fixed Asset Depreciation': {
+    'max_column': 125,
+    'max_row': 20,
+    'range': 'A1:DV21'
+  },
+  'INTERNAL>>>': {
+    'max_column': 1,
+    'max_row': 1,
+    'range': 'A1:B2'
+  },
+  'COGS vs. Marginal': {
+    'max_column': 5,
+    'max_row': 102,
+    'range': 'A1:F103'
+  },
+  'Benchmarking': {
+    'max_column': 15,
+    'max_row': 79,
+    'range': 'A1:P80'
+  },
+  'Accrued Expenses': {
+    'max_column': 28,
+    'max_row': 49,
+    'range': 'A1:AC50'
+  },
+  'Prepaid Expenses': {
+    'max_column': 26,
+    'max_row': 81,
+    'range': 'A1:AA82'
+  },
+  'Accrued Wages': {
+    'max_column': 27,
+    'max_row': 14,
+    'range': 'A1:AB15'
+  },
+  'Cap R&D Exisiting Runoff': {
+    'max_column': 62,
+    'max_row': 17,
+    'range': 'A1:BK18'
+  },
+  'Deposits': {
+    'max_column': 25,
+    'max_row': 2,
+    'range': 'A1:Z3'
+  },
+  'Tekes Loans': {
+    'max_column': 51,
+    'max_row': 60,
+    'range': 'A1:AZ61'
+  },

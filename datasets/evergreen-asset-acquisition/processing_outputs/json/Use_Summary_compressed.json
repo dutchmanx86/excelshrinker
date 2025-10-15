@@ -1,0 +1,785 @@
+{
+  "inverted_index": {
+    "Summary": {
+      "type": "string",
+      "ranges": [
+        "A2",
+        "B71"
+      ]
+    },
+    "Total": {
+      "type": "string",
+      "ranges": [
+        "F3",
+        "B23"
+      ]
+    },
+    "Terminal": {
+      "type": "string",
+      "ranges": [
+        "B39",
+        "B53"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Use_Summary",
+    "format_ranges": [
+      {
+        "range": "A1",
+        "type": "string",
+        "value": "EVG LA/LB Model"
+      },
+      {
+        "range": "G1",
+        "type": "string",
+        "value": "CONFIDENTIAL"
+      },
+      {
+        "range": "D4",
+        "type": "string",
+        "value": "Yr. 1 PF"
+      },
+      {
+        "range": "B6",
+        "type": "string",
+        "value": "Transaction Overview"
+      },
+      {
+        "range": "B7",
+        "type": "string",
+        "value": "Purchased Chassis"
+      },
+      {
+        "range": "D7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B8",
+        "type": "string",
+        "value": "Purchase Price/Chassis"
+      },
+      {
+        "range": "D8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B9",
+        "type": "string",
+        "value": "Payment for New Chassis ($000s)"
+      },
+      {
+        "range": "D9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B10",
+        "type": "string",
+        "value": "Reconditioning Costs"
+      },
+      {
+        "range": "D10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B11",
+        "type": "string",
+        "value": "Decouping Costs"
+      },
+      {
+        "range": "D11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B12",
+        "type": "string",
+        "value": "Repositioning Savings"
+      },
+      {
+        "range": "D12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B13",
+        "type": "string",
+        "value": "Retitling Costs"
+      },
+      {
+        "range": "D13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B14",
+        "type": "string",
+        "value": "Stenciling Costs"
+      },
+      {
+        "range": "B15",
+        "type": "string",
+        "value": "Working Capital Investment"
+      },
+      {
+        "range": "D15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B16",
+        "type": "string",
+        "value": "Offhire Costs"
+      },
+      {
+        "range": "D16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B17",
+        "type": "string",
+        "value": "Total Transaction Cost"
+      },
+      {
+        "range": "D17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B19",
+        "type": "string",
+        "value": "Chassis Fleet Summary"
+      },
+      {
+        "range": "B20",
+        "type": "string",
+        "value": "Chassis Acquired"
+      },
+      {
+        "range": "B21",
+        "type": "string",
+        "value": "Retained"
+      },
+      {
+        "range": "D21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B22",
+        "type": "string",
+        "value": "Scrapped"
+      },
+      {
+        "range": "D22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B25",
+        "type": "string",
+        "value": "EVG Pooled Chassis"
+      },
+      {
+        "range": "B26",
+        "type": "string",
+        "value": "Chassis Decouped at Close"
+      },
+      {
+        "range": "D26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B27",
+        "type": "string",
+        "value": "Chassis to be Used for EVG FFU"
+      },
+      {
+        "range": "D27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B29",
+        "type": "string",
+        "value": "Surplus (Shortage) of Chassis"
+      },
+      {
+        "range": "D29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B31",
+        "type": "string",
+        "value": "DCLI Chassis Backfill (Leased from Flexi)"
+      },
+      {
+        "range": "D31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B33",
+        "type": "string",
+        "value": "Usage Agreement"
+      },
+      {
+        "range": "B34",
+        "type": "string",
+        "value": "Chassis Contributed per Day"
+      },
+      {
+        "range": "D34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B36",
+        "type": "string",
+        "value": "Chassis Used per Day"
+      },
+      {
+        "range": "B37",
+        "type": "string",
+        "value": "MH"
+      },
+      {
+        "range": "D37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B38",
+        "type": "string",
+        "value": "CH"
+      },
+      {
+        "range": "D38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B40",
+        "type": "string",
+        "value": "Total Utilization (Chassis per Day)"
+      },
+      {
+        "range": "D40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B41",
+        "type": "string",
+        "value": "Total Utilization (%)"
+      },
+      {
+        "range": "D41",
+        "type": "number"
+      },
+      {
+        "range": "F41",
+        "type": "number"
+      },
+      {
+        "range": "B42",
+        "type": "string",
+        "value": "Street Utilization (% of Total)"
+      },
+      {
+        "range": "D42",
+        "type": "number"
+      },
+      {
+        "range": "B43",
+        "type": "string",
+        "value": "MH % of Street"
+      },
+      {
+        "range": "D43",
+        "type": "number"
+      },
+      {
+        "range": "F43",
+        "type": "number"
+      },
+      {
+        "range": "B45",
+        "type": "string",
+        "value": "MH%"
+      },
+      {
+        "range": "B46",
+        "type": "string",
+        "value": "CH%"
+      },
+      {
+        "range": "D46",
+        "type": "number"
+      },
+      {
+        "range": "B47",
+        "type": "string",
+        "value": "Terminal %"
+      },
+      {
+        "range": "D47",
+        "type": "number"
+      },
+      {
+        "range": "B48",
+        "type": "string",
+        "value": "Net Lease %"
+      },
+      {
+        "range": "T48",
+        "type": "string",
+        "value": "NYK Rate Inflation"
+      },
+      {
+        "range": "B50",
+        "type": "string",
+        "value": "Rates (2014)"
+      },
+      {
+        "range": "B51",
+        "type": "string",
+        "value": "MH"
+      },
+      {
+        "range": "D51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B52",
+        "type": "string",
+        "value": "CH"
+      },
+      {
+        "range": "D52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B55",
+        "type": "string",
+        "value": "Cost Summary (per Usage Day) - 2014"
+      },
+      {
+        "range": "B57",
+        "type": "string",
+        "value": "Usage Days"
+      },
+      {
+        "range": "D57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B58",
+        "type": "string",
+        "value": "$ M&R"
+      },
+      {
+        "range": "D58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B59",
+        "type": "string",
+        "value": "$ Repositioning"
+      },
+      {
+        "range": "B60",
+        "type": "string",
+        "value": "$ Storage"
+      },
+      {
+        "range": "D60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B61",
+        "type": "string",
+        "value": "$ Overhead"
+      },
+      {
+        "range": "B63",
+        "type": "string",
+        "value": "M&R"
+      },
+      {
+        "range": "D63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B64",
+        "type": "string",
+        "value": "Admin"
+      },
+      {
+        "range": "D64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B65",
+        "type": "string",
+        "value": "Repo"
+      },
+      {
+        "range": "D65",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B66",
+        "type": "string",
+        "value": "Storage"
+      },
+      {
+        "range": "D66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B67",
+        "type": "string",
+        "value": "Lease Expense ($2.65/every day)"
+      },
+      {
+        "range": "B68",
+        "type": "string",
+        "value": "Revenue Sharing ($1.00/street day)"
+      },
+      {
+        "range": "B69",
+        "type": "string",
+        "value": "Other"
+      },
+      {
+        "range": "D69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B73",
+        "type": "string",
+        "value": "Contributed Days"
+      },
+      {
+        "range": "D73",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F73",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B74",
+        "type": "string",
+        "value": "Revenue (2014E)"
+      },
+      {
+        "range": "D74",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B75",
+        "type": "string",
+        "value": "Expense (2014E)"
+      },
+      {
+        "range": "D75",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B76",
+        "type": "string",
+        "value": "EBITDA (2014E)"
+      },
+      {
+        "range": "D76",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F76",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B77",
+        "type": "string",
+        "value": "EBITDA Margin (2014E)"
+      },
+      {
+        "range": "D77",
+        "type": "number"
+      },
+      {
+        "range": "B79",
+        "type": "string",
+        "value": "EBITDA per Usage Day (2014E)"
+      },
+      {
+        "range": "D79",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B80",
+        "type": "string",
+        "value": "EBITDA per Contributed Day (2014E)"
+      },
+      {
+        "range": "D80",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B81",
+        "type": "string",
+        "value": "Depreciated Value 10-year Unlevered IRR"
+      },
+      {
+        "range": "D81",
+        "type": "number"
+      },
+      {
+        "range": "F81",
+        "type": "string",
+        "value": "nm"
+      },
+      {
+        "range": "B82",
+        "type": "string",
+        "value": "TEV 10x Exit Multiple Unlevered IRR"
+      },
+      {
+        "range": "D82",
+        "type": "number"
+      },
+      {
+        "range": "B83",
+        "type": "string",
+        "value": "NPV - 10-year"
+      },
+      {
+        "range": "D83",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B85",
+        "type": "string",
+        "value": "Total Investment (incl. WC)"
+      },
+      {
+        "range": "D85",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B86",
+        "type": "string",
+        "value": "Purchase Multiple1"
+      },
+      {
+        "range": "D86",
+        "type": "number"
+      },
+      {
+        "range": "B88",
+        "type": "string",
+        "value": "1.  PO price over Year 2 EBITDA in Lease w PO scenario"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 809.99,
+      "cells_analyzed": 154,
+      "total_ranges": 154,
+      "format_counts": {
+        "string": 74,
+        "number": 80
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T18:32:15.069023Z"
+    }
+  },
+  "compression_stats": {
+    "unique_values": 3,
+    "entries_moved_to_index": 6,
+    "entries_remaining": 148,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 8108,
+    "compressed_size_bytes": 7963,
+    "inverted_index_size_bytes": 151,
+    "compressed_data_size_bytes": 7812,
+    "compression_ratio": 0.982,
+    "space_saved_bytes": 145,
+    "space_saved_percent": 1.8
+  }
+}

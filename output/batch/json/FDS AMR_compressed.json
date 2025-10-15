@@ -1,0 +1,919 @@
+{
+  "inverted_index": {
+    "% Active": {
+      "type": "string",
+      "ranges": [
+        "B6",
+        "B15"
+      ]
+    },
+    "Total Bookings": {
+      "type": "string",
+      "ranges": [
+        "B10",
+        "B18",
+        "B22"
+      ]
+    },
+    "Active Users": {
+      "type": "string",
+      "ranges": [
+        "B16",
+        "B28"
+      ]
+    },
+    "Active Trialer Users": {
+      "type": "string",
+      "ranges": [
+        "B20",
+        "B35"
+      ]
+    },
+    "Active - Documents Purchased": {
+      "type": "string",
+      "ranges": [
+        "B29",
+        "B47",
+        "B56"
+      ]
+    },
+    "Trialers - Documents Purchased": {
+      "type": "string",
+      "ranges": [
+        "B37",
+        "B48",
+        "B57"
+      ]
+    },
+    "Internal - Documents Purchased": {
+      "type": "string",
+      "ranges": [
+        "B43",
+        "B49",
+        "B58"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "FDS AMR",
+    "format_ranges": [
+      {
+        "range": "D2:K2",
+        "type": "number"
+      },
+      {
+        "range": "M2:DD2",
+        "type": "number"
+      },
+      {
+        "range": "D2:K2",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "M2:DD2",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "D3:K3",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "M3:DD3",
+        "type": "date",
+        "date_series_id": "ds_3"
+      },
+      {
+        "range": "B5",
+        "type": "string",
+        "value": "FDS AMR"
+      },
+      {
+        "range": "D5:K5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M5:DD5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D6:K6",
+        "type": "number"
+      },
+      {
+        "range": "M6:DD6",
+        "type": "number"
+      },
+      {
+        "range": "B7",
+        "type": "string",
+        "value": "% Trialers"
+      },
+      {
+        "range": "D7:K7",
+        "type": "number"
+      },
+      {
+        "range": "M7:DD7",
+        "type": "number"
+      },
+      {
+        "range": "B8",
+        "type": "string",
+        "value": "% Internal"
+      },
+      {
+        "range": "D8:K8",
+        "type": "number"
+      },
+      {
+        "range": "M8:DD8",
+        "type": "number"
+      },
+      {
+        "range": "D10:K10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M10:DD10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B12",
+        "type": "string",
+        "value": "Users"
+      },
+      {
+        "range": "B14",
+        "type": "string",
+        "value": "FDS Entitled AMR Users"
+      },
+      {
+        "range": "D14:K14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M14:DD14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D15:K15",
+        "type": "number"
+      },
+      {
+        "range": "M15:DD15",
+        "type": "number"
+      },
+      {
+        "range": "D16:K16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M16:DD16",
+        "type": "number"
+      },
+      {
+        "range": "D18:K18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M18:DD18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B19",
+        "type": "string",
+        "value": "Bookings per Active Trialer"
+      },
+      {
+        "range": "D19:K19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M19:DD19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D20:K20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M20:DD20",
+        "type": "number"
+      },
+      {
+        "range": "D22:K22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M22:DD22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B23",
+        "type": "string",
+        "value": "Bookings per Internal User"
+      },
+      {
+        "range": "D23:K23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M23:DD23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B24",
+        "type": "string",
+        "value": "Active Internal Users"
+      },
+      {
+        "range": "D24:K24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M24:DD24",
+        "type": "number"
+      },
+      {
+        "range": "B26",
+        "type": "string",
+        "value": "Docs Purchased per User Type"
+      },
+      {
+        "range": "D28:K28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M28:Q28",
+        "type": "number"
+      },
+      {
+        "range": "R28:DD28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D29:K29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M29:DD29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B30",
+        "type": "string",
+        "value": "Active - Unadjusted Pages Purchased"
+      },
+      {
+        "range": "D30:K30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M30:DD30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B31",
+        "type": "string",
+        "value": "FDS AMR Consumption"
+      },
+      {
+        "range": "D31:K31",
+        "type": "number"
+      },
+      {
+        "range": "M31:DD31",
+        "type": "number"
+      },
+      {
+        "range": "B32",
+        "type": "string",
+        "value": "FDS AMR Unadjusted Pages Purchased"
+      },
+      {
+        "range": "D32:K32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M32:DD32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B33",
+        "type": "string",
+        "value": "Pages per Document"
+      },
+      {
+        "range": "D33:K33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M33:DD33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D35:K35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M35:DD35",
+        "type": "number"
+      },
+      {
+        "range": "B36",
+        "type": "string",
+        "value": "Docs per Trialer User"
+      },
+      {
+        "range": "D36:K36",
+        "type": "number"
+      },
+      {
+        "range": "M36:Q36",
+        "type": "number"
+      },
+      {
+        "range": "R36:DD36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D37:K37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M37:DD37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B39",
+        "type": "string",
+        "value": "Internal Users"
+      },
+      {
+        "range": "D39:K39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M39:DD39",
+        "type": "number"
+      },
+      {
+        "range": "B40",
+        "type": "string",
+        "value": "Docs per Internal User"
+      },
+      {
+        "range": "D40:K40",
+        "type": "number"
+      },
+      {
+        "range": "M40:Q40",
+        "type": "number"
+      },
+      {
+        "range": "R40:DD40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B41",
+        "type": "string",
+        "value": "Docs Read"
+      },
+      {
+        "range": "D41:K41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M41:Q41",
+        "type": "number"
+      },
+      {
+        "range": "R41:DD41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B42",
+        "type": "string",
+        "value": "Internal - Docs Minimum"
+      },
+      {
+        "range": "D42:K42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M42:DD42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D43:K43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M43:DD43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B45",
+        "type": "string",
+        "value": "Total Docs Purchased"
+      },
+      {
+        "range": "D47:K47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M47:DD47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D48:K48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M48:DD48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D49:K49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M49:DD49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B50",
+        "type": "string",
+        "value": "Total Documents Purchased"
+      },
+      {
+        "range": "D50:K50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M50:DD50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B52",
+        "type": "string",
+        "value": "Reduction"
+      },
+      {
+        "range": "D52:K52",
+        "type": "number"
+      },
+      {
+        "range": "M52:DD52",
+        "type": "number"
+      },
+      {
+        "range": "B54",
+        "type": "string",
+        "value": "Total Docs Purchased - Reduction"
+      },
+      {
+        "range": "D56:K56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M56:DD56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D57:K57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M57:DD57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D58:K58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M58:DD58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B59",
+        "type": "string",
+        "value": "Adjusted Documents Purchased"
+      },
+      {
+        "range": "D59:K59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M59:DD59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B61",
+        "type": "string",
+        "value": "Annual Documents Read"
+      },
+      {
+        "range": "D61:K61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M61:DD61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B62",
+        "type": "string",
+        "value": "Total Document Minimum - Tier 1"
+      },
+      {
+        "range": "D62:K62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M62:DD62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B63",
+        "type": "string",
+        "value": "Total Document Minimum - Tier 2"
+      },
+      {
+        "range": "M63:DD63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B64",
+        "type": "string",
+        "value": "Total Document Minimum - Tier 3"
+      },
+      {
+        "range": "M64:DD64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B65",
+        "type": "string",
+        "value": "Total Document Read - Tier 1"
+      },
+      {
+        "range": "D65:K65",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M65:DD65",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B66",
+        "type": "string",
+        "value": "Total Document Read - Tier 2"
+      },
+      {
+        "range": "D66:K66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M66:DD66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B67",
+        "type": "string",
+        "value": "Total Document Read - Tier 3"
+      },
+      {
+        "range": "M67:DD67",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B68",
+        "type": "string",
+        "value": "Total Document Read - Excess"
+      },
+      {
+        "range": "M68:DD68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B70",
+        "type": "string",
+        "value": "Document Cost - Tier 1"
+      },
+      {
+        "range": "D70:K70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M70:DD70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B71",
+        "type": "string",
+        "value": "Document Cost - Tier 2"
+      },
+      {
+        "range": "D71:K71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M71:DD71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B72",
+        "type": "string",
+        "value": "Document Cost - Tier 3"
+      },
+      {
+        "range": "D72:K72",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M72:DD72",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B73",
+        "type": "string",
+        "value": "Document Cost - Excess"
+      },
+      {
+        "range": "D73:K73",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M73:DD73",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B75",
+        "type": "string",
+        "value": "Total Document Cost - Tier 1"
+      },
+      {
+        "range": "D75:K75",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M75:DD75",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B76",
+        "type": "string",
+        "value": "Total Document Cost - Tier 2"
+      },
+      {
+        "range": "D76:K76",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M76:DD76",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B77",
+        "type": "string",
+        "value": "Total Document Cost - Tier 3"
+      },
+      {
+        "range": "T77:DD77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B78",
+        "type": "string",
+        "value": "Total Document Cost - Tier 4"
+      },
+      {
+        "range": "T78:DD78",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B79",
+        "type": "string",
+        "value": "Total Document Cost"
+      },
+      {
+        "range": "D79:K79",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M79:DD79",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B81",
+        "type": "string",
+        "value": "FactSet AMR Minimum"
+      },
+      {
+        "range": "D81:K81",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M81:DD81",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B83",
+        "type": "string",
+        "value": "Total FactSet AMR Cost"
+      },
+      {
+        "range": "D83:K83",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M83:DD83",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B85",
+        "type": "string",
+        "value": "Rollover Balance"
+      },
+      {
+        "range": "M85:DD85",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B86",
+        "type": "string",
+        "value": "Excess Over Minimum"
+      },
+      {
+        "range": "M86:DD86",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B87",
+        "type": "string",
+        "value": "Adjusted Excess"
+      },
+      {
+        "range": "M87:DD87",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B89",
+        "type": "string",
+        "value": "Total Adjusted FactSet AMR Cost"
+      },
+      {
+        "range": "D89:K89",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M89:DD89",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 1418.7,
+      "cells_analyzed": 6426,
+      "total_ranges": 185,
+      "format_counts": {
+        "number": 117,
+        "date": 4,
+        "string": 64
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T11:02:54.881410Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "annual",
+        "increment": "1 year",
+        "start_date": "2020-01-01",
+        "pattern": "Annual series from 2020 to 2027"
+      },
+      "ds_2": {
+        "series_type": "repeating_annual",
+        "increment": "12 months (annual)",
+        "start_date": "2020-01-01",
+        "pattern": "Annual values repeating 12 times from 2020 to 2027"
+      },
+      "ds_3": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2020-01-31",
+        "pattern": "Monthly series from 2020-01 to 2027-12"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 7,
+    "entries_moved_to_index": 18,
+    "entries_remaining": 167,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 10538,
+    "compressed_size_bytes": 9853,
+    "inverted_index_size_bytes": 474,
+    "compressed_data_size_bytes": 9379,
+    "compression_ratio": 0.935,
+    "space_saved_bytes": 685,
+    "space_saved_percent": 6.5
+  }
+}

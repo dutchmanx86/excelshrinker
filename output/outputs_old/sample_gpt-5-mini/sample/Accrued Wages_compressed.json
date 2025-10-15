@@ -1,0 +1,202 @@
+{
+  "inverted_index": {},
+  "data": {
+    "success": true,
+    "sheet_name": "Accrued Wages",
+    "format_ranges": [
+      {
+        "range": "C1:Z1",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "B2",
+        "type": "string",
+        "value": "Acc. of pension insurance fees(accruals)"
+      },
+      {
+        "range": "A2",
+        "type": "number"
+      },
+      {
+        "range": "C2:Z2",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B3",
+        "type": "string",
+        "value": "Accrual of employer's statutory ins. pmt"
+      },
+      {
+        "range": "A3",
+        "type": "number"
+      },
+      {
+        "range": "C3:Z3",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B4",
+        "type": "string",
+        "value": "Pension pre-payments"
+      },
+      {
+        "range": "A4",
+        "type": "number"
+      },
+      {
+        "range": "C4:Z4",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B5",
+        "type": "string",
+        "value": "Unemployment pre-payment"
+      },
+      {
+        "range": "A5",
+        "type": "number"
+      },
+      {
+        "range": "C5:Z5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B6",
+        "type": "string",
+        "value": "Accident insurance pre-payment"
+      },
+      {
+        "range": "A6",
+        "type": "number"
+      },
+      {
+        "range": "C6:Z6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B7",
+        "type": "string",
+        "value": "Life insurance pre-payment"
+      },
+      {
+        "range": "A7",
+        "type": "number"
+      },
+      {
+        "range": "C7:Z7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B8",
+        "type": "string",
+        "value": "Calculated social costs"
+      },
+      {
+        "range": "A8",
+        "type": "number"
+      },
+      {
+        "range": "C8:Z8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B9",
+        "type": "string",
+        "value": "Pension held from workers"
+      },
+      {
+        "range": "A9",
+        "type": "number"
+      },
+      {
+        "range": "C9:Z9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B10",
+        "type": "string",
+        "value": "Unemployment held from workers"
+      },
+      {
+        "range": "A10",
+        "type": "number"
+      },
+      {
+        "range": "C10:Z10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B12",
+        "type": "string",
+        "value": "Total 21225 Accured finish side costs"
+      },
+      {
+        "range": "C12:Z12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA12",
+        "type": "number"
+      },
+      {
+        "range": "B13",
+        "type": "string",
+        "value": "USD"
+      },
+      {
+        "range": "C13:Z13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A14",
+        "type": "number"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 2100.12,
+      "cells_analyzed": 310,
+      "total_ranges": 34,
+      "format_counts": {
+        "date": 1,
+        "string": 11,
+        "number": 22
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-14T01:37:40.362293Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2020-01-31",
+        "pattern": "Monthly series from 2020-01 to 2021-12"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 0,
+    "entries_moved_to_index": 0,
+    "entries_remaining": 34,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 2101,
+    "compressed_size_bytes": 2103,
+    "inverted_index_size_bytes": 2,
+    "compressed_data_size_bytes": 2101,
+    "compression_ratio": 1.001,
+    "space_saved_bytes": -2,
+    "space_saved_percent": -0.1
+  }
+}

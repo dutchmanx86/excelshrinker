@@ -1,0 +1,1108 @@
+{
+  "inverted_index": {
+    "Total Headcount": {
+      "type": "string",
+      "ranges": [
+        "B16",
+        "B66"
+      ]
+    },
+    "Base - $25mm": {
+      "type": "string",
+      "ranges": [
+        "B18",
+        "B28",
+        "B38",
+        "B48",
+        "B58",
+        "B68",
+        "B75",
+        "B84",
+        "B90",
+        "B100",
+        "B108",
+        "B116",
+        "B124",
+        "B132",
+        "B140",
+        "B148"
+      ]
+    },
+    "Growth - $25mm": {
+      "type": "string",
+      "ranges": [
+        "B19",
+        "B29",
+        "B39",
+        "B49",
+        "B59",
+        "B69",
+        "B76",
+        "B85",
+        "B91",
+        "B101",
+        "B109",
+        "B117",
+        "B125",
+        "B133",
+        "B141",
+        "B149"
+      ]
+    },
+    "Base - $50mm": {
+      "type": "string",
+      "ranges": [
+        "B20",
+        "B30",
+        "B40",
+        "B50",
+        "B60",
+        "B70",
+        "B77",
+        "B86",
+        "B92",
+        "B102",
+        "B110",
+        "B118",
+        "B126",
+        "B134",
+        "B142",
+        "B150"
+      ]
+    },
+    "Base - $50mm (R&D)": {
+      "type": "string",
+      "ranges": [
+        "B21",
+        "B31",
+        "B41",
+        "B51",
+        "B61",
+        "B71",
+        "B78",
+        "B87",
+        "B93",
+        "B103",
+        "B111",
+        "B119",
+        "B127",
+        "B135",
+        "B143",
+        "B151"
+      ]
+    },
+    "Annual Increase": {
+      "type": "string",
+      "ranges": [
+        "B98",
+        "B106",
+        "B114",
+        "B122",
+        "B130",
+        "B138",
+        "B146"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Headcount and Salaries CTRL",
+    "format_ranges": [
+      {
+        "range": "B1",
+        "type": "string",
+        "value": "AlphaSense, Inc."
+      },
+      {
+        "range": "B2",
+        "type": "string",
+        "value": "Headcount and Salaries CTRL"
+      },
+      {
+        "range": "B3",
+        "type": "string",
+        "value": "1 - Base - $25mm"
+      },
+      {
+        "range": "B6",
+        "type": "string",
+        "value": "Year"
+      },
+      {
+        "range": "E6:Q6",
+        "type": "number"
+      },
+      {
+        "range": "T6:FS6",
+        "type": "number"
+      },
+      {
+        "range": "E6:Q6",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "T6:FS6",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "B7",
+        "type": "string",
+        "value": "Month"
+      },
+      {
+        "range": "T7:FS7",
+        "type": "number"
+      },
+      {
+        "range": "E8:Q8",
+        "type": "number"
+      },
+      {
+        "range": "T8:FS8",
+        "type": "date",
+        "date_series_id": "ds_3"
+      },
+      {
+        "range": "A11",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B11",
+        "type": "string",
+        "value": "Headcount"
+      },
+      {
+        "range": "A14",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B14",
+        "type": "string",
+        "value": "Executive"
+      },
+      {
+        "range": "E16:Q16",
+        "type": "number"
+      },
+      {
+        "range": "A17",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B17",
+        "type": "string",
+        "value": "Executive Headcount Added in Period"
+      },
+      {
+        "range": "E17:Q17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T17:FS17",
+        "type": "number"
+      },
+      {
+        "range": "I18:Q18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I19:J19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K19:Q19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I20:J20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K20:Q20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I21:J21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K21:Q21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A24",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B24",
+        "type": "string",
+        "value": "Engineering"
+      },
+      {
+        "range": "K26:Q26",
+        "type": "number"
+      },
+      {
+        "range": "A27",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B27",
+        "type": "string",
+        "value": "ARR per Engineer - 2019+ Driver"
+      },
+      {
+        "range": "E27:Q27",
+        "type": "number"
+      },
+      {
+        "range": "T27:FS27",
+        "type": "number"
+      },
+      {
+        "range": "K28:Q28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K29:Q29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K30:Q30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K31:Q31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A34",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B34",
+        "type": "string",
+        "value": "Product"
+      },
+      {
+        "range": "K36:Q36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A37",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B37",
+        "type": "string",
+        "value": "ARR per Product - 2019+ Driver"
+      },
+      {
+        "range": "E37:H37",
+        "type": "number"
+      },
+      {
+        "range": "I37:J37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K37:Q37",
+        "type": "number"
+      },
+      {
+        "range": "T37:FS37",
+        "type": "number"
+      },
+      {
+        "range": "K38:Q38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K39:Q39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K40:Q40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K41:Q41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A44",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B44",
+        "type": "string",
+        "value": "Marketing"
+      },
+      {
+        "range": "K46:Q46",
+        "type": "number"
+      },
+      {
+        "range": "A47",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B47",
+        "type": "string",
+        "value": "ARR per Marketing Head"
+      },
+      {
+        "range": "E47:H47",
+        "type": "number"
+      },
+      {
+        "range": "I47:J47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K47:Q47",
+        "type": "number"
+      },
+      {
+        "range": "T47:FS47",
+        "type": "number"
+      },
+      {
+        "range": "K48:Q48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K49:Q49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K50:Q50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K51:Q51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A54",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B54",
+        "type": "string",
+        "value": "Content"
+      },
+      {
+        "range": "K56:Q56",
+        "type": "number"
+      },
+      {
+        "range": "A57",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B57",
+        "type": "string",
+        "value": "ARR per Content Head"
+      },
+      {
+        "range": "E57:Q57",
+        "type": "number"
+      },
+      {
+        "range": "T57:FS57",
+        "type": "number"
+      },
+      {
+        "range": "K58:Q58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K59:Q59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K60:Q60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K61:Q61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A64",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B64",
+        "type": "string",
+        "value": "Finance, HR, and Operations"
+      },
+      {
+        "range": "E66:Q66",
+        "type": "number"
+      },
+      {
+        "range": "A67",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B67",
+        "type": "string",
+        "value": "Finance, HR, and Operations Headcount Added in Period (2018 Driver)"
+      },
+      {
+        "range": "E67:Q67",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T67:FS67",
+        "type": "number"
+      },
+      {
+        "range": "K73:Q73",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A74",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B74",
+        "type": "string",
+        "value": "ARR per Finance, HR, and Operations Head (2019+ Driver)"
+      },
+      {
+        "range": "E74:J74",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K74:Q74",
+        "type": "number"
+      },
+      {
+        "range": "T74:FS74",
+        "type": "number"
+      },
+      {
+        "range": "K75:Q75",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K76:Q76",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K77:Q77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K78:Q78",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A81",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B81",
+        "type": "string",
+        "value": "Engineering/Ops - India"
+      },
+      {
+        "range": "A83",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B83",
+        "type": "string",
+        "value": "Engineering/Ops - India - Added Heads"
+      },
+      {
+        "range": "J83:Q83",
+        "type": "number"
+      },
+      {
+        "range": "BX83:FS83",
+        "type": "number"
+      },
+      {
+        "range": "J84:Q84",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J85:K85",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L85:Q85",
+        "type": "number"
+      },
+      {
+        "range": "J86:K86",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L86:Q86",
+        "type": "number"
+      },
+      {
+        "range": "J87:K87",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L87:Q87",
+        "type": "number"
+      },
+      {
+        "range": "A89",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B89",
+        "type": "string",
+        "value": "Average Engineering/Ops - India Salary"
+      },
+      {
+        "range": "E89:Q89",
+        "type": "number"
+      },
+      {
+        "range": "T89:FS89",
+        "type": "number"
+      },
+      {
+        "range": "E90:Q90",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E91:Q91",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E92:Q92",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E93:Q93",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A95",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B95",
+        "type": "string",
+        "value": "Salary"
+      },
+      {
+        "range": "J98:Q98",
+        "type": "number"
+      },
+      {
+        "range": "A99",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B99",
+        "type": "string",
+        "value": "Executive Salary"
+      },
+      {
+        "range": "E99:H99",
+        "type": "number"
+      },
+      {
+        "range": "I99:Q99",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T99:FS99",
+        "type": "number"
+      },
+      {
+        "range": "I100:Q100",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I101:Q101",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I102:J102",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K102:Q102",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I103:J103",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K103:Q103",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J106:Q106",
+        "type": "number"
+      },
+      {
+        "range": "A107",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B107",
+        "type": "string",
+        "value": "Engineering Salary"
+      },
+      {
+        "range": "E107:H107",
+        "type": "number"
+      },
+      {
+        "range": "I107:Q107",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T107:FS107",
+        "type": "number"
+      },
+      {
+        "range": "J108:Q108",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J109:Q109",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J110",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K110:Q110",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J111",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K111:Q111",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J114:Q114",
+        "type": "number"
+      },
+      {
+        "range": "A115",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B115",
+        "type": "string",
+        "value": "Product Salary"
+      },
+      {
+        "range": "E115:H115",
+        "type": "number"
+      },
+      {
+        "range": "I115:Q115",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T115:FS115",
+        "type": "number"
+      },
+      {
+        "range": "J116:Q116",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J117:Q117",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J118",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K118:Q118",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J119",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K119:Q119",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J122:Q122",
+        "type": "number"
+      },
+      {
+        "range": "A123",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B123",
+        "type": "string",
+        "value": "Marketing Salary"
+      },
+      {
+        "range": "E123:H123",
+        "type": "number"
+      },
+      {
+        "range": "I123:Q123",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T123:FS123",
+        "type": "number"
+      },
+      {
+        "range": "J124:Q124",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J125:Q125",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J126",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K126:Q126",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J127",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K127:Q127",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J130:Q130",
+        "type": "number"
+      },
+      {
+        "range": "A131",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B131",
+        "type": "string",
+        "value": "Content Salary"
+      },
+      {
+        "range": "E131:I131",
+        "type": "number"
+      },
+      {
+        "range": "J131:Q131",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T131:FS131",
+        "type": "number"
+      },
+      {
+        "range": "J132:Q132",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J133:Q133",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J134",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K134:Q134",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J135",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K135:Q135",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J138:Q138",
+        "type": "number"
+      },
+      {
+        "range": "A139",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B139",
+        "type": "string",
+        "value": "Finance, HR, Operations Salary"
+      },
+      {
+        "range": "E139:I139",
+        "type": "number"
+      },
+      {
+        "range": "J139:Q139",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T139:FS139",
+        "type": "number"
+      },
+      {
+        "range": "J140:Q140",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J141:Q141",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J142",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K142:Q142",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J143",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K143:Q143",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J146:Q146",
+        "type": "number"
+      },
+      {
+        "range": "A147",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B147",
+        "type": "string",
+        "value": "Engineering/Ops - India Salary"
+      },
+      {
+        "range": "E147:I147",
+        "type": "number"
+      },
+      {
+        "range": "J147:Q147",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T147:FS147",
+        "type": "number"
+      },
+      {
+        "range": "J148:Q148",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J149:Q149",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J150",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K150:Q150",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J151",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K151:Q151",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 2150.74,
+      "cells_analyzed": 3870,
+      "total_ranges": 273,
+      "format_counts": {
+        "string": 128,
+        "number": 142,
+        "date": 3
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-14T01:35:23.263057Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "annual",
+        "increment": "1 year",
+        "start_date": "2015-01-01",
+        "pattern": "Annual series from 2015 to 2027"
+      },
+      "ds_2": {
+        "series_type": "repeating_annual",
+        "increment": "12 months (annual)",
+        "start_date": "2015-01-01",
+        "pattern": "Annual values repeating 12 times from 2015 to 2027"
+      },
+      "ds_3": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2015-01-31",
+        "pattern": "Monthly series from 2015-01 to 2027-12"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 6,
+    "entries_moved_to_index": 73,
+    "entries_remaining": 200,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 14517,
+    "compressed_size_bytes": 11064,
+    "inverted_index_size_bytes": 751,
+    "compressed_data_size_bytes": 10313,
+    "compression_ratio": 0.762,
+    "space_saved_bytes": 3453,
+    "space_saved_percent": 23.8
+  }
+}

@@ -1,0 +1,668 @@
+{
+  "inverted_index": {
+    "G:G": {
+      "type": "string",
+      "ranges": [
+        "A2",
+        "A9",
+        "A16",
+        "A23"
+      ]
+    },
+    "Financial": {
+      "type": "string",
+      "ranges": [
+        "C2:C8",
+        "C16:C22",
+        "D39",
+        "D41"
+      ]
+    },
+    "Global Users (1-10)": {
+      "type": "string",
+      "ranges": [
+        "D2",
+        "Z2",
+        "D9",
+        "D16",
+        "D23"
+      ]
+    },
+    "H:H": {
+      "type": "string",
+      "ranges": [
+        "A3",
+        "A10",
+        "A17",
+        "A24"
+      ]
+    },
+    "Global Users (11-50)": {
+      "type": "string",
+      "ranges": [
+        "D3",
+        "Z3",
+        "D10",
+        "D17",
+        "D24"
+      ]
+    },
+    "I:I": {
+      "type": "string",
+      "ranges": [
+        "A4",
+        "A11",
+        "A18",
+        "A25"
+      ]
+    },
+    "Global Users (51+)": {
+      "type": "string",
+      "ranges": [
+        "D4",
+        "Z4",
+        "D11",
+        "D18",
+        "D25"
+      ]
+    },
+    "K:K": {
+      "type": "string",
+      "ranges": [
+        "A5",
+        "A12",
+        "A19",
+        "A26"
+      ]
+    },
+    "Single Region 1-10": {
+      "type": "string",
+      "ranges": [
+        "D5",
+        "Z5",
+        "D12",
+        "D19",
+        "D26"
+      ]
+    },
+    "L:L": {
+      "type": "string",
+      "ranges": [
+        "A6",
+        "A13",
+        "A20",
+        "A27"
+      ]
+    },
+    "Single Region 11-25": {
+      "type": "string",
+      "ranges": [
+        "D6",
+        "Z6",
+        "D13",
+        "D20",
+        "D27"
+      ]
+    },
+    "M:M": {
+      "type": "string",
+      "ranges": [
+        "A7",
+        "A14",
+        "A21",
+        "A28"
+      ]
+    },
+    "Single Region 26-50": {
+      "type": "string",
+      "ranges": [
+        "D7",
+        "Z7",
+        "D14",
+        "D21",
+        "D28"
+      ]
+    },
+    "N:N": {
+      "type": "string",
+      "ranges": [
+        "A8",
+        "A15",
+        "A22",
+        "A29"
+      ]
+    },
+    "Single Region 50+": {
+      "type": "string",
+      "ranges": [
+        "D8",
+        "Z8",
+        "D15",
+        "D22",
+        "D29"
+      ]
+    },
+    "Corporate": {
+      "type": "string",
+      "ranges": [
+        "C9:C15",
+        "D40"
+      ]
+    },
+    "Other": {
+      "type": "string",
+      "ranges": [
+        "C23:C29",
+        "D42"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "TR BRM",
+    "format_ranges": [
+      {
+        "range": "D1",
+        "type": "string",
+        "value": "Tier"
+      },
+      {
+        "range": "E1",
+        "type": "string",
+        "value": "Pricing"
+      },
+      {
+        "range": "F1",
+        "type": "string",
+        "value": "Jan 17"
+      },
+      {
+        "range": "G1",
+        "type": "string",
+        "value": "Feb 17"
+      },
+      {
+        "range": "H1",
+        "type": "string",
+        "value": "Mar 17"
+      },
+      {
+        "range": "I1",
+        "type": "string",
+        "value": "Apr 17"
+      },
+      {
+        "range": "J1",
+        "type": "string",
+        "value": "May 17"
+      },
+      {
+        "range": "K1",
+        "type": "string",
+        "value": "Jun 17"
+      },
+      {
+        "range": "L1",
+        "type": "string",
+        "value": "Jul 17"
+      },
+      {
+        "range": "M1",
+        "type": "string",
+        "value": "Aug 17"
+      },
+      {
+        "range": "N1",
+        "type": "string",
+        "value": "Sep 17"
+      },
+      {
+        "range": "O1",
+        "type": "string",
+        "value": "Oct 17"
+      },
+      {
+        "range": "P1",
+        "type": "string",
+        "value": "Nov 17"
+      },
+      {
+        "range": "Q1",
+        "type": "string",
+        "value": "Dec 17"
+      },
+      {
+        "range": "R1",
+        "type": "string",
+        "value": "Jan 18"
+      },
+      {
+        "range": "S1",
+        "type": "string",
+        "value": "Feb 18"
+      },
+      {
+        "range": "T1",
+        "type": "string",
+        "value": "Mar 18"
+      },
+      {
+        "range": "U1",
+        "type": "string",
+        "value": "Apr 18"
+      },
+      {
+        "range": "V1",
+        "type": "string",
+        "value": "May 18"
+      },
+      {
+        "range": "W1",
+        "type": "string",
+        "value": "Jun 18"
+      },
+      {
+        "range": "AA1",
+        "type": "string",
+        "value": "Mix"
+      },
+      {
+        "range": "E2",
+        "type": "number"
+      },
+      {
+        "range": "F2:W2",
+        "type": "number"
+      },
+      {
+        "range": "AA2",
+        "type": "number"
+      },
+      {
+        "range": "AB2",
+        "type": "number"
+      },
+      {
+        "range": "E3",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F3:W3",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA3",
+        "type": "number"
+      },
+      {
+        "range": "AB3",
+        "type": "number"
+      },
+      {
+        "range": "E4",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F4:W4",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA4",
+        "type": "number"
+      },
+      {
+        "range": "AB4",
+        "type": "number"
+      },
+      {
+        "range": "E5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F5:W5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA5",
+        "type": "number"
+      },
+      {
+        "range": "AB5",
+        "type": "number"
+      },
+      {
+        "range": "E6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F6:W6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA6",
+        "type": "number"
+      },
+      {
+        "range": "AB6",
+        "type": "number"
+      },
+      {
+        "range": "E7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F7:W7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA7",
+        "type": "number"
+      },
+      {
+        "range": "AB7",
+        "type": "number"
+      },
+      {
+        "range": "E8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F8:W8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA8",
+        "type": "number"
+      },
+      {
+        "range": "AB8",
+        "type": "number"
+      },
+      {
+        "range": "E9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F9:W9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F10:W10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F11:W11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F12:W12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F13:W13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F14:W14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F15:W15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F16:W16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F17:W17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F18:W18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F19:W19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F20:W20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F21:W21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F22:W22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F23:W23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F24:W24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F25:W25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F26:W26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F27:W27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F28:W28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F29:W30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D35",
+        "type": "string",
+        "value": "Global research users"
+      },
+      {
+        "range": "F35:W35",
+        "type": "number"
+      },
+      {
+        "range": "D36",
+        "type": "string",
+        "value": "Single region users"
+      },
+      {
+        "range": "F36:W36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F39:W39",
+        "type": "number"
+      },
+      {
+        "range": "F40:W40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F41:W41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F42:W43",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 2341.41,
+      "cells_analyzed": 808,
+      "total_ranges": 194,
+      "format_counts": {
+        "string": 118,
+        "number": 76
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-14T01:55:11.170042Z"
+    }
+  },
+  "compression_stats": {
+    "unique_values": 17,
+    "entries_moved_to_index": 95,
+    "entries_remaining": 99,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 9713,
+    "compressed_size_bytes": 5804,
+    "inverted_index_size_bytes": 1135,
+    "compressed_data_size_bytes": 4669,
+    "compression_ratio": 0.598,
+    "space_saved_bytes": 3909,
+    "space_saved_percent": 40.2
+  }
+}

@@ -1,0 +1,3683 @@
+{
+  "inverted_index": {
+    "Engage": {
+      "type": "string",
+      "ranges": [
+        "C10",
+        "C16",
+        "C22",
+        "C28",
+        "C34",
+        "C76",
+        "C82",
+        "C88",
+        "C94",
+        "C100",
+        "C106",
+        "C112",
+        "C118",
+        "C124",
+        "C130",
+        "C136",
+        "C142",
+        "C150",
+        "C156",
+        "C162",
+        "C168",
+        "C174",
+        "C180",
+        "C186",
+        "C192",
+        "C198",
+        "C204",
+        "C210",
+        "C216",
+        "C224",
+        "C230",
+        "C236",
+        "C242",
+        "C248",
+        "C254",
+        "C260",
+        "C266",
+        "C272",
+        "C278",
+        "C284",
+        "C290"
+      ]
+    },
+    "VoC": {
+      "type": "string",
+      "ranges": [
+        "C11",
+        "C17",
+        "C23",
+        "C29",
+        "C35",
+        "C77",
+        "C83",
+        "C89",
+        "C95",
+        "C101",
+        "C107",
+        "C113",
+        "C119",
+        "C125",
+        "C131",
+        "C137",
+        "C143",
+        "C151",
+        "C157",
+        "C163",
+        "C169",
+        "C175",
+        "C181",
+        "C187",
+        "C193",
+        "C199",
+        "C205",
+        "C211",
+        "C217",
+        "C225",
+        "C231",
+        "C237",
+        "C243",
+        "C249",
+        "C255",
+        "C261",
+        "C267",
+        "C273",
+        "C279",
+        "C285",
+        "C291"
+      ]
+    },
+    "DAP": {
+      "type": "string",
+      "ranges": [
+        "C12",
+        "C18",
+        "C24",
+        "C30",
+        "C36",
+        "C78",
+        "C84",
+        "C90",
+        "C96",
+        "C102",
+        "C108",
+        "C114",
+        "C120",
+        "C126",
+        "C132",
+        "C138",
+        "C144",
+        "C152",
+        "C158",
+        "C164",
+        "C170",
+        "C176",
+        "C182",
+        "C188",
+        "C194",
+        "C200",
+        "C206",
+        "C212",
+        "C218",
+        "C226",
+        "C232",
+        "C238",
+        "C244",
+        "C250",
+        "C256",
+        "C262",
+        "C268",
+        "C274",
+        "C280",
+        "C286",
+        "C292"
+      ]
+    },
+    "Adopt": {
+      "type": "string",
+      "ranges": [
+        "C13",
+        "C19",
+        "C25",
+        "C31",
+        "C37",
+        "C79",
+        "C85",
+        "C91",
+        "C97",
+        "C103",
+        "C109",
+        "C115",
+        "C121",
+        "C127",
+        "C133",
+        "C139",
+        "C145",
+        "C153",
+        "C159",
+        "C165",
+        "C171",
+        "C177",
+        "C183",
+        "C189",
+        "C195",
+        "C201",
+        "C207",
+        "C213",
+        "C219",
+        "C227",
+        "C233",
+        "C239",
+        "C245",
+        "C251",
+        "C257",
+        "C263",
+        "C269",
+        "C275",
+        "C281",
+        "C287",
+        "C293"
+      ]
+    },
+    "Corporate": {
+      "type": "string",
+      "ranges": [
+        "C41",
+        "A42:A47"
+      ]
+    },
+    "BOP ARR": {
+      "type": "string",
+      "ranges": [
+        "C42",
+        "C50",
+        "C58",
+        "C66"
+      ]
+    },
+    "Initial Sale": {
+      "type": "string",
+      "ranges": [
+        "C43",
+        "C51",
+        "C59",
+        "C67"
+      ]
+    },
+    "Expansion": {
+      "type": "string",
+      "ranges": [
+        "C44",
+        "C52",
+        "C60",
+        "C68"
+      ]
+    },
+    "Downgrade": {
+      "type": "string",
+      "ranges": [
+        "C45",
+        "C53",
+        "C61",
+        "C69"
+      ]
+    },
+    "Churn": {
+      "type": "string",
+      "ranges": [
+        "C46",
+        "C54",
+        "C62",
+        "C70"
+      ]
+    },
+    "EOP ARR": {
+      "type": "string",
+      "ranges": [
+        "C47",
+        "C55",
+        "C63",
+        "C71"
+      ]
+    },
+    "Commercial": {
+      "type": "string",
+      "ranges": [
+        "C49",
+        "A50:A55"
+      ]
+    },
+    "Strategic": {
+      "type": "string",
+      "ranges": [
+        "A58:A63"
+      ]
+    },
+    "Initial Sale (%)": {
+      "type": "string",
+      "ranges": [
+        "C75",
+        "C149",
+        "C223"
+      ]
+    },
+    "Expansion (%)": {
+      "type": "string",
+      "ranges": [
+        "C81",
+        "C155",
+        "C229"
+      ]
+    },
+    "Downgrade (%)": {
+      "type": "string",
+      "ranges": [
+        "C87",
+        "C161",
+        "C235"
+      ]
+    },
+    "Churn (%)": {
+      "type": "string",
+      "ranges": [
+        "C93",
+        "C167",
+        "C241"
+      ]
+    },
+    "Initial Sale ($)": {
+      "type": "string",
+      "ranges": [
+        "C99",
+        "C173",
+        "C247"
+      ]
+    },
+    "Expansion ($)": {
+      "type": "string",
+      "ranges": [
+        "C105",
+        "C179",
+        "C253"
+      ]
+    },
+    "Downgrade ($)": {
+      "type": "string",
+      "ranges": [
+        "C111",
+        "C185",
+        "C259"
+      ]
+    },
+    "Churn ($)": {
+      "type": "string",
+      "ranges": [
+        "C117",
+        "C191",
+        "C265"
+      ]
+    },
+    "Starting ARR": {
+      "type": "string",
+      "ranges": [
+        "C123",
+        "C197",
+        "C271"
+      ]
+    },
+    "Net ARR": {
+      "type": "string",
+      "ranges": [
+        "C129",
+        "C203",
+        "C277"
+      ]
+    },
+    "Ending ARR": {
+      "type": "string",
+      "ranges": [
+        "C135",
+        "C209",
+        "C283"
+      ]
+    },
+    "Ending ARR (%)": {
+      "type": "string",
+      "ranges": [
+        "C141",
+        "C215",
+        "C289"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Products",
+    "format_ranges": [
+      {
+        "range": "D2:L2",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "AY2:FB2",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "D4",
+        "type": "string",
+        "value": "Actuals"
+      },
+      {
+        "range": "G4",
+        "type": "string",
+        "value": "Forecast"
+      },
+      {
+        "range": "D5:L5",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "N5:AW5",
+        "type": "date",
+        "date_series_id": "ds_3"
+      },
+      {
+        "range": "AY5:FB5",
+        "type": "date",
+        "date_series_id": "ds_4"
+      },
+      {
+        "range": "C7",
+        "type": "string",
+        "value": "Products"
+      },
+      {
+        "range": "C9",
+        "type": "string",
+        "value": "ARR - Corp"
+      },
+      {
+        "range": "D9:L9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N9:AW9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY9:FB9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D10:L10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N10:AW10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY10:FB10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D11:L11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N11:AW11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY11:FB11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D12:L12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N12:AW12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY12:FB12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D13:L13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N13:AW13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY13:FB13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C15",
+        "type": "string",
+        "value": "ARR - Comm"
+      },
+      {
+        "range": "D15:L15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N15:AW15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY15:FB15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D16:L16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N16:AW16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY16:FB16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D17:L17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N17:AW17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY17:FB17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D18:L18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N18:AW18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY18:FB18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D19:L19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N19:AW19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY19:FB19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C21",
+        "type": "string",
+        "value": "ARR - Enterprise"
+      },
+      {
+        "range": "D21:L21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N21:AW21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY21:FB21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D22:L22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N22:AW22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY22:FB22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D23:L23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N23:AW23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY23:FB23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D24:L24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N24:AW24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY24:FB24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D25:L25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N25:AW25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY25:FB25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C27",
+        "type": "string",
+        "value": "ARR - Total"
+      },
+      {
+        "range": "D27:L27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N27:AW27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY27:FB27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D28:L28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N28:AW28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY28:FB28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D29:L29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N29:AW29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY29:FB29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D30:L30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N30:AW30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY30:FB30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D31:L31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N31:AW31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY31:FB31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C33",
+        "type": "string",
+        "value": "Product Mix"
+      },
+      {
+        "range": "D33:K33",
+        "type": "number"
+      },
+      {
+        "range": "L33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N33:AW33",
+        "type": "number"
+      },
+      {
+        "range": "AY33:FB33",
+        "type": "number"
+      },
+      {
+        "range": "D34:K34",
+        "type": "number"
+      },
+      {
+        "range": "L34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N34:AW34",
+        "type": "number"
+      },
+      {
+        "range": "AY34:FB34",
+        "type": "number"
+      },
+      {
+        "range": "D35:K35",
+        "type": "number"
+      },
+      {
+        "range": "L35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N35:AW35",
+        "type": "number"
+      },
+      {
+        "range": "AY35:FB35",
+        "type": "number"
+      },
+      {
+        "range": "D36:K36",
+        "type": "number"
+      },
+      {
+        "range": "L36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N36:AW36",
+        "type": "number"
+      },
+      {
+        "range": "AY36:FB36",
+        "type": "number"
+      },
+      {
+        "range": "D37:K37",
+        "type": "number"
+      },
+      {
+        "range": "L37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N37:AW37",
+        "type": "number"
+      },
+      {
+        "range": "AY37:FB37",
+        "type": "number"
+      },
+      {
+        "range": "C39",
+        "type": "string",
+        "value": "Total ARR"
+      },
+      {
+        "range": "D42:L42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N42:AW42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY42:FB42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D43:L43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N43:AW43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY43:FB43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D44:L44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N44:AW44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY44:FB44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D45:L45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N45:AW45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY45:FB45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D46:L46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N46:AW46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY46:FB46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D47:L47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N47:AW47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY47:FB47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D50:L50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N50:AW50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY50:FB50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D51:L51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N51:AW51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY51:FB51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D52:L52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N52:AW52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY52:FB52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D53:L53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N53:AW53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY53:FB53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D54:L54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N54:AW54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY54:FB54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D55:L55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N55:AW55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY55:FB55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C57",
+        "type": "string",
+        "value": "Enterprise"
+      },
+      {
+        "range": "D58:L58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N58:AW58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY58:FB58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D59:L59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N59:AW59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY59:FB59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D60:L60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N60:AW60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY60:FB60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D61:L61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N61:AW61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY61:FB61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D62:L62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N62:AW62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY62:FB62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D63:L63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N63:AW63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY63:FB63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C65",
+        "type": "string",
+        "value": "Total"
+      },
+      {
+        "range": "D66:L66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N66:AW66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY66:FB66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D67:L67",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N67:AW67",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY67:FB67",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D68:L68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N68:AW68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY68:FB68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D69:L69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N69:AW69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY69:FB69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D70:L70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N70:AW70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY70:FB70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D71:L71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N71:AW71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY71:FB71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C73",
+        "type": "string",
+        "value": "Corporate Mix"
+      },
+      {
+        "range": "D76:L76",
+        "type": "number"
+      },
+      {
+        "range": "N76:AW76",
+        "type": "number"
+      },
+      {
+        "range": "AY76:FB76",
+        "type": "number"
+      },
+      {
+        "range": "D77:L77",
+        "type": "number"
+      },
+      {
+        "range": "N77:AW77",
+        "type": "number"
+      },
+      {
+        "range": "AY77:FB77",
+        "type": "number"
+      },
+      {
+        "range": "D78:L78",
+        "type": "number"
+      },
+      {
+        "range": "N78:AW78",
+        "type": "number"
+      },
+      {
+        "range": "AY78:FB78",
+        "type": "number"
+      },
+      {
+        "range": "D79:L79",
+        "type": "number"
+      },
+      {
+        "range": "N79:AW79",
+        "type": "number"
+      },
+      {
+        "range": "AY79:FB79",
+        "type": "number"
+      },
+      {
+        "range": "D82:L82",
+        "type": "number"
+      },
+      {
+        "range": "N82:AW82",
+        "type": "number"
+      },
+      {
+        "range": "AY82:FB82",
+        "type": "number"
+      },
+      {
+        "range": "D83:L83",
+        "type": "number"
+      },
+      {
+        "range": "N83:AW83",
+        "type": "number"
+      },
+      {
+        "range": "AY83:FB83",
+        "type": "number"
+      },
+      {
+        "range": "D84:L84",
+        "type": "number"
+      },
+      {
+        "range": "N84:AW84",
+        "type": "number"
+      },
+      {
+        "range": "AY84:FB84",
+        "type": "number"
+      },
+      {
+        "range": "D85:L85",
+        "type": "number"
+      },
+      {
+        "range": "N85:AW85",
+        "type": "number"
+      },
+      {
+        "range": "AY85:FB85",
+        "type": "number"
+      },
+      {
+        "range": "D88:L88",
+        "type": "number"
+      },
+      {
+        "range": "N88:AW88",
+        "type": "number"
+      },
+      {
+        "range": "AY88:FB88",
+        "type": "number"
+      },
+      {
+        "range": "D89:L89",
+        "type": "number"
+      },
+      {
+        "range": "N89:AW89",
+        "type": "number"
+      },
+      {
+        "range": "AY89:FB89",
+        "type": "number"
+      },
+      {
+        "range": "D90:L90",
+        "type": "number"
+      },
+      {
+        "range": "N90:AW90",
+        "type": "number"
+      },
+      {
+        "range": "AY90:FB90",
+        "type": "number"
+      },
+      {
+        "range": "D91:L91",
+        "type": "number"
+      },
+      {
+        "range": "N91:AW91",
+        "type": "number"
+      },
+      {
+        "range": "AY91:FB91",
+        "type": "number"
+      },
+      {
+        "range": "D94:L94",
+        "type": "number"
+      },
+      {
+        "range": "N94:AW94",
+        "type": "number"
+      },
+      {
+        "range": "AY94:FB94",
+        "type": "number"
+      },
+      {
+        "range": "D95:L95",
+        "type": "number"
+      },
+      {
+        "range": "N95:AW95",
+        "type": "number"
+      },
+      {
+        "range": "AY95:FB95",
+        "type": "number"
+      },
+      {
+        "range": "D96:L96",
+        "type": "number"
+      },
+      {
+        "range": "N96:AW96",
+        "type": "number"
+      },
+      {
+        "range": "AY96:FB96",
+        "type": "number"
+      },
+      {
+        "range": "D97:L97",
+        "type": "number"
+      },
+      {
+        "range": "N97",
+        "type": "number"
+      },
+      {
+        "range": "AY97:FB97",
+        "type": "number"
+      },
+      {
+        "range": "D99:L99",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N99:AW99",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY99:FB99",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D100:L100",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N100:AW100",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY100:FB100",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D101:L101",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N101:AW101",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY101:FB101",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D102:L102",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N102:AW102",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY102:FB102",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D103:L103",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N103:AW103",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY103:FB103",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D105:L105",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N105:AW105",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY105:FB105",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D106:L106",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N106:AW106",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY106:FB106",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D107:L107",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N107:AW107",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY107:FB107",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D108:L108",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N108:AW108",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY108:FB108",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D109:L109",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N109:AW109",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY109:FB109",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D111:L111",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N111:AW111",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY111:FB111",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D112:L112",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N112:AW112",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY112:FB112",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D113:L113",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N113:AW113",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY113:FB113",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D114:L114",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N114:AW114",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY114:FB114",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D115:L115",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N115:AW115",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY115:FB115",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D117:L117",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N117:AW117",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY117:FB117",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D118:L118",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N118:AW118",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY118:FB118",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D119:L119",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N119:AW119",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY119:FB119",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D120:L120",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N120:AW120",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY120:FB120",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D121:L121",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N121:AW121",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY121:FB121",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D123:L123",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N123:AW123",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY123:FB123",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D124:L124",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N124:AW124",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY124:FB124",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D125:L125",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N125:AW125",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY125:FB125",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D126:L126",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N126:AW126",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY126:FB126",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D127:L127",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N127:AW127",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY127:FB127",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D129:L129",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N129:AW129",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY129:FB129",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D130:L130",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N130:AW130",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY130:FB130",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D131:L131",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N131:AW131",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY131:FB131",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D132:L132",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N132:AW132",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY132:FB132",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D133:L133",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N133:AW133",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY133:FB133",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D135:L135",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N135:AW135",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY135:FB135",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A136",
+        "type": "number"
+      },
+      {
+        "range": "D136:L136",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N136:AW136",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY136:FB136",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A137",
+        "type": "number"
+      },
+      {
+        "range": "D137:L137",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N137:AW137",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY137:FB137",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A138",
+        "type": "number"
+      },
+      {
+        "range": "D138:L138",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N138:AW138",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY138:FB138",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A139",
+        "type": "number"
+      },
+      {
+        "range": "D139:L139",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N139:AW139",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY139:FB139",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D141:L141",
+        "type": "number"
+      },
+      {
+        "range": "N141:AW141",
+        "type": "number"
+      },
+      {
+        "range": "AY141:FB141",
+        "type": "number"
+      },
+      {
+        "range": "A142",
+        "type": "number"
+      },
+      {
+        "range": "D142:L142",
+        "type": "number"
+      },
+      {
+        "range": "N142:AW142",
+        "type": "number"
+      },
+      {
+        "range": "AY142:FB142",
+        "type": "number"
+      },
+      {
+        "range": "A143",
+        "type": "number"
+      },
+      {
+        "range": "D143:L143",
+        "type": "number"
+      },
+      {
+        "range": "N143:AW143",
+        "type": "number"
+      },
+      {
+        "range": "AY143:FB143",
+        "type": "number"
+      },
+      {
+        "range": "A144",
+        "type": "number"
+      },
+      {
+        "range": "D144:L144",
+        "type": "number"
+      },
+      {
+        "range": "N144:AW144",
+        "type": "number"
+      },
+      {
+        "range": "AY144:FB144",
+        "type": "number"
+      },
+      {
+        "range": "A145",
+        "type": "number"
+      },
+      {
+        "range": "D145:L145",
+        "type": "number"
+      },
+      {
+        "range": "N145:AW145",
+        "type": "number"
+      },
+      {
+        "range": "AY145:FB145",
+        "type": "number"
+      },
+      {
+        "range": "C147",
+        "type": "string",
+        "value": "Commercial Mix"
+      },
+      {
+        "range": "D150:L150",
+        "type": "number"
+      },
+      {
+        "range": "N150:AW150",
+        "type": "number"
+      },
+      {
+        "range": "AY150:FB150",
+        "type": "number"
+      },
+      {
+        "range": "D151:L151",
+        "type": "number"
+      },
+      {
+        "range": "N151:AW151",
+        "type": "number"
+      },
+      {
+        "range": "AY151:FB151",
+        "type": "number"
+      },
+      {
+        "range": "D152:L152",
+        "type": "number"
+      },
+      {
+        "range": "N152:AW152",
+        "type": "number"
+      },
+      {
+        "range": "AY152:FB152",
+        "type": "number"
+      },
+      {
+        "range": "D153:L153",
+        "type": "number"
+      },
+      {
+        "range": "N153:AW153",
+        "type": "number"
+      },
+      {
+        "range": "AY153:FB153",
+        "type": "number"
+      },
+      {
+        "range": "D156:L156",
+        "type": "number"
+      },
+      {
+        "range": "N156:AW156",
+        "type": "number"
+      },
+      {
+        "range": "AY156:FB156",
+        "type": "number"
+      },
+      {
+        "range": "D157:L157",
+        "type": "number"
+      },
+      {
+        "range": "N157:AW157",
+        "type": "number"
+      },
+      {
+        "range": "AY157:FB157",
+        "type": "number"
+      },
+      {
+        "range": "D158:L158",
+        "type": "number"
+      },
+      {
+        "range": "N158:AW158",
+        "type": "number"
+      },
+      {
+        "range": "AY158:FB158",
+        "type": "number"
+      },
+      {
+        "range": "D159:L159",
+        "type": "number"
+      },
+      {
+        "range": "N159:AW159",
+        "type": "number"
+      },
+      {
+        "range": "AY159:FB159",
+        "type": "number"
+      },
+      {
+        "range": "D162:L162",
+        "type": "number"
+      },
+      {
+        "range": "N162:AW162",
+        "type": "number"
+      },
+      {
+        "range": "AY162:FB162",
+        "type": "number"
+      },
+      {
+        "range": "D163:L163",
+        "type": "number"
+      },
+      {
+        "range": "N163:AW163",
+        "type": "number"
+      },
+      {
+        "range": "AY163:FB163",
+        "type": "number"
+      },
+      {
+        "range": "D164:L164",
+        "type": "number"
+      },
+      {
+        "range": "N164:AW164",
+        "type": "number"
+      },
+      {
+        "range": "AY164:FB164",
+        "type": "number"
+      },
+      {
+        "range": "D165:L165",
+        "type": "number"
+      },
+      {
+        "range": "N165:AW165",
+        "type": "number"
+      },
+      {
+        "range": "AY165:FB165",
+        "type": "number"
+      },
+      {
+        "range": "D168:L168",
+        "type": "number"
+      },
+      {
+        "range": "N168:AW168",
+        "type": "number"
+      },
+      {
+        "range": "AY168:FB168",
+        "type": "number"
+      },
+      {
+        "range": "D169:L169",
+        "type": "number"
+      },
+      {
+        "range": "N169:AW169",
+        "type": "number"
+      },
+      {
+        "range": "AY169:FB169",
+        "type": "number"
+      },
+      {
+        "range": "D170:L170",
+        "type": "number"
+      },
+      {
+        "range": "N170:AW170",
+        "type": "number"
+      },
+      {
+        "range": "AY170:FB170",
+        "type": "number"
+      },
+      {
+        "range": "D171:L171",
+        "type": "number"
+      },
+      {
+        "range": "N171",
+        "type": "number"
+      },
+      {
+        "range": "AY171:FB171",
+        "type": "number"
+      },
+      {
+        "range": "D173:L173",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N173:AW173",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY173:FB173",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D174:L174",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N174:AW174",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY174:FB174",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D175:L175",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N175:AW175",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY175:FB175",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D176:L176",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N176:AW176",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY176:FB176",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D177:L177",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N177:AW177",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY177:FB177",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D179:L179",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N179:AW179",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY179:FB179",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D180:L180",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N180:AW180",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY180:FB180",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D181:L181",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N181:AW181",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY181:FB181",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D182:L182",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N182:AW182",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY182:FB182",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D183:L183",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N183:AW183",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY183:FB183",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D185:L185",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N185:AW185",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY185:FB185",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D186:L186",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N186:AW186",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY186:FB186",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D187:L187",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N187:AW187",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY187:FB187",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D188:L188",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N188:AW188",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY188:FB188",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D189:L189",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N189:AW189",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY189:FB189",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D191:L191",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N191:AW191",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY191:FB191",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D192:L192",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N192:AW192",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY192:FB192",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D193:L193",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N193:AW193",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY193:FB193",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D194:L194",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N194:AW194",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY194:FB194",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D195:L195",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N195:AW195",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY195:FB195",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D197:L197",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N197:AW197",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY197:FB197",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D198:L198",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N198:AW198",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY198:FB198",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D199:L199",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N199:AW199",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY199:FB199",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D200:L200",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N200:AW200",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY200:FB200",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D201:L201",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N201:AW201",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY201:FB201",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D203:L203",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N203:AW203",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY203:FB203",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D204:L204",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N204:AW204",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY204:FB204",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D205:L205",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N205:AW205",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY205:FB205",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D206:L206",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N206:AW206",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY206:FB206",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D207:L207",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N207:AW207",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY207:FB207",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D209:L209",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N209:AW209",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY209:FB209",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A210",
+        "type": "number"
+      },
+      {
+        "range": "D210:L210",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N210:AW210",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY210:FB210",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A211",
+        "type": "number"
+      },
+      {
+        "range": "D211:L211",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N211:AW211",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY211:FB211",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A212",
+        "type": "number"
+      },
+      {
+        "range": "D212:L212",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N212:AW212",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY212:FB212",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A213",
+        "type": "number"
+      },
+      {
+        "range": "D213:L213",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N213:AW213",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY213:FB213",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D215:L215",
+        "type": "number"
+      },
+      {
+        "range": "N215:AW215",
+        "type": "number"
+      },
+      {
+        "range": "AY215:FB215",
+        "type": "number"
+      },
+      {
+        "range": "A216",
+        "type": "number"
+      },
+      {
+        "range": "D216:L216",
+        "type": "number"
+      },
+      {
+        "range": "N216:AW216",
+        "type": "number"
+      },
+      {
+        "range": "AY216:FB216",
+        "type": "number"
+      },
+      {
+        "range": "A217",
+        "type": "number"
+      },
+      {
+        "range": "D217:L217",
+        "type": "number"
+      },
+      {
+        "range": "N217:AW217",
+        "type": "number"
+      },
+      {
+        "range": "AY217:FB217",
+        "type": "number"
+      },
+      {
+        "range": "A218",
+        "type": "number"
+      },
+      {
+        "range": "D218:L218",
+        "type": "number"
+      },
+      {
+        "range": "N218:AW218",
+        "type": "number"
+      },
+      {
+        "range": "AY218:FB218",
+        "type": "number"
+      },
+      {
+        "range": "A219",
+        "type": "number"
+      },
+      {
+        "range": "D219:L219",
+        "type": "number"
+      },
+      {
+        "range": "N219:AW219",
+        "type": "number"
+      },
+      {
+        "range": "AY219:FB219",
+        "type": "number"
+      },
+      {
+        "range": "C221",
+        "type": "string",
+        "value": "Enterprise Mix"
+      },
+      {
+        "range": "D224:L224",
+        "type": "number"
+      },
+      {
+        "range": "N224:AW224",
+        "type": "number"
+      },
+      {
+        "range": "AY224:FB224",
+        "type": "number"
+      },
+      {
+        "range": "D225:L225",
+        "type": "number"
+      },
+      {
+        "range": "N225:AW225",
+        "type": "number"
+      },
+      {
+        "range": "AY225:FB225",
+        "type": "number"
+      },
+      {
+        "range": "D226:L226",
+        "type": "number"
+      },
+      {
+        "range": "N226:AW226",
+        "type": "number"
+      },
+      {
+        "range": "AY226:FB226",
+        "type": "number"
+      },
+      {
+        "range": "D227:L227",
+        "type": "number"
+      },
+      {
+        "range": "N227:AW227",
+        "type": "number"
+      },
+      {
+        "range": "AY227:FB227",
+        "type": "number"
+      },
+      {
+        "range": "D230:L230",
+        "type": "number"
+      },
+      {
+        "range": "N230:AW230",
+        "type": "number"
+      },
+      {
+        "range": "AY230:FB230",
+        "type": "number"
+      },
+      {
+        "range": "D231:L231",
+        "type": "number"
+      },
+      {
+        "range": "N231:AW231",
+        "type": "number"
+      },
+      {
+        "range": "AY231:FB231",
+        "type": "number"
+      },
+      {
+        "range": "D232:L232",
+        "type": "number"
+      },
+      {
+        "range": "N232:AW232",
+        "type": "number"
+      },
+      {
+        "range": "AY232:FB232",
+        "type": "number"
+      },
+      {
+        "range": "D233:L233",
+        "type": "number"
+      },
+      {
+        "range": "N233:AW233",
+        "type": "number"
+      },
+      {
+        "range": "AY233:FB233",
+        "type": "number"
+      },
+      {
+        "range": "D236:L236",
+        "type": "number"
+      },
+      {
+        "range": "N236:AW236",
+        "type": "number"
+      },
+      {
+        "range": "AY236:FB236",
+        "type": "number"
+      },
+      {
+        "range": "D237:L237",
+        "type": "number"
+      },
+      {
+        "range": "N237:AW237",
+        "type": "number"
+      },
+      {
+        "range": "AY237:FB237",
+        "type": "number"
+      },
+      {
+        "range": "D238:L238",
+        "type": "number"
+      },
+      {
+        "range": "N238:AW238",
+        "type": "number"
+      },
+      {
+        "range": "AY238:FB238",
+        "type": "number"
+      },
+      {
+        "range": "D239:L239",
+        "type": "number"
+      },
+      {
+        "range": "N239:AW239",
+        "type": "number"
+      },
+      {
+        "range": "AY239:FB239",
+        "type": "number"
+      },
+      {
+        "range": "D242:L242",
+        "type": "number"
+      },
+      {
+        "range": "N242:AW242",
+        "type": "number"
+      },
+      {
+        "range": "AY242:FB242",
+        "type": "number"
+      },
+      {
+        "range": "D243:L243",
+        "type": "number"
+      },
+      {
+        "range": "N243:AW243",
+        "type": "number"
+      },
+      {
+        "range": "AY243:FB243",
+        "type": "number"
+      },
+      {
+        "range": "D244:L244",
+        "type": "number"
+      },
+      {
+        "range": "N244:AW244",
+        "type": "number"
+      },
+      {
+        "range": "AY244:FB244",
+        "type": "number"
+      },
+      {
+        "range": "D245:L245",
+        "type": "number"
+      },
+      {
+        "range": "N245",
+        "type": "number"
+      },
+      {
+        "range": "AY245:FB245",
+        "type": "number"
+      },
+      {
+        "range": "D247:L247",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N247:AW247",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY247:FB247",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D248:L248",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N248:AW248",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY248:FB248",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D249:L249",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N249:AW249",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY249:FB249",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D250:L250",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N250:AW250",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY250:FB250",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D251:L251",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N251:AW251",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY251:FB251",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D253:L253",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N253:AW253",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY253:FB253",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D254:L254",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N254:AW254",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY254:FB254",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D255:L255",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N255:AW255",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY255:FB255",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D256:L256",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N256:AW256",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY256:FB256",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D257:L257",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N257:AW257",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY257:FB257",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D259:L259",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N259:AW259",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY259:FB259",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D260:L260",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N260:AW260",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY260:FB260",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D261:L261",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N261:AW261",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY261:FB261",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D262:L262",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N262:AW262",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY262:FB262",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D263:L263",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N263:AW263",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY263:FB263",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D265:L265",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N265:AW265",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY265:FB265",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D266:L266",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N266:AW266",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY266:FB266",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D267:L267",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N267:AW267",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY267:FB267",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D268:L268",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N268:AW268",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY268:FB268",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D269:L269",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N269:AW269",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY269:FB269",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D271:L271",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N271:AW271",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY271:FB271",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D272:L272",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N272:AW272",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY272:FB272",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D273:L273",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N273:AW273",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY273:FB273",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D274:L274",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N274:AW274",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY274:FB274",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D275:L275",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N275:AW275",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY275:FB275",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D277:L277",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N277:AW277",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY277:FB277",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D278:L278",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N278:AW278",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY278:FB278",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D279:L279",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N279:AW279",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY279:FB279",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D280:L280",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N280:AW280",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY280:FB280",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D281:L281",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N281:AW281",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY281:FB281",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D283:L283",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N283:AW283",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY283:FB283",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A284",
+        "type": "number"
+      },
+      {
+        "range": "D284:L284",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N284:AW284",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY284:FB284",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A285",
+        "type": "number"
+      },
+      {
+        "range": "D285:L285",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N285:AW285",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY285:FB285",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A286",
+        "type": "number"
+      },
+      {
+        "range": "D286:L286",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N286:AW286",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY286:FB286",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A287",
+        "type": "number"
+      },
+      {
+        "range": "D287:L287",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N287:AW287",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY287:FB287",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D289:L289",
+        "type": "number"
+      },
+      {
+        "range": "N289:AW289",
+        "type": "number"
+      },
+      {
+        "range": "AY289:FB289",
+        "type": "number"
+      },
+      {
+        "range": "A290",
+        "type": "number"
+      },
+      {
+        "range": "D290:L290",
+        "type": "number"
+      },
+      {
+        "range": "N290:AW290",
+        "type": "number"
+      },
+      {
+        "range": "AY290:FB290",
+        "type": "number"
+      },
+      {
+        "range": "A291",
+        "type": "number"
+      },
+      {
+        "range": "D291:L291",
+        "type": "number"
+      },
+      {
+        "range": "N291:AW291",
+        "type": "number"
+      },
+      {
+        "range": "AY291:FB291",
+        "type": "number"
+      },
+      {
+        "range": "A292",
+        "type": "number"
+      },
+      {
+        "range": "D292:L292",
+        "type": "number"
+      },
+      {
+        "range": "N292:AW292",
+        "type": "number"
+      },
+      {
+        "range": "AY292:FB292",
+        "type": "number"
+      },
+      {
+        "range": "A293",
+        "type": "number"
+      },
+      {
+        "range": "D293:L293",
+        "type": "number"
+      },
+      {
+        "range": "N293:AW293",
+        "type": "number"
+      },
+      {
+        "range": "AY293:FB293",
+        "type": "number"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 426.75,
+      "cells_analyzed": 33672,
+      "total_ranges": 943,
+      "format_counts": {
+        "date": 5,
+        "string": 258,
+        "number": 680
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T19:48:09.037775Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "annual",
+        "increment": "1 year",
+        "start_date": "2019-01-01",
+        "pattern": "Annual series from 2019 to 2027"
+      },
+      "ds_2": {
+        "series_type": "repeating_annual",
+        "increment": "12 months (annual)",
+        "start_date": "2019-01-01",
+        "pattern": "Annual values repeating 12 times from 2019 to 2027"
+      },
+      "ds_3": {
+        "series_type": "quarterly",
+        "increment": "1 quarter",
+        "start_date": "2019-Q1",
+        "pattern": "Quarterly series from Q1 2019 to Q4 2027"
+      },
+      "ds_4": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2018-02-01",
+        "pattern": "Monthly series from 2018-02 to 2027-01"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 25,
+    "entries_moved_to_index": 244,
+    "entries_remaining": 699,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 45830,
+    "compressed_size_bytes": 36249,
+    "inverted_index_size_bytes": 2585,
+    "compressed_data_size_bytes": 33664,
+    "compression_ratio": 0.791,
+    "space_saved_bytes": 9581,
+    "space_saved_percent": 20.9
+  }
+}

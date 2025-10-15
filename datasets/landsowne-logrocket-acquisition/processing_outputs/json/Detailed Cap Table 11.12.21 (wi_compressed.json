@@ -1,0 +1,2456 @@
+{
+  "inverted_index": {
+    "Fully Diluted Ownership": {
+      "type": "string",
+      "ranges": [
+        "M4",
+        "A130"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Detailed Cap Table 11.12.21 (wi",
+    "format_ranges": [
+      {
+        "range": "A1",
+        "type": "string",
+        "value": "LogRocket, Inc. Detailed Capitalization Table With Drafts"
+      },
+      {
+        "range": "A2",
+        "type": "string",
+        "value": "As of 10/13/2021"
+      },
+      {
+        "range": "A4",
+        "type": "string",
+        "value": "Anonymized Employee ID / Investor"
+      },
+      {
+        "range": "B4",
+        "type": "string",
+        "value": "Common (CS)"
+      },
+      {
+        "range": "C4",
+        "type": "string",
+        "value": "Series A Preferred (PA)"
+      },
+      {
+        "range": "D4",
+        "type": "string",
+        "value": "Series A Preferred (PA)\r\n1:1 Conversion Ratio"
+      },
+      {
+        "range": "E4",
+        "type": "string",
+        "value": "Series B Preferred (PB)"
+      },
+      {
+        "range": "F4",
+        "type": "string",
+        "value": "Series B Preferred (PB)\r\n1:1 Conversion Ratio"
+      },
+      {
+        "range": "G4",
+        "type": "string",
+        "value": "Series Seed Preferred (PS)"
+      },
+      {
+        "range": "H4",
+        "type": "string",
+        "value": "Series Seed Preferred (PS)\r\n1:1 Conversion Ratio"
+      },
+      {
+        "range": "I4",
+        "type": "string",
+        "value": "Options and RSU's Outstanding Under 2016 Stock Incentive Plan"
+      },
+      {
+        "range": "J4",
+        "type": "string",
+        "value": "Outstanding Shares"
+      },
+      {
+        "range": "K4",
+        "type": "string",
+        "value": "Fully Diluted Shares"
+      },
+      {
+        "range": "L4",
+        "type": "string",
+        "value": "Outstanding Ownership"
+      },
+      {
+        "range": "A5",
+        "type": "string",
+        "value": "Adam Deligianis"
+      },
+      {
+        "range": "B5:K5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L5",
+        "type": "number"
+      },
+      {
+        "range": "M5",
+        "type": "number"
+      },
+      {
+        "range": "A6",
+        "type": "string",
+        "value": "Aimee Mun"
+      },
+      {
+        "range": "B6:K6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L6",
+        "type": "number"
+      },
+      {
+        "range": "M6",
+        "type": "number"
+      },
+      {
+        "range": "A7",
+        "type": "string",
+        "value": "Alejandro Colon"
+      },
+      {
+        "range": "B7:K7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L7",
+        "type": "number"
+      },
+      {
+        "range": "M7",
+        "type": "number"
+      },
+      {
+        "range": "A8",
+        "type": "string",
+        "value": "Alexander Flynn"
+      },
+      {
+        "range": "B8:K8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L8",
+        "type": "number"
+      },
+      {
+        "range": "M8",
+        "type": "number"
+      },
+      {
+        "range": "A9",
+        "type": "string",
+        "value": "Alexander Schlosberg"
+      },
+      {
+        "range": "B9:K9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L9",
+        "type": "number"
+      },
+      {
+        "range": "M9",
+        "type": "number"
+      },
+      {
+        "range": "A10",
+        "type": "string",
+        "value": "Alexandre Martin"
+      },
+      {
+        "range": "B10:K10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L10",
+        "type": "number"
+      },
+      {
+        "range": "M10",
+        "type": "number"
+      },
+      {
+        "range": "A11",
+        "type": "string",
+        "value": "Allon Guseynov"
+      },
+      {
+        "range": "B11:K11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L11",
+        "type": "number"
+      },
+      {
+        "range": "M11",
+        "type": "number"
+      },
+      {
+        "range": "A12",
+        "type": "string",
+        "value": "Alyxandra Spikerman"
+      },
+      {
+        "range": "B12:K12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L12",
+        "type": "number"
+      },
+      {
+        "range": "M12",
+        "type": "number"
+      },
+      {
+        "range": "A13",
+        "type": "string",
+        "value": "Amos Wasgatt"
+      },
+      {
+        "range": "B13:K13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L13",
+        "type": "number"
+      },
+      {
+        "range": "M13",
+        "type": "number"
+      },
+      {
+        "range": "A14",
+        "type": "string",
+        "value": "Amy Wass"
+      },
+      {
+        "range": "B14:K14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L14",
+        "type": "number"
+      },
+      {
+        "range": "M14",
+        "type": "number"
+      },
+      {
+        "range": "A15",
+        "type": "string",
+        "value": "Anne Piccolo"
+      },
+      {
+        "range": "B15:K15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L15",
+        "type": "number"
+      },
+      {
+        "range": "M15",
+        "type": "number"
+      },
+      {
+        "range": "A16",
+        "type": "string",
+        "value": "Anthony Stimpfel"
+      },
+      {
+        "range": "B16:K16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L16",
+        "type": "number"
+      },
+      {
+        "range": "M16",
+        "type": "number"
+      },
+      {
+        "range": "A17",
+        "type": "string",
+        "value": "Arthur Abbate"
+      },
+      {
+        "range": "B17:K17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L17",
+        "type": "number"
+      },
+      {
+        "range": "M17",
+        "type": "number"
+      },
+      {
+        "range": "A18",
+        "type": "string",
+        "value": "Ashley Atkins"
+      },
+      {
+        "range": "B18:K18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L18",
+        "type": "number"
+      },
+      {
+        "range": "M18",
+        "type": "number"
+      },
+      {
+        "range": "A19",
+        "type": "string",
+        "value": "Battery Investment Partners XII, LLC"
+      },
+      {
+        "range": "B19:K19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L19",
+        "type": "number"
+      },
+      {
+        "range": "M19",
+        "type": "number"
+      },
+      {
+        "range": "A20",
+        "type": "string",
+        "value": "Battery Ventures XII, L.P."
+      },
+      {
+        "range": "B20:K20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L20",
+        "type": "number"
+      },
+      {
+        "range": "M20",
+        "type": "number"
+      },
+      {
+        "range": "A21",
+        "type": "string",
+        "value": "Benjamin Edelstein"
+      },
+      {
+        "range": "B21:K21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L21",
+        "type": "number"
+      },
+      {
+        "range": "M21",
+        "type": "number"
+      },
+      {
+        "range": "A22",
+        "type": "string",
+        "value": "Benjamin Koopman"
+      },
+      {
+        "range": "B22:K22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L22",
+        "type": "number"
+      },
+      {
+        "range": "M22",
+        "type": "number"
+      },
+      {
+        "range": "A23",
+        "type": "string",
+        "value": "Brendan Downing"
+      },
+      {
+        "range": "B23:K23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L23",
+        "type": "number"
+      },
+      {
+        "range": "M23",
+        "type": "number"
+      },
+      {
+        "range": "A24",
+        "type": "string",
+        "value": "Brian Burke"
+      },
+      {
+        "range": "B24:K24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L24",
+        "type": "number"
+      },
+      {
+        "range": "M24",
+        "type": "number"
+      },
+      {
+        "range": "A25",
+        "type": "string",
+        "value": "Brian Neville-O'Neill"
+      },
+      {
+        "range": "B25:K25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L25",
+        "type": "number"
+      },
+      {
+        "range": "M25",
+        "type": "number"
+      },
+      {
+        "range": "A26",
+        "type": "string",
+        "value": "Brooke Pettengill"
+      },
+      {
+        "range": "B26:K26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L26",
+        "type": "number"
+      },
+      {
+        "range": "M26",
+        "type": "number"
+      },
+      {
+        "range": "A27",
+        "type": "string",
+        "value": "Bryan Floberg"
+      },
+      {
+        "range": "B27:K27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L27",
+        "type": "number"
+      },
+      {
+        "range": "M27",
+        "type": "number"
+      },
+      {
+        "range": "A28",
+        "type": "string",
+        "value": "Carney Crawford"
+      },
+      {
+        "range": "B28:K28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L28",
+        "type": "number"
+      },
+      {
+        "range": "M28",
+        "type": "number"
+      },
+      {
+        "range": "A29",
+        "type": "string",
+        "value": "Chae Young Kim"
+      },
+      {
+        "range": "B29:K29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L29",
+        "type": "number"
+      },
+      {
+        "range": "M29",
+        "type": "number"
+      },
+      {
+        "range": "A30",
+        "type": "string",
+        "value": "Christopher Botaish"
+      },
+      {
+        "range": "B30:K30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L30",
+        "type": "number"
+      },
+      {
+        "range": "M30",
+        "type": "number"
+      },
+      {
+        "range": "A31",
+        "type": "string",
+        "value": "Christopher Carvalho"
+      },
+      {
+        "range": "B31:K31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L31",
+        "type": "number"
+      },
+      {
+        "range": "M31",
+        "type": "number"
+      },
+      {
+        "range": "A32",
+        "type": "string",
+        "value": "Christopher McLean"
+      },
+      {
+        "range": "B32:K32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L32",
+        "type": "number"
+      },
+      {
+        "range": "M32",
+        "type": "number"
+      },
+      {
+        "range": "A33",
+        "type": "string",
+        "value": "Connor Blanck"
+      },
+      {
+        "range": "B33:K33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L33",
+        "type": "number"
+      },
+      {
+        "range": "M33",
+        "type": "number"
+      },
+      {
+        "range": "A34",
+        "type": "string",
+        "value": "Daniel, G Sheridan"
+      },
+      {
+        "range": "B34:K34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L34",
+        "type": "number"
+      },
+      {
+        "range": "M34",
+        "type": "number"
+      },
+      {
+        "range": "A35",
+        "type": "string",
+        "value": "Daniel Dewey"
+      },
+      {
+        "range": "B35:K35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L35",
+        "type": "number"
+      },
+      {
+        "range": "M35",
+        "type": "number"
+      },
+      {
+        "range": "A36",
+        "type": "string",
+        "value": "Diou Shi"
+      },
+      {
+        "range": "B36:K36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L36",
+        "type": "number"
+      },
+      {
+        "range": "M36",
+        "type": "number"
+      },
+      {
+        "range": "A37",
+        "type": "string",
+        "value": "Dylan Paiva"
+      },
+      {
+        "range": "B37:K37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L37",
+        "type": "number"
+      },
+      {
+        "range": "M37",
+        "type": "number"
+      },
+      {
+        "range": "A38",
+        "type": "string",
+        "value": "Elena Allison"
+      },
+      {
+        "range": "B38:K38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L38",
+        "type": "number"
+      },
+      {
+        "range": "M38",
+        "type": "number"
+      },
+      {
+        "range": "A39",
+        "type": "string",
+        "value": "Emily Kochanek Ketner"
+      },
+      {
+        "range": "B39:K39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L39",
+        "type": "number"
+      },
+      {
+        "range": "M39",
+        "type": "number"
+      },
+      {
+        "range": "A40",
+        "type": "string",
+        "value": "Emma Larson"
+      },
+      {
+        "range": "B40:K40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L40",
+        "type": "number"
+      },
+      {
+        "range": "M40",
+        "type": "number"
+      },
+      {
+        "range": "A41",
+        "type": "string",
+        "value": "Erin Dion"
+      },
+      {
+        "range": "B41:K41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L41",
+        "type": "number"
+      },
+      {
+        "range": "M41",
+        "type": "number"
+      },
+      {
+        "range": "A42",
+        "type": "string",
+        "value": "Evan Sauve"
+      },
+      {
+        "range": "B42:K42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L42",
+        "type": "number"
+      },
+      {
+        "range": "M42",
+        "type": "number"
+      },
+      {
+        "range": "A43",
+        "type": "string",
+        "value": "Ezeanyinabia Anyanwu"
+      },
+      {
+        "range": "B43:K43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L43",
+        "type": "number"
+      },
+      {
+        "range": "M43",
+        "type": "number"
+      },
+      {
+        "range": "A44",
+        "type": "string",
+        "value": "Ferrite II, LLC"
+      },
+      {
+        "range": "B44:K44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L44",
+        "type": "number"
+      },
+      {
+        "range": "M44",
+        "type": "number"
+      },
+      {
+        "range": "A45",
+        "type": "string",
+        "value": "Galen Vinter"
+      },
+      {
+        "range": "B45:K45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L45",
+        "type": "number"
+      },
+      {
+        "range": "M45",
+        "type": "number"
+      },
+      {
+        "range": "A46",
+        "type": "string",
+        "value": "Gazel Hebbert"
+      },
+      {
+        "range": "B46:K46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L46",
+        "type": "number"
+      },
+      {
+        "range": "M46",
+        "type": "number"
+      },
+      {
+        "range": "A47",
+        "type": "string",
+        "value": "GC Innovation III, LLC"
+      },
+      {
+        "range": "B47:K47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L47",
+        "type": "number"
+      },
+      {
+        "range": "M47",
+        "type": "number"
+      },
+      {
+        "range": "A48",
+        "type": "string",
+        "value": "George Hayes"
+      },
+      {
+        "range": "B48:K48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L48",
+        "type": "number"
+      },
+      {
+        "range": "M48",
+        "type": "number"
+      },
+      {
+        "range": "A49",
+        "type": "string",
+        "value": "Grace Seta"
+      },
+      {
+        "range": "B49:K49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L49",
+        "type": "number"
+      },
+      {
+        "range": "M49",
+        "type": "number"
+      },
+      {
+        "range": "A50",
+        "type": "string",
+        "value": "Greg Andrews"
+      },
+      {
+        "range": "B50:K50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L50",
+        "type": "number"
+      },
+      {
+        "range": "M50",
+        "type": "number"
+      },
+      {
+        "range": "A51",
+        "type": "string",
+        "value": "Gregory Harrington"
+      },
+      {
+        "range": "B51:K51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L51",
+        "type": "number"
+      },
+      {
+        "range": "M51",
+        "type": "number"
+      },
+      {
+        "range": "A52",
+        "type": "string",
+        "value": "Gregory Allen"
+      },
+      {
+        "range": "B52:K52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L52",
+        "type": "number"
+      },
+      {
+        "range": "M52",
+        "type": "number"
+      },
+      {
+        "range": "A53",
+        "type": "string",
+        "value": "Hannah Freilich"
+      },
+      {
+        "range": "B53:K53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L53",
+        "type": "number"
+      },
+      {
+        "range": "M53",
+        "type": "number"
+      },
+      {
+        "range": "A54",
+        "type": "string",
+        "value": "Isaac Smolund"
+      },
+      {
+        "range": "B54:K54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L54",
+        "type": "number"
+      },
+      {
+        "range": "M54",
+        "type": "number"
+      },
+      {
+        "range": "A55",
+        "type": "string",
+        "value": "John Turgeon"
+      },
+      {
+        "range": "B55:K55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L55",
+        "type": "number"
+      },
+      {
+        "range": "M55",
+        "type": "number"
+      },
+      {
+        "range": "A56",
+        "type": "string",
+        "value": "Jackson Bartlett"
+      },
+      {
+        "range": "B56:K56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L56",
+        "type": "number"
+      },
+      {
+        "range": "M56",
+        "type": "number"
+      },
+      {
+        "range": "A57",
+        "type": "string",
+        "value": "Jade Yang"
+      },
+      {
+        "range": "B57:K57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L57",
+        "type": "number"
+      },
+      {
+        "range": "M57",
+        "type": "number"
+      },
+      {
+        "range": "A58",
+        "type": "string",
+        "value": "James Logsdon"
+      },
+      {
+        "range": "B58:K58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L58",
+        "type": "number"
+      },
+      {
+        "range": "M58",
+        "type": "number"
+      },
+      {
+        "range": "A59",
+        "type": "string",
+        "value": "Jason Lee"
+      },
+      {
+        "range": "B59:K59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L59",
+        "type": "number"
+      },
+      {
+        "range": "M59",
+        "type": "number"
+      },
+      {
+        "range": "A60",
+        "type": "string",
+        "value": "Jason Silverstein"
+      },
+      {
+        "range": "B60:K60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L60",
+        "type": "number"
+      },
+      {
+        "range": "M60",
+        "type": "number"
+      },
+      {
+        "range": "A61",
+        "type": "string",
+        "value": "Jeffrey Wharton"
+      },
+      {
+        "range": "B61:K61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L61",
+        "type": "number"
+      },
+      {
+        "range": "M61",
+        "type": "number"
+      },
+      {
+        "range": "A62",
+        "type": "string",
+        "value": "Jenna Danoy"
+      },
+      {
+        "range": "B62:K62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L62",
+        "type": "number"
+      },
+      {
+        "range": "M62",
+        "type": "number"
+      },
+      {
+        "range": "A63",
+        "type": "string",
+        "value": "Jenna Lavin"
+      },
+      {
+        "range": "B63:K63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L63",
+        "type": "number"
+      },
+      {
+        "range": "M63",
+        "type": "number"
+      },
+      {
+        "range": "A64",
+        "type": "string",
+        "value": "Jessica LeSage"
+      },
+      {
+        "range": "B64:K64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L64",
+        "type": "number"
+      },
+      {
+        "range": "M64",
+        "type": "number"
+      },
+      {
+        "range": "A65",
+        "type": "string",
+        "value": "Jessica Rieger"
+      },
+      {
+        "range": "B65:K65",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L65",
+        "type": "number"
+      },
+      {
+        "range": "M65",
+        "type": "number"
+      },
+      {
+        "range": "A66",
+        "type": "string",
+        "value": "Jillian Healy"
+      },
+      {
+        "range": "B66:K66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L66",
+        "type": "number"
+      },
+      {
+        "range": "M66",
+        "type": "number"
+      },
+      {
+        "range": "A67",
+        "type": "string",
+        "value": "James Walerius"
+      },
+      {
+        "range": "B67:K67",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L67",
+        "type": "number"
+      },
+      {
+        "range": "M67",
+        "type": "number"
+      },
+      {
+        "range": "A68",
+        "type": "string",
+        "value": "John Bastian"
+      },
+      {
+        "range": "B68:K68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L68",
+        "type": "number"
+      },
+      {
+        "range": "M68",
+        "type": "number"
+      },
+      {
+        "range": "A69",
+        "type": "string",
+        "value": "John Levis"
+      },
+      {
+        "range": "B69:K69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L69",
+        "type": "number"
+      },
+      {
+        "range": "M69",
+        "type": "number"
+      },
+      {
+        "range": "A70",
+        "type": "string",
+        "value": "Jordan Jacobs"
+      },
+      {
+        "range": "B70:K70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L70",
+        "type": "number"
+      },
+      {
+        "range": "M70",
+        "type": "number"
+      },
+      {
+        "range": "A71",
+        "type": "string",
+        "value": "Joshua Norton"
+      },
+      {
+        "range": "B71:K71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L71",
+        "type": "number"
+      },
+      {
+        "range": "M71",
+        "type": "number"
+      },
+      {
+        "range": "A72",
+        "type": "string",
+        "value": "Julia Kelly"
+      },
+      {
+        "range": "B72:K72",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L72",
+        "type": "number"
+      },
+      {
+        "range": "M72",
+        "type": "number"
+      },
+      {
+        "range": "A73",
+        "type": "string",
+        "value": "Julianne Cappello"
+      },
+      {
+        "range": "B73:K73",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L73",
+        "type": "number"
+      },
+      {
+        "range": "M73",
+        "type": "number"
+      },
+      {
+        "range": "A74",
+        "type": "string",
+        "value": "Kaelan Cooter"
+      },
+      {
+        "range": "B74:K74",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L74",
+        "type": "number"
+      },
+      {
+        "range": "M74",
+        "type": "number"
+      },
+      {
+        "range": "A75",
+        "type": "string",
+        "value": "Katherine Monica"
+      },
+      {
+        "range": "B75:K75",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L75",
+        "type": "number"
+      },
+      {
+        "range": "M75",
+        "type": "number"
+      },
+      {
+        "range": "A76",
+        "type": "string",
+        "value": "Kathryn Trahan"
+      },
+      {
+        "range": "B76:K76",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L76",
+        "type": "number"
+      },
+      {
+        "range": "M76",
+        "type": "number"
+      },
+      {
+        "range": "A77",
+        "type": "string",
+        "value": "Katrina Beske"
+      },
+      {
+        "range": "B77:K77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L77",
+        "type": "number"
+      },
+      {
+        "range": "M77",
+        "type": "number"
+      },
+      {
+        "range": "A78",
+        "type": "string",
+        "value": "Kevin Falcone"
+      },
+      {
+        "range": "B78:K78",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L78",
+        "type": "number"
+      },
+      {
+        "range": "M78",
+        "type": "number"
+      },
+      {
+        "range": "A79",
+        "type": "string",
+        "value": "Kevin Falcone and Andrea Falcone Joint Tenants with Right to Survivorship"
+      },
+      {
+        "range": "B79:K79",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L79",
+        "type": "number"
+      },
+      {
+        "range": "M79",
+        "type": "number"
+      },
+      {
+        "range": "A80",
+        "type": "string",
+        "value": "Lauren Leclerc"
+      },
+      {
+        "range": "B80:K80",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L80",
+        "type": "number"
+      },
+      {
+        "range": "M80",
+        "type": "number"
+      },
+      {
+        "range": "A81",
+        "type": "string",
+        "value": "Lauren Ostroff"
+      },
+      {
+        "range": "B81:K81",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L81",
+        "type": "number"
+      },
+      {
+        "range": "M81",
+        "type": "number"
+      },
+      {
+        "range": "A82",
+        "type": "string",
+        "value": "Lauren Saalmuller"
+      },
+      {
+        "range": "B82:K82",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L82",
+        "type": "number"
+      },
+      {
+        "range": "M82",
+        "type": "number"
+      },
+      {
+        "range": "A83",
+        "type": "string",
+        "value": "Leanne Torres"
+      },
+      {
+        "range": "B83:K83",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L83",
+        "type": "number"
+      },
+      {
+        "range": "M83",
+        "type": "number"
+      },
+      {
+        "range": "A84",
+        "type": "string",
+        "value": "Luke Tubinis"
+      },
+      {
+        "range": "B84:K84",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L84",
+        "type": "number"
+      },
+      {
+        "range": "M84",
+        "type": "number"
+      },
+      {
+        "range": "A85",
+        "type": "string",
+        "value": "Matrix Partners X, L.P."
+      },
+      {
+        "range": "B85:K85",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L85",
+        "type": "number"
+      },
+      {
+        "range": "M85",
+        "type": "number"
+      },
+      {
+        "range": "A86",
+        "type": "string",
+        "value": "Matthew Angelosanto"
+      },
+      {
+        "range": "B86:K86",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L86",
+        "type": "number"
+      },
+      {
+        "range": "M86",
+        "type": "number"
+      },
+      {
+        "range": "A87",
+        "type": "string",
+        "value": "Matthew Arbesfeld"
+      },
+      {
+        "range": "B87:K87",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L87",
+        "type": "number"
+      },
+      {
+        "range": "M87",
+        "type": "number"
+      },
+      {
+        "range": "A88",
+        "type": "string",
+        "value": "McKenzie Welter"
+      },
+      {
+        "range": "B88:K88",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L88",
+        "type": "number"
+      },
+      {
+        "range": "M88",
+        "type": "number"
+      },
+      {
+        "range": "A89",
+        "type": "string",
+        "value": "Melissa Miller"
+      },
+      {
+        "range": "B89:K89",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L89",
+        "type": "number"
+      },
+      {
+        "range": "M89",
+        "type": "number"
+      },
+      {
+        "range": "A90",
+        "type": "string",
+        "value": "Micaela Clark"
+      },
+      {
+        "range": "B90:K90",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L90",
+        "type": "number"
+      },
+      {
+        "range": "M90",
+        "type": "number"
+      },
+      {
+        "range": "A91",
+        "type": "string",
+        "value": "Michael Della Torre"
+      },
+      {
+        "range": "B91:K91",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L91",
+        "type": "number"
+      },
+      {
+        "range": "M91",
+        "type": "number"
+      },
+      {
+        "range": "A92",
+        "type": "string",
+        "value": "Michael Flanagan"
+      },
+      {
+        "range": "B92:K92",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L92",
+        "type": "number"
+      },
+      {
+        "range": "M92",
+        "type": "number"
+      },
+      {
+        "range": "A93",
+        "type": "string",
+        "value": "Michael Fleischman"
+      },
+      {
+        "range": "B93:K93",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L93",
+        "type": "number"
+      },
+      {
+        "range": "M93",
+        "type": "number"
+      },
+      {
+        "range": "A94",
+        "type": "string",
+        "value": "Michael Smith"
+      },
+      {
+        "range": "B94:K94",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L94",
+        "type": "number"
+      },
+      {
+        "range": "M94",
+        "type": "number"
+      },
+      {
+        "range": "A95",
+        "type": "string",
+        "value": "Michelle Douglas"
+      },
+      {
+        "range": "B95:K95",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L95",
+        "type": "number"
+      },
+      {
+        "range": "M95",
+        "type": "number"
+      },
+      {
+        "range": "A96",
+        "type": "string",
+        "value": "Molly Cousins"
+      },
+      {
+        "range": "B96:K96",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L96",
+        "type": "number"
+      },
+      {
+        "range": "M96",
+        "type": "number"
+      },
+      {
+        "range": "A97",
+        "type": "string",
+        "value": "Molly McGaan"
+      },
+      {
+        "range": "B97:K97",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L97",
+        "type": "number"
+      },
+      {
+        "range": "M97",
+        "type": "number"
+      },
+      {
+        "range": "A98",
+        "type": "string",
+        "value": "Molly Smith"
+      },
+      {
+        "range": "B98:K98",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L98",
+        "type": "number"
+      },
+      {
+        "range": "M98",
+        "type": "number"
+      },
+      {
+        "range": "A99",
+        "type": "string",
+        "value": "Morgan Curtis"
+      },
+      {
+        "range": "B99:K99",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L99",
+        "type": "number"
+      },
+      {
+        "range": "M99",
+        "type": "number"
+      },
+      {
+        "range": "A100",
+        "type": "string",
+        "value": "Nathaniel Lewis"
+      },
+      {
+        "range": "B100:K100",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L100",
+        "type": "number"
+      },
+      {
+        "range": "M100",
+        "type": "number"
+      },
+      {
+        "range": "A101",
+        "type": "string",
+        "value": "Nicholas Barton"
+      },
+      {
+        "range": "B101:K101",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L101",
+        "type": "number"
+      },
+      {
+        "range": "M101",
+        "type": "number"
+      },
+      {
+        "range": "A102",
+        "type": "string",
+        "value": "Nikhil Phatak"
+      },
+      {
+        "range": "B102:K102",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L102",
+        "type": "number"
+      },
+      {
+        "range": "M102",
+        "type": "number"
+      },
+      {
+        "range": "A103",
+        "type": "string",
+        "value": "Nitesh Banta"
+      },
+      {
+        "range": "B103:K103",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L103",
+        "type": "number"
+      },
+      {
+        "range": "M103",
+        "type": "number"
+      },
+      {
+        "range": "A104",
+        "type": "string",
+        "value": "Noel Minchow"
+      },
+      {
+        "range": "B104:K104",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L104",
+        "type": "number"
+      },
+      {
+        "range": "M104",
+        "type": "number"
+      },
+      {
+        "range": "A105",
+        "type": "string",
+        "value": "Pascal Kriete"
+      },
+      {
+        "range": "B105:K105",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L105",
+        "type": "number"
+      },
+      {
+        "range": "M105",
+        "type": "number"
+      },
+      {
+        "range": "A106",
+        "type": "string",
+        "value": "Patrick Morey"
+      },
+      {
+        "range": "B106:K106",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L106",
+        "type": "number"
+      },
+      {
+        "range": "M106",
+        "type": "number"
+      },
+      {
+        "range": "A107",
+        "type": "string",
+        "value": "Paul Mikulskis"
+      },
+      {
+        "range": "B107:K107",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L107",
+        "type": "number"
+      },
+      {
+        "range": "M107",
+        "type": "number"
+      },
+      {
+        "range": "A108",
+        "type": "string",
+        "value": "Renzo Lucioni"
+      },
+      {
+        "range": "B108:K108",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L108",
+        "type": "number"
+      },
+      {
+        "range": "M108",
+        "type": "number"
+      },
+      {
+        "range": "A109",
+        "type": "string",
+        "value": "Robert Lasell"
+      },
+      {
+        "range": "B109:K109",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L109",
+        "type": "number"
+      },
+      {
+        "range": "M109",
+        "type": "number"
+      },
+      {
+        "range": "A110",
+        "type": "string",
+        "value": "Rochelle Burnside"
+      },
+      {
+        "range": "B110:K110",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L110",
+        "type": "number"
+      },
+      {
+        "range": "M110",
+        "type": "number"
+      },
+      {
+        "range": "A111",
+        "type": "string",
+        "value": "Samuel Yoder"
+      },
+      {
+        "range": "B111:K111",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L111",
+        "type": "number"
+      },
+      {
+        "range": "M111",
+        "type": "number"
+      },
+      {
+        "range": "A112",
+        "type": "string",
+        "value": "Shane Meth"
+      },
+      {
+        "range": "B112:K112",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L112",
+        "type": "number"
+      },
+      {
+        "range": "M112",
+        "type": "number"
+      },
+      {
+        "range": "A113",
+        "type": "string",
+        "value": "Sheffield Reynolds"
+      },
+      {
+        "range": "B113:K113",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L113",
+        "type": "number"
+      },
+      {
+        "range": "M113",
+        "type": "number"
+      },
+      {
+        "range": "A114",
+        "type": "string",
+        "value": "Siobhan Buckley"
+      },
+      {
+        "range": "B114:K114",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L114",
+        "type": "number"
+      },
+      {
+        "range": "M114",
+        "type": "number"
+      },
+      {
+        "range": "A115",
+        "type": "string",
+        "value": "SNR - 1 dB, LLC"
+      },
+      {
+        "range": "B115:K115",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L115",
+        "type": "number"
+      },
+      {
+        "range": "M115",
+        "type": "number"
+      },
+      {
+        "range": "A116",
+        "type": "string",
+        "value": "Sonya Dube"
+      },
+      {
+        "range": "B116:K116",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L116",
+        "type": "number"
+      },
+      {
+        "range": "M116",
+        "type": "number"
+      },
+      {
+        "range": "A117",
+        "type": "string",
+        "value": "Susan Cotter"
+      },
+      {
+        "range": "B117:K117",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L117",
+        "type": "number"
+      },
+      {
+        "range": "M117",
+        "type": "number"
+      },
+      {
+        "range": "A118",
+        "type": "string",
+        "value": "Tait Larson"
+      },
+      {
+        "range": "B118:K118",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L118",
+        "type": "number"
+      },
+      {
+        "range": "M118",
+        "type": "number"
+      },
+      {
+        "range": "A119",
+        "type": "string",
+        "value": "The Dorm Room Fund II, LP"
+      },
+      {
+        "range": "B119:K119",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L119",
+        "type": "number"
+      },
+      {
+        "range": "M119",
+        "type": "number"
+      },
+      {
+        "range": "A120",
+        "type": "string",
+        "value": "Trisha Paul"
+      },
+      {
+        "range": "B120:K120",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L120",
+        "type": "number"
+      },
+      {
+        "range": "M120",
+        "type": "number"
+      },
+      {
+        "range": "A121",
+        "type": "string",
+        "value": "Tyler Fallon"
+      },
+      {
+        "range": "B121:K121",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L121",
+        "type": "number"
+      },
+      {
+        "range": "M121",
+        "type": "number"
+      },
+      {
+        "range": "A122",
+        "type": "string",
+        "value": "Weston & Co. X LLC"
+      },
+      {
+        "range": "B122:K122",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L122",
+        "type": "number"
+      },
+      {
+        "range": "M122",
+        "type": "number"
+      },
+      {
+        "range": "A123",
+        "type": "string",
+        "value": "Will Berner"
+      },
+      {
+        "range": "B123:K123",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L123",
+        "type": "number"
+      },
+      {
+        "range": "M123",
+        "type": "number"
+      },
+      {
+        "range": "A124",
+        "type": "string",
+        "value": "William Lundgren IV"
+      },
+      {
+        "range": "B124:K124",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L124",
+        "type": "number"
+      },
+      {
+        "range": "M124",
+        "type": "number"
+      },
+      {
+        "range": "A125",
+        "type": "string",
+        "value": "William Seider"
+      },
+      {
+        "range": "B125:K125",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L125",
+        "type": "number"
+      },
+      {
+        "range": "M125",
+        "type": "number"
+      },
+      {
+        "range": "A126",
+        "type": "string",
+        "value": "Zachary Day"
+      },
+      {
+        "range": "B126:K126",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L126",
+        "type": "number"
+      },
+      {
+        "range": "M126",
+        "type": "number"
+      },
+      {
+        "range": "A127",
+        "type": "string",
+        "value": "Options and RSU's issued and outstanding"
+      },
+      {
+        "range": "I127",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A128",
+        "type": "string",
+        "value": "Shares available for issuance under the plan"
+      },
+      {
+        "range": "I128",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K128",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M128",
+        "type": "number"
+      },
+      {
+        "range": "A129",
+        "type": "string",
+        "value": "Fully diluted shares"
+      },
+      {
+        "range": "B129",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D129",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F129",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H129:I129",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K129",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M129",
+        "type": "number"
+      },
+      {
+        "range": "B130",
+        "type": "number"
+      },
+      {
+        "range": "D130",
+        "type": "number"
+      },
+      {
+        "range": "F130",
+        "type": "number"
+      },
+      {
+        "range": "H130:I130",
+        "type": "number"
+      },
+      {
+        "range": "K130",
+        "type": "number"
+      },
+      {
+        "range": "A131",
+        "type": "string",
+        "value": "Total Shares Outstanding"
+      },
+      {
+        "range": "B131:C131",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E131",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G131",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J131",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L131",
+        "type": "number"
+      },
+      {
+        "range": "A132",
+        "type": "string",
+        "value": "Percentage Outstanding"
+      },
+      {
+        "range": "B132:C132",
+        "type": "number"
+      },
+      {
+        "range": "E132",
+        "type": "number"
+      },
+      {
+        "range": "G132",
+        "type": "number"
+      },
+      {
+        "range": "J132",
+        "type": "number"
+      },
+      {
+        "range": "A133",
+        "type": "string",
+        "value": "Price per share"
+      },
+      {
+        "range": "C133:D133",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E133:H133",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 220.26,
+      "cells_analyzed": 1642,
+      "total_ranges": 536,
+      "format_counts": {
+        "string": 144,
+        "number": 392
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T19:45:58.274261Z"
+    }
+  },
+  "compression_stats": {
+    "unique_values": 1,
+    "entries_moved_to_index": 2,
+    "entries_remaining": 534,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 23899,
+    "compressed_size_bytes": 23835,
+    "inverted_index_size_bytes": 68,
+    "compressed_data_size_bytes": 23767,
+    "compression_ratio": 0.997,
+    "space_saved_bytes": 64,
+    "space_saved_percent": 0.3
+  }
+}

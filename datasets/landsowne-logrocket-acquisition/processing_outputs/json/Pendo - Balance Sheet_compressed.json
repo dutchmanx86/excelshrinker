@@ -1,0 +1,1376 @@
+{
+  "inverted_index": {
+    "10/31/2019": {
+      "type": "string",
+      "ranges": [
+        "F4",
+        "Z7"
+      ]
+    },
+    "Month Ending": {
+      "type": "string",
+      "ranges": [
+        "F6:AR6"
+      ]
+    },
+    "Actual": {
+      "type": "string",
+      "ranges": [
+        "F8:AR8"
+      ]
+    },
+    "    ": {
+      "type": "string",
+      "ranges": [
+        "B11:D11",
+        "F11:AR11",
+        "B19:D19",
+        "F19:Z19",
+        "B24:D24",
+        "F24:Z24",
+        "B30:D30",
+        "F30:Z30",
+        "B41:D41",
+        "F41:AR41",
+        "B49:D49",
+        "F49:AR49",
+        "F53:AR53"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Pendo - Balance Sheet",
+    "format_ranges": [
+      {
+        "range": "A1",
+        "type": "string",
+        "value": "Pendo.io Inc."
+      },
+      {
+        "range": "A2",
+        "type": "string",
+        "value": "Pendo - Consolidated Balance Sheet TTM (in USD)"
+      },
+      {
+        "range": "A3",
+        "type": "string",
+        "value": "Reporting Book:"
+      },
+      {
+        "range": "F3",
+        "type": "string",
+        "value": "CONS-USD"
+      },
+      {
+        "range": "A4",
+        "type": "string",
+        "value": "As of Date:"
+      },
+      {
+        "range": "A5",
+        "type": "string",
+        "value": " "
+      },
+      {
+        "range": "A6",
+        "type": "string",
+        "value": " "
+      },
+      {
+        "range": "A7",
+        "type": "string",
+        "value": " "
+      },
+      {
+        "range": "F7",
+        "type": "string",
+        "value": "02/28/2018"
+      },
+      {
+        "range": "G7",
+        "type": "string",
+        "value": "03/31/2018"
+      },
+      {
+        "range": "H7",
+        "type": "string",
+        "value": "04/30/2018"
+      },
+      {
+        "range": "I7",
+        "type": "string",
+        "value": "05/31/2018"
+      },
+      {
+        "range": "J7",
+        "type": "string",
+        "value": "06/30/2018"
+      },
+      {
+        "range": "K7",
+        "type": "string",
+        "value": "07/31/2018"
+      },
+      {
+        "range": "L7",
+        "type": "string",
+        "value": "08/31/2018"
+      },
+      {
+        "range": "M7",
+        "type": "string",
+        "value": "09/30/2018"
+      },
+      {
+        "range": "N7",
+        "type": "string",
+        "value": "10/31/2018"
+      },
+      {
+        "range": "O7",
+        "type": "string",
+        "value": "11/30/2018"
+      },
+      {
+        "range": "P7",
+        "type": "string",
+        "value": "12/31/2018"
+      },
+      {
+        "range": "Q7",
+        "type": "string",
+        "value": "01/31/2019"
+      },
+      {
+        "range": "R7",
+        "type": "string",
+        "value": "02/28/2019"
+      },
+      {
+        "range": "S7",
+        "type": "string",
+        "value": "03/31/2019"
+      },
+      {
+        "range": "T7",
+        "type": "string",
+        "value": "04/30/2019"
+      },
+      {
+        "range": "U7",
+        "type": "string",
+        "value": "05/31/2019"
+      },
+      {
+        "range": "V7",
+        "type": "string",
+        "value": "06/30/2019"
+      },
+      {
+        "range": "W7",
+        "type": "string",
+        "value": "07/31/2019"
+      },
+      {
+        "range": "X7",
+        "type": "string",
+        "value": "08/31/2019"
+      },
+      {
+        "range": "Y7",
+        "type": "string",
+        "value": "09/30/2019"
+      },
+      {
+        "range": "AA7",
+        "type": "string",
+        "value": "11/30/2019"
+      },
+      {
+        "range": "AB7",
+        "type": "string",
+        "value": "12/31/2019"
+      },
+      {
+        "range": "AC7",
+        "type": "string",
+        "value": "01/31/2020"
+      },
+      {
+        "range": "AD7",
+        "type": "string",
+        "value": "02/29/2020"
+      },
+      {
+        "range": "AE7",
+        "type": "string",
+        "value": "03/31/2020"
+      },
+      {
+        "range": "AF7",
+        "type": "string",
+        "value": "04/30/2020"
+      },
+      {
+        "range": "AG7",
+        "type": "string",
+        "value": "05/31/2020"
+      },
+      {
+        "range": "AH7",
+        "type": "string",
+        "value": "06/30/2020"
+      },
+      {
+        "range": "AI7",
+        "type": "string",
+        "value": "07/31/2020"
+      },
+      {
+        "range": "AJ7",
+        "type": "string",
+        "value": "08/31/2020"
+      },
+      {
+        "range": "AK7",
+        "type": "string",
+        "value": "09/30/2020"
+      },
+      {
+        "range": "AL7",
+        "type": "string",
+        "value": "10/31/2020"
+      },
+      {
+        "range": "AM7",
+        "type": "string",
+        "value": "11/30/2020"
+      },
+      {
+        "range": "AN7",
+        "type": "string",
+        "value": "12/31/2020"
+      },
+      {
+        "range": "AO7",
+        "type": "string",
+        "value": "01/31/2021"
+      },
+      {
+        "range": "AP7",
+        "type": "string",
+        "value": "02/28/2021"
+      },
+      {
+        "range": "AQ7",
+        "type": "string",
+        "value": "03/31/2021"
+      },
+      {
+        "range": "AR7",
+        "type": "string",
+        "value": "04/30/2021"
+      },
+      {
+        "range": "B7:D7",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "A8",
+        "type": "string",
+        "value": " "
+      },
+      {
+        "range": "A9",
+        "type": "string",
+        "value": "  Assets"
+      },
+      {
+        "range": "B9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "C9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "D9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "F9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "G9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "H9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "I9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "J9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "K9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "L9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "M9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "N9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "O9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "P9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "Q9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "R9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "S9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "T9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "U9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "V9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "W9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "X9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "Y9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "Z9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AA9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AB9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AC9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AD9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AE9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AF9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AG9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AH9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AI9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AJ9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AK9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AL9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AM9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AN9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AO9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AP9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AQ9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AR9",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "A10",
+        "type": "string",
+        "value": " "
+      },
+      {
+        "range": "A11",
+        "type": "string",
+        "value": "    Current Assets"
+      },
+      {
+        "range": "A12",
+        "type": "string",
+        "value": "      Cash and Cash Equivalents"
+      },
+      {
+        "range": "B12:D12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F12:AR12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A13",
+        "type": "string",
+        "value": "      Short Term Investments"
+      },
+      {
+        "range": "B13:D13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F13:AR13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A14",
+        "type": "string",
+        "value": "      Total Accounts Receivable, Net"
+      },
+      {
+        "range": "B14:D14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F14:AR14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A15",
+        "type": "string",
+        "value": "      Prepaid Expenses"
+      },
+      {
+        "range": "B15:D15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F15:AR15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A16",
+        "type": "string",
+        "value": "      Other Current Assets"
+      },
+      {
+        "range": "B16:D16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F16:AR16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A17",
+        "type": "string",
+        "value": "    Total Current Assets"
+      },
+      {
+        "range": "B17:D17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F17:AR17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A18",
+        "type": "string",
+        "value": " "
+      },
+      {
+        "range": "A19",
+        "type": "string",
+        "value": "    Fixed Assets, Net"
+      },
+      {
+        "range": "A20",
+        "type": "string",
+        "value": "      Fixed Assets"
+      },
+      {
+        "range": "B20:D20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F20:Z20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A21",
+        "type": "string",
+        "value": "      Accumulated Depreciation"
+      },
+      {
+        "range": "B21:D21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F21:Z21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A22",
+        "type": "string",
+        "value": "    Total Fixed Assets, Net"
+      },
+      {
+        "range": "B22:D22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F22:AR22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A23",
+        "type": "string",
+        "value": " "
+      },
+      {
+        "range": "A24",
+        "type": "string",
+        "value": "    Intangible Assets, Net"
+      },
+      {
+        "range": "A25",
+        "type": "string",
+        "value": "      Intangible Assets"
+      },
+      {
+        "range": "B25:D25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F25:Z25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A26",
+        "type": "string",
+        "value": "      Goodwill"
+      },
+      {
+        "range": "B26:D26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F26:Z26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A27",
+        "type": "string",
+        "value": "      Amortization"
+      },
+      {
+        "range": "B27:D27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F27:Z27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A28",
+        "type": "string",
+        "value": "    Total Intangible Assets, Net"
+      },
+      {
+        "range": "B28:D28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F28:AR28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A29",
+        "type": "string",
+        "value": " "
+      },
+      {
+        "range": "A30",
+        "type": "string",
+        "value": "    Other Assets"
+      },
+      {
+        "range": "A31",
+        "type": "string",
+        "value": "      Deposits and Prepayments"
+      },
+      {
+        "range": "B31:D31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F31:Z31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A32",
+        "type": "string",
+        "value": "      Employee Advances / Loans"
+      },
+      {
+        "range": "B32:D32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F32:Z32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A33",
+        "type": "string",
+        "value": "      Other Assets"
+      },
+      {
+        "range": "B33:D33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F33:Z33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A34",
+        "type": "string",
+        "value": "    Total Other Assets"
+      },
+      {
+        "range": "B34:D34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F34:AR34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A35",
+        "type": "string",
+        "value": " "
+      },
+      {
+        "range": "A36",
+        "type": "string",
+        "value": "  Total Assets"
+      },
+      {
+        "range": "B36:D36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F36:AR36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A37",
+        "type": "string",
+        "value": " "
+      },
+      {
+        "range": "A38",
+        "type": "string",
+        "value": " "
+      },
+      {
+        "range": "A39",
+        "type": "string",
+        "value": "  Liabilities and Equity"
+      },
+      {
+        "range": "B39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "C39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "D39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "F39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "G39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "H39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "I39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "J39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "K39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "L39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "M39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "N39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "O39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "P39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "Q39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "R39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "S39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "T39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "U39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "V39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "W39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "X39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "Y39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "Z39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AA39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AB39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AC39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AD39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AE39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AF39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AG39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AH39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AI39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AJ39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AK39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AL39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AM39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AN39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AO39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AP39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AQ39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "AR39",
+        "type": "string",
+        "value": "  "
+      },
+      {
+        "range": "A40",
+        "type": "string",
+        "value": " "
+      },
+      {
+        "range": "A41",
+        "type": "string",
+        "value": "    Current Liabilities"
+      },
+      {
+        "range": "A42",
+        "type": "string",
+        "value": "      Accounts Payable"
+      },
+      {
+        "range": "B42:D42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F42:AR42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A43",
+        "type": "string",
+        "value": "      Accrued Liabilities"
+      },
+      {
+        "range": "B43:D43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F43:AR43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A44",
+        "type": "string",
+        "value": "      Deferred Revenue"
+      },
+      {
+        "range": "B44:D44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F44:AR44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A45",
+        "type": "string",
+        "value": "      Sales & Used Tax Payable"
+      },
+      {
+        "range": "B45:D45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F45:AR45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A46",
+        "type": "string",
+        "value": "      Other Current Liabilities"
+      },
+      {
+        "range": "B46:D46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F46:AR46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A47",
+        "type": "string",
+        "value": "    Total Current Liabilities"
+      },
+      {
+        "range": "B47:D47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F47:AR47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A48",
+        "type": "string",
+        "value": " "
+      },
+      {
+        "range": "A49",
+        "type": "string",
+        "value": "    Other Liabilities"
+      },
+      {
+        "range": "A50",
+        "type": "string",
+        "value": "      Other Liabilities"
+      },
+      {
+        "range": "B50:D50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F50:AR50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A51",
+        "type": "string",
+        "value": "    Total Other Liabilities"
+      },
+      {
+        "range": "B51:D51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F51:AR51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A52",
+        "type": "string",
+        "value": " "
+      },
+      {
+        "range": "A53",
+        "type": "string",
+        "value": "    Stockholders Equity"
+      },
+      {
+        "range": "A54",
+        "type": "string",
+        "value": "      Preferred Stock"
+      },
+      {
+        "range": "B54:D54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F54:AR54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A55",
+        "type": "string",
+        "value": "      Common Stock"
+      },
+      {
+        "range": "B55:D55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F55:AR55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A56",
+        "type": "string",
+        "value": "      Additional Paid In Capital"
+      },
+      {
+        "range": "B56:D56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F56:AR56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A57",
+        "type": "string",
+        "value": "      Cumulative Translation Adjustment"
+      },
+      {
+        "range": "B57:D57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F57:AR57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A58",
+        "type": "string",
+        "value": "      Retained Earnings"
+      },
+      {
+        "range": "B58:D58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F58:AR58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A59",
+        "type": "string",
+        "value": "      Net Income"
+      },
+      {
+        "range": "B59:D59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F59:AR59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A60",
+        "type": "string",
+        "value": "    Total Stockholders Equity"
+      },
+      {
+        "range": "B60:D60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F60:AR60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A61",
+        "type": "string",
+        "value": " "
+      },
+      {
+        "range": "A62",
+        "type": "string",
+        "value": "  Total Liabilities and Equity"
+      },
+      {
+        "range": "B62:D62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F62:AR62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B66:D66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F66:AR66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A68",
+        "type": "string",
+        "value": "Cash & Cash Eq."
+      },
+      {
+        "range": "B68:D68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F68:AR68",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 74.89,
+      "cells_analyzed": 1874,
+      "total_ranges": 576,
+      "format_counts": {
+        "string": 503,
+        "date": 1,
+        "number": 72
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T19:47:35.079702Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "annual",
+        "increment": "1 year",
+        "start_date": "2019-01-01",
+        "pattern": "Annual series from 2019 to 2021"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 4,
+    "entries_moved_to_index": 317,
+    "entries_remaining": 259,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 29030,
+    "compressed_size_bytes": 14024,
+    "inverted_index_size_bytes": 323,
+    "compressed_data_size_bytes": 13701,
+    "compression_ratio": 0.483,
+    "space_saved_bytes": 15006,
+    "space_saved_percent": 51.7
+  }
+}

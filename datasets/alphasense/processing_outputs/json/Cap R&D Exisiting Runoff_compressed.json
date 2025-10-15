@@ -1,0 +1,117 @@
+{
+  "inverted_index": {},
+  "data": {
+    "success": true,
+    "sheet_name": "Cap R&D Exisiting Runoff",
+    "format_ranges": [
+      {
+        "range": "C3:BJ3",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "B4:N4",
+        "type": "number"
+      },
+      {
+        "range": "B5:Z5",
+        "type": "number"
+      },
+      {
+        "range": "B6:AL6",
+        "type": "number"
+      },
+      {
+        "range": "B7:AX7",
+        "type": "number"
+      },
+      {
+        "range": "B8:BJ8",
+        "type": "number"
+      },
+      {
+        "range": "B9",
+        "type": "number"
+      },
+      {
+        "range": "B10",
+        "type": "number"
+      },
+      {
+        "range": "C11:BJ12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A13",
+        "type": "string",
+        "value": "1/31/20 Exchange Rate"
+      },
+      {
+        "range": "B13",
+        "type": "number"
+      },
+      {
+        "range": "G18:L18",
+        "type": "number"
+      },
+      {
+        "range": "G18:L18",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "G19:L19",
+        "type": "number"
+      },
+      {
+        "range": "N19",
+        "type": "number"
+      },
+      {
+        "range": "P19",
+        "type": "number"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 2839.88,
+      "cells_analyzed": 383,
+      "total_ranges": 16,
+      "format_counts": {
+        "date": 2,
+        "number": 13,
+        "string": 1
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T11:06:10.971137Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2020-01-01",
+        "pattern": "Monthly series from 2020-01 to 2024-12"
+      },
+      "ds_2": {
+        "series_type": "annual",
+        "increment": "1 year",
+        "start_date": "2015-01-01",
+        "pattern": "Annual series from 2015 to 2020"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 0,
+    "entries_moved_to_index": 0,
+    "entries_remaining": 16,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 1180,
+    "compressed_size_bytes": 1182,
+    "inverted_index_size_bytes": 2,
+    "compressed_data_size_bytes": 1180,
+    "compression_ratio": 1.002,
+    "space_saved_bytes": -2,
+    "space_saved_percent": -0.2
+  }
+}

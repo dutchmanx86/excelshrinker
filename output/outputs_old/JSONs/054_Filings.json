@@ -1,0 +1,130 @@
+{
+  "success": true,
+  "sheet_name": "Filings",
+  "format_ranges": [
+    {
+      "range": "B1:S1",
+      "type": "date",
+      "date_series_id": "ds_1"
+    },
+    {
+      "range": "A2",
+      "type": "string",
+      "value": "Financial"
+    },
+    {
+      "range": "B2",
+      "type": "number"
+    },
+    {
+      "range": "C2:S2",
+      "type": "number"
+    },
+    {
+      "range": "A3",
+      "type": "string",
+      "value": "Other"
+    },
+    {
+      "range": "B3:K3",
+      "type": "number"
+    },
+    {
+      "range": "L3:N3",
+      "type": "number",
+      "scale": 1000
+    },
+    {
+      "range": "O3:S3",
+      "type": "number"
+    },
+    {
+      "range": "A4",
+      "type": "string",
+      "value": "Corporate"
+    },
+    {
+      "range": "B4:K4",
+      "type": "number"
+    },
+    {
+      "range": "L4:N4",
+      "type": "number",
+      "scale": 1000
+    },
+    {
+      "range": "O4:S4",
+      "type": "number"
+    },
+    {
+      "range": "A5",
+      "type": "string",
+      "value": "Financial"
+    },
+    {
+      "range": "B5:K5",
+      "type": "number"
+    },
+    {
+      "range": "L5:N5",
+      "type": "number",
+      "scale": 1000
+    },
+    {
+      "range": "O5:S5",
+      "type": "number"
+    },
+    {
+      "range": "A6",
+      "type": "string",
+      "value": "Broker Partner"
+    },
+    {
+      "range": "B6:K6",
+      "type": "number"
+    },
+    {
+      "range": "L6:N6",
+      "type": "number",
+      "scale": 1000
+    },
+    {
+      "range": "O6:S6",
+      "type": "number"
+    },
+    {
+      "range": "B7:K7",
+      "type": "number"
+    },
+    {
+      "range": "L7:N7",
+      "type": "number",
+      "scale": 1000
+    },
+    {
+      "range": "O7:S7",
+      "type": "number"
+    }
+  ],
+  "statistics": {
+    "processing_time_ms": 2974.87,
+    "cells_analyzed": 131,
+    "total_ranges": 23,
+    "format_counts": {
+      "date": 1,
+      "string": 5,
+      "number": 17
+    }
+  },
+  "metadata": {
+    "detected_at": "2025-10-13T21:35:53.326690Z"
+  },
+  "date_series_definitions": {
+    "ds_1": {
+      "series_type": "monthly",
+      "increment": "1 month",
+      "start_date": "2017-01-01",
+      "pattern": "Monthly series from 2017-01 to 2018-06"
+    }
+  }
+}

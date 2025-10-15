@@ -1,0 +1,246 @@
+{
+  "inverted_index": {
+    "Account Manager": {
+      "type": "string",
+      "ranges": [
+        "B7",
+        "B18"
+      ]
+    },
+    "AE - Financial": {
+      "type": "string",
+      "ranges": [
+        "B8",
+        "B16"
+      ]
+    },
+    "AE - Corporate": {
+      "type": "string",
+      "ranges": [
+        "B9",
+        "B19"
+      ]
+    },
+    "AE - Enterprise": {
+      "type": "string",
+      "ranges": [
+        "B10",
+        "B17"
+      ]
+    },
+    "AE - Other": {
+      "type": "string",
+      "ranges": [
+        "B11",
+        "B20"
+      ]
+    },
+    "VP Bus Dev": {
+      "type": "string",
+      "ranges": [
+        "B12",
+        "B22"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Historical Quota& Productivity",
+    "format_ranges": [
+      {
+        "range": "E5:H5",
+        "type": "number"
+      },
+      {
+        "range": "E5:H5",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "J5:BH5",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "B6",
+        "type": "string",
+        "value": "Historical Quota"
+      },
+      {
+        "range": "F7:H7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F8:H8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F9:H9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F10:H10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F11:H11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F12:H12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V12:AS12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B15",
+        "type": "string",
+        "value": "Historical Productivity"
+      },
+      {
+        "range": "E16:G16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J16:BH16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E17:G17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J17:AV17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E18:G18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J18:BH18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E19:G19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J19:BH19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E20:G20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J20:AV20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B21",
+        "type": "string",
+        "value": "Other"
+      },
+      {
+        "range": "E21:G21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J21:AV21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E22:G22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J22:AV22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B23",
+        "type": "string",
+        "value": "Total"
+      },
+      {
+        "range": "E23:G23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J23:BH23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J26:AS26",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 2999.59,
+      "cells_analyzed": 533,
+      "total_ranges": 43,
+      "format_counts": {
+        "number": 25,
+        "date": 2,
+        "string": 16
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T11:05:52.914320Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "annual",
+        "increment": "1 year",
+        "start_date": "2015-01-01",
+        "pattern": "Annual series from 2015 to 2018"
+      },
+      "ds_2": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2015-01-31",
+        "pattern": "Monthly series from 2015-01 to 2019-03"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 6,
+    "entries_moved_to_index": 12,
+    "entries_remaining": 31,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 2770,
+    "compressed_size_bytes": 2441,
+    "inverted_index_size_bytes": 340,
+    "compressed_data_size_bytes": 2101,
+    "compression_ratio": 0.881,
+    "space_saved_bytes": 329,
+    "space_saved_percent": 11.9
+  }
+}

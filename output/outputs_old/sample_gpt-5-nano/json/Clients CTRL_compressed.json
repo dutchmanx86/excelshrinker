@@ -1,0 +1,539 @@
+{
+  "inverted_index": {
+    "New Booked ARR per New Client": {
+      "type": "string",
+      "ranges": [
+        "B13",
+        "B36",
+        "B59"
+      ]
+    },
+    "Base - $25mm": {
+      "type": "string",
+      "ranges": [
+        "B14",
+        "B21",
+        "B28",
+        "B37",
+        "B44",
+        "B51",
+        "B60",
+        "B67",
+        "B74"
+      ]
+    },
+    "Growth - $25mm": {
+      "type": "string",
+      "ranges": [
+        "B15",
+        "B22",
+        "B29",
+        "B38",
+        "B45",
+        "B52",
+        "B61",
+        "B68",
+        "B75"
+      ]
+    },
+    "Base - $50mm": {
+      "type": "string",
+      "ranges": [
+        "B16",
+        "B23",
+        "B30",
+        "B39",
+        "B46",
+        "B53",
+        "B62",
+        "B69",
+        "B76"
+      ]
+    },
+    "Base - $50mm (R&D)": {
+      "type": "string",
+      "ranges": [
+        "B17",
+        "B24",
+        "B31",
+        "B40",
+        "B47",
+        "B54",
+        "B63",
+        "B70",
+        "B77"
+      ]
+    },
+    "Churned ARR per Lost Client": {
+      "type": "string",
+      "ranges": [
+        "B20",
+        "B43",
+        "B66"
+      ]
+    },
+    "% ARR Churn Attributable to Lost Clients": {
+      "type": "string",
+      "ranges": [
+        "B27",
+        "B50",
+        "B73"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Clients CTRL",
+    "format_ranges": [
+      {
+        "range": "B1",
+        "type": "string",
+        "value": "AlphaSense, Inc."
+      },
+      {
+        "range": "B2",
+        "type": "string",
+        "value": "Clients CTRL"
+      },
+      {
+        "range": "B3",
+        "type": "string",
+        "value": "1 - Base - $25mm"
+      },
+      {
+        "range": "B6",
+        "type": "string",
+        "value": "Year"
+      },
+      {
+        "range": "E6:Q6",
+        "type": "number"
+      },
+      {
+        "range": "T6:FS6",
+        "type": "number"
+      },
+      {
+        "range": "E6:Q6",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "T6:FS6",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "B7",
+        "type": "string",
+        "value": "Month"
+      },
+      {
+        "range": "T7:FS7",
+        "type": "number"
+      },
+      {
+        "range": "E8:Q8",
+        "type": "number"
+      },
+      {
+        "range": "T8:FS8",
+        "type": "date",
+        "date_series_id": "ds_3"
+      },
+      {
+        "range": "A11",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B11",
+        "type": "string",
+        "value": "Clients Control - Financial"
+      },
+      {
+        "range": "A13",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E13:Q13",
+        "type": "number"
+      },
+      {
+        "range": "T13:FS13",
+        "type": "number"
+      },
+      {
+        "range": "I14:Q14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I15:Q15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I16:J16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K16:L16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M16:Q16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I17:J17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K17:L17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M17:Q17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A20",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E20:Q20",
+        "type": "number"
+      },
+      {
+        "range": "T20:FS20",
+        "type": "number"
+      },
+      {
+        "range": "I21:Q21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I22:Q22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I23:Q23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I24:Q24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A27",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E27:Q27",
+        "type": "number"
+      },
+      {
+        "range": "T27:FS27",
+        "type": "number"
+      },
+      {
+        "range": "I28:Q28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I29:Q29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I30:Q30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I31:Q31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A34",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B34",
+        "type": "string",
+        "value": "Clients Control - Corporate"
+      },
+      {
+        "range": "A36",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E36:Q36",
+        "type": "number"
+      },
+      {
+        "range": "T36:FS36",
+        "type": "number"
+      },
+      {
+        "range": "I37:Q37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I38:Q38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I39:Q39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I40:Q40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A43",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E43:Q43",
+        "type": "number"
+      },
+      {
+        "range": "T43:FS43",
+        "type": "number"
+      },
+      {
+        "range": "I44:Q44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I45:Q45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I46:Q46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I47:Q47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A50",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E50:Q50",
+        "type": "number"
+      },
+      {
+        "range": "T50:FS50",
+        "type": "number"
+      },
+      {
+        "range": "I51:Q51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I52:Q52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I53:Q53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I54:Q54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A57",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B57",
+        "type": "string",
+        "value": "Clients Control - Other"
+      },
+      {
+        "range": "A59",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E59:Q59",
+        "type": "number"
+      },
+      {
+        "range": "T59:FS59",
+        "type": "number"
+      },
+      {
+        "range": "I60:Q60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I61:Q61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I62:Q62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I63:Q63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A66",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E66:Q66",
+        "type": "number"
+      },
+      {
+        "range": "T66:FS66",
+        "type": "number"
+      },
+      {
+        "range": "I67:Q67",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I68:Q68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I69:Q69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I70:Q70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A73",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E73:Q73",
+        "type": "number"
+      },
+      {
+        "range": "T73:FS73",
+        "type": "number"
+      },
+      {
+        "range": "I74:Q74",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I75:Q75",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I76:Q76",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I77:Q77",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 2168.88,
+      "cells_analyzed": 2404,
+      "total_ranges": 130,
+      "format_counts": {
+        "string": 65,
+        "number": 62,
+        "date": 3
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-14T01:53:48.548225Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "annual",
+        "increment": "1 year",
+        "start_date": "2015-01-01",
+        "pattern": "Annual series from 2015 to 2027"
+      },
+      "ds_2": {
+        "series_type": "repeating_annual",
+        "increment": "12 months (annual)",
+        "start_date": "2015-01-01",
+        "pattern": "Annual values repeating 12 times from 2015 to 2027"
+      },
+      "ds_3": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2015-01-31",
+        "pattern": "Monthly series from 2015-01 to 2027-12"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 7,
+    "entries_moved_to_index": 45,
+    "entries_remaining": 85,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 7351,
+    "compressed_size_bytes": 5271,
+    "inverted_index_size_bytes": 647,
+    "compressed_data_size_bytes": 4624,
+    "compression_ratio": 0.717,
+    "space_saved_bytes": 2080,
+    "space_saved_percent": 28.3
+  }
+}

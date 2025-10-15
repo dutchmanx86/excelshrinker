@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "sheet_name": "ARR and Revenue -->",
+  "format_ranges": [],
+  "statistics": {
+    "processing_time_ms": 2763.71,
+    "cells_analyzed": 0,
+    "total_ranges": 0,
+    "format_counts": {}
+  },
+  "metadata": {
+    "detected_at": "2025-10-13T21:35:46.459533Z"
+  }
+}

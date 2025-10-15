@@ -1,0 +1,710 @@
+{
+  "inverted_index": {
+    "Actual": {
+      "type": "string",
+      "ranges": [
+        "S2:BV2"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Detailed Cash Flow Satement",
+    "format_ranges": [
+      {
+        "range": "A1",
+        "type": "string",
+        "value": "Statement of Cash Flows"
+      },
+      {
+        "range": "G3:BV3",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "A4",
+        "type": "string",
+        "value": "Cash Flows from Operating Activities"
+      },
+      {
+        "range": "A6",
+        "type": "string",
+        "value": "Net Income"
+      },
+      {
+        "range": "G6:BV6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A8",
+        "type": "string",
+        "value": "Decrease (Increase) in Operating Assets:"
+      },
+      {
+        "range": "A9",
+        "type": "string",
+        "value": "   Accounts Receivable"
+      },
+      {
+        "range": "G9:BV9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A10",
+        "type": "string",
+        "value": "   Other Receivable"
+      },
+      {
+        "range": "G10:BV10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A11",
+        "type": "string",
+        "value": "   VAT Receivable"
+      },
+      {
+        "range": "G11:BV11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A12",
+        "type": "string",
+        "value": "   Prepaid Expenses"
+      },
+      {
+        "range": "G12:BV12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A13",
+        "type": "string",
+        "value": "   Prepaid Rent"
+      },
+      {
+        "range": "G13:BV13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A14",
+        "type": "string",
+        "value": "   Deferred Commissions"
+      },
+      {
+        "range": "G14:BV14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A15",
+        "type": "string",
+        "value": "   Deposits"
+      },
+      {
+        "range": "G15:BV15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A17",
+        "type": "string",
+        "value": "(Decrease) Increase in Operating Liabilities:"
+      },
+      {
+        "range": "A18",
+        "type": "string",
+        "value": "   Accounts Payable"
+      },
+      {
+        "range": "G18:BV18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A19",
+        "type": "string",
+        "value": "   Commission Payable"
+      },
+      {
+        "range": "G19:BV19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A20",
+        "type": "string",
+        "value": "   Credit Card Payable"
+      },
+      {
+        "range": "G20:BV20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A21",
+        "type": "string",
+        "value": "   VAT Payable"
+      },
+      {
+        "range": "G21:BV21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A22",
+        "type": "string",
+        "value": "   Accrued Expenses"
+      },
+      {
+        "range": "G22:BV22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A23",
+        "type": "string",
+        "value": "   Accrued Commissions"
+      },
+      {
+        "range": "G23:BV23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A24",
+        "type": "string",
+        "value": "   Accrued Bonus"
+      },
+      {
+        "range": "G24:BV24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A25",
+        "type": "string",
+        "value": "   Accrued Wages"
+      },
+      {
+        "range": "G25:BV25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A26",
+        "type": "string",
+        "value": "   Accrued Holiday Pay"
+      },
+      {
+        "range": "G26:BV26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A27",
+        "type": "string",
+        "value": "   Accrued Interest"
+      },
+      {
+        "range": "G27:BV27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A28",
+        "type": "string",
+        "value": "   Payroll Taxes Payable"
+      },
+      {
+        "range": "G28:BV28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A29",
+        "type": "string",
+        "value": "   Payroll Clearing Account"
+      },
+      {
+        "range": "G29:BV29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A30",
+        "type": "string",
+        "value": "   Sales Taxes Payable"
+      },
+      {
+        "range": "G30:BV30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A31",
+        "type": "string",
+        "value": "   Tax Clearing"
+      },
+      {
+        "range": "G31:BV31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A32",
+        "type": "string",
+        "value": "Social Security Deferral"
+      },
+      {
+        "range": "G32:BV32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A33",
+        "type": "string",
+        "value": "   Other Payable"
+      },
+      {
+        "range": "G33:BV33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A34",
+        "type": "string",
+        "value": "   Taxes Payable"
+      },
+      {
+        "range": "G34:BV34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A35",
+        "type": "string",
+        "value": "   Deferred Revenue"
+      },
+      {
+        "range": "G35:BV35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A36",
+        "type": "string",
+        "value": "   Deferred Rent"
+      },
+      {
+        "range": "G36:BV36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A37",
+        "type": "string",
+        "value": "   Depreciation"
+      },
+      {
+        "range": "G37:BV37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A38",
+        "type": "string",
+        "value": "   Amortization"
+      },
+      {
+        "range": "G38:BV38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A39",
+        "type": "string",
+        "value": "Convertible Note Interest"
+      },
+      {
+        "range": "G39:BV39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A40",
+        "type": "string",
+        "value": "BDE"
+      },
+      {
+        "range": "G40:BV40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A42",
+        "type": "string",
+        "value": "Net Cash Flows from Operating Activities"
+      },
+      {
+        "range": "G42:BV42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A44",
+        "type": "string",
+        "value": "Cash Flows from Investing Activities"
+      },
+      {
+        "range": "A46",
+        "type": "string",
+        "value": "   Fixed Assets"
+      },
+      {
+        "range": "G46:BV46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A47",
+        "type": "string",
+        "value": "   Capitalized R&D"
+      },
+      {
+        "range": "G47:BV47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A49",
+        "type": "string",
+        "value": "Net Cash Flows from Investing Activities"
+      },
+      {
+        "range": "G49:BV49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A51",
+        "type": "string",
+        "value": "Cash Flows from Financing Activities"
+      },
+      {
+        "range": "A53",
+        "type": "string",
+        "value": "   Unrealized Subsidy"
+      },
+      {
+        "range": "G53:BV53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A54",
+        "type": "string",
+        "value": "   Short Term Loans"
+      },
+      {
+        "range": "G54:BV54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A55",
+        "type": "string",
+        "value": "   Capital Loans"
+      },
+      {
+        "range": "G55:BV55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A56",
+        "type": "string",
+        "value": "   Long-term loan from credit institution 1"
+      },
+      {
+        "range": "G56:BV56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A57",
+        "type": "string",
+        "value": "   Tekes -14887"
+      },
+      {
+        "range": "G57:BV57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A58",
+        "type": "string",
+        "value": "   Tekes 15118"
+      },
+      {
+        "range": "G58:BV58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A59",
+        "type": "string",
+        "value": "   Tekes -14560"
+      },
+      {
+        "range": "G59:BV59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A60",
+        "type": "string",
+        "value": "   Tekes -14223"
+      },
+      {
+        "range": "G60:BV60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A61",
+        "type": "string",
+        "value": "   Tekes -15543"
+      },
+      {
+        "range": "G61:BV61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A62",
+        "type": "string",
+        "value": "   Other long-term loans"
+      },
+      {
+        "range": "G62:BV62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A63",
+        "type": "string",
+        "value": "   SVB Line of Credit (Draw)"
+      },
+      {
+        "range": "G63:BV63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A64",
+        "type": "string",
+        "value": "   SVB Line of Credit (Repayment)"
+      },
+      {
+        "range": "G64:BV64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A65",
+        "type": "string",
+        "value": "   Common Stock"
+      },
+      {
+        "range": "G65:BV65",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A66",
+        "type": "string",
+        "value": "   Preferred Series A"
+      },
+      {
+        "range": "G66:BV66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A67",
+        "type": "string",
+        "value": "   Shares In Subsidiary"
+      },
+      {
+        "range": "G67:BV67",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A68",
+        "type": "string",
+        "value": "   Unrealized Stock Compensation"
+      },
+      {
+        "range": "G68:BV68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A69",
+        "type": "string",
+        "value": "   Investment in Subsidiary"
+      },
+      {
+        "range": "G69:BV69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A70",
+        "type": "string",
+        "value": "   Investment From Parent"
+      },
+      {
+        "range": "G70:BV70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A71",
+        "type": "string",
+        "value": "   Cumulative Translation Adjustment"
+      },
+      {
+        "range": "G71:BV71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A72",
+        "type": "string",
+        "value": "   Convertible Notes"
+      },
+      {
+        "range": "G72:BV72",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A73",
+        "type": "string",
+        "value": "   Gain/(Loss) for Current Year"
+      },
+      {
+        "range": "G73:BV73",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A74",
+        "type": "string",
+        "value": "   Retained Earnings"
+      },
+      {
+        "range": "G74:BV74",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A77",
+        "type": "string",
+        "value": "Net Cash Flows from Financing Activities"
+      },
+      {
+        "range": "G77:BV77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A80",
+        "type": "string",
+        "value": "Cash, Beginning of Period"
+      },
+      {
+        "range": "G80:BV80",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A82",
+        "type": "string",
+        "value": "Net Change in Cash"
+      },
+      {
+        "range": "G82:BV82",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A84",
+        "type": "string",
+        "value": "Cash, End of Period"
+      },
+      {
+        "range": "G84:BV84",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A85",
+        "type": "string",
+        "value": "Check"
+      },
+      {
+        "range": "G85:BV85",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "R86:AY86",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 1571.67,
+      "cells_analyzed": 4442,
+      "total_ranges": 188,
+      "format_counts": {
+        "string": 124,
+        "date": 1,
+        "number": 63
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T11:03:59.525602Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2015-01-01",
+        "pattern": "Monthly series from 2015-01 to 2020-08"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 1,
+    "entries_moved_to_index": 56,
+    "entries_remaining": 132,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 10796,
+    "compressed_size_bytes": 8108,
+    "inverted_index_size_bytes": 48,
+    "compressed_data_size_bytes": 8060,
+    "compression_ratio": 0.751,
+    "space_saved_bytes": 2688,
+    "space_saved_percent": 24.9
+  }
+}

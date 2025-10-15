@@ -1,0 +1,1595 @@
+{
+  "inverted_index": {
+    "Growth Rate": {
+      "type": "string",
+      "ranges": [
+        "B6",
+        "B10"
+      ]
+    },
+    "Compliance Check": {
+      "type": "string",
+      "ranges": [
+        "B13",
+        "B45"
+      ]
+    },
+    "Cash": {
+      "type": "string",
+      "ranges": [
+        "B21",
+        "B38"
+      ]
+    },
+    "N/A": {
+      "type": "string",
+      "ranges": [
+        "BH32:BI32",
+        "BL32:BT32",
+        "BX32:CA32",
+        "CE32:CF32",
+        "CK32:CL32",
+        "CT32:CV32",
+        "CX32:ED32"
+      ]
+    },
+    "Breaks": {
+      "type": "string",
+      "ranges": [
+        "BE34:BG34",
+        "CP34",
+        "CS34",
+        "BF45:CS45"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Debt Compliance",
+    "format_ranges": [
+      {
+        "range": "O2:ED2",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "D3:M3",
+        "type": "number"
+      },
+      {
+        "range": "O3:ED3",
+        "type": "number"
+      },
+      {
+        "range": "D3:M3",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "O3:ED3",
+        "type": "date",
+        "date_series_id": "ds_3"
+      },
+      {
+        "range": "D4:M4",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "O4:ED4",
+        "type": "date",
+        "date_series_id": "ds_4"
+      },
+      {
+        "range": "B8",
+        "type": "string",
+        "value": "Revenue"
+      },
+      {
+        "range": "D8:M8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O8:ED8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B9",
+        "type": "string",
+        "value": "T3M"
+      },
+      {
+        "range": "Q9:ED9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E10:M10",
+        "type": "number"
+      },
+      {
+        "range": "AC10:ED10",
+        "type": "number"
+      },
+      {
+        "range": "B12",
+        "type": "string",
+        "value": "Growth Covenant"
+      },
+      {
+        "range": "AP12:ED12",
+        "type": "number"
+      },
+      {
+        "range": "AP13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "AQ13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "AR13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "AS13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "AT13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "AU13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "AV13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "AW13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "AX13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "AY13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "AZ13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BA13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BB13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BC13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BD13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BE13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BF13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BG13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BH13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BI13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BJ13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BK13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BL13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BM13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BN13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BO13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BP13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BQ13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BR13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BS13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BT13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BU13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BV13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BW13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BX13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BY13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BZ13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CA13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CB13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CC13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CD13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CE13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CF13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CG13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CH13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CI13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CJ13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CK13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CL13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CM13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CN13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CO13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CP13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CQ13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CR13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CS13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CT13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CU13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CV13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CW13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CX13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CY13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CZ13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DA13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DB13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DC13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DD13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DE13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DF13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DG13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DH13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DI13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DJ13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DK13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DL13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DM13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DN13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DO13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DP13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DQ13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DR13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DS13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DT13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DU13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DV13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DW13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DX13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DY13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DZ13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "EA13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "EB13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "EC13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "ED13",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "B16",
+        "type": "string",
+        "value": "Remaining Months Liquidity (RML)"
+      },
+      {
+        "range": "B18",
+        "type": "string",
+        "value": "Total Borrowings"
+      },
+      {
+        "range": "O18:ED18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B19",
+        "type": "string",
+        "value": "Total Availability"
+      },
+      {
+        "range": "AQ19:ED19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O21:ED21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B23",
+        "type": "string",
+        "value": "Net Availability + Unrestricted Cash"
+      },
+      {
+        "range": "AQ23:ED23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B25",
+        "type": "string",
+        "value": "EBITDA"
+      },
+      {
+        "range": "D25:M25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O25:ED25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B26",
+        "type": "string",
+        "value": "Capitalized R&D"
+      },
+      {
+        "range": "D26:M26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O26:ED26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B27",
+        "type": "string",
+        "value": "Capitalized Expenditures"
+      },
+      {
+        "range": "D27:M27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O27:ED27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B28",
+        "type": "string",
+        "value": "Change in Deferred Revenue"
+      },
+      {
+        "range": "D28:M28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O28:ED28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B29",
+        "type": "string",
+        "value": "Adjusted EBITDA"
+      },
+      {
+        "range": "D29:M29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O29:ED29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B31",
+        "type": "string",
+        "value": "RML"
+      },
+      {
+        "range": "AQ31:ED31",
+        "type": "number"
+      },
+      {
+        "range": "AQ32:BG32",
+        "type": "number"
+      },
+      {
+        "range": "BJ32:BK32",
+        "type": "number"
+      },
+      {
+        "range": "BU32:BW32",
+        "type": "number"
+      },
+      {
+        "range": "CB32:CD32",
+        "type": "number"
+      },
+      {
+        "range": "CG32:CJ32",
+        "type": "number"
+      },
+      {
+        "range": "CM32:CS32",
+        "type": "number"
+      },
+      {
+        "range": "CW32",
+        "type": "number"
+      },
+      {
+        "range": "AQ33:ED33",
+        "type": "number"
+      },
+      {
+        "range": "AQ34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "AR34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "AS34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "AT34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "AU34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "AV34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "AW34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "AX34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "AY34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "AZ34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BA34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BB34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BC34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BD34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BH34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BI34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BJ34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BK34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BL34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BM34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BN34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BO34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BP34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BQ34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BR34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BS34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BT34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BU34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BV34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BW34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BX34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BY34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BZ34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CA34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CB34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CC34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CD34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CE34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CF34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CG34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CH34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CI34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CJ34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CK34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CL34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CM34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CN34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CO34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CQ34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CR34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CT34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CU34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CV34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CW34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CX34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CY34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CZ34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DA34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DB34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DC34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DD34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DE34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DF34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DG34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DH34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DI34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DJ34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DK34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DL34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DM34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DN34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DO34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DP34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DQ34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DR34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DS34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DT34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DU34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DV34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DW34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DX34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DY34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DZ34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "EA34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "EB34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "EC34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "ED34",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "B36",
+        "type": "string",
+        "value": "Liquidity Threshold"
+      },
+      {
+        "range": "O38:AP38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AQ38:ED38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B39",
+        "type": "string",
+        "value": "Restricted Cash"
+      },
+      {
+        "range": "O39:AP39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AQ39:ED39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B40",
+        "type": "string",
+        "value": "Net Availability"
+      },
+      {
+        "range": "AQ40:ED40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B41",
+        "type": "string",
+        "value": "Liquidity"
+      },
+      {
+        "range": "AQ41:ED41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CD42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B43",
+        "type": "string",
+        "value": "Thershold"
+      },
+      {
+        "range": "AQ43:ED43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CD44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AQ45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "AR45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "AS45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "AT45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "AU45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "AV45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "AW45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "AX45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "AY45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "AZ45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BA45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BB45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BC45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BD45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "BE45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CT45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CU45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CV45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CW45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CX45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CY45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "CZ45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DA45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DB45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DC45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DD45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DE45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DF45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DG45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DH45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DI45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DJ45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DK45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DL45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DM45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DN45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DO45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DP45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DQ45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DR45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DS45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DT45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DU45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DV45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DW45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DX45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DY45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "DZ45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "EA45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "EB45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "EC45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "ED45",
+        "type": "string",
+        "value": "OK"
+      },
+      {
+        "range": "B49",
+        "type": "string",
+        "value": "$5m Liquidity Buffer"
+      },
+      {
+        "range": "AQ49:ED49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B51",
+        "type": "string",
+        "value": "RML Liquidity Buffer"
+      },
+      {
+        "range": "AQ51:ED51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B53",
+        "type": "string",
+        "value": "Overall Liqudity Buffer"
+      },
+      {
+        "range": "AQ53:ED53",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 4590.44,
+      "cells_analyzed": 3284,
+      "total_ranges": 407,
+      "format_counts": {
+        "date": 5,
+        "number": 43,
+        "string": 359
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T10:59:54.012326Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "repeating_quarterly",
+        "increment": "3 months (quarterly)",
+        "start_date": "2018-Q1",
+        "pattern": "Quarterly values repeating 3 times from Q1 2018 to Q4 2027"
+      },
+      "ds_2": {
+        "series_type": "annual",
+        "increment": "1 year",
+        "start_date": "2018-01-01",
+        "pattern": "Annual series from 2018 to 2027"
+      },
+      "ds_3": {
+        "series_type": "repeating_annual",
+        "increment": "12 months (annual)",
+        "start_date": "2018-01-01",
+        "pattern": "Annual values repeating 12 times from 2018 to 2027"
+      },
+      "ds_4": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2018-01-31",
+        "pattern": "Monthly series from 2018-01 to 2027-12"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 5,
+    "entries_moved_to_index": 106,
+    "entries_remaining": 301,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 20195,
+    "compressed_size_bytes": 15399,
+    "inverted_index_size_bytes": 358,
+    "compressed_data_size_bytes": 15041,
+    "compression_ratio": 0.763,
+    "space_saved_bytes": 4796,
+    "space_saved_percent": 23.7
+  }
+}

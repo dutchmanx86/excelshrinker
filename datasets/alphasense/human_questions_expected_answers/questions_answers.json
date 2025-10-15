@@ -1,0 +1,145 @@
+{
+  "dataset": "alphasense",
+  "created": "2025-08-21",
+  "questions": [
+    {
+      "id": "q1_sales_productivity_historical",
+      "category": "data_retrieval",
+      "question": "What has sales rep productivity looked like historically?",
+      "answer": "For a given period, sales rep productivity is calculated as: Total Bookings / (Average Effective Reps)",
+      "location_notes": {
+        "primary_sources": [
+          {
+            "sheet": "Summary",
+            "rows": [45, 53],
+            "description": "Contains the productivity metrics"
+          },
+          {
+            "sheet": "Dash",
+            "elements": [
+              {"metric": "Total Bookings", "row": 37},
+              {"metric": "Effective Reps", "row": 123}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2_sales_metrics_trends",
+      "category": "data_retrieval",
+      "question": "What metrics are available to understand how sales is performing and what are the trends?",
+      "answer": "Multiple metrics are available across different sheets to understand sales performance",
+      "location_notes": {
+        "primary_sources": [
+          {
+            "sheet": "ARR and Revenue",
+            "description": "Has the most detail",
+            "metrics": [
+              "Quota ($)",
+              "Quota Attainment (%)",
+              "Average Quota ($/rep in that segment)",
+              "New Bookings / Rep (by segment - two segments)",
+              "Upsell Bookings / Rep (by segment - two segments)",
+              "Headcount"
+            ]
+          },
+          {
+            "sheet": "Sales Reps",
+            "metrics": [
+              {
+                "metric": "Ramp",
+                "details": "7 months to productivity for Account Managers (Corporate and Financial)"
+              },
+              {
+                "metric": "Ramp", 
+                "details": "8 months to productivity for Account Executives (Corporate and Financial)"
+              }
+            ],
+            "notes": "Other types of reps are irrelevant because they are not in seat"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3_revenue_forecast_logic",
+      "category": "model_logic", 
+      "question": "Provide a detailed explanation for how the revenue forecast is built up. What are the most important drivers and how do the forecast assumptions compare to historical actuals?",
+      "answer": "The revenue forecast logic is detailed in the ARR and Revenue sheet, with actuals data available through 8/31 (Column CI).",
+      "location_notes": {
+        "primary_sources": [
+          {
+            "sheet": "ARR and Revenue",
+            "description": "Contains all revenue forecast logic"
+          }
+        ],
+        "data_cutoff": {
+          "last_actuals_date": "8/31",
+          "last_actuals_column": "CI",
+          "description": "Column CI is the last month for actuals"
+        }
+      }
+    },
+    {
+      "id": "q4_ltv_cac_trends",
+      "category": "data_retrieval",
+      "question": "What are the historical trends for LTV:CAC by segment?",
+      "answer": "LTV:CAC data is available in multiple locations with segment-specific breakdowns.",
+      "location_notes": {
+        "primary_sources": [
+          {
+            "sheet": "CAC By Segment",
+            "description": "Contains CAC data by segment"
+          },
+          {
+            "sheet": "Dash",
+            "rows": [210, 211, 212, 213],
+            "description": "Contains LTV/CAC ratios"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5_business_investability",
+      "category": "business_analysis",
+      "question": "Is this an investable business model?",
+      "answer": "Analysis requires examining the LTV:CAC methodology and customer metrics in the Dash sheet.",
+      "location_notes": {
+        "primary_sources": [
+          {
+            "sheet": "Dash",
+            "range": "B215:Q264",
+            "description": "Contains business model methodology and customer metrics"
+          }
+        ],
+        "methodology_notes": {
+          "ltv_calculation": "Company multiplies ARR by 3.5X (methodology not explained)",
+          "gross_margin": "82%",
+          "customer_ramp": "Shows how customers ramp up"
+        }
+      }
+    },
+    {
+      "id": "q6_kpi_focus_areas", 
+      "category": "business_analysis",
+      "question": "What KPIs should management be focusing on improving?",
+      "answer": "KPI recommendations should be based on the business model metrics and customer performance data.",
+      "location_notes": {
+        "primary_sources": [
+          {
+            "sheet": "Dash",
+            "range": "B215:Q264", 
+            "description": "Contains key business model metrics for KPI analysis"
+          },
+          {
+            "sheet": "CAC By Segment",
+            "description": "Segment-specific efficiency metrics"
+          },
+          {
+            "sheet": "ARR and Revenue", 
+            "description": "Revenue performance and quota attainment metrics"
+          }
+        ]
+      }
+    }
+  ]
+}

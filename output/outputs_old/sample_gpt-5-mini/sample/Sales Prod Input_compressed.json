@@ -1,0 +1,261 @@
+{
+  "inverted_index": {
+    "Account Manager": {
+      "type": "string",
+      "ranges": [
+        "A5",
+        "A17",
+        "A25"
+      ]
+    },
+    "AE - Financial": {
+      "type": "string",
+      "ranges": [
+        "A6",
+        "A18",
+        "A26"
+      ]
+    },
+    "AE - Corporate": {
+      "type": "string",
+      "ranges": [
+        "A7",
+        "A19",
+        "A27"
+      ]
+    },
+    "VP - Bus Dev": {
+      "type": "string",
+      "ranges": [
+        "A8",
+        "A20",
+        "A28"
+      ]
+    },
+    "AE - Enterprise": {
+      "type": "string",
+      "ranges": [
+        "A9",
+        "A21",
+        "A29"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Sales Prod Input",
+    "format_ranges": [
+      {
+        "range": "C1",
+        "type": "number"
+      },
+      {
+        "range": "E1:P1",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "A3",
+        "type": "string",
+        "value": "Quota per Person"
+      },
+      {
+        "range": "C5",
+        "type": "number"
+      },
+      {
+        "range": "E5:P5",
+        "type": "number"
+      },
+      {
+        "range": "C6",
+        "type": "number"
+      },
+      {
+        "range": "E6:P6",
+        "type": "number"
+      },
+      {
+        "range": "C7",
+        "type": "number"
+      },
+      {
+        "range": "E7",
+        "type": "number"
+      },
+      {
+        "range": "F7:P7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C8",
+        "type": "number"
+      },
+      {
+        "range": "E8",
+        "type": "number"
+      },
+      {
+        "range": "F8:P8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C9",
+        "type": "number"
+      },
+      {
+        "range": "E9",
+        "type": "number"
+      },
+      {
+        "range": "F9:P9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A11",
+        "type": "string",
+        "value": "Seasonality"
+      },
+      {
+        "range": "A13",
+        "type": "string",
+        "value": "All Roles"
+      },
+      {
+        "range": "E13:P13",
+        "type": "number"
+      },
+      {
+        "range": "A15",
+        "type": "string",
+        "value": "Productivity"
+      },
+      {
+        "range": "C17",
+        "type": "number"
+      },
+      {
+        "range": "E17:P17",
+        "type": "number"
+      },
+      {
+        "range": "C18",
+        "type": "number"
+      },
+      {
+        "range": "E18:P18",
+        "type": "number"
+      },
+      {
+        "range": "C19",
+        "type": "number"
+      },
+      {
+        "range": "E19",
+        "type": "number"
+      },
+      {
+        "range": "F19:P19",
+        "type": "number"
+      },
+      {
+        "range": "C20",
+        "type": "number"
+      },
+      {
+        "range": "E20",
+        "type": "number"
+      },
+      {
+        "range": "F20:P20",
+        "type": "number"
+      },
+      {
+        "range": "C21",
+        "type": "number"
+      },
+      {
+        "range": "E21",
+        "type": "number"
+      },
+      {
+        "range": "F21:P21",
+        "type": "number"
+      },
+      {
+        "range": "A23",
+        "type": "string",
+        "value": "Productivity (Adjusted for Seasonality)"
+      },
+      {
+        "range": "E25:P25",
+        "type": "number"
+      },
+      {
+        "range": "E26:P26",
+        "type": "number"
+      },
+      {
+        "range": "E27",
+        "type": "number"
+      },
+      {
+        "range": "F27:P27",
+        "type": "number"
+      },
+      {
+        "range": "E28",
+        "type": "number"
+      },
+      {
+        "range": "F28:P28",
+        "type": "number"
+      },
+      {
+        "range": "E29",
+        "type": "number"
+      },
+      {
+        "range": "F29:P29",
+        "type": "number"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 2123.84,
+      "cells_analyzed": 235,
+      "total_ranges": 57,
+      "format_counts": {
+        "number": 36,
+        "date": 1,
+        "string": 20
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-14T01:34:51.625243Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2021-01-31",
+        "pattern": "Monthly series from 2021-01 to 2021-12"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 5,
+    "entries_moved_to_index": 15,
+    "entries_remaining": 42,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 2860,
+    "compressed_size_bytes": 2326,
+    "inverted_index_size_bytes": 316,
+    "compressed_data_size_bytes": 2010,
+    "compression_ratio": 0.813,
+    "space_saved_bytes": 534,
+    "space_saved_percent": 18.7
+  }
+}

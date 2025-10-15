@@ -1,0 +1,1880 @@
+{
+  "inverted_index": {
+    "Headcount": {
+      "type": "string",
+      "ranges": [
+        "K5",
+        "AX5"
+      ]
+    },
+    "Quota": {
+      "type": "string",
+      "ranges": [
+        "AK5",
+        "G7"
+      ]
+    },
+    "ISV RVP - Gary": {
+      "type": "string",
+      "ranges": [
+        "B8",
+        "B11:B12",
+        "B64"
+      ]
+    },
+    "Trevor Usken": {
+      "type": "string",
+      "ranges": [
+        "C8:C9"
+      ]
+    },
+    "Enterprise": {
+      "type": "string",
+      "ranges": [
+        "F8:F10",
+        "F15:F17",
+        "F26:F29",
+        "F53:F55",
+        "F62",
+        "F64:F65"
+      ]
+    },
+    "Wilson, Matt": {
+      "type": "string",
+      "ranges": [
+        "B9:B10",
+        "B13:B14",
+        "B65"
+      ]
+    },
+    "Future Hire": {
+      "type": "string",
+      "ranges": [
+        "C10",
+        "C14",
+        "C37:C39",
+        "C50",
+        "C52",
+        "C55",
+        "C60:C61"
+      ]
+    },
+    "Sr Enterprise": {
+      "type": "string",
+      "ranges": [
+        "F11:F14",
+        "F18:F24",
+        "F30:F39",
+        "F41:F52",
+        "F56:F61",
+        "F63"
+      ]
+    },
+    "Charlie Holliday": {
+      "type": "string",
+      "ranges": [
+        "C12:C13"
+      ]
+    },
+    "Putlock, Gary": {
+      "type": "string",
+      "ranges": [
+        "B15:B25"
+      ]
+    },
+    "Sr Enterprise Xfer - Custom - LBH": {
+      "type": "string",
+      "ranges": [
+        "F25",
+        "F40"
+      ]
+    },
+    "Sabikihi, Harsh": {
+      "type": "string",
+      "ranges": [
+        "B26",
+        "B28",
+        "B30:B31",
+        "B33",
+        "B35:B36",
+        "B38",
+        "B40",
+        "B62:B63"
+      ]
+    },
+    "Sabikihi/NYC ENT RVP": {
+      "type": "string",
+      "ranges": [
+        "B27",
+        "B29",
+        "B32",
+        "B34",
+        "B39"
+      ]
+    },
+    "Future Term": {
+      "type": "string",
+      "ranges": [
+        "C36",
+        "C51",
+        "C54"
+      ]
+    },
+    "Miller, BJ": {
+      "type": "string",
+      "ranges": [
+        "B37",
+        "B43",
+        "B45",
+        "B50",
+        "B55"
+      ]
+    },
+    "Tuttle, Patrick": {
+      "type": "string",
+      "ranges": [
+        "B41:B42",
+        "B44",
+        "B46:B49",
+        "B51:B52"
+      ]
+    },
+    "David Curtis": {
+      "type": "string",
+      "ranges": [
+        "C42:C43"
+      ]
+    },
+    "Shioban Lawler": {
+      "type": "string",
+      "ranges": [
+        "C44:C45"
+      ]
+    },
+    "Yatsko, Natalie": {
+      "type": "string",
+      "ranges": [
+        "B53:B54",
+        "B56:B61"
+      ]
+    },
+    "Courtney Montpas": {
+      "type": "string",
+      "ranges": [
+        "C64:C65"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Clean",
+    "format_ranges": [
+      {
+        "range": "B5",
+        "type": "string",
+        "value": "Roster"
+      },
+      {
+        "range": "X5",
+        "type": "string",
+        "value": "Ramped HC"
+      },
+      {
+        "range": "B7",
+        "type": "string",
+        "value": "Manager"
+      },
+      {
+        "range": "C7",
+        "type": "string",
+        "value": "Employee"
+      },
+      {
+        "range": "D7",
+        "type": "string",
+        "value": "Hire Date"
+      },
+      {
+        "range": "E7",
+        "type": "string",
+        "value": "Term Date"
+      },
+      {
+        "range": "F7",
+        "type": "string",
+        "value": "Role"
+      },
+      {
+        "range": "H7",
+        "type": "string",
+        "value": "Updated Name"
+      },
+      {
+        "range": "I7",
+        "type": "string",
+        "value": "Updated Manager"
+      },
+      {
+        "range": "K7:V7",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "X7:AI7",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "AK7:AV7",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "AX7:BI7",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "G8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K8:V8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X8:AI8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK8:AV8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX8:BI8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D8:D65",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "E8:E64",
+        "type": "date",
+        "date_series_id": "ds_3"
+      },
+      {
+        "range": "G9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K9:V9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X9:AI9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK9:AV9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX9:BI9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K10:V10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X10:AI10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK10:AV10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX10:BI10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C11",
+        "type": "string",
+        "value": "Pleasant Rich"
+      },
+      {
+        "range": "G11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K11:V11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X11:AI11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK11:AV11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX11:BI11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K12:V12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X12:AI12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK12:AV12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX12:BI12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K13:V13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X13:AI13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK13:AV13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX13:BI13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K14:V14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X14:AI14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK14:AV14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX14:BI14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C15",
+        "type": "string",
+        "value": "Leah Koren--No RVP"
+      },
+      {
+        "range": "G15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K15:V15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X15:AI15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK15:AV15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX15:BI15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C16",
+        "type": "string",
+        "value": "Bob Ternes--No RVP"
+      },
+      {
+        "range": "G16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K16:V16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X16:AI16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK16:AV16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX16:BI16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C17",
+        "type": "string",
+        "value": "Kathleen Evans--No RVP"
+      },
+      {
+        "range": "G17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K17:V17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X17:AI17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK17:AV17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX17:BI17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C18",
+        "type": "string",
+        "value": "Nick Valldeperas--No RVP"
+      },
+      {
+        "range": "G18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K18:V18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X18:AI18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK18:AV18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX18:BI18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C19",
+        "type": "string",
+        "value": "Dave Grinnell--No RVP"
+      },
+      {
+        "range": "G19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K19:V19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X19:AI19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK19:AV19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX19:BI19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C20",
+        "type": "string",
+        "value": "Chris Crane -- No RVP"
+      },
+      {
+        "range": "G20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K20:V20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X20:AI20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK20:AV20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX20:BI20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C21",
+        "type": "string",
+        "value": "Rory Mullen--No RVP"
+      },
+      {
+        "range": "G21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K21:V21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X21:AI21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK21:AV21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX21:BI21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C22",
+        "type": "string",
+        "value": "Jen Pearce--No RVP"
+      },
+      {
+        "range": "G22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K22:V22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X22:AI22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK22:AV22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX22:BI22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C23",
+        "type": "string",
+        "value": "Fay Hernandez--No RVP"
+      },
+      {
+        "range": "G23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K23:V23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X23:AI23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK23:AV23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX23:BI23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C24",
+        "type": "string",
+        "value": "John Dichiara--No RVP"
+      },
+      {
+        "range": "G24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K24:V24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X24:AI24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK24:AV24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX24:BI24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C25",
+        "type": "string",
+        "value": "Lauren Holliday--No RVP"
+      },
+      {
+        "range": "G25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K25:V25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X25:AI25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK25:AV25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX25:BI25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C26",
+        "type": "string",
+        "value": "Kathleen Evans--Move to Harsh"
+      },
+      {
+        "range": "G26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K26:V26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X26:AI26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK26:AV26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX26:BI26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C27",
+        "type": "string",
+        "value": "Kathleen Evans"
+      },
+      {
+        "range": "G27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K27:V27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X27:AI27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK27:AV27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX27:BI27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C28",
+        "type": "string",
+        "value": "Leah Koren--Move to Harsh"
+      },
+      {
+        "range": "G28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K28:V28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X28:AI28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK28:AV28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX28:BI28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C29",
+        "type": "string",
+        "value": "Leah Koren"
+      },
+      {
+        "range": "G29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K29:V29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X29:AI29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK29:AV29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX29:BI29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C30",
+        "type": "string",
+        "value": "Dave Grinnell--Move to Harsh"
+      },
+      {
+        "range": "G30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K30:V30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X30:AI30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK30:AV30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX30:BI30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C31",
+        "type": "string",
+        "value": "John Dichiara--Move to Harsh"
+      },
+      {
+        "range": "G31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K31:V31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X31:AI31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK31:AV31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX31:BI31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C32",
+        "type": "string",
+        "value": "John Dichiara"
+      },
+      {
+        "range": "G32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K32:V32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X32:AI32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK32:AV32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX32:BI32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C33",
+        "type": "string",
+        "value": "Rory Mullen--Move to Harsh"
+      },
+      {
+        "range": "G33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K33:V33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X33:AI33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK33:AV33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX33:BI33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C34",
+        "type": "string",
+        "value": "Rory Mullen"
+      },
+      {
+        "range": "G34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K34:V34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X34:AI34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK34:AV34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX34:BI34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C35",
+        "type": "string",
+        "value": "Erin O'Boyle"
+      },
+      {
+        "range": "G35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K35:V35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X35:AI35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK35:AV35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX35:BI35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K36:V36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X36:AI36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK36:AV36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX36:BI36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K37:V37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X37:AI37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK37:AV37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX37:BI37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K38:V38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X38:AI38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK38:AV38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX38:BI38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K39:V39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X39:AI39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK39:AV39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX39:BI39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C40",
+        "type": "string",
+        "value": "Lauren Holliday--Move to Harsh"
+      },
+      {
+        "range": "G40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K40:V40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X40:AI40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK40:AV40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX40:BI40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C41",
+        "type": "string",
+        "value": "Joe Zusin"
+      },
+      {
+        "range": "G41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K41:V41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X41:AI41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK41:AV41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX41:BI41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K42:V42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X42:AI42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK42:AV42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX42:BI42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K43:V43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X43:AI43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK43:AV43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX43:BI43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K44:V44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X44:AI44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK44:AV44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX44:BI44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K45:V45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X45:AI45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK45:AV45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX45:BI45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C46",
+        "type": "string",
+        "value": "Chris Freeman"
+      },
+      {
+        "range": "G46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K46:V46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X46:AI46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK46:AV46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX46:BI46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C47",
+        "type": "string",
+        "value": "Robert Owen"
+      },
+      {
+        "range": "G47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K47:V47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X47:AI47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK47:AV47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX47:BI47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C48",
+        "type": "string",
+        "value": "Kevin Urban"
+      },
+      {
+        "range": "G48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K48:V48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X48:AI48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK48:AV48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX48:BI48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C49",
+        "type": "string",
+        "value": "Inhan Mcgraw"
+      },
+      {
+        "range": "G49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K49:V49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X49:AI49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK49:AV49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX49:BI49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K50:V50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X50:AI50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK50:AV50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX50:BI50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E51",
+        "type": "string",
+        "value": "11/31/2021"
+      },
+      {
+        "range": "G51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K51:V51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X51:AI51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK51:AV51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX51:BI51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K52:V52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X52:AI52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK52:AV52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX52:BI52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C53",
+        "type": "string",
+        "value": "Bob Ternes--Move to Natalie"
+      },
+      {
+        "range": "G53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K53:V53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X53:AI53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK53:AV53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX53:BI53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K54:V54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X54:AI54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK54:AV54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX54:BI54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K55:V55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X55:AI55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK55:AV55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX55:BI55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C56",
+        "type": "string",
+        "value": "Chris Crane -- Move to Natalie"
+      },
+      {
+        "range": "G56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K56:V56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X56:AI56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK56:AV56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX56:BI56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C57",
+        "type": "string",
+        "value": "Fay Hernandez--Move to Natalie"
+      },
+      {
+        "range": "G57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K57:V57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X57:AI57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK57:AV57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX57:BI57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C58",
+        "type": "string",
+        "value": "Jen Pearce--Move to Natalie"
+      },
+      {
+        "range": "G58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K58:V58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X58:AI58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK58:AV58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX58:BI58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C59",
+        "type": "string",
+        "value": "Nick Valldeperas--Move to Natalie"
+      },
+      {
+        "range": "G59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K59:V59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X59:AI59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK59:AV59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX59:BI59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K60:V60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X60:AI60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK60:AV60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX60:BI60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K61:V61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X61:AI61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK61:AV61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX61:BI61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C62",
+        "type": "string",
+        "value": "Eric Haugh"
+      },
+      {
+        "range": "G62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K62:V62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X62:AI62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK62:AV62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AX62:BI62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C63",
+        "type": "string",
+        "value": "Sam Abdul-Samad"
+      },
+      {
+        "range": "G63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K63:V63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K64:V64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G65",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K65:V65",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 50.6,
+      "cells_analyzed": 3051,
+      "total_ranges": 475,
+      "format_counts": {
+        "string": 188,
+        "date": 6,
+        "number": 281
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T19:04:34.089727Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2021-02-01",
+        "pattern": "Monthly series from 2021-02 to 2022-01"
+      },
+      "ds_2": {
+        "series_type": "unordered_column",
+        "count": 26,
+        "start_date": "2018-04-16",
+        "end_date": "2021-12-01"
+      },
+      "ds_3": {
+        "series_type": "unordered_column",
+        "count": 6,
+        "start_date": "2021-02-28",
+        "end_date": "2021-07-30"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 20,
+    "entries_moved_to_index": 143,
+    "entries_remaining": 332,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 25484,
+    "compressed_size_bytes": 18867,
+    "inverted_index_size_bytes": 1410,
+    "compressed_data_size_bytes": 17457,
+    "compression_ratio": 0.74,
+    "space_saved_bytes": 6617,
+    "space_saved_percent": 26.0
+  }
+}

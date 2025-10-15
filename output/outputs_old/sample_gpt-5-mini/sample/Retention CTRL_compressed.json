@@ -1,0 +1,364 @@
+{
+  "inverted_index": {
+    "Base - $25mm": {
+      "type": "string",
+      "ranges": [
+        "B14",
+        "B21",
+        "B28",
+        "B35",
+        "B42"
+      ]
+    },
+    "Growth - $25mm": {
+      "type": "string",
+      "ranges": [
+        "B15",
+        "B22",
+        "B29",
+        "B36",
+        "B43"
+      ]
+    },
+    "Base - $50mm": {
+      "type": "string",
+      "ranges": [
+        "B16",
+        "B23",
+        "B30",
+        "B37",
+        "B44"
+      ]
+    },
+    "Base - $50mm (R&D)": {
+      "type": "string",
+      "ranges": [
+        "B17",
+        "B24",
+        "B31",
+        "B38",
+        "B45"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Retention CTRL",
+    "format_ranges": [
+      {
+        "range": "B1",
+        "type": "string",
+        "value": "AlphaSense, Inc."
+      },
+      {
+        "range": "B2",
+        "type": "string",
+        "value": "Retention CTRL"
+      },
+      {
+        "range": "B3",
+        "type": "string",
+        "value": "1 - Base - $25mm"
+      },
+      {
+        "range": "B6",
+        "type": "string",
+        "value": "Year"
+      },
+      {
+        "range": "E6:Q6",
+        "type": "number"
+      },
+      {
+        "range": "T6:DV6",
+        "type": "number"
+      },
+      {
+        "range": "E6:Q6",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "T6:FS6",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "B7",
+        "type": "string",
+        "value": "Month"
+      },
+      {
+        "range": "T7:DV7",
+        "type": "number"
+      },
+      {
+        "range": "E8:Q8",
+        "type": "number"
+      },
+      {
+        "range": "T8:FS8",
+        "type": "date",
+        "date_series_id": "ds_3"
+      },
+      {
+        "range": "J10:N10",
+        "type": "number"
+      },
+      {
+        "range": "A11",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B11",
+        "type": "string",
+        "value": "Revenue"
+      },
+      {
+        "range": "A13",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B13",
+        "type": "string",
+        "value": "Annual Retention % - Financial"
+      },
+      {
+        "range": "I13",
+        "type": "number"
+      },
+      {
+        "range": "J13",
+        "type": "number"
+      },
+      {
+        "range": "K13:Q13",
+        "type": "number"
+      },
+      {
+        "range": "BX13:DV13",
+        "type": "number"
+      },
+      {
+        "range": "I14:Q14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I15:Q15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I16:Q16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I17:Q17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A20",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B20",
+        "type": "string",
+        "value": "Evergreen Retention % - Financial (Annual Equivalent)"
+      },
+      {
+        "range": "I20:Q20",
+        "type": "number"
+      },
+      {
+        "range": "BX20:DV20",
+        "type": "number"
+      },
+      {
+        "range": "I21:Q21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I22:Q22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I23:Q23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I24:Q24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A27",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B27",
+        "type": "string",
+        "value": "Annual Retention % - Corporate"
+      },
+      {
+        "range": "I27:Q27",
+        "type": "number"
+      },
+      {
+        "range": "T27:DV27",
+        "type": "number"
+      },
+      {
+        "range": "I28:Q28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I29:Q29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I30:Q30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I31:Q31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A34",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B34",
+        "type": "string",
+        "value": "Annual Retention % - Other"
+      },
+      {
+        "range": "I34:Q34",
+        "type": "number"
+      },
+      {
+        "range": "T34:DV34",
+        "type": "number"
+      },
+      {
+        "range": "I35:Q35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I36:Q36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I37:Q37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I38:Q38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A41",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B41",
+        "type": "string",
+        "value": "Evergreen Retention % - Other (Annual Equivalent)"
+      },
+      {
+        "range": "I41:Q41",
+        "type": "number"
+      },
+      {
+        "range": "BX41:DV41",
+        "type": "number"
+      },
+      {
+        "range": "I42:Q42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I43:Q43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I44:Q44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I45:Q45",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 2052.2,
+      "cells_analyzed": 981,
+      "total_ranges": 77,
+      "format_counts": {
+        "string": 37,
+        "number": 37,
+        "date": 3
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-14T01:35:08.187325Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "annual",
+        "increment": "1 year",
+        "start_date": "2015-01-01",
+        "pattern": "Annual series from 2015 to 2027"
+      },
+      "ds_2": {
+        "series_type": "repeating_annual",
+        "increment": "12 months (annual)",
+        "start_date": "2015-01-01",
+        "pattern": "Annual values repeating 12 times from 2015 to 2027"
+      },
+      "ds_3": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2015-01-31",
+        "pattern": "Monthly series from 2015-01 to 2027-12"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 4,
+    "entries_moved_to_index": 20,
+    "entries_remaining": 57,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 4579,
+    "compressed_size_bytes": 3744,
+    "inverted_index_size_bytes": 305,
+    "compressed_data_size_bytes": 3439,
+    "compression_ratio": 0.818,
+    "space_saved_bytes": 835,
+    "space_saved_percent": 18.2
+  }
+}

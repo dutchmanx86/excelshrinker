@@ -1,0 +1,223 @@
+{
+  "inverted_index": {
+    "Future Hire": {
+      "type": "string",
+      "ranges": [
+        "A2",
+        "H2",
+        "A3",
+        "H3",
+        "A4",
+        "H4",
+        "A5",
+        "H5",
+        "A6",
+        "H6"
+      ]
+    },
+    "VoC - Corporate": {
+      "type": "string",
+      "ranges": [
+        "D2:D3"
+      ]
+    },
+    "VOC": {
+      "type": "string",
+      "ranges": [
+        "E2",
+        "G2",
+        "E3",
+        "G3",
+        "E4",
+        "G4",
+        "E5",
+        "G5",
+        "E6",
+        "G6"
+      ]
+    },
+    "VOC RVP": {
+      "type": "string",
+      "ranges": [
+        "F2:F6"
+      ]
+    },
+    "VoC- Commercial": {
+      "type": "string",
+      "ranges": [
+        "D4:D6"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "FY22 Overlay",
+    "format_ranges": [
+      {
+        "range": "A1",
+        "type": "string",
+        "value": "Name"
+      },
+      {
+        "range": "C1",
+        "type": "string",
+        "value": "Term Date"
+      },
+      {
+        "range": "D1",
+        "type": "string",
+        "value": "Plan"
+      },
+      {
+        "range": "E1",
+        "type": "string",
+        "value": "Segment"
+      },
+      {
+        "range": "F1",
+        "type": "string",
+        "value": "Manager"
+      },
+      {
+        "range": "G1",
+        "type": "string",
+        "value": "Region"
+      },
+      {
+        "range": "H1",
+        "type": "string",
+        "value": "Position Status"
+      },
+      {
+        "range": "I1",
+        "type": "string",
+        "value": "FY22 Quota"
+      },
+      {
+        "range": "J1",
+        "type": "string",
+        "value": "Ramp Start Month"
+      },
+      {
+        "range": "AI1",
+        "type": "string",
+        "value": "Q1FY22"
+      },
+      {
+        "range": "AJ1",
+        "type": "string",
+        "value": "Q2FY22"
+      },
+      {
+        "range": "AK1",
+        "type": "string",
+        "value": "Q3FY22"
+      },
+      {
+        "range": "AL1",
+        "type": "string",
+        "value": "Q4FY22"
+      },
+      {
+        "range": "AM1",
+        "type": "string",
+        "value": "FY22 Ramped Quota"
+      },
+      {
+        "range": "I2",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K2:V2",
+        "type": "number"
+      },
+      {
+        "range": "W2:AM2",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I3",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K3:V3",
+        "type": "number"
+      },
+      {
+        "range": "W3:AM3",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I4",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K4:V4",
+        "type": "number"
+      },
+      {
+        "range": "W4:AM4",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K5:V5",
+        "type": "number"
+      },
+      {
+        "range": "W5:AM5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K6:V6",
+        "type": "number"
+      },
+      {
+        "range": "W6:AM6",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 39.09,
+      "cells_analyzed": 228,
+      "total_ranges": 59,
+      "format_counts": {
+        "string": 44,
+        "number": 15
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T19:03:55.163990Z"
+    }
+  },
+  "compression_stats": {
+    "unique_values": 5,
+    "entries_moved_to_index": 30,
+    "entries_remaining": 29,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 3094,
+    "compressed_size_bytes": 1920,
+    "inverted_index_size_bytes": 336,
+    "compressed_data_size_bytes": 1584,
+    "compression_ratio": 0.621,
+    "space_saved_bytes": 1174,
+    "space_saved_percent": 37.9
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "model_id": "c666fdc3-e447-4316-a1e0-dc0f89a5a542",
+  "dataset": "alphasense",
+  "evaluation_timestamp": "2025-08-21T22:03:28.906768",
+  "summary": {
+    "total_questions": 6,
+    "successful_evaluations": 6,
+    "avg_retrieval_score": 0.04761904761904762
+  },
+  "detailed_results": [
+    {
+      "question_id": "q1_sales_productivity_historical",
+      "question": "What has sales rep productivity looked like historically?",
+      "category": "data_retrieval",
+      "retrieval_evaluation": {
+        "score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "matches": [],
+        "retrieved_sheets": [
+          "historical quota& productivity",
+          "sales reps",
+          "sales prod input",
+          "opex - sales",
+          "sales role input"
+        ],
+        "expected_sheets": [
+          "summary",
+          "dash"
+        ],
+        "missing_sheets": [
+          "summary",
+          "dash"
+        ],
+        "extra_sheets": [
+          "opex - sales",
+          "sales prod input",
+          "historical quota& productivity",
+          "sales role input",
+          "sales reps"
+        ]
+      },
+      "answer_info": {
+        "generated_answer_full": "Total annual sales productivity increased from $4,048,864 in 2015 to $4,740,044 in 2016 and $7,154,208 in 2017. This growth was driven by the AE - Corporate team, whose productivity rose from $896,263 in 2015 to $3,350,045 in 2017. Account Manager productivity grew from $397,470 in 2015 to $921,733 in 2017, and AE - Enterprise productivity increased from $352,060 to $755,200 over the same period. AE - Financial productivity was $2,040,071 in 2015, dipped to $1,742,865 in 2016, and recovered to $2,110,730 in 2017. Productivity for the AE - Other role declined from $338,000 in 2015 to $4,000 in 2017.",
+        "is_error": false
+      },
+      "retrieved_sheets_count": 5,
+      "timestamp": "2025-08-21T22:00:57.221440"
+    },
+    {
+      "question_id": "q2_sales_metrics_trends",
+      "question": "What metrics are available to understand how sales is performing and what are the trends?",
+      "category": "data_retrieval",
+      "retrieval_evaluation": {
+        "score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "matches": [],
+        "retrieved_sheets": [
+          "key metrics",
+          "historical quota& productivity",
+          "opex - sales",
+          "sales prod input",
+          "sales ctrl"
+        ],
+        "expected_sheets": [
+          "arr and revenue",
+          "sales reps"
+        ],
+        "missing_sheets": [
+          "arr and revenue",
+          "sales reps"
+        ],
+        "extra_sheets": [
+          "opex - sales",
+          "sales prod input",
+          "historical quota& productivity",
+          "key metrics",
+          "sales ctrl"
+        ]
+      },
+      "answer_info": {
+        "generated_answer_full": "Metrics available to understand sales performance include Annual Recurring Revenue (ARR), ARR Added (Gross), New Sales, and Upsells. Performance is also measured by ARR Churn, which is broken down into controllable and uncontrollable types and by reasons such as Budget/Firm Downsizing, Competitor, and Insufficient value. Key indicators are Net Retention % and Net Churn %, both on a rolling 12-month basis. Customer base metrics include the number of client firms and users added and lost monthly. Deal-level metrics consist of Total Average Client Size, New Client Average Size, and Average Revenue Per User (ARPU). Productivity is tracked by comparing annual sales quotas against monthly and annual productivity for roles including Account Manager, AE - Financial, and AE - Corporate. Sales-related expenses like Commission and Bonus are also available. All metrics are available monthly from 2015 through 2020, allowing for trend analysis, and are segmented by customer types: Financial, Corporate, Other, and Sellside.",
+        "is_error": false
+      },
+      "retrieved_sheets_count": 5,
+      "timestamp": "2025-08-21T22:01:27.864824"
+    },
+    {
+      "question_id": "q3_revenue_forecast_logic",
+      "question": "Provide a detailed explanation for how the revenue forecast is built up. What are the most important drivers and how do the forecast assumptions compare to historical actuals?",
+      "category": "model_logic",
+      "retrieval_evaluation": {
+        "score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "matches": [],
+        "retrieved_sheets": [
+          "arr and rev ctrl",
+          "revenue by client",
+          "deferred build",
+          "fds user growth",
+          "summary"
+        ],
+        "expected_sheets": [
+          "arr and revenue"
+        ],
+        "missing_sheets": [
+          "arr and revenue"
+        ],
+        "extra_sheets": [
+          "revenue by client",
+          "summary",
+          "fds user growth",
+          "arr and rev ctrl",
+          "deferred build"
+        ]
+      },
+      "answer_info": {
+        "generated_answer_full": "The revenue forecast is built up from a bottoms-up projection of Annual Recurring Revenue (ARR), which is then converted to recognized revenue. The model forecasts ARR using two primary methods: a sales productivity model and a user growth model. The sales productivity model projects new bookings and upsells by applying assumptions for sales quotas, productivity percentages, and seasonality to different sales roles (Account Executive, Account Manager, VP). The user growth model projects the number of users, segmented by Corporate and Financial clients, and applies an ARR/User assumption to derive ARR. These ARR additions feed a deferred revenue waterfall, and recognized revenue is calculated by applying a \"Rev % of MRR\" ratio to the recurring revenue base for each client segment.\n\nThe most important drivers are sales quotas, sales productivity, and user growth. Key drivers include:\n- Annual quotas for sales roles, such as the Account Executive - Financial quota set at $630,000 for 2021-2027 in the Base scenario.\n- Productivity as a percentage of quota, with a forecast assumption of 85% for most sales roles from 2021 onwards.\n- The mix of new bookings versus upsell, where new bookings for AEs are forecast to decline from 46% to 22% of their contribution, while upsells increase.\n- The \"Rev % of MRR\" ratio, used to convert MRR to GAAP revenue, is forecasted at a flat 97.9% for Financial and 95.2% for Corporate clients.\n- User growth, which is broken down by Corporate and Financial segments and further by industry verticals.\n\nForecast assumptions are simplified compared to historical actuals. For example, the Account Executive - Financial quota is forecasted at a flat $630,000 annually from 2021, whereas historical 2020 quotas annualized to approximately $585,000. Sales productivity is forecasted at a flat 85% for AEs, while historical monthly productivity in 2020 fluctuated between approximately 54% and 123%. Similarly, the \"Rev % of MRR\" ratio is forecasted as a flat percentage (e.g., 97.9% for Financial), while historical data from 2020 shows significant monthly volatility for this metric, ranging from 86% to 101%.",
+        "is_error": false
+      },
+      "retrieved_sheets_count": 5,
+      "timestamp": "2025-08-21T22:01:58.152545"
+    },
+    {
+      "question_id": "q4_ltv_cac_trends",
+      "question": "What are the historical trends for LTV:CAC by segment?",
+      "category": "data_retrieval",
+      "retrieval_evaluation": {
+        "score": 0.28571428571428575,
+        "precision": 0.2,
+        "recall": 0.5,
+        "matches": [
+          "cac by segment"
+        ],
+        "retrieved_sheets": [
+          "cac by segment",
+          "payback period",
+          "ln",
+          "renewed",
+          "client support"
+        ],
+        "expected_sheets": [
+          "cac by segment",
+          "dash"
+        ],
+        "missing_sheets": [
+          "dash"
+        ],
+        "extra_sheets": [
+          "client support",
+          "payback period",
+          "ln",
+          "renewed"
+        ]
+      },
+      "answer_info": {
+        "generated_answer_full": "For the Financial segment, the LTV:CAC ratio trended downwards from 17.5x in 2016 to 7.8x in 2022. The ratio peaked at 16.0x in 2018, declined to 8.4x in 2020, and partially recovered to 10.1x in 2021. For the Corporate segment, the LTV:CAC ratio also trended downwards, from 11.0x in 2016 to 6.4x in 2022. It peaked at 11.8x in 2018, fell to 7.0x in 2020, and recovered slightly to 7.8x in 2021.",
+        "is_error": false
+      },
+      "retrieved_sheets_count": 5,
+      "timestamp": "2025-08-21T22:02:27.255038"
+    },
+    {
+      "question_id": "q5_business_investability",
+      "question": "Is this an investable business model?",
+      "category": "business_analysis",
+      "retrieval_evaluation": {
+        "score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "matches": [],
+        "retrieved_sheets": [
+          "fin",
+          "payback period",
+          "cogs vs. marginal",
+          "fds amr",
+          "dash control"
+        ],
+        "expected_sheets": [
+          "dash"
+        ],
+        "missing_sheets": [
+          "dash"
+        ],
+        "extra_sheets": [
+          "cogs vs. marginal",
+          "dash control",
+          "fin",
+          "fds amr",
+          "payback period"
+        ]
+      },
+      "answer_info": {
+        "generated_answer_full": "Yes, the business model is investable. Total Annual Recurring Revenue (ARR) is projected to grow from $8.6 million in 2015 to $920 million in 2027. The company is projected to achieve profitability in 2025, with EBITDA reaching $281 million and Net Income reaching $161 million by 2027. The unit economics are strong, with a projected LTV/CAC ratio between 7.0x and 14.1x and a customer acquisition cost (CAC) payback period of 16-25 months. Gross margins are high and improve from 73.8% to a projected 86.8% by 2027, supported by a scalable cost structure where several COGS components have a marginal cost of zero.",
+        "is_error": false
+      },
+      "retrieved_sheets_count": 5,
+      "timestamp": "2025-08-21T22:03:01.465873"
+    },
+    {
+      "question_id": "q6_kpi_focus_areas",
+      "question": "What KPIs should management be focusing on improving?",
+      "category": "business_analysis",
+      "retrieval_evaluation": {
+        "score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "matches": [],
+        "retrieved_sheets": [
+          "key metrics",
+          "dj",
+          "amr",
+          "opex - marketing",
+          "summary"
+        ],
+        "expected_sheets": [
+          "dash",
+          "cac by segment",
+          "arr and revenue"
+        ],
+        "missing_sheets": [
+          "dash",
+          "arr and revenue",
+          "cac by segment"
+        ],
+        "extra_sheets": [
+          "opex - marketing",
+          "summary",
+          "key metrics",
+          "dj",
+          "amr"
+        ]
+      },
+      "answer_info": {
+        "generated_answer_full": "Management should focus on improving Free Cash Flow (FCF) and EBITDA, which are consistently negative and worsening, with a cash balance projected to be negative starting in mid-2021. A primary area for improvement is reducing Controllable ARR Churn, which is high and frequently attributed to \"Competitor,\" \"Insufficient value,\" and \"Low use/engagement.\" Additionally, the rolling 12-month Net Retention % is on a downward trend, falling from over 119% to 103% by the end of 2020. The value of new customers is also declining, evidenced by decreasing New Client Average Size and New Sales ARPU.",
+        "is_error": false
+      },
+      "retrieved_sheets_count": 5,
+      "timestamp": "2025-08-21T22:03:28.904524"
+    }
+  ]
+}

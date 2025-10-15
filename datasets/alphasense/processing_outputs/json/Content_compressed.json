@@ -1,0 +1,1395 @@
+{
+  "inverted_index": {
+    "% of Wages": {
+      "type": "string",
+      "ranges": [
+        "B18",
+        "B23",
+        "B27",
+        "B33",
+        "B39",
+        "B43",
+        "B47",
+        "B51"
+      ]
+    },
+    "Content Worker Compensation": {
+      "type": "string",
+      "ranges": [
+        "B48",
+        "B52",
+        "B57",
+        "B62"
+      ]
+    },
+    "Headcount": {
+      "type": "string",
+      "ranges": [
+        "B55",
+        "B60",
+        "B79",
+        "B84",
+        "B96",
+        "B104",
+        "B109",
+        "B116",
+        "B121",
+        "B126",
+        "B131",
+        "B136",
+        "B141",
+        "B152",
+        "B161",
+        "B170",
+        "B179",
+        "B188",
+        "B197",
+        "B206",
+        "B215",
+        "B221",
+        "B237",
+        "B242",
+        "B247",
+        "B252",
+        "B257",
+        "B262",
+        "B269",
+        "B274",
+        "B279",
+        "B284",
+        "B289",
+        "B294",
+        "B299",
+        "B304",
+        "B309",
+        "B319",
+        "B324",
+        "B332",
+        "B337",
+        "B342",
+        "B347",
+        "B355",
+        "B360",
+        "B365",
+        "B370",
+        "B377",
+        "B387",
+        "B392",
+        "B397"
+      ]
+    },
+    "Cost Per Head": {
+      "type": "string",
+      "ranges": [
+        "B56",
+        "B61",
+        "B80",
+        "B85",
+        "B97",
+        "B105",
+        "B110",
+        "B117",
+        "B122",
+        "B127",
+        "B132",
+        "B137",
+        "B142",
+        "B153",
+        "B162",
+        "B171",
+        "B180",
+        "B189",
+        "B198",
+        "B207",
+        "B216",
+        "B238",
+        "B243",
+        "B248",
+        "B253",
+        "B258",
+        "B263",
+        "B270",
+        "B275",
+        "B280",
+        "B285",
+        "B290",
+        "B295",
+        "B300",
+        "B305",
+        "B310",
+        "B320",
+        "B325",
+        "B333",
+        "B338",
+        "B343",
+        "B348",
+        "B356",
+        "B361",
+        "B366",
+        "B371",
+        "B378",
+        "B388",
+        "B393",
+        "B398"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Content",
+    "format_ranges": [
+      {
+        "range": "B2",
+        "type": "string",
+        "value": "AlphaSense, Inc."
+      },
+      {
+        "range": "B3",
+        "type": "string",
+        "value": "Operating Expenses Reorganization"
+      },
+      {
+        "range": "E3:I3",
+        "type": "number"
+      },
+      {
+        "range": "J3:Q3",
+        "type": "number"
+      },
+      {
+        "range": "T3:FS3",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "B4",
+        "type": "string",
+        "value": "1 - Base - $25mm"
+      },
+      {
+        "range": "A6",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B6",
+        "type": "string",
+        "value": "Content Operating Expenses Summary"
+      },
+      {
+        "range": "B8",
+        "type": "string",
+        "value": "Total Content Expense"
+      },
+      {
+        "range": "I8:Q8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A10",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B10",
+        "type": "string",
+        "value": "Total Content People Costs"
+      },
+      {
+        "range": "I10:Q10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B11",
+        "type": "string",
+        "value": "Total Engineering People Costs (excl Cap Wages)"
+      },
+      {
+        "range": "I11:Q11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B13",
+        "type": "string",
+        "value": "Wages"
+      },
+      {
+        "range": "B14",
+        "type": "string",
+        "value": "Content"
+      },
+      {
+        "range": "I14:Q14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B15",
+        "type": "string",
+        "value": "Content Wages"
+      },
+      {
+        "range": "I15:Q15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B17",
+        "type": "string",
+        "value": "Salaries Working Abroad"
+      },
+      {
+        "range": "B19",
+        "type": "string",
+        "value": "Content Salaries Working Abroad"
+      },
+      {
+        "range": "I19:Q19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B22",
+        "type": "string",
+        "value": "Holiday Pay"
+      },
+      {
+        "range": "B24",
+        "type": "string",
+        "value": "Content Holiday Pay"
+      },
+      {
+        "range": "I24:Q24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B26",
+        "type": "string",
+        "value": "Additional Holiday Pay"
+      },
+      {
+        "range": "B28",
+        "type": "string",
+        "value": "Content Additional Holiday Pay"
+      },
+      {
+        "range": "I28:Q28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B32",
+        "type": "string",
+        "value": "Sick Leave"
+      },
+      {
+        "range": "B34",
+        "type": "string",
+        "value": "Content Sick Leave"
+      },
+      {
+        "range": "I34:Q34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B36",
+        "type": "string",
+        "value": "Commission Expense"
+      },
+      {
+        "range": "I36:Q36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B38",
+        "type": "string",
+        "value": "Bonus"
+      },
+      {
+        "range": "B40",
+        "type": "string",
+        "value": "Content Bonus"
+      },
+      {
+        "range": "I40:Q40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B42",
+        "type": "string",
+        "value": "Benefits"
+      },
+      {
+        "range": "B44",
+        "type": "string",
+        "value": "Content Benefits"
+      },
+      {
+        "range": "I44:Q44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B46",
+        "type": "string",
+        "value": "Work Compensation"
+      },
+      {
+        "range": "I48:Q48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B50",
+        "type": "string",
+        "value": "Payroll Taxes"
+      },
+      {
+        "range": "I52:Q52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B54",
+        "type": "string",
+        "value": "Finnish Side Costs"
+      },
+      {
+        "range": "I57:Q57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B59",
+        "type": "string",
+        "value": "Share Based Compensation"
+      },
+      {
+        "range": "I62:Q62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B64",
+        "type": "string",
+        "value": "Recruiting Fees"
+      },
+      {
+        "range": "B81",
+        "type": "string",
+        "value": "Content Recruiting Fees"
+      },
+      {
+        "range": "I81:Q81",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B83",
+        "type": "string",
+        "value": "Relocation"
+      },
+      {
+        "range": "B86",
+        "type": "string",
+        "value": "Content Relocation"
+      },
+      {
+        "range": "I86:Q86",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B88",
+        "type": "string",
+        "value": "Contractors"
+      },
+      {
+        "range": "B92",
+        "type": "string",
+        "value": "Content Contractors"
+      },
+      {
+        "range": "I92:Q92",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B95",
+        "type": "string",
+        "value": "Outsourced R&D"
+      },
+      {
+        "range": "B98",
+        "type": "string",
+        "value": "Content Outsourced R&D"
+      },
+      {
+        "range": "I98:Q98",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B100",
+        "type": "string",
+        "value": "Capitalized Wages"
+      },
+      {
+        "range": "B101",
+        "type": "string",
+        "value": "Content Capitalized Wages"
+      },
+      {
+        "range": "I101:Q101",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B103",
+        "type": "string",
+        "value": "Capitalized Outsourced R&D"
+      },
+      {
+        "range": "B106",
+        "type": "string",
+        "value": "Content Capitalized Outsourced R&D"
+      },
+      {
+        "range": "I106:Q106",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B108",
+        "type": "string",
+        "value": "Capitalized R&D"
+      },
+      {
+        "range": "B111",
+        "type": "string",
+        "value": "Content Capitalized R&D"
+      },
+      {
+        "range": "I111:Q111",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A113",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B113",
+        "type": "string",
+        "value": "Total Content Other Employee Costs"
+      },
+      {
+        "range": "I113:Q113",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B115",
+        "type": "string",
+        "value": "Celluar Phone Service"
+      },
+      {
+        "range": "B118",
+        "type": "string",
+        "value": "Content Celluar Phone Service"
+      },
+      {
+        "range": "I118:Q118",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B120",
+        "type": "string",
+        "value": "Home Internet Service"
+      },
+      {
+        "range": "B123",
+        "type": "string",
+        "value": "Content Home Internet Service"
+      },
+      {
+        "range": "I123:Q123",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B125",
+        "type": "string",
+        "value": "Home Office Phone"
+      },
+      {
+        "range": "B128",
+        "type": "string",
+        "value": "Content Home Office Phone"
+      },
+      {
+        "range": "I128:Q128",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B130",
+        "type": "string",
+        "value": "Home Office"
+      },
+      {
+        "range": "B133",
+        "type": "string",
+        "value": "Content Home Office"
+      },
+      {
+        "range": "I133:Q133",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B135",
+        "type": "string",
+        "value": "Membership Dues"
+      },
+      {
+        "range": "B138",
+        "type": "string",
+        "value": "Content Membership Dues"
+      },
+      {
+        "range": "I138:Q138",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B140",
+        "type": "string",
+        "value": "Subscriptions"
+      },
+      {
+        "range": "B143",
+        "type": "string",
+        "value": "Content Subscriptions"
+      },
+      {
+        "range": "I143:Q143",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A145",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B145",
+        "type": "string",
+        "value": "Total Content Travel Costs"
+      },
+      {
+        "range": "I145:Q145",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B147",
+        "type": "string",
+        "value": "Adjustment"
+      },
+      {
+        "range": "B151",
+        "type": "string",
+        "value": "Airfare/Train"
+      },
+      {
+        "range": "B154",
+        "type": "string",
+        "value": "Content Airfare/Train"
+      },
+      {
+        "range": "I154:Q154",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B160",
+        "type": "string",
+        "value": "Auto/Cab"
+      },
+      {
+        "range": "B163",
+        "type": "string",
+        "value": "Content Auto/Cab"
+      },
+      {
+        "range": "I163:Q163",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B169",
+        "type": "string",
+        "value": "Mileage"
+      },
+      {
+        "range": "B172",
+        "type": "string",
+        "value": "Content Mileage"
+      },
+      {
+        "range": "I172:Q172",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B178",
+        "type": "string",
+        "value": "Lodging"
+      },
+      {
+        "range": "B181",
+        "type": "string",
+        "value": "Content Lodging"
+      },
+      {
+        "range": "I181:Q181",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B187",
+        "type": "string",
+        "value": "Travel Internet"
+      },
+      {
+        "range": "B190",
+        "type": "string",
+        "value": "Content Travel Internet"
+      },
+      {
+        "range": "I190:Q190",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B196",
+        "type": "string",
+        "value": "Employee Meals / Entertainment"
+      },
+      {
+        "range": "B199",
+        "type": "string",
+        "value": "Content Employee Meals / Entertainment"
+      },
+      {
+        "range": "I199:Q199",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B205",
+        "type": "string",
+        "value": "Daily Meal Allowance When Abroad"
+      },
+      {
+        "range": "B208",
+        "type": "string",
+        "value": "Content Daily Mail Allowance When Abroad"
+      },
+      {
+        "range": "I208:Q208",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B214",
+        "type": "string",
+        "value": "Business Meals / Entertainment"
+      },
+      {
+        "range": "B217",
+        "type": "string",
+        "value": "Content Business Meals / Entertainment"
+      },
+      {
+        "range": "I217:Q217",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B220",
+        "type": "string",
+        "value": "Internal Events"
+      },
+      {
+        "range": "B222",
+        "type": "string",
+        "value": "SKO Cost Per Head"
+      },
+      {
+        "range": "B223",
+        "type": "string",
+        "value": "Total SKO Cost"
+      },
+      {
+        "range": "B224",
+        "type": "string",
+        "value": "President's Club Cost Per Head"
+      },
+      {
+        "range": "B225",
+        "type": "string",
+        "value": "% of Content Attendees"
+      },
+      {
+        "range": "B226",
+        "type": "string",
+        "value": "Total Presiden's Club Cost"
+      },
+      {
+        "range": "B227",
+        "type": "string",
+        "value": "Content Internal Events"
+      },
+      {
+        "range": "I227:Q227",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A229",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B229",
+        "type": "string",
+        "value": "Total Content Facility Costs"
+      },
+      {
+        "range": "I229:Q229",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B231",
+        "type": "string",
+        "value": "Rent"
+      },
+      {
+        "range": "B232",
+        "type": "string",
+        "value": "% of Headcount"
+      },
+      {
+        "range": "B233",
+        "type": "string",
+        "value": "Monthly Rent"
+      },
+      {
+        "range": "B234",
+        "type": "string",
+        "value": "Content Rent"
+      },
+      {
+        "range": "I234:Q234",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B236",
+        "type": "string",
+        "value": "CAM"
+      },
+      {
+        "range": "B239",
+        "type": "string",
+        "value": "Content CAM"
+      },
+      {
+        "range": "I239:Q239",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B241",
+        "type": "string",
+        "value": "Repairs & Maintenance"
+      },
+      {
+        "range": "B244",
+        "type": "string",
+        "value": "Content Repairs & Maintenance"
+      },
+      {
+        "range": "I244:Q244",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B246",
+        "type": "string",
+        "value": "Amortization of Leasehold Improvements"
+      },
+      {
+        "range": "B249",
+        "type": "string",
+        "value": "Content Amortization of Leasehold Improvements"
+      },
+      {
+        "range": "I249:Q249",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B251",
+        "type": "string",
+        "value": "Utilities"
+      },
+      {
+        "range": "B254",
+        "type": "string",
+        "value": "Content Utilities"
+      },
+      {
+        "range": "I254:Q254",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B256",
+        "type": "string",
+        "value": "Telephone"
+      },
+      {
+        "range": "B259",
+        "type": "string",
+        "value": "Content Telephone"
+      },
+      {
+        "range": "I259:Q259",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B261",
+        "type": "string",
+        "value": "Computer & Internet"
+      },
+      {
+        "range": "B264",
+        "type": "string",
+        "value": "Content Computer & Internet"
+      },
+      {
+        "range": "I264:Q264",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A266",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B266",
+        "type": "string",
+        "value": "Total Content Marketing"
+      },
+      {
+        "range": "I266:Q266",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B268",
+        "type": "string",
+        "value": "Advertising & Promotion"
+      },
+      {
+        "range": "B271",
+        "type": "string",
+        "value": "Content Advertising & Promotion"
+      },
+      {
+        "range": "I271:Q271",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B273",
+        "type": "string",
+        "value": "Other Marketing"
+      },
+      {
+        "range": "B276",
+        "type": "string",
+        "value": "Content Other Marketing"
+      },
+      {
+        "range": "I276:Q276",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B278",
+        "type": "string",
+        "value": "Omarketing Research"
+      },
+      {
+        "range": "B281",
+        "type": "string",
+        "value": "Content Omarketing Research"
+      },
+      {
+        "range": "I281:Q281",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B283",
+        "type": "string",
+        "value": "Marketing Events"
+      },
+      {
+        "range": "B286",
+        "type": "string",
+        "value": "Content Marketing Events"
+      },
+      {
+        "range": "I286:Q286",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B288",
+        "type": "string",
+        "value": "Public Relations"
+      },
+      {
+        "range": "B291",
+        "type": "string",
+        "value": "Content Public Relations"
+      },
+      {
+        "range": "I291:Q291",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B293",
+        "type": "string",
+        "value": "Paid Search"
+      },
+      {
+        "range": "B296",
+        "type": "string",
+        "value": "Content Paid Search"
+      },
+      {
+        "range": "I296:Q296",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B298",
+        "type": "string",
+        "value": "Paid Social"
+      },
+      {
+        "range": "B301",
+        "type": "string",
+        "value": "Content Paid Social"
+      },
+      {
+        "range": "I301:Q301",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B303",
+        "type": "string",
+        "value": "Paid Display"
+      },
+      {
+        "range": "B306",
+        "type": "string",
+        "value": "Content Paid Display"
+      },
+      {
+        "range": "I306:Q306",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B308",
+        "type": "string",
+        "value": "Paid SWAG"
+      },
+      {
+        "range": "B311",
+        "type": "string",
+        "value": "Content SWAG"
+      },
+      {
+        "range": "I311:Q311",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A313",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B313",
+        "type": "string",
+        "value": "Total Content General & Admin"
+      },
+      {
+        "range": "I313:Q313",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B315",
+        "type": "string",
+        "value": "Insurance"
+      },
+      {
+        "range": "B316",
+        "type": "string",
+        "value": "Content Insurance"
+      },
+      {
+        "range": "I316:Q316",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B318",
+        "type": "string",
+        "value": "Payroll & Benefit Admin"
+      },
+      {
+        "range": "B321",
+        "type": "string",
+        "value": "Content Payroll & Benefit Admin"
+      },
+      {
+        "range": "I321:Q321",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B323",
+        "type": "string",
+        "value": "Postage & Delivery"
+      },
+      {
+        "range": "B326",
+        "type": "string",
+        "value": "Content Postage & Delivery"
+      },
+      {
+        "range": "I326:Q326",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B328",
+        "type": "string",
+        "value": "Conferences & Meetings"
+      },
+      {
+        "range": "B329",
+        "type": "string",
+        "value": "Content Conference & Meetings"
+      },
+      {
+        "range": "I329:Q329",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B331",
+        "type": "string",
+        "value": "Furniture"
+      },
+      {
+        "range": "B334",
+        "type": "string",
+        "value": "Content Furniture"
+      },
+      {
+        "range": "I334:Q334",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B336",
+        "type": "string",
+        "value": "Hardware"
+      },
+      {
+        "range": "B339",
+        "type": "string",
+        "value": "Content Hardware"
+      },
+      {
+        "range": "I339:Q339",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B341",
+        "type": "string",
+        "value": "Software"
+      },
+      {
+        "range": "B344",
+        "type": "string",
+        "value": "Content Software"
+      },
+      {
+        "range": "I344:Q344",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B346",
+        "type": "string",
+        "value": "Office Supplies"
+      },
+      {
+        "range": "B349",
+        "type": "string",
+        "value": "Content Office Supplies"
+      },
+      {
+        "range": "I349:Q349",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B351",
+        "type": "string",
+        "value": "Audit & Tax"
+      },
+      {
+        "range": "B352",
+        "type": "string",
+        "value": "Content Audit & Tax"
+      },
+      {
+        "range": "I352:Q352",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B354",
+        "type": "string",
+        "value": "Bank Fees"
+      },
+      {
+        "range": "B357",
+        "type": "string",
+        "value": "Content Bank Fees"
+      },
+      {
+        "range": "I357:Q357",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B359",
+        "type": "string",
+        "value": "Professional Services"
+      },
+      {
+        "range": "B362",
+        "type": "string",
+        "value": "Content Professional Services"
+      },
+      {
+        "range": "I362:Q362",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B364",
+        "type": "string",
+        "value": "Fundraising"
+      },
+      {
+        "range": "B367",
+        "type": "string",
+        "value": "Content Fundraising"
+      },
+      {
+        "range": "I367:Q367",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B369",
+        "type": "string",
+        "value": "Miscellaneous"
+      },
+      {
+        "range": "B372",
+        "type": "string",
+        "value": "Content Miscellaneous"
+      },
+      {
+        "range": "I372:Q372",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A374",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B374",
+        "type": "string",
+        "value": "Total Content Other Costs"
+      },
+      {
+        "range": "I374:Q374",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B376",
+        "type": "string",
+        "value": "Legal Fees"
+      },
+      {
+        "range": "B379",
+        "type": "string",
+        "value": "Content Legal Fees"
+      },
+      {
+        "range": "I379:Q379",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B381",
+        "type": "string",
+        "value": "DataFeeds"
+      },
+      {
+        "range": "B382",
+        "type": "string",
+        "value": "Number of Users"
+      },
+      {
+        "range": "B383",
+        "type": "string",
+        "value": "% of Revenue"
+      },
+      {
+        "range": "B384",
+        "type": "string",
+        "value": "Content DataFeeds"
+      },
+      {
+        "range": "I384:Q384",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B386",
+        "type": "string",
+        "value": "Web Service"
+      },
+      {
+        "range": "B389",
+        "type": "string",
+        "value": "Content Web Service"
+      },
+      {
+        "range": "I389:Q389",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B391",
+        "type": "string",
+        "value": "Penalties"
+      },
+      {
+        "range": "B394",
+        "type": "string",
+        "value": "Content Penalties"
+      },
+      {
+        "range": "I394:Q394",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B396",
+        "type": "string",
+        "value": "Bad Debt"
+      },
+      {
+        "range": "B399",
+        "type": "string",
+        "value": "Content Bad Debt"
+      },
+      {
+        "range": "I399:Q399",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 5998.08,
+      "cells_analyzed": 1022,
+      "total_ranges": 357,
+      "format_counts": {
+        "string": 276,
+        "number": 80,
+        "date": 1
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T11:01:50.726255Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2015-01-31",
+        "pattern": "Monthly series from 2015-01 to 2027-12"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 4,
+    "entries_moved_to_index": 113,
+    "entries_remaining": 244,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 20793,
+    "compressed_size_bytes": 15503,
+    "inverted_index_size_bytes": 957,
+    "compressed_data_size_bytes": 14546,
+    "compression_ratio": 0.746,
+    "space_saved_bytes": 5290,
+    "space_saved_percent": 25.4
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "inverted_index": {},
+  "data": {
+    "success": true,
+    "sheet_name": "INTERNAL>>>",
+    "format_ranges": [],
+    "statistics": {
+      "processing_time_ms": 2249.53,
+      "cells_analyzed": 0,
+      "total_ranges": 0,
+      "format_counts": {}
+    },
+    "metadata": {
+      "detected_at": "2025-10-14T01:56:20.021847Z"
+    }
+  },
+  "compression_stats": {
+    "unique_values": 0,
+    "entries_moved_to_index": 0,
+    "entries_remaining": 0,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 218,
+    "compressed_size_bytes": 220,
+    "inverted_index_size_bytes": 2,
+    "compressed_data_size_bytes": 218,
+    "compression_ratio": 1.009,
+    "space_saved_bytes": -2,
+    "space_saved_percent": -0.9
+  }
+}

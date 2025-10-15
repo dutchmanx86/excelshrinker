@@ -1,0 +1,318 @@
+{
+  "inverted_index": {
+    "Opening Principal Balance": {
+      "type": "string",
+      "ranges": [
+        "B2",
+        "B12",
+        "B23",
+        "B36",
+        "B47"
+      ]
+    },
+    "Principal Payment": {
+      "type": "string",
+      "ranges": [
+        "B3",
+        "B13",
+        "B24",
+        "B37",
+        "B48"
+      ]
+    },
+    "Accrued Interest": {
+      "type": "string",
+      "ranges": [
+        "B4",
+        "B14",
+        "B25",
+        "B38",
+        "B49"
+      ]
+    },
+    "Interest Payment": {
+      "type": "string",
+      "ranges": [
+        "B5",
+        "B15",
+        "B26",
+        "B39",
+        "B50"
+      ]
+    },
+    "Principal Payment FX Rate": {
+      "type": "string",
+      "ranges": [
+        "B7",
+        "B17",
+        "B28",
+        "B41",
+        "B52"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Tekes Loans",
+    "format_ranges": [
+      {
+        "range": "C1:AY1",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "A2",
+        "type": "string",
+        "value": "Tekes -14223, 114850 \u20ac"
+      },
+      {
+        "range": "C2",
+        "type": "number"
+      },
+      {
+        "range": "D2:H2",
+        "type": "number"
+      },
+      {
+        "range": "G3",
+        "type": "number"
+      },
+      {
+        "range": "C4:F4",
+        "type": "number"
+      },
+      {
+        "range": "G5",
+        "type": "number"
+      },
+      {
+        "range": "F7:AY7",
+        "type": "number"
+      },
+      {
+        "range": "A12",
+        "type": "string",
+        "value": "Tekes -14560, 337265,82 \u20ac"
+      },
+      {
+        "range": "C12:AG12",
+        "type": "number"
+      },
+      {
+        "range": "H13",
+        "type": "number"
+      },
+      {
+        "range": "T13",
+        "type": "number"
+      },
+      {
+        "range": "AF13",
+        "type": "number"
+      },
+      {
+        "range": "C14:AF14",
+        "type": "number"
+      },
+      {
+        "range": "H15",
+        "type": "number"
+      },
+      {
+        "range": "T15",
+        "type": "number"
+      },
+      {
+        "range": "AF15",
+        "type": "number"
+      },
+      {
+        "range": "F17:AY17",
+        "type": "number"
+      },
+      {
+        "range": "A23",
+        "type": "string",
+        "value": "Tekes -14887, 343615 \u20ac"
+      },
+      {
+        "range": "C23:AE23",
+        "type": "number"
+      },
+      {
+        "range": "F24",
+        "type": "number"
+      },
+      {
+        "range": "R24",
+        "type": "number"
+      },
+      {
+        "range": "AD24",
+        "type": "number"
+      },
+      {
+        "range": "C25:AC25",
+        "type": "number"
+      },
+      {
+        "range": "F26",
+        "type": "number"
+      },
+      {
+        "range": "R26",
+        "type": "number"
+      },
+      {
+        "range": "AD26",
+        "type": "number"
+      },
+      {
+        "range": "F28:AY28",
+        "type": "number"
+      },
+      {
+        "range": "A36",
+        "type": "string",
+        "value": "Tekes -15118, 186500 \u20ac"
+      },
+      {
+        "range": "C36:AB36",
+        "type": "number"
+      },
+      {
+        "range": "O37",
+        "type": "number"
+      },
+      {
+        "range": "AA37",
+        "type": "number"
+      },
+      {
+        "range": "C38:Z38",
+        "type": "number"
+      },
+      {
+        "range": "O39",
+        "type": "number"
+      },
+      {
+        "range": "AA39",
+        "type": "number"
+      },
+      {
+        "range": "F41:AY41",
+        "type": "number"
+      },
+      {
+        "range": "A47",
+        "type": "string",
+        "value": "Tekes -15543, 159800 \u20ac"
+      },
+      {
+        "range": "C47:AV47",
+        "type": "number"
+      },
+      {
+        "range": "K48",
+        "type": "number"
+      },
+      {
+        "range": "W48",
+        "type": "number"
+      },
+      {
+        "range": "AI48",
+        "type": "number"
+      },
+      {
+        "range": "AU48",
+        "type": "number"
+      },
+      {
+        "range": "C49:AU49",
+        "type": "number"
+      },
+      {
+        "range": "K50",
+        "type": "number"
+      },
+      {
+        "range": "W50",
+        "type": "number"
+      },
+      {
+        "range": "AI50",
+        "type": "number"
+      },
+      {
+        "range": "AU50",
+        "type": "number"
+      },
+      {
+        "range": "F52:AY52",
+        "type": "number"
+      },
+      {
+        "range": "B56",
+        "type": "string",
+        "value": "Accrued Interest Balance"
+      },
+      {
+        "range": "D56:AU56",
+        "type": "number"
+      },
+      {
+        "range": "B58",
+        "type": "string",
+        "value": "1/31/20 FX Rate"
+      },
+      {
+        "range": "D58:AU58",
+        "type": "number"
+      },
+      {
+        "range": "B59",
+        "type": "number"
+      },
+      {
+        "range": "E60",
+        "type": "number"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 2042.69,
+      "cells_analyzed": 695,
+      "total_ranges": 79,
+      "format_counts": {
+        "date": 1,
+        "string": 32,
+        "number": 46
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-14T01:37:46.661191Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2019-12-01",
+        "pattern": "Monthly series from 2019-12 to 2023-12"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 5,
+    "entries_moved_to_index": 25,
+    "entries_remaining": 54,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 4066,
+    "compressed_size_bytes": 2906,
+    "inverted_index_size_bytes": 405,
+    "compressed_data_size_bytes": 2501,
+    "compression_ratio": 0.715,
+    "space_saved_bytes": 1160,
+    "space_saved_percent": 28.5
+  }
+}

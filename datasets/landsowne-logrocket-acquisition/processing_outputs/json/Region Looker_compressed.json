@@ -1,0 +1,1020 @@
+{
+  "inverted_index": {
+    "Sum of Initial Sale": {
+      "type": "string",
+      "ranges": [
+        "A4",
+        "B47"
+      ]
+    },
+    "Column Labels": {
+      "type": "string",
+      "ranges": [
+        "B4",
+        "B17"
+      ]
+    },
+    "2014": {
+      "type": "string",
+      "ranges": [
+        "B5",
+        "B18"
+      ]
+    },
+    "2015": {
+      "type": "string",
+      "ranges": [
+        "D5",
+        "D18"
+      ]
+    },
+    "2016": {
+      "type": "string",
+      "ranges": [
+        "P5",
+        "P18"
+      ]
+    },
+    "2017": {
+      "type": "string",
+      "ranges": [
+        "AB5",
+        "AB18"
+      ]
+    },
+    "2018": {
+      "type": "string",
+      "ranges": [
+        "AN5",
+        "AN18"
+      ]
+    },
+    "2019": {
+      "type": "string",
+      "ranges": [
+        "AZ5",
+        "AZ18"
+      ]
+    },
+    "2020": {
+      "type": "string",
+      "ranges": [
+        "BL5",
+        "BL18"
+      ]
+    },
+    "2021": {
+      "type": "string",
+      "ranges": [
+        "BX5",
+        "BX18"
+      ]
+    },
+    "Grand Total": {
+      "type": "string",
+      "ranges": [
+        "CG5",
+        "A12",
+        "CG18",
+        "A25",
+        "A53"
+      ]
+    },
+    "Row Labels": {
+      "type": "string",
+      "ranges": [
+        "A6",
+        "A19",
+        "A47"
+      ]
+    },
+    "Nov": {
+      "type": "string",
+      "ranges": [
+        "B6",
+        "N6",
+        "Z6",
+        "AL6",
+        "AX6",
+        "BJ6",
+        "BV6",
+        "B19",
+        "N19",
+        "Z19",
+        "AL19",
+        "AX19",
+        "BJ19",
+        "BV19"
+      ]
+    },
+    "Dec": {
+      "type": "string",
+      "ranges": [
+        "C6",
+        "O6",
+        "AA6",
+        "AM6",
+        "AY6",
+        "BK6",
+        "BW6",
+        "C19",
+        "O19",
+        "AA19",
+        "AM19",
+        "AY19",
+        "BK19",
+        "BW19"
+      ]
+    },
+    "Jan": {
+      "type": "string",
+      "ranges": [
+        "D6",
+        "P6",
+        "AB6",
+        "AN6",
+        "AZ6",
+        "BL6",
+        "BX6",
+        "D19",
+        "P19",
+        "AB19",
+        "AN19",
+        "AZ19",
+        "BL19",
+        "BX19"
+      ]
+    },
+    "Feb": {
+      "type": "string",
+      "ranges": [
+        "E6",
+        "Q6",
+        "AC6",
+        "AO6",
+        "BA6",
+        "BM6",
+        "BY6",
+        "E19",
+        "Q19",
+        "AC19",
+        "AO19",
+        "BA19",
+        "BM19",
+        "BY19"
+      ]
+    },
+    "Mar": {
+      "type": "string",
+      "ranges": [
+        "F6",
+        "R6",
+        "AD6",
+        "AP6",
+        "BB6",
+        "BN6",
+        "BZ6",
+        "F19",
+        "R19",
+        "AD19",
+        "AP19",
+        "BB19",
+        "BN19",
+        "BZ19"
+      ]
+    },
+    "Apr": {
+      "type": "string",
+      "ranges": [
+        "G6",
+        "S6",
+        "AE6",
+        "AQ6",
+        "BC6",
+        "BO6",
+        "CA6",
+        "G19",
+        "S19",
+        "AE19",
+        "AQ19",
+        "BC19",
+        "BO19",
+        "CA19"
+      ]
+    },
+    "May": {
+      "type": "string",
+      "ranges": [
+        "H6",
+        "T6",
+        "AF6",
+        "AR6",
+        "BD6",
+        "BP6",
+        "CB6",
+        "H19",
+        "T19",
+        "AF19",
+        "AR19",
+        "BD19",
+        "BP19",
+        "CB19"
+      ]
+    },
+    "Jun": {
+      "type": "string",
+      "ranges": [
+        "I6",
+        "U6",
+        "AG6",
+        "AS6",
+        "BE6",
+        "BQ6",
+        "CC6",
+        "I19",
+        "U19",
+        "AG19",
+        "AS19",
+        "BE19",
+        "BQ19",
+        "CC19"
+      ]
+    },
+    "Jul": {
+      "type": "string",
+      "ranges": [
+        "J6",
+        "V6",
+        "AH6",
+        "AT6",
+        "BF6",
+        "BR6",
+        "CD6",
+        "J19",
+        "V19",
+        "AH19",
+        "AT19",
+        "BF19",
+        "BR19",
+        "CD19"
+      ]
+    },
+    "Aug": {
+      "type": "string",
+      "ranges": [
+        "K6",
+        "W6",
+        "AI6",
+        "AU6",
+        "BG6",
+        "BS6",
+        "CE6",
+        "K19",
+        "W19",
+        "AI19",
+        "AU19",
+        "BG19",
+        "BS19",
+        "CE19"
+      ]
+    },
+    "Sep": {
+      "type": "string",
+      "ranges": [
+        "L6",
+        "X6",
+        "AJ6",
+        "AV6",
+        "BH6",
+        "BT6",
+        "CF6",
+        "L19",
+        "X19",
+        "AJ19",
+        "AV19",
+        "BH19",
+        "BT19",
+        "CF19"
+      ]
+    },
+    "Oct": {
+      "type": "string",
+      "ranges": [
+        "M6",
+        "Y6",
+        "AK6",
+        "AW6",
+        "BI6",
+        "BU6",
+        "M19",
+        "Y19",
+        "AK19",
+        "AW19",
+        "BI19",
+        "BU19"
+      ]
+    },
+    "APAC": {
+      "type": "string",
+      "ranges": [
+        "A7",
+        "A20",
+        "A32",
+        "A41",
+        "A48",
+        "I50"
+      ]
+    },
+    "EMEA": {
+      "type": "string",
+      "ranges": [
+        "A8",
+        "A21",
+        "A33",
+        "A42",
+        "A49",
+        "I49"
+      ]
+    },
+    "LATAM": {
+      "type": "string",
+      "ranges": [
+        "A9",
+        "A22",
+        "A50"
+      ]
+    },
+    "North America": {
+      "type": "string",
+      "ranges": [
+        "A10",
+        "A23",
+        "A51"
+      ]
+    },
+    "(blank)": {
+      "type": "string",
+      "ranges": [
+        "A11",
+        "A24",
+        "A52"
+      ]
+    },
+    "Sum of Expansion": {
+      "type": "string",
+      "ranges": [
+        "A17",
+        "C47"
+      ]
+    },
+    "AMER": {
+      "type": "string",
+      "ranges": [
+        "A31",
+        "A40",
+        "I48"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Region Looker",
+    "format_ranges": [
+      {
+        "range": "A2",
+        "type": "string",
+        "value": "Initial Sale"
+      },
+      {
+        "range": "K7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "V7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Y7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AD7:AE7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AG7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AP7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AT7:AU7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AW7:AY7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BC7:BD7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BF7:BH7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BK7:BL7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BN7:BO7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BQ7:BR7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BT7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BZ7:CD7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CF7:CG7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q8:R8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Y8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA8:AE8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AG8:AN8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AP8:AR8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AT8:AU8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AW8:BG8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BI8:BL8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BN8:CG8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AR9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AW9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BD9:BE9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BG9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BI9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BO9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BW9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BY9:CA9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CD9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CF9:CG9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B10:CG10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BC11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BI11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BY11:BZ11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CG11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B12:CG12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A15",
+        "type": "string",
+        "value": "Expansion Bookings"
+      },
+      {
+        "range": "AG20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AJ20:AK20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AN20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AS20:AT20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BB20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BD20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BH20:BL20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BN20:CE20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CG20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "R21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Z21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AD21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AG21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK21:AL21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AN21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AP21:AT21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AY21:BC21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BE21:BG21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BJ21:BL21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BN21:CG21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AI22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BH22:BI22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BP22:BQ22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BV22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CA22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CD22:CE22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CG22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I23:CG23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BC24:BD24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BZ24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CB24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CG24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I25:CG25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A28",
+        "type": "string",
+        "value": "Total Gross Bookings"
+      },
+      {
+        "range": "B30:CD30",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "B31:CD31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B32:CD32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B33:CD34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A36",
+        "type": "string",
+        "value": "Total per ARR"
+      },
+      {
+        "range": "AO36:CJ36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A37",
+        "type": "string",
+        "value": "CHECK"
+      },
+      {
+        "range": "AO37:CD37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AO39:CJ39",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "AO40:CJ40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AO41:CJ41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AO42:CJ43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A45",
+        "type": "string",
+        "value": "Date Fiscal Quarter"
+      },
+      {
+        "range": "B45",
+        "type": "string",
+        "value": "(All)"
+      },
+      {
+        "range": "D47",
+        "type": "string",
+        "value": "Sum of Downgrade"
+      },
+      {
+        "range": "E47",
+        "type": "string",
+        "value": "Sum of Churn"
+      },
+      {
+        "range": "F47",
+        "type": "string",
+        "value": "Sum of Partner"
+      },
+      {
+        "range": "B48:E48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B49:G49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B50:E50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B51:G51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B52:E52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B53:F53",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 140.7,
+      "cells_analyzed": 1531,
+      "total_ranges": 339,
+      "format_counts": {
+        "string": 230,
+        "number": 107,
+        "date": 2
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T19:47:55.787633Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2014-11-01",
+        "pattern": "Monthly series from 2014-11 to 2021-07"
+      },
+      "ds_2": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2018-02-01",
+        "pattern": "Monthly series from 2018-02 to 2022-01"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 31,
+    "entries_moved_to_index": 220,
+    "entries_remaining": 119,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 16682,
+    "compressed_size_bytes": 8831,
+    "inverted_index_size_bytes": 2517,
+    "compressed_data_size_bytes": 6314,
+    "compression_ratio": 0.529,
+    "space_saved_bytes": 7851,
+    "space_saved_percent": 47.1
+  }
+}

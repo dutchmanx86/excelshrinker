@@ -1,0 +1,171 @@
+{
+  "inverted_index": {
+    "Financial": {
+      "type": "string",
+      "ranges": [
+        "B4",
+        "B6"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "LN",
+    "format_ranges": [
+      {
+        "range": "D1",
+        "type": "string",
+        "value": "2017-2 Feb"
+      },
+      {
+        "range": "E1",
+        "type": "string",
+        "value": "2017-3 Mar"
+      },
+      {
+        "range": "F1",
+        "type": "string",
+        "value": "2017-4 Apr"
+      },
+      {
+        "range": "G1",
+        "type": "string",
+        "value": "2017-5 May"
+      },
+      {
+        "range": "H1",
+        "type": "string",
+        "value": "2017-6 June"
+      },
+      {
+        "range": "I1",
+        "type": "string",
+        "value": "2017-7 July"
+      },
+      {
+        "range": "J1",
+        "type": "string",
+        "value": "2017-8 Aug"
+      },
+      {
+        "range": "K1",
+        "type": "string",
+        "value": "2017-9 Sept"
+      },
+      {
+        "range": "L1",
+        "type": "string",
+        "value": "2017-10 Oct"
+      },
+      {
+        "range": "M1",
+        "type": "string",
+        "value": "2017-11 Nov"
+      },
+      {
+        "range": "N1",
+        "type": "string",
+        "value": "2017-12 Dec"
+      },
+      {
+        "range": "O1",
+        "type": "string",
+        "value": "2018-1"
+      },
+      {
+        "range": "P1",
+        "type": "string",
+        "value": "2018-2"
+      },
+      {
+        "range": "Q1",
+        "type": "string",
+        "value": "2018-3"
+      },
+      {
+        "range": "R1",
+        "type": "string",
+        "value": "2018-4"
+      },
+      {
+        "range": "S1",
+        "type": "string",
+        "value": "2018-5"
+      },
+      {
+        "range": "T1",
+        "type": "string",
+        "value": "2018-6"
+      },
+      {
+        "range": "C3:T3",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "C4:T4",
+        "type": "number"
+      },
+      {
+        "range": "B5",
+        "type": "string",
+        "value": "Corporate"
+      },
+      {
+        "range": "C5:T5",
+        "type": "number"
+      },
+      {
+        "range": "C6:T6",
+        "type": "number"
+      },
+      {
+        "range": "B7",
+        "type": "string",
+        "value": "Other"
+      },
+      {
+        "range": "C7:T7",
+        "type": "number"
+      },
+      {
+        "range": "C9:T9",
+        "type": "number"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 2427.88,
+      "cells_analyzed": 129,
+      "total_ranges": 27,
+      "format_counts": {
+        "string": 21,
+        "date": 1,
+        "number": 5
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T11:03:43.455329Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2017-01-31",
+        "pattern": "Monthly series from 2017-01 to 2018-06"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 1,
+    "entries_moved_to_index": 2,
+    "entries_remaining": 25,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 1694,
+    "compressed_size_bytes": 1644,
+    "inverted_index_size_bytes": 52,
+    "compressed_data_size_bytes": 1592,
+    "compression_ratio": 0.97,
+    "space_saved_bytes": 50,
+    "space_saved_percent": 3.0
+  }
+}

@@ -1,0 +1,344 @@
+{
+  "inverted_index": {
+    "Jan": {
+      "type": "string",
+      "ranges": [
+        "C5",
+        "O5",
+        "AA5",
+        "AM5"
+      ]
+    },
+    "Feb": {
+      "type": "string",
+      "ranges": [
+        "D5",
+        "P5",
+        "AB5",
+        "AN5"
+      ]
+    },
+    "Mar": {
+      "type": "string",
+      "ranges": [
+        "E5",
+        "Q5",
+        "AC5",
+        "AO5"
+      ]
+    },
+    "Apr": {
+      "type": "string",
+      "ranges": [
+        "F5",
+        "R5",
+        "AD5",
+        "AP5"
+      ]
+    },
+    "May": {
+      "type": "string",
+      "ranges": [
+        "G5",
+        "S5",
+        "AE5",
+        "AQ5"
+      ]
+    },
+    "Jun": {
+      "type": "string",
+      "ranges": [
+        "H5",
+        "T5",
+        "AF5",
+        "AR5"
+      ]
+    },
+    "Jul": {
+      "type": "string",
+      "ranges": [
+        "I5",
+        "U5",
+        "AG5",
+        "AS5"
+      ]
+    },
+    "Aug": {
+      "type": "string",
+      "ranges": [
+        "J5",
+        "V5",
+        "AH5",
+        "AT5"
+      ]
+    },
+    "Sep": {
+      "type": "string",
+      "ranges": [
+        "K5",
+        "W5",
+        "AI5",
+        "AU5"
+      ]
+    },
+    "Oct": {
+      "type": "string",
+      "ranges": [
+        "L5",
+        "X5",
+        "AJ5"
+      ]
+    },
+    "Nov": {
+      "type": "string",
+      "ranges": [
+        "M5",
+        "Y5",
+        "AK5"
+      ]
+    },
+    "Dec": {
+      "type": "string",
+      "ranges": [
+        "N5",
+        "Z5",
+        "AL5"
+      ]
+    },
+    "Financial": {
+      "type": "string",
+      "ranges": [
+        "A6",
+        "A9"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Revenue by Client",
+    "format_ranges": [
+      {
+        "range": "A3",
+        "type": "string",
+        "value": "Sum of Current Rev"
+      },
+      {
+        "range": "B3",
+        "type": "string",
+        "value": "Column Labels"
+      },
+      {
+        "range": "B4",
+        "type": "string",
+        "value": "<1/1/2015"
+      },
+      {
+        "range": "C4",
+        "type": "string",
+        "value": "2015"
+      },
+      {
+        "range": "O4",
+        "type": "string",
+        "value": "2016"
+      },
+      {
+        "range": "AA4",
+        "type": "string",
+        "value": "2017"
+      },
+      {
+        "range": "A5",
+        "type": "string",
+        "value": "Row Labels"
+      },
+      {
+        "range": "C6:Z6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB6:AG6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AH6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AI6:BT6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A7",
+        "type": "string",
+        "value": "Corporate"
+      },
+      {
+        "range": "C7:BT7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A8",
+        "type": "string",
+        "value": "Other"
+      },
+      {
+        "range": "C8:BT8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C9:AR9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A10",
+        "type": "string",
+        "value": "(blank)"
+      },
+      {
+        "range": "A11",
+        "type": "string",
+        "value": "Grand Total"
+      },
+      {
+        "range": "C11:BD11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BE11:BI11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BJ11",
+        "type": "number"
+      },
+      {
+        "range": "BK11:BU11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O13:Z13",
+        "type": "number"
+      },
+      {
+        "range": "BG13",
+        "type": "number"
+      },
+      {
+        "range": "BG14",
+        "type": "number"
+      },
+      {
+        "range": "AM15:BJ16",
+        "type": "number"
+      },
+      {
+        "range": "Y17",
+        "type": "string",
+        "value": "Income Statement"
+      },
+      {
+        "range": "AM17:BJ17",
+        "type": "number"
+      },
+      {
+        "range": "AM19:AX19",
+        "type": "number"
+      },
+      {
+        "range": "AY19:BD19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BE19:BG19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BH19:BJ19",
+        "type": "number"
+      },
+      {
+        "range": "AM20:AX20",
+        "type": "number"
+      },
+      {
+        "range": "AY20:BD20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BE20:BG20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BH20:BJ20",
+        "type": "number"
+      },
+      {
+        "range": "AM21:AX21",
+        "type": "number"
+      },
+      {
+        "range": "AY21:BD21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BE21:BG21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BH21:BJ21",
+        "type": "number"
+      },
+      {
+        "range": "AM22:AR22",
+        "type": "number"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 1399.85,
+      "cells_analyzed": 572,
+      "total_ranges": 89,
+      "format_counts": {
+        "string": 59,
+        "number": 30
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T11:04:04.765367Z"
+    }
+  },
+  "compression_stats": {
+    "unique_values": 13,
+    "entries_moved_to_index": 47,
+    "entries_remaining": 42,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 4329,
+    "compressed_size_bytes": 2899,
+    "inverted_index_size_bytes": 718,
+    "compressed_data_size_bytes": 2181,
+    "compression_ratio": 0.67,
+    "space_saved_bytes": 1430,
+    "space_saved_percent": 33.0
+  }
+}

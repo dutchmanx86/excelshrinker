@@ -1,0 +1,52 @@
+{
+  "dataset": "evergreen-asset-acquisition",
+  "created": "2025-09-19",
+  "questions": [
+    {
+      "id": "q1_chassis_breakdown_by_location",
+      "category": "data_retrieval",
+      "question": "Can you give me a breakdown of where the chassis are that are being acquired by location?",
+      "answer": "18,440 chassis with 2,827 in COCP, 232 in DCCP, etc.",
+      "location_notes": {
+        "primary_sources": [
+          {
+            "sheet": "Region Assumptions",
+            "description": "Contains aggregated chassis breakdown by location - this is the only sheet that aggregates them all together"
+          }
+        ],
+        "validation_notes": {
+          "discrepancy_identified": "Aggregation tab shows different totals than individual tabs added up",
+          "methodology_note": "Individual tabs have location details but Region Assumptions is the aggregation source"
+        }
+      }
+    },
+    {
+      "id": "q2_key_deal_assumptions_drivers",
+      "category": "model_logic",
+      "question": "What are the key deal assumptions/primary levers for this transaction?",
+      "answer": "acquisition price per chassis, M&R rates by location, utilization rate, revenue per usage day",
+      "location_notes": {
+        "primary_sources": [
+          {
+            "sheet": "Region Assumptions",
+            "description": "Contains regional deal assumptions and key drivers"
+          },
+          {
+            "sheet": "Deal Summary",
+            "description": "Contains overall deal structure and assumptions"
+          },
+          {
+            "sheet": "TOTAL FFU",
+            "description": "Contains utilization and revenue assumptions"
+          }
+        ],
+        "key_levers": [
+          "acquisition price per chassis",
+          "M&R rates by location",
+          "utilization rate",
+          "revenue per usage day"
+        ]
+      }
+    }
+  ]
+}

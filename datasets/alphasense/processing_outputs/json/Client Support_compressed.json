@@ -1,0 +1,239 @@
+{
+  "inverted_index": {
+    "Financial": {
+      "type": "string",
+      "ranges": [
+        "C4",
+        "C23"
+      ]
+    },
+    "Beginning": {
+      "type": "string",
+      "ranges": [
+        "C5",
+        "C11",
+        "C17"
+      ]
+    },
+    "Added": {
+      "type": "string",
+      "ranges": [
+        "C6",
+        "C12",
+        "C18"
+      ]
+    },
+    "Churn": {
+      "type": "string",
+      "ranges": [
+        "C7",
+        "C13",
+        "C19"
+      ]
+    },
+    "End": {
+      "type": "string",
+      "ranges": [
+        "C8",
+        "C14",
+        "C20"
+      ]
+    },
+    "Other": {
+      "type": "string",
+      "ranges": [
+        "C16",
+        "C25"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Client Support",
+    "format_ranges": [
+      {
+        "range": "C2",
+        "type": "string",
+        "value": "Type"
+      },
+      {
+        "range": "E2:DU2",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "F5",
+        "type": "number"
+      },
+      {
+        "range": "G5:DD5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "DE5:DU5",
+        "type": "number"
+      },
+      {
+        "range": "F6:DD6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "DE6:DU6",
+        "type": "number"
+      },
+      {
+        "range": "F7:DD7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "DE7:DU7",
+        "type": "number"
+      },
+      {
+        "range": "F8:DU8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "DW8:EE8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C10",
+        "type": "string",
+        "value": "Corp"
+      },
+      {
+        "range": "F11",
+        "type": "number"
+      },
+      {
+        "range": "G11:DU11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F12:DU12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F13:DU13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F14:DU14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "DW14:EE14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F17",
+        "type": "number"
+      },
+      {
+        "range": "G17:DU17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F18:DU18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F19:CZ19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "DB19:DU19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F20:DU20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C22",
+        "type": "string",
+        "value": "Churned CARR - Lost Clients"
+      },
+      {
+        "range": "F23:DF23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C24",
+        "type": "string",
+        "value": "Corporate"
+      },
+      {
+        "range": "F24:DF24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F25:DF25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C26",
+        "type": "string",
+        "value": "Total"
+      },
+      {
+        "range": "F26:DF26",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 1485.2,
+      "cells_analyzed": 2028,
+      "total_ranges": 47,
+      "format_counts": {
+        "string": 21,
+        "date": 1,
+        "number": 25
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T11:04:07.098347Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2010-10-01",
+        "pattern": "Monthly series from 2010-10 to 2020-10"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 6,
+    "entries_moved_to_index": 16,
+    "entries_remaining": 31,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 2658,
+    "compressed_size_bytes": 2201,
+    "inverted_index_size_bytes": 320,
+    "compressed_data_size_bytes": 1881,
+    "compression_ratio": 0.828,
+    "space_saved_bytes": 457,
+    "space_saved_percent": 17.2
+  }
+}

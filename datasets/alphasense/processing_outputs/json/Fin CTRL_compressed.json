@@ -1,0 +1,1441 @@
+{
+  "inverted_index": {
+    "Base - $25mm": {
+      "type": "string",
+      "ranges": [
+        "B15",
+        "B22",
+        "B29",
+        "B36",
+        "B43",
+        "B50",
+        "B57",
+        "B64",
+        "B71",
+        "B78",
+        "B85",
+        "B92",
+        "B99",
+        "B106",
+        "B113",
+        "B120",
+        "B127",
+        "B134",
+        "B141",
+        "B148",
+        "B154",
+        "B162",
+        "B168",
+        "B174",
+        "B180",
+        "B186"
+      ]
+    },
+    "Growth - $25mm": {
+      "type": "string",
+      "ranges": [
+        "B16",
+        "B23",
+        "B30",
+        "B37",
+        "B44",
+        "B51",
+        "B58",
+        "B65",
+        "B72",
+        "B79",
+        "B86",
+        "B93",
+        "B100",
+        "B107",
+        "B114",
+        "B121",
+        "B128",
+        "B135",
+        "B142",
+        "B149",
+        "B155",
+        "B163",
+        "B169",
+        "B175",
+        "B181",
+        "B187"
+      ]
+    },
+    "Base - $50mm": {
+      "type": "string",
+      "ranges": [
+        "B17",
+        "B24",
+        "B31",
+        "B38",
+        "B45",
+        "B52",
+        "B59",
+        "B66",
+        "B73",
+        "B80",
+        "B87",
+        "B94",
+        "B101",
+        "B108",
+        "B115",
+        "B122",
+        "B129",
+        "B136",
+        "B143",
+        "B150",
+        "B156",
+        "B164",
+        "B170",
+        "B176",
+        "B182",
+        "B188"
+      ]
+    },
+    "Base - $50mm (R&D)": {
+      "type": "string",
+      "ranges": [
+        "B18",
+        "B25",
+        "B32",
+        "B39",
+        "B46",
+        "B53",
+        "B60",
+        "B67",
+        "B74",
+        "B81",
+        "B88",
+        "B95",
+        "B102",
+        "B109",
+        "B116",
+        "B123",
+        "B130",
+        "B137",
+        "B144",
+        "B151",
+        "B157",
+        "B165",
+        "B171",
+        "B177",
+        "B183",
+        "B189"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Fin CTRL",
+    "format_ranges": [
+      {
+        "range": "B2",
+        "type": "string",
+        "value": "AlphaSense, Inc."
+      },
+      {
+        "range": "B3",
+        "type": "string",
+        "value": "Financial Statements CTRL"
+      },
+      {
+        "range": "B4",
+        "type": "string",
+        "value": "1 - Base - $25mm"
+      },
+      {
+        "range": "B7",
+        "type": "string",
+        "value": "Year"
+      },
+      {
+        "range": "E7:Q7",
+        "type": "number"
+      },
+      {
+        "range": "T7:FS7",
+        "type": "number"
+      },
+      {
+        "range": "E7:Q7",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "T7:FS7",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "B8",
+        "type": "string",
+        "value": "Month"
+      },
+      {
+        "range": "T8:FS8",
+        "type": "number"
+      },
+      {
+        "range": "E9:H9",
+        "type": "number"
+      },
+      {
+        "range": "I9:Q9",
+        "type": "number"
+      },
+      {
+        "range": "T9:FS9",
+        "type": "date",
+        "date_series_id": "ds_3"
+      },
+      {
+        "range": "A12",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B12",
+        "type": "string",
+        "value": "Balance Sheet Support"
+      },
+      {
+        "range": "A14",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B14",
+        "type": "string",
+        "value": "Days Sales Outstanding"
+      },
+      {
+        "range": "E14:Q14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T14:FS14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J15:Q15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX15:CA15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J16:Q16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX16:CA16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J17:Q17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX17:CA17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J18:Q18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX18:CA18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A21",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B21",
+        "type": "string",
+        "value": "Prepaid Expenses (Monthly % of Operating Expenses)"
+      },
+      {
+        "range": "I21:Q21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T21:BW21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX21:FS21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I22:Q22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I23:Q23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I24:Q24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I25:Q25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A28",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B28",
+        "type": "string",
+        "value": "Capital Expenditures - % of Revenue"
+      },
+      {
+        "range": "I28:Q28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T28:BW28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX28:FS28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I29:Q29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I30:Q30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I31:Q31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I32:Q32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A35",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B35",
+        "type": "string",
+        "value": "Accounts Payable Days Payable Outstanding"
+      },
+      {
+        "range": "E35:Q35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T35:FS35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I36:Q36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I37:Q37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I38:Q38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I39:Q39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A42",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B42",
+        "type": "string",
+        "value": "Commissions Payable - % of ARR"
+      },
+      {
+        "range": "BX42:FS42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX43:FS43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX44:FS44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX45:FS45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX46:FS46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A49",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B49",
+        "type": "string",
+        "value": "Accrued Expenses Days Payable Outstanding"
+      },
+      {
+        "range": "E49:Q49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T49:FS49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I50:Q50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I51:Q51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I52:Q52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I53:Q53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A56",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B56",
+        "type": "string",
+        "value": "Accrued Commissions - % of ARR"
+      },
+      {
+        "range": "I56:Q56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX56:FS56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I57:Q57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I58:Q58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I59:Q59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I60:Q60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A63",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B63",
+        "type": "string",
+        "value": "Accrued Wages - % Growth"
+      },
+      {
+        "range": "E63",
+        "type": "string",
+        "value": "na"
+      },
+      {
+        "range": "F63:H63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I63:Q63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T63",
+        "type": "string",
+        "value": "na"
+      },
+      {
+        "range": "U63:BW63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CB63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CN63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CZ63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "DL63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "DX63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "EJ63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "EV63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "FH63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I64:Q64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I65:Q65",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I66:Q66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I67:Q67",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A70",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B70",
+        "type": "string",
+        "value": "Accrued Holiday Pay - % of Wages"
+      },
+      {
+        "range": "H70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I70:Q70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T70:BW70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX70:FS70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I71:Q71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I72:Q72",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I73:Q73",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I74:Q74",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A77",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B77",
+        "type": "string",
+        "value": "Accrued Interest - % Growth"
+      },
+      {
+        "range": "I77:Q77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CB77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CN77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CZ77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "DL77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "DX77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "EJ77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "EV77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "FH77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I78:Q78",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I79:Q79",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I80:Q80",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I81:Q81",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A84",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B84",
+        "type": "string",
+        "value": "Payroll Taxes Payable - % Growth"
+      },
+      {
+        "range": "E84",
+        "type": "string",
+        "value": "na"
+      },
+      {
+        "range": "F84:H84",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I84:Q84",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T84",
+        "type": "string",
+        "value": "na"
+      },
+      {
+        "range": "U84:BW84",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CB84",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CN84",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CZ84",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "DL84",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "DX84",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "EJ84",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "EV84",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "FH84",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I85:Q85",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I86:Q86",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I87:Q87",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I88:Q88",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A91",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B91",
+        "type": "string",
+        "value": "Sales Taxes Payable - % of Revenue"
+      },
+      {
+        "range": "E91:H91",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I91:Q91",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T91:BW91",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX91:FS91",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I92:Q92",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I93:Q93",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I94:Q94",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I95:Q95",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A98",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B98",
+        "type": "string",
+        "value": "Deferred Commissions Growth"
+      },
+      {
+        "range": "I98:Q98",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX98:FS98",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I99:Q99",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I100:Q100",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I101:Q101",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I102:Q102",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A105",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B105",
+        "type": "string",
+        "value": "Tekes - 14887"
+      },
+      {
+        "range": "E105:Q105",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T105:FS105",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX106:FS106",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX107:FS107",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX108:FS108",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX109:FS109",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A112",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B112",
+        "type": "string",
+        "value": "Tekes - 15118"
+      },
+      {
+        "range": "E112:Q112",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T112:FS112",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX113:FS113",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX114:FS114",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX115:FS115",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX116:FS116",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A119",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B119",
+        "type": "string",
+        "value": "Tekes - 14560"
+      },
+      {
+        "range": "E119:Q119",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T119:FS119",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX120:FS120",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX121:FS121",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX122:FS122",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX123:FS123",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A126",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B126",
+        "type": "string",
+        "value": "Tekes - 14223 "
+      },
+      {
+        "range": "E126:Q126",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T126:FS126",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX127:FS127",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX128:FS128",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX129:FS129",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX130:FS130",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A133",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B133",
+        "type": "string",
+        "value": "Tekes - 15543"
+      },
+      {
+        "range": "E133:Q133",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T133:FS133",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX134:FS134",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX135:FS135",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX136:FS136",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX137:FS137",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A140",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B140",
+        "type": "string",
+        "value": "Interest Rate"
+      },
+      {
+        "range": "I140:Q140",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T140:BW140",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX140:FS140",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I141:Q141",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I142:Q142",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I143:Q143",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I144:Q144",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A147",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B147",
+        "type": "string",
+        "value": "Interest Rate - Admin Fee"
+      },
+      {
+        "range": "I147:Q147",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T147:FS147",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I148:Q148",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I149:Q149",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I150:Q150",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I151:Q151",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B153",
+        "type": "string",
+        "value": "Interest Rate on Cash Account"
+      },
+      {
+        "range": "I153",
+        "type": "number"
+      },
+      {
+        "range": "T153:FS153",
+        "type": "number"
+      },
+      {
+        "range": "B159",
+        "type": "string",
+        "value": "Percent of Cash in Account"
+      },
+      {
+        "range": "I159",
+        "type": "number"
+      },
+      {
+        "range": "T159:FS159",
+        "type": "number"
+      },
+      {
+        "range": "A161",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B161",
+        "type": "string",
+        "value": "Effective Commission Rate"
+      },
+      {
+        "range": "E161:Q161",
+        "type": "number"
+      },
+      {
+        "range": "T161:FS161",
+        "type": "number"
+      },
+      {
+        "range": "E162:Q162",
+        "type": "number"
+      },
+      {
+        "range": "E163:Q163",
+        "type": "number"
+      },
+      {
+        "range": "E164:Q164",
+        "type": "number"
+      },
+      {
+        "range": "E165:Q165",
+        "type": "number"
+      },
+      {
+        "range": "A167",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B167",
+        "type": "string",
+        "value": "Day Sales Outstanding"
+      },
+      {
+        "range": "I167:Q167",
+        "type": "number"
+      },
+      {
+        "range": "T167:FS167",
+        "type": "number"
+      },
+      {
+        "range": "I168:Q168",
+        "type": "number"
+      },
+      {
+        "range": "I169:Q169",
+        "type": "number"
+      },
+      {
+        "range": "I170:Q170",
+        "type": "number"
+      },
+      {
+        "range": "I171:Q171",
+        "type": "number"
+      },
+      {
+        "range": "A173",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B173",
+        "type": "string",
+        "value": "Credit Card Payable - % of OpEx"
+      },
+      {
+        "range": "E173:Q173",
+        "type": "number"
+      },
+      {
+        "range": "T173:FS173",
+        "type": "number"
+      },
+      {
+        "range": "I174:Q174",
+        "type": "number"
+      },
+      {
+        "range": "I175:Q175",
+        "type": "number"
+      },
+      {
+        "range": "I176:Q176",
+        "type": "number"
+      },
+      {
+        "range": "I177:Q177",
+        "type": "number"
+      },
+      {
+        "range": "A179",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B179",
+        "type": "string",
+        "value": "Target Hit Rate - Accrued Commission"
+      },
+      {
+        "range": "E179:Q179",
+        "type": "number"
+      },
+      {
+        "range": "T179:FS179",
+        "type": "number"
+      },
+      {
+        "range": "I180:Q180",
+        "type": "number"
+      },
+      {
+        "range": "I181:Q181",
+        "type": "number"
+      },
+      {
+        "range": "I182:Q182",
+        "type": "number"
+      },
+      {
+        "range": "I183:Q183",
+        "type": "number"
+      },
+      {
+        "range": "A185",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B185",
+        "type": "string",
+        "value": "LIBOR"
+      },
+      {
+        "range": "E185:Q185",
+        "type": "number"
+      },
+      {
+        "range": "T185:FS185",
+        "type": "number"
+      },
+      {
+        "range": "J186:Q186",
+        "type": "number"
+      },
+      {
+        "range": "J187:Q187",
+        "type": "number"
+      },
+      {
+        "range": "J188:Q188",
+        "type": "number"
+      },
+      {
+        "range": "J189:Q189",
+        "type": "number"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 7035.23,
+      "cells_analyzed": 7756,
+      "total_ranges": 364,
+      "format_counts": {
+        "string": 167,
+        "number": 194,
+        "date": 3
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T10:59:43.942123Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "annual",
+        "increment": "1 year",
+        "start_date": "2015-01-01",
+        "pattern": "Annual series from 2015 to 2027"
+      },
+      "ds_2": {
+        "series_type": "repeating_annual",
+        "increment": "12 months (annual)",
+        "start_date": "2015-01-01",
+        "pattern": "Annual values repeating 12 times from 2015 to 2027"
+      },
+      "ds_3": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2015-01-31",
+        "pattern": "Monthly series from 2015-01 to 2027-12"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 4,
+    "entries_moved_to_index": 104,
+    "entries_remaining": 260,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 19566,
+    "compressed_size_bytes": 14447,
+    "inverted_index_size_bytes": 864,
+    "compressed_data_size_bytes": 13583,
+    "compression_ratio": 0.738,
+    "space_saved_bytes": 5119,
+    "space_saved_percent": 26.2
+  }
+}

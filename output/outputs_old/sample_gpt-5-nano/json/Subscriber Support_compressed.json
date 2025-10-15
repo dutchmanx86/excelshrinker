@@ -1,0 +1,287 @@
+{
+  "inverted_index": {
+    "Beginning": {
+      "type": "string",
+      "ranges": [
+        "A4",
+        "A10",
+        "A16"
+      ]
+    },
+    "Added": {
+      "type": "string",
+      "ranges": [
+        "A5",
+        "A11",
+        "A17"
+      ]
+    },
+    "Churn": {
+      "type": "string",
+      "ranges": [
+        "A6",
+        "A12",
+        "A18"
+      ]
+    },
+    "End": {
+      "type": "string",
+      "ranges": [
+        "A7",
+        "A13",
+        "A19"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Subscriber Support",
+    "format_ranges": [
+      {
+        "range": "A1",
+        "type": "string",
+        "value": "Type"
+      },
+      {
+        "range": "C1:DQ1",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "A3",
+        "type": "string",
+        "value": "Financial"
+      },
+      {
+        "range": "D4",
+        "type": "number"
+      },
+      {
+        "range": "E4:CN4",
+        "type": "number"
+      },
+      {
+        "range": "CO4:DA4",
+        "type": "number"
+      },
+      {
+        "range": "DB4",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "DC4:DQ4",
+        "type": "number"
+      },
+      {
+        "range": "D5:E5",
+        "type": "number"
+      },
+      {
+        "range": "F5:DQ5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D6",
+        "type": "number"
+      },
+      {
+        "range": "E6:CZ6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "DA6:DQ6",
+        "type": "number"
+      },
+      {
+        "range": "C7:D7",
+        "type": "number"
+      },
+      {
+        "range": "E7:DQ7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "DS7:DT7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "DU7:EA7",
+        "type": "number"
+      },
+      {
+        "range": "A9",
+        "type": "string",
+        "value": "Corp"
+      },
+      {
+        "range": "D10",
+        "type": "number"
+      },
+      {
+        "range": "E10:CY10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CZ10:DQ10",
+        "type": "number"
+      },
+      {
+        "range": "D11:E11",
+        "type": "number"
+      },
+      {
+        "range": "F11:DQ11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D12",
+        "type": "number"
+      },
+      {
+        "range": "E12:CZ12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "DA12:DQ12",
+        "type": "number"
+      },
+      {
+        "range": "C13:D13",
+        "type": "number"
+      },
+      {
+        "range": "E13:DQ13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "DS13:DT13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "DU13:EA13",
+        "type": "number"
+      },
+      {
+        "range": "A15",
+        "type": "string",
+        "value": "Other"
+      },
+      {
+        "range": "D16",
+        "type": "number"
+      },
+      {
+        "range": "E16:CY16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CZ16:DQ16",
+        "type": "number"
+      },
+      {
+        "range": "D17:E17",
+        "type": "number"
+      },
+      {
+        "range": "F17:DQ17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D18",
+        "type": "number"
+      },
+      {
+        "range": "E18:CZ18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "DA18:DQ18",
+        "type": "number"
+      },
+      {
+        "range": "C19:D19",
+        "type": "number"
+      },
+      {
+        "range": "E19:DQ19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CK24",
+        "type": "string",
+        "value": "Total"
+      },
+      {
+        "range": "CL24:CW24",
+        "type": "number"
+      },
+      {
+        "range": "A25",
+        "type": "string",
+        "value": "Soros / Cap Group - Internal Content"
+      },
+      {
+        "range": "CK25",
+        "type": "string",
+        "value": "Admin"
+      },
+      {
+        "range": "CL25:CM25",
+        "type": "number"
+      },
+      {
+        "range": "CN25:CW25",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 2397.08,
+      "cells_analyzed": 1608,
+      "total_ranges": 59,
+      "format_counts": {
+        "string": 19,
+        "date": 1,
+        "number": 39
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-14T01:55:43.105779Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2010-10-01",
+        "pattern": "Monthly series from 2010-10 to 2020-08"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 4,
+    "entries_moved_to_index": 12,
+    "entries_remaining": 47,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 3010,
+    "compressed_size_bytes": 2651,
+    "inverted_index_size_bytes": 219,
+    "compressed_data_size_bytes": 2432,
+    "compression_ratio": 0.881,
+    "space_saved_bytes": 359,
+    "space_saved_percent": 11.9
+  }
+}

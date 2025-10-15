@@ -1,0 +1,807 @@
+{
+  "inverted_index": {
+    "CYE December 31": {
+      "type": "string",
+      "ranges": [
+        "B5",
+        "AC7"
+      ]
+    },
+    "CAGR": {
+      "type": "string",
+      "ranges": [
+        "AJ7:AK7"
+      ]
+    },
+    "Q1A": {
+      "type": "string",
+      "ranges": [
+        "D8",
+        "H8",
+        "L8",
+        "P8",
+        "T8",
+        "X8"
+      ]
+    },
+    "Q2A": {
+      "type": "string",
+      "ranges": [
+        "E8",
+        "I8",
+        "M8",
+        "Q8",
+        "U8",
+        "Y8"
+      ]
+    },
+    "Q3A": {
+      "type": "string",
+      "ranges": [
+        "F8",
+        "J8",
+        "N8",
+        "R8"
+      ]
+    },
+    "Q4A": {
+      "type": "string",
+      "ranges": [
+        "G8",
+        "K8",
+        "O8"
+      ]
+    },
+    "Q4E": {
+      "type": "string",
+      "ranges": [
+        "S8",
+        "W8",
+        "AA8"
+      ]
+    },
+    "Q3E": {
+      "type": "string",
+      "ranges": [
+        "V8",
+        "Z8"
+      ]
+    },
+    "y/y growth": {
+      "type": "string",
+      "ranges": [
+        "B11",
+        "B16"
+      ]
+    },
+    "Revenue": {
+      "type": "string",
+      "ranges": [
+        "B13:B14"
+      ]
+    },
+    "% margin": {
+      "type": "string",
+      "ranges": [
+        "B24",
+        "B40",
+        "B46"
+      ]
+    },
+    "% revenue": {
+      "type": "string",
+      "ranges": [
+        "B28",
+        "B30",
+        "B32",
+        "B34"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Functional P&L",
+    "format_ranges": [
+      {
+        "range": "B2",
+        "type": "string",
+        "value": "LogRocket"
+      },
+      {
+        "range": "B3",
+        "type": "string",
+        "value": "Functional P&L"
+      },
+      {
+        "range": "B4",
+        "type": "string",
+        "value": "$ in 000s"
+      },
+      {
+        "range": "D7",
+        "type": "string",
+        "value": "CY2018A"
+      },
+      {
+        "range": "H7",
+        "type": "string",
+        "value": "CY2019A"
+      },
+      {
+        "range": "L7",
+        "type": "string",
+        "value": "CY2020A"
+      },
+      {
+        "range": "P7",
+        "type": "string",
+        "value": "CY2021E"
+      },
+      {
+        "range": "T7",
+        "type": "string",
+        "value": "CY2022E"
+      },
+      {
+        "range": "X7",
+        "type": "string",
+        "value": "CY2023E"
+      },
+      {
+        "range": "AC8",
+        "type": "string",
+        "value": "2018A"
+      },
+      {
+        "range": "AD8",
+        "type": "string",
+        "value": "2019A"
+      },
+      {
+        "range": "AE8",
+        "type": "string",
+        "value": "2020A"
+      },
+      {
+        "range": "AF8",
+        "type": "string",
+        "value": "2021E"
+      },
+      {
+        "range": "AG8",
+        "type": "string",
+        "value": "2022E"
+      },
+      {
+        "range": "AH8",
+        "type": "string",
+        "value": "2023E"
+      },
+      {
+        "range": "AJ8",
+        "type": "string",
+        "value": "2018A-2020A"
+      },
+      {
+        "range": "AK8",
+        "type": "string",
+        "value": "2020A-2023E"
+      },
+      {
+        "range": "B10",
+        "type": "string",
+        "value": "Ending ARR"
+      },
+      {
+        "range": "D10:AA10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC10:AH10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AJ10:AK10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D11",
+        "type": "string",
+        "value": "-"
+      },
+      {
+        "range": "E11",
+        "type": "string",
+        "value": "-"
+      },
+      {
+        "range": "F11",
+        "type": "string",
+        "value": "-"
+      },
+      {
+        "range": "G11",
+        "type": "string",
+        "value": "-"
+      },
+      {
+        "range": "H11:AA11",
+        "type": "number"
+      },
+      {
+        "range": "AC11",
+        "type": "string",
+        "value": "-"
+      },
+      {
+        "range": "AD11:AH11",
+        "type": "number"
+      },
+      {
+        "range": "D14:AA14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC14:AH14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B15",
+        "type": "string",
+        "value": "Total Revenue"
+      },
+      {
+        "range": "D15:AA15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC15:AH15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AJ15:AK15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D16",
+        "type": "string",
+        "value": "-"
+      },
+      {
+        "range": "E16",
+        "type": "string",
+        "value": "-"
+      },
+      {
+        "range": "F16",
+        "type": "string",
+        "value": "-"
+      },
+      {
+        "range": "G16",
+        "type": "string",
+        "value": "-"
+      },
+      {
+        "range": "H16:AA16",
+        "type": "number"
+      },
+      {
+        "range": "AC16",
+        "type": "string",
+        "value": "-"
+      },
+      {
+        "range": "AD16:AH16",
+        "type": "number"
+      },
+      {
+        "range": "B18",
+        "type": "string",
+        "value": "COS"
+      },
+      {
+        "range": "B19",
+        "type": "string",
+        "value": "Credit Card Fees"
+      },
+      {
+        "range": "D19:AA19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC19:AH19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AJ19:AK19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B20",
+        "type": "string",
+        "value": "Hosting "
+      },
+      {
+        "range": "D20:AA20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC20:AH20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AJ20:AK20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B21",
+        "type": "string",
+        "value": "Total COGS"
+      },
+      {
+        "range": "D21:AA21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC21:AH21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AJ21:AK21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B23",
+        "type": "string",
+        "value": "Gross Profit"
+      },
+      {
+        "range": "D23:AA23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC23:AH23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AJ23:AK23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D24:AA24",
+        "type": "number"
+      },
+      {
+        "range": "AC24:AH24",
+        "type": "number"
+      },
+      {
+        "range": "B26",
+        "type": "string",
+        "value": "Operating Expenses"
+      },
+      {
+        "range": "B27",
+        "type": "string",
+        "value": "Sales & Marketing"
+      },
+      {
+        "range": "D27:AA27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC27:AH27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AJ27:AK27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D28:AA28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC28:AH28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B29",
+        "type": "string",
+        "value": "Research & Development"
+      },
+      {
+        "range": "D29:AA29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC29:AH29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AJ29:AK29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D30:AA30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC30:AH30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B31",
+        "type": "string",
+        "value": "General & Administrative"
+      },
+      {
+        "range": "D31:AA31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC31:AH31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AJ31:AK31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D32:AA32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC32:AH32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B33",
+        "type": "string",
+        "value": "Total Operating Expenses"
+      },
+      {
+        "range": "D33:AA33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC33:AH33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AJ33:AK33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D34:AA34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC34:AH34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B36",
+        "type": "string",
+        "value": "Stock Compensation"
+      },
+      {
+        "range": "D36:V36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "W36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X36:Z36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC36:AE36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF36:AH36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B37",
+        "type": "string",
+        "value": "Transaction Expense Add Back"
+      },
+      {
+        "range": "D37:V37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "W37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "X37:Z37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC37:AE37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF37:AH37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B39",
+        "type": "string",
+        "value": "EBITDA"
+      },
+      {
+        "range": "D39:AA39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC39:AH39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AJ39:AK39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D40:AA40",
+        "type": "number"
+      },
+      {
+        "range": "AC40:AH40",
+        "type": "number"
+      },
+      {
+        "range": "B42",
+        "type": "string",
+        "value": "Change in Deferred Revenue"
+      },
+      {
+        "range": "L42:AA42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE42:AH42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AJ42",
+        "type": "string",
+        "value": "-"
+      },
+      {
+        "range": "AK42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B43",
+        "type": "string",
+        "value": "% of Change in ARR"
+      },
+      {
+        "range": "L43:S43",
+        "type": "number"
+      },
+      {
+        "range": "T43:AA43",
+        "type": "number"
+      },
+      {
+        "range": "AE43:AH43",
+        "type": "number"
+      },
+      {
+        "range": "B45",
+        "type": "string",
+        "value": "Cash EBITDA - Change in Deferred Revenue"
+      },
+      {
+        "range": "D45:AA45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC45:AH45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AJ45:AK45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D46:AA46",
+        "type": "number"
+      },
+      {
+        "range": "AC46:AH46",
+        "type": "number"
+      },
+      {
+        "range": "B48",
+        "type": "string",
+        "value": "D&A"
+      },
+      {
+        "range": "D48:AA48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC48:AH48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B49",
+        "type": "string",
+        "value": "% ARR"
+      },
+      {
+        "range": "L49:AA49",
+        "type": "number"
+      },
+      {
+        "range": "AC49:AE49",
+        "type": "number"
+      },
+      {
+        "range": "AF49:AH49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B51",
+        "type": "string",
+        "value": "EBIT"
+      },
+      {
+        "range": "D51:AA51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC51:AH51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AJ51:AK51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B53",
+        "type": "string",
+        "value": "Interest Income"
+      },
+      {
+        "range": "D53:AA53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC53:AH53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B55",
+        "type": "string",
+        "value": "Net Profit"
+      },
+      {
+        "range": "D55:AA55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AC55:AH55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AJ55:AK55",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 62.38,
+      "cells_analyzed": 1011,
+      "total_ranges": 177,
+      "format_counts": {
+        "string": 90,
+        "number": 87
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T19:46:00.305151Z"
+    }
+  },
+  "compression_stats": {
+    "unique_values": 12,
+    "entries_moved_to_index": 39,
+    "entries_remaining": 138,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 8953,
+    "compressed_size_bytes": 7758,
+    "inverted_index_size_bytes": 662,
+    "compressed_data_size_bytes": 7096,
+    "compression_ratio": 0.867,
+    "space_saved_bytes": 1195,
+    "space_saved_percent": 13.3
+  }
+}

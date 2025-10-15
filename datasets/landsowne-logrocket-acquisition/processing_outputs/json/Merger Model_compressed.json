@@ -1,0 +1,3284 @@
+{
+  "inverted_index": {
+    "($ in mm)": {
+      "type": "string",
+      "ranges": [
+        "D5",
+        "D50",
+        "D91",
+        "D179"
+      ]
+    },
+    "Multiple": {
+      "type": "string",
+      "ranges": [
+        "D14",
+        "D193",
+        "D219",
+        "G241",
+        "G250",
+        "G259"
+      ]
+    },
+    "Enterprise Value": {
+      "type": "string",
+      "ranges": [
+        "D15",
+        "D194",
+        "D220"
+      ]
+    },
+    "Equity Value": {
+      "type": "string",
+      "ranges": [
+        "D18",
+        "D196",
+        "D222"
+      ]
+    },
+    "At Close": {
+      "type": "string",
+      "ranges": [
+        "F21",
+        "F35"
+      ]
+    },
+    "Total": {
+      "type": "string",
+      "ranges": [
+        "K21",
+        "D26"
+      ]
+    },
+    "$ Amt": {
+      "type": "string",
+      "ranges": [
+        "H31",
+        "H41"
+      ]
+    },
+    "Historical FYE Jan. 31,": {
+      "type": "string",
+      "ranges": [
+        "G49",
+        "G90",
+        "G178"
+      ]
+    },
+    "Forecast Fiscal Year Ending Jan. 31,": {
+      "type": "string",
+      "ranges": [
+        "J49",
+        "J90",
+        "J178"
+      ]
+    },
+    "ARR": {
+      "type": "string",
+      "ranges": [
+        "D52",
+        "G240",
+        "G249",
+        "G258"
+      ]
+    },
+    "Pendo": {
+      "type": "string",
+      "ranges": [
+        "D53",
+        "D129"
+      ]
+    },
+    "BOP ARR": {
+      "type": "string",
+      "ranges": [
+        "D54",
+        "D62"
+      ]
+    },
+    "New Customer ARR": {
+      "type": "string",
+      "ranges": [
+        "D55",
+        "D63"
+      ]
+    },
+    "Expansion ARR": {
+      "type": "string",
+      "ranges": [
+        "D56",
+        "D64"
+      ]
+    },
+    "Churn": {
+      "type": "string",
+      "ranges": [
+        "D57",
+        "D65",
+        "D68",
+        "D74",
+        "D81"
+      ]
+    },
+    "YoY Growth": {
+      "type": "string",
+      "ranges": [
+        "D59",
+        "D67",
+        "D83",
+        "D101",
+        "D104"
+      ]
+    },
+    "Synergies": {
+      "type": "string",
+      "ranges": [
+        "D70",
+        "D96"
+      ]
+    },
+    "Total BOP ARR": {
+      "type": "string",
+      "ranges": [
+        "D71",
+        "D78"
+      ]
+    },
+    "Initial Sale": {
+      "type": "string",
+      "ranges": [
+        "D72",
+        "D79"
+      ]
+    },
+    "Expansion": {
+      "type": "string",
+      "ranges": [
+        "D73",
+        "D80"
+      ]
+    },
+    "Pendo Standalone": {
+      "type": "string",
+      "ranges": [
+        "D86",
+        "D180"
+      ]
+    },
+    "Other": {
+      "type": "string",
+      "ranges": [
+        "D99",
+        "D281"
+      ]
+    },
+    "Total Subscription GP": {
+      "type": "string",
+      "ranges": [
+        "D121",
+        "D124"
+      ]
+    },
+    "PS & Other GP": {
+      "type": "string",
+      "ranges": [
+        "D122",
+        "D125"
+      ]
+    },
+    "Total Gross Profit": {
+      "type": "string",
+      "ranges": [
+        "D123",
+        "D126"
+      ]
+    },
+    "Sales & Marketing": {
+      "type": "string",
+      "ranges": [
+        "D130",
+        "D137",
+        "D149",
+        "D156"
+      ]
+    },
+    "ASC 606 Adjustment": {
+      "type": "string",
+      "ranges": [
+        "D131",
+        "D138",
+        "D150",
+        "D157"
+      ]
+    },
+    "R&D": {
+      "type": "string",
+      "ranges": [
+        "D132",
+        "D139",
+        "D151",
+        "D158",
+        "D308"
+      ]
+    },
+    "G&A": {
+      "type": "string",
+      "ranges": [
+        "D133",
+        "D140",
+        "D152",
+        "D159",
+        "D310"
+      ]
+    },
+    "Total LR Synergies OpEx": {
+      "type": "string",
+      "ranges": [
+        "D153",
+        "D160"
+      ]
+    },
+    "Metrics": {
+      "type": "string",
+      "ranges": [
+        "D166",
+        "D263"
+      ]
+    },
+    "Cash BOP": {
+      "type": "string",
+      "ranges": [
+        "D181",
+        "D206"
+      ]
+    },
+    "Other Non-Recurring": {
+      "type": "string",
+      "ranges": [
+        "D184",
+        "D212"
+      ]
+    },
+    "Equity": {
+      "type": "string",
+      "ranges": [
+        "D185",
+        "D214"
+      ]
+    },
+    "Cash EOP": {
+      "type": "string",
+      "ranges": [
+        "D186",
+        "D215"
+      ]
+    },
+    "Valuation": {
+      "type": "string",
+      "ranges": [
+        "D191",
+        "D217"
+      ]
+    },
+    "EOP Public-Style Implied ARR": {
+      "type": "string",
+      "ranges": [
+        "D192",
+        "D218"
+      ]
+    },
+    "Less: Net Debt": {
+      "type": "string",
+      "ranges": [
+        "D195",
+        "D221"
+      ]
+    },
+    "IPO Primary Shares Issued": {
+      "type": "string",
+      "ranges": [
+        "D199",
+        "D228"
+      ]
+    },
+    "Total Shares Oustanding": {
+      "type": "string",
+      "ranges": [
+        "D200",
+        "D229"
+      ]
+    },
+    "$ / Share": {
+      "type": "string",
+      "ranges": [
+        "D202",
+        "D231"
+      ]
+    },
+    "PF Consolidated ARR Multiple": {
+      "type": "string",
+      "ranges": [
+        "I236",
+        "Q236",
+        "I245",
+        "Q245",
+        "I254"
+      ]
+    },
+    "Standalone": {
+      "type": "string",
+      "ranges": [
+        "G239",
+        "G248",
+        "G257"
+      ]
+    },
+    "FYE": {
+      "type": "string",
+      "ranges": [
+        "O239",
+        "O248",
+        "O257"
+      ]
+    },
+    "January,": {
+      "type": "string",
+      "ranges": [
+        "O240",
+        "O249",
+        "O258"
+      ]
+    },
+    "Headcount": {
+      "type": "string",
+      "ranges": [
+        "D301",
+        "D303"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Merger Model",
+    "format_ranges": [
+      {
+        "range": "A1",
+        "type": "number"
+      },
+      {
+        "range": "A2",
+        "type": "number"
+      },
+      {
+        "range": "M2",
+        "type": "string",
+        "value": "Questions:"
+      },
+      {
+        "range": "D3",
+        "type": "string",
+        "value": "Project Landsowne Merger Model"
+      },
+      {
+        "range": "M3",
+        "type": "string",
+        "value": "Will existing cash be paid out?"
+      },
+      {
+        "range": "M4",
+        "type": "string",
+        "value": "What is the schedule of payout"
+      },
+      {
+        "range": "D7",
+        "type": "string",
+        "value": "Assumptions"
+      },
+      {
+        "range": "D12",
+        "type": "string",
+        "value": "Purchase Price Overview"
+      },
+      {
+        "range": "D13",
+        "type": "string",
+        "value": "CY'21E Revenue / ARR"
+      },
+      {
+        "range": "H13:I13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H14:I14",
+        "type": "number"
+      },
+      {
+        "range": "I15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D16",
+        "type": "string",
+        "value": "Less: Debt"
+      },
+      {
+        "range": "I16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D17",
+        "type": "string",
+        "value": "Plus: Cash"
+      },
+      {
+        "range": "I17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D20",
+        "type": "string",
+        "value": "Consideration Schedule"
+      },
+      {
+        "range": "M20",
+        "type": "string",
+        "value": "Equity Purchase: $180MM"
+      },
+      {
+        "range": "G21",
+        "type": "string",
+        "value": "12 mos."
+      },
+      {
+        "range": "H21",
+        "type": "string",
+        "value": "18 mos."
+      },
+      {
+        "range": "I21",
+        "type": "string",
+        "value": "24 mos. "
+      },
+      {
+        "range": "J21",
+        "type": "string",
+        "value": "36 mos."
+      },
+      {
+        "range": "M21",
+        "type": "string",
+        "value": "Cash:\u00a0$10M to Founders (Collectively) - $2M upon Close; $3M upon completion of tight integration with Pendo platform for Pendo product persona; $5M upon 18 mos."
+      },
+      {
+        "range": "D22",
+        "type": "string",
+        "value": "Cash to Founders"
+      },
+      {
+        "range": "F22:K22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N22:Q22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D23",
+        "type": "string",
+        "value": "Equity to Founders"
+      },
+      {
+        "range": "G23:K23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "P23:Q23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D24",
+        "type": "string",
+        "value": "Cash to Other S/H"
+      },
+      {
+        "range": "K24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D25",
+        "type": "string",
+        "value": "Equity to Other S/H"
+      },
+      {
+        "range": "F25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F26:K26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M26",
+        "type": "string",
+        "value": "Employment\u00a0Agreement:\u00a0\u00a0"
+      },
+      {
+        "range": "D27",
+        "type": "string",
+        "value": "Total Cash"
+      },
+      {
+        "range": "F27:K27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D28",
+        "type": "string",
+        "value": "Total Equity"
+      },
+      {
+        "range": "F28:K28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M29",
+        "type": "string",
+        "value": "Founder would get VP packages and add'l equity"
+      },
+      {
+        "range": "M30",
+        "type": "string",
+        "value": "Key employees would\u00a0get principal packages and add'l equity"
+      },
+      {
+        "range": "D31",
+        "type": "string",
+        "value": "Sources"
+      },
+      {
+        "range": "I31",
+        "type": "string",
+        "value": "%"
+      },
+      {
+        "range": "D32",
+        "type": "string",
+        "value": "Cash from LR B/S"
+      },
+      {
+        "range": "H32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M32",
+        "type": "string",
+        "value": "Non-Tangible Benefits:"
+      },
+      {
+        "range": "D33",
+        "type": "string",
+        "value": "Cash from Pendo B/S"
+      },
+      {
+        "range": "H33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M33",
+        "type": "string",
+        "value": "Matt - main founder will become VP/GM of Session Replay"
+      },
+      {
+        "range": "D34",
+        "type": "string",
+        "value": "Cash Earnout Payments"
+      },
+      {
+        "range": "H34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M34",
+        "type": "string",
+        "value": "Autonomy to\u00a0execute product roadmap, reporting structure to CPO\u00a0"
+      },
+      {
+        "range": "D35",
+        "type": "string",
+        "value": "New Equity"
+      },
+      {
+        "range": "H35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D36",
+        "type": "string",
+        "value": "''"
+      },
+      {
+        "range": "F36",
+        "type": "string",
+        "value": "Year 1"
+      },
+      {
+        "range": "H36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D37",
+        "type": "string",
+        "value": "''"
+      },
+      {
+        "range": "F37",
+        "type": "string",
+        "value": "Year 2"
+      },
+      {
+        "range": "H37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M37",
+        "type": "string",
+        "value": "IPO"
+      },
+      {
+        "range": "D38",
+        "type": "string",
+        "value": "''"
+      },
+      {
+        "range": "F38",
+        "type": "string",
+        "value": "Year 3"
+      },
+      {
+        "range": "H38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "N38",
+        "type": "string",
+        "value": "of shares outstanding"
+      },
+      {
+        "range": "D39",
+        "type": "string",
+        "value": "Total Sources"
+      },
+      {
+        "range": "H39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M39",
+        "type": "number"
+      },
+      {
+        "range": "D41",
+        "type": "string",
+        "value": "Uses"
+      },
+      {
+        "range": "I41",
+        "type": "string",
+        "value": "%"
+      },
+      {
+        "range": "D42",
+        "type": "string",
+        "value": "Cash to B/S"
+      },
+      {
+        "range": "H42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D43",
+        "type": "string",
+        "value": "Equity Purchase Price"
+      },
+      {
+        "range": "H43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D44",
+        "type": "string",
+        "value": "Fees and Expenses"
+      },
+      {
+        "range": "H44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D45",
+        "type": "string",
+        "value": "Total Uses"
+      },
+      {
+        "range": "H45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D47",
+        "type": "string",
+        "value": "(Note: LR financials off by 1 month due to Dec. 31 FYE)"
+      },
+      {
+        "range": "D48",
+        "type": "string",
+        "value": "Financial Summary"
+      },
+      {
+        "range": "Q48:AZ48",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "G50:O50",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "G54:O54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q54:AZ54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G55:O55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q55:AZ55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G56:O56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q56:AZ56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G57:O57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q57:AZ57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D58",
+        "type": "string",
+        "value": "Pendo EOP ARR"
+      },
+      {
+        "range": "G58:O58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q58:AZ58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G59:O59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q59:AZ59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D61",
+        "type": "string",
+        "value": "LogRocket"
+      },
+      {
+        "range": "G62:O62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q62:AZ62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G63:O63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q63:AN63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G64:O64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q64:AN64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G65:O65",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q65:AN65",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AO65:AZ65",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D66",
+        "type": "string",
+        "value": "LR EOP ARR"
+      },
+      {
+        "range": "G66:J66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K66:O66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q66:AN66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AO66:AZ66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H67:O67",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G68:L68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q68:AN68",
+        "type": "number"
+      },
+      {
+        "range": "AO68:AZ68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K71:O71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AG71:AZ71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K72:O72",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AG72:AZ72",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K73:O73",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AG73:AZ73",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K74:O74",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AG74:AZ74",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D75",
+        "type": "string",
+        "value": "Synergy EOP ARR"
+      },
+      {
+        "range": "K75:O75",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AG75:AZ75",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D77",
+        "type": "string",
+        "value": "Consolidated"
+      },
+      {
+        "range": "G78:O78",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q78:AZ78",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G79:O79",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q79:AZ79",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G80:O80",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q80:AZ80",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G81:O81",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q81:AZ81",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D82",
+        "type": "string",
+        "value": "Consolidated EOP ARR"
+      },
+      {
+        "range": "G82:O82",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q82:AZ82",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H83:O83",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D85",
+        "type": "string",
+        "value": "Memo: Public Markets-Style Implied ARR Calculation"
+      },
+      {
+        "range": "I86:O86",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q86:AZ86",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D87",
+        "type": "string",
+        "value": "PF Consolidated"
+      },
+      {
+        "range": "I87:O87",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q87:AZ87",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D89",
+        "type": "string",
+        "value": "GAAP P&L"
+      },
+      {
+        "range": "G91:O91",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "D93",
+        "type": "string",
+        "value": "Revenue"
+      },
+      {
+        "range": "D94",
+        "type": "string",
+        "value": "Pendo Subscription Rev."
+      },
+      {
+        "range": "G94:O94",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q94:AZ94",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D95",
+        "type": "string",
+        "value": "LR Standalone Revenue"
+      },
+      {
+        "range": "G95:O95",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q95:AZ95",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K96:O96",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AG96:AZ96",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D97",
+        "type": "string",
+        "value": "Total Subscription"
+      },
+      {
+        "range": "G97:O97",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q97:AZ97",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D98",
+        "type": "string",
+        "value": "PS"
+      },
+      {
+        "range": "G98:O98",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q98:AZ98",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G99:O99",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q99:AZ99",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D100",
+        "type": "string",
+        "value": "Total Revenue"
+      },
+      {
+        "range": "G100:O100",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q100:AZ100",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H101:O101",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "U101:AZ101",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D103",
+        "type": "string",
+        "value": "Memo: Pendo Standalone Rev."
+      },
+      {
+        "range": "G103:O103",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q103:AZ103",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H104:O104",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "U104:AZ104",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D106",
+        "type": "string",
+        "value": "COGS"
+      },
+      {
+        "range": "D107",
+        "type": "string",
+        "value": "Pendo Subscription COGS"
+      },
+      {
+        "range": "G107:O107",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q107:AZ107",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D108",
+        "type": "string",
+        "value": "LR COGS"
+      },
+      {
+        "range": "G108:O108",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q108:AZ108",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D109",
+        "type": "string",
+        "value": "Synergy COGS"
+      },
+      {
+        "range": "K109:O109",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AG109:AZ109",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D110",
+        "type": "string",
+        "value": "Total Subscription COGS"
+      },
+      {
+        "range": "G110:O110",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q110:AZ110",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D111",
+        "type": "string",
+        "value": "PS COGS"
+      },
+      {
+        "range": "G111:O111",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q111:AZ111",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D112",
+        "type": "string",
+        "value": "Total COGS"
+      },
+      {
+        "range": "G112:O112",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q112:AZ112",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D114",
+        "type": "string",
+        "value": "LR COGS % of Rev"
+      },
+      {
+        "range": "G114:O114",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q114:AZ114",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D117",
+        "type": "string",
+        "value": "Gross Profit"
+      },
+      {
+        "range": "D118",
+        "type": "string",
+        "value": "Pendo Subscription GP"
+      },
+      {
+        "range": "G118:O118",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q118:AZ118",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D119",
+        "type": "string",
+        "value": "LR GP"
+      },
+      {
+        "range": "G119:O119",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q119:AZ119",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D120",
+        "type": "string",
+        "value": "Synergy GP"
+      },
+      {
+        "range": "G120:O120",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q120:AZ120",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G121:O121",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q121:AZ121",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G122:O122",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q122:AZ122",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G123:O123",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q123:AZ123",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G124:O124",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q124:AZ124",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G125:O125",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q125:AZ125",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G126:O126",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q126:AZ126",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B128",
+        "type": "number"
+      },
+      {
+        "range": "D128",
+        "type": "string",
+        "value": "Operating Expenses"
+      },
+      {
+        "range": "G130:O130",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q130:AZ130",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G131:O131",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q131:AZ131",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G132:O132",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q132:AZ132",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G133:O133",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q133:AZ133",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D134",
+        "type": "string",
+        "value": "Total Pendo OpEx"
+      },
+      {
+        "range": "G134:O134",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q134:AZ134",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D136",
+        "type": "string",
+        "value": "Standalone LR OpEx"
+      },
+      {
+        "range": "G137:O137",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q137:AZ137",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G139:O139",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q139:AZ139",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G140:O140",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q140:AZ140",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D141",
+        "type": "string",
+        "value": "Total LR OpEx"
+      },
+      {
+        "range": "G141:O141",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q141:AZ141",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D143",
+        "type": "string",
+        "value": "S&M Growth"
+      },
+      {
+        "range": "H143:O143",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AO143:AZ143",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D144",
+        "type": "string",
+        "value": "R&D Growth"
+      },
+      {
+        "range": "M144:O144",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AO144:AZ144",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D145",
+        "type": "string",
+        "value": "G&A Growth"
+      },
+      {
+        "range": "M145:O145",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AO145:AZ145",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D148",
+        "type": "string",
+        "value": "Synergy LR OpEx"
+      },
+      {
+        "range": "K149:O149",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AG149:AZ149",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K150:O150",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AG150:AZ150",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K151:O151",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AG151:AZ151",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K152:O152",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AG152:AZ152",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K153:O153",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AG153:AZ153",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D155",
+        "type": "string",
+        "value": "Consolidated Opex"
+      },
+      {
+        "range": "G156:O156",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q156:AZ156",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G157:O157",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q157:AZ157",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G158:O158",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q158:AZ158",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G159:O159",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q159:AZ159",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G160:O160",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q160:AZ160",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D162",
+        "type": "string",
+        "value": "Pendo Standalone EBITDA"
+      },
+      {
+        "range": "G162:O162",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q162:AZ162",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D163",
+        "type": "string",
+        "value": "LR + Synergy EBITDA"
+      },
+      {
+        "range": "G163:O163",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q163:AZ163",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D164",
+        "type": "string",
+        "value": "PF Consolidated EBITDA"
+      },
+      {
+        "range": "G164:O164",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q164:AZ164",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D167",
+        "type": "string",
+        "value": "Sub Rev % ARR (per mo)"
+      },
+      {
+        "range": "G167:O167",
+        "type": "number"
+      },
+      {
+        "range": "Q167:AZ167",
+        "type": "number"
+      },
+      {
+        "range": "D168",
+        "type": "string",
+        "value": "PS Rev % PS Bookings"
+      },
+      {
+        "range": "G168:O168",
+        "type": "number"
+      },
+      {
+        "range": "Q168:AZ168",
+        "type": "number"
+      },
+      {
+        "range": "D169",
+        "type": "string",
+        "value": "ASC 606 Adjustment % S&M"
+      },
+      {
+        "range": "G169:O169",
+        "type": "number"
+      },
+      {
+        "range": "Q169:AZ169",
+        "type": "number"
+      },
+      {
+        "range": "D170",
+        "type": "string",
+        "value": "Subscription COGS % Rev"
+      },
+      {
+        "range": "G170:O170",
+        "type": "number"
+      },
+      {
+        "range": "Q170:AZ170",
+        "type": "number"
+      },
+      {
+        "range": "D171",
+        "type": "string",
+        "value": "PS COGS % Rev"
+      },
+      {
+        "range": "G171:O171",
+        "type": "number"
+      },
+      {
+        "range": "Q171:AZ171",
+        "type": "number"
+      },
+      {
+        "range": "D172",
+        "type": "string",
+        "value": "Total Bookings / S&M Excl 606"
+      },
+      {
+        "range": "G172:O172",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q172:AZ172",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D176",
+        "type": "string",
+        "value": "Cash Burn"
+      },
+      {
+        "range": "G179:O179",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "G181:O181",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q181:AZ181",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D182",
+        "type": "string",
+        "value": "Incoming Cash"
+      },
+      {
+        "range": "G182:O182",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q182:AZ182",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D183",
+        "type": "string",
+        "value": "Total Expenses"
+      },
+      {
+        "range": "G183:O183",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q183:AZ183",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G184:O184",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q184:AZ184",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G185:O185",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q185:AI185",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AJ185",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AK185:AZ185",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G186:O186",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q186:AZ186",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D187",
+        "type": "string",
+        "value": "Check to Model"
+      },
+      {
+        "range": "G187:O187",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q187:AZ187",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D189",
+        "type": "string",
+        "value": "Operating Cash Burn"
+      },
+      {
+        "range": "G189:O189",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q189:AZ189",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I192:O192",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I193:O193",
+        "type": "number"
+      },
+      {
+        "range": "I194:O194",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J195:O195",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J196:O196",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D198",
+        "type": "string",
+        "value": "Shares Outstanding"
+      },
+      {
+        "range": "J198:O198",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F199",
+        "type": "number"
+      },
+      {
+        "range": "K199",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J200:O200",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J202:O202",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D205",
+        "type": "string",
+        "value": "Pendo + LR Pro Forma"
+      },
+      {
+        "range": "G206:O206",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q206:AZ206",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D207",
+        "type": "string",
+        "value": "Pendo Standalone Cash Flow"
+      },
+      {
+        "range": "G207:O207",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q207:AZ207",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D208",
+        "type": "string",
+        "value": "LR Standalone EBITDA"
+      },
+      {
+        "range": "J208:O208",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AG208:AZ208",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D209",
+        "type": "string",
+        "value": "Plus: LR SBC"
+      },
+      {
+        "range": "J209:O209",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AG209:AN209",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AR209",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV209",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AZ209",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D210",
+        "type": "string",
+        "value": "LR Change in Deferred Rev"
+      },
+      {
+        "range": "J210:O210",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AG210:AN210",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D211",
+        "type": "string",
+        "value": "Synergies Cash Flow"
+      },
+      {
+        "range": "J211:O211",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AG211:AZ211",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G212:J212",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q212:AZ212",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D213",
+        "type": "string",
+        "value": "LR Txn Cash"
+      },
+      {
+        "range": "J213:O213",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF213",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AJ213",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AL213",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AN213",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AR213",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G214:K214",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q214:AJ214",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J215:O215",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF215:AZ215",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I218:O218",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I219:O219",
+        "type": "number"
+      },
+      {
+        "range": "J220:O220",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J221:O221",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J222:O222",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D224",
+        "type": "string",
+        "value": "Memo: LR Equity Issued"
+      },
+      {
+        "range": "J224:M224",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D225",
+        "type": "string",
+        "value": "Base Shares Outstanding"
+      },
+      {
+        "range": "J225:O225",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D226",
+        "type": "string",
+        "value": "Shares Issued For LR"
+      },
+      {
+        "range": "F226",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J226:M226",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D227",
+        "type": "string",
+        "value": "LR SBC Shares Issued"
+      },
+      {
+        "range": "K227:O227",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F228",
+        "type": "number"
+      },
+      {
+        "range": "K228",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J229:O229",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J231:O231",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D232",
+        "type": "string",
+        "value": "Acc / (Dil.) to Standalone"
+      },
+      {
+        "range": "J232:O232",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G235",
+        "type": "string",
+        "value": "FY2023E PF Share Price Accretion / Dilution to Standalone"
+      },
+      {
+        "range": "O235",
+        "type": "string",
+        "value": "PF Share Price"
+      },
+      {
+        "range": "H237",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I237:M237",
+        "type": "number"
+      },
+      {
+        "range": "Q237:U237",
+        "type": "number"
+      },
+      {
+        "range": "D238",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E238",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H238",
+        "type": "number"
+      },
+      {
+        "range": "I238:M238",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q238:U238",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "P238:P260",
+        "type": "date",
+        "date_series_id": "ds_3"
+      },
+      {
+        "range": "D239",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E239",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H239",
+        "type": "number"
+      },
+      {
+        "range": "I239:M239",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q239:U239",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D240",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E240",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H240",
+        "type": "number"
+      },
+      {
+        "range": "I240:M240",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q240:U240",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D241",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E241",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H241",
+        "type": "number"
+      },
+      {
+        "range": "I241:M241",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q241:U241",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D242",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E242",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H242",
+        "type": "number"
+      },
+      {
+        "range": "I242:M242",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q242:U242",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G244",
+        "type": "string",
+        "value": "FY2024E PF Share Price Accretion / Dilution to Standalone"
+      },
+      {
+        "range": "O244",
+        "type": "string",
+        "value": "PF Accretion / Dilution to Standalone (assuming 30x standalone multiple)"
+      },
+      {
+        "range": "H246",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I246:M246",
+        "type": "number"
+      },
+      {
+        "range": "Q246:U246",
+        "type": "number"
+      },
+      {
+        "range": "H247",
+        "type": "number"
+      },
+      {
+        "range": "I247:M247",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q247:U247",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H248",
+        "type": "number"
+      },
+      {
+        "range": "I248:M248",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q248:U248",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H249",
+        "type": "number"
+      },
+      {
+        "range": "I249:M249",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q249:U249",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H250",
+        "type": "number"
+      },
+      {
+        "range": "I250:M250",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q250:U250",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H251",
+        "type": "number"
+      },
+      {
+        "range": "I251:M251",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q251:U251",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G253",
+        "type": "string",
+        "value": "FY2025E PF Share Price Accretion / Dilution to Standalone"
+      },
+      {
+        "range": "O253",
+        "type": "string",
+        "value": "PF Accretion / Dilution to Standalone (assuming same standalone multiple)"
+      },
+      {
+        "range": "Q254",
+        "type": "string",
+        "value": "ARR Multiple"
+      },
+      {
+        "range": "H255",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I255:M255",
+        "type": "number"
+      },
+      {
+        "range": "Q255:U255",
+        "type": "number"
+      },
+      {
+        "range": "H256",
+        "type": "number"
+      },
+      {
+        "range": "I256:M256",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q256:U256",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H257",
+        "type": "number"
+      },
+      {
+        "range": "I257:M257",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q257:U257",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H258",
+        "type": "number"
+      },
+      {
+        "range": "I258:M258",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q258:U258",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H259",
+        "type": "number"
+      },
+      {
+        "range": "I259:M259",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q259:U259",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H260",
+        "type": "number"
+      },
+      {
+        "range": "I260:M260",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q260:U260",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D265",
+        "type": "string",
+        "value": "Revenue %"
+      },
+      {
+        "range": "D266",
+        "type": "string",
+        "value": "  COGS"
+      },
+      {
+        "range": "G266:O266",
+        "type": "number"
+      },
+      {
+        "range": "Q266:AZ266",
+        "type": "number"
+      },
+      {
+        "range": "D267",
+        "type": "string",
+        "value": "  S&M"
+      },
+      {
+        "range": "G267:O267",
+        "type": "number"
+      },
+      {
+        "range": "Q267:AZ267",
+        "type": "number"
+      },
+      {
+        "range": "D268",
+        "type": "string",
+        "value": "  R&D"
+      },
+      {
+        "range": "G268:O268",
+        "type": "number"
+      },
+      {
+        "range": "Q268:AZ268",
+        "type": "number"
+      },
+      {
+        "range": "D269",
+        "type": "string",
+        "value": "  G&A"
+      },
+      {
+        "range": "G269:O269",
+        "type": "number"
+      },
+      {
+        "range": "Q269:AZ269",
+        "type": "number"
+      },
+      {
+        "range": "D270",
+        "type": "string",
+        "value": "  S&M incl 606"
+      },
+      {
+        "range": "G270:O270",
+        "type": "number"
+      },
+      {
+        "range": "Q270:AZ270",
+        "type": "number"
+      },
+      {
+        "range": "D272",
+        "type": "string",
+        "value": "Efficiency"
+      },
+      {
+        "range": "D273",
+        "type": "string",
+        "value": "Net New ARR"
+      },
+      {
+        "range": "G273:O273",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q273:AZ273",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D274",
+        "type": "string",
+        "value": "Cash Burn per Net New ARR $"
+      },
+      {
+        "range": "G274:O274",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q274:AZ274",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D275",
+        "type": "string",
+        "value": "The Rule of 40%"
+      },
+      {
+        "range": "G275:O275",
+        "type": "number"
+      },
+      {
+        "range": "Q275:S275",
+        "type": "number"
+      },
+      {
+        "range": "T275:AZ275",
+        "type": "number"
+      },
+      {
+        "range": "D276",
+        "type": "string",
+        "value": "Cash Burn % Rev"
+      },
+      {
+        "range": "G276:O276",
+        "type": "number"
+      },
+      {
+        "range": "Q276:AZ276",
+        "type": "number"
+      },
+      {
+        "range": "D277",
+        "type": "string",
+        "value": "CAC Ratio"
+      },
+      {
+        "range": "G277:O277",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q277",
+        "type": "number"
+      },
+      {
+        "range": "R277:AZ277",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D278",
+        "type": "string",
+        "value": "Payback Period (Mo)"
+      },
+      {
+        "range": "G278:O278",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q278",
+        "type": "number"
+      },
+      {
+        "range": "R278:AZ278",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D279",
+        "type": "string",
+        "value": "Magic Number"
+      },
+      {
+        "range": "G279:O279",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q279:S279",
+        "type": "number"
+      },
+      {
+        "range": "T279:AZ279",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D282",
+        "type": "string",
+        "value": "NRR (Annual)"
+      },
+      {
+        "range": "G282:O282",
+        "type": "number"
+      },
+      {
+        "range": "Q282:AZ282",
+        "type": "number"
+      },
+      {
+        "range": "D283",
+        "type": "string",
+        "value": "GRR (Annual)"
+      },
+      {
+        "range": "G283:O283",
+        "type": "number"
+      },
+      {
+        "range": "Q283:AZ283",
+        "type": "number"
+      },
+      {
+        "range": "D284",
+        "type": "string",
+        "value": "Logo Churn %"
+      },
+      {
+        "range": "G284:O284",
+        "type": "number"
+      },
+      {
+        "range": "Q284:AZ284",
+        "type": "number"
+      },
+      {
+        "range": "D285",
+        "type": "string",
+        "value": "ARR per Employee"
+      },
+      {
+        "range": "G285:O285",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q285:AZ285",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D286",
+        "type": "string",
+        "value": "LTM Rev per Employee"
+      },
+      {
+        "range": "G286:O286",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q286:S286",
+        "type": "number"
+      },
+      {
+        "range": "T286:AZ286",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D287",
+        "type": "string",
+        "value": "Op Burn % Revenue"
+      },
+      {
+        "range": "G287:O287",
+        "type": "number"
+      },
+      {
+        "range": "Q287:AZ287",
+        "type": "number"
+      },
+      {
+        "range": "D289",
+        "type": "string",
+        "value": "Customer Counts"
+      },
+      {
+        "range": "D291",
+        "type": "string",
+        "value": "BOP Customer"
+      },
+      {
+        "range": "G291:O291",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q291:AZ291",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D292",
+        "type": "string",
+        "value": "Acquisition"
+      },
+      {
+        "range": "G292:O292",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q292:AZ292",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D293",
+        "type": "string",
+        "value": "New Customer"
+      },
+      {
+        "range": "G293:O293",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q293:AZ293",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D294",
+        "type": "string",
+        "value": "Churn Customer"
+      },
+      {
+        "range": "G294:O294",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q294:AZ294",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D295",
+        "type": "string",
+        "value": "EOP Customer"
+      },
+      {
+        "range": "G295:O295",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q295:AZ295",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D297",
+        "type": "string",
+        "value": "ARPA New"
+      },
+      {
+        "range": "G297:O297",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q297:AZ297",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D298",
+        "type": "string",
+        "value": "ARPA Base"
+      },
+      {
+        "range": "G298:O298",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q298:AZ298",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D299",
+        "type": "string",
+        "value": "Churn ARPA"
+      },
+      {
+        "range": "G299:O299",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q299:AZ299",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D304",
+        "type": "string",
+        "value": "Marketing"
+      },
+      {
+        "range": "G304:O304",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q304:AZ304",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D305",
+        "type": "string",
+        "value": "Sales"
+      },
+      {
+        "range": "G305:O305",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q305:AZ305",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D306",
+        "type": "string",
+        "value": "CS/TS"
+      },
+      {
+        "range": "G306:O306",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q306:AZ306",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D307",
+        "type": "string",
+        "value": "PS"
+      },
+      {
+        "range": "G307:O307",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q307:AZ307",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G308:O308",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q308:AZ308",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D309",
+        "type": "string",
+        "value": "Product"
+      },
+      {
+        "range": "G309:O309",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q309:AZ309",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G310:O310",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q310:AZ310",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D311",
+        "type": "string",
+        "value": "People"
+      },
+      {
+        "range": "G311:O311",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q311:AZ311",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D312",
+        "type": "string",
+        "value": "Grand Total"
+      },
+      {
+        "range": "G312:O312",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "Q312:AZ312",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 185.59,
+      "cells_analyzed": 6416,
+      "total_ranges": 714,
+      "format_counts": {
+        "number": 425,
+        "string": 284,
+        "date": 5
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T19:46:09.392719Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "quarterly",
+        "increment": "1 quarter",
+        "start_date": "2019-Q1",
+        "pattern": "Quarterly series from Q1 2019 to Q4 2027"
+      },
+      "ds_2": {
+        "series_type": "annual",
+        "increment": "1 year",
+        "start_date": "2019-01-31",
+        "pattern": "Annual series from 2019 to 2027"
+      },
+      "ds_3": {
+        "series_type": "unordered_column",
+        "count": 5,
+        "start_date": "2023-01-31",
+        "end_date": "2027-01-31"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 46,
+    "entries_moved_to_index": 126,
+    "entries_remaining": 588,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 38092,
+    "compressed_size_bytes": 33947,
+    "inverted_index_size_bytes": 2887,
+    "compressed_data_size_bytes": 31060,
+    "compression_ratio": 0.891,
+    "space_saved_bytes": 4145,
+    "space_saved_percent": 10.9
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "success": true,
+  "sheet_name": "Deferred Build",
+  "format_ranges": [
+    {
+      "range": "B1",
+      "type": "string",
+      "value": "AlphaSense, Inc."
+    },
+    {
+      "range": "B2",
+      "type": "string",
+      "value": "Deferred Revenue Detail"
+    },
+    {
+      "range": "E2:Q2",
+      "type": "number"
+    },
+    {
+      "range": "T2:FS2",
+      "type": "date",
+      "date_series_id": "ds_1"
+    },
+    {
+      "range": "B3",
+      "type": "string",
+      "value": "1 - Base - $25mm"
+    },
+    {
+      "range": "A5",
+      "type": "string",
+      "value": "x"
+    },
+    {
+      "range": "B5",
+      "type": "string",
+      "value": "Deferred Summary"
+    },
+    {
+      "range": "B7",
+      "type": "string",
+      "value": "ARR"
+    },
+    {
+      "range": "E7:Q7",
+      "type": "number"
+    },
+    {
+      "range": "T7:FS7",
+      "type": "number"
+    },
+    {
+      "range": "B9",
+      "type": "string",
+      "value": "Deferred Beginning Balance"
+    },
+    {
+      "range": "F9:Q9",
+      "type": "number"
+    },
+    {
+      "range": "U9:FS9",
+      "type": "number"
+    },
+    {
+      "range": "B10",
+      "type": "string",
+      "value": "Add (Projected)"
+    },
+    {
+      "range": "E10:Q10",
+      "type": "number",
+      "scale": 1000
+    },
+    {
+      "range": "CJ10:FS10",
+      "type": "number",
+      "scale": 1000
+    },
+    {
+      "range": "B11",
+      "type": "string",
+      "value": "Recognized as Revenue (Projected)"
+    },
+    {
+      "range": "E11:Q11",
+      "type": "number",
+      "scale": 1000
+    },
+    {
+      "range": "CJ11:FS11",
+      "type": "number",
+      "scale": 1000
+    },
+    {
+      "range": "B12",
+      "type": "string",
+      "value": "Deferred Ending Balance"
+    },
+    {
+      "range": "E12:Q12",
+      "type": "number",
+      "scale": 1000
+    },
+    {
+      "range": "T12:BB12",
+      "type": "number"
+    },
+    {
+      "range": "BC12:FS12",
+      "type": "number",
+      "scale": 1000
+    },
+    {
+      "range": "B13",
+      "type": "string",
+      "value": "% of ARR"
+    },
+    {
+      "range": "E13:Q13",
+      "type": "number",
+      "scale": 1000
+    },
+    {
+      "range": "T13:FS13",
+      "type": "number",
+      "scale": 1000
+    },
+    {
+      "range": "CJ15:FS15",
+      "type": "number",
+      "scale": 1000
+    },
+    {
+      "range": "CJ16:FS16",
+      "type": "number",
+      "scale": 1000
+    },
+    {
+      "range": "CJ17:FS17",
+      "type": "number",
+      "scale": 1000
+    },
+    {
+      "range": "A18",
+      "type": "string",
+      "value": "x"
+    },
+    {
+      "range": "B18",
+      "type": "string",
+      "value": "Deferred Detail"
+    },
+    {
+      "range": "B20",
+      "type": "string",
+      "value": "ARR Added"
+    },
+    {
+      "range": "B21",
+      "type": "string",
+      "value": "Bookings"
+    },
+    {
+      "range": "BP21:FS21",
+      "type": "number"
+    },
+    {
+      "range": "B22",
+      "type": "string",
+      "value": "Renewals"
+    },
+    {
+      "range": "BP22:FS22",
+      "type": "number",
+      "scale": 1000
+    },
+    {
+      "range": "B23",
+      "type": "string",
+      "value": "Total ARR Added Previous Month"
+    },
+    {
+      "range": "BP23:FS23",
+      "type": "number",
+      "scale": 1000
+    },
+    {
+      "range": "B25",
+      "type": "string",
+      "value": "Added to Deferred Revenue Balance"
+    },
+    {
+      "range": "B26",
+      "type": "string",
+      "value": "Bookings"
+    },
+    {
+      "range": "BP26:FS26",
+      "type": "number"
+    },
+    {
+      "range": "B27",
+      "type": "string",
+      "value": "Renewals"
+    },
+    {
+      "range": "BP27:FS27",
+      "type": "number",
+      "scale": 1000
+    },
+    {
+      "range": "B28",
+      "type": "string",
+      "value": "Total Added to Deferred Revenue Balance"
+    },
+    {
+      "range": "BP28:FS28",
+      "type": "number",
+      "scale": 1000
+    },
+    {
+      "range": "B30",
+      "type": "string",
+      "value": "Revenue"
+    },
+    {
+      "range": "B31",
+      "type": "string",
+      "value": "Bookings Revenue Recognized"
+    },
+    {
+      "range": "BP31:FS31",
+      "type": "number",
+      "scale": 1000
+    },
+    {
+      "range": "B32",
+      "type": "string",
+      "value": "Renewal Revenue Recognized"
+    },
+    {
+      "range": "BP32:FS32",
+      "type": "number",
+      "scale": 1000
+    },
+    {
+      "range": "B33",
+      "type": "string",
+      "value": "Revenue from Deferred Revenue Balance"
+    },
+    {
+      "range": "BP33:FS33",
+      "type": "number",
+      "scale": 1000
+    }
+  ],
+  "statistics": {
+    "processing_time_ms": 2844.74,
+    "cells_analyzed": 2306,
+    "total_ranges": 52,
+    "format_counts": {
+      "string": 25,
+      "number": 26,
+      "date": 1
+    }
+  },
+  "metadata": {
+    "detected_at": "2025-10-13T21:35:46.571073Z"
+  },
+  "date_series_definitions": {
+    "ds_1": {
+      "series_type": "monthly",
+      "increment": "1 month",
+      "start_date": "2015-01-31",
+      "pattern": "Monthly series from 2015-01 to 2027-12"
+    }
+  }
+}

@@ -1,0 +1,921 @@
+{
+  "inverted_index": {
+    "EOY FY22": {
+      "type": "string",
+      "ranges": [
+        "G3",
+        "M3",
+        "W3",
+        "G15",
+        "M15"
+      ]
+    },
+    "EOY FY23": {
+      "type": "string",
+      "ranges": [
+        "P3",
+        "P15"
+      ]
+    },
+    "Mobile": {
+      "type": "string",
+      "ranges": [
+        "A5",
+        "C49"
+      ]
+    },
+    "VoC": {
+      "type": "string",
+      "ranges": [
+        "A6",
+        "A23"
+      ]
+    },
+    "DAP": {
+      "type": "string",
+      "ranges": [
+        "A7",
+        "A24"
+      ]
+    },
+    "Adopt": {
+      "type": "string",
+      "ranges": [
+        "A8",
+        "A21",
+        "B39"
+      ]
+    },
+    "Total": {
+      "type": "string",
+      "ranges": [
+        "A11",
+        "A29"
+      ]
+    },
+    "Close Fiscal Quarter": {
+      "type": "string",
+      "ranges": [
+        "A40",
+        "A49"
+      ]
+    },
+    "Inferred ARR": {
+      "type": "string",
+      "ranges": [
+        "B40:I40"
+      ]
+    },
+    "FY2021-Q3": {
+      "type": "string",
+      "ranges": [
+        "A41",
+        "A50"
+      ]
+    },
+    "FY2021-Q4": {
+      "type": "string",
+      "ranges": [
+        "A42",
+        "A51"
+      ]
+    },
+    "FY2022-Q1": {
+      "type": "string",
+      "ranges": [
+        "A43",
+        "A52"
+      ]
+    },
+    "FY2022-Q2": {
+      "type": "string",
+      "ranges": [
+        "A44",
+        "A53"
+      ]
+    },
+    "FY2022-Q3": {
+      "type": "string",
+      "ranges": [
+        "A45",
+        "A54"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Product Mix",
+    "format_ranges": [
+      {
+        "range": "C1",
+        "type": "string",
+        "value": "BUDGET"
+      },
+      {
+        "range": "I1",
+        "type": "string",
+        "value": "ACTUAL/FORECAST"
+      },
+      {
+        "range": "A3",
+        "type": "string",
+        "value": "Product"
+      },
+      {
+        "range": "C3",
+        "type": "string",
+        "value": "Q1"
+      },
+      {
+        "range": "D3",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "E3",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "F3",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "I3",
+        "type": "string",
+        "value": "Q1"
+      },
+      {
+        "range": "J3",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "K3",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "L3",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "S3",
+        "type": "string",
+        "value": "Q1"
+      },
+      {
+        "range": "T3",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "U3",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "V3",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "A4",
+        "type": "string",
+        "value": "Core"
+      },
+      {
+        "range": "C4:G4",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "I4:M4",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "N4",
+        "type": "number"
+      },
+      {
+        "range": "P4",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "Q4",
+        "type": "number"
+      },
+      {
+        "range": "S4:W4",
+        "type": "number"
+      },
+      {
+        "range": "C5:G5",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "I5:M5",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "N5",
+        "type": "number"
+      },
+      {
+        "range": "P5",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "Q5",
+        "type": "number"
+      },
+      {
+        "range": "S5:W5",
+        "type": "number"
+      },
+      {
+        "range": "C6:G6",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "I6:M6",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "N6",
+        "type": "number"
+      },
+      {
+        "range": "P6",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "Q6",
+        "type": "number"
+      },
+      {
+        "range": "S6:W6",
+        "type": "number"
+      },
+      {
+        "range": "C7:G7",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "I7:M7",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "N7",
+        "type": "number"
+      },
+      {
+        "range": "P7",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "Q7",
+        "type": "number"
+      },
+      {
+        "range": "S7:W7",
+        "type": "number"
+      },
+      {
+        "range": "C8:G8",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "I8:M8",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "N8",
+        "type": "number"
+      },
+      {
+        "range": "P8",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "Q8",
+        "type": "number"
+      },
+      {
+        "range": "S8:W8",
+        "type": "number"
+      },
+      {
+        "range": "A9",
+        "type": "string",
+        "value": "BD/MS"
+      },
+      {
+        "range": "C9:G9",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "M9",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "N9",
+        "type": "number"
+      },
+      {
+        "range": "Q9",
+        "type": "number"
+      },
+      {
+        "range": "S9:W9",
+        "type": "number"
+      },
+      {
+        "range": "C11:G11",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "I11:M11",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "P11",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "A15",
+        "type": "string",
+        "value": "Team"
+      },
+      {
+        "range": "C15",
+        "type": "string",
+        "value": "Q1"
+      },
+      {
+        "range": "D15",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "E15",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "F15",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "I15",
+        "type": "string",
+        "value": "Q1"
+      },
+      {
+        "range": "J15",
+        "type": "string",
+        "value": "Q2"
+      },
+      {
+        "range": "K15",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "L15",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "A17",
+        "type": "string",
+        "value": "Corp"
+      },
+      {
+        "range": "C17:G17",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "I17:M17",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "P17",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "X17",
+        "type": "string",
+        "value": "original JK forecast for VOC"
+      },
+      {
+        "range": "A18",
+        "type": "string",
+        "value": "Comm"
+      },
+      {
+        "range": "C18:G18",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "I18:M18",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "P18",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "X18",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "Y18",
+        "type": "number"
+      },
+      {
+        "range": "Z18",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "A19",
+        "type": "string",
+        "value": "Enterprise"
+      },
+      {
+        "range": "C19:G19",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "I19:M19",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "P19",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "X19",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "Y19",
+        "type": "number"
+      },
+      {
+        "range": "Z19",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "A20",
+        "type": "string",
+        "value": "EMEA"
+      },
+      {
+        "range": "C20:G20",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "I20:M20",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "P20",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "C21:G21",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "I21:M21",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "P21",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "X21",
+        "type": "string",
+        "value": "original JK forecast for mobile"
+      },
+      {
+        "range": "A22",
+        "type": "string",
+        "value": "Sub Success"
+      },
+      {
+        "range": "C22:G22",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "I22:M22",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "P22",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "X22",
+        "type": "string",
+        "value": "Q3"
+      },
+      {
+        "range": "Y22",
+        "type": "number"
+      },
+      {
+        "range": "Z22",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "C23:G23",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "M23",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "X23",
+        "type": "string",
+        "value": "Q4"
+      },
+      {
+        "range": "Y23",
+        "type": "number"
+      },
+      {
+        "range": "Z23",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "C24:G24",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "M24",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "A25",
+        "type": "string",
+        "value": "Japan"
+      },
+      {
+        "range": "C25:G25",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "J25:M25",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "P25",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "A26",
+        "type": "string",
+        "value": "ANZ"
+      },
+      {
+        "range": "C26:G26",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "L26:M26",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "P26",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "A27",
+        "type": "string",
+        "value": "BD/MS/Partner"
+      },
+      {
+        "range": "C27:G27",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "I27:J27",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "M27",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "C29:G29",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "I29:M29",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "P29",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "H30",
+        "type": "string",
+        "value": "Churn"
+      },
+      {
+        "range": "I30:M30",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "N30",
+        "type": "number"
+      },
+      {
+        "range": "P30",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "Q30",
+        "type": "number"
+      },
+      {
+        "range": "H31",
+        "type": "string",
+        "value": "Net"
+      },
+      {
+        "range": "I31:M31",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "P31",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "L32",
+        "type": "string",
+        "value": "need to find $500k, should be $20.7M"
+      },
+      {
+        "range": "I33:J33",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "H34",
+        "type": "string",
+        "value": "delta"
+      },
+      {
+        "range": "I34:J34",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "N34",
+        "type": "string",
+        "value": "BOY"
+      },
+      {
+        "range": "M34",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "P34",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "N35",
+        "type": "string",
+        "value": "EOY"
+      },
+      {
+        "range": "M35",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "P35",
+        "type": "number",
+        "scale": 1000000
+      },
+      {
+        "range": "P36",
+        "type": "number"
+      },
+      {
+        "range": "A39",
+        "type": "string",
+        "value": "Level Four Grouping"
+      },
+      {
+        "range": "C39",
+        "type": "string",
+        "value": "Digital Adoption"
+      },
+      {
+        "range": "D39",
+        "type": "string",
+        "value": "Feedback"
+      },
+      {
+        "range": "E39",
+        "type": "string",
+        "value": "Guidance"
+      },
+      {
+        "range": "F39",
+        "type": "string",
+        "value": "Insights"
+      },
+      {
+        "range": "G39",
+        "type": "string",
+        "value": "Integration"
+      },
+      {
+        "range": "H39",
+        "type": "string",
+        "value": "Other"
+      },
+      {
+        "range": "I39",
+        "type": "string",
+        "value": "TAM/Support"
+      },
+      {
+        "range": "B41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D41:I41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D42:I42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B43:I43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B44:I44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D45:I45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B49",
+        "type": "string",
+        "value": "Web"
+      },
+      {
+        "range": "D49",
+        "type": "string",
+        "value": "Non Platform ARR"
+      },
+      {
+        "range": "B50:D50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B51:D51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B52:D52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B53:D53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B54:D54",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 56.81,
+      "cells_analyzed": 406,
+      "total_ranges": 200,
+      "format_counts": {
+        "string": 94,
+        "number": 106
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T19:47:40.225209Z"
+    }
+  },
+  "compression_stats": {
+    "unique_values": 14,
+    "entries_moved_to_index": 38,
+    "entries_remaining": 162,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 9770,
+    "compressed_size_bytes": 8559,
+    "inverted_index_size_bytes": 746,
+    "compressed_data_size_bytes": 7813,
+    "compression_ratio": 0.876,
+    "space_saved_bytes": 1211,
+    "space_saved_percent": 12.4
+  }
+}

@@ -1,0 +1,94 @@
+## 1. Spreadsheet Overview
+- **Sheet Name**: Fin CTRL
+- **Key Sections Identified**:
+  - Scenario Data Tables (Base/Growth/Other scenario outlines)
+  - Balance Sheet & Working Capital Inputs
+  - Financing & Cash Metrics (Interest Rates, Cash-related measures, and linked financing parameters)
+
+## 2. Detailed Section Analysis
+
+### Scenario Data Tables
+- **Section Type**: Scenario Grid (Custom Data Matrix)
+- **Description & Purpose**: Centralized, multi-scenario data grid that enumerates four scenario lines (Base - $25mm, Growth - $25mm, Base - $50mm, Base - $50mm (R&D)) and their associated numeric values across multiple periods. This section provides the structural backbone for comparing financial outcomes under different scale assumptions and R&D intensity, enabling quick retrieval of a given scenario’s data for a given time horizon.
+- **Cell Range**: B14:CA188
+- **Time Series Horizon**:
+  - **Dates Location**:
+    - ds_1 (Annual): E6:Q6
+    - ds_2 (Annual repeating): T6:FS6
+    - ds_3 (Monthly): T8:FS8
+  - **Date Range**:
+    - ds_1: 2015-01-01 to 2027-01-01
+    - ds_2: 2015-01-01 to 2027-01-01
+    - ds_3: 2015-01-31 to 2027-12-31
+  - **Frequency**:
+    - ds_1: Annual
+    - ds_2: Annual
+    - ds_3: Monthly
+- **Key Components**: The four primary scenario blocks:
+  - Base - $25mm
+  - Growth - $25mm
+  - Base - $50mm
+  - Base - $50mm (R&D)
+- **Notes & Customizations**: This is a highly customized, CTRL-style data grid designed for scenario analysis. It relies on multiple date-series headers and uses mapped ranges across different columns to present year-by-year and month-by-month data for each scenario. The sheet’s structure supports quick retrieval of scenario-specific values by cell range.
+
+### Balance Sheet & Working Capital Inputs
+- **Section Type**: Balance Sheet Inputs
+- **Description & Purpose**: Consolidates balance sheet support items and working capital metrics that feed into cash flow and P&L modelling. This section captures key operating-cycle components (DSO, prepaid expenses, capital expenditures as a percent of revenue, payables metrics, accrued items, and other balance-sheet related assumptions) used to drive liquidity and cost calculations.
+- **Cell Range**: A11:FS188
+- **Time Series Horizon**:
+  - **Dates Location**:
+    - ds_1 (Annual): E6:Q6
+    - ds_2 (Annual repeating): T6:FS6
+    - ds_3 (Monthly): T8:FS8
+  - **Date Range**:
+    - ds_1: 2015-01-01 to 2027-01-01
+    - ds_2: 2015-01-01 to 2027-01-01
+    - ds_3: 2015-01-31 to 2027-12-31
+  - **Frequency**:
+    - ds_1: Annual
+    - ds_2: Annual
+    - ds_3: Monthly
+- **Key Components**: Major balance sheet and working-capital categories such as:
+  - Balance Sheet Support
+  - Days Sales Outstanding
+  - Prepaid Expenses (Monthly % of OpEx)
+  - Capital Expenditures – % of Revenue
+  - Accounts Payable Days Payable Outstanding
+  - Commissions Payable – % of ARR
+  - Accrued Expenses Days Payable Outstanding
+  - Accrued Commissions – % of ARR
+  - Accrued Wages – % Growth
+  - Tekes (various project codes)
+  - LIBOR
+  - Payroll Taxes Payable – % Growth
+  - Sales Taxes Payable – % of Revenue
+  - Deferred Commissions Growth
+  - Various Tekes and cash-related lines
+- **Notes & Customizations**: The section includes a broad mix of numeric blocks, percentage-based lines, and periodic scaling (e.g., some ranges use scale 1000). It’s a customized balance sheet/working-capital construct designed to feed downstream cash flow and cost calculations.
+
+### Financing & Cash Metrics
+- **Section Type**: Key Metrics Table (Financing & Cash)
+- **Description & Purpose**: Aggregates financing and liquidity metrics such as interest rates, cash-account experience, and commission-related financing items. This section is intended to capture cost of capital, cash position dynamics, and related administrative fees and ratios that influence cash planning and profitability.
+- **Cell Range**: I139:FS188
+- **Time Series Horizon**:
+  - **Dates Location**:
+    - ds_1 (Annual): E6:Q6
+    - ds_2 (Annual repeating): T6:FS6
+    - ds_3 (Monthly): T8:FS8
+  - **Date Range**:
+    - ds_1: 2015-01-01 to 2027-01-01
+    - ds_2: 2015-01-01 to 2027-01-01
+    - ds_3: 2015-01-31 to 2027-12-31
+  - **Frequency**:
+    - ds_1: Annual
+    - ds_2: Annual
+    - ds_3: Monthly
+- **Key Components**: Core financing/cash metrics such as:
+  - Interest Rate
+  - Interest Rate - Admin Fee
+  - Interest Rate on Cash Account
+  - Percent of Cash in Account
+  - Effective Commission Rate
+  - Tekes project lines and other financing-related figures
+  - Various Year-Monthly data blocks (scaled values where indicated)
+- **Notes & Customizations**: This area includes multiple financing and cash-flow related metrics with several blocks labeled by rows (e.g., Tekes lines, LIBOR, admin fees) and uses a mix of plain numbers and scaled values. It is a customized appendix to the core balance sheet model, enabling detailed cost and liquidity analyses.

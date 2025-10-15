@@ -1,0 +1,1176 @@
+{
+  "inverted_index": {
+    "Salary": {
+      "type": "string",
+      "ranges": [
+        "H2",
+        "C3:C19",
+        "C28:C34",
+        "C36",
+        "C38:C39",
+        "C59",
+        "B84"
+      ]
+    },
+    "Marketing": {
+      "type": "string",
+      "ranges": [
+        "B3:B6",
+        "B36:B37",
+        "B40:B43",
+        "B80",
+        "B89",
+        "B98"
+      ]
+    },
+    "TBD": {
+      "type": "string",
+      "ranges": [
+        "D3:E8",
+        "D9:D19",
+        "D28:D37",
+        "D40:E45",
+        "D46:D55",
+        "D59:D60",
+        "D65:D72"
+      ]
+    },
+    "Manager, Demand Generation (DG)": {
+      "type": "string",
+      "ranges": [
+        "E3:E4",
+        "E40:E41"
+      ]
+    },
+    "Sr Manager, Customer Marketing": {
+      "type": "string",
+      "ranges": [
+        "E5",
+        "E42"
+      ]
+    },
+    "Sr Manager, Content Marketing": {
+      "type": "string",
+      "ranges": [
+        "E6",
+        "E43"
+      ]
+    },
+    "Product": {
+      "type": "string",
+      "ranges": [
+        "B7",
+        "B15:B16",
+        "B34:B35",
+        "B44",
+        "B52:B53",
+        "B81",
+        "B90",
+        "B99"
+      ]
+    },
+    "Director of Product": {
+      "type": "string",
+      "ranges": [
+        "E7",
+        "E44"
+      ]
+    },
+    "Content": {
+      "type": "string",
+      "ranges": [
+        "B8",
+        "B45",
+        "B76",
+        "B85",
+        "B94"
+      ]
+    },
+    "Engineering (India)": {
+      "type": "string",
+      "ranges": [
+        "B9:B11",
+        "B28:B31",
+        "B46:B48",
+        "B65:B68",
+        "B82",
+        "B91",
+        "B100"
+      ]
+    },
+    "Scrum Master": {
+      "type": "string",
+      "ranges": [
+        "E9:E11",
+        "E46:E48"
+      ]
+    },
+    "INDP": {
+      "type": "string",
+      "ranges": [
+        "F9:F13",
+        "F28:F31",
+        "F46:F50",
+        "F65:F68"
+      ]
+    },
+    "Finance & Admin": {
+      "type": "string",
+      "ranges": [
+        "B12:B14",
+        "B19",
+        "B32:B33",
+        "B38:B39",
+        "B49:B51",
+        "B59:B60",
+        "B69:B72",
+        "B79",
+        "B88",
+        "B97"
+      ]
+    },
+    "Accountant": {
+      "type": "string",
+      "ranges": [
+        "E12:E13",
+        "E49:E50"
+      ]
+    },
+    "IT Admin": {
+      "type": "string",
+      "ranges": [
+        "E14",
+        "E51"
+      ]
+    },
+    "Product Manager": {
+      "type": "string",
+      "ranges": [
+        "E15",
+        "E52"
+      ]
+    },
+    "UX Engineer": {
+      "type": "string",
+      "ranges": [
+        "E16",
+        "E53"
+      ]
+    },
+    "Engineering (ex India)": {
+      "type": "string",
+      "ranges": [
+        "B17:B18",
+        "B54:B55",
+        "B77",
+        "B86",
+        "B95"
+      ]
+    },
+    "Engineer": {
+      "type": "string",
+      "ranges": [
+        "E17:E18",
+        "E28:E31",
+        "E54:E55",
+        "E65:E68"
+      ]
+    },
+    "FIN": {
+      "type": "string",
+      "ranges": [
+        "F17:F18",
+        "F54:F55"
+      ]
+    },
+    "Data and BI Analyst": {
+      "type": "string",
+      "ranges": [
+        "E32:E33"
+      ]
+    },
+    "Senior Product Marketing Manager": {
+      "type": "string",
+      "ranges": [
+        "E34:E37"
+      ]
+    },
+    "Bonus": {
+      "type": "string",
+      "ranges": [
+        "C35",
+        "C37",
+        "C40:C55",
+        "C60",
+        "C65:C72",
+        "B93"
+      ]
+    },
+    "CPO": {
+      "type": "string",
+      "ranges": [
+        "E38",
+        "E71"
+      ]
+    },
+    "CFO": {
+      "type": "string",
+      "ranges": [
+        "E39",
+        "E72"
+      ]
+    },
+    "Talent Head": {
+      "type": "string",
+      "ranges": [
+        "E59:E60"
+      ]
+    },
+    "Data Analyst": {
+      "type": "string",
+      "ranges": [
+        "E69:E70"
+      ]
+    },
+    "Executive": {
+      "type": "string",
+      "ranges": [
+        "B78",
+        "B87",
+        "B96"
+      ]
+    },
+    "*EXCLUDES 1 TERM": {
+      "type": "string",
+      "ranges": [
+        "W80:W81"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Headcount Adds",
+    "format_ranges": [
+      {
+        "range": "B2",
+        "type": "string",
+        "value": "Department"
+      },
+      {
+        "range": "C2",
+        "type": "string",
+        "value": "Type"
+      },
+      {
+        "range": "D2",
+        "type": "string",
+        "value": "Employee Name"
+      },
+      {
+        "range": "E2",
+        "type": "string",
+        "value": "Title"
+      },
+      {
+        "range": "F2",
+        "type": "string",
+        "value": "Office"
+      },
+      {
+        "range": "G2",
+        "type": "string",
+        "value": "Hire Date"
+      },
+      {
+        "range": "J2:V2",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "F3",
+        "type": "string",
+        "value": "US"
+      },
+      {
+        "range": "H3",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J3:V3",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G3:G72",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "F4",
+        "type": "string",
+        "value": "US"
+      },
+      {
+        "range": "H4",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J4:V4",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F5",
+        "type": "string",
+        "value": "US"
+      },
+      {
+        "range": "H5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J5:V5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F6",
+        "type": "string",
+        "value": "US"
+      },
+      {
+        "range": "H6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J6:V6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F7",
+        "type": "string",
+        "value": "US"
+      },
+      {
+        "range": "H7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J7:V7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F8",
+        "type": "string",
+        "value": "US"
+      },
+      {
+        "range": "H8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J8:V8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J9:V9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J10:V10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J11:V11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J12:V12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J13:V13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F14",
+        "type": "string",
+        "value": "US"
+      },
+      {
+        "range": "H14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J14:V14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F15",
+        "type": "string",
+        "value": "US"
+      },
+      {
+        "range": "H15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J15:V15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F16",
+        "type": "string",
+        "value": "US"
+      },
+      {
+        "range": "H16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J16:V16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J17:V17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J18:V18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E19",
+        "type": "string",
+        "value": "Promotion"
+      },
+      {
+        "range": "F19",
+        "type": "string",
+        "value": "US"
+      },
+      {
+        "range": "H19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J19:V19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J28:V28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J29:V29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J30:V30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J31:V31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F32",
+        "type": "string",
+        "value": "US"
+      },
+      {
+        "range": "H32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J32:V32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F33",
+        "type": "string",
+        "value": "US"
+      },
+      {
+        "range": "H33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J33:V33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F34",
+        "type": "string",
+        "value": "US"
+      },
+      {
+        "range": "H34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J34:V34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F35",
+        "type": "string",
+        "value": "US"
+      },
+      {
+        "range": "H35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J35:V35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F36",
+        "type": "string",
+        "value": "US"
+      },
+      {
+        "range": "H36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J36:V36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F37",
+        "type": "string",
+        "value": "US"
+      },
+      {
+        "range": "H37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J37:V37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D38",
+        "type": "string",
+        "value": "John Reid-Dodick"
+      },
+      {
+        "range": "F38",
+        "type": "string",
+        "value": "US"
+      },
+      {
+        "range": "H38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J38:V38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D39",
+        "type": "string",
+        "value": "Joe Hill"
+      },
+      {
+        "range": "F39",
+        "type": "string",
+        "value": "US"
+      },
+      {
+        "range": "H39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J39:V39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F40",
+        "type": "string",
+        "value": "US"
+      },
+      {
+        "range": "H40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J40:V40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F41",
+        "type": "string",
+        "value": "US"
+      },
+      {
+        "range": "H41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J41:V41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F42",
+        "type": "string",
+        "value": "US"
+      },
+      {
+        "range": "H42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J42:V42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F43",
+        "type": "string",
+        "value": "US"
+      },
+      {
+        "range": "H43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J43:V43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F44",
+        "type": "string",
+        "value": "US"
+      },
+      {
+        "range": "H44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J44:V44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F45",
+        "type": "string",
+        "value": "US"
+      },
+      {
+        "range": "H45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J45:V45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J46:V46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J47:V47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J48:V48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J49:V49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J50:V50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F51",
+        "type": "string",
+        "value": "US"
+      },
+      {
+        "range": "H51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J51:V51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F52",
+        "type": "string",
+        "value": "US"
+      },
+      {
+        "range": "H52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J52:V52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F53",
+        "type": "string",
+        "value": "US"
+      },
+      {
+        "range": "H53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J53:V53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J54:V54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J55:V55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F59",
+        "type": "string",
+        "value": "US"
+      },
+      {
+        "range": "H59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J59:V59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F60",
+        "type": "string",
+        "value": "US"
+      },
+      {
+        "range": "H60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J60:V60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H65",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J65:V65",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J66:V66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H67",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J67:V67",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J68:V68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F69",
+        "type": "string",
+        "value": "US"
+      },
+      {
+        "range": "H69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J69:V69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F70",
+        "type": "string",
+        "value": "US"
+      },
+      {
+        "range": "H70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J70:V70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F71",
+        "type": "string",
+        "value": "US"
+      },
+      {
+        "range": "H71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J71:V71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F72",
+        "type": "string",
+        "value": "US"
+      },
+      {
+        "range": "H72",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J72:V72",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B75",
+        "type": "string",
+        "value": "Counts"
+      },
+      {
+        "range": "J76:V76",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J77:V77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J78:V78",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J79:V79",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J80:V80",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J81:V81",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J82:V82",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J85:V85",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J86:V86",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J87:V87",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J88:V88",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J89:V89",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J90:V90",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J91:V91",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J94:V94",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J95:V95",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J96:V96",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J97:V97",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J98:V98",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J99:V99",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J100:V100",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 1292.55,
+      "cells_analyzed": 1419,
+      "total_ranges": 441,
+      "format_counts": {
+        "string": 308,
+        "date": 2,
+        "number": 131
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T11:05:30.388552Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2019-12-31",
+        "pattern": "Monthly series from 2019-12 to 2020-12"
+      },
+      "ds_2": {
+        "series_type": "unordered_column",
+        "count": 8,
+        "start_date": "2020-01-01",
+        "end_date": "2021-04-01"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 29,
+    "entries_moved_to_index": 265,
+    "entries_remaining": 176,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 22583,
+    "compressed_size_bytes": 10904,
+    "inverted_index_size_bytes": 2101,
+    "compressed_data_size_bytes": 8803,
+    "compression_ratio": 0.483,
+    "space_saved_bytes": 11679,
+    "space_saved_percent": 51.7
+  }
+}

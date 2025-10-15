@@ -1,0 +1,1378 @@
+{
+  "inverted_index": {
+    "% of Wages": {
+      "type": "string",
+      "ranges": [
+        "B18",
+        "B23",
+        "B27",
+        "B33",
+        "B39",
+        "B43",
+        "B47",
+        "B51"
+      ]
+    },
+    "Marketing Worker Compensation": {
+      "type": "string",
+      "ranges": [
+        "B48",
+        "B52",
+        "B57",
+        "B62"
+      ]
+    },
+    "Headcount": {
+      "type": "string",
+      "ranges": [
+        "B55",
+        "B60",
+        "B79",
+        "B84",
+        "B96",
+        "B104",
+        "B109",
+        "B116",
+        "B121",
+        "B126",
+        "B131",
+        "B152",
+        "B161",
+        "B170",
+        "B179",
+        "B188",
+        "B197",
+        "B206",
+        "B215",
+        "B221",
+        "B237",
+        "B242",
+        "B247",
+        "B252",
+        "B257",
+        "B262",
+        "B297",
+        "B307",
+        "B312",
+        "B320",
+        "B325",
+        "B333",
+        "B341",
+        "B346",
+        "B351",
+        "B356",
+        "B363",
+        "B368",
+        "B373",
+        "B378",
+        "B383"
+      ]
+    },
+    "Cost Per Head": {
+      "type": "string",
+      "ranges": [
+        "B56",
+        "B61",
+        "B80",
+        "B85",
+        "B97",
+        "B105",
+        "B110",
+        "B117",
+        "B122",
+        "B127",
+        "B132",
+        "B153",
+        "B162",
+        "B171",
+        "B180",
+        "B189",
+        "B198",
+        "B207",
+        "B216",
+        "B238",
+        "B243",
+        "B248",
+        "B253",
+        "B258",
+        "B263",
+        "B298",
+        "B308",
+        "B313",
+        "B321",
+        "B326",
+        "B334",
+        "B342",
+        "B347",
+        "B352",
+        "B357",
+        "B364",
+        "B369",
+        "B374",
+        "B379",
+        "B384"
+      ]
+    },
+    "2-Mo Lead Bookings": {
+      "type": "string",
+      "ranges": [
+        "B269",
+        "B286"
+      ]
+    },
+    "$ Spend to 2-Mo Lead Bookings": {
+      "type": "string",
+      "ranges": [
+        "B270",
+        "B287"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Marketing",
+    "format_ranges": [
+      {
+        "range": "B2",
+        "type": "string",
+        "value": "AlphaSense, Inc."
+      },
+      {
+        "range": "B3",
+        "type": "string",
+        "value": "Operating Expenses Reorganization"
+      },
+      {
+        "range": "E3:H3",
+        "type": "number"
+      },
+      {
+        "range": "I3:Q3",
+        "type": "number"
+      },
+      {
+        "range": "T3:FS3",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "B4",
+        "type": "string",
+        "value": "1 - Base - $25mm"
+      },
+      {
+        "range": "A6",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B6",
+        "type": "string",
+        "value": "Marketing Operating Expenses Summary"
+      },
+      {
+        "range": "B8",
+        "type": "string",
+        "value": "Total Marketing Expense"
+      },
+      {
+        "range": "I8:Q8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A10",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B10",
+        "type": "string",
+        "value": "Total Marketing People Costs"
+      },
+      {
+        "range": "I10:Q10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B13",
+        "type": "string",
+        "value": "Wages"
+      },
+      {
+        "range": "B14",
+        "type": "string",
+        "value": "Marketing"
+      },
+      {
+        "range": "I14:Q14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B15",
+        "type": "string",
+        "value": "Marketing Wages"
+      },
+      {
+        "range": "I15:Q15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B17",
+        "type": "string",
+        "value": "Salaries Working Abroad"
+      },
+      {
+        "range": "B19",
+        "type": "string",
+        "value": "Marketing Salaries Working Abroad"
+      },
+      {
+        "range": "I19:Q19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B22",
+        "type": "string",
+        "value": "Holiday Pay"
+      },
+      {
+        "range": "B24",
+        "type": "string",
+        "value": "Marketing Holiday Pay"
+      },
+      {
+        "range": "I24:Q24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B26",
+        "type": "string",
+        "value": "Additional Holiday Pay"
+      },
+      {
+        "range": "B28",
+        "type": "string",
+        "value": "Marketing Additional Holiday Pay"
+      },
+      {
+        "range": "I28:Q28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B32",
+        "type": "string",
+        "value": "Sick Leave"
+      },
+      {
+        "range": "B34",
+        "type": "string",
+        "value": "Marketing Sick Leave"
+      },
+      {
+        "range": "I34:Q34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B36",
+        "type": "string",
+        "value": "Commission Expense"
+      },
+      {
+        "range": "I36:Q36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B38",
+        "type": "string",
+        "value": "Bonus"
+      },
+      {
+        "range": "B40",
+        "type": "string",
+        "value": "Marketing Bonus"
+      },
+      {
+        "range": "I40:Q40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J41:Q41",
+        "type": "number"
+      },
+      {
+        "range": "B42",
+        "type": "string",
+        "value": "Benefits"
+      },
+      {
+        "range": "B44",
+        "type": "string",
+        "value": "Marketing Benefits"
+      },
+      {
+        "range": "I44:Q44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B46",
+        "type": "string",
+        "value": "Work Compensation"
+      },
+      {
+        "range": "I48:Q48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B50",
+        "type": "string",
+        "value": "Payroll Taxes"
+      },
+      {
+        "range": "I52:Q52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B54",
+        "type": "string",
+        "value": "Finish Side Costs"
+      },
+      {
+        "range": "I57:Q57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B59",
+        "type": "string",
+        "value": "Share Based Compensation"
+      },
+      {
+        "range": "I62:Q62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B64",
+        "type": "string",
+        "value": "Recruiting Fees"
+      },
+      {
+        "range": "B81",
+        "type": "string",
+        "value": "Marketing Recruiting Fees"
+      },
+      {
+        "range": "I81:Q81",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B83",
+        "type": "string",
+        "value": "Relocation"
+      },
+      {
+        "range": "B86",
+        "type": "string",
+        "value": "Marketing Relocation"
+      },
+      {
+        "range": "I86:Q86",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B88",
+        "type": "string",
+        "value": "Contractors"
+      },
+      {
+        "range": "B89",
+        "type": "string",
+        "value": "Number of Interns"
+      },
+      {
+        "range": "B90",
+        "type": "string",
+        "value": "Cost Per Intern"
+      },
+      {
+        "range": "B91",
+        "type": "string",
+        "value": "Contractor Cost"
+      },
+      {
+        "range": "B92",
+        "type": "string",
+        "value": "Marketing Contractors"
+      },
+      {
+        "range": "I92:Q92",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B95",
+        "type": "string",
+        "value": "Outsourced R&D"
+      },
+      {
+        "range": "B98",
+        "type": "string",
+        "value": "Marketing Outsourced R&D"
+      },
+      {
+        "range": "I98:Q98",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B100",
+        "type": "string",
+        "value": "Capitalized Wages"
+      },
+      {
+        "range": "B101",
+        "type": "string",
+        "value": "Marketing Capitalized Wages"
+      },
+      {
+        "range": "B103",
+        "type": "string",
+        "value": "Capitalized Outsourced R&D"
+      },
+      {
+        "range": "B106",
+        "type": "string",
+        "value": "Marketing Capitalized Outsourced R&D"
+      },
+      {
+        "range": "I106:Q106",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B108",
+        "type": "string",
+        "value": "Capitalized R&D"
+      },
+      {
+        "range": "B111",
+        "type": "string",
+        "value": "Marketing Capitalized R&D"
+      },
+      {
+        "range": "I111:Q111",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A113",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B113",
+        "type": "string",
+        "value": "Total Marketing Other Employee Costs"
+      },
+      {
+        "range": "I113:Q113",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B115",
+        "type": "string",
+        "value": "Celluar Phone Service"
+      },
+      {
+        "range": "B118",
+        "type": "string",
+        "value": "Marketing Celluar Phone Service"
+      },
+      {
+        "range": "I118:Q118",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B120",
+        "type": "string",
+        "value": "Home Internet Service"
+      },
+      {
+        "range": "B123",
+        "type": "string",
+        "value": "Marketing Home Internet Service"
+      },
+      {
+        "range": "I123:Q123",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B125",
+        "type": "string",
+        "value": "Home Office Phone"
+      },
+      {
+        "range": "B128",
+        "type": "string",
+        "value": "Marketing Home Office Phone"
+      },
+      {
+        "range": "I128:Q128",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B130",
+        "type": "string",
+        "value": "Home Office"
+      },
+      {
+        "range": "B133",
+        "type": "string",
+        "value": "Marketing Home Office"
+      },
+      {
+        "range": "I133:Q133",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B137",
+        "type": "string",
+        "value": "Membership Dues"
+      },
+      {
+        "range": "B138",
+        "type": "string",
+        "value": "Marketing Membership Dues"
+      },
+      {
+        "range": "I138:Q138",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B142",
+        "type": "string",
+        "value": "Subscriptions"
+      },
+      {
+        "range": "B143",
+        "type": "string",
+        "value": "Marketing Subscriptions"
+      },
+      {
+        "range": "I143:Q143",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A145",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B145",
+        "type": "string",
+        "value": "Total Marketing Travel Costs"
+      },
+      {
+        "range": "I145:Q145",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B147",
+        "type": "string",
+        "value": "Adjustment"
+      },
+      {
+        "range": "B151",
+        "type": "string",
+        "value": "Airfare/Train"
+      },
+      {
+        "range": "B154",
+        "type": "string",
+        "value": "Marketing Airfare/Train"
+      },
+      {
+        "range": "I154:Q154",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B160",
+        "type": "string",
+        "value": "Auto/Cab"
+      },
+      {
+        "range": "B163",
+        "type": "string",
+        "value": "Marketing Auto/Cab"
+      },
+      {
+        "range": "I163:Q163",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B169",
+        "type": "string",
+        "value": "Mileage"
+      },
+      {
+        "range": "B172",
+        "type": "string",
+        "value": "Marketing Mileage"
+      },
+      {
+        "range": "I172:Q172",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B178",
+        "type": "string",
+        "value": "Lodging"
+      },
+      {
+        "range": "B181",
+        "type": "string",
+        "value": "Marketing Lodging"
+      },
+      {
+        "range": "I181:Q181",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B187",
+        "type": "string",
+        "value": "Travel Internet"
+      },
+      {
+        "range": "B190",
+        "type": "string",
+        "value": "Marketing Travel Internet"
+      },
+      {
+        "range": "I190:Q190",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B196",
+        "type": "string",
+        "value": "Employee Meals / Entertainment"
+      },
+      {
+        "range": "B199",
+        "type": "string",
+        "value": "Marketing Employee Meals / Entertainment"
+      },
+      {
+        "range": "I199:Q199",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B205",
+        "type": "string",
+        "value": "Daily Meal Allowance When Abroad"
+      },
+      {
+        "range": "B208",
+        "type": "string",
+        "value": "Content Daily Mail Allowance When Abroad"
+      },
+      {
+        "range": "B214",
+        "type": "string",
+        "value": "Business Meals / Entertainment"
+      },
+      {
+        "range": "B217",
+        "type": "string",
+        "value": "Marketing Business Meals / Entertainment"
+      },
+      {
+        "range": "I217:Q217",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B220",
+        "type": "string",
+        "value": "Internal Events"
+      },
+      {
+        "range": "B222",
+        "type": "string",
+        "value": "SKO Cost Per Head"
+      },
+      {
+        "range": "B223",
+        "type": "string",
+        "value": "Total SKO Cost"
+      },
+      {
+        "range": "B224",
+        "type": "string",
+        "value": "President's Club Cost Per Head"
+      },
+      {
+        "range": "B225",
+        "type": "string",
+        "value": "% of Marketing Attendees"
+      },
+      {
+        "range": "B226",
+        "type": "string",
+        "value": "Total Presiden's Club Cost"
+      },
+      {
+        "range": "B227",
+        "type": "string",
+        "value": "Marketing Internal Events"
+      },
+      {
+        "range": "I227:Q227",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A229",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B229",
+        "type": "string",
+        "value": "Total Marketing Facility Costs"
+      },
+      {
+        "range": "I229:Q229",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B231",
+        "type": "string",
+        "value": "Rent"
+      },
+      {
+        "range": "B232",
+        "type": "string",
+        "value": "% of Headcount"
+      },
+      {
+        "range": "B233",
+        "type": "string",
+        "value": "Monthly Rent"
+      },
+      {
+        "range": "B234",
+        "type": "string",
+        "value": "Marketing Rent"
+      },
+      {
+        "range": "I234:Q234",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B236",
+        "type": "string",
+        "value": "CAM"
+      },
+      {
+        "range": "B239",
+        "type": "string",
+        "value": "Marketing CAM"
+      },
+      {
+        "range": "I239:Q239",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B241",
+        "type": "string",
+        "value": "Repairs & Maintenance"
+      },
+      {
+        "range": "B244",
+        "type": "string",
+        "value": "Marketing Repairs & Maintenance"
+      },
+      {
+        "range": "I244:Q244",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B246",
+        "type": "string",
+        "value": "Amortization of Leasehold Improvements"
+      },
+      {
+        "range": "B249",
+        "type": "string",
+        "value": "Marketing Amortization of Leasehold Improvements"
+      },
+      {
+        "range": "I249:Q249",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B251",
+        "type": "string",
+        "value": "Utilities"
+      },
+      {
+        "range": "B254",
+        "type": "string",
+        "value": "Marketing Utilities"
+      },
+      {
+        "range": "I254:Q254",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B256",
+        "type": "string",
+        "value": "Telephone"
+      },
+      {
+        "range": "B259",
+        "type": "string",
+        "value": "Marketing Telephone"
+      },
+      {
+        "range": "I259:Q259",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B261",
+        "type": "string",
+        "value": "Computer & Internet"
+      },
+      {
+        "range": "B264",
+        "type": "string",
+        "value": "Marketing Computer & Internet"
+      },
+      {
+        "range": "I264:Q264",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A266",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B266",
+        "type": "string",
+        "value": "Total Marketing Marketing"
+      },
+      {
+        "range": "I266:Q266",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B268",
+        "type": "string",
+        "value": "Advertising & Promotion"
+      },
+      {
+        "range": "B271",
+        "type": "string",
+        "value": "Marketing Advertising & Promotion"
+      },
+      {
+        "range": "I271:Q271",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B273",
+        "type": "string",
+        "value": "Other Marketing"
+      },
+      {
+        "range": "B274",
+        "type": "string",
+        "value": "Marketing Other Marketing"
+      },
+      {
+        "range": "I274:Q274",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B276",
+        "type": "string",
+        "value": "Omarketing Research"
+      },
+      {
+        "range": "B277",
+        "type": "string",
+        "value": "Marketing Omarketing Research"
+      },
+      {
+        "range": "I277:Q277",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B279",
+        "type": "string",
+        "value": "Marketing Events"
+      },
+      {
+        "range": "B280",
+        "type": "string",
+        "value": "Marketing Marketing Events"
+      },
+      {
+        "range": "I280:Q280",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B282",
+        "type": "string",
+        "value": "Public Relations"
+      },
+      {
+        "range": "B283",
+        "type": "string",
+        "value": "Marketing Public Relations"
+      },
+      {
+        "range": "I283:Q283",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B285",
+        "type": "string",
+        "value": "Paid Search"
+      },
+      {
+        "range": "B288",
+        "type": "string",
+        "value": "Marketing Paid Search"
+      },
+      {
+        "range": "I288:Q288",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B290",
+        "type": "string",
+        "value": "Paid Social"
+      },
+      {
+        "range": "B291",
+        "type": "string",
+        "value": "Marketing Paid Social"
+      },
+      {
+        "range": "I291:Q291",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B293",
+        "type": "string",
+        "value": "Paid Display"
+      },
+      {
+        "range": "B294",
+        "type": "string",
+        "value": "Marketing Paid Display"
+      },
+      {
+        "range": "I294:Q294",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B296",
+        "type": "string",
+        "value": "Paid SWAG"
+      },
+      {
+        "range": "B299",
+        "type": "string",
+        "value": "Marketing SWAG"
+      },
+      {
+        "range": "I299:Q299",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A301",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B301",
+        "type": "string",
+        "value": "Total Marketing General & Admin"
+      },
+      {
+        "range": "I301:Q301",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B303",
+        "type": "string",
+        "value": "Insurance"
+      },
+      {
+        "range": "B304",
+        "type": "string",
+        "value": "Marketing Insurance"
+      },
+      {
+        "range": "I304:Q304",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B306",
+        "type": "string",
+        "value": "Payroll & Benefit Admin"
+      },
+      {
+        "range": "B309",
+        "type": "string",
+        "value": "Marketing Payroll & Benefit Admin"
+      },
+      {
+        "range": "I309:Q309",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B311",
+        "type": "string",
+        "value": "Postage & Delivery"
+      },
+      {
+        "range": "B314",
+        "type": "string",
+        "value": "Marketing Postage & Delivery"
+      },
+      {
+        "range": "I314:Q314",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B316",
+        "type": "string",
+        "value": "Conferences & Meetings"
+      },
+      {
+        "range": "B317",
+        "type": "string",
+        "value": "Marketing Conference & Meetings"
+      },
+      {
+        "range": "I317:Q317",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B319",
+        "type": "string",
+        "value": "Furniture"
+      },
+      {
+        "range": "B322",
+        "type": "string",
+        "value": "Marketing Furniture"
+      },
+      {
+        "range": "I322:Q322",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B324",
+        "type": "string",
+        "value": "Hardware"
+      },
+      {
+        "range": "B327",
+        "type": "string",
+        "value": "Marketing Hardware"
+      },
+      {
+        "range": "I327:Q327",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B329",
+        "type": "string",
+        "value": "Software"
+      },
+      {
+        "range": "B330",
+        "type": "string",
+        "value": "Marketing Software"
+      },
+      {
+        "range": "I330:Q330",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B332",
+        "type": "string",
+        "value": "Office Supplies"
+      },
+      {
+        "range": "B335",
+        "type": "string",
+        "value": "Marketing Office Supplies"
+      },
+      {
+        "range": "I335:Q335",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B337",
+        "type": "string",
+        "value": "Audit & Tax"
+      },
+      {
+        "range": "B338",
+        "type": "string",
+        "value": "Marketing Audit & Tax"
+      },
+      {
+        "range": "I338:Q338",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B340",
+        "type": "string",
+        "value": "Bank Fees"
+      },
+      {
+        "range": "B343",
+        "type": "string",
+        "value": "Marketing Bank Fees"
+      },
+      {
+        "range": "I343:Q343",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B345",
+        "type": "string",
+        "value": "Professional Services"
+      },
+      {
+        "range": "B348",
+        "type": "string",
+        "value": "Marketing Professional Services"
+      },
+      {
+        "range": "I348:Q348",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B350",
+        "type": "string",
+        "value": "Fundraising"
+      },
+      {
+        "range": "B353",
+        "type": "string",
+        "value": "Marketing Fundraising"
+      },
+      {
+        "range": "I353:Q353",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B355",
+        "type": "string",
+        "value": "Miscellaneous"
+      },
+      {
+        "range": "B358",
+        "type": "string",
+        "value": "Marketing Miscellaneous"
+      },
+      {
+        "range": "I358:Q358",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A360",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B360",
+        "type": "string",
+        "value": "Total Marketing Other Costs"
+      },
+      {
+        "range": "I360:Q360",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B362",
+        "type": "string",
+        "value": "Legal Fees"
+      },
+      {
+        "range": "B365",
+        "type": "string",
+        "value": "Marketing Legal Fees"
+      },
+      {
+        "range": "I365:Q365",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B367",
+        "type": "string",
+        "value": "DataFeeds"
+      },
+      {
+        "range": "B370",
+        "type": "string",
+        "value": "Marketing DataFeeds"
+      },
+      {
+        "range": "I370:Q370",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B372",
+        "type": "string",
+        "value": "Web Service"
+      },
+      {
+        "range": "B375",
+        "type": "string",
+        "value": "Marketing Web Service"
+      },
+      {
+        "range": "I375:Q375",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B377",
+        "type": "string",
+        "value": "Penalties"
+      },
+      {
+        "range": "B380",
+        "type": "string",
+        "value": "Marketing Penalties"
+      },
+      {
+        "range": "I380:Q380",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B382",
+        "type": "string",
+        "value": "Bad Debt"
+      },
+      {
+        "range": "B385",
+        "type": "string",
+        "value": "Marketing Bad Debt"
+      },
+      {
+        "range": "I385:Q385",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 1636.15,
+      "cells_analyzed": 987,
+      "total_ranges": 339,
+      "format_counts": {
+        "string": 260,
+        "number": 78,
+        "date": 1
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T11:02:25.448974Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2015-01-31",
+        "pattern": "Monthly series from 2015-01 to 2027-12"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 6,
+    "entries_moved_to_index": 97,
+    "entries_remaining": 242,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 19973,
+    "compressed_size_bytes": 15506,
+    "inverted_index_size_bytes": 958,
+    "compressed_data_size_bytes": 14548,
+    "compression_ratio": 0.776,
+    "space_saved_bytes": 4467,
+    "space_saved_percent": 22.4
+  }
+}

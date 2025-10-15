@@ -1,0 +1,2701 @@
+{
+  "inverted_index": {
+    "Actual": {
+      "type": "string",
+      "ranges": [
+        "S2:BV2"
+      ]
+    },
+    "Revenue": {
+      "type": "string",
+      "ranges": [
+        "A5",
+        "E6:E14",
+        "E131:E132",
+        "E142"
+      ]
+    },
+    "IDC": {
+      "type": "string",
+      "ranges": [
+        "D12",
+        "D25"
+      ]
+    },
+    "COS": {
+      "type": "string",
+      "ranges": [
+        "E18",
+        "E21:E23",
+        "E25:E26"
+      ]
+    },
+    "Expense": {
+      "type": "string",
+      "ranges": [
+        "E35:E40",
+        "E43:E46",
+        "E48:E52",
+        "E56:E61",
+        "E65:E72",
+        "E77:E82",
+        "E86",
+        "E88:E90",
+        "E98:E108",
+        "E114",
+        "E118:E120",
+        "E126:E127",
+        "E136:E138",
+        "E143",
+        "E148:E149"
+      ]
+    },
+    "Commission": {
+      "type": "string",
+      "ranges": [
+        "D40",
+        "D160"
+      ]
+    },
+    "Bonus": {
+      "type": "string",
+      "ranges": [
+        "D43",
+        "D161"
+      ]
+    },
+    "Benefits": {
+      "type": "string",
+      "ranges": [
+        "D44",
+        "D162"
+      ]
+    },
+    "Recruiting Fees": {
+      "type": "string",
+      "ranges": [
+        "D48",
+        "D164"
+      ]
+    },
+    "Relocation": {
+      "type": "string",
+      "ranges": [
+        "D49",
+        "D165"
+      ]
+    },
+    "Contractors": {
+      "type": "string",
+      "ranges": [
+        "D50",
+        "D166"
+      ]
+    },
+    "Outsourced R&D": {
+      "type": "string",
+      "ranges": [
+        "D51",
+        "D167"
+      ]
+    },
+    "Other Income": {
+      "type": "string",
+      "ranges": [
+        "B130",
+        "D132"
+      ]
+    },
+    "Net Income/(loss)": {
+      "type": "string",
+      "ranges": [
+        "A155",
+        "A157"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Detailed Income Statement",
+    "format_ranges": [
+      {
+        "range": "A1",
+        "type": "string",
+        "value": "Income Statement"
+      },
+      {
+        "range": "A3",
+        "type": "string",
+        "value": "Account Group"
+      },
+      {
+        "range": "C3",
+        "type": "string",
+        "value": "Account Number"
+      },
+      {
+        "range": "D3",
+        "type": "string",
+        "value": "Account Name"
+      },
+      {
+        "range": "E3",
+        "type": "string",
+        "value": "Account Type"
+      },
+      {
+        "range": "D6",
+        "type": "string",
+        "value": "PRM Single Region"
+      },
+      {
+        "range": "C6",
+        "type": "number"
+      },
+      {
+        "range": "F6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H6:BV6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D7",
+        "type": "string",
+        "value": "PRM Global"
+      },
+      {
+        "range": "C7",
+        "type": "number"
+      },
+      {
+        "range": "F7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H7:BV7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D8",
+        "type": "string",
+        "value": "BRM Single Region"
+      },
+      {
+        "range": "C8",
+        "type": "number"
+      },
+      {
+        "range": "F8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H8:BV8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D9",
+        "type": "string",
+        "value": "BRM Global"
+      },
+      {
+        "range": "C9",
+        "type": "number"
+      },
+      {
+        "range": "F9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H9:BV9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D10",
+        "type": "string",
+        "value": "RMS"
+      },
+      {
+        "range": "C10",
+        "type": "number"
+      },
+      {
+        "range": "F10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H10:BV10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D11",
+        "type": "string",
+        "value": "Dow Jones News"
+      },
+      {
+        "range": "C11",
+        "type": "number"
+      },
+      {
+        "range": "F11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H11:BV11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C12",
+        "type": "number"
+      },
+      {
+        "range": "F12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H12:BV12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D13",
+        "type": "string",
+        "value": "Service Revenue"
+      },
+      {
+        "range": "C13",
+        "type": "number"
+      },
+      {
+        "range": "F13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H13:Y13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BM13:BV13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D14",
+        "type": "string",
+        "value": "License Revenue"
+      },
+      {
+        "range": "C14",
+        "type": "number"
+      },
+      {
+        "range": "F14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H14:Y14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A15",
+        "type": "string",
+        "value": "Total Revenue"
+      },
+      {
+        "range": "F15:BV15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A17",
+        "type": "string",
+        "value": "Cost of Service"
+      },
+      {
+        "range": "D18",
+        "type": "string",
+        "value": "Broker Research"
+      },
+      {
+        "range": "C18",
+        "type": "number"
+      },
+      {
+        "range": "F18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H18:BV18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D19",
+        "type": "string",
+        "value": "After Market Research"
+      },
+      {
+        "range": "C19",
+        "type": "number"
+      },
+      {
+        "range": "G19:R19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S19:BV19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D20",
+        "type": "string",
+        "value": "Embargoed Research - FactSet"
+      },
+      {
+        "range": "C20",
+        "type": "number"
+      },
+      {
+        "range": "G20:R20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BC20:BV20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D21",
+        "type": "string",
+        "value": "International Filings"
+      },
+      {
+        "range": "C21",
+        "type": "number"
+      },
+      {
+        "range": "F21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G21:R21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S21:BV21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D22",
+        "type": "string",
+        "value": "Transcripts"
+      },
+      {
+        "range": "C22",
+        "type": "number"
+      },
+      {
+        "range": "F22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G22:R22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S22:BV22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D23",
+        "type": "string",
+        "value": "News"
+      },
+      {
+        "range": "C23",
+        "type": "number"
+      },
+      {
+        "range": "F23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G23:R23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S23:BV23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D24",
+        "type": "string",
+        "value": "News & Journals"
+      },
+      {
+        "range": "C24",
+        "type": "number"
+      },
+      {
+        "range": "G24:R24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S24:BV24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C25",
+        "type": "number"
+      },
+      {
+        "range": "F25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G25:R25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S25:BV25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D26",
+        "type": "string",
+        "value": "Web Service - Production"
+      },
+      {
+        "range": "C26",
+        "type": "number"
+      },
+      {
+        "range": "F26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H26:BV26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A27",
+        "type": "string",
+        "value": "Total COS"
+      },
+      {
+        "range": "F27:BV27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A28",
+        "type": "string",
+        "value": "Margin"
+      },
+      {
+        "range": "G28:BV28",
+        "type": "number"
+      },
+      {
+        "range": "A29",
+        "type": "string",
+        "value": "Gross Profit"
+      },
+      {
+        "range": "F29:BV29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A33",
+        "type": "string",
+        "value": "Expenses"
+      },
+      {
+        "range": "B34",
+        "type": "string",
+        "value": "People"
+      },
+      {
+        "range": "D35",
+        "type": "string",
+        "value": "Wages"
+      },
+      {
+        "range": "C35",
+        "type": "number"
+      },
+      {
+        "range": "F35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H35:BV35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D36",
+        "type": "string",
+        "value": "Salaries Working Abroad"
+      },
+      {
+        "range": "C36",
+        "type": "number"
+      },
+      {
+        "range": "F36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H36:BV36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D37",
+        "type": "string",
+        "value": "Holiday Pay"
+      },
+      {
+        "range": "C37",
+        "type": "number"
+      },
+      {
+        "range": "F37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H37:BV37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D38",
+        "type": "string",
+        "value": "Additional Holiday Pay"
+      },
+      {
+        "range": "C38",
+        "type": "number"
+      },
+      {
+        "range": "F38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H38:BV38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D39",
+        "type": "string",
+        "value": "Sick Leave"
+      },
+      {
+        "range": "C39",
+        "type": "number"
+      },
+      {
+        "range": "F39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H39:BV39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C40",
+        "type": "number"
+      },
+      {
+        "range": "F40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H40:BV40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D41",
+        "type": "string",
+        "value": "Sales Bonus"
+      },
+      {
+        "range": "C41",
+        "type": "number"
+      },
+      {
+        "range": "G41:BP41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BQ41:BV41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D42",
+        "type": "string",
+        "value": "Stock Based Compensation"
+      },
+      {
+        "range": "C42",
+        "type": "number"
+      },
+      {
+        "range": "G42:R42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S42:BV42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C43",
+        "type": "number"
+      },
+      {
+        "range": "F43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H43:BV43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C44",
+        "type": "number"
+      },
+      {
+        "range": "F44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H44:BV44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D45",
+        "type": "string",
+        "value": "Worker Compensation"
+      },
+      {
+        "range": "C45",
+        "type": "number"
+      },
+      {
+        "range": "F45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H45:BV45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D46",
+        "type": "string",
+        "value": "Payroll Taxes"
+      },
+      {
+        "range": "C46",
+        "type": "number"
+      },
+      {
+        "range": "F46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H46:BV46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D47",
+        "type": "string",
+        "value": "Finnish Side Costs"
+      },
+      {
+        "range": "C47",
+        "type": "number"
+      },
+      {
+        "range": "G47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H47:BV47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C48",
+        "type": "number"
+      },
+      {
+        "range": "F48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H48:BV48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C49",
+        "type": "number"
+      },
+      {
+        "range": "F49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G49:R49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S49:BV49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C50",
+        "type": "number"
+      },
+      {
+        "range": "F50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G50:R50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S50:BV50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C51",
+        "type": "number"
+      },
+      {
+        "range": "F51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G51:R51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S51:BV51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D52",
+        "type": "string",
+        "value": "Capitalized Wages"
+      },
+      {
+        "range": "C52",
+        "type": "number"
+      },
+      {
+        "range": "F52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H52:BV52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B53",
+        "type": "string",
+        "value": "Total People Costs"
+      },
+      {
+        "range": "F53:BV53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B55",
+        "type": "string",
+        "value": "Other Employee Costs"
+      },
+      {
+        "range": "D56",
+        "type": "string",
+        "value": "Cellular Phone Service"
+      },
+      {
+        "range": "C56",
+        "type": "number"
+      },
+      {
+        "range": "F56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H56:BV56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D57",
+        "type": "string",
+        "value": "Home Internet Service"
+      },
+      {
+        "range": "C57",
+        "type": "number"
+      },
+      {
+        "range": "F57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H57:BV57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D58",
+        "type": "string",
+        "value": "Home Office Phone"
+      },
+      {
+        "range": "C58",
+        "type": "number"
+      },
+      {
+        "range": "F58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H58:BV58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D59",
+        "type": "string",
+        "value": "Home Office"
+      },
+      {
+        "range": "C59",
+        "type": "number"
+      },
+      {
+        "range": "F59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G59:R59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S59:BV59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D60",
+        "type": "string",
+        "value": "Membership Dues"
+      },
+      {
+        "range": "C60",
+        "type": "number"
+      },
+      {
+        "range": "F60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H60:BV60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D61",
+        "type": "string",
+        "value": "Subscriptions"
+      },
+      {
+        "range": "C61",
+        "type": "number"
+      },
+      {
+        "range": "F61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G61:R61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S61:BV61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B62",
+        "type": "string",
+        "value": "Total Other Employee Costs"
+      },
+      {
+        "range": "F62:BV62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B64",
+        "type": "string",
+        "value": "Travel"
+      },
+      {
+        "range": "D65",
+        "type": "string",
+        "value": "Airfare/Train"
+      },
+      {
+        "range": "C65",
+        "type": "number"
+      },
+      {
+        "range": "F65",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G65",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H65:BV65",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D66",
+        "type": "string",
+        "value": "Auto/Cab"
+      },
+      {
+        "range": "C66",
+        "type": "number"
+      },
+      {
+        "range": "F66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H66:BV66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D67",
+        "type": "string",
+        "value": "Mileage"
+      },
+      {
+        "range": "C67",
+        "type": "number"
+      },
+      {
+        "range": "F67",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G67",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H67:BV67",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D68",
+        "type": "string",
+        "value": "Lodging"
+      },
+      {
+        "range": "C68",
+        "type": "number"
+      },
+      {
+        "range": "F68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H68:BV68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D69",
+        "type": "string",
+        "value": "Travel Internet"
+      },
+      {
+        "range": "C69",
+        "type": "number"
+      },
+      {
+        "range": "F69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H69:BV69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D70",
+        "type": "string",
+        "value": "Employee Meals"
+      },
+      {
+        "range": "C70",
+        "type": "number"
+      },
+      {
+        "range": "F70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H70:BV70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D71",
+        "type": "string",
+        "value": "Daily Meal Allowance When Abroad"
+      },
+      {
+        "range": "C71",
+        "type": "number"
+      },
+      {
+        "range": "F71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H71:BV71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D72",
+        "type": "string",
+        "value": "Business Meals"
+      },
+      {
+        "range": "C72",
+        "type": "number"
+      },
+      {
+        "range": "F72",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G72",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H72:BV72",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D73",
+        "type": "string",
+        "value": "Internal Events"
+      },
+      {
+        "range": "C73",
+        "type": "number"
+      },
+      {
+        "range": "BC73:BV73",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B74",
+        "type": "string",
+        "value": "Total Travel Costs"
+      },
+      {
+        "range": "F74:BV74",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B76",
+        "type": "string",
+        "value": "Facilities Costs"
+      },
+      {
+        "range": "D77",
+        "type": "string",
+        "value": "Rent "
+      },
+      {
+        "range": "C77",
+        "type": "number"
+      },
+      {
+        "range": "F77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H77:BV77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D78",
+        "type": "string",
+        "value": "CAM "
+      },
+      {
+        "range": "C78",
+        "type": "number"
+      },
+      {
+        "range": "F78",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G78",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H78:BV78",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D79",
+        "type": "string",
+        "value": "Repairs & Maintenance"
+      },
+      {
+        "range": "C79",
+        "type": "number"
+      },
+      {
+        "range": "F79",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G79:R79",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S79:BV79",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D80",
+        "type": "string",
+        "value": "Utilities"
+      },
+      {
+        "range": "C80",
+        "type": "number"
+      },
+      {
+        "range": "F80",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G80:R80",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S80:BV80",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D81",
+        "type": "string",
+        "value": "Telephone"
+      },
+      {
+        "range": "C81",
+        "type": "number"
+      },
+      {
+        "range": "F81",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G81:R81",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S81:BV81",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D82",
+        "type": "string",
+        "value": "Computer & Internet"
+      },
+      {
+        "range": "C82",
+        "type": "number"
+      },
+      {
+        "range": "F82",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G82:R82",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S82:BV82",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B83",
+        "type": "string",
+        "value": "Total Facilities Costs"
+      },
+      {
+        "range": "F83:BV83",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B85",
+        "type": "string",
+        "value": "Marketing"
+      },
+      {
+        "range": "D86",
+        "type": "string",
+        "value": "Advertising & Promotion"
+      },
+      {
+        "range": "C86",
+        "type": "number"
+      },
+      {
+        "range": "F86",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G86",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H86:BV86",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D87",
+        "type": "string",
+        "value": "Other Marketing"
+      },
+      {
+        "range": "C87",
+        "type": "number"
+      },
+      {
+        "range": "BC87:BV87",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D88",
+        "type": "string",
+        "value": "Marketing Research"
+      },
+      {
+        "range": "C88",
+        "type": "number"
+      },
+      {
+        "range": "F88",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G88",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H88:BV88",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D89",
+        "type": "string",
+        "value": "Marketing Events"
+      },
+      {
+        "range": "C89",
+        "type": "number"
+      },
+      {
+        "range": "F89",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G89",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H89:BV89",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D90",
+        "type": "string",
+        "value": "Public Relations"
+      },
+      {
+        "range": "C90",
+        "type": "number"
+      },
+      {
+        "range": "F90",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G90",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H90:BV90",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D91",
+        "type": "string",
+        "value": "Paid Search"
+      },
+      {
+        "range": "C91",
+        "type": "number"
+      },
+      {
+        "range": "BC91:BV91",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D92",
+        "type": "string",
+        "value": "Paid Social"
+      },
+      {
+        "range": "C92",
+        "type": "number"
+      },
+      {
+        "range": "BC92:BV92",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D93",
+        "type": "string",
+        "value": "Paid Display"
+      },
+      {
+        "range": "C93",
+        "type": "number"
+      },
+      {
+        "range": "BC93:BV93",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D94",
+        "type": "string",
+        "value": "SWAG"
+      },
+      {
+        "range": "C94",
+        "type": "number"
+      },
+      {
+        "range": "BC94:BV94",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B95",
+        "type": "string",
+        "value": "Total Marketing Costs"
+      },
+      {
+        "range": "F95:BV95",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B97",
+        "type": "string",
+        "value": "General and Administrative"
+      },
+      {
+        "range": "D98",
+        "type": "string",
+        "value": "Insurance"
+      },
+      {
+        "range": "C98",
+        "type": "number"
+      },
+      {
+        "range": "F98",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G98",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H98:BV98",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D99",
+        "type": "string",
+        "value": "Payroll & Benefit Admin"
+      },
+      {
+        "range": "C99",
+        "type": "number"
+      },
+      {
+        "range": "F99",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G99",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H99:BV99",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D100",
+        "type": "string",
+        "value": "Postage & Delivery"
+      },
+      {
+        "range": "C100",
+        "type": "number"
+      },
+      {
+        "range": "F100",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G100",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H100:BV100",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D101",
+        "type": "string",
+        "value": "Conferences & Meetings"
+      },
+      {
+        "range": "C101",
+        "type": "number"
+      },
+      {
+        "range": "F101",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G101",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H101:BV101",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D102",
+        "type": "string",
+        "value": "Furniture"
+      },
+      {
+        "range": "C102",
+        "type": "number"
+      },
+      {
+        "range": "F102",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G102",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H102:BV102",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D103",
+        "type": "string",
+        "value": "Hardware"
+      },
+      {
+        "range": "C103",
+        "type": "number"
+      },
+      {
+        "range": "F103",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G103",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H103:BV103",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D104",
+        "type": "string",
+        "value": "Software"
+      },
+      {
+        "range": "C104",
+        "type": "number"
+      },
+      {
+        "range": "F104",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G104",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H104:BV104",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D105",
+        "type": "string",
+        "value": "Office Supplies"
+      },
+      {
+        "range": "C105",
+        "type": "number"
+      },
+      {
+        "range": "F105",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G105",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H105:BV105",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D106",
+        "type": "string",
+        "value": "Audit & Tax"
+      },
+      {
+        "range": "C106",
+        "type": "number"
+      },
+      {
+        "range": "F106",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G106",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H106:BV106",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D107",
+        "type": "string",
+        "value": "Bank Fees"
+      },
+      {
+        "range": "C107",
+        "type": "number"
+      },
+      {
+        "range": "F107",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G107",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H107:BV107",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D108",
+        "type": "string",
+        "value": "Professional Services"
+      },
+      {
+        "range": "C108",
+        "type": "number"
+      },
+      {
+        "range": "F108",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G108",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H108:BV108",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D109",
+        "type": "string",
+        "value": "Fundraising fees"
+      },
+      {
+        "range": "C109",
+        "type": "number"
+      },
+      {
+        "range": "BC109:BV109",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D110",
+        "type": "string",
+        "value": "Miscellaneous"
+      },
+      {
+        "range": "C110",
+        "type": "number"
+      },
+      {
+        "range": "G110",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H110:BV110",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B111",
+        "type": "string",
+        "value": "Total General & Administrative Costs"
+      },
+      {
+        "range": "F111:BV111",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B113",
+        "type": "string",
+        "value": "Legal"
+      },
+      {
+        "range": "D114",
+        "type": "string",
+        "value": "Legal Fees"
+      },
+      {
+        "range": "C114",
+        "type": "number"
+      },
+      {
+        "range": "F114",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G114",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H114:BV114",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B115",
+        "type": "string",
+        "value": "Total Legal Costs"
+      },
+      {
+        "range": "F115:BV115",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B117",
+        "type": "string",
+        "value": "Other Costs"
+      },
+      {
+        "range": "D118",
+        "type": "string",
+        "value": "License Expense"
+      },
+      {
+        "range": "C118",
+        "type": "number"
+      },
+      {
+        "range": "F118",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G118",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H118:AV118",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D119",
+        "type": "string",
+        "value": "DataFeeds"
+      },
+      {
+        "range": "C119",
+        "type": "number"
+      },
+      {
+        "range": "F119",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G119",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H119:BV119",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D120",
+        "type": "string",
+        "value": "Web Service"
+      },
+      {
+        "range": "C120",
+        "type": "number"
+      },
+      {
+        "range": "F120",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G120",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H120:BV120",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D121",
+        "type": "string",
+        "value": "Penalties & Settlements"
+      },
+      {
+        "range": "C121",
+        "type": "number"
+      },
+      {
+        "range": "G121",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H121:BV121",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D122",
+        "type": "string",
+        "value": "Bad Debt"
+      },
+      {
+        "range": "C122",
+        "type": "number"
+      },
+      {
+        "range": "G122",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H122:BV122",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B123",
+        "type": "string",
+        "value": "Total Other Costs"
+      },
+      {
+        "range": "F123:BV123",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BK124",
+        "type": "number"
+      },
+      {
+        "range": "B125",
+        "type": "string",
+        "value": "Depreciation & Amortization"
+      },
+      {
+        "range": "D126",
+        "type": "string",
+        "value": "Depreciation Expense"
+      },
+      {
+        "range": "C126",
+        "type": "number"
+      },
+      {
+        "range": "F126",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G126",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H126:BV126",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D127",
+        "type": "string",
+        "value": "Amortization of Capitalized R&D"
+      },
+      {
+        "range": "C127",
+        "type": "number"
+      },
+      {
+        "range": "F127",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G127",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H127:BV127",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B128",
+        "type": "string",
+        "value": "Total Depreciation & Amortization"
+      },
+      {
+        "range": "F128:BV128",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D131",
+        "type": "string",
+        "value": "Subsidy Received"
+      },
+      {
+        "range": "C131",
+        "type": "number"
+      },
+      {
+        "range": "F131",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G131",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H131:BV131",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C132",
+        "type": "number"
+      },
+      {
+        "range": "F132",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G132",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H132:BV132",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B133",
+        "type": "string",
+        "value": "Total Other Income"
+      },
+      {
+        "range": "F133:BV133",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B135",
+        "type": "string",
+        "value": "Taxes"
+      },
+      {
+        "range": "D136",
+        "type": "string",
+        "value": "Income Taxes"
+      },
+      {
+        "range": "C136",
+        "type": "number"
+      },
+      {
+        "range": "F136",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G136",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H136:BV136",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D137",
+        "type": "string",
+        "value": "Other Taxes"
+      },
+      {
+        "range": "C137",
+        "type": "number"
+      },
+      {
+        "range": "F137",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G137",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H137:BV137",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D138",
+        "type": "string",
+        "value": "Other Taxes - Non Deductible"
+      },
+      {
+        "range": "C138",
+        "type": "number"
+      },
+      {
+        "range": "F138",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G138",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H138:BV138",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B139",
+        "type": "string",
+        "value": "Total Taxes"
+      },
+      {
+        "range": "F139:BV139",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B141",
+        "type": "string",
+        "value": "Interest"
+      },
+      {
+        "range": "D142",
+        "type": "string",
+        "value": "Interest Income"
+      },
+      {
+        "range": "C142",
+        "type": "number"
+      },
+      {
+        "range": "F142",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G142",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H142:BV142",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D143",
+        "type": "string",
+        "value": "Interest Expense"
+      },
+      {
+        "range": "C143",
+        "type": "number"
+      },
+      {
+        "range": "F143",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G143",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H143:BV143",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B144",
+        "type": "string",
+        "value": "Interest Net"
+      },
+      {
+        "range": "F144:BV144",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B146",
+        "type": "string",
+        "value": "Other"
+      },
+      {
+        "range": "D147",
+        "type": "string",
+        "value": "Capitalized R&D Costs"
+      },
+      {
+        "range": "C147",
+        "type": "number"
+      },
+      {
+        "range": "G147",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I147:Q147",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S147:AE147",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AP147:BV147",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D148",
+        "type": "string",
+        "value": "Gain/Loss on FX"
+      },
+      {
+        "range": "C148",
+        "type": "number"
+      },
+      {
+        "range": "F148",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G148",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H148:BV148",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D149",
+        "type": "string",
+        "value": "Gain/Loss on Consolidation"
+      },
+      {
+        "range": "C149",
+        "type": "number"
+      },
+      {
+        "range": "F149",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G149:R149",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S149:BV149",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A150",
+        "type": "string",
+        "value": "Intercompany Revenue / (Expense)"
+      },
+      {
+        "range": "G150:R150",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S150:BV150",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B151",
+        "type": "string",
+        "value": "FX Net"
+      },
+      {
+        "range": "F151:BV151",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A153",
+        "type": "string",
+        "value": "Total Expenses"
+      },
+      {
+        "range": "F153:BV153",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F155:BV155",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F157",
+        "type": "number"
+      },
+      {
+        "range": "G157:R157",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "S157:BA157",
+        "type": "number"
+      },
+      {
+        "range": "BB157",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BC157:BS157",
+        "type": "number"
+      },
+      {
+        "range": "D158",
+        "type": "string",
+        "value": "Personnel Cost Breakdown"
+      },
+      {
+        "range": "D159",
+        "type": "string",
+        "value": "Salaries"
+      },
+      {
+        "range": "F159:AM159",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F160:AM160",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F161:AM161",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F162:AM162",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D163",
+        "type": "string",
+        "value": "Payroll Taxes, Worker Comp"
+      },
+      {
+        "range": "F163:AM163",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F164:AM164",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F165:AM165",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F166:AM166",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F167:AM167",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 3109.1,
+      "cells_analyzed": 8414,
+      "total_ranges": 688,
+      "format_counts": {
+        "string": 285,
+        "number": 403
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-13T21:35:53.655657Z"
+    }
+  },
+  "compression_stats": {
+    "unique_values": 14,
+    "entries_moved_to_index": 157,
+    "entries_remaining": 531,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 33331,
+    "compressed_size_bytes": 26394,
+    "inverted_index_size_bytes": 925,
+    "compressed_data_size_bytes": 25469,
+    "compression_ratio": 0.792,
+    "space_saved_bytes": 6937,
+    "space_saved_percent": 20.8
+  }
+}

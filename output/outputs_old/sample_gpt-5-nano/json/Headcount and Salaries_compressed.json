@@ -1,0 +1,1550 @@
+{
+  "inverted_index": {
+    "Executive": {
+      "type": "string",
+      "ranges": [
+        "B8",
+        "B20",
+        "B31",
+        "B43",
+        "B56",
+        "B123"
+      ]
+    },
+    "Engineering": {
+      "type": "string",
+      "ranges": [
+        "B9",
+        "B21",
+        "B32",
+        "B44",
+        "B65",
+        "B131"
+      ]
+    },
+    "Product": {
+      "type": "string",
+      "ranges": [
+        "B10",
+        "B22",
+        "B33",
+        "B45",
+        "B74",
+        "B139"
+      ]
+    },
+    "Sales": {
+      "type": "string",
+      "ranges": [
+        "B11",
+        "B23",
+        "B34",
+        "B46",
+        "B83",
+        "B147"
+      ]
+    },
+    "Marketing": {
+      "type": "string",
+      "ranges": [
+        "B12",
+        "B24",
+        "B35",
+        "B47",
+        "B93",
+        "B155"
+      ]
+    },
+    "Content": {
+      "type": "string",
+      "ranges": [
+        "B13",
+        "B25",
+        "B36",
+        "B48",
+        "B102",
+        "B163"
+      ]
+    },
+    "Finance & Admin": {
+      "type": "string",
+      "ranges": [
+        "B14",
+        "B37",
+        "B49",
+        "B171"
+      ]
+    },
+    "Engineering/Ops - India": {
+      "type": "string",
+      "ranges": [
+        "B15",
+        "B27",
+        "B38",
+        "B50",
+        "B179"
+      ]
+    },
+    "Total Headcount": {
+      "type": "string",
+      "ranges": [
+        "B16",
+        "B28"
+      ]
+    },
+    "Finance, HR, and Operations": {
+      "type": "string",
+      "ranges": [
+        "B26",
+        "B111"
+      ]
+    },
+    "Beginning of Period": {
+      "type": "string",
+      "ranges": [
+        "B58",
+        "B67",
+        "B76",
+        "B85",
+        "B95",
+        "B104",
+        "B113"
+      ]
+    },
+    "Added": {
+      "type": "string",
+      "ranges": [
+        "B59",
+        "B105",
+        "B114"
+      ]
+    },
+    "End of Period": {
+      "type": "string",
+      "ranges": [
+        "B60",
+        "B69",
+        "B78",
+        "B88",
+        "B97",
+        "B106",
+        "B115"
+      ]
+    },
+    "ARR per Head": {
+      "type": "string",
+      "ranges": [
+        "B61",
+        "B70",
+        "B79",
+        "B89",
+        "B98",
+        "B107",
+        "B116"
+      ]
+    },
+    "ARR": {
+      "type": "string",
+      "ranges": [
+        "B62",
+        "B71",
+        "B80",
+        "B90",
+        "B99",
+        "B108",
+        "B117"
+      ]
+    },
+    "Net Added": {
+      "type": "string",
+      "ranges": [
+        "B68",
+        "B77",
+        "B96"
+      ]
+    },
+    "Average Employees": {
+      "type": "string",
+      "ranges": [
+        "B125",
+        "B133",
+        "B141",
+        "B149",
+        "B157",
+        "B165",
+        "B173",
+        "B181"
+      ]
+    },
+    "Average Salary": {
+      "type": "string",
+      "ranges": [
+        "B126",
+        "B134",
+        "B142",
+        "B150",
+        "B158",
+        "B166",
+        "B174",
+        "B183"
+      ]
+    },
+    "Total Wages": {
+      "type": "string",
+      "ranges": [
+        "B127",
+        "B135",
+        "B143",
+        "B151",
+        "B159",
+        "B167",
+        "B175",
+        "B184"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Headcount and Salaries",
+    "format_ranges": [
+      {
+        "range": "B1",
+        "type": "string",
+        "value": "AlphaSense, Inc."
+      },
+      {
+        "range": "B2",
+        "type": "string",
+        "value": "Headcount and Salaries Detail"
+      },
+      {
+        "range": "E2:Q2",
+        "type": "number"
+      },
+      {
+        "range": "T2:FS2",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "B3",
+        "type": "string",
+        "value": "1 - Base - $25mm"
+      },
+      {
+        "range": "A5",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B5",
+        "type": "string",
+        "value": "Headcount and Salaries Summary"
+      },
+      {
+        "range": "B7",
+        "type": "string",
+        "value": "Headcount"
+      },
+      {
+        "range": "E8:Q8",
+        "type": "number"
+      },
+      {
+        "range": "T8:CX8",
+        "type": "number"
+      },
+      {
+        "range": "CY8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CZ8:FS8",
+        "type": "number"
+      },
+      {
+        "range": "E9:Q9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T9:FS9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E10:Q10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T10:FS10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E11:Q11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T11:FS11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E12:Q12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T12:FS12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E13:Q13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T13:FS13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E14:Q14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T14:FS14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E15:Q15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T15:FS15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E16:Q16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T16:FS16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B19",
+        "type": "string",
+        "value": "Memo: Average Headcount"
+      },
+      {
+        "range": "E20:Q20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T20:FS20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E21:Q21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T21:FS21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E22:Q22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T22:FS22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E23:Q23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T23:FS23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E24:Q24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T24:FS24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E25:Q25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T25:FS25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E26:Q26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T26:FS26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E27:Q27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T27:FS27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E28:Q28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T28:FS28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B30",
+        "type": "string",
+        "value": "Salary"
+      },
+      {
+        "range": "E31:Q31",
+        "type": "number"
+      },
+      {
+        "range": "T31:BZ31",
+        "type": "number"
+      },
+      {
+        "range": "CA31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CB31",
+        "type": "number"
+      },
+      {
+        "range": "CC31:FS31",
+        "type": "number"
+      },
+      {
+        "range": "E32:Q32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T32:FS32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E33:Q33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T33:FS33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E34:Q34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T34:FS34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E35:Q35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T35:FS35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E36:Q36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T36:FS36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E37:Q37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T37:FS37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E38:Q38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T38:FS38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B39",
+        "type": "string",
+        "value": "Total Salary"
+      },
+      {
+        "range": "E39:Q39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T39:FS39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B40",
+        "type": "string",
+        "value": "Total Salary (excl. India)"
+      },
+      {
+        "range": "E40:Q40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T40:FS40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B42",
+        "type": "string",
+        "value": "Salary per Head"
+      },
+      {
+        "range": "E43:Q43",
+        "type": "number"
+      },
+      {
+        "range": "T43:BW43",
+        "type": "number"
+      },
+      {
+        "range": "BX43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BY43:FS43",
+        "type": "number"
+      },
+      {
+        "range": "E44:Q44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T44:FS44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E45:Q45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T45:FS45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E46:Q46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T46:FS46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E47:Q47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T47:FS47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E48:Q48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T48:FS48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E49:Q49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T49:FS49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E50:Q50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T50:FS50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B51",
+        "type": "string",
+        "value": "Total Salary per Head"
+      },
+      {
+        "range": "E51:Q51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T51:FS51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A53",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B53",
+        "type": "string",
+        "value": "Headcount Detail"
+      },
+      {
+        "range": "E58:H58",
+        "type": "number"
+      },
+      {
+        "range": "I58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J58:Q58",
+        "type": "number"
+      },
+      {
+        "range": "U58:FS58",
+        "type": "number"
+      },
+      {
+        "range": "E59:Q59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "U59:FS59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E60:Q60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T60:FS60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E61:Q61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T61:FS61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E62:Q62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T62:FS62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CZ65:FS65",
+        "type": "number"
+      },
+      {
+        "range": "E67:H67",
+        "type": "number"
+      },
+      {
+        "range": "I67",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J67:Q67",
+        "type": "number"
+      },
+      {
+        "range": "U67:FS67",
+        "type": "number"
+      },
+      {
+        "range": "E68:Q68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "U68:FS68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E69:Q69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T69:FS69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E70:Q70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T70:FS70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E71:Q71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T71:FS71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CZ74:FS74",
+        "type": "number"
+      },
+      {
+        "range": "E76:H76",
+        "type": "number"
+      },
+      {
+        "range": "I76",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J76:Q76",
+        "type": "number"
+      },
+      {
+        "range": "U76:FS76",
+        "type": "number"
+      },
+      {
+        "range": "E77:Q77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "U77:FS77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E78:Q78",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T78:FS78",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E79:Q79",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T79:FS79",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E80:Q80",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T80:FS80",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E85:H85",
+        "type": "number"
+      },
+      {
+        "range": "I85",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J85:Q85",
+        "type": "number"
+      },
+      {
+        "range": "T85:FS85",
+        "type": "number"
+      },
+      {
+        "range": "B86",
+        "type": "string",
+        "value": "Gross Added"
+      },
+      {
+        "range": "E86:Q86",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T86:FS86",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B87",
+        "type": "string",
+        "value": "Removed"
+      },
+      {
+        "range": "E87:Q87",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T87:FS87",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E88:Q88",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T88:FS88",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E89:Q89",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T89:FS89",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E90:Q90",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T90:FS90",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E95:H95",
+        "type": "number"
+      },
+      {
+        "range": "I95",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J95:Q95",
+        "type": "number"
+      },
+      {
+        "range": "U95:FS95",
+        "type": "number"
+      },
+      {
+        "range": "E96:Q96",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "U96:FS96",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E97:Q97",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T97:FS97",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E98:Q98",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T98:FS98",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E99:J99",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K99:Q99",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T99:FS99",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CZ102:FS102",
+        "type": "number"
+      },
+      {
+        "range": "E104:H104",
+        "type": "number"
+      },
+      {
+        "range": "I104",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J104:Q104",
+        "type": "number"
+      },
+      {
+        "range": "U104:FS104",
+        "type": "number"
+      },
+      {
+        "range": "E105:Q105",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "U105:FS105",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E106:Q106",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T106:FS106",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E107:Q107",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T107:FS107",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E108:Q108",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T108:FS108",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E113:H113",
+        "type": "number"
+      },
+      {
+        "range": "I113",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J113:Q113",
+        "type": "number"
+      },
+      {
+        "range": "U113:FS113",
+        "type": "number"
+      },
+      {
+        "range": "E114:Q114",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "U114:FS114",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E115:Q115",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T115:FS115",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E116:Q116",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T116:FS116",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E117:Q117",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T117:FS117",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A120",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B120",
+        "type": "string",
+        "value": "Salaries Detail"
+      },
+      {
+        "range": "E125:Q125",
+        "type": "number"
+      },
+      {
+        "range": "T125:FS125",
+        "type": "number"
+      },
+      {
+        "range": "E126:Q126",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T126:FS126",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E127:Q127",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T127:CI127",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ127:FS127",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E133:Q133",
+        "type": "number"
+      },
+      {
+        "range": "T133:FS133",
+        "type": "number"
+      },
+      {
+        "range": "E134:Q134",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T134:FS134",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E135:Q135",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T135:CI135",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ135:FS135",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CM136:CN136",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CM137:CN137",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CM138:CN138",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E141:Q141",
+        "type": "number"
+      },
+      {
+        "range": "T141:FS141",
+        "type": "number"
+      },
+      {
+        "range": "E142:Q142",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T142:FS142",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E143:Q143",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T143:CI143",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ143:FS143",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E149:Q149",
+        "type": "number"
+      },
+      {
+        "range": "T149:BS149",
+        "type": "number"
+      },
+      {
+        "range": "BT149:BX149",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BY149:FS149",
+        "type": "number"
+      },
+      {
+        "range": "E150:Q150",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ150:FS150",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E151:Q151",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T151:CI151",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ151:FS151",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E157:Q157",
+        "type": "number"
+      },
+      {
+        "range": "T157:CV157",
+        "type": "number"
+      },
+      {
+        "range": "CW157",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CX157:FS157",
+        "type": "number"
+      },
+      {
+        "range": "E158:Q158",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T158:FS158",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E159:Q159",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T159:CI159",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ159:FS159",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E165:Q165",
+        "type": "number"
+      },
+      {
+        "range": "T165:FS165",
+        "type": "number"
+      },
+      {
+        "range": "E166:Q166",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T166:FS166",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E167:Q167",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T167:CI167",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ167:FS167",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E173:Q173",
+        "type": "number"
+      },
+      {
+        "range": "T173:FS173",
+        "type": "number"
+      },
+      {
+        "range": "E174:Q174",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T174:FS174",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E175:Q175",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T175:CI175",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ175:FS175",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G181:Q181",
+        "type": "number"
+      },
+      {
+        "range": "T181:BS181",
+        "type": "number"
+      },
+      {
+        "range": "BT181:BZ181",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CA181:FS181",
+        "type": "number"
+      },
+      {
+        "range": "B182",
+        "type": "string",
+        "value": "Added Employees"
+      },
+      {
+        "range": "I182:Q182",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ182:FS182",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G183:H183",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I183:Q183",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BC183:CI183",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ183:FS183",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G184:Q184",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T184:CI184",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ184:FS184",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CX185",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B187",
+        "type": "string",
+        "value": "Total Salary (excluding Engineering / Ops - India)"
+      },
+      {
+        "range": "E187:Q187",
+        "type": "number"
+      },
+      {
+        "range": "T187:CI187",
+        "type": "number"
+      },
+      {
+        "range": "B189",
+        "type": "string",
+        "value": "Plug"
+      },
+      {
+        "range": "E189:Q189",
+        "type": "number"
+      },
+      {
+        "range": "T189:CI189",
+        "type": "number"
+      },
+      {
+        "range": "B191",
+        "type": "string",
+        "value": "Wages (Income Statement)"
+      },
+      {
+        "range": "E191:Q191",
+        "type": "number"
+      },
+      {
+        "range": "T191:FS191",
+        "type": "number"
+      },
+      {
+        "range": "B193",
+        "type": "string",
+        "value": "Wages (Income Statement) - PLUG"
+      },
+      {
+        "range": "T193:CI193",
+        "type": "number"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 2382.64,
+      "cells_analyzed": 17290,
+      "total_ranges": 380,
+      "format_counts": {
+        "string": 130,
+        "number": 249,
+        "date": 1
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-14T01:54:11.680285Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2015-01-31",
+        "pattern": "Monthly series from 2015-01 to 2027-12"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 19,
+    "entries_moved_to_index": 107,
+    "entries_remaining": 273,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 19451,
+    "compressed_size_bytes": 15078,
+    "inverted_index_size_bytes": 1524,
+    "compressed_data_size_bytes": 13554,
+    "compression_ratio": 0.775,
+    "space_saved_bytes": 4373,
+    "space_saved_percent": 22.5
+  }
+}

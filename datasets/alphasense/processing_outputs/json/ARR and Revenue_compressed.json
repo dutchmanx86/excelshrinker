@@ -1,0 +1,2609 @@
+{
+  "inverted_index": {
+    "ARR and Revenue Detail": {
+      "type": "string",
+      "ranges": [
+        "B3",
+        "B25"
+      ]
+    },
+    "New Business": {
+      "type": "string",
+      "ranges": [
+        "B9",
+        "B177",
+        "B194",
+        "B211"
+      ]
+    },
+    "Upsell": {
+      "type": "string",
+      "ranges": [
+        "B10",
+        "B111",
+        "B178",
+        "B195",
+        "B212"
+      ]
+    },
+    "Churn": {
+      "type": "string",
+      "ranges": [
+        "B11",
+        "B179",
+        "B196",
+        "B213"
+      ]
+    },
+    "% YoY Growth": {
+      "type": "string",
+      "ranges": [
+        "B13",
+        "B158",
+        "B165",
+        "B172",
+        "B181",
+        "B198",
+        "B215"
+      ]
+    },
+    "Rev % of MRR": {
+      "type": "string",
+      "ranges": [
+        "B21",
+        "B39"
+      ]
+    },
+    "Financial": {
+      "type": "string",
+      "ranges": [
+        "B28",
+        "B34",
+        "B40",
+        "B154",
+        "B161",
+        "B168"
+      ]
+    },
+    "Corporate": {
+      "type": "string",
+      "ranges": [
+        "B29",
+        "B35",
+        "B41",
+        "B155",
+        "B162",
+        "B169"
+      ]
+    },
+    "Other": {
+      "type": "string",
+      "ranges": [
+        "B30",
+        "B36",
+        "B42",
+        "B98",
+        "B108",
+        "B118",
+        "B128",
+        "B138",
+        "B156",
+        "B163",
+        "B170"
+      ]
+    },
+    "Account Manager": {
+      "type": "string",
+      "ranges": [
+        "B48",
+        "B57",
+        "B66",
+        "B74",
+        "B83",
+        "B92",
+        "B102",
+        "B112",
+        "B122",
+        "B132"
+      ]
+    },
+    "AE - Financial": {
+      "type": "string",
+      "ranges": [
+        "B49",
+        "B58",
+        "B67",
+        "B75",
+        "B84",
+        "B93",
+        "B103",
+        "B113",
+        "B123",
+        "B133"
+      ]
+    },
+    "AE - Corporate": {
+      "type": "string",
+      "ranges": [
+        "B50",
+        "B59",
+        "B68",
+        "B76",
+        "B85",
+        "B94",
+        "B104",
+        "B114",
+        "B124",
+        "B134"
+      ]
+    },
+    "VP - Bus Dev": {
+      "type": "string",
+      "ranges": [
+        "B51",
+        "B60",
+        "B69",
+        "B77",
+        "B86",
+        "B95",
+        "B105",
+        "B115",
+        "B125",
+        "B135",
+        "B141"
+      ]
+    },
+    "AE - Enterprise": {
+      "type": "string",
+      "ranges": [
+        "B52",
+        "B61",
+        "B70",
+        "B78",
+        "B87",
+        "B96",
+        "B106",
+        "B116",
+        "B126",
+        "B136",
+        "B147"
+      ]
+    },
+    "AE - Other": {
+      "type": "string",
+      "ranges": [
+        "B53",
+        "B62",
+        "B71",
+        "B79",
+        "B88",
+        "B97",
+        "B107",
+        "B117",
+        "B127",
+        "B137"
+      ]
+    },
+    "Total Quota": {
+      "type": "string",
+      "ranges": [
+        "B73",
+        "B80"
+      ]
+    },
+    "Total Bookings": {
+      "type": "string",
+      "ranges": [
+        "B91",
+        "B99",
+        "B157",
+        "B164",
+        "B171"
+      ]
+    },
+    "Total New Bookings": {
+      "type": "string",
+      "ranges": [
+        "B109",
+        "B129"
+      ]
+    },
+    "Total Upsell": {
+      "type": "string",
+      "ranges": [
+        "B119",
+        "B139"
+      ]
+    },
+    "% Financial": {
+      "type": "string",
+      "ranges": [
+        "B142",
+        "B148"
+      ]
+    },
+    "Amount to Financial": {
+      "type": "string",
+      "ranges": [
+        "B143",
+        "B149"
+      ]
+    },
+    "% Corporate": {
+      "type": "string",
+      "ranges": [
+        "B144",
+        "B150"
+      ]
+    },
+    "Amount to Corporate": {
+      "type": "string",
+      "ranges": [
+        "B145",
+        "B151"
+      ]
+    },
+    "Beginning ARR": {
+      "type": "string",
+      "ranges": [
+        "B176",
+        "B193",
+        "B210"
+      ]
+    },
+    "Ending ARR": {
+      "type": "string",
+      "ranges": [
+        "B180",
+        "B197",
+        "B214"
+      ]
+    },
+    "Clients, Net": {
+      "type": "string",
+      "ranges": [
+        "B183",
+        "B200",
+        "B217",
+        "B227"
+      ]
+    },
+    "ARR / Client": {
+      "type": "string",
+      "ranges": [
+        "B184",
+        "B201",
+        "B218",
+        "B228"
+      ]
+    },
+    "Users, Net": {
+      "type": "string",
+      "ranges": [
+        "B186",
+        "B203",
+        "B220",
+        "B230"
+      ]
+    },
+    "ARR / Subscriber": {
+      "type": "string",
+      "ranges": [
+        "B187",
+        "B204",
+        "B221",
+        "B231"
+      ]
+    },
+    "Users / Client": {
+      "type": "string",
+      "ranges": [
+        "B189",
+        "B206",
+        "B223",
+        "B233"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "ARR and Revenue",
+    "format_ranges": [
+      {
+        "range": "B2",
+        "type": "string",
+        "value": "AlphaSense, Inc."
+      },
+      {
+        "range": "AF2:CM2",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "E3:I3",
+        "type": "number"
+      },
+      {
+        "range": "J3:Q3",
+        "type": "number"
+      },
+      {
+        "range": "T3:FS3",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "B4",
+        "type": "string",
+        "value": "1 - Base - $25mm"
+      },
+      {
+        "range": "A6",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B6",
+        "type": "string",
+        "value": "ARR Summary"
+      },
+      {
+        "range": "CB7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B8",
+        "type": "string",
+        "value": "ARR - Start"
+      },
+      {
+        "range": "E8:Q8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "U8:FS8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E9:Q9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T9:FS9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E10:Q10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T10:FS10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E11:Q11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T11:FS11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B12",
+        "type": "string",
+        "value": "ARR - End"
+      },
+      {
+        "range": "E12:Q12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T12:FS12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E13",
+        "type": "string",
+        "value": "na"
+      },
+      {
+        "range": "F13:Q13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF13:FS13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B14",
+        "type": "string",
+        "value": "% Churn Rate"
+      },
+      {
+        "range": "E14:Q14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T14:FS14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B16",
+        "type": "string",
+        "value": "Up for Renewal"
+      },
+      {
+        "range": "E16:G16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I16:Q16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T16:CI16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ16:FS16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B17",
+        "type": "string",
+        "value": "Retention Rate"
+      },
+      {
+        "range": "E17:Q17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T17:FS17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B18",
+        "type": "string",
+        "value": "Renewed"
+      },
+      {
+        "range": "E18:Q18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T18:FS18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B20",
+        "type": "string",
+        "value": "ARR"
+      },
+      {
+        "range": "E20:Q20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T20:FS20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T21:AQ21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AR21:FS21",
+        "type": "number"
+      },
+      {
+        "range": "B22",
+        "type": "string",
+        "value": "Revenue"
+      },
+      {
+        "range": "E22:Q22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T22:CI22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ22:FS22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B23",
+        "type": "string",
+        "value": "% Growth"
+      },
+      {
+        "range": "F23:Q23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF23:FS23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A25",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B27",
+        "type": "string",
+        "value": "ARR by Segment"
+      },
+      {
+        "range": "E28:Q28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T28:FS28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E29:Q29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T29:FS29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E30:Q30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T30:FS30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B31",
+        "type": "string",
+        "value": "Total ARR"
+      },
+      {
+        "range": "E31:Q31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T31:FS31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B33",
+        "type": "string",
+        "value": "Revenue by Segment"
+      },
+      {
+        "range": "E34:Q34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T34:FS34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E35:Q35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T35:FS35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E36:Q36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T36:FS36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B37",
+        "type": "string",
+        "value": "Total Revenue"
+      },
+      {
+        "range": "E37:Q37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T37:FS37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E40:Q40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T40:FS40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E41:Q41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T41:FS41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E42:Q42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T42:FS42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B43",
+        "type": "string",
+        "value": "Total Revenue as % of MRR"
+      },
+      {
+        "range": "E43:Q43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T43:FS43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A45",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B45",
+        "type": "string",
+        "value": "Sales Productivity"
+      },
+      {
+        "range": "B47",
+        "type": "string",
+        "value": "Sales Headcount"
+      },
+      {
+        "range": "E48:Q48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T48:FS48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E49:Q49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T49:FS49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E50:Q50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T50:FS50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E51:Q51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T51:FS51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E52:Q52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T52:FS52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E53:Q53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T53:FS53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B54",
+        "type": "string",
+        "value": "Total Sales Headcount"
+      },
+      {
+        "range": "E54:Q54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T54:FS54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B56",
+        "type": "string",
+        "value": "Effective Sales Headcount"
+      },
+      {
+        "range": "E57:Q57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T57:FS57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E58:Q58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T58:FS58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E59:Q59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T59:FS59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E60:Q60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T60:FS60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E61:Q61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T61:FS61",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E62:Q62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T62:FS62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B63",
+        "type": "string",
+        "value": "Total Effective Sales Reps"
+      },
+      {
+        "range": "E63:Q63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T63:FS63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BD64:BI64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BP64:BU64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B65",
+        "type": "string",
+        "value": "Quota per Person"
+      },
+      {
+        "range": "F66:H66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I66:Q66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BD66:CI66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ66:FS66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F67:Q67",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BD67:CI67",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ67:CM67",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CN67:CY67",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CZ67:FS67",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F68:Q68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BD68:CI68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ68:CM68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CN68:CY68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CZ68:FS68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I69:Q69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BD69:CI69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ69:CM69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CN69:CY69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CZ69:FS69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I70:Q70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BD70:CI70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ70:CM70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CN70:CY70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CZ70:FS70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F74:Q74",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BD74:CI74",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ74:FS74",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F75:H75",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I75:Q75",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BD75:CI75",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ75:FS75",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F76:H76",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I76:Q76",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BD76:CI76",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ76:FS76",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F77:H77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I77:Q77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BD77:CI77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ77:FS77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F78:H78",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I78:Q78",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BD78:CI78",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ78:FS78",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F79:H79",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BD79:CI79",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ79:FS79",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E80:Q80",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BD80:FS80",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B82",
+        "type": "string",
+        "value": "Productivity - % of Quota (Adjusted for Seasonality)"
+      },
+      {
+        "range": "F83:Q83",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CB83:CI83",
+        "type": "number"
+      },
+      {
+        "range": "CJ83:FS83",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F84:Q84",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CB84:CI84",
+        "type": "number"
+      },
+      {
+        "range": "CJ84:FS84",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F85:Q85",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CB85:CI85",
+        "type": "number"
+      },
+      {
+        "range": "CJ85:FS85",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F86:Q86",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CB86:CI86",
+        "type": "number"
+      },
+      {
+        "range": "CJ86:FS86",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F87:Q87",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CB87:CI87",
+        "type": "number"
+      },
+      {
+        "range": "CJ87:FS87",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F88:H88",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CB88:CI88",
+        "type": "number"
+      },
+      {
+        "range": "B89",
+        "type": "string",
+        "value": "Total Productivity - % of Quota"
+      },
+      {
+        "range": "E89:Q89",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CB89:CI89",
+        "type": "number"
+      },
+      {
+        "range": "CJ89:FS89",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E92:Q92",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T92:FS92",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E93:Q93",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T93:BZ93",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CA93:FS93",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E94:Q94",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T94:BZ94",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CA94:FS94",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E95:Q95",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T95:BZ95",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CA95:CD95",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CE95:CI95",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ95:FS95",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E96:H96",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "M96:Q96",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T96:BZ96",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CA96:CD96",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CE96:CI96",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ96:FS96",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E97:H97",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T97:BY97",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CB97:CI97",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E98:I98",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T98:CI98",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E99:Q99",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T99:FS99",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B101",
+        "type": "string",
+        "value": "New Bookings"
+      },
+      {
+        "range": "I102:Q102",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ102:FS102",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I103:Q103",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ103:FS103",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I104:Q104",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ104:FS104",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I105:Q105",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ105:FS105",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I106:Q106",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ106:FS106",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E109:Q109",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T109:CI109",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ109:FS109",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I112:Q112",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ112:FS112",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I113:Q113",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ113:FS113",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I114:Q114",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ114:FS114",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I115:Q115",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ115:FS115",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I116:Q116",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ116:FS116",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E119:Q119",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T119:CI119",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ119:FS119",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B121",
+        "type": "string",
+        "value": "New Bookings - % of Total Bookings"
+      },
+      {
+        "range": "I122:J122",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ122:FS122",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I123:Q123",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ123:FS123",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I124:Q124",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ124:FS124",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J125",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L125:Q125",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ125:FS125",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I126:Q126",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ126:FS126",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E129:H129",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I129:Q129",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T129:CI129",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ129:FS129",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B131",
+        "type": "string",
+        "value": "Upsell - % of Total Bookings"
+      },
+      {
+        "range": "I132:J132",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ132:FS132",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I133:Q133",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ133:FS133",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I134:Q134",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ134:FS134",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J135",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L135:Q135",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ135:FS135",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I136:Q136",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ136:FS136",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E139:H139",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I139:Q139",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T139:CI139",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ139:FS139",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E141:Q141",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BS141:FS141",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E142:Q142",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ142:FS142",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E143:Q143",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ143:FS143",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E144:Q144",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ144:FS144",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E145:Q145",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ145:FS145",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E147:Q147",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ147:FS147",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E148:Q148",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ148:FS148",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E149:Q149",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ149:FS149",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E150:Q150",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ150:FS150",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E151:Q151",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ151:FS151",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B153",
+        "type": "string",
+        "value": "Total Bookings by Segment"
+      },
+      {
+        "range": "E154:Q154",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T154:CI154",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ154:FS154",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E155:Q155",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T155:CI155",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ155:FS155",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E156:Q156",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T156:CI156",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E157:Q157",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T157:FS157",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E158",
+        "type": "string",
+        "value": "na"
+      },
+      {
+        "range": "F158:Q158",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BJ158:CI158",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B160",
+        "type": "string",
+        "value": "New Bookings by Segment"
+      },
+      {
+        "range": "E161:Q161",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T161:CI161",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ161:FS161",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E162:Q162",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T162:CI162",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ162:FS162",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E163:Q163",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T163:CI163",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E164:Q164",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T164:CI164",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ164:FS164",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E165",
+        "type": "string",
+        "value": "na"
+      },
+      {
+        "range": "F165:Q165",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T165",
+        "type": "string",
+        "value": "na"
+      },
+      {
+        "range": "U165:FS165",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B167",
+        "type": "string",
+        "value": "Upsell by Segment"
+      },
+      {
+        "range": "E168:Q168",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T168:CI168",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ168:FS168",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E169:Q169",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T169:CI169",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ169:FS169",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E170:Q170",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T170:CI170",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E171:Q171",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T171:CI171",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ171:FS171",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E172",
+        "type": "string",
+        "value": "na"
+      },
+      {
+        "range": "F172:Q172",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T172",
+        "type": "string",
+        "value": "na"
+      },
+      {
+        "range": "U172:FS172",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A174",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B174",
+        "type": "string",
+        "value": "Financial ARR"
+      },
+      {
+        "range": "E176:Q176",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T176:FS176",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E177:G177",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H177",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I177:O177",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "P177:Q177",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T177:FS177",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E178:G178",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H178",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I178:O178",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "P178:Q178",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T178:CI178",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ178:FS178",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E179:G179",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H179",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I179:O179",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "P179:Q179",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T179:FS179",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E180:Q180",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T180:FS180",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F181:Q181",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E183:Q183",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T183:FS183",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E184:Q184",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T184:FS184",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E186:Q186",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T186:CI186",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ186:FS186",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E187:Q187",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T187:FS187",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T188",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E189:Q189",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T189:FS189",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A191",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B191",
+        "type": "string",
+        "value": "Corporate ARR"
+      },
+      {
+        "range": "E193:Q193",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T193:FS193",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E194:G194",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H194",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I194:O194",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "P194:Q194",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T194:FS194",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E195:G195",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H195",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I195:O195",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "P195:Q195",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T195:FS195",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E196:G196",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H196",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I196:O196",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "P196:Q196",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T196:FS196",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E197:Q197",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T197:FS197",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F198:Q198",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E200:Q200",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T200:FS200",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E201:Q201",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T201:FS201",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E203:Q203",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T203:CI203",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ203:FS203",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E204:Q204",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T204:FS204",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E206:Q206",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T206:FS206",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A208",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B208",
+        "type": "string",
+        "value": "Other ARR"
+      },
+      {
+        "range": "E210:Q210",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T210:FS210",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E211:G211",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H211",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I211:O211",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "P211:Q211",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T211:CI211",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E212:G212",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H212",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I212:O212",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "P212:Q212",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T212:CI212",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E213:G213",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "H213",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I213:O213",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "P213:Q213",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T213:FS213",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E214:Q214",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T214:FS214",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F215:Q215",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E217:Q217",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T217:FS217",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E218:Q218",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T218:FS218",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E220:Q220",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T220:CI220",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ220:FS220",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E221:Q221",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T221:FS221",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E223:Q223",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T223:FS223",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A225",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B225",
+        "type": "string",
+        "value": "Combined"
+      },
+      {
+        "range": "E227:Q227",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T227:FS227",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E228:Q228",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T228:FS228",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E230:Q230",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T230:FS230",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E231:Q231",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T231:FS231",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E233:Q233",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T233:FS233",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 7723.64,
+      "cells_analyzed": 22085,
+      "total_ranges": 607,
+      "format_counts": {
+        "string": 202,
+        "date": 2,
+        "number": 403
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T11:00:21.122688Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "repeating_quarterly",
+        "increment": "3 months (quarterly)",
+        "start_date": "2016-Q1",
+        "pattern": "Quarterly values repeating 3 times from Q1 2016 to Q4 2020"
+      },
+      "ds_2": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2015-01-31",
+        "pattern": "Monthly series from 2015-01 to 2027-12"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 30,
+    "entries_moved_to_index": 154,
+    "entries_remaining": 453,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 32236,
+    "compressed_size_bytes": 26036,
+    "inverted_index_size_bytes": 2353,
+    "compressed_data_size_bytes": 23683,
+    "compression_ratio": 0.808,
+    "space_saved_bytes": 6200,
+    "space_saved_percent": 19.2
+  }
+}

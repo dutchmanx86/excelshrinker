@@ -1,0 +1,387 @@
+{
+  "inverted_index": {
+    "Broker Research": {
+      "type": "string",
+      "ranges": [
+        "B14",
+        "B25",
+        "B41"
+      ]
+    },
+    "After Market Research": {
+      "type": "string",
+      "ranges": [
+        "B15",
+        "B26",
+        "B48"
+      ]
+    },
+    "International Filings": {
+      "type": "string",
+      "ranges": [
+        "B16",
+        "B27",
+        "B64"
+      ]
+    },
+    "Transcripts": {
+      "type": "string",
+      "ranges": [
+        "B17",
+        "B28"
+      ]
+    },
+    "News": {
+      "type": "string",
+      "ranges": [
+        "B18",
+        "B29",
+        "B83"
+      ]
+    },
+    "News & Journals": {
+      "type": "string",
+      "ranges": [
+        "B19",
+        "B30"
+      ]
+    },
+    "IDC": {
+      "type": "string",
+      "ranges": [
+        "B20",
+        "B31",
+        "B98"
+      ]
+    },
+    "Web Service - Production": {
+      "type": "string",
+      "ranges": [
+        "B21",
+        "B32",
+        "B103"
+      ]
+    },
+    "AMR - $15k": {
+      "type": "string",
+      "ranges": [
+        "B51",
+        "B54",
+        "B59"
+      ]
+    },
+    "AMR - $30k": {
+      "type": "string",
+      "ranges": [
+        "B52",
+        "B56",
+        "B60"
+      ]
+    },
+    "Cost per User": {
+      "type": "string",
+      "ranges": [
+        "B55",
+        "B57"
+      ]
+    },
+    "Marginal Price": {
+      "type": "string",
+      "ranges": [
+        "B66",
+        "B100",
+        "B105"
+      ]
+    },
+    "Percent of Users": {
+      "type": "string",
+      "ranges": [
+        "B73",
+        "B85",
+        "B93"
+      ]
+    },
+    "Price per User - Tier 1": {
+      "type": "string",
+      "ranges": [
+        "B87",
+        "B95"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "COGS vs. Marginal",
+    "format_ranges": [
+      {
+        "range": "C4",
+        "type": "string",
+        "value": "Current"
+      },
+      {
+        "range": "D4",
+        "type": "string",
+        "value": "Marginal"
+      },
+      {
+        "range": "B6",
+        "type": "string",
+        "value": "2017 Revenue"
+      },
+      {
+        "range": "C6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B8",
+        "type": "string",
+        "value": "2017 Seats"
+      },
+      {
+        "range": "C8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B10",
+        "type": "string",
+        "value": "Revenue / Seat"
+      },
+      {
+        "range": "C10:D10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B12",
+        "type": "string",
+        "value": "COGS"
+      },
+      {
+        "range": "C12",
+        "type": "number"
+      },
+      {
+        "range": "B23",
+        "type": "string",
+        "value": "Per-Seat"
+      },
+      {
+        "range": "D27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B34",
+        "type": "string",
+        "value": "Gross Profit per Seat"
+      },
+      {
+        "range": "B35",
+        "type": "string",
+        "value": "% Margin"
+      },
+      {
+        "range": "B38",
+        "type": "string",
+        "value": "Calculations"
+      },
+      {
+        "range": "A41",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B43",
+        "type": "string",
+        "value": "BRM % of Total"
+      },
+      {
+        "range": "B45",
+        "type": "string",
+        "value": "Monthly per User"
+      },
+      {
+        "range": "A48",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B50",
+        "type": "string",
+        "value": "Percent of Users AMR"
+      },
+      {
+        "range": "D50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B61",
+        "type": "string",
+        "value": "Total"
+      },
+      {
+        "range": "A64",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "D66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B68",
+        "type": "string",
+        "value": "TR Transcripts - flat fee will be triggered so no marginal cost"
+      },
+      {
+        "range": "A71",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B71",
+        "type": "string",
+        "value": "FactSet Transcripts"
+      },
+      {
+        "range": "B75",
+        "type": "string",
+        "value": "Additional Fee - Global"
+      },
+      {
+        "range": "B76",
+        "type": "string",
+        "value": "Fee per Excess User - Global"
+      },
+      {
+        "range": "B77",
+        "type": "string",
+        "value": "Additional Fee - Regional"
+      },
+      {
+        "range": "B78",
+        "type": "string",
+        "value": "Fee per Excess User - Regional"
+      },
+      {
+        "range": "B80",
+        "type": "string",
+        "value": "Incremental Fee"
+      },
+      {
+        "range": "A83",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "A91",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B91",
+        "type": "string",
+        "value": "News and Journals"
+      },
+      {
+        "range": "A98",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "D100",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A103",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "D105",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 3371.16,
+      "cells_analyzed": 88,
+      "total_ranges": 87,
+      "format_counts": {
+        "string": 68,
+        "number": 19
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T11:06:00.165550Z"
+    }
+  },
+  "compression_stats": {
+    "unique_values": 14,
+    "entries_moved_to_index": 38,
+    "entries_remaining": 49,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 4943,
+    "compressed_size_bytes": 3648,
+    "inverted_index_size_bytes": 880,
+    "compressed_data_size_bytes": 2768,
+    "compression_ratio": 0.738,
+    "space_saved_bytes": 1295,
+    "space_saved_percent": 26.2
+  }
+}

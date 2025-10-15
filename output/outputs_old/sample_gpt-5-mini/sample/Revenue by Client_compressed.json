@@ -1,0 +1,319 @@
+{
+  "inverted_index": {
+    "Jan": {
+      "type": "string",
+      "ranges": [
+        "C3",
+        "O3",
+        "AA3",
+        "AM3"
+      ]
+    },
+    "Feb": {
+      "type": "string",
+      "ranges": [
+        "D3",
+        "P3",
+        "AB3",
+        "AN3"
+      ]
+    },
+    "Mar": {
+      "type": "string",
+      "ranges": [
+        "E3",
+        "Q3",
+        "AC3",
+        "AO3"
+      ]
+    },
+    "Apr": {
+      "type": "string",
+      "ranges": [
+        "F3",
+        "R3",
+        "AD3",
+        "AP3"
+      ]
+    },
+    "May": {
+      "type": "string",
+      "ranges": [
+        "G3",
+        "S3",
+        "AE3",
+        "AQ3"
+      ]
+    },
+    "Jun": {
+      "type": "string",
+      "ranges": [
+        "H3",
+        "T3",
+        "AF3",
+        "AR3"
+      ]
+    },
+    "Jul": {
+      "type": "string",
+      "ranges": [
+        "I3",
+        "U3",
+        "AG3",
+        "AS3"
+      ]
+    },
+    "Aug": {
+      "type": "string",
+      "ranges": [
+        "J3",
+        "V3",
+        "AH3",
+        "AT3"
+      ]
+    },
+    "Sep": {
+      "type": "string",
+      "ranges": [
+        "K3",
+        "W3",
+        "AI3",
+        "AU3"
+      ]
+    },
+    "Oct": {
+      "type": "string",
+      "ranges": [
+        "L3",
+        "X3",
+        "AJ3"
+      ]
+    },
+    "Nov": {
+      "type": "string",
+      "ranges": [
+        "M3",
+        "Y3",
+        "AK3"
+      ]
+    },
+    "Dec": {
+      "type": "string",
+      "ranges": [
+        "N3",
+        "Z3",
+        "AL3"
+      ]
+    },
+    "Financial": {
+      "type": "string",
+      "ranges": [
+        "A4",
+        "A7"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Revenue by Client",
+    "format_ranges": [
+      {
+        "range": "A1",
+        "type": "string",
+        "value": "Sum of Current Rev"
+      },
+      {
+        "range": "B1",
+        "type": "string",
+        "value": "Column Labels"
+      },
+      {
+        "range": "B2",
+        "type": "string",
+        "value": "<1/1/2015"
+      },
+      {
+        "range": "C2",
+        "type": "string",
+        "value": "2015"
+      },
+      {
+        "range": "O2",
+        "type": "string",
+        "value": "2016"
+      },
+      {
+        "range": "AA2",
+        "type": "string",
+        "value": "2017"
+      },
+      {
+        "range": "A3",
+        "type": "string",
+        "value": "Row Labels"
+      },
+      {
+        "range": "C4:BT4",
+        "type": "number"
+      },
+      {
+        "range": "A5",
+        "type": "string",
+        "value": "Corporate"
+      },
+      {
+        "range": "C5:AU5",
+        "type": "number"
+      },
+      {
+        "range": "AV5:BT5",
+        "type": "number"
+      },
+      {
+        "range": "A6",
+        "type": "string",
+        "value": "Other"
+      },
+      {
+        "range": "C6:Z6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB6:AG6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AH6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AI6:BT6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C7:AR7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A8",
+        "type": "string",
+        "value": "(blank)"
+      },
+      {
+        "range": "A9",
+        "type": "string",
+        "value": "Grand Total"
+      },
+      {
+        "range": "C9:AR9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AS9:BU9",
+        "type": "number"
+      },
+      {
+        "range": "O11:Z11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BG11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BG12",
+        "type": "number"
+      },
+      {
+        "range": "AM13:AR13",
+        "type": "number"
+      },
+      {
+        "range": "AS13:AU13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV13:BJ13",
+        "type": "number"
+      },
+      {
+        "range": "AM14:BJ14",
+        "type": "number"
+      },
+      {
+        "range": "Y15",
+        "type": "string",
+        "value": "Income Statement"
+      },
+      {
+        "range": "AM15:BJ15",
+        "type": "number"
+      },
+      {
+        "range": "AM17:BJ18",
+        "type": "number"
+      },
+      {
+        "range": "AM19:AX19",
+        "type": "number"
+      },
+      {
+        "range": "AY19:BD19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BE19:BG19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BH19:BJ19",
+        "type": "number"
+      },
+      {
+        "range": "AM20:AR20",
+        "type": "number"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 2122.83,
+      "cells_analyzed": 572,
+      "total_ranges": 84,
+      "format_counts": {
+        "string": 59,
+        "number": 25
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-14T01:36:49.072276Z"
+    }
+  },
+  "compression_stats": {
+    "unique_values": 13,
+    "entries_moved_to_index": 47,
+    "entries_remaining": 37,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 4071,
+    "compressed_size_bytes": 2641,
+    "inverted_index_size_bytes": 718,
+    "compressed_data_size_bytes": 1923,
+    "compression_ratio": 0.649,
+    "space_saved_bytes": 1430,
+    "space_saved_percent": 35.1
+  }
+}

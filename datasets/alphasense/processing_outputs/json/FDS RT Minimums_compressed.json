@@ -1,0 +1,553 @@
+{
+  "inverted_index": {},
+  "data": {
+    "success": true,
+    "sheet_name": "FDS RT Minimums",
+    "format_ranges": [
+      {
+        "range": "B2",
+        "type": "string",
+        "value": "User Tiers"
+      },
+      {
+        "range": "C2",
+        "type": "string",
+        "value": "Incremental Users"
+      },
+      {
+        "range": "D2",
+        "type": "string",
+        "value": "Fee Per User (Reset at Each Tier)"
+      },
+      {
+        "range": "E2",
+        "type": "string",
+        "value": "Total"
+      },
+      {
+        "range": "G2",
+        "type": "string",
+        "value": "Max Discount"
+      },
+      {
+        "range": "H2",
+        "type": "string",
+        "value": "Min Total (Annual)"
+      },
+      {
+        "range": "I2",
+        "type": "string",
+        "value": "Max Total"
+      },
+      {
+        "range": "J2",
+        "type": "string",
+        "value": "Min Total (Monthly)"
+      },
+      {
+        "range": "C3",
+        "type": "string",
+        "value": "\u00a00-1500\u00a0"
+      },
+      {
+        "range": "B3",
+        "type": "number"
+      },
+      {
+        "range": "D3:E3",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G3",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B4",
+        "type": "string",
+        "value": "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 2,000 "
+      },
+      {
+        "range": "C4",
+        "type": "string",
+        "value": "\u00a01501 - 2000\u00a0"
+      },
+      {
+        "range": "D4:E4",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G4:J4",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B5",
+        "type": "string",
+        "value": "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 2,500 "
+      },
+      {
+        "range": "C5",
+        "type": "string",
+        "value": "\u00a02001 - 2500\u00a0"
+      },
+      {
+        "range": "D5:E5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G5:J5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B6",
+        "type": "string",
+        "value": "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 3,000 "
+      },
+      {
+        "range": "C6",
+        "type": "string",
+        "value": "\u00a02501 - 3000\u00a0"
+      },
+      {
+        "range": "D6:E6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G6:J6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B7",
+        "type": "string",
+        "value": "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 3,500 "
+      },
+      {
+        "range": "C7",
+        "type": "string",
+        "value": "\u00a03001 - 3500\u00a0"
+      },
+      {
+        "range": "D7:E7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G7:J7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B8",
+        "type": "string",
+        "value": "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 4,000 "
+      },
+      {
+        "range": "C8",
+        "type": "string",
+        "value": "\u00a03501 - 4000\u00a0"
+      },
+      {
+        "range": "D8:E8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G8:J8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B9",
+        "type": "string",
+        "value": "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 4,500 "
+      },
+      {
+        "range": "C9",
+        "type": "string",
+        "value": "\u00a04001 - 4500\u00a0"
+      },
+      {
+        "range": "D9:E9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G9:J9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B10",
+        "type": "string",
+        "value": "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 5,000 "
+      },
+      {
+        "range": "C10",
+        "type": "string",
+        "value": "\u00a04501 - 5000\u00a0"
+      },
+      {
+        "range": "D10:E10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G10:J10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B11",
+        "type": "string",
+        "value": "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 5,500 "
+      },
+      {
+        "range": "C11",
+        "type": "string",
+        "value": "\u00a05001 - 5500\u00a0"
+      },
+      {
+        "range": "D11:E11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G11:J11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B12",
+        "type": "string",
+        "value": "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 6,000 "
+      },
+      {
+        "range": "C12",
+        "type": "string",
+        "value": "\u00a05501 - 6000\u00a0"
+      },
+      {
+        "range": "D12:E12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G12:J12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B13",
+        "type": "string",
+        "value": "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 6,500 "
+      },
+      {
+        "range": "C13",
+        "type": "string",
+        "value": "\u00a06001 - 6500\u00a0"
+      },
+      {
+        "range": "D13:E13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G13:J13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B14",
+        "type": "string",
+        "value": "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 7,000 "
+      },
+      {
+        "range": "C14",
+        "type": "string",
+        "value": "\u00a06501 - 7000\u00a0"
+      },
+      {
+        "range": "D14:E14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G14:J14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B15",
+        "type": "string",
+        "value": "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 8,500 "
+      },
+      {
+        "range": "C15",
+        "type": "string",
+        "value": "\u00a07001 - 8500\u00a0"
+      },
+      {
+        "range": "D15:E15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G15:J15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B16",
+        "type": "string",
+        "value": "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 10,000 "
+      },
+      {
+        "range": "C16",
+        "type": "string",
+        "value": "\u00a08501 - 10000\u00a0"
+      },
+      {
+        "range": "D16:E16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G16:J16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B17",
+        "type": "string",
+        "value": "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 11,500 "
+      },
+      {
+        "range": "C17",
+        "type": "string",
+        "value": "\u00a010001 - 11500\u00a0"
+      },
+      {
+        "range": "D17:E17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G17:J17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B18",
+        "type": "string",
+        "value": "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 13,000 "
+      },
+      {
+        "range": "C18",
+        "type": "string",
+        "value": "\u00a011501 - 13000\u00a0"
+      },
+      {
+        "range": "D18:E18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G18:J18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B19",
+        "type": "string",
+        "value": "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 14,500 "
+      },
+      {
+        "range": "C19",
+        "type": "string",
+        "value": "\u00a013001 - 14500\u00a0"
+      },
+      {
+        "range": "D19:E19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G19:J19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B20",
+        "type": "string",
+        "value": "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 16,000 "
+      },
+      {
+        "range": "C20",
+        "type": "string",
+        "value": "\u00a014501 - 16000\u00a0"
+      },
+      {
+        "range": "D20:E20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G20:J20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B21",
+        "type": "string",
+        "value": "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 17,500 "
+      },
+      {
+        "range": "C21",
+        "type": "string",
+        "value": "\u00a016001 - 17500\u00a0"
+      },
+      {
+        "range": "D21:E21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G21:J21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B22",
+        "type": "string",
+        "value": "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 19,000 "
+      },
+      {
+        "range": "C22",
+        "type": "string",
+        "value": "\u00a017501 - 19000\u00a0"
+      },
+      {
+        "range": "D22:E22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G22:J22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B23",
+        "type": "string",
+        "value": "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 20,500 "
+      },
+      {
+        "range": "C23",
+        "type": "string",
+        "value": "\u00a019001 - 20500\u00a0"
+      },
+      {
+        "range": "D23:E23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G23:J23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B24",
+        "type": "string",
+        "value": "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 22,000 "
+      },
+      {
+        "range": "C24",
+        "type": "string",
+        "value": "\u00a020501 - 22000\u00a0"
+      },
+      {
+        "range": "D24:E24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G24:J24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B25",
+        "type": "string",
+        "value": "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 23,500 "
+      },
+      {
+        "range": "C25",
+        "type": "string",
+        "value": "\u00a022001 - 23500\u00a0"
+      },
+      {
+        "range": "D25:E25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G25:J25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B26",
+        "type": "string",
+        "value": "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 25,000 "
+      },
+      {
+        "range": "C26",
+        "type": "string",
+        "value": "\u00a023501 - 25000\u00a0"
+      },
+      {
+        "range": "D26:E26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "G26:J26",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 1391.56,
+      "cells_analyzed": 197,
+      "total_ranges": 104,
+      "format_counts": {
+        "string": 55,
+        "number": 49
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T11:03:25.195223Z"
+    }
+  },
+  "compression_stats": {
+    "unique_values": 0,
+    "entries_moved_to_index": 0,
+    "entries_remaining": 104,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 7193,
+    "compressed_size_bytes": 7195,
+    "inverted_index_size_bytes": 2,
+    "compressed_data_size_bytes": 7193,
+    "compression_ratio": 1.0,
+    "space_saved_bytes": -2,
+    "space_saved_percent": -0.0
+  }
+}

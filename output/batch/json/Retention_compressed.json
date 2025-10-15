@@ -1,0 +1,740 @@
+{
+  "inverted_index": {
+    "Retention Detail": {
+      "type": "string",
+      "ranges": [
+        "B3",
+        "B21"
+      ]
+    },
+    "Financial": {
+      "type": "string",
+      "ranges": [
+        "B9",
+        "B15",
+        "B23"
+      ]
+    },
+    "Corporate": {
+      "type": "string",
+      "ranges": [
+        "B10",
+        "B16",
+        "B42"
+      ]
+    },
+    "Other": {
+      "type": "string",
+      "ranges": [
+        "B11",
+        "B17",
+        "B61"
+      ]
+    },
+    "Retention %": {
+      "type": "string",
+      "ranges": [
+        "B14",
+        "B26",
+        "B39",
+        "B45",
+        "B58",
+        "B64",
+        "B77",
+        "B83"
+      ]
+    },
+    "Up for Renewal": {
+      "type": "string",
+      "ranges": [
+        "B25",
+        "B82"
+      ]
+    },
+    "Renewed": {
+      "type": "string",
+      "ranges": [
+        "B27",
+        "B40",
+        "B46",
+        "B59",
+        "B65",
+        "B78",
+        "B84"
+      ]
+    },
+    "Churned": {
+      "type": "string",
+      "ranges": [
+        "B28",
+        "B47",
+        "B66",
+        "B86"
+      ]
+    },
+    "New Bookings": {
+      "type": "string",
+      "ranges": [
+        "B30",
+        "B49",
+        "B68"
+      ]
+    },
+    "Previous Renewal": {
+      "type": "string",
+      "ranges": [
+        "B31",
+        "B50",
+        "B69"
+      ]
+    },
+    "Still Open in Previous Month": {
+      "type": "string",
+      "ranges": [
+        "B34",
+        "B53",
+        "B72"
+      ]
+    },
+    "Renewal (default)": {
+      "type": "string",
+      "ranges": [
+        "B35",
+        "B54",
+        "B73"
+      ]
+    },
+    "Pending Cancel (notice given)": {
+      "type": "string",
+      "ranges": [
+        "B36",
+        "B55",
+        "B74"
+      ]
+    },
+    "Renewal - Won": {
+      "type": "string",
+      "ranges": [
+        "B37",
+        "B56",
+        "B75"
+      ]
+    },
+    "Renewal - Lost": {
+      "type": "string",
+      "ranges": [
+        "B38",
+        "B57",
+        "B76"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Retention",
+    "format_ranges": [
+      {
+        "range": "B2",
+        "type": "string",
+        "value": "AlphaSense, Inc."
+      },
+      {
+        "range": "E3:I3",
+        "type": "number"
+      },
+      {
+        "range": "J3:Q3",
+        "type": "number"
+      },
+      {
+        "range": "T3:FS3",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "B4",
+        "type": "string",
+        "value": "1 - Base - $25mm"
+      },
+      {
+        "range": "A6",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B6",
+        "type": "string",
+        "value": "Retention Summary"
+      },
+      {
+        "range": "B8",
+        "type": "string",
+        "value": "Churn"
+      },
+      {
+        "range": "E9:Q9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T9:FS9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E10:Q10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T10:FS10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E11:Q11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T11:FS11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B12",
+        "type": "string",
+        "value": "Total Churn"
+      },
+      {
+        "range": "E12:Q12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T12:FS12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E15:Q15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T15:FS15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E16:Q16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T16:FS16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E17:Q17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T17:FS17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B18",
+        "type": "string",
+        "value": "Blended Retention %"
+      },
+      {
+        "range": "E18:Q18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T18:FS18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A21",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "A23",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E25:Q25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T25:FS25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E26:Q26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T26:FS26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E27:Q27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T27:CI27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ27:FS27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E28:Q28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T28:FS28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E30:Q30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ30:FS30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E31:Q31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ31:FS31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B33",
+        "type": "string",
+        "value": "Annual Financial Up for Renewal"
+      },
+      {
+        "range": "J33:Q33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CI33:FS33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ35:FS35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ36:FS36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ37:FS37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ38:FS38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J39:Q39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ39:FS39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E40:Q40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T40:FS40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A42",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B44",
+        "type": "string",
+        "value": "Total Corporate Up for Renewal"
+      },
+      {
+        "range": "E44:Q44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T44:FS44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E45:Q45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T45:FS45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E46:Q46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T46:FS46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E47:Q47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T47:FS47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E49:Q49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ49:FS49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E50:Q50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ50:FS50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B52",
+        "type": "string",
+        "value": "Annual Up for Renewal"
+      },
+      {
+        "range": "J52:Q52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CI52:FS52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ54:FS54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ55:FS55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ56:FS56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ57:FS57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J58:Q58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ58:FS58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E59:Q59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T59:FS59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A61",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B63",
+        "type": "string",
+        "value": "Total Other Up for Renewal"
+      },
+      {
+        "range": "E63:Q63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T63:FS63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E64:Q64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T64:FS64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E65:Q65",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T65:FS65",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E66:Q66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T66:FS66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E68:Q68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ68:FS68",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E69:Q69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ69:FS69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B71",
+        "type": "string",
+        "value": "Annual Other Up for Renewal"
+      },
+      {
+        "range": "J71:Q71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CI71:FS71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ72",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ73:FS73",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ74:FS74",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ75:FS75",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ76:FS76",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J77:Q77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ77:FS77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E78:Q78",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T78:FS78",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A80",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B80",
+        "type": "string",
+        "value": "Summary"
+      },
+      {
+        "range": "E82:Q82",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T82:FS82",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E83:Q83",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T83:FS83",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E84:Q84",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T84:FS84",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CJ86:FS86",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 3178.14,
+      "cells_analyzed": 6966,
+      "total_ranges": 167,
+      "format_counts": {
+        "string": 71,
+        "number": 95,
+        "date": 1
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T11:01:00.230956Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2015-01-31",
+        "pattern": "Monthly series from 2015-01 to 2027-12"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 15,
+    "entries_moved_to_index": 53,
+    "entries_remaining": 114,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 9118,
+    "compressed_size_bytes": 7164,
+    "inverted_index_size_bytes": 1004,
+    "compressed_data_size_bytes": 6160,
+    "compression_ratio": 0.786,
+    "space_saved_bytes": 1954,
+    "space_saved_percent": 21.4
+  }
+}

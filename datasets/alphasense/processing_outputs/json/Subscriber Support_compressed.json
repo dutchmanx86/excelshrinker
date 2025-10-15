@@ -1,0 +1,208 @@
+{
+  "inverted_index": {
+    "Beginning": {
+      "type": "string",
+      "ranges": [
+        "C5",
+        "C11",
+        "C17"
+      ]
+    },
+    "Added": {
+      "type": "string",
+      "ranges": [
+        "C6",
+        "C12",
+        "C18"
+      ]
+    },
+    "Churn": {
+      "type": "string",
+      "ranges": [
+        "C7",
+        "C13",
+        "C19"
+      ]
+    },
+    "End": {
+      "type": "string",
+      "ranges": [
+        "C8",
+        "C14",
+        "C20"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Subscriber Support",
+    "format_ranges": [
+      {
+        "range": "C2",
+        "type": "string",
+        "value": "Type"
+      },
+      {
+        "range": "E2:DS2",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "C4",
+        "type": "string",
+        "value": "Financial"
+      },
+      {
+        "range": "F5:DS5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F6:CZ6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "DA6:DS6",
+        "type": "number"
+      },
+      {
+        "range": "F7:DS7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E8:DS8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "DU8:EC8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C10",
+        "type": "string",
+        "value": "Corp"
+      },
+      {
+        "range": "F11:DS11",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F12:CZ12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "DA12:DS12",
+        "type": "number"
+      },
+      {
+        "range": "F13:DS13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E14:DS14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "DU14:EC14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C16",
+        "type": "string",
+        "value": "Other"
+      },
+      {
+        "range": "F17:DS17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F18:CZ18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "DA18:DS18",
+        "type": "number"
+      },
+      {
+        "range": "F19:DS19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E20:DS20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CM25",
+        "type": "string",
+        "value": "Total"
+      },
+      {
+        "range": "CN25:CY25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C26",
+        "type": "string",
+        "value": "Soros / Cap Group - Internal Content"
+      },
+      {
+        "range": "CM26",
+        "type": "string",
+        "value": "Admin"
+      },
+      {
+        "range": "CN26:CY26",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 1396.69,
+      "cells_analyzed": 1608,
+      "total_ranges": 39,
+      "format_counts": {
+        "string": 19,
+        "date": 1,
+        "number": 19
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T11:04:15.182485Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2010-10-01",
+        "pattern": "Monthly series from 2010-10 to 2020-08"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 4,
+    "entries_moved_to_index": 12,
+    "entries_remaining": 27,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 2330,
+    "compressed_size_bytes": 1971,
+    "inverted_index_size_bytes": 219,
+    "compressed_data_size_bytes": 1752,
+    "compression_ratio": 0.846,
+    "space_saved_bytes": 359,
+    "space_saved_percent": 15.4
+  }
+}

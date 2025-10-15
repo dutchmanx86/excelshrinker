@@ -1,0 +1,442 @@
+{
+  "inverted_index": {
+    "Churn": {
+      "type": "string",
+      "ranges": [
+        "B8",
+        "B40"
+      ]
+    },
+    "Core": {
+      "type": "string",
+      "ranges": [
+        "B13",
+        "D19",
+        "B27",
+        "B34",
+        "B41",
+        "D50",
+        "D57"
+      ]
+    },
+    "Mobile": {
+      "type": "string",
+      "ranges": [
+        "B14",
+        "D20",
+        "B28",
+        "B35",
+        "B42",
+        "D51",
+        "D58"
+      ]
+    },
+    "VoC": {
+      "type": "string",
+      "ranges": [
+        "B15",
+        "D21",
+        "B29",
+        "B36",
+        "B43",
+        "D52",
+        "D59"
+      ]
+    },
+    "DAP": {
+      "type": "string",
+      "ranges": [
+        "B16",
+        "D22",
+        "B30",
+        "B37",
+        "B44",
+        "D53",
+        "D60"
+      ]
+    },
+    "Adopt": {
+      "type": "string",
+      "ranges": [
+        "B17",
+        "D23",
+        "B31",
+        "B38",
+        "B45",
+        "D54",
+        "D61"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Products - Old",
+    "format_ranges": [
+      {
+        "range": "C2:J2",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "B4",
+        "type": "string",
+        "value": "BOP ARR"
+      },
+      {
+        "range": "C4:J4",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B5",
+        "type": "string",
+        "value": "Acquisitions"
+      },
+      {
+        "range": "C5:J5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B6",
+        "type": "string",
+        "value": "New Customer ARR"
+      },
+      {
+        "range": "C6:J6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B7",
+        "type": "string",
+        "value": "Expansion ARR"
+      },
+      {
+        "range": "C7:J7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C8:J8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B9",
+        "type": "string",
+        "value": "EOP ARR"
+      },
+      {
+        "range": "C9:J9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E11",
+        "type": "string",
+        "value": "ARR"
+      },
+      {
+        "range": "F11",
+        "type": "string",
+        "value": "Gross Bookings"
+      },
+      {
+        "range": "B12",
+        "type": "string",
+        "value": "Product"
+      },
+      {
+        "range": "E12:J12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E13:J13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E14:J14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E15:J15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E16:J16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E17:J17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C19",
+        "type": "string",
+        "value": "Engage"
+      },
+      {
+        "range": "E19:J19",
+        "type": "number"
+      },
+      {
+        "range": "L19",
+        "type": "string",
+        "value": "annual increase"
+      },
+      {
+        "range": "E20:J20",
+        "type": "number"
+      },
+      {
+        "range": "L20",
+        "type": "number"
+      },
+      {
+        "range": "E21:J21",
+        "type": "number"
+      },
+      {
+        "range": "L21",
+        "type": "number"
+      },
+      {
+        "range": "C22",
+        "type": "string",
+        "value": "DA"
+      },
+      {
+        "range": "E22:J22",
+        "type": "number"
+      },
+      {
+        "range": "L22",
+        "type": "number"
+      },
+      {
+        "range": "E23:J23",
+        "type": "number"
+      },
+      {
+        "range": "L23",
+        "type": "number"
+      },
+      {
+        "range": "B26",
+        "type": "string",
+        "value": "Starting ARR"
+      },
+      {
+        "range": "F26:J26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F27:J27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F28:J28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F29:J29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F30:J30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F31:J31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B33",
+        "type": "string",
+        "value": "Bookings"
+      },
+      {
+        "range": "F33:J33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F34:J34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F35:J35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F36:J36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F37:J37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F38:J38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F40:J40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F41:J41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F42:J42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F43:J43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F44:J44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F45:J45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E47:J47",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "D49",
+        "type": "string",
+        "value": "Ending ARR"
+      },
+      {
+        "range": "E49:J49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E50:J50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E51:J51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E52:J52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E53:J53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E54:J54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D56",
+        "type": "string",
+        "value": "Ending ARR (%)"
+      },
+      {
+        "range": "E56:J56",
+        "type": "number"
+      },
+      {
+        "range": "E57:J57",
+        "type": "number"
+      },
+      {
+        "range": "E58:J58",
+        "type": "number"
+      },
+      {
+        "range": "E59:J59",
+        "type": "number"
+      },
+      {
+        "range": "E60:J60",
+        "type": "number"
+      },
+      {
+        "range": "E61:J61",
+        "type": "number"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 60.86,
+      "cells_analyzed": 346,
+      "total_ranges": 105,
+      "format_counts": {
+        "date": 2,
+        "string": 52,
+        "number": 51
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T19:48:18.737420Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "annual",
+        "increment": "1 year",
+        "start_date": "2019-01-01",
+        "pattern": "Annual series from 2019 to 2026"
+      },
+      "ds_2": {
+        "series_type": "annual",
+        "increment": "1 year",
+        "start_date": "2021-01-01",
+        "pattern": "Annual series from 2021 to 2026"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 6,
+    "entries_moved_to_index": 37,
+    "entries_remaining": 68,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 5451,
+    "compressed_size_bytes": 4144,
+    "inverted_index_size_bytes": 440,
+    "compressed_data_size_bytes": 3704,
+    "compression_ratio": 0.76,
+    "space_saved_bytes": 1307,
+    "space_saved_percent": 24.0
+  }
+}

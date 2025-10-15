@@ -1,0 +1,243 @@
+{
+  "inverted_index": {
+    "Cash Summary": {
+      "type": "string",
+      "ranges": [
+        "B3",
+        "B10"
+      ]
+    },
+    "CYE December 31": {
+      "type": "string",
+      "ranges": [
+        "B5",
+        "AC7"
+      ]
+    },
+    "Q1A": {
+      "type": "string",
+      "ranges": [
+        "D8",
+        "H8",
+        "L8",
+        "P8"
+      ]
+    },
+    "Q2A": {
+      "type": "string",
+      "ranges": [
+        "E8",
+        "I8",
+        "M8",
+        "Q8"
+      ]
+    },
+    "Q3A": {
+      "type": "string",
+      "ranges": [
+        "F8",
+        "J8",
+        "N8",
+        "R8"
+      ]
+    },
+    "Q4A": {
+      "type": "string",
+      "ranges": [
+        "G8",
+        "K8",
+        "O8"
+      ]
+    },
+    "Q4E": {
+      "type": "string",
+      "ranges": [
+        "S8",
+        "W8",
+        "AA8"
+      ]
+    },
+    "Q1E": {
+      "type": "string",
+      "ranges": [
+        "T8",
+        "X8"
+      ]
+    },
+    "Q2E": {
+      "type": "string",
+      "ranges": [
+        "U8",
+        "Y8"
+      ]
+    },
+    "Q3E": {
+      "type": "string",
+      "ranges": [
+        "V8",
+        "Z8"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Cash Summary",
+    "format_ranges": [
+      {
+        "range": "B2",
+        "type": "string",
+        "value": "LogRocket"
+      },
+      {
+        "range": "B4",
+        "type": "string",
+        "value": "$ in 000s"
+      },
+      {
+        "range": "D7",
+        "type": "string",
+        "value": "CY2018A"
+      },
+      {
+        "range": "H7",
+        "type": "string",
+        "value": "CY2019A"
+      },
+      {
+        "range": "L7",
+        "type": "string",
+        "value": "CY2020A"
+      },
+      {
+        "range": "P7",
+        "type": "string",
+        "value": "CY2021E"
+      },
+      {
+        "range": "T7",
+        "type": "string",
+        "value": "CY2022E"
+      },
+      {
+        "range": "X7",
+        "type": "string",
+        "value": "CY2023E"
+      },
+      {
+        "range": "AC8",
+        "type": "string",
+        "value": "2018A"
+      },
+      {
+        "range": "AD8",
+        "type": "string",
+        "value": "2019A"
+      },
+      {
+        "range": "AE8",
+        "type": "string",
+        "value": "2020A"
+      },
+      {
+        "range": "AF8",
+        "type": "string",
+        "value": "2021E"
+      },
+      {
+        "range": "AG8",
+        "type": "string",
+        "value": "2022E"
+      },
+      {
+        "range": "AH8",
+        "type": "string",
+        "value": "2023E"
+      },
+      {
+        "range": "A10",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B12",
+        "type": "string",
+        "value": "Cash Balance Waterfall"
+      },
+      {
+        "range": "B13",
+        "type": "string",
+        "value": "Beginning Cash Balance"
+      },
+      {
+        "range": "R13:AA13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF13:AH13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B14",
+        "type": "string",
+        "value": "Net Cash Burn From Operations"
+      },
+      {
+        "range": "R14:AA14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF14:AH14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B15",
+        "type": "string",
+        "value": "Ending Cash Balance"
+      },
+      {
+        "range": "R15:AA15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AF15:AH15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "R17:AA18",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 64.8,
+      "cells_analyzed": 106,
+      "total_ranges": 54,
+      "format_counts": {
+        "string": 47,
+        "number": 7
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-15T19:46:11.453134Z"
+    }
+  },
+  "compression_stats": {
+    "unique_values": 10,
+    "entries_moved_to_index": 28,
+    "entries_remaining": 26,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 2890,
+    "compressed_size_bytes": 2100,
+    "inverted_index_size_bytes": 515,
+    "compressed_data_size_bytes": 1585,
+    "compression_ratio": 0.727,
+    "space_saved_bytes": 790,
+    "space_saved_percent": 27.3
+  }
+}

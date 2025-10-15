@@ -1,0 +1,729 @@
+{
+  "inverted_index": {
+    "Content": {
+      "type": "string",
+      "ranges": [
+        "B3",
+        "B13",
+        "B23"
+      ]
+    },
+    "Engineering (ex India)": {
+      "type": "string",
+      "ranges": [
+        "B4",
+        "B14",
+        "B24"
+      ]
+    },
+    "Executive": {
+      "type": "string",
+      "ranges": [
+        "B5",
+        "B15",
+        "B25"
+      ]
+    },
+    "Finance & Admin": {
+      "type": "string",
+      "ranges": [
+        "B6",
+        "B16",
+        "B26"
+      ]
+    },
+    "Marketing": {
+      "type": "string",
+      "ranges": [
+        "B7",
+        "B17",
+        "B27"
+      ]
+    },
+    "Product": {
+      "type": "string",
+      "ranges": [
+        "B8",
+        "B18",
+        "B28"
+      ]
+    },
+    "VP Bus Dev": {
+      "type": "string",
+      "ranges": [
+        "B9",
+        "B19",
+        "B29"
+      ]
+    },
+    "Engineering (India)": {
+      "type": "string",
+      "ranges": [
+        "B10",
+        "B20",
+        "B30"
+      ]
+    },
+    "CRO": {
+      "type": "string",
+      "ranges": [
+        "B40",
+        "B57"
+      ]
+    },
+    "Sales Manager": {
+      "type": "string",
+      "ranges": [
+        "B47",
+        "B59"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Headcount Support",
+    "format_ranges": [
+      {
+        "range": "A1",
+        "type": "string",
+        "value": "Department"
+      },
+      {
+        "range": "D1:CI1",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "A2",
+        "type": "string",
+        "value": "Headcount"
+      },
+      {
+        "range": "BW2",
+        "type": "string",
+        "value": "2020 Budget"
+      },
+      {
+        "range": "D3:AV3",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AW3:BI3",
+        "type": "number"
+      },
+      {
+        "range": "BJ3:CI3",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D4:AV4",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AW4:BK4",
+        "type": "number"
+      },
+      {
+        "range": "BL4:CI4",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D5:AV5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AW5:BI5",
+        "type": "number"
+      },
+      {
+        "range": "BJ5:CI5",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D6:AV6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AW6:BI6",
+        "type": "number"
+      },
+      {
+        "range": "BJ6:CI6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D7:AV7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AW7:BI7",
+        "type": "number"
+      },
+      {
+        "range": "BJ7:CI7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D8:AV8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AW8:BK8",
+        "type": "number"
+      },
+      {
+        "range": "BL8:CI8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D9:AS9",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AZ9:BI9",
+        "type": "number"
+      },
+      {
+        "range": "BI10:BK10",
+        "type": "number"
+      },
+      {
+        "range": "BL10:CI10",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BL13:BW13",
+        "type": "number"
+      },
+      {
+        "range": "BL14:BW14",
+        "type": "number"
+      },
+      {
+        "range": "BL15:BW15",
+        "type": "number"
+      },
+      {
+        "range": "BL16:BW16",
+        "type": "number"
+      },
+      {
+        "range": "BL17:BW17",
+        "type": "number"
+      },
+      {
+        "range": "BL18:BW18",
+        "type": "number"
+      },
+      {
+        "range": "BL20:BW20",
+        "type": "number"
+      },
+      {
+        "range": "D23:AV23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AW23:BI23",
+        "type": "number"
+      },
+      {
+        "range": "BJ23:BW23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D24:AV24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AW24:BK24",
+        "type": "number"
+      },
+      {
+        "range": "BL24:BW24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D25:AV25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AW25:BI25",
+        "type": "number"
+      },
+      {
+        "range": "BJ25:BW25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D26:AV26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AW26:BI26",
+        "type": "number"
+      },
+      {
+        "range": "BJ26:BW26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D27:AV27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AW27:BI27",
+        "type": "number"
+      },
+      {
+        "range": "BJ27:BW27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D28:AV28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AW28:BK28",
+        "type": "number"
+      },
+      {
+        "range": "BL28:BW28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D29:AS29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AZ29:BI29",
+        "type": "number"
+      },
+      {
+        "range": "BI30:BK30",
+        "type": "number"
+      },
+      {
+        "range": "BL30:BW30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B34",
+        "type": "string",
+        "value": "Account Manager"
+      },
+      {
+        "range": "D34:BH34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BN34",
+        "type": "string",
+        "value": "head of people"
+      },
+      {
+        "range": "BM34",
+        "type": "number"
+      },
+      {
+        "range": "B35",
+        "type": "string",
+        "value": "Account Manager - Corp"
+      },
+      {
+        "range": "D35:BH35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BM35",
+        "type": "number"
+      },
+      {
+        "range": "B36",
+        "type": "string",
+        "value": "Account Executive - Financial"
+      },
+      {
+        "range": "D36:AS36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B37",
+        "type": "string",
+        "value": "Account Executive - Corporate"
+      },
+      {
+        "range": "D37:AS37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B38",
+        "type": "string",
+        "value": "Account Executive - Enterprise"
+      },
+      {
+        "range": "D38:AS38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B39",
+        "type": "string",
+        "value": "Account Executive - Other"
+      },
+      {
+        "range": "D39:AS39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D40:BH40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B41",
+        "type": "string",
+        "value": "Manager - Corporate"
+      },
+      {
+        "range": "D41:BH41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B42",
+        "type": "string",
+        "value": "Product Specialist  "
+      },
+      {
+        "range": "D42:BH42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B43",
+        "type": "string",
+        "value": "Product Specialist - Manager"
+      },
+      {
+        "range": "D43:BH43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B44",
+        "type": "string",
+        "value": "Admin"
+      },
+      {
+        "range": "D44:BH44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B45",
+        "type": "string",
+        "value": "Operations Manager"
+      },
+      {
+        "range": "D45:BH45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B46",
+        "type": "string",
+        "value": "Sales Development Rep"
+      },
+      {
+        "range": "D46:BH46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "D47:BH47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B48",
+        "type": "string",
+        "value": "Sales Recruiter"
+      },
+      {
+        "range": "D48:BH48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B50",
+        "type": "string",
+        "value": "Quota Sales Reps"
+      },
+      {
+        "range": "B51",
+        "type": "string",
+        "value": "AM - Financial (Quota)"
+      },
+      {
+        "range": "BI51:BJ51",
+        "type": "number"
+      },
+      {
+        "range": "BL51:BM51",
+        "type": "number"
+      },
+      {
+        "range": "B52",
+        "type": "string",
+        "value": "AE - Financial (Quota)"
+      },
+      {
+        "range": "BI52:BJ52",
+        "type": "number"
+      },
+      {
+        "range": "BL52:BM52",
+        "type": "number"
+      },
+      {
+        "range": "B53",
+        "type": "string",
+        "value": "AE - Corporate (Quota)"
+      },
+      {
+        "range": "BI53:BJ53",
+        "type": "number"
+      },
+      {
+        "range": "BL53:BM53",
+        "type": "number"
+      },
+      {
+        "range": "B54",
+        "type": "string",
+        "value": "VP Partnerships (Quota)"
+      },
+      {
+        "range": "BI54:BJ54",
+        "type": "number"
+      },
+      {
+        "range": "BL54:BM54",
+        "type": "number"
+      },
+      {
+        "range": "B56",
+        "type": "string",
+        "value": "Sales Team"
+      },
+      {
+        "range": "BI57:BT57",
+        "type": "number"
+      },
+      {
+        "range": "B58",
+        "type": "string",
+        "value": "VP of Sales"
+      },
+      {
+        "range": "AT58:BW58",
+        "type": "number"
+      },
+      {
+        "range": "BI59:BW59",
+        "type": "number"
+      },
+      {
+        "range": "B60",
+        "type": "string",
+        "value": "SDR Manager"
+      },
+      {
+        "range": "BI60:BW60",
+        "type": "number"
+      },
+      {
+        "range": "B61",
+        "type": "string",
+        "value": "SDR"
+      },
+      {
+        "range": "BI61:BW61",
+        "type": "number"
+      },
+      {
+        "range": "B63",
+        "type": "string",
+        "value": "Customer Success"
+      },
+      {
+        "range": "B64",
+        "type": "string",
+        "value": "CS Manager"
+      },
+      {
+        "range": "BI64:BW64",
+        "type": "number"
+      },
+      {
+        "range": "B65",
+        "type": "string",
+        "value": "AM - Financial"
+      },
+      {
+        "range": "BI65:BW65",
+        "type": "number"
+      },
+      {
+        "range": "B66",
+        "type": "string",
+        "value": "AM - Corporate"
+      },
+      {
+        "range": "BI66:BW66",
+        "type": "number"
+      },
+      {
+        "range": "B67",
+        "type": "string",
+        "value": "PS Manager"
+      },
+      {
+        "range": "BI67:BW67",
+        "type": "number"
+      },
+      {
+        "range": "B68",
+        "type": "string",
+        "value": "Product Specialist"
+      },
+      {
+        "range": "BI68:CI68",
+        "type": "number"
+      },
+      {
+        "range": "B70",
+        "type": "string",
+        "value": "Operations"
+      },
+      {
+        "range": "B71",
+        "type": "string",
+        "value": "Enablement Manager"
+      },
+      {
+        "range": "BI71:BW71",
+        "type": "number"
+      },
+      {
+        "range": "B72",
+        "type": "string",
+        "value": "Sales Admin"
+      },
+      {
+        "range": "BI72:BW72",
+        "type": "number"
+      },
+      {
+        "range": "B73",
+        "type": "string",
+        "value": "Sales Operations Manager"
+      },
+      {
+        "range": "BI73:BW73",
+        "type": "number"
+      },
+      {
+        "range": "B74",
+        "type": "string",
+        "value": "Sales Operations"
+      },
+      {
+        "range": "BI74:BW74",
+        "type": "number"
+      },
+      {
+        "range": "B76",
+        "type": "string",
+        "value": "Business Development"
+      },
+      {
+        "range": "B77",
+        "type": "string",
+        "value": "GTM Strategy"
+      },
+      {
+        "range": "BI77:BW77",
+        "type": "number"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 2461.15,
+      "cells_analyzed": 2379,
+      "total_ranges": 159,
+      "format_counts": {
+        "string": 67,
+        "date": 1,
+        "number": 91
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-14T01:36:55.969733Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2015-01-01",
+        "pattern": "Monthly series from 2015-01 to 2021-12"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 10,
+    "entries_moved_to_index": 28,
+    "entries_remaining": 131,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 8267,
+    "compressed_size_bytes": 7340,
+    "inverted_index_size_bytes": 596,
+    "compressed_data_size_bytes": 6744,
+    "compression_ratio": 0.888,
+    "space_saved_bytes": 927,
+    "space_saved_percent": 11.2
+  }
+}

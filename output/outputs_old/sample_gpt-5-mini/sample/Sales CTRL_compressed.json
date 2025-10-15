@@ -1,0 +1,3994 @@
+{
+  "inverted_index": {
+    "Total Headcount": {
+      "type": "string",
+      "ranges": [
+        "B13",
+        "B28",
+        "B70",
+        "B112",
+        "B127",
+        "B142",
+        "B266",
+        "B297",
+        "B354",
+        "B371",
+        "B388",
+        "B405",
+        "B422",
+        "B439",
+        "B449"
+      ]
+    },
+    "Base - $25mm": {
+      "type": "string",
+      "ranges": [
+        "B15",
+        "B22",
+        "B30",
+        "B36",
+        "B42",
+        "B50",
+        "B57",
+        "B64",
+        "B72",
+        "B78",
+        "B84",
+        "B92",
+        "B99",
+        "B106",
+        "B114",
+        "B121",
+        "B129",
+        "B136",
+        "B144",
+        "B151",
+        "B164",
+        "B171",
+        "B181",
+        "B188",
+        "B198",
+        "B205",
+        "B215",
+        "B222",
+        "B232",
+        "B239",
+        "B249",
+        "B256",
+        "B268",
+        "B274",
+        "B280",
+        "B286",
+        "B292",
+        "B299",
+        "B305",
+        "B311",
+        "B318",
+        "B339",
+        "B346",
+        "B356",
+        "B363",
+        "B373",
+        "B380",
+        "B390",
+        "B397",
+        "B407",
+        "B414",
+        "B424",
+        "B431",
+        "B441",
+        "B451",
+        "B458",
+        "B464",
+        "B470",
+        "B480",
+        "B487",
+        "B494",
+        "B501",
+        "B508",
+        "B515",
+        "B522",
+        "B529",
+        "B536",
+        "B543",
+        "B550",
+        "B557",
+        "B564",
+        "B571"
+      ]
+    },
+    "Growth - $25mm": {
+      "type": "string",
+      "ranges": [
+        "B16",
+        "B23",
+        "B31",
+        "B37",
+        "B43",
+        "B51",
+        "B58",
+        "B65",
+        "B73",
+        "B79",
+        "B85",
+        "B93",
+        "B100",
+        "B107",
+        "B115",
+        "B122",
+        "B130",
+        "B137",
+        "B145",
+        "B152",
+        "B165",
+        "B172",
+        "B182",
+        "B189",
+        "B199",
+        "B206",
+        "B216",
+        "B223",
+        "B233",
+        "B240",
+        "B250",
+        "B257",
+        "B269",
+        "B275",
+        "B281",
+        "B287",
+        "B293",
+        "B300",
+        "B306",
+        "B312",
+        "B319",
+        "B340",
+        "B347",
+        "B357",
+        "B364",
+        "B374",
+        "B381",
+        "B391",
+        "B398",
+        "B408",
+        "B415",
+        "B425",
+        "B432",
+        "B442",
+        "B452",
+        "B459",
+        "B465",
+        "B471",
+        "B481",
+        "B488",
+        "B495",
+        "B502",
+        "B509",
+        "B516",
+        "B523",
+        "B530",
+        "B537",
+        "B544",
+        "B551",
+        "B558",
+        "B565",
+        "B572"
+      ]
+    },
+    "Base - $50mm": {
+      "type": "string",
+      "ranges": [
+        "B17",
+        "B24",
+        "B32",
+        "B38",
+        "B44",
+        "B52",
+        "B59",
+        "B66",
+        "B74",
+        "B80",
+        "B86",
+        "B94",
+        "B101",
+        "B108",
+        "B116",
+        "B123",
+        "B131",
+        "B138",
+        "B146",
+        "B153",
+        "B166",
+        "B173",
+        "B183",
+        "B190",
+        "B200",
+        "B207",
+        "B217",
+        "B224",
+        "B234",
+        "B241",
+        "B251",
+        "B258",
+        "B270",
+        "B276",
+        "B282",
+        "B288",
+        "B294",
+        "B301",
+        "B307",
+        "B313",
+        "B320",
+        "B341",
+        "B348",
+        "B358",
+        "B365",
+        "B375",
+        "B382",
+        "B392",
+        "B399",
+        "B409",
+        "B416",
+        "B426",
+        "B433",
+        "B443",
+        "B453",
+        "B460",
+        "B466",
+        "B472",
+        "B482",
+        "B489",
+        "B496",
+        "B503",
+        "B510",
+        "B517",
+        "B524",
+        "B531",
+        "B538",
+        "B545",
+        "B552",
+        "B559",
+        "B566",
+        "B573"
+      ]
+    },
+    "Base - $50mm (R&D)": {
+      "type": "string",
+      "ranges": [
+        "B18",
+        "B25",
+        "B33",
+        "B39",
+        "B45",
+        "B53",
+        "B60",
+        "B67",
+        "B75",
+        "B81",
+        "B87",
+        "B95",
+        "B102",
+        "B109",
+        "B117",
+        "B124",
+        "B132",
+        "B139",
+        "B147",
+        "B154",
+        "B167",
+        "B174",
+        "B184",
+        "B191",
+        "B201",
+        "B208",
+        "B218",
+        "B225",
+        "B235",
+        "B242",
+        "B252",
+        "B259",
+        "B271",
+        "B277",
+        "B283",
+        "B289",
+        "B295",
+        "B302",
+        "B308",
+        "B314",
+        "B321",
+        "B342",
+        "B349",
+        "B359",
+        "B366",
+        "B376",
+        "B383",
+        "B393",
+        "B400",
+        "B410",
+        "B417",
+        "B427",
+        "B434",
+        "B444",
+        "B454",
+        "B461",
+        "B467",
+        "B473",
+        "B483",
+        "B490",
+        "B497",
+        "B504",
+        "B511",
+        "B518",
+        "B525",
+        "B532",
+        "B539",
+        "B546",
+        "B553",
+        "B560",
+        "B567",
+        "B574"
+      ]
+    },
+    "% of Total Headcount": {
+      "type": "string",
+      "ranges": [
+        "B48",
+        "B90",
+        "B119",
+        "B134"
+      ]
+    },
+    "Account Manager": {
+      "type": "string",
+      "ranges": [
+        "B160",
+        "B163"
+      ]
+    },
+    "Annual Increase": {
+      "type": "string",
+      "ranges": [
+        "B162",
+        "B179",
+        "B196",
+        "B213",
+        "B230",
+        "B247",
+        "B478",
+        "B485",
+        "B492",
+        "B499",
+        "B506",
+        "B513",
+        "B520",
+        "B527",
+        "B534",
+        "B541",
+        "B548",
+        "B555",
+        "B562",
+        "B569"
+      ]
+    },
+    "AE - Financial": {
+      "type": "string",
+      "ranges": [
+        "B177",
+        "B180"
+      ]
+    },
+    "AE - Corporate": {
+      "type": "string",
+      "ranges": [
+        "B194",
+        "B197"
+      ]
+    },
+    "VP - Bus Dev": {
+      "type": "string",
+      "ranges": [
+        "B211",
+        "B214"
+      ]
+    },
+    "AE - Enterprise": {
+      "type": "string",
+      "ranges": [
+        "B228",
+        "B231"
+      ]
+    },
+    "AE - Other": {
+      "type": "string",
+      "ranges": [
+        "B245",
+        "B248"
+      ]
+    },
+    "CRO": {
+      "type": "string",
+      "ranges": [
+        "B264",
+        "B479"
+      ]
+    },
+    "Product Specialist": {
+      "type": "string",
+      "ranges": [
+        "B352",
+        "B535"
+      ]
+    },
+    "Product Specialist - Mgr": {
+      "type": "string",
+      "ranges": [
+        "B369",
+        "B528"
+      ]
+    },
+    "Sales - Admin": {
+      "type": "string",
+      "ranges": [
+        "B386",
+        "B549"
+      ]
+    },
+    "Sales Manager": {
+      "type": "string",
+      "ranges": [
+        "B403",
+        "B486"
+      ]
+    },
+    "Sales Operations Manager": {
+      "type": "string",
+      "ranges": [
+        "B420",
+        "B556"
+      ]
+    },
+    "SDR": {
+      "type": "string",
+      "ranges": [
+        "B447",
+        "B500"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Sales CTRL",
+    "format_ranges": [
+      {
+        "range": "B1",
+        "type": "string",
+        "value": "AlphaSense, Inc."
+      },
+      {
+        "range": "B2",
+        "type": "string",
+        "value": "Sales Representatives CTRL"
+      },
+      {
+        "range": "B3",
+        "type": "string",
+        "value": "1 - Base - $25mm"
+      },
+      {
+        "range": "B6",
+        "type": "string",
+        "value": "Year"
+      },
+      {
+        "range": "E6:Q6",
+        "type": "number"
+      },
+      {
+        "range": "T6:FS6",
+        "type": "number"
+      },
+      {
+        "range": "E6:Q6",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "T6:FS6",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "B7",
+        "type": "string",
+        "value": "Month"
+      },
+      {
+        "range": "T7:FS7",
+        "type": "number"
+      },
+      {
+        "range": "E8:Q8",
+        "type": "number"
+      },
+      {
+        "range": "T8:FS8",
+        "type": "date",
+        "date_series_id": "ds_3"
+      },
+      {
+        "range": "A11",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B11",
+        "type": "string",
+        "value": "Quota Sales Reps"
+      },
+      {
+        "range": "I12",
+        "type": "string",
+        "value": "2019 BUDGET"
+      },
+      {
+        "range": "E13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F13:Q13",
+        "type": "number"
+      },
+      {
+        "range": "A14",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B14",
+        "type": "string",
+        "value": "Account Manager Headcount Added in Period"
+      },
+      {
+        "range": "E14:Q14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T14:FS14",
+        "type": "number"
+      },
+      {
+        "range": "J15:Q15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J16:Q16",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J17:Q17",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J18:Q18",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A21",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B21",
+        "type": "string",
+        "value": "Account Manager Headcount Removed in Period"
+      },
+      {
+        "range": "E21:Q21",
+        "type": "number"
+      },
+      {
+        "range": "T21:FS21",
+        "type": "number"
+      },
+      {
+        "range": "J22:Q22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J23:Q23",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J24:Q24",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J25:Q25",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E28:Q28",
+        "type": "number"
+      },
+      {
+        "range": "A29",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B29",
+        "type": "string",
+        "value": "AE - Financial Headcount Added in Period - Active"
+      },
+      {
+        "range": "E29:Q29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T29:FS29",
+        "type": "number"
+      },
+      {
+        "range": "J30:Q30",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J31:Q31",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J32:Q32",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J33:Q33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B35",
+        "type": "string",
+        "value": "AE - Financial Headcount Added in Period - Base"
+      },
+      {
+        "range": "E35:I35",
+        "type": "number"
+      },
+      {
+        "range": "J35:Q35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T35:CA35",
+        "type": "number"
+      },
+      {
+        "range": "CB35:FS35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J36:Q36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J37:Q37",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J38:Q38",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J39:Q39",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B41",
+        "type": "string",
+        "value": "AE - Financial Headcount Added in Period - Target"
+      },
+      {
+        "range": "E41:I41",
+        "type": "number"
+      },
+      {
+        "range": "J41:Q41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T41:FS41",
+        "type": "number"
+      },
+      {
+        "range": "J42:Q42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J43:Q43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J44:Q44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J45:Q45",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F48:Q48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A49",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B49",
+        "type": "string",
+        "value": "AE - Financial Headcount Removed in Period"
+      },
+      {
+        "range": "E49",
+        "type": "number"
+      },
+      {
+        "range": "F49:Q49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T49:FS49",
+        "type": "number"
+      },
+      {
+        "range": "J50:Q50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J51:Q51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J52:Q52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J53:Q53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A56",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B56",
+        "type": "string",
+        "value": "AE - Financial Headcount Removed in Period - Base"
+      },
+      {
+        "range": "E56:Q56",
+        "type": "number"
+      },
+      {
+        "range": "T56:CA56",
+        "type": "number"
+      },
+      {
+        "range": "CB56:CM56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CN56:FS56",
+        "type": "number"
+      },
+      {
+        "range": "J57:Q57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J58:Q58",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J59:Q59",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J60:Q60",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A63",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B63",
+        "type": "string",
+        "value": "AE - Financial Headcount Removed in Period - Upside"
+      },
+      {
+        "range": "E63:Q63",
+        "type": "number"
+      },
+      {
+        "range": "T63:CA63",
+        "type": "number"
+      },
+      {
+        "range": "CB63:CM63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CN63:FS63",
+        "type": "number"
+      },
+      {
+        "range": "J64:Q64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J65:Q65",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J66:Q66",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J67:Q67",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E70:Q70",
+        "type": "number"
+      },
+      {
+        "range": "A71",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B71",
+        "type": "string",
+        "value": "AE - Corporate Headcount Added in Period - Active"
+      },
+      {
+        "range": "E71:Q71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T71:FS71",
+        "type": "number"
+      },
+      {
+        "range": "K72:Q72",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K73:Q73",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K74:Q74",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K75:Q75",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B77",
+        "type": "string",
+        "value": "AE - Corporate Headcount Added in Period - Base"
+      },
+      {
+        "range": "E77:Q77",
+        "type": "number"
+      },
+      {
+        "range": "T77:FS77",
+        "type": "number"
+      },
+      {
+        "range": "K78:Q78",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K79:Q79",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K80:Q80",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K81:Q81",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B83",
+        "type": "string",
+        "value": "AE - Corporate Headcount Added in Period - Target"
+      },
+      {
+        "range": "E83:Q83",
+        "type": "number"
+      },
+      {
+        "range": "T83:FS83",
+        "type": "number"
+      },
+      {
+        "range": "K84:Q84",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K85:Q85",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K86:Q86",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K87:Q87",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F90:Q90",
+        "type": "number"
+      },
+      {
+        "range": "A91",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B91",
+        "type": "string",
+        "value": "AE - Corporate Headcount Removed in Period"
+      },
+      {
+        "range": "E91:Q91",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T91:FS91",
+        "type": "number"
+      },
+      {
+        "range": "K92:Q92",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K93:Q93",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K94:Q94",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K95:Q95",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A98",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B98",
+        "type": "string",
+        "value": "AE - Corporate Headcount Removed in Period - Base"
+      },
+      {
+        "range": "E98:Q98",
+        "type": "number"
+      },
+      {
+        "range": "T98:FS98",
+        "type": "number"
+      },
+      {
+        "range": "K99:Q99",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K100:Q100",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K101:Q101",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K102:Q102",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A105",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B105",
+        "type": "string",
+        "value": "AE - Corporate Headcount Removed in Period - Upside"
+      },
+      {
+        "range": "E105:Q105",
+        "type": "number"
+      },
+      {
+        "range": "T105:FS105",
+        "type": "number"
+      },
+      {
+        "range": "K106:Q106",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K107:Q107",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K108:Q108",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K109:Q109",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E112:Q112",
+        "type": "number"
+      },
+      {
+        "range": "A113",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B113",
+        "type": "string",
+        "value": "VP - Bus Dev Headcount Added in Period"
+      },
+      {
+        "range": "E113:Q113",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T113:FS113",
+        "type": "number"
+      },
+      {
+        "range": "K114:Q114",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K115:Q115",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K116:Q116",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K117:Q117",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F119:Q119",
+        "type": "number"
+      },
+      {
+        "range": "A120",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B120",
+        "type": "string",
+        "value": "VP - Bus Dev Headcount Removed in Period"
+      },
+      {
+        "range": "E120",
+        "type": "number"
+      },
+      {
+        "range": "F120:Q120",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T120:FS120",
+        "type": "number"
+      },
+      {
+        "range": "K121:Q121",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K122:Q122",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K123:Q123",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K124:Q124",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E127:Q127",
+        "type": "number"
+      },
+      {
+        "range": "A128",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B128",
+        "type": "string",
+        "value": "AE - Enterprise Headcount Added in Period"
+      },
+      {
+        "range": "E128:Q128",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T128:FS128",
+        "type": "number"
+      },
+      {
+        "range": "J129:Q129",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J130:Q130",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J131:Q131",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J132:Q132",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F134:Q134",
+        "type": "number"
+      },
+      {
+        "range": "A135",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B135",
+        "type": "string",
+        "value": "AE - Enterprise Headcount Removed in Period"
+      },
+      {
+        "range": "E135",
+        "type": "number"
+      },
+      {
+        "range": "F135:Q135",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T135:FS135",
+        "type": "number"
+      },
+      {
+        "range": "J136:Q136",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J137:Q137",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J138:Q138",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J139:Q139",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "E142:Q142",
+        "type": "number"
+      },
+      {
+        "range": "A143",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B143",
+        "type": "string",
+        "value": "AE Other - Headcount Added in Period"
+      },
+      {
+        "range": "E143:Q143",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T143:FS143",
+        "type": "number"
+      },
+      {
+        "range": "J144:Q144",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J145:Q145",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J146:Q146",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J147:Q147",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A150",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B150",
+        "type": "string",
+        "value": "AE Other - Headcount Removed in Period"
+      },
+      {
+        "range": "E150:I150",
+        "type": "number"
+      },
+      {
+        "range": "J150:Q150",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T150:FS150",
+        "type": "number"
+      },
+      {
+        "range": "J151:Q151",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J152:Q152",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J153:Q153",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J154:Q154",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A157",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B157",
+        "type": "string",
+        "value": "Quota Sales Reps - Salary"
+      },
+      {
+        "range": "A160",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "I162:Q162",
+        "type": "number"
+      },
+      {
+        "range": "A163",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E163:H163",
+        "type": "number"
+      },
+      {
+        "range": "I163:Q163",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T163:FS163",
+        "type": "number"
+      },
+      {
+        "range": "I164:Q164",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I165:Q165",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I166:Q166",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I167:Q167",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A170",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B170",
+        "type": "string",
+        "value": "Account Manager - Sales Bonus"
+      },
+      {
+        "range": "I170:Q170",
+        "type": "number"
+      },
+      {
+        "range": "BX170:FS170",
+        "type": "number"
+      },
+      {
+        "range": "I171:Q171",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I172:Q172",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I173",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J173",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K173:Q173",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I174",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J174",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K174:Q174",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A177",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "I179",
+        "type": "number"
+      },
+      {
+        "range": "J179",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K179:Q179",
+        "type": "number"
+      },
+      {
+        "range": "A180",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E180:H180",
+        "type": "number"
+      },
+      {
+        "range": "I180:Q180",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T180:FS180",
+        "type": "number"
+      },
+      {
+        "range": "I181:Q181",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I182:Q182",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I183",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J183:Q183",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I184",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J184:Q184",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A187",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B187",
+        "type": "string",
+        "value": "AE - Financial - Sales Bonus"
+      },
+      {
+        "range": "I187:Q187",
+        "type": "number"
+      },
+      {
+        "range": "BX187:FS187",
+        "type": "number"
+      },
+      {
+        "range": "I188:Q188",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I189:Q189",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I190",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J190",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K190:Q190",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I191",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J191",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K191:Q191",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A194",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "I196:Q196",
+        "type": "number"
+      },
+      {
+        "range": "A197",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E197:H197",
+        "type": "number"
+      },
+      {
+        "range": "I197:Q197",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T197:FS197",
+        "type": "number"
+      },
+      {
+        "range": "I198:Q198",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I199:Q199",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I200:Q200",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I201:Q201",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A204",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B204",
+        "type": "string",
+        "value": "AE - Corporate - Sales Bonus"
+      },
+      {
+        "range": "I204:Q204",
+        "type": "number"
+      },
+      {
+        "range": "BX204:FS204",
+        "type": "number"
+      },
+      {
+        "range": "I205:Q205",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I206:Q206",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I207",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J207:K207",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L207:Q207",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I208",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J208:K208",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L208:Q208",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A211",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "I213:Q213",
+        "type": "number"
+      },
+      {
+        "range": "A214",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E214:H214",
+        "type": "number"
+      },
+      {
+        "range": "I214:Q214",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T214:FS214",
+        "type": "number"
+      },
+      {
+        "range": "I215:Q215",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I216:Q216",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I217:Q217",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I218:Q218",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A221",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B221",
+        "type": "string",
+        "value": "VP - Bus Dev - Sales Bonus"
+      },
+      {
+        "range": "I221:Q221",
+        "type": "number"
+      },
+      {
+        "range": "BX221:FS221",
+        "type": "number"
+      },
+      {
+        "range": "I222:Q222",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I223:Q223",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I224",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J224:Q224",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I225",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J225:Q225",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A228",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "J230:Q230",
+        "type": "number"
+      },
+      {
+        "range": "A231",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E231:H231",
+        "type": "number"
+      },
+      {
+        "range": "I231:Q231",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T231:FS231",
+        "type": "number"
+      },
+      {
+        "range": "I232:Q232",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I233:Q233",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I234",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J234:K234",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L234:Q234",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I235",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J235:K235",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L235:Q235",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A238",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B238",
+        "type": "string",
+        "value": "AE - Enterprise - Sales Bonus"
+      },
+      {
+        "range": "I238:Q238",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "BX238:FS238",
+        "type": "number"
+      },
+      {
+        "range": "I239:Q239",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I240:Q240",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I241",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J241:K241",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L241:Q241",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I242",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J242:K242",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L242:Q242",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A245",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "I247:Q247",
+        "type": "number"
+      },
+      {
+        "range": "A248",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E248:H248",
+        "type": "number"
+      },
+      {
+        "range": "I248:Q248",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T248:FS248",
+        "type": "number"
+      },
+      {
+        "range": "I249:Q249",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I250:Q250",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I251:Q251",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I252:Q252",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A255",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B255",
+        "type": "string",
+        "value": "AE - Other - Sales Bonus"
+      },
+      {
+        "range": "H255:Q255",
+        "type": "number"
+      },
+      {
+        "range": "BX255:FS255",
+        "type": "number"
+      },
+      {
+        "range": "I256:Q256",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I257:Q257",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I258",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J258:Q258",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I259",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J259:Q259",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A262",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B262",
+        "type": "string",
+        "value": "Other Sales - Headcount"
+      },
+      {
+        "range": "A264",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E266:Q266",
+        "type": "number"
+      },
+      {
+        "range": "A267",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B267",
+        "type": "string",
+        "value": "CRO - Added in Period"
+      },
+      {
+        "range": "E267:Q267",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T267:FS267",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I268:Q268",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I269:Q269",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I270:Q270",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I271:Q271",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A273",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B273",
+        "type": "string",
+        "value": "Sales Manager - Reps per Manager"
+      },
+      {
+        "range": "E273:Q273",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T273:FS273",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I274:Q274",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I275:Q275",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I276:Q276",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I277:Q277",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A279",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B279",
+        "type": "string",
+        "value": "SDR Manager - SDR per Manager"
+      },
+      {
+        "range": "E279:Q279",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T279:FS279",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I280:Q280",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I281:Q281",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I282:Q282",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I283:Q283",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A285",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B285",
+        "type": "string",
+        "value": "SDRs -  AE per SDR"
+      },
+      {
+        "range": "E285:Q285",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T285:FS285",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I286:Q286",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I287:Q287",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I288:Q288",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I289:Q289",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A291",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B291",
+        "type": "string",
+        "value": "SDRs - SDR per Manager"
+      },
+      {
+        "range": "E291:Q291",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T291:FS291",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I292:Q292",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I293:Q293",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I294:Q294",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I295:Q295",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A298",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B298",
+        "type": "string",
+        "value": "Account Manager - Corp - Corporate ARR per Manager"
+      },
+      {
+        "range": "E298:Q298",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T298:FS298",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I299:Q299",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I300:Q300",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I301",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J301:Q301",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I302",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J302:Q302",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A304",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B304",
+        "type": "string",
+        "value": "Account Manager - Fin - Financial ARR per Manager"
+      },
+      {
+        "range": "E304:Q304",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T304:FS304",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I305:Q305",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I306:Q306",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I307:J307",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K307:Q307",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I308:J308",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K308:Q308",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A310",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B310",
+        "type": "string",
+        "value": "Product Specialist per Manager"
+      },
+      {
+        "range": "E310:Q310",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T310:FS310",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I311:Q311",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I312:Q312",
+        "type": "number"
+      },
+      {
+        "range": "I313:Q313",
+        "type": "number"
+      },
+      {
+        "range": "I314:Q314",
+        "type": "number"
+      },
+      {
+        "range": "J316:Q316",
+        "type": "number"
+      },
+      {
+        "range": "A317",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B317",
+        "type": "string",
+        "value": "PSs - PS per AE"
+      },
+      {
+        "range": "E317:Q317",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T317:FS317",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I318:Q318",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I319:Q319",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I320:Q320",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I321:Q321",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "B334",
+        "type": "string",
+        "value": "Old Assumptions (To Be Deleted)"
+      },
+      {
+        "range": "A336",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B336",
+        "type": "string",
+        "value": "Manager - Corporate"
+      },
+      {
+        "range": "A338",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B338",
+        "type": "string",
+        "value": "Manager - Corporate - Added in Period (2018 Driver)"
+      },
+      {
+        "range": "E338:H338",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T338:BW338",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A345",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B345",
+        "type": "string",
+        "value": "Manager - Corporate - AE Corp per Manager Corporate (2019 and Beyond Annual Driver)"
+      },
+      {
+        "range": "I345:Q345",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I346:Q346",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I347:Q347",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I348:Q348",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I349:Q349",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A352",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E354:Q354",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T354:FS354",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A355",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B355",
+        "type": "string",
+        "value": "Product Specialist Added (2018 Driver)"
+      },
+      {
+        "range": "E355:H355",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T355:BW355",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A362",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B362",
+        "type": "string",
+        "value": "AE per Product Specialist (2019 and Beyond Annual Driver)"
+      },
+      {
+        "range": "E362:H362",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I362:Q362",
+        "type": "number"
+      },
+      {
+        "range": "T362:FS362",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I363:Q363",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I364:Q364",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I365:Q365",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I366:Q366",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A369",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E371:Q371",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T371:FS371",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A372",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B372",
+        "type": "string",
+        "value": "Product Specialist Manager Added (2018 Driver)"
+      },
+      {
+        "range": "E372:H372",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T372:BW372",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A379",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B379",
+        "type": "string",
+        "value": "Product Specialist per Product Specialist Manager (2019 and Beyond Annual Driver)"
+      },
+      {
+        "range": "E379:Q379",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T379:BO379",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "CD379:FS379",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I380:Q380",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I381:Q381",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I382:Q382",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I383:Q383",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A386",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E388:Q388",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T388:FS388",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A389",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B389",
+        "type": "string",
+        "value": "Sales Admin Added (2018 Driver)"
+      },
+      {
+        "range": "E389:H389",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T389:BW389",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J395:Q395",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A396",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B396",
+        "type": "string",
+        "value": "AE per Sales Admin (2019 and Beyond Annual Driver)"
+      },
+      {
+        "range": "I396",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J396:Q396",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T396:BW396",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I397:Q397",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I398:Q398",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I399:Q399",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I400:Q400",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A403",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E405:Q405",
+        "type": "number"
+      },
+      {
+        "range": "T405:FS405",
+        "type": "number"
+      },
+      {
+        "range": "A406",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B406",
+        "type": "string",
+        "value": "Sales Manager Added (2018 Driver)"
+      },
+      {
+        "range": "E406:H406",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T406:BW406",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A413",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B413",
+        "type": "string",
+        "value": "Quota'd Rep per Sales Manager (2019 and Beyond Annual Driver)"
+      },
+      {
+        "range": "E413:Q413",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T413:FS413",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I414:Q414",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I415:Q415",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I416:Q416",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I417:Q417",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A420",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E422:Q422",
+        "type": "number"
+      },
+      {
+        "range": "T422:FS422",
+        "type": "number"
+      },
+      {
+        "range": "A423",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B423",
+        "type": "string",
+        "value": "Sales Operations Manager Added (2018 Driver)"
+      },
+      {
+        "range": "E423:Q423",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T423:BW423",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I424:Q424",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I425:Q425",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I426:Q426",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I427:Q427",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A430",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B430",
+        "type": "string",
+        "value": "AE per Sales Operations Manager (2019 and Beyond Annual Driver)"
+      },
+      {
+        "range": "I430:Q430",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I431:Q431",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I432:Q432",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I433:Q433",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I434:Q434",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A437",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B437",
+        "type": "string",
+        "value": "Sales Recruiter"
+      },
+      {
+        "range": "E439:Q439",
+        "type": "number"
+      },
+      {
+        "range": "T439:FS439",
+        "type": "number"
+      },
+      {
+        "range": "A440",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B440",
+        "type": "string",
+        "value": "Sales Recruiter Added"
+      },
+      {
+        "range": "E440:Q440",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T440:FS440",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I441:Q441",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I442:Q442",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I443:Q443",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I444:Q444",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A447",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E449:Q449",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T449:FS449",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A450",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B450",
+        "type": "string",
+        "value": "SDR Added (2018 Driver)"
+      },
+      {
+        "range": "E450:Q450",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T450:BW450",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I451:Q451",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I452:Q452",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I453:Q453",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I454:Q454",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A457",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B457",
+        "type": "string",
+        "value": "AE per SDR (2019 and Beyond Annual Driver) - Active"
+      },
+      {
+        "range": "E457:Q457",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T457:FS457",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I458:Q458",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I459:Q459",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I460:Q460",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I461:Q461",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A463",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B463",
+        "type": "string",
+        "value": "AE per SDR (2019 and Beyond Annual Driver) - Base"
+      },
+      {
+        "range": "E463:Q463",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T463:FS463",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I464:Q464",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I465:Q465",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I466:Q466",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I467:Q467",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A469",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B469",
+        "type": "string",
+        "value": "AE per SDR (2019 and Beyond Annual Driver) - Upside"
+      },
+      {
+        "range": "E469:Q469",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T469:FS469",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I470:Q470",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I471:Q471",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I472:Q472",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I473:Q473",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A476",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B476",
+        "type": "string",
+        "value": "Other Sales - Salary"
+      },
+      {
+        "range": "J478:Q478",
+        "type": "number"
+      },
+      {
+        "range": "A479",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E479:H479",
+        "type": "number"
+      },
+      {
+        "range": "I479:Q479",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T479:FS479",
+        "type": "number"
+      },
+      {
+        "range": "I480:Q480",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I481:Q481",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I482:J482",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K482:Q482",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I483:J483",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K483:Q483",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J485:Q485",
+        "type": "number"
+      },
+      {
+        "range": "A486",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E486:H486",
+        "type": "number"
+      },
+      {
+        "range": "I486:Q486",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T486:FS486",
+        "type": "number"
+      },
+      {
+        "range": "I487:Q487",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I488:Q488",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I489:J489",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K489:Q489",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I490:J490",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K490:Q490",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J492:Q492",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A493",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B493",
+        "type": "string",
+        "value": "SDR Manager"
+      },
+      {
+        "range": "E493:H493",
+        "type": "number"
+      },
+      {
+        "range": "I493:Q493",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T493:FS493",
+        "type": "number"
+      },
+      {
+        "range": "I494:Q494",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I495:Q495",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I496:J496",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K496:Q496",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I497:J497",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K497:Q497",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J499:Q499",
+        "type": "number"
+      },
+      {
+        "range": "A500",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E500:H500",
+        "type": "number"
+      },
+      {
+        "range": "I500:Q500",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T500:FS500",
+        "type": "number"
+      },
+      {
+        "range": "I501:Q501",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I502:Q502",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I503:J503",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K503:Q503",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I504:J504",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K504:Q504",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J506:Q506",
+        "type": "number"
+      },
+      {
+        "range": "A507",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B507",
+        "type": "string",
+        "value": "CS Manager"
+      },
+      {
+        "range": "I507:Q507",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T507:FS507",
+        "type": "number"
+      },
+      {
+        "range": "I508:Q508",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I509:Q509",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I510:J510",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K510:Q510",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I511:J511",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K511:Q511",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J513:Q513",
+        "type": "number"
+      },
+      {
+        "range": "A514",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B514",
+        "type": "string",
+        "value": "Account Manager - Corporate"
+      },
+      {
+        "range": "E514:H514",
+        "type": "number"
+      },
+      {
+        "range": "I514:Q514",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T514:FS514",
+        "type": "number"
+      },
+      {
+        "range": "I515:Q515",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I516:Q516",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I517:J517",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K517:Q517",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I518:J518",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K518:Q518",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J520:Q520",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A521",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B521",
+        "type": "string",
+        "value": "Account Manager - Financial"
+      },
+      {
+        "range": "E521:H521",
+        "type": "number"
+      },
+      {
+        "range": "I521:Q521",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T521:FS521",
+        "type": "number"
+      },
+      {
+        "range": "I522:Q522",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I523:Q523",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I524:J524",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K524:Q524",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I525:J525",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K525:Q525",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J527:Q527",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A528",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E528:H528",
+        "type": "number"
+      },
+      {
+        "range": "I528:Q528",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T528:FS528",
+        "type": "number"
+      },
+      {
+        "range": "I529:Q529",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I530:Q530",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I531",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J531:Q531",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I532",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J532:Q532",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J534:Q534",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A535",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E535:H535",
+        "type": "number"
+      },
+      {
+        "range": "I535:Q535",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T535:FS535",
+        "type": "number"
+      },
+      {
+        "range": "I536:Q536",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I537:Q537",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I538:J538",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K538:Q538",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I539:J539",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K539:Q539",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J541:Q541",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A542",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B542",
+        "type": "string",
+        "value": "Enablement Manager"
+      },
+      {
+        "range": "E542:H542",
+        "type": "number"
+      },
+      {
+        "range": "I542:Q542",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T542:FS542",
+        "type": "number"
+      },
+      {
+        "range": "I543:Q543",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I544:Q544",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I545",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J545",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K545:Q545",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I546",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J546",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K546:Q546",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J548:Q548",
+        "type": "number"
+      },
+      {
+        "range": "A549",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E549:H549",
+        "type": "number"
+      },
+      {
+        "range": "I549:Q549",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T549:FS549",
+        "type": "number"
+      },
+      {
+        "range": "I550:Q550",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I551:Q551",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I552",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J552",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K552:Q552",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I553",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J553",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K553:Q553",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K555:Q555",
+        "type": "number"
+      },
+      {
+        "range": "A556",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "E556:H556",
+        "type": "number"
+      },
+      {
+        "range": "I556:Q556",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T556:FS556",
+        "type": "number"
+      },
+      {
+        "range": "I557:Q557",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I558:Q558",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I559",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J559",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K559:Q559",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I560",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J560",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K560:Q560",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J562:Q562",
+        "type": "number"
+      },
+      {
+        "range": "A563",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B563",
+        "type": "string",
+        "value": "Sales Operations"
+      },
+      {
+        "range": "E563:H563",
+        "type": "number"
+      },
+      {
+        "range": "I563:Q563",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T563:FS563",
+        "type": "number"
+      },
+      {
+        "range": "I564:Q564",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I565:Q565",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I566:J566",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K566:Q566",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I567:J567",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "K567:Q567",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J569:Q569",
+        "type": "number"
+      },
+      {
+        "range": "A570",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "B570",
+        "type": "string",
+        "value": "GTM Strategy"
+      },
+      {
+        "range": "I570:Q570",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "T570:FS570",
+        "type": "number"
+      },
+      {
+        "range": "I571:Q571",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I572:Q572",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I573:K573",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L573:Q573",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "I574:K574",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "L574:Q574",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 2516.37,
+      "cells_analyzed": 15426,
+      "total_ranges": 1075,
+      "format_counts": {
+        "string": 512,
+        "number": 560,
+        "date": 3
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-14T01:34:56.589683Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "annual",
+        "increment": "1 year",
+        "start_date": "2015-01-01",
+        "pattern": "Annual series from 2015 to 2027"
+      },
+      "ds_2": {
+        "series_type": "repeating_annual",
+        "increment": "12 months (annual)",
+        "start_date": "2015-01-01",
+        "pattern": "Annual values repeating 12 times from 2015 to 2027"
+      },
+      "ds_3": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2015-01-31",
+        "pattern": "Monthly series from 2015-01 to 2027-12"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 20,
+    "entries_moved_to_index": 353,
+    "entries_remaining": 722,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 57523,
+    "compressed_size_bytes": 40394,
+    "inverted_index_size_bytes": 3342,
+    "compressed_data_size_bytes": 37052,
+    "compression_ratio": 0.702,
+    "space_saved_bytes": 17129,
+    "space_saved_percent": 29.8
+  }
+}

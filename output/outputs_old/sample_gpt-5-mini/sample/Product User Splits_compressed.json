@@ -1,0 +1,1288 @@
+{
+  "inverted_index": {
+    "Financial": {
+      "type": "string",
+      "ranges": [
+        "A4",
+        "A6",
+        "A11",
+        "A13",
+        "A18",
+        "A20",
+        "A25",
+        "A27",
+        "A32",
+        "A34",
+        "A39",
+        "A41",
+        "A46",
+        "A48",
+        "A53",
+        "A55",
+        "A60",
+        "A62",
+        "A67",
+        "A69",
+        "A74",
+        "A76",
+        "A81",
+        "A83",
+        "A88",
+        "A90",
+        "A95",
+        "A97"
+      ]
+    },
+    "Corporate": {
+      "type": "string",
+      "ranges": [
+        "A5",
+        "A12",
+        "A19",
+        "A26",
+        "A33",
+        "A40",
+        "A47",
+        "A54",
+        "A61",
+        "A68",
+        "A75",
+        "A82",
+        "A89",
+        "A96"
+      ]
+    },
+    "Other": {
+      "type": "string",
+      "ranges": [
+        "A7",
+        "A14",
+        "A21",
+        "A28",
+        "A35",
+        "A42",
+        "A49",
+        "A56",
+        "A63",
+        "A70",
+        "A77",
+        "A84",
+        "A91",
+        "A98"
+      ]
+    },
+    "Total": {
+      "type": "string",
+      "ranges": [
+        "A8",
+        "A15",
+        "A22",
+        "A29",
+        "A36",
+        "A43",
+        "A50",
+        "A57",
+        "A64",
+        "A71",
+        "A78",
+        "A85",
+        "A92",
+        "A99",
+        "A102",
+        "A105",
+        "A108",
+        "A111",
+        "A114",
+        "A117"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Product User Splits",
+    "format_ranges": [
+      {
+        "range": "C1:AS1",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "AU1:BO1",
+        "type": "date",
+        "date_series_id": "ds_2"
+      },
+      {
+        "range": "A3",
+        "type": "string",
+        "value": "Lexis Nexis"
+      },
+      {
+        "range": "AJ3",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "C4:AS4",
+        "type": "number"
+      },
+      {
+        "range": "AU4:BO4",
+        "type": "number"
+      },
+      {
+        "range": "C5:AS5",
+        "type": "number"
+      },
+      {
+        "range": "AU5:BO5",
+        "type": "number"
+      },
+      {
+        "range": "C6",
+        "type": "number"
+      },
+      {
+        "range": "D6:AS6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV6:BO6",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C7",
+        "type": "number"
+      },
+      {
+        "range": "D7:AS7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV7:BO7",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C8",
+        "type": "number"
+      },
+      {
+        "range": "D8:AS8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV8:BO8",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A10",
+        "type": "string",
+        "value": "DJ"
+      },
+      {
+        "range": "AJ10",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "C11:AS11",
+        "type": "number"
+      },
+      {
+        "range": "AU11:BO11",
+        "type": "number"
+      },
+      {
+        "range": "C12:AS12",
+        "type": "number"
+      },
+      {
+        "range": "AU12:BO12",
+        "type": "number"
+      },
+      {
+        "range": "C13",
+        "type": "number"
+      },
+      {
+        "range": "D13:AS13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV13:BO13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C14",
+        "type": "number"
+      },
+      {
+        "range": "D14:AS14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV14:BO14",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C15",
+        "type": "number"
+      },
+      {
+        "range": "D15:AS15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV15:BO15",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A17",
+        "type": "string",
+        "value": "FactSet Transcripts"
+      },
+      {
+        "range": "AJ17",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "C18:AS18",
+        "type": "number"
+      },
+      {
+        "range": "AU18:BO18",
+        "type": "number"
+      },
+      {
+        "range": "C19:AS19",
+        "type": "number"
+      },
+      {
+        "range": "AU19:BO19",
+        "type": "number"
+      },
+      {
+        "range": "C20",
+        "type": "number"
+      },
+      {
+        "range": "D20:AS20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV20:BO20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C21",
+        "type": "number"
+      },
+      {
+        "range": "D21:AS21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV21:BO21",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C22",
+        "type": "number"
+      },
+      {
+        "range": "D22:AS22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV22:BO22",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A24",
+        "type": "string",
+        "value": "TR Transcripts"
+      },
+      {
+        "range": "AJ24",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "C25:AS25",
+        "type": "number"
+      },
+      {
+        "range": "AU25:BO25",
+        "type": "number"
+      },
+      {
+        "range": "C26:AS26",
+        "type": "number"
+      },
+      {
+        "range": "AU26:BO26",
+        "type": "number"
+      },
+      {
+        "range": "C27",
+        "type": "number"
+      },
+      {
+        "range": "D27:AS27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV27:BO27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C28",
+        "type": "number"
+      },
+      {
+        "range": "D28:AS28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV28:BO28",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C29",
+        "type": "number"
+      },
+      {
+        "range": "D29:AS29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV29:BO29",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A31",
+        "type": "string",
+        "value": "Transcripts"
+      },
+      {
+        "range": "AJ31",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "C32:AS32",
+        "type": "number"
+      },
+      {
+        "range": "AU32:BO32",
+        "type": "number"
+      },
+      {
+        "range": "C33:AS33",
+        "type": "number"
+      },
+      {
+        "range": "AU33:BO33",
+        "type": "number"
+      },
+      {
+        "range": "C34",
+        "type": "number"
+      },
+      {
+        "range": "D34:AS34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV34:BO34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C35",
+        "type": "number"
+      },
+      {
+        "range": "D35:AS35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV35:BO35",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C36",
+        "type": "number"
+      },
+      {
+        "range": "D36:AS36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV36:BO36",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A38",
+        "type": "string",
+        "value": "TR Filings"
+      },
+      {
+        "range": "AJ38",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "C39:AS39",
+        "type": "number"
+      },
+      {
+        "range": "AU39:BO39",
+        "type": "number"
+      },
+      {
+        "range": "C40:AS40",
+        "type": "number"
+      },
+      {
+        "range": "AU40:BO40",
+        "type": "number"
+      },
+      {
+        "range": "C41",
+        "type": "number"
+      },
+      {
+        "range": "D41:AS41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV41:BO41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C42",
+        "type": "number"
+      },
+      {
+        "range": "D42:AS42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV42:BO42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C43",
+        "type": "number"
+      },
+      {
+        "range": "D43:AS43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV43:BO43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A45",
+        "type": "string",
+        "value": "TR BRM"
+      },
+      {
+        "range": "AJ45",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "C46:AA46",
+        "type": "number"
+      },
+      {
+        "range": "AB46:AD46",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AE46:AS46",
+        "type": "number"
+      },
+      {
+        "range": "AU46:BO46",
+        "type": "number"
+      },
+      {
+        "range": "C47:Z47",
+        "type": "number"
+      },
+      {
+        "range": "AA47",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AB47:AS47",
+        "type": "number"
+      },
+      {
+        "range": "AU47:BO47",
+        "type": "number"
+      },
+      {
+        "range": "C48",
+        "type": "number"
+      },
+      {
+        "range": "D48:AS48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV48:BO48",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C49",
+        "type": "number"
+      },
+      {
+        "range": "D49:AS49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV49:BO49",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C50",
+        "type": "number"
+      },
+      {
+        "range": "D50:AS50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV50:BO50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A52",
+        "type": "string",
+        "value": "AMR ($15k)"
+      },
+      {
+        "range": "AJ52",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "C53:AS53",
+        "type": "number"
+      },
+      {
+        "range": "AU53:BO53",
+        "type": "number"
+      },
+      {
+        "range": "C54:AS54",
+        "type": "number"
+      },
+      {
+        "range": "AU54:BO54",
+        "type": "number"
+      },
+      {
+        "range": "C55",
+        "type": "number"
+      },
+      {
+        "range": "D55:AS55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV55:BO55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C56",
+        "type": "number"
+      },
+      {
+        "range": "D56:AS56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV56:BO56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C57",
+        "type": "number"
+      },
+      {
+        "range": "D57:AS57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV57:BO57",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A59",
+        "type": "string",
+        "value": "AMR ($30k)"
+      },
+      {
+        "range": "AJ59",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "C60:AS60",
+        "type": "number"
+      },
+      {
+        "range": "AU60:BO60",
+        "type": "number"
+      },
+      {
+        "range": "C61:AS61",
+        "type": "number"
+      },
+      {
+        "range": "AU61:BO61",
+        "type": "number"
+      },
+      {
+        "range": "C62",
+        "type": "number"
+      },
+      {
+        "range": "D62:AS62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV62:BO62",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C63",
+        "type": "number"
+      },
+      {
+        "range": "D63:AS63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV63:BO63",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C64",
+        "type": "number"
+      },
+      {
+        "range": "D64:AS64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV64:BO64",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A66",
+        "type": "string",
+        "value": "AMR"
+      },
+      {
+        "range": "AJ66",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "C67:AS67",
+        "type": "number"
+      },
+      {
+        "range": "AU67:BO67",
+        "type": "number"
+      },
+      {
+        "range": "C68:AS68",
+        "type": "number"
+      },
+      {
+        "range": "AU68:BO68",
+        "type": "number"
+      },
+      {
+        "range": "C69",
+        "type": "number"
+      },
+      {
+        "range": "D69:AS69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV69:BO69",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C70",
+        "type": "number"
+      },
+      {
+        "range": "D70:AS70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV70:BO70",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C71",
+        "type": "number"
+      },
+      {
+        "range": "D71:AS71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV71:BO71",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A73",
+        "type": "string",
+        "value": "BRM - Global"
+      },
+      {
+        "range": "C74:Z74",
+        "type": "number"
+      },
+      {
+        "range": "AU74:BO74",
+        "type": "number"
+      },
+      {
+        "range": "C75:Z75",
+        "type": "number"
+      },
+      {
+        "range": "AU75:BO75",
+        "type": "number"
+      },
+      {
+        "range": "C76",
+        "type": "number"
+      },
+      {
+        "range": "D76:Z76",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU76",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV76:BO76",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C77",
+        "type": "number"
+      },
+      {
+        "range": "D77:Z77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV77:BO77",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C78",
+        "type": "number"
+      },
+      {
+        "range": "D78:AS78",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU78",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV78:BO78",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A80",
+        "type": "string",
+        "value": "BRM - Single"
+      },
+      {
+        "range": "C81:Z81",
+        "type": "number"
+      },
+      {
+        "range": "AU81:BO81",
+        "type": "number"
+      },
+      {
+        "range": "C82:Z82",
+        "type": "number"
+      },
+      {
+        "range": "AU82:BO82",
+        "type": "number"
+      },
+      {
+        "range": "C83",
+        "type": "number"
+      },
+      {
+        "range": "D83:Z83",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU83",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV83:BO83",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C84",
+        "type": "number"
+      },
+      {
+        "range": "D84:Z84",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU84",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV84:BO84",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C85",
+        "type": "number"
+      },
+      {
+        "range": "D85:AS85",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AU85",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AV85:BO85",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A87",
+        "type": "string",
+        "value": "FactSet RT"
+      },
+      {
+        "range": "AJ87",
+        "type": "string",
+        "value": "x"
+      },
+      {
+        "range": "AA88:AR88",
+        "type": "number"
+      },
+      {
+        "range": "AA89:AR89",
+        "type": "number"
+      },
+      {
+        "range": "AF90",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AJ90:AR90",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AH91:AR91",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA92",
+        "type": "number"
+      },
+      {
+        "range": "AB92:AS92",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A94",
+        "type": "string",
+        "value": "FactSet AMR"
+      },
+      {
+        "range": "AJ95:AQ95",
+        "type": "number"
+      },
+      {
+        "range": "AJ96:AQ96",
+        "type": "number"
+      },
+      {
+        "range": "AJ97:AQ97",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AJ98:AQ98",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AA99",
+        "type": "number"
+      },
+      {
+        "range": "AB99:AS99",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "A101",
+        "type": "string",
+        "value": "FactSet AMR / Active"
+      },
+      {
+        "range": "AA102:AQ102",
+        "type": "number"
+      },
+      {
+        "range": "A104",
+        "type": "string",
+        "value": "FactSet AMR / Trailers"
+      },
+      {
+        "range": "AA105:AQ105",
+        "type": "number"
+      },
+      {
+        "range": "A107",
+        "type": "string",
+        "value": "FactSet AMR / Internal"
+      },
+      {
+        "range": "AA108:AQ108",
+        "type": "number"
+      },
+      {
+        "range": "A110",
+        "type": "string",
+        "value": "FactSet AMR Active Docs Purchased"
+      },
+      {
+        "range": "AA111:AQ111",
+        "type": "number"
+      },
+      {
+        "range": "A113",
+        "type": "string",
+        "value": "FactSet AMR Trialer Docs Purchased"
+      },
+      {
+        "range": "AA114:AQ114",
+        "type": "number"
+      },
+      {
+        "range": "A116",
+        "type": "string",
+        "value": "FactSet AMR Internal Docs Purchased"
+      },
+      {
+        "range": "AA117:AQ117",
+        "type": "number"
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 2290.93,
+      "cells_analyzed": 4088,
+      "total_ranges": 324,
+      "format_counts": {
+        "date": 2,
+        "string": 107,
+        "number": 215
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-14T01:36:20.808720Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2017-01-31",
+        "pattern": "Monthly series from 2017-01 to 2020-07"
+      },
+      "ds_2": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2017-01-31",
+        "pattern": "Monthly series from 2017-01 to 2018-09"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 4,
+    "entries_moved_to_index": 76,
+    "entries_remaining": 248,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 15346,
+    "compressed_size_bytes": 12143,
+    "inverted_index_size_bytes": 614,
+    "compressed_data_size_bytes": 11529,
+    "compression_ratio": 0.791,
+    "space_saved_bytes": 3203,
+    "space_saved_percent": 20.9
+  }
+}

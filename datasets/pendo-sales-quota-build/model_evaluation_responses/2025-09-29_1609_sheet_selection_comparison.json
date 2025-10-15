@@ -1,0 +1,224 @@
+{
+  "model_id": "f32cfb9a-12cb-44e9-b5aa-82208d6d8bfd",
+  "evaluation_type": "comparison",
+  "hybrid_search_results": {
+    "model_id": "f32cfb9a-12cb-44e9-b5aa-82208d6d8bfd",
+    "method_used": "hybrid-search",
+    "evaluation_timestamp": "2025-09-29T16:08:36.292155",
+    "overall_metrics": {
+      "precision_at_5": 0.3,
+      "recall_at_5": 0.375,
+      "f1_at_5": 0.33333333333333326,
+      "mrr_at_5": 0.5,
+      "total_questions": 2,
+      "successful_evaluations": 2,
+      "failed_evaluations": 0,
+      "evaluation_time_seconds": 0.14734148979187012
+    },
+    "detailed_results": [
+      {
+        "question_id": "q1_corporate_sales_managers",
+        "question": "Who are the corporate sales managers?",
+        "category": "data_retrieval",
+        "evaluation_metrics": {
+          "precision_at_5": 0.6,
+          "recall_at_5": 0.75,
+          "f1_at_5": 0.6666666666666665,
+          "mrr_at_5": 1.0,
+          "matches": [
+            "corp team",
+            "corp detail",
+            "overview"
+          ],
+          "retrieved_sheets": [
+            "corp team",
+            "corp detail",
+            "fy22 qos",
+            "overview",
+            "corp model"
+          ],
+          "expected_sheets": [
+            "corp quotas",
+            "corp detail",
+            "corp team",
+            "overview"
+          ],
+          "missing_sheets": [
+            "corp quotas"
+          ],
+          "extra_sheets": [
+            "fy22 qos",
+            "corp model"
+          ]
+        },
+        "selected_sheets_count": 5,
+        "method_details": {
+          "avg_response_time_ms": 100.16870498657227,
+          "semantic_contribution": 0.5,
+          "keyword_contribution": 0.5,
+          "rrf_k": 10,
+          "rrf_window_size": 10,
+          "total_unique_sheets": 15
+        },
+        "timestamp": "2025-09-29T16:08:36.292155"
+      },
+      {
+        "question_id": "q2_leadership_quota_overassign",
+        "question": "What kind of overassign are we giving leadership for quotas in this model?",
+        "category": "model_logic",
+        "evaluation_metrics": {
+          "precision_at_5": 0.0,
+          "recall_at_5": 0.0,
+          "f1_at_5": 0.0,
+          "mrr_at_5": 0.0,
+          "matches": [],
+          "retrieved_sheets": [
+            "comm model",
+            "corp model",
+            "fy22 qos",
+            "fy22 overlay",
+            "corp quotas"
+          ],
+          "expected_sheets": [
+            "targets",
+            "overview"
+          ],
+          "missing_sheets": [
+            "targets",
+            "overview"
+          ],
+          "extra_sheets": [
+            "corp quotas",
+            "comm model",
+            "fy22 overlay",
+            "fy22 qos",
+            "corp model"
+          ]
+        },
+        "selected_sheets_count": 5,
+        "method_details": {
+          "avg_response_time_ms": 102.17070579528809,
+          "semantic_contribution": 0.5,
+          "keyword_contribution": 0.5,
+          "rrf_k": 10,
+          "rrf_window_size": 10,
+          "total_unique_sheets": 14
+        },
+        "timestamp": "2025-09-29T16:08:36.291151"
+      }
+    ],
+    "failed_results": []
+  },
+  "llm_ranking_results": {
+    "model_id": "f32cfb9a-12cb-44e9-b5aa-82208d6d8bfd",
+    "method_used": "llm-ranking",
+    "evaluation_timestamp": "2025-09-29T16:09:21.610866",
+    "overall_metrics": {
+      "precision_at_5": 0.2,
+      "recall_at_5": 0.25,
+      "f1_at_5": 0.22222222222222224,
+      "mrr_at_5": 0.5,
+      "total_questions": 2,
+      "successful_evaluations": 2,
+      "failed_evaluations": 0,
+      "evaluation_time_seconds": 45.317105770111084
+    },
+    "detailed_results": [
+      {
+        "question_id": "q1_corporate_sales_managers",
+        "question": "Who are the corporate sales managers?",
+        "category": "data_retrieval",
+        "evaluation_metrics": {
+          "precision_at_5": 0.4,
+          "recall_at_5": 0.5,
+          "f1_at_5": 0.4444444444444445,
+          "mrr_at_5": 1.0,
+          "matches": [
+            "corp detail",
+            "corp team"
+          ],
+          "retrieved_sheets": [
+            "corp team",
+            "corp detail",
+            "clean",
+            "comm detail",
+            "comm model"
+          ],
+          "expected_sheets": [
+            "corp quotas",
+            "corp detail",
+            "corp team",
+            "overview"
+          ],
+          "missing_sheets": [
+            "corp quotas",
+            "overview"
+          ],
+          "extra_sheets": [
+            "comm detail",
+            "comm model",
+            "clean"
+          ]
+        },
+        "selected_sheets_count": 5,
+        "method_details": {
+          "avg_response_time_ms": 45272.20273017883,
+          "sheets_analyzed": 24,
+          "llm_reasoning": "The user is asking for \"corporate sales managers\". I will prioritize sheets that contain keywords like \"Corp\" (for Corporate) and \"Team\" or \"Detail\" (which might contain information about personnel like managers).\n\n1.  **\"Corp Team\" (ID: 6969af92-a14f-4f42-b11c-60829da95088)**: This sheet name directly combines \"Corp\" and \"Team,\" making it highly probable to contain information about corporate personnel, including sales managers. This is the most relevant sheet.\n2.  **\"Corp Detail\" (ID: 753804df-49d6-4d8a-9cc8-3b7f5d474212)**: This sheet could contain detailed information about the corporate division, which might include organizational structure and manager names. It's a plausible secondary option.\n3.  Other \"Corp\" sheets like \"Corp Model\" or \"Corp Quotas\" are less likely to contain personnel lists. \"Comm Team\", \"EMEA Team\", \"Ent Team\", \"SS Team\" are related to teams but not specifically \"Corporate\".\n\nBased on sheet names alone, \"Corp Team\" is the most relevant. \"Corp Detail\" is a reasonable second choice.",
+          "text_representation_coverage": 1.0,
+          "ranking_confidence": 0.8
+        },
+        "timestamp": "2025-09-29T16:09:21.610866"
+      },
+      {
+        "question_id": "q2_leadership_quota_overassign",
+        "question": "What kind of overassign are we giving leadership for quotas in this model?",
+        "category": "model_logic",
+        "evaluation_metrics": {
+          "precision_at_5": 0.0,
+          "recall_at_5": 0.0,
+          "f1_at_5": 0.0,
+          "mrr_at_5": 0.0,
+          "matches": [],
+          "retrieved_sheets": [
+            "corp quotas",
+            "comm quotas",
+            "emea quotas",
+            "ent quotas",
+            "ss quotas"
+          ],
+          "expected_sheets": [
+            "targets",
+            "overview"
+          ],
+          "missing_sheets": [
+            "targets",
+            "overview"
+          ],
+          "extra_sheets": [
+            "ent quotas",
+            "corp quotas",
+            "emea quotas",
+            "ss quotas",
+            "comm quotas"
+          ]
+        },
+        "selected_sheets_count": 5,
+        "method_details": {
+          "avg_response_time_ms": 40580.40142059326,
+          "sheets_analyzed": 24,
+          "llm_reasoning": "The user is asking about 'overassign' for 'leadership' regarding 'quotas'. I will prioritize sheets that explicitly mention 'Quotas' in their name, as they are most directly relevant. Within the 'Quotas' sheets, 'Corp Quotas' and 'Comm Quotas' are ranked highest due to their potential broader scope which might include 'leadership' level assignments, followed by regional/segment-specific quota sheets. Next in relevance are sheets named 'Targets', as quotas are a form of target. Subsequently, sheets named 'Team' are included because they might define organizational structures and roles, including leadership, and how quotas are distributed. Finally, 'Detail' sheets are considered, as they might contain granular data that could reveal specific 'overassign' values or methodologies. All sheets lacked text content, so ranking is based solely on sheet names and keyword matching.",
+          "text_representation_coverage": 1.0,
+          "ranking_confidence": 0.8
+        },
+        "timestamp": "2025-09-29T16:09:16.916060"
+      }
+    ],
+    "failed_results": []
+  },
+  "timing": {
+    "total_duration_seconds": 45.47055983543396,
+    "ingestion_duration_seconds": 0,
+    "evaluation_duration_seconds": 45.46804976463318
+  }
+}

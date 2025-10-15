@@ -1,0 +1,449 @@
+{
+  "inverted_index": {
+    "Beginning": {
+      "type": "string",
+      "ranges": [
+        "C10",
+        "C17",
+        "C24",
+        "C31"
+      ]
+    },
+    "AE - Corporate": {
+      "type": "string",
+      "ranges": [
+        "A11:A12"
+      ]
+    },
+    "Added": {
+      "type": "string",
+      "ranges": [
+        "C11",
+        "C18",
+        "C25",
+        "C32"
+      ]
+    },
+    "Lost": {
+      "type": "string",
+      "ranges": [
+        "C12",
+        "C19",
+        "C26",
+        "C33"
+      ]
+    },
+    "Ending": {
+      "type": "string",
+      "ranges": [
+        "C13",
+        "C20",
+        "C27",
+        "C34"
+      ]
+    },
+    "AE - Financial": {
+      "type": "string",
+      "ranges": [
+        "A18:A19"
+      ]
+    },
+    "Account Manager": {
+      "type": "string",
+      "ranges": [
+        "A25:A26"
+      ]
+    },
+    "VP Bus Dev": {
+      "type": "string",
+      "ranges": [
+        "C29",
+        "A32:A33"
+      ]
+    }
+  },
+  "data": {
+    "success": true,
+    "sheet_name": "Sales Role Input",
+    "format_ranges": [
+      {
+        "range": "C1",
+        "type": "string",
+        "value": "UPDATED - JG - 11.18.19"
+      },
+      {
+        "range": "AB5",
+        "type": "string",
+        "value": "2019 Budget"
+      },
+      {
+        "range": "AD5",
+        "type": "string",
+        "value": "2020 Budget"
+      },
+      {
+        "range": "AL5",
+        "type": "string",
+        "value": "Budget"
+      },
+      {
+        "range": "F6:DU6",
+        "type": "date",
+        "date_series_id": "ds_1"
+      },
+      {
+        "range": "C8",
+        "type": "string",
+        "value": "AE Corporate"
+      },
+      {
+        "range": "F10:AO10",
+        "type": "number"
+      },
+      {
+        "range": "AP10:BA10",
+        "type": "number"
+      },
+      {
+        "range": "F11:G11",
+        "type": "number"
+      },
+      {
+        "range": "I11:O11",
+        "type": "number"
+      },
+      {
+        "range": "Q11:BA11",
+        "type": "number"
+      },
+      {
+        "range": "F12:H12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "J12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "O12:BA12",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F13:AO13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AP13:BA13",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C15",
+        "type": "string",
+        "value": "AE Financial"
+      },
+      {
+        "range": "F17:AO17",
+        "type": "number"
+      },
+      {
+        "range": "AP17:BA17",
+        "type": "number"
+      },
+      {
+        "range": "F18:BA18",
+        "type": "number"
+      },
+      {
+        "range": "F19:BA19",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F20:AO20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "AP20:BA20",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C22",
+        "type": "string",
+        "value": "Acct Manager"
+      },
+      {
+        "range": "F24:AO24",
+        "type": "number"
+      },
+      {
+        "range": "AP24:BA24",
+        "type": "number"
+      },
+      {
+        "range": "F25:BA25",
+        "type": "number"
+      },
+      {
+        "range": "F26:BA26",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F27:BA27",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F31:AO31",
+        "type": "number"
+      },
+      {
+        "range": "AP31:BA31",
+        "type": "number"
+      },
+      {
+        "range": "F32:BA32",
+        "type": "number"
+      },
+      {
+        "range": "F33:BA33",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "F34:BA34",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C36",
+        "type": "string",
+        "value": "Non-Quota Sales Roles (Non Formula)"
+      },
+      {
+        "range": "C38",
+        "type": "string",
+        "value": "CRO"
+      },
+      {
+        "range": "AM38:BA38",
+        "type": "number"
+      },
+      {
+        "range": "BB38:CK38",
+        "type": "number"
+      },
+      {
+        "range": "C39",
+        "type": "string",
+        "value": "Enablement Manager"
+      },
+      {
+        "range": "AM39:CK39",
+        "type": "number"
+      },
+      {
+        "range": "C40",
+        "type": "string",
+        "value": "Sales Admin"
+      },
+      {
+        "range": "AM40:CK40",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C41",
+        "type": "string",
+        "value": "Sales Operations Manager"
+      },
+      {
+        "range": "AM41:CK41",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C42",
+        "type": "string",
+        "value": "Sales Operations"
+      },
+      {
+        "range": "AM42:CK42",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C43",
+        "type": "string",
+        "value": "GTM Strategy"
+      },
+      {
+        "range": "AM43:CK43",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C44",
+        "type": "string",
+        "value": "AM - Financial (Quota) moved to (Non-Quota)"
+      },
+      {
+        "range": "AM44:CK44",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C46",
+        "type": "string",
+        "value": "Non-Quota Sales Roles (Formula)"
+      },
+      {
+        "range": "C48",
+        "type": "string",
+        "value": "VP of Sales (Reports per VP)"
+      },
+      {
+        "range": "AM48:BA48",
+        "type": "number"
+      },
+      {
+        "range": "BB48:CK48",
+        "type": "number"
+      },
+      {
+        "range": "C49",
+        "type": "string",
+        "value": "VP of Sales (Total AE Reports)"
+      },
+      {
+        "range": "AM49:BA49",
+        "type": "number"
+      },
+      {
+        "range": "BB49:DD49",
+        "type": "number"
+      },
+      {
+        "range": "C50",
+        "type": "string",
+        "value": "Sales Manager (AEs per Manager)"
+      },
+      {
+        "range": "AM50:CK50",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C51",
+        "type": "string",
+        "value": "SDR Manager (SDRs per Manager)"
+      },
+      {
+        "range": "AM51:CK51",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C52",
+        "type": "string",
+        "value": "SDR (AEs per SDR)"
+      },
+      {
+        "range": "AM52:CK52",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C53",
+        "type": "string",
+        "value": "VP Customer Success (AMs + PS Managers per VP)"
+      },
+      {
+        "range": "AM53:CK53",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C54",
+        "type": "string",
+        "value": "Corporate AM (ARR per AM)"
+      },
+      {
+        "range": "AM54:CK54",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C55",
+        "type": "string",
+        "value": "Financial AM (ARR per AM)"
+      },
+      {
+        "range": "AM55:CK55",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C56",
+        "type": "string",
+        "value": "Product Specialist Manager (PS per Manager)"
+      },
+      {
+        "range": "AM56:CK56",
+        "type": "number",
+        "scale": 1000
+      },
+      {
+        "range": "C57",
+        "type": "string",
+        "value": "Product Specialist (ARR per PS)"
+      },
+      {
+        "range": "AM57:CK57",
+        "type": "number",
+        "scale": 1000
+      }
+    ],
+    "statistics": {
+      "processing_time_ms": 2072.49,
+      "cells_analyzed": 1801,
+      "total_ranges": 98,
+      "format_counts": {
+        "string": 51,
+        "date": 1,
+        "number": 46
+      }
+    },
+    "metadata": {
+      "detected_at": "2025-10-14T01:34:58.678509Z"
+    },
+    "date_series_definitions": {
+      "ds_1": {
+        "series_type": "monthly",
+        "increment": "1 month",
+        "start_date": "2018-01-31",
+        "pattern": "Monthly series from 2018-01 to 2027-12"
+      }
+    }
+  },
+  "compression_stats": {
+    "unique_values": 8,
+    "entries_moved_to_index": 25,
+    "entries_remaining": 73,
+    "min_occurrences_threshold": 2,
+    "original_size_bytes": 5509,
+    "compressed_size_bytes": 4698,
+    "inverted_index_size_bytes": 476,
+    "compressed_data_size_bytes": 4222,
+    "compression_ratio": 0.853,
+    "space_saved_bytes": 811,
+    "space_saved_percent": 14.7
+  }
+}
