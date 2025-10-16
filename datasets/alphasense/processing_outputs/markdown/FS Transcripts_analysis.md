@@ -2,15 +2,15 @@
 ## 1. Spreadsheet Overview
 - **Sheet Name**: FS Transcripts
 - **Key Sections Identified**:
-    - Revenue Breakdown (Quarterly)
-    - Revenue Breakdown (Monthly)
+    - Quarterly Data Section
+    - Monthly Data Section
 
 ## 2. Detailed Section Analysis
 
-### Revenue Breakdown (Quarterly)
+### Quarterly Data Section
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section provides a breakdown of revenue by different categories (Financial, Corporate, Other, Broker Partner) on a quarterly basis. It allows for tracking revenue performance over time.
-- **Cell Range**: B5:H9
+- **Description & Purpose**: This section presents key financial metrics broken down by quarter. It allows for tracking performance trends on a quarterly basis.
+- **Cell Range**: B4:H9
 - **Layout Structure**:
     - **Row Headers Location**: B5:B9
     - **Column Headers Location**: C4:H4
@@ -18,13 +18,13 @@
 - **Time Series Details**:
     - **Date Range**: 2017-Q1 to 2018-Q2
     - **Frequency**: Quarterly
-- **Key Components**: Financial, Corporate, Other, Broker Partner revenue.
-- **Notes & Customizations**: Revenue is categorized into four segments.
+- **Key Components**: Financial, Corporate, Other, Broker Partner
+- **Notes & Customizations**: The metrics are categorized into Financial, Corporate, Other, and Broker Partner.
 
-### Revenue Breakdown (Monthly)
+### Monthly Data Section
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section provides a breakdown of revenue by different categories (Financial, Corporate, Other, Broker Partner) on a monthly basis. It allows for tracking revenue performance over time.
-- **Cell Range**: B13:T17
+- **Description & Purpose**: This section presents key financial metrics broken down by month. It allows for tracking performance trends on a monthly basis.
+- **Cell Range**: B12:T17
 - **Layout Structure**:
     - **Row Headers Location**: B13:B17
     - **Column Headers Location**: C12:T12
@@ -32,6 +32,6 @@
 - **Time Series Details**:
     - **Date Range**: 2017-01-01 to 2018-06-01
     - **Frequency**: Monthly
-- **Key Components**: Financial, Corporate, Other, Broker Partner revenue.
-- **Notes & Customizations**: Revenue is categorized into four segments.
+- **Key Components**: Financial, Corporate, Other, Broker Partner
+- **Notes & Customizations**: The metrics are categorized into Financial, Corporate, Other, and Broker Partner.
 ```

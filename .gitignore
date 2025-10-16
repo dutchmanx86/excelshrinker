@@ -1,2 +1,5 @@
 # Environment variables
 .env
+
+# Service account credentials
+gemini_service_account.json

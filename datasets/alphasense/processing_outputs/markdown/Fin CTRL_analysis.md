@@ -2,42 +2,33 @@
 ## 1. Spreadsheet Overview
 - **Sheet Name**: Fin CTRL
 - **Key Sections Identified**:
-    - Balance Sheet Support Assumptions
-    - Interest Rate Assumptions
-    - Effective Commission Rate & Day Sales Outstanding
+    - Header
+    - Balance Sheet Support
 
 ## 2. Detailed Section Analysis
 
-### Section Name: Balance Sheet Support Assumptions
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section contains assumptions used to calculate balance sheet items, such as Days Sales Outstanding, Prepaid Expenses, Capital Expenditures, Accounts Payable Days, Commissions Payable, Accrued Expenses, Accrued Commissions, Accrued Wages, Accrued Holiday Pay, Accrued Interest, Payroll Taxes Payable, Sales Taxes Payable, Deferred Commissions, and Tekes projects. These assumptions are used to project future balance sheet values.
-- **Cell Range**: A12:FS137
+### Header
+- **Section Type**: Header
+- **Description & Purpose**: Contains the company name, report title, and scenario description. Provides context for the financial data.
+- **Cell Range**: B2:B4
 - **Layout Structure**:
     - **Row Headers Location**: Column B
-    - **Column Headers Location**: Rows 7 and 8
-    - **Data Range**:
-      - Annual data: `E14:Q137`
-      - Monthly data: `T14:FS137`
-- **Time Series Details**:
-    - **Date Range**:
-      - Annual: 2015 to 2027
-      - Monthly: 2015-01-31 to 2027-12-31
-    - **Frequency**:
-      - Annual
-      - Monthly
-- **Key Components**: Days Sales Outstanding, Prepaid Expenses (Monthly % of Operating Expenses), Capital Expenditures - % of Revenue, Accounts Payable Days Payable Outstanding, Commissions Payable - % of ARR, Accrued Expenses Days Payable Outstanding, Accrued Commissions - % of ARR, Accrued Wages - % Growth, Accrued Holiday Pay - % of Wages, Accrued Interest - % Growth, Payroll Taxes Payable - % Growth, Sales Taxes Payable - % of Revenue, Deferred Commissions Growth, Tekes projects.
-- **Notes & Customizations**: The section includes a mix of percentage-based assumptions and days outstanding calculations. Some rows have "na" values in columns E and T. The scale is 1000 for most numeric values.
+    - **Column Headers Location**: None
+    - **Data Range**: B2:B4
+- **Time Series Details**: None
+- **Key Components**: AlphaSense, Inc., Financial Statements CTRL, 1 - Base - $25mm
+- **Notes & Customizations**: None
 
-### Section Name: Interest Rate Assumptions
+### Balance Sheet Support
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section contains assumptions related to interest rates, including the base interest rate, interest rate including admin fees, and interest rate on cash accounts. These assumptions are used to calculate interest expense and income.
-- **Cell Range**: A140:FS151
+- **Description & Purpose**: Provides key metrics and assumptions used to support the balance sheet projections. Includes calculations and percentages related to various balance sheet accounts.
+- **Cell Range**: A12:FS189
 - **Layout Structure**:
     - **Row Headers Location**: Column B
     - **Column Headers Location**: Rows 7 and 8
     - **Data Range**:
-      - Annual data: `I140:Q151`
-      - Monthly data: `T140:FS151`
+      - Annual data: E14:Q189
+      - Monthly data: T14:FS189
 - **Time Series Details**:
     - **Date Range**:
       - Annual: 2015 to 2027
@@ -45,26 +36,7 @@
     - **Frequency**:
       - Annual
       - Monthly
-- **Key Components**: Interest Rate, Interest Rate - Admin Fee.
-- **Notes & Customizations**: The scale is 1000 for most numeric values.
-
-### Section Name: Effective Commission Rate & Day Sales Outstanding
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section contains assumptions related to the effective commission rate, day sales outstanding, credit card payable, target hit rate, and LIBOR.
-- **Cell Range**: A153:FS189
-- **Layout Structure**:
-    - **Row Headers Location**: Column B
-    - **Column Headers Location**: Rows 7 and 8
-    - **Data Range**:
-      - Annual data: `E161:Q189` (with gaps)
-      - Monthly data: `T161:FS189` (with gaps)
-- **Time Series Details**:
-    - **Date Range**:
-      - Annual: 2015 to 2027
-      - Monthly: 2015-01-31 to 2027-12-31
-    - **Frequency**:
-      - Annual
-      - Monthly
-- **Key Components**: Interest Rate on Cash Account, Percent of Cash in Account, Effective Commission Rate, Day Sales Outstanding, Credit Card Payable - % of OpEx, Target Hit Rate - Accrued Commission, LIBOR.
-- **Notes & Customizations**: The scale is 1000 for some numeric values.
+      - Monthly: 2015-01-31 to 2027-12-31 (T9:FS9). Anchor points: T9=2015-01-31, AF9=2016-01-31, AR9=2017-01-31, BD9=2018-01-31, BP9=2019-01-31, CB9=2020-01-31, CN9=2021-01-31, CZ9=2022-01-31, DL9=2023-01-31, DX9=2024-01-31, EJ9=2025-01-31, EV9=2026-01-31, FH9=2027-01-31
+- **Key Components**: Days Sales Outstanding, Prepaid Expenses (Monthly % of Operating Expenses), Capital Expenditures - % of Revenue, Accounts Payable Days Payable Outstanding, Commissions Payable - % of ARR, Accrued Expenses Days Payable Outstanding, Accrued Commissions - % of ARR, Accrued Wages - % Growth, Accrued Holiday Pay - % of Wages, Accrued Interest - % Growth, Payroll Taxes Payable - % Growth, Sales Taxes Payable - % of Revenue, Deferred Commissions Growth, Tekes - 14887, Tekes - 15118, Tekes - 14560, Tekes - 14223, Tekes - 15543, Interest Rate, Interest Rate - Admin Fee, Interest Rate on Cash Account, Percent of Cash in Account, Effective Commission Rate, Day Sales Outstanding, Credit Card Payable - % of OpEx, Target Hit Rate - Accrued Commission, LIBOR
+- **Notes & Customizations**: Contains both annual and monthly time series data. Some rows have "na" values for certain periods. The "x" in column A likely indicates a row that is used in calculations or is otherwise important.
 ```

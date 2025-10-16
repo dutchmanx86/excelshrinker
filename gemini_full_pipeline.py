@@ -95,6 +95,7 @@ For EACH logical section identified, create a subsection.
 - **Context Over Content**: Explain the *purpose* of a section, not just what's in it.
 - **Resolve References**: Use the actual string values from the `inverted_index` section of the JSON, not `{"$ref": ...}` placeholders.
 - **Multiple Time Series**: If you see evidence of multiple date columns with different frequencies, report them ALL.
+- **Date Anchor Points**: If the JSON contains a `date_series_definitions` section with `anchor_points`, include these in your Time Series Details to help locate specific dates within long series (e.g., "Monthly: 2015-01-31 to 2027-12-31 (T3:FS3). Anchor points: T3=2015-01-31, AF3=2016-01-31, AR3=2017-01-31...").
 
 Now, analyze the provided compressed JSON and generate the complete, high-level structured documentation."""
 

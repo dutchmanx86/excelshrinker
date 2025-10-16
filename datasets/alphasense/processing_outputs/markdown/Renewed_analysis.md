@@ -1,6 +1,6 @@
 ## 1. Spreadsheet Overview
 - **Sheet Name**: Renewed
-- **Key Sections Identified**: 
+- **Key Sections Identified**:
     - Header
     - Renewal Data
 
@@ -8,34 +8,32 @@
 
 ### Header
 - **Section Type**: Header
-- **Description & Purpose**: Contains column headers describing the data in the table below.
-- **Cell Range**: A1:J1
+- **Description & Purpose**: Contains header information like account type, ASV, effective date, close date, segment, and notes.
+- **Cell Range**: A1:M19
 - **Layout Structure**:
-    - **Row Headers Location**: None
-    - **Column Headers Location**: A1:J1
-    - **Data Range**: None
-- **Time Series Details**: None
-- **Key Components**: Account Type, ASV, Effective Date, Close Date, Segment, EOM Effective Date, EOM Close Date, AlphaSense Opp #, Renewal Type, Stage
-- **Notes & Customizations**: Standard header row.
+    - **Row Headers Location**: A1:A19
+    - **Column Headers Location**: B1:M1
+    - **Data Range**:
+      - Annual data: N/A
+      - Monthly data: N/A
+- **Time Series Details**:
+    - **Date Range**: 2011-01-18 to 2022-01-01 (C2:C5759), 1900-01-31 to 2022-01-31 (F2:F7599)
+    - **Frequency**: Unordered_column, Unordered_column
+- **Key Components**: Account Type, ASV, Effective Date, Close Date, Segment, EOM Effective Date, EOM Close Date, AlphaSense Opp #, Renewal Type, Stage, Segement Key, Hedge Fund, Financial, Renewal, Renewal - Won, Independent Research Firm, Other, Corporate, Research & Advisory, Broker Partner, Renewal - Lost, Investment Manager (long only), Private Equity, Law Firm, Family Office, Corporate - Agency, Financial (Research/IB), Bank, Regulator, Private Wealth, Endowment, Sell Side (Research/IB), Renewal (contract/email required), Evergreen, Renewal (full term), Renewal (default), Pending Cancel (notice given), Pending Partial Cancel, Renewal (low probability)
+- **Notes & Customizations**: Contains a note to update the information by taking the ASV tab on the Sales Worksheet.
 
 ### Renewal Data
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: Contains the detailed data for each renewal, including account type, ASV, dates, segment, and stage.
+- **Description & Purpose**: Contains the actual renewal data, including account type, ASV, effective date, close date, segment, and other related information.
 - **Cell Range**: A2:J7599
 - **Layout Structure**:
-    - **Row Headers Location**: A2:A7599 (Account Type, etc.)
-    - **Column Headers Location**: A1:J1 (ASV, Effective Date, etc.)
-    - **Data Range**: 
-      - Effective Date: C2:C5759 (date values)
-      - EOM Effective Date: F2:F7599 (date values)
-      - ASV: B2:B7599 (numeric values)
-      - H2:H7599 (AlphaSense Opp #, string values)
-      - I2:I7599 (Renewal Type, string values)
-      - J2:J7599 (Stage, string values)
+    - **Row Headers Location**: A2:A7599
+    - **Column Headers Location**: A1:J1
+    - **Data Range**:
+      - Annual data: B2:B7599
+      - Monthly data: C2:C5759, F2:F7599, H2:H7599, I2:I7599, J2:J7599
 - **Time Series Details**:
-    - **Date Range**: 
-      - Effective Date: 2011-01-18 to 2022-01-01
-      - EOM Effective Date: 1900-01-31 to 2022-01-31
-    - **Frequency**: Unordered Column
+    - **Date Range**: 2011-01-18 to 2022-01-01 (C2:C5759), 1900-01-31 to 2022-01-31 (F2:F7599)
+    - **Frequency**: Unordered_column, Unordered_column
 - **Key Components**: Account Type, ASV, Effective Date, Close Date, Segment, EOM Effective Date, EOM Close Date, AlphaSense Opp #, Renewal Type, Stage
-- **Notes & Customizations**: Contains a mix of string, numeric, and date data. The Effective Date and EOM Effective Date columns are date series. The "Stage" column contains information about the renewal stage (e.g., Renewal - Won, Renewal - Lost, etc.). There are multiple categories of Renewal Type and Stage.
+- **Notes & Customizations**: The data is related to the renewal process and includes information about the stage of the renewal.

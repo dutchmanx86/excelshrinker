@@ -1298,7 +1298,7 @@
       }
     ],
     "statistics": {
-      "processing_time_ms": 1252.38,
+      "processing_time_ms": 3013.0,
       "cells_analyzed": 2410,
       "total_ranges": 295,
       "format_counts": {
@@ -1307,7 +1307,7 @@
       }
     },
     "metadata": {
-      "detected_at": "2025-10-15T11:05:35.794938Z"
+      "detected_at": "2025-10-15T23:53:46.385881Z"
     }
   },
   "compression_stats": {
@@ -1315,10 +1315,10 @@
     "entries_moved_to_index": 39,
     "entries_remaining": 256,
     "min_occurrences_threshold": 2,
-    "original_size_bytes": 16759,
-    "compressed_size_bytes": 14853,
+    "original_size_bytes": 16758,
+    "compressed_size_bytes": 14852,
     "inverted_index_size_bytes": 100,
-    "compressed_data_size_bytes": 14753,
+    "compressed_data_size_bytes": 14752,
     "compression_ratio": 0.886,
     "space_saved_bytes": 1906,
     "space_saved_percent": 11.4

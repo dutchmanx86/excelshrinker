@@ -478,7 +478,7 @@
       }
     ],
     "statistics": {
-      "processing_time_ms": 7427.71,
+      "processing_time_ms": 7038.18,
       "cells_analyzed": 2347,
       "total_ranges": 117,
       "format_counts": {
@@ -488,7 +488,7 @@
       }
     },
     "metadata": {
-      "detected_at": "2025-10-15T10:59:32.249004Z"
+      "detected_at": "2025-10-15T23:43:43.315198Z"
     },
     "date_series_definitions": {
       "ds_1": {
@@ -501,13 +501,43 @@
         "series_type": "repeating_annual",
         "increment": "12 months (annual)",
         "start_date": "2015-01-01",
-        "pattern": "Annual values repeating 12 times from 2015 to 2027"
+        "pattern": "Annual values repeating 12 times from 2015 to 2027",
+        "anchor_points": {
+          "T7": "2015-01-01",
+          "AF7": "2016-01-01",
+          "AR7": "2017-01-01",
+          "BD7": "2018-01-01",
+          "BP7": "2019-01-01",
+          "CB7": "2020-01-01",
+          "CN7": "2021-01-01",
+          "CZ7": "2022-01-01",
+          "DL7": "2023-01-01",
+          "DX7": "2024-01-01",
+          "EJ7": "2025-01-01",
+          "EV7": "2026-01-01",
+          "FH7": "2027-01-01"
+        }
       },
       "ds_3": {
         "series_type": "monthly",
         "increment": "1 month",
         "start_date": "2015-01-31",
-        "pattern": "Monthly series from 2015-01 to 2027-12"
+        "pattern": "Monthly series from 2015-01 to 2027-12",
+        "anchor_points": {
+          "T9": "2015-01-31",
+          "AF9": "2016-01-31",
+          "AR9": "2017-01-31",
+          "BD9": "2018-01-31",
+          "BP9": "2019-01-31",
+          "CB9": "2020-01-31",
+          "CN9": "2021-01-31",
+          "CZ9": "2022-01-31",
+          "DL9": "2023-01-31",
+          "DX9": "2024-01-31",
+          "EJ9": "2025-01-31",
+          "EV9": "2026-01-31",
+          "FH9": "2027-01-31"
+        }
       }
     }
   },
@@ -516,12 +546,12 @@
     "entries_moved_to_index": 32,
     "entries_remaining": 85,
     "min_occurrences_threshold": 2,
-    "original_size_bytes": 6756,
-    "compressed_size_bytes": 5309,
+    "original_size_bytes": 7284,
+    "compressed_size_bytes": 5837,
     "inverted_index_size_bytes": 377,
-    "compressed_data_size_bytes": 4932,
-    "compression_ratio": 0.786,
+    "compressed_data_size_bytes": 5460,
+    "compression_ratio": 0.801,
     "space_saved_bytes": 1447,
-    "space_saved_percent": 21.4
+    "space_saved_percent": 19.9
   }
 }

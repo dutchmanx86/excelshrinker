@@ -2,53 +2,55 @@
 ## 1. Spreadsheet Overview
 - **Sheet Name**: COGS vs. Marginal
 - **Key Sections Identified**:
-    - Revenue and Seats Summary
-    - COGS and Gross Profit Analysis
-    - Cost Calculations
+    - Revenue and Seats Calculation
+    - COGS Analysis
+    - Marginal Cost Analysis
 
 ## 2. Detailed Section Analysis
 
-### Section Name: Revenue and Seats Summary
+### Section Name: Revenue and Seats Calculation
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: Presents a summary of revenue and seats for 2017, along with the calculated revenue per seat. This provides a high-level overview of the company's performance.
-- **Cell Range**: B4:D10
+- **Description & Purpose**: This section calculates Revenue per Seat based on 2017 Revenue and 2017 Seats. It also shows the current and marginal Revenue/Seat values.
+- **Cell Range**: B6:D10
 - **Layout Structure**:
     - **Row Headers Location**: Column B
-    - **Column Headers Location**: Row 4
+    - **Column Headers Location**: Row 4 (Current, Marginal)
     - **Data Range**:
-      - Current data: `C6:C10`
-      - Marginal data: `D6:D10`
+      - C6:D10 (numeric values)
 - **Time Series Details**:
     - **Date Range**: 2017
     - **Frequency**: Annual
-- **Key Components**: 2017 Revenue, 2017 Seats, Revenue / Seat
-- **Notes & Customizations**: Includes both "Current" and "Marginal" values for comparison.
+- **Key Components**: 2017 Revenue, 2017 Seats, Revenue / Seat (Current), Revenue / Seat (Marginal)
+- **Notes & Customizations**: Uses a scale of 1000 for some values.
 
-### Section Name: COGS and Gross Profit Analysis
-- **Section Type**: Standard P&L
-- **Description & Purpose**: Analyzes the Cost of Goods Sold (COGS) and calculates the resulting Gross Profit per Seat and % Margin. This section provides insights into the profitability of each seat.
-- **Cell Range**: B12:B35
+### Section Name: COGS Analysis
+- **Section Type**: Cost Analysis
+- **Description & Purpose**: This section analyzes the Cost of Goods Sold (COGS) and related metrics like Gross Profit per Seat and % Margin. It includes per-seat costs for various services.
+- **Cell Range**: B12:E35
 - **Layout Structure**:
     - **Row Headers Location**: Column B
-    - **Column Headers Location**: None
-    - **Data Range**: `C12` and `D27:E33` (Note: Data is scattered, not a contiguous block)
+    - **Column Headers Location**: Implicit (no clear headers, but D and E seem to represent different scenarios)
+    - **Data Range**:
+      - C12 (COGS value)
+      - D27:E33 (per-seat costs and profit metrics)
 - **Time Series Details**:
-    - **Date Range**: Not explicitly defined, but implied to be current and marginal scenarios.
+    - **Date Range**: Not explicitly defined, but likely related to 2017 or a similar timeframe.
     - **Frequency**: Annual
-- **Key Components**: COGS, Gross Profit per Seat, % Margin
-- **Notes & Customizations**: The data range is not contiguous, indicating that some calculations might be performed elsewhere and referenced here.
+- **Key Components**: COGS, Per-Seat costs (Broker Research, After Market Research, International Filings, Transcripts, News, News & Journals, IDC, Web Service - Production), Gross Profit per Seat, % Margin
+- **Notes & Customizations**: Includes "Calculations" section.
 
-### Section Name: Cost Calculations
-- **Section Type**: Custom P&L
-- **Description & Purpose**: This section details various cost components and calculations, including costs related to Broker Research, After Market Research, International Filings, Transcripts, News, IDC, and Web Services. It calculates the marginal price and considers various user tiers and associated fees.
-- **Cell Range**: A41:D105
+### Section Name: Marginal Cost Analysis
+- **Section Type**: Cost Analysis
+- **Description & Purpose**: This section analyzes marginal costs associated with various services and user tiers. It calculates costs based on percentages of users and prices per user.
+- **Cell Range**: B41:D105
 - **Layout Structure**:
     - **Row Headers Location**: Column B
-    - **Column Headers Location**: None
-    - **Data Range**: `D27, E27, D31, E31, D32, E32, E33, D50:D52, D54, D56, D66, D100, D105` (Note: Data is scattered, not a contiguous block)
+    - **Column Headers Location**: Implicit (no clear headers, but D seems to represent marginal costs)
+    - **Data Range**:
+      - D50:D52, D54, D56, D66, D100, D105 (marginal cost values)
 - **Time Series Details**:
-    - **Date Range**: Not explicitly defined, but implied to be current and marginal scenarios.
+    - **Date Range**: Not explicitly defined, but likely related to 2017 or a similar timeframe.
     - **Frequency**: Annual
-- **Key Components**: Broker Research, After Market Research, International Filings, Transcripts, News, IDC, Web Service - Production, AMR - $15k, AMR - $30k, Cost per User, Marginal Price, Percent of Users, Price per User - Tier 1.
-- **Notes & Customizations**: This section appears to be a collection of cost calculations related to various services and user tiers. The data range is highly scattered, suggesting that the calculations are complex and interconnected.
+- **Key Components**: Broker Research, After Market Research, International Filings, Transcripts, News, News & Journals, IDC, Web Service - Production, Percent of Users AMR, AMR - $15k, AMR - $30k, Cost per User, Marginal Price, Percent of Users, Price per User - Tier 1
+- **Notes & Customizations**: Includes calculations for "Total" costs. Contains text indicating flat fees for some services (e.g., "TR Transcripts - flat fee will be triggered so no marginal cost").
 ```

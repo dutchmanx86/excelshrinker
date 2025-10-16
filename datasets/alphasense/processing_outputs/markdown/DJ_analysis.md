@@ -2,35 +2,22 @@
 ## 1. Spreadsheet Overview
 - **Sheet Name**: DJ
 - **Key Sections Identified**:
-    - Header
-    - Financial Data Section
+    - Revenue Breakdown
 
 ## 2. Detailed Section Analysis
 
-### Header
-- **Section Type**: Header
-- **Description & Purpose**: Contains the sheet title and potentially other high-level information.
-- **Cell Range**: B3:B3
-- **Layout Structure**:
-    - **Row Headers Location**: N/A
-    - **Column Headers Location**: N/A
-    - **Data Range**: B3
-- **Time Series Details**: N/A
-- **Key Components**: "Financial"
-- **Notes & Customizations**: This section is very small, containing only the word "Financial".
-
-### Financial Data Section
+### Section Name (Revenue Breakdown)
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section appears to contain financial data, potentially broken down by corporate and other categories, across a monthly time series.
-- **Cell Range**: B4:T7
+- **Description & Purpose**: This section breaks down revenue into different categories (Corporate and Other) over a monthly time series. It allows for analysis of revenue streams and their performance over time.
+- **Cell Range**: B2:T7
 - **Layout Structure**:
-    - **Row Headers Location**: B4:B6
+    - **Row Headers Location**: B4, B6
     - **Column Headers Location**: C2
     - **Data Range**:
-      - Monthly data: C4:T7
+      - Monthly data: C3:T3, C4:T4, C5:T5, C6:T7
 - **Time Series Details**:
     - **Date Range**: 2017-01-01 to 2018-06-01
     - **Frequency**: Monthly
-- **Key Components**: Corporate, Other
-- **Notes & Customizations**: The data is broken down into "Corporate" and "Other" categories. The dates are in row 2 from C2:T2. The values are in number format.
+- **Key Components**: Corporate Revenue, Other Revenue, Financial (likely a category or label).
+- **Notes & Customizations**: The data includes "Financial" as a string in cells B3 and B5, which might be a category label or a title. The revenue data is presented in a monthly time series format.
 ```

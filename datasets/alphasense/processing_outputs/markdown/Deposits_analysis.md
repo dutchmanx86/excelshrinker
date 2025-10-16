@@ -1,4 +1,3 @@
-```markdown
 ## 1. Spreadsheet Overview
 - **Sheet Name**: Deposits
 - **Key Sections Identified**:
@@ -8,7 +7,7 @@
 
 ### Section Name (Deposits Data)
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section presents the deposit data over a monthly time series, scaled by 1000. It allows for tracking and analysis of deposit trends.
+- **Description & Purpose**: This section contains the deposit data, scaled by 1000, for each month from January 2020 to December 2021.
 - **Cell Range**: A3:Y3
 - **Layout Structure**:
     - **Row Headers Location**: A3
@@ -19,4 +18,3 @@
     - **Frequency**: Monthly
 - **Key Components**: Deposits
 - **Notes & Customizations**: The deposit values are scaled by 1000.
-```

@@ -726,7 +726,7 @@
       }
     ],
     "statistics": {
-      "processing_time_ms": 1498.95,
+      "processing_time_ms": 3756.48,
       "cells_analyzed": 3717,
       "total_ranges": 168,
       "format_counts": {
@@ -736,20 +736,42 @@
       }
     },
     "metadata": {
-      "detected_at": "2025-10-15T11:05:26.254908Z"
+      "detected_at": "2025-10-15T23:53:41.592921Z"
     },
     "date_series_definitions": {
       "ds_1": {
         "series_type": "monthly",
         "increment": "1 month",
         "start_date": "2019-10-01",
-        "pattern": "Monthly series from 2019-10 to 2027-12"
+        "pattern": "Monthly series from 2019-10 to 2027-12",
+        "anchor_points": {
+          "D1": "2019-10-01",
+          "P1": "2020-10-01",
+          "AB1": "2021-10-01",
+          "AN1": "2022-10-01",
+          "AZ1": "2023-10-01",
+          "BL1": "2024-10-01",
+          "BX1": "2025-10-01",
+          "CJ1": "2026-10-01",
+          "CV1": "2027-10-01"
+        }
       },
       "ds_2": {
         "series_type": "monthly",
         "increment": "1 month",
         "start_date": "2019-12-31",
-        "pattern": "Monthly series from 2019-12 to 2027-12"
+        "pattern": "Monthly series from 2019-12 to 2027-12",
+        "anchor_points": {
+          "F61": "2019-12-31",
+          "R61": "2020-12-31",
+          "AD61": "2021-12-31",
+          "AP61": "2022-12-31",
+          "BB61": "2023-12-31",
+          "BN61": "2024-12-31",
+          "BZ61": "2025-12-31",
+          "CL61": "2026-12-31",
+          "CX61": "2027-12-31"
+        }
       }
     }
   },
@@ -758,12 +780,12 @@
     "entries_moved_to_index": 52,
     "entries_remaining": 116,
     "min_occurrences_threshold": 2,
-    "original_size_bytes": 8777,
-    "compressed_size_bytes": 7195,
+    "original_size_bytes": 9160,
+    "compressed_size_bytes": 7578,
     "inverted_index_size_bytes": 1280,
-    "compressed_data_size_bytes": 5915,
-    "compression_ratio": 0.82,
+    "compressed_data_size_bytes": 6298,
+    "compression_ratio": 0.827,
     "space_saved_bytes": 1582,
-    "space_saved_percent": 18.0
+    "space_saved_percent": 17.3
   }
 }

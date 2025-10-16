@@ -2673,7 +2673,7 @@
       }
     ],
     "statistics": {
-      "processing_time_ms": 1608.15,
+      "processing_time_ms": 6557.41,
       "cells_analyzed": 8414,
       "total_ranges": 688,
       "format_counts": {
@@ -2682,7 +2682,7 @@
       }
     },
     "metadata": {
-      "detected_at": "2025-10-15T11:04:00.954208Z"
+      "detected_at": "2025-10-15T23:47:50.764462Z"
     }
   },
   "compression_stats": {

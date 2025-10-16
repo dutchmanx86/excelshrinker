@@ -1174,7 +1174,7 @@
       }
     ],
     "statistics": {
-      "processing_time_ms": 1308.48,
+      "processing_time_ms": 2554.72,
       "cells_analyzed": 7950,
       "total_ranges": 267,
       "format_counts": {
@@ -1184,14 +1184,24 @@
       }
     },
     "metadata": {
-      "detected_at": "2025-10-15T11:03:01.289900Z"
+      "detected_at": "2025-10-15T23:46:46.252604Z"
     },
     "date_series_definitions": {
       "ds_1": {
         "series_type": "repeating_annual",
         "increment": "12 months (annual)",
         "start_date": "2020-01-01",
-        "pattern": "Annual values repeating 12 times from 2020 to 2027"
+        "pattern": "Annual values repeating 12 times from 2020 to 2027",
+        "anchor_points": {
+          "O2": "2020-01-01",
+          "AA2": "2021-01-01",
+          "AM2": "2022-01-01",
+          "AY2": "2023-01-01",
+          "BK2": "2024-01-01",
+          "BW2": "2025-01-01",
+          "CI2": "2026-01-01",
+          "CU2": "2027-01-01"
+        }
       },
       "ds_2": {
         "series_type": "annual",
@@ -1203,7 +1213,17 @@
         "series_type": "monthly",
         "increment": "1 month",
         "start_date": "2020-01-31",
-        "pattern": "Monthly series from 2020-01 to 2027-12"
+        "pattern": "Monthly series from 2020-01 to 2027-12",
+        "anchor_points": {
+          "O3": "2020-01-31",
+          "AA3": "2021-01-31",
+          "AM3": "2022-01-31",
+          "AY3": "2023-01-31",
+          "BK3": "2024-01-31",
+          "BW3": "2025-01-31",
+          "CI3": "2026-01-31",
+          "CU3": "2027-01-31"
+        }
       }
     }
   },
@@ -1212,12 +1232,12 @@
     "entries_moved_to_index": 41,
     "entries_remaining": 226,
     "min_occurrences_threshold": 2,
-    "original_size_bytes": 14023,
-    "compressed_size_bytes": 12484,
+    "original_size_bytes": 14361,
+    "compressed_size_bytes": 12822,
     "inverted_index_size_bytes": 508,
-    "compressed_data_size_bytes": 11976,
-    "compression_ratio": 0.89,
+    "compressed_data_size_bytes": 12314,
+    "compression_ratio": 0.893,
     "space_saved_bytes": 1539,
-    "space_saved_percent": 11.0
+    "space_saved_percent": 10.7
   }
 }

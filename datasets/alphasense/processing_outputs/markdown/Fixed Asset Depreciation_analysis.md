@@ -1,53 +1,37 @@
+```markdown
 ## 1. Spreadsheet Overview
 - **Sheet Name**: Fixed Asset Depreciation
 - **Key Sections Identified**:
-    - Fixed Asset Depreciation - LTD
-    - Fixed Asset Depreciation - Mgmt
-    - Fixed Asset Depreciation - Inc
+    - Header
+    - Fixed Asset Depreciation Schedule
 
 ## 2. Detailed Section Analysis
 
-### Section Name (Fixed Asset Depreciation - LTD)
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section displays the fixed asset depreciation schedule for LTD, showing the starting balance, conversion, starting balance in USD, and monthly depreciation expenses.
-- **Cell Range**: B5:DV10
+### Header
+- **Section Type**: Header
+- **Description & Purpose**: Contains labels for the data in the subsequent section.
+- **Cell Range**: C3:F3
 - **Layout Structure**:
-    - **Row Headers Location**: Column B (e.g., LTD, Oy, Total)
-    - **Column Headers Location**: Row 3 (Account, Starting Balance, Conversion, Starting Balance (USD))
-    - **Data Range**:
-      - Monthly data: `G6:DV10` (numeric values for monthly periods)
-- **Time Series Details**:
-    - **Date Range**: The exact dates are not provided, but the data spans from column G to DV, implying a monthly time series. The number of months is dependent on the number of columns between G and DV.
-    - **Frequency**: Monthly
-- **Key Components**: LTD, Account, Starting Balance, Conversion, Starting Balance (USD), Oy, Total
-- **Notes & Customizations**: Values in column F and from column G onwards are scaled by 1000.
+    - **Row Headers Location**: None
+    - **Column Headers Location**: C3:F3
+    - **Data Range**: None
+- **Time Series Details**: None
+- **Key Components**: Account, Starting Balance, Conversion, Starting Balance (USD)
+- **Notes & Customizations**: None
 
-### Section Name (Fixed Asset Depreciation - Mgmt)
+### Fixed Asset Depreciation Schedule
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section displays the fixed asset depreciation schedule for Mgmt, showing the starting balance, conversion, starting balance in USD, and monthly depreciation expenses.
-- **Cell Range**: B13:DV18
+- **Description & Purpose**: Shows the depreciation schedule for fixed assets, including starting balances, conversions, and monthly depreciation expenses.
+- **Cell Range**: B5:DV18
 - **Layout Structure**:
-    - **Row Headers Location**: Column B (e.g., Mgmt, Oy, Total)
-    - **Column Headers Location**: Row 3 (Account, Starting Balance, Conversion, Starting Balance (USD))
+    - **Row Headers Location**: B5:B10, B13:B18
+    - **Column Headers Location**: G3:DV3 (Implicit - not directly provided in JSON, but inferred from data ranges)
     - **Data Range**:
-      - Monthly data: `H14:DV18` (numeric values for monthly periods)
+      - Initial Data: D5:F10
+      - Monthly data: G6:DV10, G14:DV18
 - **Time Series Details**:
-    - **Date Range**: The exact dates are not provided, but the data spans from column H to DV, implying a monthly time series. The number of months is dependent on the number of columns between H and DV.
-    - **Frequency**: Monthly
-- **Key Components**: Mgmt, Account, Starting Balance, Conversion, Starting Balance (USD), Oy, Total
-- **Notes & Customizations**: Values from column G onwards are scaled by 1000.
-
-### Section Name (Fixed Asset Depreciation - Inc)
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section displays the fixed asset depreciation schedule for Inc, showing the monthly depreciation expenses.
-- **Cell Range**: B15:DV17
-- **Layout Structure**:
-    - **Row Headers Location**: Column B (e.g., Inc, Oy)
-    - **Column Headers Location**: Row 3 (Account, Starting Balance, Conversion, Starting Balance (USD))
-    - **Data Range**:
-      - Monthly data: `H15:DV17` (numeric values for monthly periods)
-- **Time Series Details**:
-    - **Date Range**: The exact dates are not provided, but the data spans from column H to DV, implying a monthly time series. The number of months is dependent on the number of columns between H and DV.
-    - **Frequency**: Monthly
-- **Key Components**: Inc, Account, Oy
-- **Notes & Customizations**: Values from column G onwards are scaled by 1000.
+    - **Date Range**: G3 to DV3 (Inferred monthly series). Specific dates are not provided in the JSON, but the data range suggests a monthly frequency.
+    - **Frequency**: Monthly (Inferred)
+- **Key Components**: LTD, Mgmt, Inc, Total, Oy, R&D
+- **Notes & Customizations**: Values are scaled by 1000. The column headers for the monthly data are not explicitly defined in the JSON but are implied by the data ranges.
+```

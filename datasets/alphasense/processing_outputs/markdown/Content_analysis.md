@@ -1,182 +1,132 @@
-```markdown
 ## 1. Spreadsheet Overview
 - **Sheet Name**: Content
 - **Key Sections Identified**:
     - Header
     - Content Operating Expenses Summary
-    - Content People Costs Details
-    - Content Other Employee Costs Details
-    - Content Travel Costs Details
-    - Content Facility Costs Details
-    - Content Marketing Costs Details
-    - Content General & Admin Costs Details
-    - Content Other Costs Details
+    - Total Content People Costs
+    - Total Content Other Employee Costs
+    - Total Content Travel Costs
+    - Total Content Facility Costs
+    - Total Content Marketing
+    - Total Content General & Admin
+    - Total Content Other Costs
 
 ## 2. Detailed Section Analysis
 
 ### Header
 - **Section Type**: Header
-- **Description & Purpose**: Contains the company name, report title, and scenario description. Provides context for the entire spreadsheet.
+- **Description & Purpose**: Contains the company name, report title, and scenario description.
 - **Cell Range**: B2:FS4
 - **Layout Structure**:
     - **Row Headers Location**: None
-    - **Column Headers Location**: None
-    - **Data Range**: None
+    - **Column Headers Location**: E3:I3, J3:Q3, T3:FS3
+    - **Data Range**: E3:I3, J3:Q3, T3:FS3
 - **Time Series Details**:
-    - **Date Range**: 2015-01-31 to 2027-12-31
-    - **Frequency**: Monthly
+    - Annual: No explicit annual series, but E3:I3 and J3:Q3 likely represent annual data. No specific date range available. Frequency: Annual (Likely)
+    - Monthly: 2015-01-31 to 2027-12-31 (T3:FS3). Anchor points: T3=2015-01-31, AF3=2016-01-31, AR3=2017-01-31, BD3=2018-01-31, BP3=2019-01-31, CB3=2020-01-31, CN3=2021-01-31, CZ3=2022-01-31, DL3=2023-01-31, DX3=2024-01-31, EJ3=2025-01-31, EV3=2026-01-31, FH3=2027-01-31. Frequency: Monthly
 - **Key Components**: AlphaSense, Inc., Operating Expenses Reorganization, 1 - Base - $25mm
-- **Notes & Customizations**: Contains the scenario description "1 - Base - $25mm".
+- **Notes & Customizations**: Contains both annual and monthly time series data.
 
 ### Content Operating Expenses Summary
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: Provides a high-level summary of content operating expenses.
-- **Cell Range**: A6:Q11
+- **Description & Purpose**: Provides a summary of total content expenses.
+- **Cell Range**: A6:Q8
 - **Layout Structure**:
-    - **Row Headers Location**: B6, B8, B10, B11
-    - **Column Headers Location**: E3:I3 (Implied Annual), J3:Q3 (Implied Annual), T3:FS3 (Monthly)
-    - **Data Range**:
-      - Annual data: I8:Q8, I10:Q11
+    - **Row Headers Location**: A6:B8
+    - **Column Headers Location**: I3:Q3
+    - **Data Range**: I8:Q8
 - **Time Series Details**:
-    - **Date Range**: 2015-01-31 to 2027-12-31
-      - Annual: Implied (based on column headers)
-      - Monthly: 2015-01-31 to 2027-12-31
-    - **Frequency**:
-      - Annual: Annual
-      - Monthly: Monthly
-- **Key Components**: Content Operating Expenses Summary, Total Content Expense, Total Content People Costs, Total Engineering People Costs (excl Cap Wages)
+    - Annual: J3:Q3 likely represents annual data. No specific date range available. Frequency: Annual (Likely)
+- **Key Components**: Total Content Expense
 - **Notes & Customizations**: Values are scaled by 1000.
 
-### Content People Costs Details
-- **Section Type**: Custom P&L
-- **Description & Purpose**: Details the various components of content people costs, including wages, benefits, and other related expenses.
-- **Cell Range**: A13:Q62
+### Total Content People Costs
+- **Section Type**: Key Metrics Table
+- **Description & Purpose**: Summarizes total people costs associated with content creation.
+- **Cell Range**: A10:Q62
 - **Layout Structure**:
-    - **Row Headers Location**: B13:B62 (every other row)
-    - **Column Headers Location**: E3:I3 (Implied Annual), J3:Q3 (Implied Annual), T3:FS3 (Monthly)
-    - **Data Range**:
-      - Annual data: I14:Q15, I19:Q19, I24:Q24, I28:Q28, I34:Q34, I36:Q36, I40:Q40, I44:Q44, I48:Q48, I52:Q52, I57:Q57, I62:Q62
+    - **Row Headers Location**: A10:B62
+    - **Column Headers Location**: I3:Q3
+    - **Data Range**: I10:Q62
 - **Time Series Details**:
-    - **Date Range**: 2015-01-31 to 2027-12-31
-      - Annual: Implied (based on column headers)
-      - Monthly: 2015-01-31 to 2027-12-31
-    - **Frequency**:
-      - Annual: Annual
-      - Monthly: Monthly
-- **Key Components**: Wages, Salaries Working Abroad, Holiday Pay, Additional Holiday Pay, Sick Leave, Commission Expense, Bonus, Benefits, Work Compensation, Payroll Taxes, Finnish Side Costs, Share Based Compensation
-- **Notes & Customizations**: Values are scaled by 1000. Includes "% of Wages" calculations.
+    - Annual: J3:Q3 likely represents annual data. No specific date range available. Frequency: Annual (Likely)
+- **Key Components**: Total Content People Costs, Wages, Salaries Working Abroad, Holiday Pay, Additional Holiday Pay, Sick Leave, Bonus, Benefits, Work Compensation, Payroll Taxes, Finnish Side Costs, Share Based Compensation
+- **Notes & Customizations**: Values are scaled by 1000. Includes various sub-categories of people costs.
 
-### Content Other Employee Costs Details
-- **Section Type**: Custom P&L
-- **Description & Purpose**: Details the various components of other employee costs, including recruiting fees, relocation, contractors, capitalized wages, and other related expenses.
-- **Cell Range**: A64:Q113
+### Total Content Other Employee Costs
+- **Section Type**: Key Metrics Table
+- **Description & Purpose**: Summarizes other employee costs associated with content creation.
+- **Cell Range**: A113:Q143
 - **Layout Structure**:
-    - **Row Headers Location**: B64:B113 (every other row)
-    - **Column Headers Location**: E3:I3 (Implied Annual), J3:Q3 (Implied Annual), T3:FS3 (Monthly)
-    - **Data Range**:
-      - Annual data: I81:Q81, I86:Q86, I92:Q92, I98:Q98, I101:Q101, I106:Q106, I111:Q111, I113:Q113
+    - **Row Headers Location**: A113:B143
+    - **Column Headers Location**: I3:Q3
+    - **Data Range**: I113:Q143
 - **Time Series Details**:
-    - **Date Range**: 2015-01-31 to 2027-12-31
-      - Annual: Implied (based on column headers)
-      - Monthly: 2015-01-31 to 2027-12-31
-    - **Frequency**:
-      - Annual: Annual
-      - Monthly: Monthly
-- **Key Components**: Recruiting Fees, Relocation, Contractors, Outsourced R&D, Capitalized Wages, Capitalized Outsourced R&D, Capitalized R&D, Total Content Other Employee Costs
+    - Annual: J3:Q3 likely represents annual data. No specific date range available. Frequency: Annual (Likely)
+- **Key Components**: Total Content Other Employee Costs, Celluar Phone Service, Home Internet Service, Home Office Phone, Home Office, Membership Dues, Subscriptions
 - **Notes & Customizations**: Values are scaled by 1000.
 
-### Content Travel Costs Details
-- **Section Type**: Custom P&L
-- **Description & Purpose**: Details the various components of content travel costs, including airfare, lodging, meals, and other related expenses.
-- **Cell Range**: A115:Q217
+### Total Content Travel Costs
+- **Section Type**: Key Metrics Table
+- **Description & Purpose**: Summarizes travel costs associated with content creation.
+- **Cell Range**: A145:Q217
 - **Layout Structure**:
-    - **Row Headers Location**: B115:B217 (every other row)
-    - **Column Headers Location**: E3:I3 (Implied Annual), J3:Q3 (Implied Annual), T3:FS3 (Monthly)
-    - **Data Range**:
-      - Annual data: I118:Q118, I123:Q123, I128:Q128, I133:Q133, I138:Q138, I143:Q143, I145:Q145, I154:Q154, I163:Q163, I172:Q172, I181:Q181, I190:Q190, I199:Q199, I208:Q208, I217:Q217
+    - **Row Headers Location**: A145:B217
+    - **Column Headers Location**: I3:Q3
+    - **Data Range**: I145:Q217
 - **Time Series Details**:
-    - **Date Range**: 2015-01-31 to 2027-12-31
-      - Annual: Implied (based on column headers)
-      - Monthly: 2015-01-31 to 2027-12-31
-    - **Frequency**:
-      - Annual: Annual
-      - Monthly: Monthly
-- **Key Components**: Celluar Phone Service, Home Internet Service, Home Office Phone, Home Office, Membership Dues, Subscriptions, Total Content Travel Costs, Airfare/Train, Auto/Cab, Mileage, Lodging, Travel Internet, Employee Meals / Entertainment, Daily Meal Allowance When Abroad, Business Meals / Entertainment
+    - Annual: J3:Q3 likely represents annual data. No specific date range available. Frequency: Annual (Likely)
+- **Key Components**: Total Content Travel Costs, Airfare/Train, Auto/Cab, Mileage, Lodging, Travel Internet, Employee Meals / Entertainment, Daily Meal Allowance When Abroad, Business Meals / Entertainment
 - **Notes & Customizations**: Values are scaled by 1000.
 
-### Content Facility Costs Details
-- **Section Type**: Custom P&L
-- **Description & Purpose**: Details the various components of content facility costs, including rent, utilities, and other related expenses.
-- **Cell Range**: A220:Q264
+### Total Content Facility Costs
+- **Section Type**: Key Metrics Table
+- **Description & Purpose**: Summarizes facility costs associated with content creation.
+- **Cell Range**: A229:Q264
 - **Layout Structure**:
-    - **Row Headers Location**: B220:B264 (every other row)
-    - **Column Headers Location**: E3:I3 (Implied Annual), J3:Q3 (Implied Annual), T3:FS3 (Monthly)
-    - **Data Range**:
-      - Annual data: I227:Q227, I229:Q229, I234:Q234, I239:Q239, I244:Q244, I249:Q249, I254:Q254, I259:Q259, I264:Q264
+    - **Row Headers Location**: A229:B264
+    - **Column Headers Location**: I3:Q3
+    - **Data Range**: I229:Q264
 - **Time Series Details**:
-    - **Date Range**: 2015-01-31 to 2027-12-31
-      - Annual: Implied (based on column headers)
-      - Monthly: 2015-01-31 to 2027-12-31
-    - **Frequency**:
-      - Annual: Annual
-      - Monthly: Monthly
-- **Key Components**: Internal Events, Total Content Facility Costs, Rent, CAM, Repairs & Maintenance, Amortization of Leasehold Improvements, Utilities, Telephone, Computer & Internet
+    - Annual: J3:Q3 likely represents annual data. No specific date range available. Frequency: Annual (Likely)
+- **Key Components**: Total Content Facility Costs, Rent, CAM, Repairs & Maintenance, Amortization of Leasehold Improvements, Utilities, Telephone, Computer & Internet
 - **Notes & Customizations**: Values are scaled by 1000.
 
-### Content Marketing Costs Details
-- **Section Type**: Custom P&L
-- **Description & Purpose**: Details the various components of content marketing costs, including advertising, research, events, and other related expenses.
+### Total Content Marketing
+- **Section Type**: Key Metrics Table
+- **Description & Purpose**: Summarizes marketing costs associated with content creation.
 - **Cell Range**: A266:Q311
 - **Layout Structure**:
-    - **Row Headers Location**: B266:B311 (every other row)
-    - **Column Headers Location**: E3:I3 (Implied Annual), J3:Q3 (Implied Annual), T3:FS3 (Monthly)
-    - **Data Range**:
-      - Annual data: I271:Q271, I276:Q276, I281:Q281, I286:Q286, I291:Q291, I296:Q296, I301:Q301, I306:Q306, I311:Q311
+    - **Row Headers Location**: A266:B311
+    - **Column Headers Location**: I3:Q3
+    - **Data Range**: I266:Q311
 - **Time Series Details**:
-    - **Date Range**: 2015-01-31 to 2027-12-31
-      - Annual: Implied (based on column headers)
-      - Monthly: 2015-01-31 to 2027-12-31
-    - **Frequency**:
-      - Annual: Annual
-      - Monthly: Monthly
+    - Annual: J3:Q3 likely represents annual data. No specific date range available. Frequency: Annual (Likely)
 - **Key Components**: Total Content Marketing, Advertising & Promotion, Other Marketing, Omarketing Research, Marketing Events, Public Relations, Paid Search, Paid Social, Paid Display, Paid SWAG
 - **Notes & Customizations**: Values are scaled by 1000.
 
-### Content General & Admin Costs Details
-- **Section Type**: Custom P&L
-- **Description & Purpose**: Details the various components of content general and administrative costs, including insurance, payroll administration, and other related expenses.
+### Total Content General & Admin
+- **Section Type**: Key Metrics Table
+- **Description & Purpose**: Summarizes general and administrative costs associated with content creation.
 - **Cell Range**: A313:Q372
 - **Layout Structure**:
-    - **Row Headers Location**: B313:B372 (every other row)
-    - **Column Headers Location**: E3:I3 (Implied Annual), J3:Q3 (Implied Annual), T3:FS3 (Monthly)
-    - **Data Range**:
-      - Annual data: I316:Q316, I321:Q321, I326:Q326, I329:Q329, I334:Q334, I339:Q339, I344:Q344, I349:Q349, I352:Q352, I357:Q357, I362:Q362, I367:Q367, I372:Q372
+    - **Row Headers Location**: A313:B372
+    - **Column Headers Location**: I3:Q3
+    - **Data Range**: I313:Q372
 - **Time Series Details**:
-    - **Date Range**: 2015-01-31 to 2027-12-31
-      - Annual: Implied (based on column headers)
-      - Monthly: 2015-01-31 to 2027-12-31
-    - **Frequency**:
-      - Annual: Annual
-      - Monthly: Monthly
+    - Annual: J3:Q3 likely represents annual data. No specific date range available. Frequency: Annual (Likely)
 - **Key Components**: Total Content General & Admin, Insurance, Payroll & Benefit Admin, Postage & Delivery, Conferences & Meetings, Furniture, Hardware, Software, Office Supplies, Audit & Tax, Bank Fees, Professional Services, Fundraising, Miscellaneous
 - **Notes & Customizations**: Values are scaled by 1000.
 
-### Content Other Costs Details
-- **Section Type**: Custom P&L
-- **Description & Purpose**: Details the various components of content other costs, including legal fees, data feeds, web service, and other related expenses.
+### Total Content Other Costs
+- **Section Type**: Key Metrics Table
+- **Description & Purpose**: Summarizes other costs associated with content creation.
 - **Cell Range**: A374:Q399
 - **Layout Structure**:
-    - **Row Headers Location**: B374:B399 (every other row)
-    - **Column Headers Location**: E3:I3 (Implied Annual), J3:Q3 (Implied Annual), T3:FS3 (Monthly)
-    - **Data Range**:
-      - Annual data: I379:Q379, I384:Q384, I389:Q389, I394:Q394, I399:Q399
+    - **Row Headers Location**: A374:B399
+    - **Column Headers Location**: I3:Q3
+    - **Data Range**: I374:Q399
 - **Time Series Details**:
-    - **Date Range**: 2015-01-31 to 2027-12-31
-      - Annual: Implied (based on column headers)
-      - Monthly: 2015-01-31 to 2027-12-31
-    - **Frequency**:
-      - Annual: Annual
-      - Monthly: Monthly
+    - Annual: J3:Q3 likely represents annual data. No specific date range available. Frequency: Annual (Likely)
 - **Key Components**: Total Content Other Costs, Legal Fees, DataFeeds, Web Service, Penalties, Bad Debt
 - **Notes & Customizations**: Values are scaled by 1000.
-```

@@ -145,12 +145,123 @@ class FormatResult:
 
         # Only add date_series_definitions if there are any
         if date_series_map:
-            result['date_series_definitions'] = {
-                series_id: series_dict
-                for series_id, series_dict in date_series_map.values()
-            }
+            # Add anchor points to each date series definition
+            date_series_defs_with_anchors = {}
+            for series_id, series_dict in date_series_map.values():
+                # Find the range that uses this series_id to get cell coordinates
+                range_str = None
+                for fr in format_ranges_output:
+                    if fr.get('date_series_id') == series_id:
+                        range_str = fr['range']
+                        break
+
+                # Add anchor points if we found a range
+                if range_str:
+                    series_with_anchors = series_dict.copy()
+                    anchor_points = self._calculate_anchor_points(
+                        series_dict, range_str
+                    )
+                    if anchor_points:
+                        series_with_anchors['anchor_points'] = anchor_points
+                    date_series_defs_with_anchors[series_id] = series_with_anchors
+                else:
+                    date_series_defs_with_anchors[series_id] = series_dict
+
+            result['date_series_definitions'] = date_series_defs_with_anchors
 
         return result
+
+    def _calculate_anchor_points(
+        self,
+        series_dict: Dict[str, Any],
+        range_str: str
+    ) -> Optional[Dict[str, str]]:
+        """
+        Calculate anchor points for a date series (every 12th cell for series > 24 cells).
+
+        Args:
+            series_dict: Date series definition dictionary
+            range_str: Excel range string (e.g., "T3:FS3")
+
+        Returns:
+            Dictionary mapping cell references to dates, or None if series is too short
+        """
+        # Only add anchor points for horizontal series longer than 24 cells
+        if ':' not in range_str:
+            return None
+
+        start_cell, end_cell = range_str.split(':')
+
+        # Parse start and end cells
+        import re
+        start_match = re.match(r'([A-Z]+)(\d+)', start_cell)
+        end_match = re.match(r'([A-Z]+)(\d+)', end_cell)
+
+        if not start_match or not end_match:
+            return None
+
+        start_col_str, start_row_str = start_match.groups()
+        end_col_str, end_row_str = end_match.groups()
+
+        # Only process horizontal series (same row)
+        if start_row_str != end_row_str:
+            return None
+
+        # Convert column letters to indices
+        def col_to_num(col_str):
+            num = 0
+            for char in col_str:
+                num = num * 26 + (ord(char) - ord('A') + 1)
+            return num
+
+        start_col = col_to_num(start_col_str)
+        end_col = col_to_num(end_col_str)
+        series_length = end_col - start_col + 1
+
+        # Only create anchor points if series is longer than 24 cells
+        if series_length <= 24:
+            return None
+
+        # Get start date from series_dict
+        start_date = series_dict.get('start_date')
+        if not start_date:
+            return None
+
+        # Parse start date
+        from datetime import datetime
+        try:
+            start_datetime = datetime.fromisoformat(start_date)
+        except:
+            return None
+
+        # Calculate anchor points every 12 cells
+        anchor_points = {}
+        row_num = start_row_str
+
+        # Helper to convert column number to letter
+        def num_to_col(n):
+            result = ''
+            while n > 0:
+                n -= 1
+                result = chr(65 + n % 26) + result
+                n //= 26
+            return result
+
+        for offset in range(0, series_length, 12):
+            col_num = start_col + offset
+            if col_num > end_col:
+                break
+
+            col_letter = num_to_col(col_num)
+            cell_ref = f"{col_letter}{row_num}"
+
+            # Calculate date for this anchor point
+            # Add months based on offset (assuming monthly series)
+            from dateutil.relativedelta import relativedelta
+            anchor_date = start_datetime + relativedelta(months=offset)
+            anchor_points[cell_ref] = anchor_date.date().isoformat()
+
+        return anchor_points if anchor_points else None
 
     def _hash_dict(self, d: Dict[str, Any]) -> str:
         """

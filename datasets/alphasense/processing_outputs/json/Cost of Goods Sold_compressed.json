@@ -6763,7 +6763,7 @@
       }
     ],
     "statistics": {
-      "processing_time_ms": 1917.53,
+      "processing_time_ms": 6517.28,
       "cells_analyzed": 62075,
       "total_ranges": 1681,
       "format_counts": {
@@ -6773,20 +6773,46 @@
       }
     },
     "metadata": {
-      "detected_at": "2025-10-15T11:03:06.333459Z"
+      "detected_at": "2025-10-15T23:46:57.039437Z"
     },
     "date_series_definitions": {
       "ds_1": {
         "series_type": "monthly",
         "increment": "1 month",
         "start_date": "2015-01-31",
-        "pattern": "Monthly series from 2015-01 to 2027-12"
+        "pattern": "Monthly series from 2015-01 to 2027-12",
+        "anchor_points": {
+          "T3": "2015-01-31",
+          "AF3": "2016-01-31",
+          "AR3": "2017-01-31",
+          "BD3": "2018-01-31",
+          "BP3": "2019-01-31",
+          "CB3": "2020-01-31",
+          "CN3": "2021-01-31",
+          "CZ3": "2022-01-31",
+          "DL3": "2023-01-31",
+          "DX3": "2024-01-31",
+          "EJ3": "2025-01-31",
+          "EV3": "2026-01-31",
+          "FH3": "2027-01-31"
+        }
       },
       "ds_2": {
         "series_type": "repeating_annual",
         "increment": "108 periods",
         "start_date": "2000-01-01",
-        "pattern": "Annual values repeating 108 times from 2000 to 2000"
+        "pattern": "Annual values repeating 108 times from 2000 to 2000",
+        "anchor_points": {
+          "BP564": "2000-01-01",
+          "CB564": "2001-01-01",
+          "CN564": "2002-01-01",
+          "CZ564": "2003-01-01",
+          "DL564": "2004-01-01",
+          "DX564": "2005-01-01",
+          "EJ564": "2006-01-01",
+          "EV564": "2007-01-01",
+          "FH564": "2008-01-01"
+        }
       }
     }
   },
@@ -6795,12 +6821,12 @@
     "entries_moved_to_index": 463,
     "entries_remaining": 1218,
     "min_occurrences_threshold": 2,
-    "original_size_bytes": 88466,
-    "compressed_size_bytes": 69272,
+    "original_size_bytes": 88937,
+    "compressed_size_bytes": 69743,
     "inverted_index_size_bytes": 6048,
-    "compressed_data_size_bytes": 63224,
-    "compression_ratio": 0.783,
+    "compressed_data_size_bytes": 63695,
+    "compression_ratio": 0.784,
     "space_saved_bytes": 19194,
-    "space_saved_percent": 21.7
+    "space_saved_percent": 21.6
   }
 }

@@ -203,7 +203,7 @@
       }
     ],
     "statistics": {
-      "processing_time_ms": 2999.59,
+      "processing_time_ms": 6143.02,
       "cells_analyzed": 533,
       "total_ranges": 43,
       "format_counts": {
@@ -213,7 +213,7 @@
       }
     },
     "metadata": {
-      "detected_at": "2025-10-15T11:05:52.914320Z"
+      "detected_at": "2025-10-15T23:54:07.932658Z"
     },
     "date_series_definitions": {
       "ds_1": {
@@ -226,7 +226,14 @@
         "series_type": "monthly",
         "increment": "1 month",
         "start_date": "2015-01-31",
-        "pattern": "Monthly series from 2015-01 to 2019-03"
+        "pattern": "Monthly series from 2015-01 to 2019-03",
+        "anchor_points": {
+          "J5": "2015-01-31",
+          "V5": "2016-01-31",
+          "AH5": "2017-01-31",
+          "AT5": "2018-01-31",
+          "BF5": "2019-01-31"
+        }
       }
     }
   },
@@ -235,12 +242,12 @@
     "entries_moved_to_index": 12,
     "entries_remaining": 31,
     "min_occurrences_threshold": 2,
-    "original_size_bytes": 2770,
-    "compressed_size_bytes": 2441,
+    "original_size_bytes": 2881,
+    "compressed_size_bytes": 2552,
     "inverted_index_size_bytes": 340,
-    "compressed_data_size_bytes": 2101,
-    "compression_ratio": 0.881,
+    "compressed_data_size_bytes": 2212,
+    "compression_ratio": 0.886,
     "space_saved_bytes": 329,
-    "space_saved_percent": 11.9
+    "space_saved_percent": 11.4
   }
 }

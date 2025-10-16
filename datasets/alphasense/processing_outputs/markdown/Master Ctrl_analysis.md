@@ -1,56 +1,58 @@
+```markdown
 ## 1. Spreadsheet Overview
 - **Sheet Name**: Master Ctrl
 - **Key Sections Identified**:
     - Header
-    - Control Scenarios
-    - Productivity & Margin Cases
+    - Control Panel
+    - Productivity Case
 
 ## 2. Detailed Section Analysis
 
 ### Header
 - **Section Type**: Header
-- **Description & Purpose**: Contains the company name and sheet title for identification.
-- **Cell Range**: `B2:B3`
+- **Description & Purpose**: Contains the company name and the name of the spreadsheet.
+- **Cell Range**: B2:B3
 - **Layout Structure**:
-    - **Row Headers Location**: N/A
+    - **Row Headers Location**: B2:B3
     - **Column Headers Location**: N/A
-    - **Data Range**: `B2:B3`
+    - **Data Range**: B2:B3
 - **Time Series Details**: N/A
-- **Key Components**: "AlphaSense, Inc.", "Master CTRL"
+- **Key Components**: AlphaSense, Inc., Master CTRL
 - **Notes & Customizations**: Standard header information.
 
-### Control Scenarios
+### Control Panel
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: Defines different control scenarios and their corresponding values. Used for scenario analysis.
-- **Cell Range**: `A12:C18`
+- **Description & Purpose**: Contains key input assumptions and control variables for the model.
+- **Cell Range**: A12:C18
 - **Layout Structure**:
-    - **Row Headers Location**: `B14:B18`
-    - **Column Headers Location**: `A12:C12`
-    - **Data Range**: `C14:C18`
+    - **Row Headers Location**: B14:B18
+    - **Column Headers Location**: C12
+    - **Data Range**: C14:C18
 - **Time Series Details**: N/A
-- **Key Components**: "Master Case", "Base - $25mm", "Growth - $25mm", "Base - $50mm", "Base - $50mm (R&D)"
-- **Notes & Customizations**: The 'x' in column A likely indicates a selection or active scenario.
+- **Key Components**: Master Case, Base - $25mm, Growth - $25mm, Base - $50mm, Base - $50mm (R&D)
+- **Notes & Customizations**: Contains different scenarios for the model.
 
 ### Global Assumptions
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: Contains global assumptions used in the model.
-- **Cell Range**: `B20:E25`
+- **Description & Purpose**: Contains global assumptions for the model, such as the latest actual month and months left in the year.
+- **Cell Range**: A20:E25
 - **Layout Structure**:
-    - **Row Headers Location**: `B20`, `B22`, `B25`
+    - **Row Headers Location**: B22, B25
     - **Column Headers Location**: N/A
-    - **Data Range**: `E25`
+    - **Data Range**: E25
 - **Time Series Details**: N/A
-- **Key Components**: "Global Assumptions", "Latest Actual Month", "Months Left in Year"
-- **Notes & Customizations**: Contains a single numeric value for "Months Left in Year" scaled by 1000.
+- **Key Components**: Latest Actual Month, Months Left in Year
+- **Notes & Customizations**: Contains global assumptions for the model.
 
-### Productivity & Margin Cases
+### Productivity Case
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: Defines different productivity and margin scenarios and their corresponding values. Used for scenario analysis.
-- **Cell Range**: `B27:C33`
+- **Description & Purpose**: Contains productivity case assumptions for the model.
+- **Cell Range**: B27:C33
 - **Layout Structure**:
-    - **Row Headers Location**: `B27:B33`
+    - **Row Headers Location**: B28, B29, B32, B33
     - **Column Headers Location**: N/A
-    - **Data Range**: `C27:C33`
+    - **Data Range**: C28, C29, C32, C33
 - **Time Series Details**: N/A
-- **Key Components**: "Productivity Case", "Base", "Target", "Margin Case", "Base", "Target"
-- **Notes & Customizations**: Contains numeric values for different productivity and margin scenarios.
+- **Key Components**: Base, Target
+- **Notes & Customizations**: Contains different scenarios for the model.
+```

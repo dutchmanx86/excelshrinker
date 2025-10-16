@@ -11,9 +11,15 @@
     - AE - Enterprise Headcount
     - AE - Other Headcount
     - Other Sales - Headcount
-    - Ratios and Metrics
-    - Old Assumptions (To Be Deleted)
     - Other Sales - Salary
+    - Old Assumptions (To Be Deleted)
+    - Product Specialist Headcount
+    - Product Specialist Manager Headcount
+    - Sales - Admin Headcount
+    - Sales Manager Headcount
+    - Sales Operations Manager Headcount
+    - Sales Recruiter Headcount
+    - SDR Headcount
 
 ## 2. Detailed Section Analysis
 
@@ -22,197 +28,299 @@
 - **Description & Purpose**: Contains the company name and a brief description of the spreadsheet's purpose.
 - **Cell Range**: B2:B4
 - **Layout Structure**:
-    - **Row Headers Location**: Column B
+    - **Row Headers Location**: None
     - **Column Headers Location**: None
     - **Data Range**: B2:B4
 - **Time Series Details**: None
-- **Key Components**: Company Name, Spreadsheet Description
-- **Notes & Customizations**: None
+- **Key Components**: AlphaSense, Inc., Sales Representatives CTRL, 1 - Base - $25mm
+- **Notes & Customizations**: Standard header information.
 
 ### Quota Sales Reps Headcount
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: Tracks the total headcount of quota-carrying sales representatives and their associated compensation.
-- **Cell Range**: A12:Q26
+- **Description & Purpose**: Tracks the headcount of quota-carrying sales representatives and related metrics.
+- **Cell Range**: A12:FS26
 - **Layout Structure**:
-    - **Row Headers Location**: Column B
-    - **Column Headers Location**: Row 7
+    - **Row Headers Location**: B12:B26
+    - **Column Headers Location**: E7:Q8 (Year), T7:FS8 (Month)
     - **Data Range**:
-      - Annual data: `E14:Q19`
-      - Monthly data: `T15:FS15`, `T22:FS22`
+      - Annual data: E14:Q26
+      - Monthly data: T15:FS26
 - **Time Series Details**:
-    - Annual: 2015 to 2027
-    - Monthly: 2015-01-31 to 2027-12-31
-    - **Frequency**: Annual, Monthly
-- **Key Components**: Total Headcount, Headcount Added in Period, Headcount Removed in Period, Base - $25mm, Growth - $25mm, Base - $50mm, Base - $50mm (R&D)
-- **Notes & Customizations**: Headcount is tracked for different revenue tiers.
+    - Annual: 2015 to 2027 (E7:Q7)
+    - Monthly: 2015-01-31 to 2027-12-31 (T9:FS9). Anchor points: T9=2015-01-31, AF9=2016-01-31, AR9=2017-01-31, BD9=2018-01-31, BP9=2019-01-31, CB9=2020-01-31, CN9=2021-01-31, CZ9=2022-01-31, DL9=2023-01-31, DX9=2024-01-31, EJ9=2025-01-31, EV9=2026-01-31, FH9=2027-01-31
+    - Frequency: Annual, Monthly
+- **Key Components**: Total Headcount, Base - $25mm, Growth - $25mm, Base - $50mm, Base - $50mm (R&D)
+- **Notes & Customizations**: Includes headcount added and removed in the period.
 
 ### Account Manager Headcount
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: Tracks the headcount of Account Managers and their associated compensation.
-- **Cell Range**: A15:FS26
+- **Description & Purpose**: Tracks the headcount of Account Managers and related metrics.
+- **Cell Range**: A158:FS175
 - **Layout Structure**:
-    - **Row Headers Location**: Column B
-    - **Column Headers Location**: Row 7
+    - **Row Headers Location**: B158:B175
+    - **Column Headers Location**: E7:Q8 (Year), T7:FS8 (Month)
     - **Data Range**:
-      - Annual data: `E15:Q19`, `E22:Q26`
-      - Monthly data: `T15:FS15`, `T22:FS22`
+      - Annual data: E164:Q175
+      - Monthly data: T164:FS175
 - **Time Series Details**:
-    - Annual: 2015 to 2027
-    - Monthly: 2015-01-31 to 2027-12-31
-    - **Frequency**: Annual, Monthly
-- **Key Components**: Account Manager Headcount Added in Period, Account Manager Headcount Removed in Period, Base - $25mm, Growth - $25mm, Base - $50mm, Base - $50mm (R&D)
-- **Notes & Customizations**: Headcount is tracked for different revenue tiers.
+    - Annual: 2015 to 2027 (E7:Q7)
+    - Monthly: 2015-01-31 to 2027-12-31 (T9:FS9). Anchor points: T9=2015-01-31, AF9=2016-01-31, AR9=2017-01-31, BD9=2018-01-31, BP9=2019-01-31, CB9=2020-01-31, CN9=2021-01-31, CZ9=2022-01-31, DL9=2023-01-31, DX9=2024-01-31, EJ9=2025-01-31, EV9=2026-01-31, FH9=2027-01-31
+    - Frequency: Annual, Monthly
+- **Key Components**: Account Manager, Annual Increase, Base - $25mm, Growth - $25mm, Base - $50mm, Base - $50mm (R&D)
+- **Notes & Customizations**: Includes salary and sales bonus information.
 
 ### AE - Financial Headcount
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: Tracks the headcount of AE - Financial and their associated compensation.
-- **Cell Range**: A30:FS46
+- **Description & Purpose**: Tracks the headcount of AE - Financial and related metrics.
+- **Cell Range**: A30:FS68
 - **Layout Structure**:
-    - **Row Headers Location**: Column B
-    - **Column Headers Location**: Row 7
+    - **Row Headers Location**: B30:B68
+    - **Column Headers Location**: E7:Q8 (Year), T7:FS8 (Month)
     - **Data Range**:
-      - Annual data: `E30:Q34`, `E36:Q40`, `E42:Q46`
-      - Monthly data: `T30:FS30`, `T36:FS36`, `T42:FS42`
+      - Annual data: E30:Q68
+      - Monthly data: T30:FS68
 - **Time Series Details**:
-    - Annual: 2015 to 2027
-    - Monthly: 2015-01-31 to 2027-12-31
-    - **Frequency**: Annual, Monthly
-- **Key Components**: AE - Financial Headcount Added in Period - Active, AE - Financial Headcount Added in Period - Base, AE - Financial Headcount Added in Period - Target, Base - $25mm, Growth - $25mm, Base - $50mm, Base - $50mm (R&D)
-- **Notes & Customizations**: Headcount is tracked for different revenue tiers.
+    - Annual: 2015 to 2027 (E7:Q7)
+    - Monthly: 2015-01-31 to 2027-12-31 (T9:FS9). Anchor points: T9=2015-01-31, AF9=2016-01-31, AR9=2017-01-31, BD9=2018-01-31, BP9=2019-01-31, CB9=2020-01-31, CN9=2021-01-31, CZ9=2022-01-31, DL9=2023-01-31, DX9=2024-01-31, EJ9=2025-01-31, EV9=2026-01-31, FH9=2027-01-31
+    - Frequency: Annual, Monthly
+- **Key Components**: AE - Financial, Base - $25mm, Growth - $25mm, Base - $50mm, Base - $50mm (R&D), % of Total Headcount
+- **Notes & Customizations**: Includes headcount added and removed in the period, broken down by base, target, and upside.
 
 ### AE - Corporate Headcount
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: Tracks the headcount of AE - Corporate and their associated compensation.
-- **Cell Range**: A72:FS88
+- **Description & Purpose**: Tracks the headcount of AE - Corporate and related metrics.
+- **Cell Range**: A72:FS110
 - **Layout Structure**:
-    - **Row Headers Location**: Column B
-    - **Column Headers Location**: Row 7
+    - **Row Headers Location**: B72:B110
+    - **Column Headers Location**: E7:Q8 (Year), T7:FS8 (Month)
     - **Data Range**:
-      - Annual data: `E72:Q76`, `E78:Q82`, `E84:Q88`
-      - Monthly data: `T72:FS72`, `T78:FS78`, `T84:FS84`
+      - Annual data: E72:Q110
+      - Monthly data: T72:FS110
 - **Time Series Details**:
-    - Annual: 2015 to 2027
-    - Monthly: 2015-01-31 to 2027-12-31
-    - **Frequency**: Annual, Monthly
-- **Key Components**: AE - Corporate Headcount Added in Period - Active, AE - Corporate Headcount Added in Period - Base, AE - Corporate Headcount Added in Period - Target, Base - $25mm, Growth - $25mm, Base - $50mm, Base - $50mm (R&D)
-- **Notes & Customizations**: Headcount is tracked for different revenue tiers.
+    - Annual: 2015 to 2027 (E7:Q7)
+    - Monthly: 2015-01-31 to 2027-12-31 (T9:FS9). Anchor points: T9=2015-01-31, AF9=2016-01-31, AR9=2017-01-31, BD9=2018-01-31, BP9=2019-01-31, CB9=2020-01-31, CN9=2021-01-31, CZ9=2022-01-31, DL9=2023-01-31, DX9=2024-01-31, EJ9=2025-01-31, EV9=2026-01-31, FH9=2027-01-31
+    - Frequency: Annual, Monthly
+- **Key Components**: AE - Corporate, Base - $25mm, Growth - $25mm, Base - $50mm, Base - $50mm (R&D), % of Total Headcount
+- **Notes & Customizations**: Includes headcount added and removed in the period, broken down by base, target, and upside.
 
 ### VP - Bus Dev Headcount
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: Tracks the headcount of VP - Bus Dev and their associated compensation.
+- **Description & Purpose**: Tracks the headcount of VP - Bus Dev and related metrics.
 - **Cell Range**: A114:FS125
 - **Layout Structure**:
-    - **Row Headers Location**: Column B
-    - **Column Headers Location**: Row 7
+    - **Row Headers Location**: B114:B125
+    - **Column Headers Location**: E7:Q8 (Year), T7:FS8 (Month)
     - **Data Range**:
-      - Annual data: `E114:Q118`, `E121:Q125`
-      - Monthly data: `T114:FS114`, `T121:FS121`
+      - Annual data: E114:Q125
+      - Monthly data: T114:FS125
 - **Time Series Details**:
-    - Annual: 2015 to 2027
-    - Monthly: 2015-01-31 to 2027-12-31
-    - **Frequency**: Annual, Monthly
-- **Key Components**: VP - Bus Dev Headcount Added in Period, VP - Bus Dev Headcount Removed in Period, Base - $25mm, Growth - $25mm, Base - $50mm, Base - $50mm (R&D)
-- **Notes & Customizations**: Headcount is tracked for different revenue tiers.
+    - Annual: 2015 to 2027 (E7:Q7)
+    - Monthly: 2015-01-31 to 2027-12-31 (T9:FS9). Anchor points: T9=2015-01-31, AF9=2016-01-31, AR9=2017-01-31, BD9=2018-01-31, BP9=2019-01-31, CB9=2020-01-31, CN9=2021-01-31, CZ9=2022-01-31, DL9=2023-01-31, DX9=2024-01-31, EJ9=2025-01-31, EV9=2026-01-31, FH9=2027-01-31
+    - Frequency: Annual, Monthly
+- **Key Components**: VP - Bus Dev, Base - $25mm, Growth - $25mm, Base - $50mm, Base - $50mm (R&D), % of Total Headcount
+- **Notes & Customizations**: Includes headcount added and removed in the period.
 
 ### AE - Enterprise Headcount
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: Tracks the headcount of AE - Enterprise and their associated compensation.
-- **Cell Range**: A129:Q140
+- **Description & Purpose**: Tracks the headcount of AE - Enterprise and related metrics.
+- **Cell Range**: A129:FS140
 - **Layout Structure**:
-    - **Row Headers Location**: Column B
-    - **Column Headers Location**: Row 7
+    - **Row Headers Location**: B129:B140
+    - **Column Headers Location**: E7:Q8 (Year), T7:FS8 (Month)
     - **Data Range**:
-      - Annual data: `E129:Q133`, `E136:Q140`
-      - Monthly data: `T129:FS129`, `T136:FS136`
+      - Annual data: E129:Q140
+      - Monthly data: T129:FS140
 - **Time Series Details**:
-    - Annual: 2015 to 2027
-    - Monthly: 2015-01-31 to 2027-12-31
-    - **Frequency**: Annual, Monthly
-- **Key Components**: AE - Enterprise Headcount Added in Period, AE - Enterprise Headcount Removed in Period, Base - $25mm, Growth - $25mm, Base - $50mm, Base - $50mm (R&D)
-- **Notes & Customizations**: Headcount is tracked for different revenue tiers.
+    - Annual: 2015 to 2027 (E7:Q7)
+    - Monthly: 2015-01-31 to 2027-12-31 (T9:FS9). Anchor points: T9=2015-01-31, AF9=2016-01-31, AR9=2017-01-31, BD9=2018-01-31, BP9=2019-01-31, CB9=2020-01-31, CN9=2021-01-31, CZ9=2022-01-31, DL9=2023-01-31, DX9=2024-01-31, EJ9=2025-01-31, EV9=2026-01-31, FH9=2027-01-31
+    - Frequency: Annual, Monthly
+- **Key Components**: AE - Enterprise, Base - $25mm, Growth - $25mm, Base - $50mm, Base - $50mm (R&D), % of Total Headcount
+- **Notes & Customizations**: Includes headcount added and removed in the period.
 
 ### AE - Other Headcount
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: Tracks the headcount of AE - Other and their associated compensation.
-- **Cell Range**: A144:Q155
+- **Description & Purpose**: Tracks the headcount of AE - Other and related metrics.
+- **Cell Range**: A144:FS155
 - **Layout Structure**:
-    - **Row Headers Location**: Column B
-    - **Column Headers Location**: Row 7
+    - **Row Headers Location**: B144:B155
+    - **Column Headers Location**: E7:Q8 (Year), T7:FS8 (Month)
     - **Data Range**:
-      - Annual data: `E144:Q148`, `E151:Q155`
-      - Monthly data: `T144:FS144`, `T151:FS151`
+      - Annual data: E144:Q155
+      - Monthly data: T144:FS155
 - **Time Series Details**:
-    - Annual: 2015 to 2027
-    - Monthly: 2015-01-31 to 2027-12-31
-    - **Frequency**: Annual, Monthly
+    - Annual: 2015 to 2027 (E7:Q7)
+    - Monthly: 2015-01-31 to 2027-12-31 (T9:FS9). Anchor points: T9=2015-01-31, AF9=2016-01-31, AR9=2017-01-31, BD9=2018-01-31, BP9=2019-01-31, CB9=2020-01-31, CN9=2021-01-31, CZ9=2022-01-31, DL9=2023-01-31, DX9=2024-01-31, EJ9=2025-01-31, EV9=2026-01-31, FH9=2027-01-31
+    - Frequency: Annual, Monthly
 - **Key Components**: AE Other - Headcount Added in Period, AE Other - Headcount Removed in Period, Base - $25mm, Growth - $25mm, Base - $50mm, Base - $50mm (R&D)
-- **Notes & Customizations**: Headcount is tracked for different revenue tiers.
+- **Notes & Customizations**: Includes headcount added and removed in the period.
 
 ### Other Sales - Headcount
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: Tracks the headcount of Other Sales roles and their associated compensation.
-- **Cell Range**: A263:Q272
+- **Description & Purpose**: Tracks the headcount of CRO and related metrics.
+- **Cell Range**: A263:FS272
 - **Layout Structure**:
-    - **Row Headers Location**: Column B
-    - **Column Headers Location**: Row 7
+    - **Row Headers Location**: B263:B272
+    - **Column Headers Location**: E7:Q8 (Year), T7:FS8 (Month)
     - **Data Range**:
-      - Annual data: `E267:Q272`
-      - Monthly data: `T268:FS268`
+      - Annual data: E267:Q272
+      - Monthly data: T268:FS268
 - **Time Series Details**:
-    - Annual: 2015 to 2027
-    - Monthly: 2015-01-31 to 2027-12-31
-    - **Frequency**: Annual, Monthly
-- **Key Components**: CRO - Added in Period, Base - $25mm, Growth - $25mm, Base - $50mm, Base - $50mm (R&D)
-- **Notes & Customizations**: Headcount is tracked for different revenue tiers.
-
-### Ratios and Metrics
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: Calculates various ratios and metrics related to sales team performance and efficiency.
-- **Cell Range**: A274:FS322
-- **Layout Structure**:
-    - **Row Headers Location**: Column B
-    - **Column Headers Location**: Row 7
-    - **Data Range**:
-      - Annual data: `E274:Q274`, `E280:Q280`, `E286:Q286`, `E292:Q292`, `E299:Q299`, `E305:Q305`, `E311:Q311`, `E318:Q318`
-      - Monthly data: `T274:FS274`, `T280:FS280`, `T286:CA286`, `CB286:FS286`, `T292:FS292`, `T299:FS299`, `T305:FS305`, `T311:FS311`, `T318:FS318`
-- **Time Series Details**:
-    - Annual: 2015 to 2027
-    - Monthly: 2015-01-31 to 2027-12-31
-    - **Frequency**: Annual, Monthly
-- **Key Components**: Sales Manager - Reps per Manager, SDR Manager - SDR per Manager, SDRs - AE per SDR, SDRs - SDR per Manager, Account Manager - Corp - Corporate ARR per Manager, Account Manager - Fin - Financial ARR per Manager, Product Specialist per Manager, PSs - PS per AE
-- **Notes & Customizations**: Includes metrics for ARR per manager and AE per SDR.
-
-### Old Assumptions (To Be Deleted)
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: Contains old assumptions that are marked for deletion.
-- **Cell Range**: A335:BW350
-- **Layout Structure**:
-    - **Row Headers Location**: Column B
-    - **Column Headers Location**: Row 7
-    - **Data Range**:
-      - Annual data: `E339:H339`
-      - Monthly data: `T339:BW339`
-- **Time Series Details**:
-    - Annual: 2015 to 2018
-    - Monthly: 2015-01-31 to 2018-12-31
-    - **Frequency**: Annual, Monthly
-- **Key Components**: Manager - Corporate - Added in Period (2018 Driver), Manager - Corporate - AE Corp per Manager Corporate (2019 and Beyond Annual Driver)
-- **Notes & Customizations**: This section is marked for deletion.
+    - Annual: 2015 to 2027 (E7:Q7)
+    - Monthly: 2015-01-31 to 2027-12-31 (T9:FS9). Anchor points: T9=2015-01-31, AF9=2016-01-31, AR9=2017-01-31, BD9=2018-01-31, BP9=2019-01-31, CB9=2020-01-31, CN9=2021-01-31, CZ9=2022-01-31, DL9=2023-01-31, DX9=2024-01-31, EJ9=2025-01-31, EV9=2026-01-31, FH9=2027-01-31
+    - Frequency: Annual, Monthly
+- **Key Components**: CRO, Base - $25mm, Growth - $25mm, Base - $50mm, Base - $50mm (R&D)
+- **Notes & Customizations**: Includes headcount added in the period.
 
 ### Other Sales - Salary
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: Tracks the salary of Other Sales roles.
-- **Cell Range**: A477:FS575
+- **Description & Purpose**: Tracks the salary of CRO and related metrics.
+- **Cell Range**: A477:FS484
 - **Layout Structure**:
-    - **Row Headers Location**: Column B
-    - **Column Headers Location**: Row 7
+    - **Row Headers Location**: B477:B484
+    - **Column Headers Location**: E7:Q8 (Year), T7:FS8 (Month)
     - **Data Range**:
-      - Annual data: `E480:Q480`, `E487:Q487`, `E494:Q494`, `E501:Q501`, `T508:FS508`, `E515:Q515`, `E522:Q522`, `E529:Q529`, `E536:Q536`, `E543:Q543`, `E550:Q550`, `E557:Q557`, `E564:Q564`
-      - Monthly data: `T480:FS480`, `T487:FS487`, `T494:FS494`, `T501:FS501`, `T508:FS508`, `T515:FS515`, `T522:FS522`, `T529:FS529`, `T536:FS536`, `T543:FS543`, `T550:FS550`, `T557:FS557`, `T564:FS564`, `T571:FS571`
+      - Annual data: E480:Q484
+      - Monthly data: T480:FS480
 - **Time Series Details**:
-    - Annual: 2015 to 2027
-    - Monthly: 2015-01-31 to 2027-12-31
-    - **Frequency**: Annual, Monthly
-- **Key Components**: CRO, Sales Manager, SDR Manager, SDR, CS Manager, Account Manager - Corporate, Account Manager - Financial, Product Specialist - Mgr, Product Specialist, Enablement Manager, Sales - Admin, Sales Operations Manager, Sales Operations, GTM Strategy
-- **Notes & Customizations**: Includes salary for various sales roles.
+    - Annual: 2015 to 2027 (E7:Q7)
+    - Monthly: 2015-01-31 to 2027-12-31 (T9:FS9). Anchor points: T9=2015-01-31, AF9=2016-01-31, AR9=2017-01-31, BD9=2018-01-31, BP9=2019-01-31, CB9=2020-01-31, CN9=2021-01-31, CZ9=2022-01-31, DL9=2023-01-31, DX9=2024-01-31, EJ9=2025-01-31, EV9=2026-01-31, FH9=2027-01-31
+    - Frequency: Annual, Monthly
+- **Key Components**: CRO, Base - $25mm, Growth - $25mm, Base - $50mm, Base - $50mm (R&D)
+- **Notes & Customizations**: Includes annual increase.
+
+### Old Assumptions (To Be Deleted)
+- **Section Type**: Key Metrics Table
+- **Description & Purpose**: Tracks the assumptions for Manager - Corporate and related metrics.
+- **Cell Range**: A335:BW350
+- **Layout Structure**:
+    - **Row Headers Location**: B335:B350
+    - **Column Headers Location**: E7:Q8 (Year), T7:FS8 (Month)
+    - **Data Range**:
+      - Annual data: E339:H350
+      - Monthly data: T339:BW350
+- **Time Series Details**:
+    - Annual: 2015 to 2018 (E7:H7)
+    - Monthly: 2015-01-31 to 2019-12-31 (T9:BW9).
+    - Frequency: Annual, Monthly
+- **Key Components**: Manager - Corporate, Manager - Corporate - Added in Period (2018 Driver), Manager - Corporate - AE Corp per Manager Corporate (2019 and Beyond Annual Driver)
+- **Notes & Customizations**: Includes assumptions for 2018 and beyond.
+
+### Product Specialist Headcount
+- **Section Type**: Key Metrics Table
+- **Description & Purpose**: Tracks the headcount of Product Specialist and related metrics.
+- **Cell Range**: A353:FS367
+- **Layout Structure**:
+    - **Row Headers Location**: B353:B367
+    - **Column Headers Location**: E7:Q8 (Year), T7:FS8 (Month)
+    - **Data Range**:
+      - Annual data: E355:Q367
+      - Monthly data: T355:FS367
+- **Time Series Details**:
+    - Annual: 2015 to 2027 (E7:Q7)
+    - Monthly: 2015-01-31 to 2027-12-31 (T9:FS9). Anchor points: T9=2015-01-31, AF9=2016-01-31, AR9=2017-01-31, BD9=2018-01-31, BP9=2019-01-31, CB9=2020-01-31, CN9=2021-01-31, CZ9=2022-01-31, DL9=2023-01-31, DX9=2024-01-31, EJ9=2025-01-31, EV9=2026-01-31, FH9=2027-01-31
+    - Frequency: Annual, Monthly
+- **Key Components**: Product Specialist, AE per Product Specialist (2019 and Beyond Annual Driver)
+- **Notes & Customizations**: Includes Product Specialist Added (2018 Driver).
+
+### Product Specialist Manager Headcount
+- **Section Type**: Key Metrics Table
+- **Description & Purpose**: Tracks the headcount of Product Specialist Manager and related metrics.
+- **Cell Range**: A370:FS384
+- **Layout Structure**:
+    - **Row Headers Location**: B370:B384
+    - **Column Headers Location**: E7:Q8 (Year), T7:FS8 (Month)
+    - **Data Range**:
+      - Annual data: E372:Q384
+      - Monthly data: T372:FS384
+- **Time Series Details**:
+    - Annual: 2015 to 2027 (E7:Q7)
+    - Monthly: 2015-01-31 to 2027-12-31 (T9:FS9). Anchor points: T9=2015-01-31, AF9=2016-01-31, AR9=2017-01-31, BD9=2018-01-31, BP9=2019-01-31, CB9=2020-01-31, CN9=2021-01-31, CZ9=2022-01-31, DL9=2023-01-31, DX9=2024-01-31, EJ9=2025-01-31, EV9=2026-01-31, FH9=2027-01-31
+    - Frequency: Annual, Monthly
+- **Key Components**: Product Specialist - Mgr, Product Specialist per Product Specialist Manager (2019 and Beyond Annual Driver)
+- **Notes & Customizations**: Includes Product Specialist Manager Added (2018 Driver).
+
+### Sales - Admin Headcount
+- **Section Type**: Key Metrics Table
+- **Description & Purpose**: Tracks the headcount of Sales - Admin and related metrics.
+- **Cell Range**: A387:FS401
+- **Layout Structure**:
+    - **Row Headers Location**: B387:B401
+    - **Column Headers Location**: E7:Q8 (Year), T7:FS8 (Month)
+    - **Data Range**:
+      - Annual data: E389:Q401
+      - Monthly data: T389:FS401
+- **Time Series Details**:
+    - Annual: 2015 to 2027 (E7:Q7)
+    - Monthly: 2015-01-31 to 2027-12-31 (T9:FS9). Anchor points: T9=2015-01-31, AF9=2016-01-31, AR9=2017-01-31, BD9=2018-01-31, BP9=2019-01-31, CB9=2020-01-31, CN9=2021-01-31, CZ9=2022-01-31, DL9=2023-01-31, DX9=2024-01-31, EJ9=2025-01-31, EV9=2026-01-31, FH9=2027-01-31
+    - Frequency: Annual, Monthly
+- **Key Components**: Sales - Admin, AE per Sales Admin (2019 and Beyond Annual Driver)
+- **Notes & Customizations**: Includes Sales Admin Added (2018 Driver).
+
+### Sales Manager Headcount
+- **Section Type**: Key Metrics Table
+- **Description & Purpose**: Tracks the headcount of Sales Manager and related metrics.
+- **Cell Range**: A404:FS418
+- **Layout Structure**:
+    - **Row Headers Location**: B404:B418
+    - **Column Headers Location**: E7:Q8 (Year), T7:FS8 (Month)
+    - **Data Range**:
+      - Annual data: E406:Q418
+      - Monthly data: T406:FS418
+- **Time Series Details**:
+    - Annual: 2015 to 2027 (E7:Q7)
+    - Monthly: 2015-01-31 to 2027-12-31 (T9:FS9). Anchor points: T9=2015-01-31, AF9=2016-01-31, AR9=2017-01-31, BD9=2018-01-31, BP9=2019-01-31, CB9=2020-01-31, CN9=2021-01-31, CZ9=2022-01-31, DL9=2023-01-31, DX9=2024-01-31, EJ9=2025-01-31, EV9=2026-01-31, FH9=2027-01-31
+    - Frequency: Annual, Monthly
+- **Key Components**: Sales Manager, Quota'd Rep per Sales Manager (2019 and Beyond Annual Driver)
+- **Notes & Customizations**: Includes Sales Manager Added (2018 Driver).
+
+### Sales Operations Manager Headcount
+- **Section Type**: Key Metrics Table
+- **Description & Purpose**: Tracks the headcount of Sales Operations Manager and related metrics.
+- **Cell Range**: A421:FS435
+- **Layout Structure**:
+    - **Row Headers Location**: B421:B435
+    - **Column Headers Location**: E7:Q8 (Year), T7:FS8 (Month)
+    - **Data Range**:
+      - Annual data: E423:Q435
+      - Monthly data: T423:FS435
+- **Time Series Details**:
+    - Annual: 2015 to 2027 (E7:Q7)
+    - Monthly: 2015-01-31 to 2027-12-31 (T9:FS9). Anchor points: T9=2015-01-31, AF9=2016-01-31, AR9=2017-01-31, BD9=2018-01-31, BP9=2019-01-31, CB9=2020-01-31, CN9=2021-01-31, CZ9=2022-01-31, DL9=2023-01-31, DX9=2024-01-31, EJ9=2025-01-31, EV9=2026-01-31, FH9=2027-01-31
+    - Frequency: Annual, Monthly
+- **Key Components**: Sales Operations Manager, AE per Sales Operations Manager (2019 and Beyond Annual Driver)
+- **Notes & Customizations**: Includes Sales Operations Manager Added (2018 Driver).
+
+### Sales Recruiter Headcount
+- **Section Type**: Key Metrics Table
+- **Description & Purpose**: Tracks the headcount of Sales Recruiter and related metrics.
+- **Cell Range**: A438:FS445
+- **Layout Structure**:
+    - **Row Headers Location**: B438:B445
+    - **Column Headers Location**: E7:Q8 (Year), T7:FS8 (Month)
+    - **Data Range**:
+      - Annual data: E440:Q445
+      - Monthly data: T440:FS445
+- **Time Series Details**:
+    - Annual: 2015 to 2027 (E7:Q7)
+    - Monthly: 2015-01-31 to 2027-12-31 (T9:FS9). Anchor points: T9=2015-01-31, AF9=2016-01-31, AR9=2017-01-31, BD9=2018-01-31, BP9=2019-01-31, CB9=2020-01-31, CN9=2021-01-31, CZ9=2022-01-31, DL9=2023-01-31, DX9=2024-01-31, EJ9=2025-01-31, EV9=2026-01-31, FH9=2027-01-31
+    - Frequency: Annual, Monthly
+- **Key Components**: Sales Recruiter, Sales Recruiter Added
+- **Notes & Customizations**: Includes headcount added in the period.
+
+### SDR Headcount
+- **Section Type**: Key Metrics Table
+- **Description & Purpose**: Tracks the headcount of SDR and related metrics.
+- **Cell Range**: A448:FS474
+- **Layout Structure**:
+    - **Row Headers Location**: B448:B474
+    - **Column Headers Location**: E7:Q8 (Year), T7:FS8 (Month)
+    - **Data Range**:
+      - Annual data: E450:Q474
+      - Monthly data: T450:FS474
+- **Time Series Details**:
+    - Annual: 2015 to 2027 (E7:Q7)
+    - Monthly: 2015-01-31 to 2027-12-31 (T9:FS9). Anchor points: T9=2015-01-31, AF9=2016-01-31, AR9=2017-01-31, BD9=2018-01-31, BP9=2019-01-31, CB9=2020-01-31, CN9=2021-01-31, CZ9=2022-01-31, DL9=2023-01-31, DX9=2024-01-31, EJ9=2025-01-31, EV9=2026-01-31, FH9=2027-01-31
+    - Frequency: Annual, Monthly
+- **Key Components**: SDR, AE per SDR (2019 and Beyond Annual Driver) - Active, Base, Upside
+- **Notes & Customizations**: Includes SDR Added (2018 Driver).
 ```

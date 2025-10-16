@@ -1,4 +1,3 @@
-```markdown
 ## 1. Spreadsheet Overview
 - **Sheet Name**: Sales Reps
 - **Key Sections Identified**:
@@ -17,202 +16,184 @@
 
 ### Header
 - **Section Type**: Header
-- **Description & Purpose**: Contains the title of the spreadsheet and other identifying information.
+- **Description & Purpose**: Contains the company name and report title.
 - **Cell Range**: B2:FS4
 - **Layout Structure**:
     - **Row Headers Location**: None
-    - **Column Headers Location**: E3:FS3
+    - **Column Headers Location**: E3:H3, I3:Q3, T3:FS3
     - **Data Range**: E3:H3, I3:Q3, T3:FS3
 - **Time Series Details**:
-    - Annual: E3 to Q3
-        - Date Range: Not specified, but likely represents years.
-        - Frequency: Annual
-    - Monthly: T3 to FS3
-        - Date Range: 2015-01-31 to 2027-12-31
-        - Frequency: Monthly
+    - Monthly: 2015-01-31 to 2027-12-31 (T3:FS3). Anchor points: T3=2015-01-31, AF3=2016-01-31, AR3=2017-01-31, BD3=2018-01-31, BP3=2019-01-31, CB3=2020-01-31, CN3=2021-01-31, CZ3=2022-01-31, DL3=2023-01-31, DX3=2024-01-31, EJ3=2025-01-31, EV3=2026-01-31, FH3=2027-01-31
+    - Frequency: Monthly
 - **Key Components**: AlphaSense, Inc., Sales Reps Detail, 1 - Base - $25mm
-- **Notes & Customizations**: Contains both annual and monthly time series.
+- **Notes & Customizations**: Contains the company name, report title, and a scenario description.
 
 ### Quota Sales Rep Summary
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: Provides a summary of quota'd sales rep headcount and related metrics.
+- **Description & Purpose**: Summarizes the quota'd sales rep headcount.
 - **Cell Range**: B6:FS24
 - **Layout Structure**:
-    - **Row Headers Location**: B8, B9, B10, B11, B12, B13, B14, B15, B17, B18, B19, B20, B21, B22, B23, B24
+    - **Row Headers Location**: B6:B24
     - **Column Headers Location**: E3:Q3, T3:FS3
     - **Data Range**:
       - Annual data: E9:Q24
       - Monthly data: T9:FS24
 - **Time Series Details**:
-    - Annual: E3 to Q3
-        - Date Range: Not specified, but likely represents years.
-        - Frequency: Annual
-    - Monthly: T3 to FS3
-        - Date Range: 2015-01-31 to 2027-12-31
-        - Frequency: Monthly
-- **Key Components**: Quota Sales Rep Headcount, AM - Financial, AE - Financial, AE - Corporate, VP - Partnerships, AE - Enterprise, AE - Other, Total Quota Sales Rep Headcount, Average Effective Quota Headcount, Total Average Effective Quota Headcount
-- **Notes & Customizations**: Contains both annual and monthly time series.
+    - Annual: 2015 to 2027 (E3:Q3)
+    - Monthly: 2015-01-31 to 2027-12-31 (T3:FS3). Anchor points: T3=2015-01-31, AF3=2016-01-31, AR3=2017-01-31, BD3=2018-01-31, BP3=2019-01-31, CB3=2020-01-31, CN3=2021-01-31, CZ3=2022-01-31, DL3=2023-01-31, DX3=2024-01-31, EJ3=2025-01-31, EV3=2026-01-31, FH3=2027-01-31
+    - Frequency: Annual, Monthly
+- **Key Components**: Quota Sales Rep Headcount, Total Quota Sales Rep Headcount, Average Effective Quota Headcount, AM - Financial, AE - Corporate, VP - Partnerships, AE - Enterprise, AE - Other, Total Average Effective Quota Headcount
+- **Notes & Customizations**: Includes both annual and monthly time series data.
 
 ### Non Quota'd Sales Team Summary
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: Provides a summary of non-quota'd sales team headcount and related metrics.
+- **Description & Purpose**: Summarizes the non-quota'd sales team headcount.
 - **Cell Range**: B26:FS42
 - **Layout Structure**:
-    - **Row Headers Location**: B27, B28, B29, B30, B31, B32, B33, B34, B35, B36, B37, B38, B39, B40, B41, B42
+    - **Row Headers Location**: B26:B42
     - **Column Headers Location**: E3:Q3, T3:FS3
     - **Data Range**:
       - Annual data: E27:Q42
       - Monthly data: T27:FS42
 - **Time Series Details**:
-    - Annual: E3 to Q3
-        - Date Range: Not specified, but likely represents years.
-        - Frequency: Annual
-    - Monthly: T3 to FS3
-        - Date Range: 2015-01-31 to 2027-12-31
-        - Frequency: Monthly
+    - Annual: 2015 to 2027 (E3:Q3)
+    - Monthly: 2015-01-31 to 2027-12-31 (T3:FS3). Anchor points: T3=2015-01-31, AF3=2016-01-31, AR3=2017-01-31, BD3=2018-01-31, BP3=2019-01-31, CB3=2020-01-31, CN3=2021-01-31, CZ3=2022-01-31, DL3=2023-01-31, DX3=2024-01-31, EJ3=2025-01-31, EV3=2026-01-31, FH3=2027-01-31
+    - Frequency: Annual, Monthly
 - **Key Components**: CRO, VP of Sales, Sales Manager, SDR Manager, SDR, CS Manager, AM - Corporate, AM - Financial, PS Manager, Product Specialist, Enablement Manager, Sales Admin, Sales Operations Manager, Sales Operations, GTM Strategy, Total Non Quota'd Sales Team
-- **Notes & Customizations**: Contains both annual and monthly time series.
+- **Notes & Customizations**: Includes both annual and monthly time series data.
 
 ### Quota Sales Rep Detail
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: Provides a detailed breakdown of quota'd sales rep metrics, including ramp and attrition.
-- **Cell Range**: B44:FS190
+- **Description & Purpose**: Provides detailed information on quota'd sales reps, including ramp, efficiency, and attrition.
+- **Cell Range**: A44:FS190
 - **Layout Structure**:
-    - **Row Headers Location**: B47, B49, B50, B51, B52, B54, B55, B56, B57, B58, B59, B60, B61, B62, B63, B64, B66, B67, B68, B71, B73, B74, B75, B76, B78, B79, B80, B81, B82, B83, B84, B85, B86, B87, B88, B89, B91, B92, B93, B96, B98, B99, B100, B101, B103, B104, B105, B106, B107, B108, B109, B110, B111, B112, B113, B114, B116, B117, B118, B121, B123, B124, B125, B126, B128, B129, B130, B131, B132, B133, B134, B135, B136, B137, B138, B140, B141, B142, B145, B147, B148, B149, B150, B152, B153, B154, B155, B156, B157, B158, B159, B160, B161, B162, B164, B165, B166, B169, B171, B172, B173, B174, B176, B177, B178, B179, B180, B181, B182, B183, B184, B185, B186, B188, B189, B190
-    - **Column Headers Location**: E3:Q3, T3:FS3, C54:D54
+    - **Row Headers Location**: B44:B190
+    - **Column Headers Location**: E3:Q3, T3:FS3
     - **Data Range**:
-      - Annual data: E49:Q190
-      - Monthly data: T49:FS190
-      - Ramp/Efficiency data: C55:D185
+      - Annual data: E49:Q68, E73:Q93, E98:Q118, E123:Q142, E147:Q166, E171:Q190
+      - Monthly data: T49:FS68, T73:FS93, T98:FS118, T123:FS142, T147:FS166, T171:FS190
 - **Time Series Details**:
-    - Annual: E3 to Q3
-        - Date Range: Not specified, but likely represents years.
-        - Frequency: Annual
-    - Monthly: T3 to FS3
-        - Date Range: 2015-01-31 to 2027-12-31
-        - Frequency: Monthly
+    - Annual: 2015 to 2027 (E3:Q3)
+    - Monthly: 2015-01-31 to 2027-12-31 (T3:FS3). Anchor points: T3=2015-01-31, AF3=2016-01-31, AR3=2017-01-31, BD3=2018-01-31, BP3=2019-01-31, CB3=2020-01-31, CN3=2021-01-31, CZ3=2022-01-31, DL3=2023-01-31, DX3=2024-01-31, EJ3=2025-01-31, EV3=2026-01-31, FH3=2027-01-31
+    - Frequency: Annual, Monthly
 - **Key Components**: Beginning of Period, Added, Removed, End of Period, Ramp, Efficiency, Month 1, Month 2, Month 3, Month 4, Month 5, Month 6, Month 7, Month 8, Month 9, Month 10, Attrition, Effective Start, Add, Effective End, VP - Bus Dev
-- **Notes & Customizations**: Contains both annual and monthly time series.
+- **Notes & Customizations**: Includes both annual and monthly time series data. Contains ramp-up and attrition metrics.
 
 ### Other Sales Detail
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: Provides a detailed breakdown of other sales team metrics.
-- **Cell Range**: B192:FS325
+- **Description & Purpose**: Provides detailed information on other sales roles, including sales team size and required managers.
+- **Cell Range**: A192:FS325
 - **Layout Structure**:
-    - **Row Headers Location**: B194, B196, B198, B199, B200, B202, B204, B205, B206, B207, B208, B209, B210, B211, B213, B215, B216, B217, B218, B219, B220, B222, B224, B225, B226, B227, B228, B229, B231, B233, B234, B235, B236, B237, B238, B240, B242, B244, B245, B246, B247, B248, B249, B251, B253, B254, B255, B256, B257, B258, B260, B262, B263, B264, B265, B266, B267, B268, B269, B271, B273, B274, B275, B276, B277, B278, B281, B283, B284, B285, B286, B287, B288, B290, B292, B294, B295, B296, B299, B301, B302, B303, B306, B308, B309, B310, B313, B315, B316, B317, B319, B321, B323, B324, B325
+    - **Row Headers Location**: B194:B325
     - **Column Headers Location**: E3:Q3, T3:FS3
     - **Data Range**:
-      - Annual data: E198:Q325
-      - Monthly data: T198:FS325
+      - Annual data: E198:Q200, E204:Q206, E215:Q217, E224:Q226, E233:Q235, E244:Q246, E253:Q255, E262:Q264, E273:Q275, E283:Q285, E294:Q296, E301:Q303, E308:Q310, E315:Q317, E323:Q325
+      - Monthly data: U198:FS200, T204:FS206, U215:FS217, U224:FS226, U233:FS235, U244:FS246, U253:FS255, U262:FS264, U273:FS275, U283:FS285, U294:FS296, U301:FS303, U308:FS310, U315:FS317, U323:FS325
 - **Time Series Details**:
-    - Annual: E3 to Q3
-        - Date Range: Not specified, but likely represents years.
-        - Frequency: Annual
-    - Monthly: T3 to FS3
-        - Date Range: 2015-01-31 to 2027-12-31
-        - Frequency: Monthly
-- **Key Components**: Sales Team, CRO, VP of Sales, Sales Manager, Min. Required Sales Managers, SDR Manager, SDR, Customer Success, Customer Success Manager, Account Manager - Corporate, Account Manager - Financial, Product Specialist - Mgr, Operations, Enablement Manager, Sales - Admin, Sales Operations Manager, Sales Operations, Business Development, GTM Strategy
-- **Notes & Customizations**: Contains both annual and monthly time series.
+    - Annual: 2015 to 2027 (E3:Q3)
+    - Monthly: 2015-01-31 to 2027-12-31 (T3:FS3). Anchor points: T3=2015-01-31, AF3=2016-01-31, AR3=2017-01-31, BD3=2018-01-31, BP3=2019-01-31, CB3=2020-01-31, CN3=2021-01-31, CZ3=2022-01-31, DL3=2023-01-31, DX3=2024-01-31, EJ3=2025-01-31, EV3=2026-01-31, FH3=2027-01-31
+    - Frequency: Annual, Monthly
+- **Key Components**: Sales Team, CRO, VP of Sales, Reports per VP of Sales, AEs, Sales Managers, Reports, Min. Required Sales Managers, SDRs per SDR Manager, SDRs, Min. Required SDR Managers, AE per SDR, AE, Min. Required SDRs, Customer Success, Customer Success Manager, AM + PS Manager per CS Manager, Ams + PS Manager, Min. Required AMs, Account Manager - Corporate, Corporate ARR - End of Period, Corporate ARR per Account Manager - Corp, Min. Required Account Manager - Corp, Account Manager - Financial, Financial ARR - End of Period, Financial ARR per Account Manager - FS, Min Required Account Manager - FS, Quota Carrying AMs, Quota Carrying AMs Moved, Product Specialist per Product Specialist Manager, Product Specialist, Min. Required PS - Mgrs, Operations, Enablement Manager, Sales - Admin, Sales Operations Manager, Sales Operations, Business Development
+- **Notes & Customizations**: Includes both annual and monthly time series data. Contains ratios and minimum required headcount calculations.
 
 ### Total Sales Heads
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: Provides a summary of total sales heads, including added, removed, and end of period counts.
-- **Cell Range**: B328:FS333
+- **Description & Purpose**: Provides total sales headcount information.
+- **Cell Range**: A328:FS333
 - **Layout Structure**:
-    - **Row Headers Location**: B328, B330, B331, B332, B333
+    - **Row Headers Location**: B328:B333
     - **Column Headers Location**: E3:Q3, T3:FS3
     - **Data Range**:
       - Annual data: E330:Q333
       - Monthly data: T330:FS333
 - **Time Series Details**:
-    - Annual: E3 to Q3
-        - Date Range: Not specified, but likely represents years.
-        - Frequency: Annual
-    - Monthly: T3 to FS3
-        - Date Range: 2015-01-31 to 2027-12-31
-        - Frequency: Monthly
-- **Key Components**: Total Sales Heads, Beginning of Period, Added, Removed, End of Period
-- **Notes & Customizations**: Contains both annual and monthly time series.
+    - Annual: 2015 to 2027 (E3:Q3)
+    - Monthly: 2015-01-31 to 2027-12-31 (T3:FS3). Anchor points: T3=2015-01-31, AF3=2016-01-31, AR3=2017-01-31, BD3=2018-01-31, BP3=2019-01-31, CB3=2020-01-31, CN3=2021-01-31, CZ3=2022-01-31, DL3=2023-01-31, DX3=2024-01-31, EJ3=2025-01-31, EV3=2026-01-31, FH3=2027-01-31
+    - Frequency: Annual, Monthly
+- **Key Components**: Total Sales Heads
+- **Notes & Customizations**: Includes both annual and monthly time series data.
 
 ### Quota Rep - Salary Summary
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: Provides a summary of quota rep salaries by role.
+- **Description & Purpose**: Summarizes the salaries for quota'd sales reps.
 - **Cell Range**: B335:FS343
 - **Layout Structure**:
-    - **Row Headers Location**: B335, B337, B338, B339, B340, B341, B342, B343
+    - **Row Headers Location**: B335:B343
     - **Column Headers Location**: E3:Q3, T3:FS3
     - **Data Range**:
       - Annual data: E337:Q343
       - Monthly data: T337:FS343
 - **Time Series Details**:
-    - Annual: E3 to Q3
-        - Date Range: Not specified, but likely represents years.
-        - Frequency: Annual
-    - Monthly: T3 to FS3
-        - Date Range: 2015-01-31 to 2027-12-31
-        - Frequency: Monthly
-- **Key Components**: Quota Rep - Salary Summary, Account Manager, AE - Financial, AE - Corporate, VP - Bus Dev, AE - Enterprise, AE - Other, Total
-- **Notes & Customizations**: Contains both annual and monthly time series.
+    - Annual: 2015 to 2027 (E3:Q3)
+    - Monthly: 2015-01-31 to 2027-12-31 (T3:FS3). Anchor points: T3=2015-01-31, AF3=2016-01-31, AR3=2017-01-31, BD3=2018-01-31, BP3=2019-01-31, CB3=2020-01-31, CN3=2021-01-31, CZ3=2022-01-31, DL3=2023-01-31, DX3=2024-01-31, EJ3=2025-01-31, EV3=2026-01-31, FH3=2027-01-31
+    - Frequency: Annual, Monthly
+- **Key Components**: Quota Rep - Salary Summary, Account Manager, AE - Corporate, VP - Bus Dev, AE - Enterprise, AE - Other, Total
+- **Notes & Customizations**: Includes both annual and monthly time series data.
 
 ### Quota Rep - Bonus Summary
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: Provides a summary of quota rep bonuses by role.
+- **Description & Purpose**: Summarizes the bonus amounts for quota'd sales reps.
 - **Cell Range**: B345:FS353
 - **Layout Structure**:
-    - **Row Headers Location**: B345, B347, B348, B349, B350, B351, B352, B353
+    - **Row Headers Location**: B345:B353
     - **Column Headers Location**: I3:Q3, CB3:FS3
     - **Data Range**:
       - Annual data: I347:Q353
       - Monthly data: CB347:FS353
 - **Time Series Details**:
-    - Annual: I3 to Q3
-        - Date Range: Not specified, but likely represents years.
-        - Frequency: Annual
-    - Monthly: CB3 to FS3
-        - Date Range: 2015-01-31 to 2027-12-31
-        - Frequency: Monthly
-- **Key Components**: Quota Rep - Bonus Summary, Account Manager, AE - Financial, AE - Corporate, VP - Bus Dev, AE - Enterprise, AE - Other, Total
-- **Notes & Customizations**: Contains both annual and monthly time series.
+    - Annual: 2019 to 2027 (I3:Q3)
+    - Monthly: 2020-01-31 to 2027-12-31 (CB3:FS3). Anchor points: CB3=2020-01-31, CN3=2021-01-31, CZ3=2022-01-31, DL3=2023-01-31, DX3=2024-01-31, EJ3=2025-01-31, EV3=2026-01-31, FH3=2027-01-31
+    - Frequency: Annual, Monthly
+- **Key Components**: Quota Rep - Bonus Summary, Account Manager, AE - Corporate, VP - Bus Dev, AE - Enterprise, AE - Other, Total
+- **Notes & Customizations**: Includes both annual and monthly time series data.
 
 ### Quota Rep - Salary Detail
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: Provides detailed salary information for quota reps.
-- **Cell Range**: B355:FS415
+- **Description & Purpose**: Provides detailed salary information for quota'd sales reps.
+- **Cell Range**: A355:FS415
 - **Layout Structure**:
-    - **Row Headers Location**: B355, B358, B360, B361, B362, B364, B365, B368, B370, B371, B372, B374, B375, B376, B378, B380, B381, B382, B384, B385, B386, B388, B390, B391, B392, B394, B395, B398, B400, B401, B402, B404, B405, B408, B410, B411, B412, B414, B415
-    - **Column Headers Location**: E3:Q3, T3:FS3, I3:Q3, CB3:FS3
+    - **Row Headers Location**: B355:B415
+    - **Column Headers Location**: E3:Q3, T3:FS3
     - **Data Range**:
-      - Annual data: E360:Q415
-      - Monthly data: T360:FS415
-      - Bonus data: I364:Q415, CB364:FS415
+      - Annual data: E360:Q362, I364:Q365, E370:Q372, I374:Q375, E380:Q382, I384:Q385, E390:Q392, I394:Q395, E400:Q402, I404:Q405, E410:Q412, I414:Q415
+      - Monthly data: T360:FS362, CB364:FS365, T370:FS372, CB374:FS375, T380:FS382, CB384:FS385, T390:FS392, CB394:FS395, T400:FS402, CB404:FS405, T410:FS412, CB414:FS415
 - **Time Series Details**:
-    - Annual: E3 to Q3
-        - Date Range: Not specified, but likely represents years.
-        - Frequency: Annual
-    - Monthly: T3 to FS3
-        - Date Range: 2015-01-31 to 2027-12-31
-        - Frequency: Monthly
-- **Key Components**: Quota Rep - Salary Detail, Employees, Average Salary, Total Wages, Sales Bonus per Head, Total Sales Bonus, Account Manager, AE - Financial, AE - Corporate, VP - Bus Dev, AE - Enterprise, AE - Other
-- **Notes & Customizations**: Contains both annual and monthly time series.
+    - Annual: 2015 to 2027 (E3:Q3)
+    - Monthly: 2015-01-31 to 2027-12-31 (T3:FS3). Anchor points: T3=2015-01-31, AF3=2016-01-31, AR3=2017-01-31, BD3=2018-01-31, BP3=2019-01-31, CB3=2020-01-31, CN3=2021-01-31, CZ3=2022-01-31, DL3=2023-01-31, DX3=2024-01-31, EJ3=2025-01-31, EV3=2026-01-31, FH3=2027-01-31
+    - Frequency: Annual, Monthly
+- **Key Components**: Employees, Average Salary, Total Wages, Sales Bonus per Head, Total Sales Bonus, Account Manager, AE - Corporate, VP - Bus Dev, AE - Enterprise, AE - Other
+- **Notes & Customizations**: Includes both annual and monthly time series data.
 
 ### Other Sales - Salary Detail
 - **Section Type**: Key Metrics Table
 - **Description & Purpose**: Provides detailed salary information for other sales roles.
-- **Cell Range**: B418:FS524
+- **Cell Range**: A418:FS524
 - **Layout Structure**:
-    - **Row Headers Location**: B418, B420, B422, B424, B425, B426, B428, B430, B431, B432, B434, B436, B437, B438, B440, B442, B443, B444, B446, B448, B449, B450, B452, B454, B456, B457, B458, B461, B463, B464, B465, B467, B469, B470, B471, B473, B475, B476, B477, B479, B481, B482, B483, B485, B487, B489, B490, B491, B493, B495, B496, B497, B499, B501, B502, B503, B505, B507, B508, B509, B511, B513, B515, B516, B517, B520, B522, B523, B524
+    - **Row Headers Location**: B420:B524
     - **Column Headers Location**: J3:Q3, CJ3:FS3
     - **Data Range**:
       - Annual data: J424:Q524
       - Monthly data: CJ424:FS524
-      - Average Employees data: E425:Q524
 - **Time Series Details**:
-    - Annual: J3 to Q3
-        - Date Range: Not specified, but likely represents years.
-        - Frequency: Annual
-    - Monthly: CJ3 to FS3
-        - Date Range: 2015-01-31 to 2027-12-31
-        - Frequency: Monthly
-- **Key Components**: Other Sales - Salary Detail, Sales Team, Non Quota'd Sales Team Summary, Average Employees, Average Salary, Total Wages, CRO, VP of Sales, Sales Manager, SDR Manager, SDR, Customer Success Manager, Account Manager - Corporate, Account Manager - Financial, Product Specialist - Mgr, Operations, Enablement Manager, Sales - Admin, Sales Operations Manager, Sales Operations, Business Development, GTM Strategy, Total Sales Salary
-- **Notes & Customizations**: Contains both annual and monthly time series.
-```
+    - Annual: 2020 to 2027 (J3:Q3)
+    - Monthly: 2020-01-31 to 2027-12-31 (CJ3:FS3). Anchor points: CB3=2020-01-31, CN3=2021-01-31, CZ3=2022-01-31, DL3=2023-01-31, DX3=2024-01-31, EJ3=2025-01-31, EV3=2026-01-31, FH3=2027-01-31
+    - Frequency: Annual, Monthly
+- **Key Components**: Sales Team, CRO, VP of Sales, Sales Manager, SDR Manager, SDR, Customer Success, Customer Success Manager, Account Manager - Corporate, Account Manager - Financial, Product Specialist - Mgr, Product Specialist, Enablement Manager, Sales - Admin, Sales Operations Manager, Sales Operations, GTM Strategy, Total Sales Salary, Average Employees
+- **Notes & Customizations**: Includes both annual and monthly time series data.
+
+### Total Sales Salary
+- **Section Type**: Key Metrics Table
+- **Description & Purpose**: Provides total sales salary information.
+- **Cell Range**: A520:FS524
+- **Layout Structure**:
+    - **Row Headers Location**: B520:B524
+    - **Column Headers Location**: J3:Q3, CJ3:FS3
+    - **Data Range**:
+      - Annual data: J522:Q524
+      - Monthly data: CJ522:FS524
+- **Time Series Details**:
+    - Annual: 2020 to 2027 (J3:Q3)
+    - Monthly: 2020-01-31 to 2027-12-31 (CJ3:FS3). Anchor points: CB3=2020-01-31, CN3=2021-01-31, CZ3=2022-01-31, DL3=2023-01-31, DX3=2024-01-31, EJ3=2025-01-31, EV3=2026-01-31, FH3=2027-01-31
+    - Frequency: Annual, Monthly
+- **Key Components**: Total Sales Salary, Average Employees, Average Salary, Total Wages
+- **Notes & Customizations**: Includes both annual and monthly time series data.

@@ -1,56 +1,69 @@
-```markdown
 ## 1. Spreadsheet Overview
 - **Sheet Name**: TR BRM
 - **Key Sections Identified**:
-    - Tiered Pricing Data
-    - User Segmentation Data
-    - Financial Segmentation Data
+    - Tiered Pricing for Financials
+    - Tiered Pricing for Corporate
+    - Tiered Pricing for Other
+    - User Count Summary
 
 ## 2. Detailed Section Analysis
 
-### Tiered Pricing Data
+### Section Name: Tiered Pricing for Financials
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section shows pricing and usage data broken down by different tiers of users. It's used to track revenue and usage across different customer segments.
-- **Cell Range**: A2:AB9
+- **Description & Purpose**: This section shows the pricing and user mix for different tiers of Financial clients over a period of months. It allows for analysis of revenue based on client size and region.
+- **Cell Range**: A3:W9
 - **Layout Structure**:
-    - **Row Headers Location**: A3:A9, D3:D9
-    - **Column Headers Location**: D2:E2, F2:W2, AA2:AB2
+    - **Row Headers Location**: A3:D9
+    - **Column Headers Location**: E2:W2
     - **Data Range**:
-      - Monthly data: `F3:W9`
-      - Mix/AB data: `AA3:AB9`
+      - Monthly data: F3:W9
 - **Time Series Details**:
     - **Date Range**: Jan 17 to Jun 18
     - **Frequency**: Monthly
-- **Key Components**: Tier (Global Users (1-10), Global Users (11-50), Global Users (51+), Single Region 1-10, Single Region 11-25, Single Region 26-50, Single Region 50+), Pricing, Jan 17 - Jun 18, Mix, AB.
-- **Notes & Customizations**: Pricing data is scaled by 1000.
+- **Key Components**: Global Users (1-10), Global Users (11-50), Global Users (51+), Single Region 1-10, Single Region 11-25, Single Region 26-50, Single Region 50+
+- **Notes & Customizations**: Pricing is scaled by 1000.
 
-### User Segmentation Data
+### Section Name: Tiered Pricing for Corporate
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section provides aggregated user data segmented by global vs. single region users. It's used to understand the overall user base distribution.
-- **Cell Range**: D36:W37
+- **Description & Purpose**: This section shows the pricing and user mix for different tiers of Corporate clients over a period of months. It allows for analysis of revenue based on client size and region.
+- **Cell Range**: A10:W16
 - **Layout Structure**:
-    - **Row Headers Location**: D36:D37
+    - **Row Headers Location**: A10:D16
+    - **Column Headers Location**: E2:W2
+    - **Data Range**:
+      - Monthly data: F10:W16
+- **Time Series Details**:
+    - **Date Range**: Jan 17 to Jun 18
+    - **Frequency**: Monthly
+- **Key Components**: Global Users (1-10), Global Users (11-50), Global Users (51+), Single Region 1-10, Single Region 11-25, Single Region 26-50, Single Region 50+
+- **Notes & Customizations**: Pricing is scaled by 1000.
+
+### Section Name: Tiered Pricing for Other
+- **Section Type**: Key Metrics Table
+- **Description & Purpose**: This section shows the pricing and user mix for different tiers of Other clients over a period of months. It allows for analysis of revenue based on client size and region.
+- **Cell Range**: A17:W23
+- **Layout Structure**:
+    - **Row Headers Location**: A17:D23
+    - **Column Headers Location**: E2:W2
+    - **Data Range**:
+      - Monthly data: F17:W23
+- **Time Series Details**:
+    - **Date Range**: Jan 17 to Jun 18
+    - **Frequency**: Monthly
+- **Key Components**: Global Users (1-10), Global Users (11-50), Global Users (51+), Single Region 1-10, Single Region 11-25, Single Region 26-50, Single Region 50+
+- **Notes & Customizations**: Pricing is scaled by 1000.
+
+### Section Name: User Count Summary
+- **Section Type**: Key Metrics Table
+- **Description & Purpose**: This section summarizes the user counts for Global research users, Single region users, Financial, Corporate, and Other users over a period of months.
+- **Cell Range**: D36:W44
+- **Layout Structure**:
+    - **Row Headers Location**: D36:D44
     - **Column Headers Location**: F2:W2
     - **Data Range**:
-      - Monthly data: `F36:W37`
+      - Monthly data: F36:W44
 - **Time Series Details**:
     - **Date Range**: Jan 17 to Jun 18
     - **Frequency**: Monthly
-- **Key Components**: Global research users, Single region users.
-- **Notes & Customizations**: Data is scaled by 1000.
-
-### Financial Segmentation Data
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section shows financial data segmented by Financial, Corporate, and Other categories. It's used to track revenue and usage across different financial segments.
-- **Cell Range**: C3:W31
-- **Layout Structure**:
-    - **Row Headers Location**: C3:C30
-    - **Column Headers Location**: F2:W2
-    - **Data Range**:
-      - Monthly data: `F3:W31`
-- **Time Series Details**:
-    - **Date Range**: Jan 17 to Jun 18
-    - **Frequency**: Monthly
-- **Key Components**: Financial, Corporate, Other.
-- **Notes & Customizations**: Data is scaled by 1000.
-```
+- **Key Components**: Global research users, Single region users, Financial, Corporate, Other
+- **Notes & Customizations**: Pricing is scaled by 1000.

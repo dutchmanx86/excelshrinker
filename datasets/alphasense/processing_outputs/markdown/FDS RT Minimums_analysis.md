@@ -6,20 +6,24 @@
 
 ## 2. Detailed Section Analysis
 
-### Section Name (e.g., "User Tier Pricing Table")
+### Section Name (User Tier Pricing Table)
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section defines the pricing structure for different user tiers, including incremental users, fee per user, and minimum/maximum total fees. It's used to determine the cost based on the number of users.
+- **Description & Purpose**: This section defines the pricing structure for a product or service based on user tiers. It shows the incremental users, fee per user, total cost, maximum discount, and minimum/maximum total cost (annual and monthly) for each tier. This is used for sales and pricing calculations.
 - **Cell Range**: B2:J26
 - **Layout Structure**:
-    - **Row Headers Location**: Column B (User Tiers)
-    - **Column Headers Location**: Row 2 (User Tiers, Incremental Users, Fee Per User, Total, Max Discount, Min Total (Annual), Max Total, Min Total (Monthly))
+    - **Row Headers Location**: B2:B26
+    - **Column Headers Location**: B2:J2
     - **Data Range**:
-      - B3:B26 (User Tier)
-      - C3:C26 (Incremental Users)
-      - D3:E26 (Fee Per User and Total)
-      - G3:J26 (Max Discount, Min Total (Annual), Max Total, Min Total (Monthly))
+      - User Tiers: B3:B26
+      - Incremental Users: C3:C26
+      - Fee Per User: D3:D26
+      - Total: E3:E26
+      - Max Discount: G3:G26
+      - Min Total (Annual): H3:H26
+      - Max Total: I3:I26
+      - Min Total (Monthly): J3:J26
 - **Time Series Details**:
-    - No time series data is present in this section.
-- **Key Components**: User Tiers, Incremental Users, Fee Per User, Total, Max Discount, Min Total (Annual), Max Total, Min Total (Monthly)
-- **Notes & Customizations**: The fee per user is reset at each tier. All monetary values are scaled by 1000 (likely representing thousands of dollars).
+    - No time series data detected.
+- **Key Components**: User Tiers, Incremental Users, Fee Per User, Total, Max Discount, Min Total (Annual), Max Total, Min Total (Monthly).
+- **Notes & Customizations**: The pricing is structured in tiers, with the "Fee Per User" resetting at each tier. The values in ranges D3:E26 and G3:J26 are scaled by 1000.
 ```

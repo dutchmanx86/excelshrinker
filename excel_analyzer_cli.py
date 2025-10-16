@@ -1,10 +1,12 @@
 import os
 import google.generativeai as genai
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 # --- Configuration ---
-# For ease of use in this testing script, the API key is hardcoded.
-# In a production environment, use a secure method like environment variables.
-API_KEY = "AIzaSyBkVdzBlXlNqQRIpK0cUXBc8QVdwTYx2mM"
+API_KEY = os.getenv("GEMINI_API_KEY")
 MODEL_NAME = "gemini-2.5-pro"
 MARKDOWN_FILE = r"output\batch\MASTER_WORKBOOK_ANALYSIS.md"
 
