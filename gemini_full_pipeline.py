@@ -45,15 +45,15 @@ BASE_DIR = Path(__file__).parent
 SERVICE_ACCOUNT_FILE = BASE_DIR / "gemini_service_account.json"
 
 # Gemini prompt with label/data separation and multiple time series detection
-ANALYSIS_PROMPT = """You are an expert financial analyst tasked with creating a high-level summary of an Excel spreadsheet's structure. Your goal is to identify and describe the key logical data sections (e.g., "Income Statement," "Balance Sheet," "KPI Dashboard") without listing every single row or label. The output must be a structured markdown document that enables a future AI to quickly understand the sheet's layout and retrieve specific sections by cell range.
+ANALYSIS_PROMPT = """You are an expert financial analyst tasked with creating a high-level summary of an Excel spreadsheet's structure. Your goal is to identify and describe the key logical data sections (e.g., "Income Statement," "Balance Sheet," "KPI Dashboard") without listing every single row or label. The output must be a structured markdown document that enables retrieval of specific, relevant sections by cell range.
 
 # CORE OBJECTIVE
-Identify major financial or data sections, describe their purpose, and define their precise boundaries and time series context.
+Identify major financial or data sections within this Excel sheet, describe their purpose, and define their precise boundaries and time series context.
 
 # CRITICAL: MULTIPLE TIME SERIES DETECTION
 Many spreadsheets have MULTIPLE time series sections side-by-side:
-- **Annual columns** (e.g., columns showing years like 2015, 2016, 2017...)
-- **Monthly/Quarterly columns** (e.g., columns showing monthly dates like 2015-01-31, 2015-02-28... or quarters like Q1 2024, Q2 2024...)
+- **Annual labels** (e.g., rows or columns showing years like 2015, 2016, 2017...)
+- **Monthly/Quarterly labels** (e.g., rows or columns showing monthly dates like 2015-01-31, 2015-02-28... or quarters like Q1 2024, Q2 2024...)
 
 When analyzing time series:
 1. Look for MULTIPLE date header rows or columns with different frequencies
@@ -62,13 +62,10 @@ When analyzing time series:
 4. Report ALL time series horizons found, not just one
 
 # OUTPUT REQUIREMENTS
-Generate a markdown document with the following EXACT structure:
+Generate a markdown document with the following EXACT structure for each sheet:
 
-## 1. Spreadsheet Overview
-- **Sheet Name**: The name of the analyzed sheet.
-- **Key Sections Identified**: A bulleted list of the main sections you discovered (e.g., "Header," "Income Statement," "Cash Flow Projections").
+## 1. **Sheet Name**: The name of the analyzed sheet.
 
-## 2. Detailed Section Analysis
 For EACH logical section identified, create a subsection.
 
 ### Section Name (e.g., "Income Statement")
@@ -93,7 +90,6 @@ For EACH logical section identified, create a subsection.
 - **High-Level, Not Granular**: Focus on the forest, not the trees. Summarize sections, don't transcribe them.
 - **Precision is Key**: Cell ranges and date locations must be exact for future retrieval.
 - **Context Over Content**: Explain the *purpose* of a section, not just what's in it.
-- **Resolve References**: Use the actual string values from the `inverted_index` section of the JSON, not `{"$ref": ...}` placeholders.
 - **Multiple Time Series**: If you see evidence of multiple date columns with different frequencies, report them ALL.
 - **Date Anchor Points**: If the JSON contains a `date_series_definitions` section with `anchor_points`, include these in your Time Series Details to help locate specific dates within long series (e.g., "Monthly: 2015-01-31 to 2027-12-31 (T3:FS3). Anchor points: T3=2015-01-31, AF3=2016-01-31, AR3=2017-01-31...").
 
