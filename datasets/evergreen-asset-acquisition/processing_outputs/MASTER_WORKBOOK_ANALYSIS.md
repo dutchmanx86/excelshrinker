@@ -6,2021 +6,1858 @@ This document provides a comprehensive analysis of all sheets in the Excel workb
 
 ## Table of Contents
 
-1. [Assumptions](#assumptions)
-   - [Section Name: Utilization Assumptions](#assumptions-section-name-utilization-assumptions)
-   - [Section Name: Purchase/Lease Assumptions](#assumptions-section-name-purchaselease-assumptions)
-   - [Section Name: Upfront Investment](#assumptions-section-name-upfront-investment)
-   - [Section Name: Operating Assumptions](#assumptions-section-name-operating-assumptions)
-2. [Use_Summary](#use_summary)
-   - [Section Name: Transaction Overview](#use_summary-section-name-transaction-overview)
-   - [Section Name: Chassis Fleet Summary](#use_summary-section-name-chassis-fleet-summary)
-   - [Section Name: EVG Pooled Chassis](#use_summary-section-name-evg-pooled-chassis)
-   - [Section Name: Usage Agreement](#use_summary-section-name-usage-agreement)
-   - [Section Name: Terminal Utilization](#use_summary-section-name-terminal-utilization)
-   - [Section Name: Cost Summary (per Usage Day) - 2014](#use_summary-section-name-cost-summary-per-usage-day---2014)
-   - [Section Name: Financial Performance Summary](#use_summary-section-name-financial-performance-summary)
-3. [Region Assumptions](#region-assumptions)
-   - [Header](#region-assumptions-header)
-   - [Region Assumptions Table](#region-assumptions-region-assumptions-table)
-   - [Region Assumptions Table (Repeated)](#region-assumptions-region-assumptions-table-repeated)
-   - [Notes](#region-assumptions-notes)
-4. [Deal Summary](#deal-summary)
-   - [Fleet Summary](#deal-summary-fleet-summary)
-   - [Usage and Fleet Sizing](#deal-summary-usage-and-fleet-sizing)
-   - [Investment Overview](#deal-summary-investment-overview)
-   - [Sensitivity Analysis](#deal-summary-sensitivity-analysis)
-5. [TOTAL FFU](#total-ffu)
-   - [Utilization Summary](#total-ffu-utilization-summary)
-   - [Revenue and Cost Analysis](#total-ffu-revenue-and-cost-analysis)
-   - [EBITDA Calculation](#total-ffu-ebitda-calculation)
-   - [Chassis Acquisition Analysis](#total-ffu-chassis-acquisition-analysis)
-   - [Cash Flow Projections](#total-ffu-cash-flow-projections)
-6. [COCP](#cocp)
-   - [Utilization Summary](#cocp-utilization-summary)
-   - [Revenue and Cost Analysis](#cocp-revenue-and-cost-analysis)
-   - [EBITDA Calculation](#cocp-ebitda-calculation)
-   - [Upfront Investment Analysis](#cocp-upfront-investment-analysis)
-   - [Cash Flow Projections - Depreciated Value Exit](#cocp-cash-flow-projections---depreciated-value-exit)
-   - [Cash Flow Projections - TEV Exit](#cocp-cash-flow-projections---tev-exit)
-   - [Annual Inflation Assumptions](#cocp-annual-inflation-assumptions)
-7. [DCCP](#dccp)
-   - [Utilization Summary](#dccp-utilization-summary)
-   - [Revenue and Cost Analysis](#dccp-revenue-and-cost-analysis)
-   - [EBITDA Calculation](#dccp-ebitda-calculation)
-   - [Chassis Acquisition Analysis](#dccp-chassis-acquisition-analysis)
-   - [Cash Flow Projections](#dccp-cash-flow-projections)
-8. [GCCP](#gccp)
-   - [Section Name: Utilization Summary](#gccp-section-name-utilization-summary)
-   - [Section Name: Revenue and Cost Analysis](#gccp-section-name-revenue-and-cost-analysis)
-   - [Section Name: EBITDA Calculation](#gccp-section-name-ebitda-calculation)
-   - [Section Name: Chassis Acquisition Analysis](#gccp-section-name-chassis-acquisition-analysis)
-   - [Section Name: Cash Flow Projections](#gccp-section-name-cash-flow-projections)
-9. [MCCP](#mccp)
-   - [Header/Title Section](#mccp-headertitle-section)
-   - [Utilization Summary](#mccp-utilization-summary)
-   - [Revenue and Cost Analysis](#mccp-revenue-and-cost-analysis)
-   - [EBITDA Calculation](#mccp-ebitda-calculation)
-   - [Chassis Acquisition Analysis](#mccp-chassis-acquisition-analysis)
-   - [Cash Flow Projections - Depreciated Value Exit](#mccp-cash-flow-projections---depreciated-value-exit)
-   - [Cash Flow Projections - TEV Exit](#mccp-cash-flow-projections---tev-exit)
-10. [MWCP](#mwcp)
-   - [Utilization Summary](#mwcp-utilization-summary)
-   - [Revenue and Cost Analysis](#mwcp-revenue-and-cost-analysis)
-   - [EBITDA Calculation](#mwcp-ebitda-calculation)
-   - [Chassis Acquisition Analysis](#mwcp-chassis-acquisition-analysis)
-   - [Cash Flow Projections (Depreciated Value Exit)](#mwcp-cash-flow-projections-depreciated-value-exit)
-   - [Cash Flow Projections (TEV Exit)](#mwcp-cash-flow-projections-tev-exit)
-   - [Annual Inflation Assumptions](#mwcp-annual-inflation-assumptions)
-11. [SACP](#sacp)
-   - [Utilization Summary](#sacp-utilization-summary)
-   - [Revenue and Cost Analysis](#sacp-revenue-and-cost-analysis)
-   - [EBITDA Calculation](#sacp-ebitda-calculation)
-   - [Chassis Purchase Analysis](#sacp-chassis-purchase-analysis)
-   - [Cash Flow Projections](#sacp-cash-flow-projections)
-12. [PSW](#psw)
-   - [Section Name: Utilization Summary](#psw-section-name-utilization-summary)
-   - [Section Name: Revenue and Cost Analysis](#psw-section-name-revenue-and-cost-analysis)
-   - [Section Name: EBITDA Calculation](#psw-section-name-ebitda-calculation)
-   - [Section Name: Chassis Acquisition Analysis](#psw-section-name-chassis-acquisition-analysis)
-   - [Section Name: Cash Flow Projections (Depreciated Value Exit)](#psw-section-name-cash-flow-projections-depreciated-value-exit)
-   - [Section Name: Cash Flow Projections (TEV Exit)](#psw-section-name-cash-flow-projections-tev-exit)
-   - [Section Name: Inflation Assumptions](#psw-section-name-inflation-assumptions)
-13. [Customer Output - LA](#customer-output---la)
-   - [Header](#customer-output---la-header)
-   - [Assumptions](#customer-output---la-assumptions)
-   - [Scenario Table](#customer-output---la-scenario-table)
-14. [Customer Output - APMT](#customer-output---apmt)
-   - [Section Name (Header)](#customer-output---apmt-section-name-header)
-   - [Section Name (Assumptions)](#customer-output---apmt-section-name-assumptions)
-   - [Section Name (Purchase Price Table)](#customer-output---apmt-section-name-purchase-price-table)
-15. [PNW](#pnw)
-   - [Utilization Summary](#pnw-utilization-summary)
-   - [Revenue and Cost Analysis](#pnw-revenue-and-cost-analysis)
-   - [EBITDA Calculation](#pnw-ebitda-calculation)
-   - [Upfront Investment Analysis](#pnw-upfront-investment-analysis)
-   - [Cash Flow Projections (Depreciated Value Exit)](#pnw-cash-flow-projections-depreciated-value-exit)
-   - [Cash Flow Projections (TEV Exit)](#pnw-cash-flow-projections-tev-exit)
-   - [Annual Inflation Assumptions](#pnw-annual-inflation-assumptions)
-16. [Oakland](#oakland)
-   - [Utilization Summary](#oakland-utilization-summary)
-   - [Annual Inflation Assumptions](#oakland-annual-inflation-assumptions)
-   - [Revenue and Cost Analysis](#oakland-revenue-and-cost-analysis)
-   - [EBITDA Calculation](#oakland-ebitda-calculation)
-   - [Chassis Acquisition Analysis](#oakland-chassis-acquisition-analysis)
-   - [Cash Flow Projections](#oakland-cash-flow-projections)
-17. [NE](#ne)
-   - [Utilization Summary](#ne-utilization-summary)
-   - [Revenue and Cost Analysis](#ne-revenue-and-cost-analysis)
-   - [EBITDA Calculation](#ne-ebitda-calculation)
-   - [Chassis Acquisition Analysis](#ne-chassis-acquisition-analysis)
-   - [Cash Flow Projections](#ne-cash-flow-projections)
-18. [HRCP](#hrcp)
-   - [Utilization Summary](#hrcp-utilization-summary)
-   - [Revenue & Cost Analysis](#hrcp-revenue-&-cost-analysis)
-   - [Chassis Acquisition Analysis](#hrcp-chassis-acquisition-analysis)
-   - [Cash Flow Projections](#hrcp-cash-flow-projections)
-19. [Support Data -->](#support-data-)
-   - [Section Name (e.g., "Header")](#support-data--section-name-eg-"header")
-20. [PoP Usage Data](#pop-usage-data)
-   - [Title/Header](#pop-usage-data-titleheader)
-   - [Chassis Usage Data by Company](#pop-usage-data-chassis-usage-data-by-company)
-   - [DCSZ and Unassigned Chassis Data](#pop-usage-data-dcsz-and-unassigned-chassis-data)
-   - [Totals & Utilization Metrics](#pop-usage-data-totals-&-utilization-metrics)
-   - [Footnotes](#pop-usage-data-footnotes)
-21. [Fleet Summary - Pending](#fleet-summary---pending)
-   - [Section Name: Header Information](#fleet-summary---pending-section-name-header-information)
-   - [Section Name: Assumptions](#fleet-summary---pending-section-name-assumptions)
-   - [Section Name: ASI/CSG Premium](#fleet-summary---pending-section-name-asicsg-premium)
-   - [Section Name: Chassis Age Analysis](#fleet-summary---pending-section-name-chassis-age-analysis)
-   - [Section Name: Chassis Age Analysis - Detail](#fleet-summary---pending-section-name-chassis-age-analysis---detail)
-22. [Fleet Sizing](#fleet-sizing)
-   - [Section Name: Fleet Sizing Calculation Table](#fleet-sizing-section-name-fleet-sizing-calculation-table)
-   - [Section Name: Data Source & Assumptions](#fleet-sizing-section-name-data-source-&-assumptions)
+1. [(Sheet name is not provided in the JSON. Assuming "Assumptions")](#(sheet-name-is-not-provided-in-the-json.-assuming-"assumptions"))
+   - [Utilization & Purchase Assumptions](#(sheet-name-is-not-provided-in-the-json.-assuming-"assumptions")-utilization-&-purchase-assumptions)
+   - [Purchase/Lease Cost Assumptions](#(sheet-name-is-not-provided-in-the-json.-assuming-"assumptions")-purchaselease-cost-assumptions)
+   - [Upfront Investment Assumptions](#(sheet-name-is-not-provided-in-the-json.-assuming-"assumptions")-upfront-investment-assumptions)
+   - [Operating Assumptions](#(sheet-name-is-not-provided-in-the-json.-assuming-"assumptions")-operating-assumptions)
+2. [Summary](#summary)
+   - [Transaction Overview](#summary-transaction-overview)
+   - [Chassis Fleet Summary](#summary-chassis-fleet-summary)
+   - [EVG Pooled Chassis](#summary-evg-pooled-chassis)
+   - [Usage Agreement](#summary-usage-agreement)
+   - [Utilization Percentages](#summary-utilization-percentages)
+   - [Rates (2014)](#summary-rates-2014)
+   - [Cost Summary (per Usage Day) - 2014](#summary-cost-summary-per-usage-day---2014)
+   - [Summary (2014E)](#summary-summary-2014e)
+3. [Evergreen Model Assumptions](#evergreen-model-assumptions)
+   - [Section Name: Evergreen Model Assumptions - Region Specific Data](#evergreen-model-assumptions-section-name-evergreen-model-assumptions---region-specific-data)
+4. [(Sheet name is not provided in the JSON, assuming it's "Sheet1")](#(sheet-name-is-not-provided-in-the-json,-assuming-it's-"sheet1"))
+   - [Fleet Summary and Investment Overview](#(sheet-name-is-not-provided-in-the-json,-assuming-it's-"sheet1")-fleet-summary-and-investment-overview)
+   - [Sensitivity Analysis](#(sheet-name-is-not-provided-in-the-json,-assuming-it's-"sheet1")-sensitivity-analysis)
+   - [Rate Sensitivity](#(sheet-name-is-not-provided-in-the-json,-assuming-it's-"sheet1")-rate-sensitivity)
+5. [Evergreen](#evergreen)
+   - [Section Name: Utilization Summary](#evergreen-section-name-utilization-summary)
+   - [Section Name: Cost & Revenue Projections](#evergreen-section-name-cost-&-revenue-projections)
+   - [Section Name: Chassis Acquisition & Total Purchase Price](#evergreen-section-name-chassis-acquisition-&-total-purchase-price)
+   - [Section Name: Cash Flow Analysis - Depreciated Value Exit](#evergreen-section-name-cash-flow-analysis---depreciated-value-exit)
+   - [Section Name: Cash Flow Analysis - TEV Exit](#evergreen-section-name-cash-flow-analysis---tev-exit)
+6. [Evergreen](#evergreen)
+   - [Utilization Summary](#evergreen-utilization-summary)
+   - [Cost and Revenue Drivers](#evergreen-cost-and-revenue-drivers)
+   - [Chassis Usage and Revenue Projections](#evergreen-chassis-usage-and-revenue-projections)
+   - [Revenue and Cost Analysis](#evergreen-revenue-and-cost-analysis)
+   - [Chassis Acquisition Cost](#evergreen-chassis-acquisition-cost)
+   - [Cash Flow Projections (Depreciated Value Exit)](#evergreen-cash-flow-projections-depreciated-value-exit)
+   - [Cash Flow Projections (TEV Exit)](#evergreen-cash-flow-projections-tev-exit)
+7. [(Sheet name not provided in JSON, assuming "Sheet1")](#(sheet-name-not-provided-in-json,-assuming-"sheet1"))
+   - [Section Name: Utilization Summary](#(sheet-name-not-provided-in-json,-assuming-"sheet1")-section-name-utilization-summary)
+   - [Section Name: Cost and Revenue Drivers](#(sheet-name-not-provided-in-json,-assuming-"sheet1")-section-name-cost-and-revenue-drivers)
+   - [Section Name: Revenue Projections](#(sheet-name-not-provided-in-json,-assuming-"sheet1")-section-name-revenue-projections)
+   - [Section Name: Revenue Summary](#(sheet-name-not-provided-in-json,-assuming-"sheet1")-section-name-revenue-summary)
+   - [Section Name: Cost Projections](#(sheet-name-not-provided-in-json,-assuming-"sheet1")-section-name-cost-projections)
+   - [Section Name: EBITDA Analysis](#(sheet-name-not-provided-in-json,-assuming-"sheet1")-section-name-ebitda-analysis)
+   - [Section Name: Initial Investment](#(sheet-name-not-provided-in-json,-assuming-"sheet1")-section-name-initial-investment)
+   - [Section Name: Cash Flows - Depreciated Value Exit](#(sheet-name-not-provided-in-json,-assuming-"sheet1")-section-name-cash-flows---depreciated-value-exit)
+   - [Section Name: Cash Flows - TEV Exit](#(sheet-name-not-provided-in-json,-assuming-"sheet1")-section-name-cash-flows---tev-exit)
+8. [Evergreen](#evergreen)
+   - [Section Name: Utilization Summary](#evergreen-section-name-utilization-summary)
+   - [Section Name: Revenue and Cost Drivers](#evergreen-section-name-revenue-and-cost-drivers)
+   - [Section Name: Chassis Acquisition & Investment Analysis](#evergreen-section-name-chassis-acquisition-&-investment-analysis)
+   - [Section Name: Cash Flow Projections - Depreciated Value Exit](#evergreen-section-name-cash-flow-projections---depreciated-value-exit)
+   - [Section Name: Cash Flow Projections - TEV Exit](#evergreen-section-name-cash-flow-projections---tev-exit)
+   - [Section Name: Repeating Cash Flow Projections - TEV Exit](#evergreen-section-name-repeating-cash-flow-projections---tev-exit)
+9. [Sheet1](#sheet1)
+   - [Utilization Summary](#sheet1-utilization-summary)
+   - [Cost Breakdown (EVG)](#sheet1-cost-breakdown-evg)
+   - [Chassis Usage and Revenue Forecast](#sheet1-chassis-usage-and-revenue-forecast)
+   - [Cost Analysis per Usage Day](#sheet1-cost-analysis-per-usage-day)
+   - [Expense Forecast](#sheet1-expense-forecast)
+   - [EBITDA and Margin Analysis](#sheet1-ebitda-and-margin-analysis)
+   - [Chassis Acquisition Costs](#sheet1-chassis-acquisition-costs)
+   - [Cash Flow Analysis - Depreciated Value Exit](#sheet1-cash-flow-analysis---depreciated-value-exit)
+   - [Cash Flow Analysis - TEV Exit](#sheet1-cash-flow-analysis---tev-exit)
+10. [Evergreen](#evergreen)
+   - [Section Name: Utilization Summary](#evergreen-section-name-utilization-summary)
+   - [Section Name: EVG Cost Analysis](#evergreen-section-name-evg-cost-analysis)
+   - [Section Name: Revenue and Usage Days Forecast](#evergreen-section-name-revenue-and-usage-days-forecast)
+   - [Section Name: Cost per Usage Day Analysis](#evergreen-section-name-cost-per-usage-day-analysis)
+   - [Section Name: Expense Forecast](#evergreen-section-name-expense-forecast)
+   - [Section Name: EBITDA Analysis](#evergreen-section-name-ebitda-analysis)
+   - [Section Name: Chassis Acquisition Costs](#evergreen-section-name-chassis-acquisition-costs)
+   - [Section Name: Cash Flows - Depreciated Value Exit](#evergreen-section-name-cash-flows---depreciated-value-exit)
+   - [Section Name: Cash Flows - TEV Exit](#evergreen-section-name-cash-flows---tev-exit)
+11. [(Assumed Sheet1, as the JSON doesn't explicitly name the sheet)](#(assumed-sheet1,-as-the-json-doesn't-explicitly-name-the-sheet))
+   - [Section Name: Utilization Summary](#(assumed-sheet1,-as-the-json-doesn't-explicitly-name-the-sheet)-section-name-utilization-summary)
+   - [Section Name: Cost and Revenue Assumptions](#(assumed-sheet1,-as-the-json-doesn't-explicitly-name-the-sheet)-section-name-cost-and-revenue-assumptions)
+   - [Section Name: Chassis Usage and Revenue Projections](#(assumed-sheet1,-as-the-json-doesn't-explicitly-name-the-sheet)-section-name-chassis-usage-and-revenue-projections)
+   - [Section Name: Cost Analysis](#(assumed-sheet1,-as-the-json-doesn't-explicitly-name-the-sheet)-section-name-cost-analysis)
+   - [Section Name: EBITDA and Margin Analysis](#(assumed-sheet1,-as-the-json-doesn't-explicitly-name-the-sheet)-section-name-ebitda-and-margin-analysis)
+   - [Section Name: Chassis Acquisition Costs](#(assumed-sheet1,-as-the-json-doesn't-explicitly-name-the-sheet)-section-name-chassis-acquisition-costs)
+   - [Section Name: Cash Flow Analysis - Depreciated Value Exit](#(assumed-sheet1,-as-the-json-doesn't-explicitly-name-the-sheet)-section-name-cash-flow-analysis---depreciated-value-exit)
+   - [Section Name: Cash Flow Analysis - TEV Exit](#(assumed-sheet1,-as-the-json-doesn't-explicitly-name-the-sheet)-section-name-cash-flow-analysis---tev-exit)
+12. [Evergreen](#evergreen)
+   - [Section Name: Utilization Summary](#evergreen-section-name-utilization-summary)
+   - [Section Name: Cost and Revenue Drivers](#evergreen-section-name-cost-and-revenue-drivers)
+   - [Section Name: Revenue and Cost Analysis](#evergreen-section-name-revenue-and-cost-analysis)
+   - [Section Name: Chassis Acquisition](#evergreen-section-name-chassis-acquisition)
+   - [Section Name: Investment Analysis - Depreciated Value Exit](#evergreen-section-name-investment-analysis---depreciated-value-exit)
+   - [Section Name: Investment Analysis - TEV Exit](#evergreen-section-name-investment-analysis---tev-exit)
+13. [(Sheet name is not provided in the JSON, assuming it is "Sheet1")](#(sheet-name-is-not-provided-in-the-json,-assuming-it-is-"sheet1"))
+   - [Section Name: Chassis Purchase Options Analysis](#(sheet-name-is-not-provided-in-the-json,-assuming-it-is-"sheet1")-section-name-chassis-purchase-options-analysis)
+14. [Sheet1](#sheet1)
+   - [Section Name: Assumptions](#sheet1-section-name-assumptions)
+   - [Section Name: Input Parameters](#sheet1-section-name-input-parameters)
+15. [Evergreen](#evergreen)
+   - [Section Name: Utilization Summary](#evergreen-section-name-utilization-summary)
+   - [Section Name: Cost and Revenue Drivers](#evergreen-section-name-cost-and-revenue-drivers)
+   - [Section Name: Revenue and Cost Summary](#evergreen-section-name-revenue-and-cost-summary)
+   - [Section Name: Initial Investment](#evergreen-section-name-initial-investment)
+   - [Section Name: Cash Flow Analysis - Depreciated Value Exit](#evergreen-section-name-cash-flow-analysis---depreciated-value-exit)
+   - [Section Name: Cash Flow Analysis - TEV Exit](#evergreen-section-name-cash-flow-analysis---tev-exit)
+16. [Evergreen](#evergreen)
+   - [Section Name: Utilization Summary](#evergreen-section-name-utilization-summary)
+   - [Section Name: Cost and Revenue Assumptions](#evergreen-section-name-cost-and-revenue-assumptions)
+   - [Section Name: Purchase Price Calculation](#evergreen-section-name-purchase-price-calculation)
+   - [Section Name: Cash Flow Analysis - Depreciated Value Exit](#evergreen-section-name-cash-flow-analysis---depreciated-value-exit)
+   - [Section Name: Cash Flow Analysis - TEV Exit](#evergreen-section-name-cash-flow-analysis---tev-exit)
+17. [Evergreen](#evergreen)
+   - [Section Name: Utilization Summary](#evergreen-section-name-utilization-summary)
+   - [Section Name: Cost and Revenue Drivers](#evergreen-section-name-cost-and-revenue-drivers)
+   - [Section Name: Cost Analysis](#evergreen-section-name-cost-analysis)
+   - [Section Name: Chassis Acquisition & Investment Analysis](#evergreen-section-name-chassis-acquisition-&-investment-analysis)
+   - [Section Name: Cash Flow Analysis - Depreciated Value Exit](#evergreen-section-name-cash-flow-analysis---depreciated-value-exit)
+   - [Section Name: Cash Flow Analysis - TEV Exit](#evergreen-section-name-cash-flow-analysis---tev-exit)
+18. [Evergreen](#evergreen)
+   - [Section Name: Utilization Summary](#evergreen-section-name-utilization-summary)
+   - [Section Name: Cost and Revenue Drivers](#evergreen-section-name-cost-and-revenue-drivers)
+   - [Section Name: Per Usage Day Costs & Total Costs](#evergreen-section-name-per-usage-day-costs-&-total-costs)
+   - [Section Name: EBITDA and Margin Analysis](#evergreen-section-name-ebitda-and-margin-analysis)
+   - [Section Name: Chassis Acquisition & Initial Investment](#evergreen-section-name-chassis-acquisition-&-initial-investment)
+   - [Section Name: Cash Flow Analysis - Depreciated Value Exit](#evergreen-section-name-cash-flow-analysis---depreciated-value-exit)
+   - [Section Name: Cash Flow Analysis - TEV Exit](#evergreen-section-name-cash-flow-analysis---tev-exit)
+19. [(Sheet name is not provided in the JSON. Assuming it's "Sheet1") Sheet1](#(sheet-name-is-not-provided-in-the-json.-assuming-it's-"sheet1")-sheet1)
+   - [Support Data Section](#(sheet-name-is-not-provided-in-the-json.-assuming-it's-"sheet1")-sheet1-support-data-section)
+20. [(Assumed to be Sheet1 based on common convention, since the JSON doesn't explicitly name the sheet)](#(assumed-to-be-sheet1-based-on-common-convention,-since-the-json-doesn't-explicitly-name-the-sheet))
+   - [Chassis On-Street Analysis](#(assumed-to-be-sheet1-based-on-common-convention,-since-the-json-doesn't-explicitly-name-the-sheet)-chassis-on-street-analysis)
+21. [(Assumed to be the default "Sheet1" since the JSON doesn't specify)](#(assumed-to-be-the-default-"sheet1"-since-the-json-doesn't-specify))
+   - [Chassis Valuation Analysis](#(assumed-to-be-the-default-"sheet1"-since-the-json-doesn't-specify)-chassis-valuation-analysis)
+   - [Chassis Age Distribution](#(assumed-to-be-the-default-"sheet1"-since-the-json-doesn't-specify)-chassis-age-distribution)
+22. [(Assumed to be "Sheet1" as the JSON doesn't explicitly name it)](#(assumed-to-be-"sheet1"-as-the-json-doesn't-explicitly-name-it))
+   - [Chassis Requirement Analysis](#(assumed-to-be-"sheet1"-as-the-json-doesn't-explicitly-name-it)-chassis-requirement-analysis)
 
 ---
 
 
 ====================================================================================================
-# SHEET 1: Assumptions
+# SHEET 1: (Sheet name is not provided in the JSON. Assuming "Assumptions")
 ====================================================================================================
 
-## 1. Spreadsheet Overview
-- **Sheet Name**: Assumptions
-- **Key Sections Identified**:
-    - Utilization Assumptions
-    - Purchase/Lease Assumptions
-    - Upfront Investment
-    - Operating Assumptions
+## 1. **Sheet Name**: (Sheet name is not provided in the JSON. Assuming "Assumptions")
 
-## 2. Detailed Section Analysis
-
-### Section Name: Utilization Assumptions
+### Utilization & Purchase Assumptions
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: Defines the assumptions related to the utilization of EVG chassis, including purchase, lease, and scrap quantities, as well as utilization rates. This section is used to calculate the total chassis required for EVG use.
+- **Description & Purpose**: This section defines the key assumptions used in the financial model, including utilization rates, purchase/lease costs, and operating expenses. It allows users to adjust these assumptions to see the impact on the overall financial results.
 - **Cell Range**: B5:F14
 - **Layout Structure**:
     - **Row Headers Location**: Column B
     - **Column Headers Location**: None
-    - **Data Range**:
-      - C6:C14 (numeric values)
-      - E6:E14 (numeric values)
-- **Time Series Details**:
-    - No time series data detected.
+    - **Data Range**: C6:C14, E6:E14
+- **Time Series Details**: None. This section contains static assumptions.
 - **Key Components**: Total EVG Chassis Purchased, Total EVG Chassis Leased, Total EVG Chassis for Scrap, Total EVG Leases, Total Excess Chassis Leased, Total DCLI Backfill, EVG Average Daily Usage, EVG Utilization Rate, Total Chassis Required for EVG Use.
-- **Notes & Customizations**: Includes assumptions for different leasing scenarios (DCLI leases all excess vs. backfilling some excess).
+- **Notes & Customizations**: Includes assumptions for different leasing scenarios (DCLI leases vs. purchases).
 
-### Section Name: Purchase/Lease Assumptions
+### Purchase/Lease Cost Assumptions
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: Defines the assumptions related to the purchase and lease costs of chassis, including book value, premiums/discounts, and lease rates.
+- **Description & Purpose**: This section defines the cost assumptions related to purchasing and leasing chassis, including book value, premiums/discounts, and lease costs.
 - **Cell Range**: B16:C24
 - **Layout Structure**:
     - **Row Headers Location**: Column B
     - **Column Headers Location**: None
-    - **Data Range**: C17:C24 (numeric values)
-- **Time Series Details**:
-    - No time series data detected.
+    - **Data Range**: C17:C24
+- **Time Series Details**: None. This section contains static assumptions.
 - **Key Components**: Average Book Value per Chassis, Premium / (Discount) to Book (Upfront), Premium / (Discount) to Book (PO), Purchase Price, Lease Cost per Day for EVG Chassis, Lease Cost per Day for EVG Leases, Lease Cost per Day for Add. Capacity.
-- **Notes & Customizations**: None.
+- **Notes & Customizations**: Includes assumptions for both upfront and purchase order (PO) premiums/discounts.
 
-### Section Name: Upfront Investment
+### Upfront Investment Assumptions
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: Defines the assumptions related to upfront investment costs, including repositioning, decoupling, reconditioning, retitling, stenciling, and offhire costs.
-- **Cell Range**: B26:C43
+- **Description & Purpose**: This section defines the upfront investment costs associated with the chassis, including repositioning, decoupling, reconditioning, retitling, stenciling, and offhire costs.
+- **Cell Range**: B26:C43, E34:F34
 - **Layout Structure**:
     - **Row Headers Location**: Column B
     - **Column Headers Location**: None
-    - **Data Range**: C27:C43 (numeric values)
-- **Time Series Details**:
-    - No time series data detected.
+    - **Data Range**: C27:C43, E34:E34
+- **Time Series Details**: None. This section contains static assumptions.
 - **Key Components**: Repositioning, # of Chassis w/ Repositioning, Decouping Costs, Chassis to be Decouped, Reconditioning Costs, # of Chassis Requiring Reconditioning, Retitling Costs, Chassis to be Retitled, Stenciling Costs, Chassis to be Stenciled, Offhire Costs, Chassis to be Offhired.
-- **Notes & Customizations**: Includes an "on/off" switch (E34) related to reconditioning costs.
+- **Notes & Customizations**: Includes a toggle for reconditioning costs (on/off).
 
-### Section Name: Operating Assumptions
+### Operating Assumptions
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: Defines the assumptions related to operating costs and revenue, including terminal percentages, billing thresholds, cost assumptions for M&R, Admin, Repo, and Other. Also includes PSW MH Rate, EVG CH Rate, Terminal Rate, MH Annual Conversion %, Gain Sharing % on Conversion, and Bad Debt.
-- **Cell Range**: B47:I60
+- **Description & Purpose**: This section defines the operating assumptions used in the model, including terminal percentages, billing thresholds, and cost assumptions for M&R, Admin, Repo, and Other expenses.
+- **Cell Range**: B45:I51, B53:C60
 - **Layout Structure**:
     - **Row Headers Location**: Column B
     - **Column Headers Location**: E50:H50
-    - **Data Range**:
-      - C48:C60 (numeric values)
-      - E51:H51 (numeric values)
-- **Time Series Details**:
-    - No time series data detected.
-- **Key Components**: Terminal % Assumption Placeholder, Terminal Billing Threshold, M&R, Admin, Repo, Other, PSW MH Rate, EVG CH Rate, Terminal Rate, MH Annual Conversion %, Gain Sharing % on Conversion, Bad Debt (as % of Revenue).
-- **Notes & Customizations**: Cost assumptions are provided by operations (I51).
+    - **Data Range**: C45:C49, F51, C53:C60, G51:H51
+- **Time Series Details**: None. This section contains static assumptions.
+- **Key Components**: Sales Tax, Terminal % Assumption Placeholder, Terminal Billing Threshold, Cost Assumptions (M&R, Admin, Repo, Other), PSW MH Rate, EVG CH Rate, Terminal Rate, MH Annual Conversion %, Gain Sharing % on Conversion, Bad Debt (as % of Revenue).
+- **Notes & Customizations**: Cost assumptions are referenced as being provided by operations.
 
 
 
 ====================================================================================================
-# SHEET 2: Use_Summary
+# SHEET 2: Summary
 ====================================================================================================
 
-## 1. Spreadsheet Overview
-- **Sheet Name**: Use_Summary
-- **Key Sections Identified**:
-    - Transaction Overview
-    - Chassis Fleet Summary
-    - EVG Pooled Chassis
-    - Usage Agreement
-    - Terminal Utilization
-    - Cost Summary (per Usage Day) - 2014
-    - Financial Performance Summary
+## 1. **Sheet Name**: Summary
 
-## 2. Detailed Section Analysis
-
-### Section Name: Transaction Overview
+### Transaction Overview
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section outlines the key assumptions and costs associated with a potential chassis transaction, including purchase price, reconditioning costs, and other related expenses. It aims to provide a summary of the total transaction cost.
+- **Description & Purpose**: This section outlines the key assumptions and costs associated with the chassis transaction, including purchase price, reconditioning costs, and working capital investment. It provides a summary of the total transaction cost.
 - **Cell Range**: B6:F17
 - **Layout Structure**:
-    - **Row Headers Location**: Column B
-    - **Column Headers Location**: Row 6 (Transaction Overview)
-    - **Data Range**:
-      - Yr. 1 PF: `D7:D17`
-      - Yr. 1 PF: `F7:F17`
+    - **Row Headers Location**: B7:B17
+    - **Column Headers Location**: D4 (Yr. 1 PF), F3 (Total)
+    - **Data Range**: D7:F17
 - **Time Series Details**:
-    - **Date Range**: Yr. 1 PF (Implied, but not explicitly a date)
+    - **Date Range**: Year 1 Projected, Total
     - **Frequency**: Single Period
-- **Key Components**: Purchased Chassis, Purchase Price/Chassis, Payment for New Chassis ($000s), Reconditioning Costs, Decouping Costs, Repositioning Savings, Retitling Costs, Stenciling Costs, Working Capital Investment, Offhire Costs, Total Transaction Cost.
-- **Notes & Customizations**: All monetary values are scaled by 1000.
+- **Key Components**: Purchase Price/Chassis, Reconditioning Costs, Working Capital Investment, Total Transaction Cost
+- **Notes & Customizations**: Includes costs and savings related to reconditioning, decoupling, repositioning, and retitling.
 
-### Section Name: Chassis Fleet Summary
+### Chassis Fleet Summary
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section summarizes the chassis fleet composition after the transaction, including the number of chassis acquired, retained, and scrapped. It provides an overview of the fleet's structure.
+- **Description & Purpose**: This section provides a summary of the chassis fleet, including the number of chassis acquired, retained, and scrapped.
 - **Cell Range**: B19:F23
 - **Layout Structure**:
-    - **Row Headers Location**: Column B
-    - **Column Headers Location**: Row 19 (Chassis Fleet Summary)
-    - **Data Range**:
-      - Yr. 1 PF: `D21:D23`
-      - Yr. 1 PF: `F21:F23`
+    - **Row Headers Location**: B20:B22
+    - **Column Headers Location**: D4 (Yr. 1 PF), F3 (Total)
+    - **Data Range**: D21:F23
 - **Time Series Details**:
-    - **Date Range**: Yr. 1 PF (Implied, but not explicitly a date)
+    - **Date Range**: Year 1 Projected, Total
     - **Frequency**: Single Period
-- **Key Components**: Chassis Acquired, Retained, Scrapped, Total.
-- **Notes & Customizations**: All values are scaled by 1000.
+- **Key Components**: Chassis Acquired, Retained, Scrapped
+- **Notes & Customizations**: Includes formatting for negative numbers.
 
-### Section Name: EVG Pooled Chassis
+### EVG Pooled Chassis
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section details the allocation of chassis within the EVG (presumably a company) pool, including chassis decoupled at close and those used for EVG FFU (likely a specific project). It helps understand the internal distribution of chassis.
-- **Cell Range**: B25:F29
+- **Description & Purpose**: This section outlines the chassis usage and availability for EVG, including chassis decoupled, used for FFU, and any surplus or shortage.
+- **Cell Range**: B25:F31
 - **Layout Structure**:
-    - **Row Headers Location**: Column B
-    - **Column Headers Location**: Row 25 (EVG Pooled Chassis)
-    - **Data Range**:
-      - Yr. 1 PF: `D26:D29`
-      - Yr. 1 PF: `F26:F29`
+    - **Row Headers Location**: B26:B31
+    - **Column Headers Location**: D4 (Yr. 1 PF), F3 (Total)
+    - **Data Range**: D26:F31
 - **Time Series Details**:
-    - **Date Range**: Yr. 1 PF (Implied, but not explicitly a date)
+    - **Date Range**: Year 1 Projected, Total
     - **Frequency**: Single Period
-- **Key Components**: Chassis Decouped at Close, Chassis to be Used for EVG FFU, Surplus (Shortage) of Chassis.
-- **Notes & Customizations**: All values are scaled by 1000.
+- **Key Components**: Chassis Decouped at Close, Chassis to be Used for EVG FFU, Surplus (Shortage) of Chassis, DCLI Chassis Backfill
+- **Notes & Customizations**: Includes DCLI chassis backfill information.
 
-### Section Name: Usage Agreement
+### Usage Agreement
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section outlines the terms of a usage agreement, including chassis contributed per day and chassis used per day, broken down by MH and CH (likely different types of chassis or usage categories). It helps understand the daily chassis utilization.
+- **Description & Purpose**: This section details the chassis contribution and usage per day, providing insights into utilization rates.
 - **Cell Range**: B33:F43
 - **Layout Structure**:
-    - **Row Headers Location**: Column B
-    - **Column Headers Location**: Row 33 (Usage Agreement)
-    - **Data Range**:
-      - Yr. 1 PF: `D34:D43`
-      - Yr. 1 PF: `F34:F43`
+    - **Row Headers Location**: B34:B43
+    - **Column Headers Location**: D4 (Yr. 1 PF), F3 (Total)
+    - **Data Range**: D34:F43
 - **Time Series Details**:
-    - **Date Range**: Yr. 1 PF (Implied, but not explicitly a date)
+    - **Date Range**: Year 1 Projected, Total
     - **Frequency**: Single Period
-- **Key Components**: Chassis Contributed per Day, Chassis Used per Day (MH, CH), Total Utilization (Chassis per Day), Total Utilization (%), Street Utilization (% of Total), MH % of Street.
-- **Notes & Customizations**: Values in D41, F41, D42, and D43 are percentages. Other values are scaled by 1000.
+- **Key Components**: Chassis Contributed per Day, Chassis Used per Day, Total Utilization (Chassis per Day), Total Utilization (%), Street Utilization (%), MH % of Street
+- **Notes & Customizations**: Includes utilization percentages and breakdowns.
 
-### Section Name: Terminal Utilization
+### Utilization Percentages
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section presents the utilization percentages for different categories: MH%, CH%, Terminal %, and Net Lease %. It provides insights into the distribution of chassis usage across various channels. Also includes rates for MH and CH.
-- **Cell Range**: B39:F53
+- **Description & Purpose**: This section shows the breakdown of utilization percentages across different categories (MH, CH, Terminal, Net Lease).
+- **Cell Range**: B45:D47
 - **Layout Structure**:
-    - **Row Headers Location**: Column B
-    - **Column Headers Location**: Row 39 (Terminal)
-    - **Data Range**:
-      - Yr. 1 PF: `D39:D53`
-      - Yr. 1 PF: `F39:F53`
+    - **Row Headers Location**: B46:B47
+    - **Column Headers Location**: D4 (Yr. 1 PF)
+    - **Data Range**: D46:D47
 - **Time Series Details**:
-    - **Date Range**: Yr. 1 PF (Implied, but not explicitly a date)
+    - **Date Range**: Year 1 Projected
     - **Frequency**: Single Period
-- **Key Components**: Terminal, Total Utilization (Chassis per Day), Total Utilization (%), Street Utilization (% of Total), MH % of Street, MH%, CH%, Terminal %, Net Lease %, Rates (2014) for MH and CH.
-- **Notes & Customizations**: Values in D46, D47 are percentages. Values in D51, D52, and D53 are scaled by 1000.
+- **Key Components**: MH%, CH%, Terminal %
+- **Notes & Customizations**: Shows the percentage breakdown of utilization.
 
-### Section Name: Cost Summary (per Usage Day) - 2014
+### Rates (2014)
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section summarizes the costs associated with chassis usage on a per-day basis for the year 2014. It includes costs for M&R, repositioning, storage, and overhead. It provides a breakdown of the operational expenses.
+- **Description & Purpose**: This section displays the rates for MH and CH in 2014.
+- **Cell Range**: B50:D53
+- **Layout Structure**:
+    - **Row Headers Location**: B51:B52
+    - **Column Headers Location**: D4 (Yr. 1 PF)
+    - **Data Range**: D51:D53
+- **Time Series Details**:
+    - **Date Range**: 2014
+    - **Frequency**: Single Period
+- **Key Components**: MH, CH
+- **Notes & Customizations**: Shows the rates for different chassis types.
+
+### Cost Summary (per Usage Day) - 2014
+- **Section Type**: Key Metrics Table
+- **Description & Purpose**: This section summarizes the costs per usage day for various categories such as M&R, repositioning, and storage.
 - **Cell Range**: B55:F69
 - **Layout Structure**:
-    - **Row Headers Location**: Column B
-    - **Column Headers Location**: Row 55 (Cost Summary (per Usage Day) - 2014)
-    - **Data Range**:
-      - Yr. 1 PF: `D57:D69`
-      - Yr. 1 PF: `F57:F69`
+    - **Row Headers Location**: B57:B69
+    - **Column Headers Location**: D4 (Yr. 1 PF), F3 (Total)
+    - **Data Range**: D57:F69
 - **Time Series Details**:
-    - **Date Range**: Yr. 1 PF (Implied, but not explicitly a date)
+    - **Date Range**: 2014
     - **Frequency**: Single Period
-- **Key Components**: Usage Days, $ M&R, $ Repositioning, $ Storage, $ Overhead, M&R, Admin, Repo, Storage, Lease Expense ($2.65/every day), Revenue Sharing ($1.00/street day), Other.
-- **Notes & Customizations**: Values in D57:D60, D63:D66, and D69 are scaled by 1000.
+- **Key Components**: Usage Days, $ M&R, $ Repositioning, $ Storage, $ Overhead, M&R, Admin, Repo, Storage, Lease Expense, Revenue Sharing, Other
+- **Notes & Customizations**: Includes costs related to M&R, repositioning, storage, overhead, lease expense, and revenue sharing.
 
-### Section Name: Financial Performance Summary
+### Summary (2014E)
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section presents a summary of the financial performance, including contributed days, revenue, expense, EBITDA, and various financial metrics like EBITDA margin and IRR. It provides a high-level overview of the investment's profitability.
-- **Cell Range**: B71:F88
+- **Description & Purpose**: This section provides a summary of contributed days, revenue, expense, and EBITDA for 2014E.
+- **Cell Range**: B71:F86
 - **Layout Structure**:
-    - **Row Headers Location**: Column B
-    - **Column Headers Location**: Row 71 (Summary)
-    - **Data Range**:
-      - Yr. 1 PF: `D73:D86`
-      - Yr. 1 PF: `F73:F81`
+    - **Row Headers Location**: B73:B86
+    - **Column Headers Location**: D4 (Yr. 1 PF), F3 (Total)
+    - **Data Range**: D73:F86
 - **Time Series Details**:
-    - **Date Range**: Yr. 1 PF (Implied, but not explicitly a date)
+    - **Date Range**: 2014E
     - **Frequency**: Single Period
-- **Key Components**: Contributed Days, Revenue (2014E), Expense (2014E), EBITDA (2014E), EBITDA Margin (2014E), EBITDA per Usage Day (2014E), EBITDA per Contributed Day (2014E), Depreciated Value 10-year Unlevered IRR, TEV 10x Exit Multiple Unlevered IRR, NPV - 10-year, Total Investment (incl. WC), Purchase Multiple1.
-- **Notes & Customizations**: Values in D73:D76, D79, D80, D83, and D85 are scaled by 1000. Values in D77, D81, D82, and D86 are percentages. F81 contains the string "nm". Row B88 contains a footnote.
+- **Key Components**: Contributed Days, Revenue (2014E), Expense (2014E), EBITDA (2014E), EBITDA Margin (2014E), EBITDA per Usage Day (2014E), EBITDA per Contributed Day (2014E), Depreciated Value 10-year Unlevered IRR, TEV 10x Exit Multiple Unlevered IRR, NPV - 10-year, Total Investment (incl. WC), Purchase Multiple1
+- **Notes & Customizations**: Includes key financial metrics and IRR calculations.
 
 
 
 ====================================================================================================
-# SHEET 3: Region Assumptions
+# SHEET 3: Evergreen Model Assumptions
 ====================================================================================================
 
-## 1. Spreadsheet Overview
-- **Sheet Name**: Region Assumptions
-- **Key Sections Identified**:
-    - Header
-    - Region Assumptions Table
-    - Region Assumptions Table (Repeated)
-    - Notes
+## 1. **Sheet Name**: Evergreen Model Assumptions
 
-## 2. Detailed Section Analysis
-
-### Header
-- **Section Type**: Header
-- **Description & Purpose**: Contains the title and subtitle of the spreadsheet, providing context for the data.
-- **Cell Range**: A1:A2
-- **Layout Structure**:
-    - **Row Headers Location**: None
-    - **Column Headers Location**: None
-    - **Data Range**: A1:A2
-- **Time Series Details**: None
-- **Key Components**: "Direct ChassisLink Inc.", "Evergreen Model Assumptions"
-- **Notes & Customizations**: Basic header information.
-
-### Region Assumptions Table
+### Section Name: Evergreen Model Assumptions - Region Specific Data
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section contains key assumptions and data points for different regions related to chassis management. It includes information on chassis ownership, leasing, scrap, costs, and utilization rates.
-- **Cell Range**: B8:AF20
+- **Description & Purpose**: This section contains key assumptions and data points related to Evergreen chassis, broken down by region. It includes information on chassis ownership, leasing, scrap, purchase, usage, and various cost factors. This data is used to model the financial impact of Evergreen chassis on DCLI's operations.
+- **Cell Range**: A1:AF20
 - **Layout Structure**:
-    - **Row Headers Location**: A10:A20
-    - **Column Headers Location**: B8:AF8
+    - **Row Headers Location**: Column A (A10:A20) lists the regions.
+    - **Column Headers Location**: Row 8 (B8:AF8) describes the data points for each region.
     - **Data Range**:
-      - Numeric values: C10:K20, L10:L20, M10:M20, N10:N20, O10:O20, P10:R20, S10:W20, X10:Y20, Z10:AD20, AE10:AF20, C17:D19, E17:K19, E17:K19
-- **Time Series Details**: None
-- **Key Components**: Region, Total EVG Owned Chassis, Total EVG Leased Chassis, Total EVG Chassis for Scrap, Chassis Purchased by DCLI, EVG Owned Chassis Leased by DCLI, EVG Leases Taken on by DCLI, Additional Capacity Leased, Total DCLI Backfill, EVG Average Daily Usage, EVG Utilization Rate, Average Book Value per Chassis, Premium / (Discount) to Book, Purchase Price, Cost to Lease Owned EVG Chassis, Cost to Takeover EVG Existing Leases, Lease Cost per Day for Add. Capacity, Repo Cost per Chassis, Recon. Cost per Chassis, Decouping Cost per Chassis, Retitling & Stenciling Cost per Chassis, Offhire Cost per Chassis, Sales Tax, Terminal % of Daily Usage, M&R per Billed Day, Repo per Billed Day, Admin per Chassis per Day, Terminal Rate, Market MH Rate, MH Conversion per Year, Gain Sharing % on MH Transition.
-- **Notes & Customizations**: Data is scaled by 1000 in some columns.
+      - Numeric data: C10:AF20
+- **Time Series Details**:
+    - There is no explicit time series in this section. The data appears to represent a single snapshot in time or a static set of assumptions.
+- **Key Components**:
+    - Regions (MW, PNW, GUL, SE, etc.)
+    - Total EVG Owned Chassis
+    - Total EVG Leased Chassis
+    - Total EVG Chassis for Scrap
+    - Chassis Purchased by DCLI
+    - EVG Average Daily Usage
+    - EVG Utilization Rate
+    - Average Book Value per Chassis
+    - Purchase Price
+    - Cost to Lease Owned EVG Chassis
+    - Cost to Takeover EVG Existing Leases
+    - Lease Cost per Day for Add. Capacity
+    - Repo Cost per Chassis
+    - Recon. Cost per Chassis
+    - Decouping Cost per Chassis
+    - Retitling & Stenciling Cost per Chassis
+    - Offhire Cost per Chassis
+    - Sales Tax
+    - Terminal % of Daily Usage
+    - M&R per Billed Day
+    - Repo per Billed Day
+    - Admin per Chassis per Day
+    - Terminal Rate
+    - Market MH Rate
+    - MH Conversion per Year
+    - Gain Sharing % on MH Transition
+- **Notes & Customizations**: The section includes notes indicating the data sources and estimations used (B25:B28). The "Purhcase (1) / Lease (0)" field in B4/C4 allows for switching between purchase and lease scenarios.
 
-### Region Assumptions Table (Repeated)
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section appears to be a summary or duplicate of some of the data from the first Region Assumptions Table, focusing on Total EVG Owned Chassis.
-- **Cell Range**: B30:K40
-- **Layout Structure**:
-    - **Row Headers Location**: B10:B20
-    - **Column Headers Location**: C8:K8
-    - **Data Range**: C30:K35
-- **Time Series Details**: None
-- **Key Components**: COCP*, DCCP*, GCCP*, MCCP*, MWCP*, SACP*, LSA/LGB***, PNW**, Oakland**, Northeast** (NL), HRCP** (NL)
-- **Notes & Customizations**: Data is scaled by 1000. The row labels are abbreviated.
-
-### Notes
-- **Section Type**: Notes
-- **Description & Purpose**: Provides context and disclaimers for the data presented in the spreadsheet.
-- **Cell Range**: B25:B28
-- **Layout Structure**:
-    - **Row Headers Location**: None
-    - **Column Headers Location**: None
-    - **Data Range**: B25:B28
-- **Time Series Details**: None
-- **Key Components**: Source, CCM, Estimated, Evergreen
-- **Notes & Customizations**: Contains information about the data sources and estimations.
 
 
 ====================================================================================================
-# SHEET 4: Deal Summary
+# SHEET 4: (Sheet name is not provided in the JSON, assuming it's "Sheet1")
 ====================================================================================================
 
-## 1. Spreadsheet Overview
-- **Sheet Name**: Deal Summary
-- **Key Sections Identified**:
-    - Fleet Summary
-    - Usage and Fleet Sizing
-    - Investment Overview
-    - Sensitivity Analysis
+## 1. **Sheet Name**: (Sheet name is not provided in the JSON, assuming it's "Sheet1")
 
-## 2. Detailed Section Analysis
-
-### Fleet Summary
+### Fleet Summary and Investment Overview
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: Summarizes the current and future fleet composition, including owned, leased, and scrapped chassis. It helps understand the current state and planned changes to the fleet.
-- **Cell Range**: C5:G11
+- **Description & Purpose**: This section provides a summary of the current fleet, usage and fleet sizing, and an investment overview for Evergreen Nationwide. It includes key assumptions, financial returns, and sensitivity analysis.
+- **Cell Range**: C5:Q32
 - **Layout Structure**:
-    - **Row Headers Location**: C6:C11
-    - **Column Headers Location**: C6:G6
+    - **Row Headers Location**: Column C and N
+    - **Column Headers Location**: Row 6
     - **Data Range**:
-      - Current EVG Fleet: D7:D11
-      - Future: G7:G11
+      - Numeric values and formulas are scattered throughout the range, including D7:D11, G7:G12, P7:P16, etc.
 - **Time Series Details**:
-    - **Date Range**: Current, Future
-    - **Frequency**: N/A (Static data)
-- **Key Components**: Current EVG Fleet, Purchased from EVG, Leased from EVG, Scrapped, EVG Leases Assumed, Backfilled by DCLI
-- **Notes & Customizations**: Includes both the current fleet and a "Future" projection.
-
-### Usage and Fleet Sizing
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: Details the usage and fleet sizing metrics, including current and required fleet sizes, utilization rates, and related percentages.
-- **Cell Range**: K5:L17
-- **Layout Structure**:
-    - **Row Headers Location**: K6:K17
-    - **Column Headers Location**: K6:L6
-    - **Data Range**: L7:L17
-- **Time Series Details**:
-    - **Date Range**: Current
-    - **Frequency**: N/A (Static data)
-- **Key Components**: Street, MH, CH, Terminal, Total Usage, Est. Utilization, Owned, Leased, Short/(Surpl)
-- **Notes & Customizations**: Calculates fleet requirements based on utilization.
-
-### Investment Overview
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: Provides an overview of the investment required, including asset purchases, repositioning costs, working capital, and reconditioning expenses. Also includes financial returns metrics.
-- **Cell Range**: N5:Q32
-- **Layout Structure**:
-    - **Row Headers Location**: N6:N32
-    - **Column Headers Location**: N6:Q6
-    - **Data Range**: P7:P32
-- **Time Series Details**:
-    - **Date Range**: Year 1
+    - **Date Range**: Year 1 (P19)
     - **Frequency**: Annual
-- **Key Components**: Assets, Repositioning, Working Capital, Reconditioning, Decooping Costs, Sales tax, Re-title & stencil costs, Offhire costs, Value of Scrap Chassis, Total Investment, Financial Returns, CH Revenue, MH Revenue, Terminal revenue, Total Revenue, M&R Expense, EVG Lease Expense, Admin Expense, Adj. EBITDA, Margin %, Purchase Multiple, Depr. Value 10-year IRR, TEV 5x Exit Multiple IRR, NPV
-- **Notes & Customizations**: Includes upfront costs and commentary/assumptions.
+- **Key Components**: Current EVG Fleet (Owned, Leased, Scrapped), Fleet Required, Cost per Usage Day, Investment Overview (Assets, Repositioning, Working Capital, Reconditioning), Financial Returns (CH Revenue, MH Revenue, Total Revenue, Adj. EBITDA, NPV).
+- **Notes & Customizations**: Includes commentary/assumptions for various investment components.
 
 ### Sensitivity Analysis
-- **Section Type**: Sensitivity Table
-- **Description & Purpose**: Analyzes the sensitivity of key outputs (e.g., Investment, EBITDA, IRR, NPV) to changes in model inputs (e.g., Lease Cost, Average Premium/Discount, Terminal Rate, MH Conversion).
-- **Cell Range**: C34:R41
-- **Layout Structure**:
-    - **Row Headers Location**: C36:C41
-    - **Column Headers Location**: C36:R36
-    - **Data Range**: I37:R41
-- **Time Series Details**:
-    - **Date Range**: N/A (Scenario Analysis)
-    - **Frequency**: N/A
-- **Key Components**: Scenario, Lease Cost per Day to EVG, Average Prem/(Disc) per Chassis, Terminal Rate, MH Conversion, Total Investment, Investment Multiple, Purchase Price per Chassis, Average EBITDA, Average EBITDA Margin %, Average EBITDA per usage day, Average EBITDA per chassis per day, 10 year depreciated value IRR %, 5x EBITDA exit multiple IRR %, NPV $
-- **Notes & Customizations**: Presents a matrix of different scenarios and their impact on key financial metrics.
-
-
-====================================================================================================
-# SHEET 5: TOTAL FFU
-====================================================================================================
-
-## 1. Spreadsheet Overview
-- **Sheet Name**: TOTAL FFU
-- **Key Sections Identified**:
-    - Utilization Summary
-    - Revenue and Cost Analysis
-    - EBITDA Calculation
-    - Chassis Acquisition Analysis
-    - Cash Flow Projections
-
-## 2. Detailed Section Analysis
-
-### Utilization Summary
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section summarizes the utilization of assets (chassis) across different categories (Street - MH, Street - EVG, Terminal) and calculates utilization rates. It provides a high-level overview of asset performance.
-- **Cell Range**: C5:Q13
-- **Layout Structure**:
-    - **Row Headers Location**: C5:C13
-    - **Column Headers Location**: G6:Q6
-    - **Data Range**: G7:Q12
-- **Time Series Details**:
-    - **Date Range**: Not explicitly defined in the provided data, but implied to be annual from the column headers in the range G6:Q6.
-    - **Frequency**: Annual
-- **Key Components**: Street - MH, Terminal, Grand Total, % of Street - MH, % of Street - EVG, % of Total - Terminal, Utilization Rate.
-- **Notes & Customizations**: The data is presented in thousands ($000s).
-
-### Revenue and Cost Analysis
-- **Section Type**: Custom P&L
-- **Description & Purpose**: This section details the revenue and cost components related to chassis usage, including costs per day, total costs, and revenue streams from different sources (Trucker, EVG Street, Terminal). It's used to understand the profitability drivers.
-- **Cell Range**: B17:Q74
-- **Layout Structure**:
-    - **Row Headers Location**: B17:B74 and C19, C24, C29, C33, C37, C41, C42, C43, C57:C63
-    - **Column Headers Location**: H16:Q16
-    - **Data Range**: H17:Q74
-- **Time Series Details**:
-    - **Date Range**: Not explicitly defined, but implied to be annual from the column headers in the range H16:Q16.
-    - **Frequency**: Annual
-- **Key Components**: EVG Street Revenue, Terminal Revenue, Total Usage Days, M&R Cost, Admin Expense, Repo Expense, Other Expense, Total Cost, Revenue.
-- **Notes & Customizations**: The data is presented in thousands ($000s). Includes calculations for cost per day. Includes inflation assumptions in columns U and V.
-
-### EBITDA Calculation
-- **Section Type**: Standard P&L (Partial)
-- **Description & Purpose**: This section calculates EBITDA and related metrics (EBITDA per Usage Day, EBITDA per Chassis per Day, EBITDA Margin). It provides a measure of operating profitability.
-- **Cell Range**: B76:Q79
-- **Layout Structure**:
-    - **Row Headers Location**: B76, C77, C78, B79
-    - **Column Headers Location**: H16:Q16
-    - **Data Range**: H76:Q79
-- **Time Series Details**:
-    - **Date Range**: Not explicitly defined, but implied to be annual from the column headers in the range H16:Q16.
-    - **Frequency**: Annual
-- **Key Components**: EBITDA, EBITDA per Usage Day, EBITDA per Chassis per Day, EBITDA Margin (%).
-- **Notes & Customizations**: The data is presented in thousands ($000s) except for EBITDA Margin.
-
-### Chassis Acquisition Analysis
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section analyzes the costs associated with acquiring chassis, including the purchase price, reconditioning costs, and other related expenses. It's used to determine the total effective purchase price and related metrics.
-- **Cell Range**: B82:G100
-- **Layout Structure**:
-    - **Row Headers Location**: B83:B100
-    - **Column Headers Location**: None (single period analysis)
-    - **Data Range**: G83:G100
-- **Time Series Details**:
-    - **Date Range**: Single period (Upfront)
-    - **Frequency**: N/A
-- **Key Components**: Chassis to be Acquired, Price per Chassis, Payment to EVG, Total Effective Purchase Price, Cash Multiple of 2014 EBITDA - Owned.
-- **Notes & Customizations**: The data is presented in thousands ($000s) except for Premium / (Discount) to Book and Cash Multiple of 2014 EBITDA - Owned.
-
-### Cash Flow Projections
-- **Section Type**: Cash Flow Projections
-- **Description & Purpose**: This section projects the cash flows associated with the investment, including upfront investment, exit value, and annual cash flows. It's used to calculate the Unlevered IRR and NPV. Two scenarios are presented: "Cash Flows - Depreciated Value Exit" and "Cash Flows - TEV Exit".
-- **Cell Range**: B104:Q136
-- **Layout Structure**:
-    - **Row Headers Location**: B104:B119 and B121:B136
-    - **Column Headers Location**: G6:Q6 (for Depreciated Value Exit) and G6:L6 (for TEV Exit)
-    - **Data Range**:
-      - Annual data (Depreciated Value Exit): `H108:Q115`
-      - Annual data (TEV Exit): `H125:L132`
-- **Time Series Details**:
-    - **Date Range**:
-      - Depreciated Value Exit: Not explicitly defined, but implied to be annual from the column headers in the range H6:Q6.
-      - TEV Exit: Not explicitly defined, but implied to be annual from the column headers in the range H6:L6.
-    - **Frequency**: Annual
-- **Key Components**: Investment, EBITDA, Accelerated Depreciation, EBIT, Cash Taxes, Cash Income, WC Investment, Capex, Cash Flow, Total Cash Flows, Unlevered IRR, NPV.
-- **Notes & Customizations**: The data is presented in thousands ($000s) except for Cash Taxes @ and WC Investment @. There are two exit scenarios: Depreciated Value Exit and TEV Exit.
-
-
-====================================================================================================
-# SHEET 6: COCP
-====================================================================================================
-
-## 1. Spreadsheet Overview
-- **Sheet Name**: COCP
-- **Key Sections Identified**:
-    - Utilization Summary
-    - Revenue and Cost Analysis
-    - EBITDA Calculation
-    - Upfront Investment Analysis
-    - Cash Flow Projections - Depreciated Value Exit
-    - Cash Flow Projections - TEV Exit
-    - Annual Inflation Assumptions
-
-## 2. Detailed Section Analysis
-
-### Utilization Summary
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section summarizes the utilization of assets (likely chassis) across different categories (Street-MH, Street-EVG, Terminal). It provides key metrics like utilization rates and percentages.
-- **Cell Range**: C5:Q13
+- **Section Type**: Sensitivity Analysis Table
+- **Description & Purpose**: This section presents a sensitivity analysis of the model, showing how different input parameters affect key output metrics.
+- **Cell Range**: C34:R42
 - **Layout Structure**:
     - **Row Headers Location**: Column C
-    - **Column Headers Location**: Row 6 (G6:Q6)
-    - **Data Range**: G7:Q12
+    - **Column Headers Location**: Row 36
+    - **Data Range**: D38:R41
 - **Time Series Details**:
-    - **Date Range**: The data spans multiple years, but the exact years are not explicitly labeled. Based on the other sections, we can infer the range is likely 2015 to 2027.
+    - None explicitly defined, but the analysis is based on a single point in time or an average across the investment horizon.
+- **Key Components**: Scenario, Lease Cost per Day to EVG, Average Prem/(Disc) per Chassis, Terminal Rate, MH Conversion, Total Investment, Investment Multiple, Purchase Price per Chassis, Average EBITDA, Average EBITDA Margin %, 10 year depreciated value IRR %, 5x EBITDA exit multiple IRR %, NPV.
+- **Notes & Customizations**: Includes notes on the model inputs and outputs.
+
+### Rate Sensitivity
+- **Section Type**: Sensitivity Analysis Table
+- **Description & Purpose**: This section presents a sensitivity analysis of the CH and Terminal rates.
+- **Cell Range**: C46:H59
+- **Layout Structure**:
+    - **Row Headers Location**: Column E
+    - **Column Headers Location**: Row 46, 55
+    - **Data Range**: D47:E54, F56:H59
+- **Time Series Details**:
+    - None explicitly defined, but the analysis is based on a single point in time or an average across the investment horizon.
+- **Key Components**: % MH, CH Rate, Change in Rate, Purchase Price Per Chassis, CH Rate per day, Terminal Rate per day.
+- **Notes & Customizations**: Includes different options for the rates.
+
+
+
+====================================================================================================
+# SHEET 5: Evergreen
+====================================================================================================
+
+## 1. **Sheet Name**: Evergreen
+
+### Section Name: Utilization Summary
+- **Section Type**: Key Metrics Table
+- **Description & Purpose**: Presents a summary of chassis utilization metrics, including street and terminal usage, and overall utilization rates. This section is used to assess the efficiency of chassis deployment.
+- **Cell Range**: C5:Q13
+- **Layout Structure**:
+    - **Row Headers Location**: C6:C13
+    - **Column Headers Location**: G21:Q21 (Years)
+    - **Data Range**: G6:Q12
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10
     - **Frequency**: Annual
 - **Key Components**: Street - MH, Terminal, Grand Total, % of Street - MH, % of Street - EVG, % of Total - Terminal, Utilization Rate
-- **Notes & Customizations**: The percentages provide a breakdown of utilization across different segments.
+- **Notes & Customizations**: Includes percentage calculations based on different usage categories.
 
-### Revenue and Cost Analysis
-- **Section Type**: Custom P&L
-- **Description & Purpose**: This section analyzes revenue and costs associated with the business, breaking them down by different categories like "Street" and "Terminal". It calculates costs on a per-usage-day basis.
-- **Cell Range**: B17:Q74
+### Section Name: Cost & Revenue Projections
+- **Section Type**: Standard P&L
+- **Description & Purpose**: Projects revenue and costs associated with chassis usage, including street and terminal revenue, M&R, Admin, and Repo costs. It calculates EBITDA and EBITDA margin.
+- **Cell Range**: B16:Q79
 - **Layout Structure**:
-    - **Row Headers Location**: Column B and Column C
-    - **Column Headers Location**: Row 16 (E16:I16) and Row 21 (G21:Q21)
-    - **Data Range**:
-      - Annual data: E17:G19 (costs)
-      - Annual data: H23:Q74 (revenue, costs, days)
+    - **Row Headers Location**: B17:B79, C19, C24, C29, C33, C37, C41, C57:C63, C77:C78
+    - **Column Headers Location**: G21:Q21 (Years)
+    - **Data Range**: H17:Q79 (excluding row headers)
 - **Time Series Details**:
-    - **Date Range**: The data spans multiple years, but the exact years are not explicitly labeled. Based on the other sections, we can infer the range is likely 2015 to 2027.
+    - **Date Range**: Year 0 to Year 10
     - **Frequency**: Annual
-- **Key Components**: EVG Street Revenue, Terminal Revenue, Total Usage Days, Revenue, M&R Cost, Admin Expense, Repo Expense, Total Cost
-- **Notes & Customizations**: This section includes calculations for both "Per Usage Day" and total costs. It also incorporates lease costs and gain sharing.
+- **Key Components**: EVG, M&R, Admin, Repo, Usage Days, Contr. Days, Revenue, EVG Street Costs, Terminal Billings, M&R Cost, Admin Expense, Repo Expense, Total Cost, EBITDA, EBITDA Margin (%)
+- **Notes & Customizations**: Includes per-usage-day cost calculations and inflation assumptions.
 
-### EBITDA Calculation
+### Section Name: Chassis Acquisition & Total Purchase Price
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section calculates EBITDA and related metrics, such as EBITDA per usage day and EBITDA margin.
-- **Cell Range**: B76:Q79
+- **Description & Purpose**: Calculates the total effective purchase price for chassis acquisition, considering factors like reconditioning costs, repositioning, and scrap chassis value.
+- **Cell Range**: B82:G98
 - **Layout Structure**:
-    - **Row Headers Location**: Column B and Column C
-    - **Column Headers Location**: Row 21 (G21:Q21)
-    - **Data Range**: H76:Q79
-- **Time Series Details**:
-    - **Date Range**: The data spans multiple years, but the exact years are not explicitly labeled. Based on the other sections, we can infer the range is likely 2015 to 2027.
-    - **Frequency**: Annual
-- **Key Components**: EBITDA, EBITDA per Usage Day, EBITDA per Chassis per Day, EBITDA Margin (%)
-- **Notes & Customizations**: This section provides key profitability metrics.
-
-### Upfront Investment Analysis
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section analyzes the upfront investment required for the project, including chassis acquisition costs, reconditioning costs, and working capital investment.
-- **Cell Range**: B82:G100
-- **Layout Structure**:
-    - **Row Headers Location**: Column B
-    - **Column Headers Location**: Row 82
+    - **Row Headers Location**: B83:B98
+    - **Column Headers Location**: G82
     - **Data Range**: G83:G98
 - **Time Series Details**:
-    - **Date Range**: This section represents a single point in time, not a time series.
+    - **Date Range**: N/A (Upfront costs)
     - **Frequency**: N/A
-- **Key Components**: Chassis to be Acquired, Price per Chassis, Payment to EVG, Total Effective Purchase Price, Cash Multiple of 2014 EBITDA - Owned
-- **Notes & Customizations**: This section focuses on the initial investment required.
+- **Key Components**: Chassis to be Acquired, Average Book Value / Owned Chassis, Price per Chassis, Payment to EVG, Sales Tax, Total Chassis Price, Reconditioning Costs, Decouping Costs, Repositioning, Retitling & Stenciling Costs, Working Capital Investment, Offhire Costs, Scrap Chassis, Transaction Expenses, Total Effective Purchase Price
+- **Notes & Customizations**: Includes calculations for premium/discount to book value and total effective purchase price.
 
-### Cash Flow Projections - Depreciated Value Exit
-- **Section Type**: Cash Flow Projections
-- **Description & Purpose**: This section projects cash flows based on a depreciated value exit scenario. It includes key line items like EBITDA, accelerated depreciation, cash taxes, and capex.
+### Section Name: Cash Flow Analysis - Depreciated Value Exit
+- **Section Type**: Waterfall Chart Data
+- **Description & Purpose**: Projects cash flows based on a depreciated value exit strategy, including investment, accelerated depreciation, EBIT, cash taxes, cash income, WC investment, capex, and cash flow.
 - **Cell Range**: B104:Q119
 - **Layout Structure**:
-    - **Row Headers Location**: Column B
-    - **Column Headers Location**: Row 21 (G21:Q21)
-    - **Data Range**: G104:Q117
-- **Time Series Details**:
-    - **Date Range**: The data spans multiple years, but the exact years are not explicitly labeled. Based on the other sections, we can infer the range is likely 2015 to 2027.
-    - **Frequency**: Annual
-- **Key Components**: EBITDA, Accelerated Depreciation, EBIT, Cash Taxes @ , Cash Income, WC Investment @, Capex, Cash Flow, Total Cash Flows, Unlevered IRR
-- **Notes & Customizations**: This section calculates the Unlevered IRR based on the projected cash flows.
-
-### Cash Flow Projections - TEV Exit
-- **Section Type**: Cash Flow Projections
-- **Description & Purpose**: This section projects cash flows based on a Total Enterprise Value (TEV) exit scenario. It includes key line items like EBITDA, accelerated depreciation, cash taxes, and capex.
-- **Cell Range**: B121:L136
-- **Layout Structure**:
-    - **Row Headers Location**: Column B
-    - **Column Headers Location**: Row 21 (G21:Q21)
-    - **Data Range**: H125:L134
-- **Time Series Details**:
-    - **Date Range**: The data spans multiple years, but the exact years are not explicitly labeled. Based on the other sections, we can infer the range is likely 2015 to 2020.
-    - **Frequency**: Annual
-- **Key Components**: EBITDA, Accelerated Depreciation, EBIT, Cash Taxes @ , Cash Income, WC Investment @, Capex, Cash Flow, Total Cash Flows, Unlevered IRR
-- **Notes & Customizations**: This section calculates the Unlevered IRR based on the projected cash flows.
-
-### Annual Inflation Assumptions
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section lists the annual inflation assumptions used in the model.
-- **Cell Range**: U32:V41
-- **Layout Structure**:
-    - **Row Headers Location**: Column U
-    - **Column Headers Location**: None
-    - **Data Range**: V33:V41
-- **Time Series Details**:
-    - **Date Range**: This section represents a single point in time, not a time series.
-    - **Frequency**: N/A
-- **Key Components**: Trucker Rate Inflation, EVG Rate Inflation, Terminal Rate Inflation, M&R Cost Inflation, Admin Cost Inflation, Repo Cost Inflation, Other Cost Inflation
-- **Notes & Customizations**: This section is used as inputs for the model.
-
-
-====================================================================================================
-# SHEET 7: DCCP
-====================================================================================================
-
-## 1. Spreadsheet Overview
-- **Sheet Name**: DCCP
-- **Key Sections Identified**:
-    - Utilization Summary
-    - Revenue and Cost Analysis
-    - EBITDA Calculation
-    - Chassis Acquisition Analysis
-    - Cash Flow Projections
-
-## 2. Detailed Section Analysis
-
-### Utilization Summary
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section summarizes the utilization of assets (chassis) across different segments (Street - MH, Street - EVG, Terminal) and calculates utilization rates. It provides a high-level overview of asset performance.
-- **Cell Range**: C5:Q13
-- **Layout Structure**:
-    - **Row Headers Location**: C5:C13
-    - **Column Headers Location**: G6:Q6
-    - **Data Range**: G7:Q12
-- **Time Series Details**:
-    - **Date Range**: Not explicitly defined, but columns G to Q represent different time periods. The specific years are not provided in the JSON, but are likely annual.
-    - **Frequency**: Annual (assumed)
-- **Key Components**: Street - MH, Street - EVG, Terminal, Grand Total, % of Street - MH, % of Street - EVG, % of Total - Terminal, Utilization Rate.
-- **Notes & Customizations**: The section calculates percentages and rates based on the utilization data.
-
-### Revenue and Cost Analysis
-- **Section Type**: Custom P&L
-- **Description & Purpose**: This section details the revenue and cost components related to the DCCP business. It breaks down revenue by source (Trucker, EVG Street, Terminal) and costs by type (M&R, Admin, Repo, Lease). The purpose is to analyze the profitability drivers of the business.
-- **Cell Range**: B17:Q74
-- **Layout Structure**:
-    - **Row Headers Location**: B17:B74 and C19, C29, C33, C37, C41, C42, C43, C57:C63
-    - **Column Headers Location**: H16:Q16
-    - **Data Range**:
-      - Annual data: H17:Q19, H23:Q30, H32:Q43, H45:Q74
-- **Time Series Details**:
-    - **Date Range**: Not explicitly defined, but columns H to Q represent different time periods. The specific years are not provided in the JSON, but are likely annual.
-    - **Frequency**: Annual (assumed)
-- **Key Components**: Revenue, EVG Street Costs, Terminal Billings, M&R Cost, Admin Expense, Repo Expense, Lease Cost.
-- **Notes & Customizations**: The section includes calculations for "Per Usage Day" costs and various utilization metrics. It also incorporates inflation assumptions from columns U and V.
-
-### EBITDA Calculation
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section calculates EBITDA and related metrics based on the revenue and cost data from the previous section. It also includes EBITDA per usage day and EBITDA margin.
-- **Cell Range**: B76:Q79
-- **Layout Structure**:
-    - **Row Headers Location**: B76, C77, C78, B79
-    - **Column Headers Location**: H16:Q16
-    - **Data Range**: H76:Q79
-- **Time Series Details**:
-    - **Date Range**: Not explicitly defined, but columns H to Q represent different time periods. The specific years are not provided in the JSON, but are likely annual.
-    - **Frequency**: Annual (assumed)
-- **Key Components**: EBITDA, EBITDA per Usage Day, EBITDA per Chassis per Day, EBITDA Margin (%).
-- **Notes & Customizations**: The section calculates EBITDA and related profitability metrics.
-
-### Chassis Acquisition Analysis
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section analyzes the costs associated with acquiring chassis, including the purchase price, reconditioning costs, and other related expenses. It also calculates a cash multiple of EBITDA.
-- **Cell Range**: B82:G100
-- **Layout Structure**:
-    - **Row Headers Location**: B83:B98, B100
-    - **Column Headers Location**: G82
-    - **Data Range**: G83:G98, G100
-- **Time Series Details**:
-    - **Date Range**: This section primarily focuses on upfront costs, with no explicit time series.
-    - **Frequency**: N/A
-- **Key Components**: Chassis to be Acquired, Average Book Value / Owned Chassis, Price per Chassis, Payment to EVG, Total Effective Purchase Price, Cash Multiple of 2014 EBITDA - Owned.
-- **Notes & Customizations**: This section focuses on a one-time acquisition cost analysis.
-
-### Cash Flow Projections
-- **Section Type**: Custom Cash Flow
-- **Description & Purpose**: This section projects the cash flows associated with the DCCP business, including investments, EBITDA, taxes, working capital, and capex. It calculates the total cash flows, NPV, and unlevered IRR. There are two distinct cash flow scenarios: "Depreciated Value Exit" and "TEV Exit".
-- **Cell Range**: B104:Q136
-- **Layout Structure**:
-    - **Row Headers Location**: B104:B115, F118, B119, B121:B134, B136
-    - **Column Headers Location**: G104:Q104
-    - **Data Range**:
-      - Annual data (Depreciated Value Exit): G104:Q115, F119
-      - Annual data (TEV Exit): G122:L134
-- **Time Series Details**:
-    - **Date Range**:
-        - Depreciated Value Exit: Not explicitly defined, but columns G to Q represent different time periods. The specific years are not provided in the JSON, but are likely annual.
-        - TEV Exit: Not explicitly defined, but columns G to L represent different time periods. The specific years are not provided in the JSON, but are likely annual.
-    - **Frequency**: Annual (assumed)
-- **Key Components**: Investment, EBITDA, Accelerated Depreciation, Cash Taxes, Cash Income, WC Investment, Capex, Cash Flow, Total Cash Flows, Unlevered IRR.
-- **Notes & Customizations**: This section includes two different exit scenarios ("Depreciated Value Exit" and "TEV Exit") and calculates key financial metrics such as NPV and IRR.
-
-
-====================================================================================================
-# SHEET 8: GCCP
-====================================================================================================
-
-## 1. Spreadsheet Overview
-- **Sheet Name**: GCCP
-- **Key Sections Identified**:
-    - Utilization Summary
-    - Revenue and Cost Analysis
-    - EBITDA Calculation
-    - Chassis Acquisition Analysis
-    - Cash Flow Projections
-
-## 2. Detailed Section Analysis
-
-### Section Name: Utilization Summary
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section summarizes the utilization of assets (chassis) across different categories (Street - MH, Street - EVG, Terminal) and calculates utilization rates. It provides insights into how effectively the assets are being used.
-- **Cell Range**: C5:Q13
-- **Layout Structure**:
-    - **Row Headers Location**: C5:C13
-    - **Column Headers Location**: G6:Q6
-    - **Data Range**:
-      - Annual data: G7:Q12
-- **Time Series Details**:
-    - **Date Range**: The data in G6:Q6 is not explicitly labeled with dates, but the context suggests an annual time series. Assuming the first column (G) represents 2015 and each subsequent column is a year, the range is 2015 to 2021.
-    - **Frequency**: Annual
-- **Key Components**: Street - MH, Street - EVG, Terminal, Grand Total, % of Street - MH, % of Street - EVG, % of Total - Terminal, Utilization Rate.
-- **Notes & Customizations**: The section calculates percentages and utilization rates based on the usage data.
-
-### Section Name: Revenue and Cost Analysis
-- **Section Type**: Custom P&L
-- **Description & Purpose**: This section analyzes revenue and costs associated with different business activities (EVG Street, Terminal) to determine profitability. It breaks down revenue sources, cost components, and calculates per-day costs.
-- **Cell Range**: B16:Q74
-- **Layout Structure**:
-    - **Row Headers Location**: B17:B74, C18:C19, C24, C29, C33, C37, C41, C42, C43, C57:C63
-    - **Column Headers Location**: H16:Q16
-    - **Data Range**:
-      - Annual data: H17:Q74
-- **Time Series Details**:
-    - **Date Range**: The data in H16:Q16 is not explicitly labeled with dates, but the context suggests an annual time series. Assuming the first column (H) represents 2015 and each subsequent column is a year, the range is 2015 to 2021.
-    - **Frequency**: Annual
-- **Key Components**: Revenue, EVG Street Costs, Terminal Billings, M&R Cost, Admin Expense, Repo Expense, Other Expense, Lease Costs.
-- **Notes & Customizations**: The section includes calculations for per-usage-day costs and incorporates various lease cost components. It also includes annual inflation assumptions in U32:V41.
-
-### Section Name: EBITDA Calculation
-- **Section Type**: Standard P&L
-- **Description & Purpose**: This section calculates EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) based on the revenue and cost analysis. It also calculates EBITDA per usage day and EBITDA margin.
-- **Cell Range**: B76:Q79
-- **Layout Structure**:
-    - **Row Headers Location**: B76, C77, C78, B79
-    - **Column Headers Location**: H16:Q16 (same as previous section)
-    - **Data Range**:
-      - Annual data: H76:Q79
-- **Time Series Details**:
-    - **Date Range**: The data in H16:Q16 is not explicitly labeled with dates, but the context suggests an annual time series. Assuming the first column (H) represents 2015 and each subsequent column is a year, the range is 2015 to 2021.
-    - **Frequency**: Annual
-- **Key Components**: EBITDA, EBITDA per Usage Day, EBITDA per Chassis per Day, EBITDA Margin (%).
-- **Notes & Customizations**: The section calculates EBITDA and related metrics based on the preceding revenue and cost analysis.
-
-### Section Name: Chassis Acquisition Analysis
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section analyzes the costs associated with acquiring chassis, including purchase price, reconditioning, decoupling, repositioning, and other related expenses. It calculates the total effective purchase price.
-- **Cell Range**: B82:G100
-- **Layout Structure**:
-    - **Row Headers Location**: B83:B98, B100
-    - **Column Headers Location**: None (single period analysis)
-    - **Data Range**: G83:G98, G100
-- **Time Series Details**:
-    - **Date Range**: This section represents a single period or upfront analysis, not a time series.
-    - **Frequency**: N/A
-- **Key Components**: Chassis to be Acquired, Average Book Value / Owned Chassis, Price per Chassis, Payment to EVG, Sales Tax, Total Chassis Price, Reconditioning Costs, Decouping Costs, Repositioning, Working Capital Investment, Total Effective Purchase Price, Cash Multiple of 2014 EBITDA - Owned.
-- **Notes & Customizations**: This section focuses on the upfront costs associated with acquiring chassis.
-
-### Section Name: Cash Flow Projections
-- **Section Type**: Cash Flow Projections
-- **Description & Purpose**: This section projects cash flows based on the investment in chassis, including depreciation, EBIT, taxes, and Capex. It calculates total cash flows and unlevered IRR. There are two separate cash flow projections, one based on a depreciated value exit and another based on a TEV exit.
-- **Cell Range**: B104:Q136
-- **Layout Structure**:
-    - **Row Headers Location**: B104:B119, B121:B136
-    - **Column Headers Location**: G104:Q104, G121:L121
-    - **Data Range**:
-      - Annual data (Depreciated Value Exit): H108:Q115, G117
-      - Annual data (TEV Exit): H125:L132, G134
-- **Time Series Details**:
-    - **Date Range**:
-      - Annual (Depreciated Value Exit): 2015 to 2021 (assuming H represents 2015)
-      - Annual (TEV Exit): 1979 to 1979 (based on date_series_definitions)
-    - **Frequency**:
-      - Annual (Depreciated Value Exit)
-      - Annual (TEV Exit)
-- **Key Components**: Investment, Accelerated Depreciation, EBIT, Cash Taxes, Cash Income, WC Investment, Capex, Cash Flow, Total Cash Flows, Unlevered IRR.
-- **Notes & Customizations**: This section includes two different exit scenarios for cash flow projections. The TEV exit uses a repeating annual series from 1979.
-
-
-====================================================================================================
-# SHEET 9: MCCP
-====================================================================================================
-
-## 1. Spreadsheet Overview
-- **Sheet Name**: MCCP
-- **Key Sections Identified**:
-    - Header/Title Section
-    - Utilization Summary
-    - Revenue and Cost Analysis
-    - EBITDA Calculation
-    - Chassis Acquisition Analysis
-    - Cash Flow Projections - Depreciated Value Exit
-    - Cash Flow Projections - TEV Exit
-
-## 2. Detailed Section Analysis
-
-### Header/Title Section
-- **Section Type**: Header
-- **Description & Purpose**: Contains the title of the analysis and potentially other high-level information.
-- **Cell Range**: A1:G3
-- **Layout Structure**:
-    - **Row Headers Location**: A1:A3, F3
-    - **Column Headers Location**: None
-    - **Data Range**: G3 (MH Erosion value)
-- **Time Series Details**: None
-- **Key Components**: Evergreen, MCCP, MH Erosion
-- **Notes & Customizations**: Basic header information.
-
-### Utilization Summary
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: Summarizes the utilization of assets (chassis) across different segments (Street - MH, Street - EVG, Terminal). Includes percentage breakdowns and utilization rates.
-- **Cell Range**: C5:Q13
-- **Layout Structure**:
-    - **Row Headers Location**: C6:C13
-    - **Column Headers Location**: G6:Q6 (Implied years, but not explicitly labeled)
-    - **Data Range**: G7:Q13
-- **Time Series Details**:
-    - **Date Range**: Implied annual series, likely 2015 to 2021 (based on column count).
-    - **Frequency**: Annual
-- **Key Components**: Street - MH, Terminal, Grand Total, % of Street - MH, % of Street - EVG, % of Total - Terminal, Utilization Rate
-- **Notes & Customizations**: Utilization metrics for different segments.
-
-### Revenue and Cost Analysis
-- **Section Type**: Custom P&L
-- **Description & Purpose**: Details the revenue and cost components related to chassis usage, broken down by segment (EVG Street, Terminal). Includes calculations of costs per usage day.
-- **Cell Range**: B16:Q74
-- **Layout Structure**:
-    - **Row Headers Location**: B17:B74, C19, C24, C29, C33, C37, C41, C42, C43, C57:C63
-    - **Column Headers Location**: H16:Q16 (Implied years, but not explicitly labeled)
-    - **Data Range**: H17:Q74, E17:G19
-- **Time Series Details**:
-    - **Date Range**: Implied annual series, likely 2015 to 2021 (based on column count).
-    - **Frequency**: Annual
-- **Key Components**: EVG, Street - EVG, Terminal, Revenue, EVG Street Costs, Terminal Billings, M&R Cost, Admin Expense, Repo Expense, Total Cost
-- **Notes & Customizations**: Detailed revenue and cost breakdown, including per-day metrics. Includes inflation assumptions in columns U and V.
-
-### EBITDA Calculation
-- **Section Type**: Standard P&L
-- **Description & Purpose**: Calculates EBITDA and related metrics based on the revenue and cost analysis.
-- **Cell Range**: B76:Q79
-- **Layout Structure**:
-    - **Row Headers Location**: B76, C77, C78, B79
-    - **Column Headers Location**: H16:Q16 (Implied years, but not explicitly labeled)
-    - **Data Range**: H76:Q79
-- **Time Series Details**:
-    - **Date Range**: Implied annual series, likely 2015 to 2021 (based on column count).
-    - **Frequency**: Annual
-- **Key Components**: EBITDA, EBITDA per Usage Day, EBITDA per Chassis per Day, EBITDA Margin (%)
-- **Notes & Customizations**: Standard EBITDA calculation.
-
-### Chassis Acquisition Analysis
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: Analyzes the costs associated with acquiring chassis, including purchase price, reconditioning, and other related expenses.
-- **Cell Range**: B82:G100
-- **Layout Structure**:
-    - **Row Headers Location**: B83:B100
-    - **Column Headers Location**: None
-    - **Data Range**: G83:G100, F88
-- **Time Series Details**: None
-- **Key Components**: Chassis to be Acquired, Price per Chassis, Payment to EVG, Sales Tax, Total Chassis Price, Reconditioning Costs, Working Capital Investment, Transaction Expenses, Total Effective Purchase Price, Cash Multiple of 2014 EBITDA - Owned
-- **Notes & Customizations**: One-time acquisition cost analysis.
-
-### Cash Flow Projections - Depreciated Value Exit
-- **Section Type**: Cash Flow Projections
-- **Description & Purpose**: Projects cash flows based on a depreciated value exit scenario.
-- **Cell Range**: B104:Q119
-- **Layout Structure**:
-    - **Row Headers Location**: B104:B119
+    - **Row Headers Location**: B105:B115, B117, B119
     - **Column Headers Location**: G104:Q104 (Years)
-    - **Data Range**: G105:Q119, E111, E113, E119, F119
+    - **Data Range**: H105:Q117
 - **Time Series Details**:
-    - **Date Range**: 2015 to 2021 (based on column count).
+    - **Date Range**: Year 0 to Year 10
     - **Frequency**: Annual
-- **Key Components**: Investment, EBITDA, Accelerated Depreciation, EBIT, Cash Taxes @, Cash Income, WC Investment @, Capex, Cash Flow, Total Cash Flows, Unlevered IRR, NPV
-- **Notes & Customizations**: Cash flow projections with a depreciated value exit.
+- **Key Components**: Investment, Accelerated Depreciation, EBIT, Cash Taxes, Cash Income, WC Investment, Capex, Cash Flow, Total Cash Flows, Unlevered IRR, NPV
+- **Notes & Customizations**: Calculates unlevered IRR and NPV based on projected cash flows.
 
-### Cash Flow Projections - TEV Exit
-- **Section Type**: Cash Flow Projections
-- **Description & Purpose**: Projects cash flows based on a Total Enterprise Value (TEV) exit scenario.
+### Section Name: Cash Flow Analysis - TEV Exit
+- **Section Type**: Waterfall Chart Data
+- **Description & Purpose**: Projects cash flows based on a Total Enterprise Value (TEV) exit strategy, including investment, accelerated depreciation, EBIT, cash taxes, cash income, WC investment, capex, and cash flow.
 - **Cell Range**: B121:L136
 - **Layout Structure**:
-    - **Row Headers Location**: B121:B136
+    - **Row Headers Location**: B122:B132, B134, B136
     - **Column Headers Location**: G121:L121 (Years)
-    - **Data Range**: G122:L136, E123, E128, E130, E136
+    - **Data Range**: H122:L134
 - **Time Series Details**:
-    - **Date Range**: 2015 to 2020 (based on column count).
+    - **Date Range**: Year 0 to Year 5
     - **Frequency**: Annual
-- **Key Components**: Investment, EBITDA, Accelerated Depreciation, EBIT, Cash Taxes @, Cash Income, WC Investment @, Capex, Cash Flow, Total Cash Flows, Unlevered IRR
-- **Notes & Customizations**: Cash flow projections with a TEV exit.
+- **Key Components**: Investment, Accelerated Depreciation, EBIT, Cash Taxes, Cash Income, WC Investment, Capex, Cash Flow, Total Cash Flows, Unlevered IRR
+- **Notes & Customizations**: Calculates unlevered IRR based on projected cash flows.
+
 
 
 ====================================================================================================
-# SHEET 10: MWCP
+# SHEET 6: Evergreen
 ====================================================================================================
 
-## 1. Spreadsheet Overview
-- **Sheet Name**: MWCP
-- **Key Sections Identified**:
-    - Utilization Summary
-    - Revenue and Cost Analysis
-    - EBITDA Calculation
-    - Chassis Acquisition Analysis
-    - Cash Flow Projections (Depreciated Value Exit)
-    - Cash Flow Projections (TEV Exit)
-    - Annual Inflation Assumptions
-
-## 2. Detailed Section Analysis
+## 1. **Sheet Name**: Evergreen
 
 ### Utilization Summary
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section summarizes the utilization of assets (chassis) across different locations (Street - MH, Street - EVG, Terminal) and calculates utilization rates. It provides a high-level overview of asset usage.
-- **Cell Range**: C5:Q13
-- **Layout Structure**:
-    - **Row Headers Location**: C5:C13
-    - **Column Headers Location**: G6:Q6
-    - **Data Range**:
-      - Annual data: G7:Q12
-- **Time Series Details**:
-    - **Date Range**: Not explicitly specified in the provided data, but based on the subsequent sections, it appears to cover a multi-year period. Assuming 2015-2027 based on the other sections.
-    - **Frequency**: Annual
-- **Key Components**: Street - MH, Street - EVG, Terminal, Grand Total, % of Street - MH, % of Street - EVG, % of Total - Terminal, Utilization Rate.
-- **Notes & Customizations**: The section calculates percentages and utilization rates based on the usage data.
-
-### Revenue and Cost Analysis
-- **Section Type**: Custom P&L
-- **Description & Purpose**: This section details the revenue and cost components related to the business, broken down by different categories (e.g., EVG Street, Terminal). It calculates revenue, various costs (M&R, Admin, Repo, etc.), and provides per-day cost metrics.
-- **Cell Range**: B17:Q74
-- **Layout Structure**:
-    - **Row Headers Location**: B17:B74, C19, C29, C33, C37, C41, C42, C43, C57:C63
-    - **Column Headers Location**: H16:Q16
-    - **Data Range**:
-      - Annual data: H17:Q74 (with some exceptions like E17:G19)
-- **Time Series Details**:
-    - **Date Range**: Not explicitly specified in the provided data, but based on the subsequent sections, it appears to cover a multi-year period. Assuming 2015-2027 based on the other sections.
-    - **Frequency**: Annual
-- **Key Components**: EVG Street Revenue, Terminal Revenue, Total Revenue, M&R Cost, Admin Expense, Repo Expense, Total Cost.
-- **Notes & Customizations**: This section includes calculations for "Per Usage Day" costs and "Per Contr. Day" costs, indicating a focus on daily operational metrics. It also includes lease costs and gain sharing.
-
-### EBITDA Calculation
-- **Section Type**: Standard P&L
-- **Description & Purpose**: This section calculates EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) based on the revenue and cost data from the previous section. It also calculates EBITDA per Usage Day and EBITDA Margin.
-- **Cell Range**: B76:Q79
-- **Layout Structure**:
-    - **Row Headers Location**: B76, C77, C78, B79
-    - **Column Headers Location**: H16:Q16
-    - **Data Range**:
-      - Annual data: H76:Q79
-- **Time Series Details**:
-    - **Date Range**: Not explicitly specified in the provided data, but based on the subsequent sections, it appears to cover a multi-year period. Assuming 2015-2027 based on the other sections.
-    - **Frequency**: Annual
-- **Key Components**: EBITDA, EBITDA per Usage Day, EBITDA per Chassis per Day, EBITDA Margin (%).
-- **Notes & Customizations**: This section focuses on profitability metrics related to asset utilization.
-
-### Chassis Acquisition Analysis
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section analyzes the costs associated with acquiring chassis, including the purchase price, reconditioning costs, and other related expenses. It calculates the total effective purchase price.
-- **Cell Range**: B82:G100
-- **Layout Structure**:
-    - **Row Headers Location**: B83:B98, B100
-    - **Column Headers Location**: G82
-    - **Data Range**:
-      - Single period data: G83:G98, G100
-- **Time Series Details**:
-    - **Date Range**: Single period (Upfront)
-    - **Frequency**: N/A
-- **Key Components**: Chassis to be Acquired, Price per Chassis, Payment to EVG, Total Effective Purchase Price, Cash Multiple of 2014 EBITDA - Owned.
-- **Notes & Customizations**: This section provides a detailed breakdown of the costs involved in acquiring chassis assets.
-
-### Cash Flow Projections (Depreciated Value Exit)
-- **Section Type**: Cash Flow Projections
-- **Description & Purpose**: This section projects cash flows based on a depreciated value exit scenario. It includes investments, EBITDA, depreciation, taxes, working capital investment, capex, and calculates the unlevered IRR and NPV.
-- **Cell Range**: B104:Q119
-- **Layout Structure**:
-    - **Row Headers Location**: B104:B119
-    - **Column Headers Location**: G6:Q6
-    - **Data Range**:
-      - Annual data: G104:Q117
-- **Time Series Details**:
-    - **Date Range**: Not explicitly specified in the provided data, but based on the subsequent sections, it appears to cover a multi-year period. Assuming 2015-2027 based on the other sections.
-    - **Frequency**: Annual
-- **Key Components**: EBITDA, Accelerated Depreciation, EBIT, Cash Taxes @, Cash Income, WC Investment @, Capex, Cash Flow, Total Cash Flows, Unlevered IRR.
-- **Notes & Customizations**: This section models the financial performance of the business under a specific exit scenario.
-
-### Cash Flow Projections (TEV Exit)
-- **Section Type**: Cash Flow Projections
-- **Description & Purpose**: This section projects cash flows based on a Total Enterprise Value (TEV) exit scenario. It includes investments, EBITDA, depreciation, taxes, working capital investment, capex, and calculates the unlevered IRR and NPV.
-- **Cell Range**: B121:L136
-- **Layout Structure**:
-    - **Row Headers Location**: B121:B136
-    - **Column Headers Location**: Not explicitly specified, but assumed to be similar to the previous section.
-    - **Data Range**:
-      - Annual data: H125:L134
-- **Time Series Details**:
-    - **Date Range**: Not explicitly specified in the provided data, but based on the subsequent sections, it appears to cover a multi-year period. Assuming 2015-2020 based on the column range.
-    - **Frequency**: Annual
-- **Key Components**: EBITDA, Accelerated Depreciation, EBIT, Cash Taxes @, Cash Income, WC Investment @, Capex, Cash Flow, Total Cash Flows, Unlevered IRR.
-- **Notes & Customizations**: This section models the financial performance of the business under a specific exit scenario.
-
-### Annual Inflation Assumptions
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section defines the annual inflation assumptions used in the financial projections.
-- **Cell Range**: U32:V41
-- **Layout Structure**:
-    - **Row Headers Location**: U33:U41
-    - **Column Headers Location**: U32
-    - **Data Range**:
-      - Single period data: V33:V41
-- **Time Series Details**:
-    - **Date Range**: Single period (Current)
-    - **Frequency**: N/A
-- **Key Components**: Trucker Rate Inflation, EVG Rate Inflation, Terminal Rate Inflation, M&R Cost Inflation, Admin Cost Inflation, Repo Cost Inflation, Other Cost Inflation.
-- **Notes & Customizations**: This section provides the key assumptions driving the cost and revenue projections.
-
-
-====================================================================================================
-# SHEET 11: SACP
-====================================================================================================
-
-## 1. Spreadsheet Overview
-- **Sheet Name**: SACP
-- **Key Sections Identified**:
-    - Utilization Summary
-    - Revenue and Cost Analysis
-    - EBITDA Calculation
-    - Chassis Purchase Analysis
-    - Cash Flow Projections
-
-## 2. Detailed Section Analysis
-
-### Utilization Summary
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section summarizes the utilization of street and terminal assets, providing key performance indicators related to usage and contribution.
-- **Cell Range**: C5:Q13
-- **Layout Structure**:
-    - **Row Headers Location**: C5:C13
-    - **Column Headers Location**: G6:Q6 (implicit annual time series)
-    - **Data Range**: G7:Q12
-- **Time Series Details**:
-    - **Date Range**: 1922 to 1922 (based on `date_series_definitions`, but likely incorrect. The headers in G6:Q6 are numbers, not dates, so it's likely a 2015-2021 or similar range. Needs manual verification.)
-    - **Frequency**: Annual (but inferred, given the repeating annual pattern)
-- **Key Components**: Street - MH, Terminal, Grand Total, % of Street - MH, % of Street - EVG, % of Total - Terminal, Utilization Rate.
-- **Notes & Customizations**: The date series definition is incorrect. The data in G6:Q6 is likely representing years, not repeating values from 1922.
-
-### Revenue and Cost Analysis
-- **Section Type**: Custom P&L
-- **Description & Purpose**: This section details the revenue and cost components associated with EVG's street and terminal operations, providing a breakdown of expenses and revenue streams.
-- **Cell Range**: B17:Q74
-- **Layout Structure**:
-    - **Row Headers Location**: B17:B74, C19, C24, C29, C33, C37, C41, C42, C43, C57:C63
-    - **Column Headers Location**: H16:Q16 (implicit annual time series)
-    - **Data Range**: H17:Q74
-- **Time Series Details**:
-    - **Date Range**: 1922 to 1922 (based on `date_series_definitions`, but likely incorrect. The headers in H16:Q16 are numbers, not dates, so it's likely a 2015-2021 or similar range. Needs manual verification.)
-    - **Frequency**: Annual (but inferred, given the repeating annual pattern)
-- **Key Components**: EVG Street Revenue, Terminal Revenue, M&R Cost, Admin Expense, Repo Expense, Other Expense, Total Cost, Revenue, Per Usage Day.
-- **Notes & Customizations**: Includes calculations for revenue, costs, and per-day metrics.
-
-### EBITDA Calculation
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section calculates EBITDA and related metrics based on the revenue and cost analysis.
-- **Cell Range**: B76:Q79
-- **Layout Structure**:
-    - **Row Headers Location**: B76, C77, C78, B79
-    - **Column Headers Location**: H16:Q16 (implicit annual time series)
-    - **Data Range**: H76:Q79
-- **Time Series Details**:
-    - **Date Range**: 1922 to 1922 (based on `date_series_definitions`, but likely incorrect. The headers in H16:Q16 are numbers, not dates, so it's likely a 2015-2021 or similar range. Needs manual verification.)
-    - **Frequency**: Annual (but inferred, given the repeating annual pattern)
-- **Key Components**: EBITDA, EBITDA per Usage Day, EBITDA per Chassis per Day, EBITDA Margin (%).
-- **Notes & Customizations**: Calculates EBITDA and related metrics.
-
-### Chassis Purchase Analysis
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section analyzes the costs associated with purchasing chassis, including reconditioning, decoupling, and other related expenses.
-- **Cell Range**: B82:G100
-- **Layout Structure**:
-    - **Row Headers Location**: B83:B98, B100
-    - **Column Headers Location**: G82
-    - **Data Range**: G83:G98, G100
-- **Time Series Details**:
-    - **Date Range**: Not Applicable (one-time purchase analysis)
-    - **Frequency**: Not Applicable
-- **Key Components**: Chassis to be Acquired, Price per Chassis, Payment to EVG, Sales Tax, Total Chassis Price, Reconditioning Costs, Decouping Costs, Total Effective Purchase Price.
-- **Notes & Customizations**: Details the costs associated with a one-time chassis purchase.
-
-### Cash Flow Projections
-- **Section Type**: Cash Flow Projections
-- **Description & Purpose**: This section projects cash flows based on the operating performance and investment assumptions, including an analysis of IRR and NPV.
-- **Cell Range**: B104:Q136
-- **Layout Structure**:
-    - **Row Headers Location**: B104:B117, B119, B121, B123, B125:B134, B136
-    - **Column Headers Location**: G104:Q104 (annual), G121:L121 (annual)
-    - **Data Range**: G105:Q117, H108:Q115, F119, H125:L134
-- **Time Series Details**:
-    - **Date Range**: G104:Q104 (Annual): 2015 to 2021 (inferred, needs verification)
-    - **Date Range**: G121:L121 (Annual): 2015 to 2020 (inferred, needs verification)
-    - **Frequency**: Annual
-- **Key Components**: EBITDA, Accelerated Depreciation, EBIT, Cash Taxes @, Cash Income, WC Investment @, Capex, Cash Flow, Total Cash Flows, Unlevered IRR.
-- **Notes & Customizations**: Projects cash flows, calculates NPV and IRR, and includes exit assumptions. There are two separate annual time series in this section.
-
-
-====================================================================================================
-# SHEET 12: PSW
-====================================================================================================
-
-## 1. Spreadsheet Overview
-- **Sheet Name**: PSW
-- **Key Sections Identified**:
-    - Utilization Summary
-    - Revenue and Cost Analysis
-    - EBITDA Calculation
-    - Chassis Acquisition Analysis
-    - Cash Flow Projections (Depreciated Value Exit)
-    - Cash Flow Projections (TEV Exit)
-    - Inflation Assumptions
-
-## 2. Detailed Section Analysis
-
-### Section Name: Utilization Summary
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: Presents a summary of utilization metrics for Street - MH, Street - EVG, and Terminal, including percentages and utilization rates. This section is used to understand the efficiency of chassis usage across different categories.
-- **Cell Range**: C5:Q13
-- **Layout Structure**:
-    - **Row Headers Location**: C5:C13
-    - **Column Headers Location**: G6:Q6 (Implied years, but not explicitly stated)
-    - **Data Range**: G7:Q12
-- **Time Series Details**:
-    - **Date Range**: Implied annual series, but the years are not explicitly stated in the data. Assuming 2015-2021 based on the number of columns.
-    - **Frequency**: Annual
-- **Key Components**: Street - MH, Terminal, Grand Total, % of Street - MH, % of Street - EVG, % of Total - Terminal, Utilization Rate.
-- **Notes & Customizations**: The percentages provide a comparative view of utilization across different segments.
-
-### Section Name: Revenue and Cost Analysis
-- **Section Type**: Custom P&L
-- **Description & Purpose**: Details the revenue and cost components related to EVG Street and Terminal operations. This section helps in understanding the drivers of revenue and costs.
-- **Cell Range**: B16:Q74
-- **Layout Structure**:
-    - **Row Headers Location**: B17:B74, C19, C24, C29, C33, C37, C41, C43, C57:C63
-    - **Column Headers Location**: H16:Q16 (Implied years, but not explicitly stated)
-    - **Data Range**: H17:Q74
-- **Time Series Details**:
-    - **Date Range**: Implied annual series, but the years are not explicitly stated in the data. Assuming 2015-2021 based on the number of columns.
-    - **Frequency**: Annual
-- **Key Components**: Revenue, EVG Street Costs, Terminal Billings, M&R Cost, Admin Expense, Repo Expense, Other Expense, Lease Costs, Total Cost.
-- **Notes & Customizations**: Includes calculations for costs per usage day and street day. Also includes inflation assumptions in columns U and V.
-
-### Section Name: EBITDA Calculation
-- **Section Type**: Standard P&L
-- **Description & Purpose**: Calculates EBITDA and related metrics based on the revenue and cost analysis. This section provides a key profitability measure.
-- **Cell Range**: B76:Q79
-- **Layout Structure**:
-    - **Row Headers Location**: B76, C77, C78, B79
-    - **Column Headers Location**: H71:Q71 (Date series detected, but seemingly incorrect. It's an annual series from 2080, which is likely an error. Assuming 2015-2021 based on the number of columns.)
-    - **Data Range**: H76:Q79
-- **Time Series Details**:
-    - **Date Range**: 2080-01-01 repeating 10 periods (as per `date_series_definitions`, but likely incorrect). Assuming 2015-2021 based on the number of columns.
-    - **Frequency**: Annual
-- **Key Components**: EBITDA, EBITDA per Usage Day, EBITDA per Chassis per Day, EBITDA Margin (%).
-- **Notes & Customizations**: Uses the results from the Revenue and Cost Analysis section.
-
-### Section Name: Chassis Acquisition Analysis
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: Analyzes the costs associated with acquiring chassis, including reconditioning, decoupling, repositioning, and other related expenses. This section is used to determine the total effective purchase price.
-- **Cell Range**: B82:G100
-- **Layout Structure**:
-    - **Row Headers Location**: B83:B98, B100
-    - **Column Headers Location**: G82
-    - **Data Range**: G83:G98, G100
-- **Time Series Details**:
-    - **Date Range**: Single point in time (Upfront).
-    - **Frequency**: N/A
-- **Key Components**: Chassis to be Acquired, Average Book Value / Owned Chassis, Price per Chassis, Payment to EVG, Total Chassis Price, Reconditioning Costs, Decouping Costs, Working Capital Investment, Total Effective Purchase Price.
-- **Notes & Customizations**: This section focuses on upfront costs and does not involve a time series.
-
-### Section Name: Cash Flow Projections (Depreciated Value Exit)
-- **Section Type**: Cash Flow Projections
-- **Description & Purpose**: Projects cash flows based on a depreciated value exit strategy. This section is used to evaluate the financial viability of the investment under this exit scenario.
-- **Cell Range**: B104:Q119
-- **Layout Structure**:
-    - **Row Headers Location**: B104:B119
-    - **Column Headers Location**: H108:Q108 (Implied years, but not explicitly stated)
-    - **Data Range**: G104:Q119
-- **Time Series Details**:
-    - **Date Range**: Implied annual series, but the years are not explicitly stated in the data. Assuming 2015-2021 based on the number of columns.
-    - **Frequency**: Annual
-- **Key Components**: Investment, EBITDA, Accelerated Depreciation, EBIT, Cash Taxes, Cash Income, WC Investment, Capex, Cash Flow, Total Cash Flows, Unlevered IRR.
-- **Notes & Customizations**: Includes NPV and IRR calculations.
-
-### Section Name: Cash Flow Projections (TEV Exit)
-- **Section Type**: Cash Flow Projections
-- **Description & Purpose**: Projects cash flows based on a Total Enterprise Value (TEV) exit strategy. This section is used to evaluate the financial viability of the investment under this exit scenario.
-- **Cell Range**: B121:L136
-- **Layout Structure**:
-    - **Row Headers Location**: B121:B136
-    - **Column Headers Location**: H125:L125 (Implied years, but not explicitly stated)
-    - **Data Range**: G121:L136
-- **Time Series Details**:
-    - **Date Range**: Implied annual series, but the years are not explicitly stated in the data. Assuming 2015-2019 based on the number of columns.
-    - **Frequency**: Annual
-- **Key Components**: Investment, EBITDA, Accelerated Depreciation, EBIT, Cash Taxes, Cash Income, WC Investment, Capex, Cash Flow, Total Cash Flows, Unlevered IRR.
-- **Notes & Customizations**: Includes NPV and IRR calculations.
-
-### Section Name: Inflation Assumptions
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: Defines the annual inflation assumptions used in the model.
-- **Cell Range**: U32:V41
-- **Layout Structure**:
-    - **Row Headers Location**: U32:U41
-    - **Column Headers Location**: None
-    - **Data Range**: V33:V41
-- **Time Series Details**:
-    - **Date Range**: N/A (Single point in time).
-    - **Frequency**: N/A
-- **Key Components**: Trucker Rate Inflation, EVG Rate Inflation, Terminal Rate Inflation, M&R Cost Inflation, Admin Cost Inflation, Repo Cost Inflation, Other Cost Inflation.
-- **Notes & Customizations**: These assumptions drive the inflation adjustments in the Revenue and Cost Analysis section.
-
-
-====================================================================================================
-# SHEET 13: Customer Output - LA
-====================================================================================================
-
-## 1. Spreadsheet Overview
-- **Sheet Name**: Customer Output - LA
-- **Key Sections Identified**:
-    - Header
-    - Assumptions
-    - Scenario Table
-
-## 2. Detailed Section Analysis
-
-### Header
-- **Section Type**: Header
-- **Description & Purpose**: Contains the company name and a brief description of the report.
-- **Cell Range**: A1:A3
-- **Layout Structure**:
-    - **Row Headers Location**: Column A
-    - **Column Headers Location**: None
-    - **Data Range**: A1:A3
-- **Time Series Details**: None
-- **Key Components**: Company Name, Report Title, Location
-- **Notes & Customizations**: Simple header information.
-
-### Assumptions
-- **Section Type**: Assumptions
-- **Description & Purpose**: Lists the key assumptions used in the calculations.
-- **Cell Range**: C5:C10
-- **Layout Structure**:
-    - **Row Headers Location**: Column C
-    - **Column Headers Location**: None
-    - **Data Range**: C5:C10
-- **Time Series Details**: None
-- **Key Components**: Chassis age, EVG usage, MH billing rate, Terminal usage.
-- **Notes & Customizations**: Numbered list of assumptions.
-
-### Scenario Table
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: Presents different scenarios with varying purchase prices, MH percentages, and rates.
-- **Cell Range**: B13:G33
-- **Layout Structure**:
-    - **Row Headers Location**: Column B
-    - **Column Headers Location**: Row 13
-    - **Data Range**: C14:G33
-- **Time Series Details**: None
-- **Key Components**: Purchase Price per Chassis, Total Purchase Price, MH %, CH Rate, Terminal Rate.
-- **Notes & Customizations**: Data is scaled by 1000 in columns C, D, F, and G.
-
-
-
-====================================================================================================
-# SHEET 14: Customer Output - APMT
-====================================================================================================
-
-## 1. Spreadsheet Overview
-- **Sheet Name**: Customer Output - APMT
-- **Key Sections Identified**:
-    - Header
-    - Assumptions
-    - Purchase Price Table
-
-## 2. Detailed Section Analysis
-
-### Section Name (Header)
-- **Section Type**: Header
-- **Description & Purpose**: Contains the title and subtitle of the report, specifying the customer and report type.
-- **Cell Range**: A1:A3
-- **Layout Structure**:
-    - **Row Headers Location**: N/A
-    - **Column Headers Location**: N/A
-    - **Data Range**: A1:A3
-- **Time Series Details**: N/A
-- **Key Components**: "Direct ChassisLink Inc.", "Summary of Options for EVG", "APMT"
-- **Notes & Customizations**: N/A
-
-### Section Name (Assumptions)
-- **Section Type**: Assumptions
-- **Description & Purpose**: Lists the key assumptions used in the calculations and analysis presented in the spreadsheet.
-- **Cell Range**: C5:C10
-- **Layout Structure**:
-    - **Row Headers Location**: N/A
-    - **Column Headers Location**: N/A
-    - **Data Range**: C5:C10
-- **Time Series Details**: N/A
-- **Key Components**: Assumptions related to chassis age, usage, and billing rates.
-- **Notes & Customizations**: N/A
-
-### Section Name (Purchase Price Table)
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: Presents key metrics related to purchase price, MH percentage, and rates.
-- **Cell Range**: B13:G33
-- **Layout Structure**:
-    - **Row Headers Location**: B14:B33
-    - **Column Headers Location**: C13:G13
-    - **Data Range**: B14:B33 (Purchase Price per Chassis), D14:D33 (Total Purchase Price), E14:E33 (MH %), F14:F33 (CH Rate), G14:G33 (Terminal Rate)
-- **Time Series Details**: N/A
-- **Key Components**: Purchase Price per Chassis, Total Purchase Price, MH %, CH Rate, Terminal Rate
-- **Notes & Customizations**: N/A
-
-
-
-====================================================================================================
-# SHEET 15: PNW
-====================================================================================================
-
-## 1. Spreadsheet Overview
-- **Sheet Name**: PNW
-- **Key Sections Identified**:
-    - Utilization Summary
-    - Revenue and Cost Analysis
-    - EBITDA Calculation
-    - Upfront Investment Analysis
-    - Cash Flow Projections (Depreciated Value Exit)
-    - Cash Flow Projections (TEV Exit)
-    - Annual Inflation Assumptions
-
-## 2. Detailed Section Analysis
-
-### Utilization Summary
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section summarizes the utilization of assets (chassis) across different categories (Street - MH, Street - EVG, Terminal) and calculates utilization rates. It provides a high-level overview of asset usage.
+- **Description & Purpose**: Presents a summary of chassis utilization metrics across different categories (Street - MH, Street - EVG, Terminal, Grand Total) and calculates utilization rates. It helps to understand how effectively the chassis are being used.
 - **Cell Range**: C5:Q13
 - **Layout Structure**:
     - **Row Headers Location**: C6:C13
-    - **Column Headers Location**: G6:Q6 (implied years)
-    - **Data Range**: G7:Q12
+    - **Column Headers Location**: G6:Q6 (Implied, based on data and other sections)
+    - **Data Range**: G6:Q13
 - **Time Series Details**:
-    - **Date Range**: Implied years, likely 2015 to 2021 (based on other sections).
+    - **Date Range**: Year 0 to Year 10 (G21:Q21)
     - **Frequency**: Annual
-- **Key Components**: Street - MH, Street - EVG, Terminal, Grand Total, % of Street - MH, % of Street - EVG, % of Total - Terminal, Utilization Rate
-- **Notes & Customizations**: The percentages provide a breakdown of utilization across different categories.
+- **Key Components**: Street - MH, Street - EVG, Terminal, Grand Total, % of Street - MH, % of Street - EVG, % of Total - Terminal, Utilization Rate.
+- **Notes & Customizations**: Includes calculations for percentages and utilization rates.
+
+### Cost and Revenue Drivers
+- **Section Type**: Key Metrics Table
+- **Description & Purpose**: Details the key cost and revenue drivers, broken down by M&R, Admin, and Repo. It also includes usage days and contributed days. This section is used to understand the cost structure and revenue generation.
+- **Cell Range**: B16:Q19
+- **Layout Structure**:
+    - **Row Headers Location**: B17:C19
+    - **Column Headers Location**: E16:Q16 (Implied, based on data and other sections)
+    - **Data Range**: E17:Q19
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10 (G21:Q21)
+    - **Frequency**: Annual
+- **Key Components**: EVG (M&R, Admin, Repo, Usage Days, Contr. Days), Per Usage Day, Per Contr. Day.
+- **Notes & Customizations**: Includes costs per usage day and per contributed day.
+
+### Chassis Usage and Revenue Projections
+- **Section Type**: Revenue and Cost Projection
+- **Description & Purpose**: Projects chassis usage, rates, and revenue for different categories (Street - Trucker, EVG Street, Terminal). It also includes annual inflation assumptions for various rates and costs. This section is used to forecast revenue and costs based on usage and rates.
+- **Cell Range**: B21:Q43
+- **Layout Structure**:
+    - **Row Headers Location**: B23:C43
+    - **Column Headers Location**: G21:Q21
+    - **Data Range**: H23:Q43
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10 (G21:Q21)
+    - **Frequency**: Annual
+- **Key Components**: Chassis Used per Day, Trucker Street Usage Days, Trucker Rate, Trucker Street Revenue, EVG Street Rental Days, EVG Street Rate, EVG Street Revenue, Terminal Usage Days, Terminal Rate, Terminal Revenue, Total Usage Days, Contributed Days, Usage, Street Utilization.
+- **Notes & Customizations**: Includes annual inflation assumptions for various rates and costs (U32:V41).
 
 ### Revenue and Cost Analysis
-- **Section Type**: Custom P&L
-- **Description & Purpose**: This section analyzes revenue and costs related to EVG Street and Terminal operations. It breaks down revenue by source (Trucker, EVG, Terminal) and costs by type (M&R, Admin, Repo, etc.). It helps understand the profitability drivers of the business.
-- **Cell Range**: B16:Q74
+- **Section Type**: Revenue and Cost Analysis
+- **Description & Purpose**: Analyzes revenue, costs, and profitability metrics. It includes revenue projections, cost breakdowns (EVG Street Costs, Terminal Billings), and per-day cost analysis. This section is used to understand the profitability of the business.
+- **Cell Range**: B45:Q79
 - **Layout Structure**:
-    - **Row Headers Location**: B17:B74, C19, C24, C29, C33, C37, C41, C42, C43, C57:C63
-    - **Column Headers Location**: H16:Q16 (implied years)
-    - **Data Range**: H17:Q74, E17:G19
+    - **Row Headers Location**: B45:C79
+    - **Column Headers Location**: H46:Q46 (Implied, based on data and other sections)
+    - **Data Range**: H46:Q79
 - **Time Series Details**:
-    - **Date Range**: Implied years, likely 2015 to 2021 (based on other sections).
+    - **Date Range**: Year 0 to Year 10 (G21:Q21)
     - **Frequency**: Annual
-- **Key Components**: EVG Street Revenue, Terminal Revenue, Total Revenue, M&R Cost, Admin Expense, Repo Expense, Other Expense, Total Cost
-- **Notes & Customizations**: Includes calculations for cost per usage day and various lease costs.
+- **Key Components**: Revenue, EVG Street Costs, Terminal Billings, EVG Street Days, Terminal Days, EVG Average Cost per EVG Usage Day, Per Usage Day Costs (M&R, Admin, Repo, Other, Lease), M&R Cost, Admin Expense, Repo Expense, Other Expense, Bad Debt Expense, Lease Cost, Total Cost, EBITDA, EBITDA per Usage Day, EBITDA per Chassis per Day, EBITDA Margin (%).
+- **Notes & Customizations**: Includes calculations for per-day costs and profitability metrics.
 
-### EBITDA Calculation
-- **Section Type**: Standard P&L (EBITDA section)
-- **Description & Purpose**: This section calculates EBITDA and related metrics (EBITDA per Usage Day, EBITDA per Chassis per Day, EBITDA Margin). It provides a measure of operating profitability.
-- **Cell Range**: B76:Q79
-- **Layout Structure**:
-    - **Row Headers Location**: B76, C77, C78, B79
-    - **Column Headers Location**: H76:Q76 (implied years)
-    - **Data Range**: H76:Q79
-- **Time Series Details**:
-    - **Date Range**: Implied years, likely 2015 to 2021 (based on other sections).
-    - **Frequency**: Annual
-- **Key Components**: EBITDA, EBITDA per Usage Day, EBITDA per Chassis per Day, EBITDA Margin (%)
-- **Notes & Customizations**: EBITDA is calculated based on the revenue and cost analysis above.
-
-### Upfront Investment Analysis
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section analyzes the upfront investment required for the transaction, including the purchase price of chassis, reconditioning costs, and working capital investment. It provides a summary of the initial cash outlay.
+### Chassis Acquisition Cost
+- **Section Type**: Investment Analysis
+- **Description & Purpose**: Details the costs associated with acquiring chassis, including the price per chassis, reconditioning costs, decoupling costs, repositioning costs, retitling & stenciling costs, working capital investment, offhire costs, and transaction expenses. It also calculates the total effective purchase price and cash multiple of EBITDA.
 - **Cell Range**: B82:G100
 - **Layout Structure**:
     - **Row Headers Location**: B83:B100
     - **Column Headers Location**: G82 (Total (Upfront))
-    - **Data Range**: G83:G100, F88
-- **Time Series Details**:
-    - **Date Range**: Single point in time (Upfront).
-    - **Frequency**: N/A
-- **Key Components**: Chassis to be Acquired, Price per Chassis, Payment to EVG, Total Chassis Price, Reconditioning Costs, Working Capital Investment, Total Effective Purchase Price
-- **Notes & Customizations**: Includes adjustments for scrap chassis and transaction expenses.
+    - **Data Range**: G83:G100
+- **Key Components**: Chassis to be Acquired, Average Book Value / Owned Chassis, Premium / (Discount) to Book, Price per Chassis, Payment to EVG, Sales Tax, Total Chassis Price, Reconditioning Costs, Decouping Costs, Repositioning, Retitling & Stenciling Costs, Working Capital Investment, Offhire Costs, Less: Scrap Chassis, Transaction Expenses, Total Effective Purchase Price, Cash Multiple of 2014 EBITDA - Owned.
+- **Notes & Customizations**: Includes calculations for the total effective purchase price and cash multiple of EBITDA.
 
 ### Cash Flow Projections (Depreciated Value Exit)
-- **Section Type**: Cash Flow Projections
-- **Description & Purpose**: This section projects cash flows based on a depreciated value exit scenario. It includes EBITDA, depreciation, taxes, working capital investment, and capex. It calculates total cash flows, NPV, and unlevered IRR.
+- **Section Type**: Cash Flow Analysis
+- **Description & Purpose**: Projects cash flows based on a depreciated value exit scenario. It includes investment, accelerated depreciation, EBIT, cash taxes, cash income, WC investment, capex, and cash flow. It also calculates the unlevered IRR and NPV.
 - **Cell Range**: B104:Q119
 - **Layout Structure**:
-    - **Row Headers Location**: B104:B119
-    - **Column Headers Location**: H104:Q104 (implied years)
-    - **Data Range**: G104:Q117, E111, E113, E119, F119
+    - **Row Headers Location**: B105:B119
+    - **Column Headers Location**: G104:Q104
+    - **Data Range**: H108:Q115
 - **Time Series Details**:
-    - **Date Range**: Implied years, likely 2015 to 2021 (based on other sections).
+    - **Date Range**: Year 0 to Year 10 (G104:Q104)
     - **Frequency**: Annual
-- **Key Components**: EBITDA, Accelerated Depreciation, EBIT, Cash Taxes @, Cash Income, WC Investment @, Capex, Cash Flow, Total Cash Flows, Unlevered IRR
-- **Notes & Customizations**: Includes a calculation for NPV.
+- **Key Components**: Investment, Accelerated Depreciation, EBIT, Cash Taxes, Cash Income, WC Investment, Capex, Cash Flow, Total Cash Flows, Unlevered IRR, NPV.
+- **Notes & Customizations**: Includes calculations for unlevered IRR and NPV.
 
 ### Cash Flow Projections (TEV Exit)
-- **Section Type**: Cash Flow Projections
-- **Description & Purpose**: This section projects cash flows based on a Total Enterprise Value (TEV) exit scenario. It includes EBITDA, depreciation, taxes, working capital investment, and capex. It calculates total cash flows, and unlevered IRR.
+- **Section Type**: Cash Flow Analysis
+- **Description & Purpose**: Projects cash flows based on a Total Enterprise Value (TEV) exit scenario. It includes investment, accelerated depreciation, EBIT, cash taxes, cash income, WC investment, capex, and cash flow.
 - **Cell Range**: B121:L136
 - **Layout Structure**:
-    - **Row Headers Location**: B121:B136
-    - **Column Headers Location**: H125:L125 (implied years)
-    - **Data Range**: G122:L134, E128, E130, E136
+    - **Row Headers Location**: B122:B136
+    - **Column Headers Location**: G121:L121
+    - **Data Range**: H125:L132
 - **Time Series Details**:
-    - **Date Range**: Implied years, likely 2015 to 2020 (based on other sections).
+    - **Date Range**: Year 0 to Year 5 (G121:L121)
     - **Frequency**: Annual
-- **Key Components**: EBITDA, Accelerated Depreciation, EBIT, Cash Taxes @, Cash Income, WC Investment @, Capex, Cash Flow, Total Cash Flows, Unlevered IRR
-- **Notes & Customizations**: Includes a calculation for exit value.
+- **Key Components**: Investment, Accelerated Depreciation, EBIT, Cash Taxes, Cash Income, WC Investment, Capex, Cash Flow, Total Cash Flows, Unlevered IRR.
+- **Notes & Customizations**: Includes calculations for unlevered IRR. The exit multiple is specified in E123.
 
-### Annual Inflation Assumptions
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section lists the annual inflation assumptions used in the model for various cost and revenue components.
-- **Cell Range**: U32:V41
-- **Layout Structure**:
-    - **Row Headers Location**: U33:U41
-    - **Column Headers Location**: U32 (Annual Inflation Assumptions:)
-    - **Data Range**: V33:V41
-- **Time Series Details**:
-    - **Date Range**: Single point in time (Assumptions).
-    - **Frequency**: N/A
-- **Key Components**: Trucker Rate Inflation, EVG Rate Inflation, Terminal Rate Inflation, M&R Cost Inflation, Admin Cost Inflation, Repo Cost Inflation, Other Cost Inflation
-- **Notes & Customizations**: These assumptions drive the growth rates in the projected financials.
 
 
 ====================================================================================================
-# SHEET 16: Oakland
+# SHEET 7: (Sheet name not provided in JSON, assuming "Sheet1")
 ====================================================================================================
 
-## 1. Spreadsheet Overview
-- **Sheet Name**: Oakland
-- **Key Sections Identified**:
-    - Utilization Summary
-    - Annual Inflation Assumptions
-    - Revenue and Cost Analysis
-    - EBITDA Calculation
-    - Chassis Acquisition Analysis
-    - Cash Flow Projections
+## 1. **Sheet Name**: (Sheet name not provided in JSON, assuming "Sheet1")
 
-## 2. Detailed Section Analysis
-
-### Utilization Summary
+### Section Name: Utilization Summary
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section summarizes the utilization of street and terminal chassis, providing key metrics like utilization rates and percentages. It's used to understand how effectively the chassis are being used.
+- **Description & Purpose**: Presents a summary of utilization metrics, including percentages of street and terminal usage, and overall utilization rates. This section provides a high-level overview of asset utilization.
 - **Cell Range**: C5:Q13
 - **Layout Structure**:
-    - **Row Headers Location**: Column C
-    - **Column Headers Location**: Row 6
-    - **Data Range**: G7:Q12
+    - **Row Headers Location**: C6:C13
+    - **Column Headers Location**: G6:Q6 (Implicitly, based on data structure)
+    - **Data Range**: G6:Q13
 - **Time Series Details**:
-    - **Date Range**: Not explicitly defined, but assumed to be annual from 2015 to 2021 based on the "Revenue and Cost Analysis" section.
-    - **Frequency**: Annual
-- **Key Components**: Street - MH, Terminal, Grand Total, % of Street - MH, % of Street - EVG, % of Total - Terminal, Utilization Rate.
-- **Notes & Customizations**: Includes percentage calculations based on different totals.
-
-### Annual Inflation Assumptions
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section defines the annual inflation assumptions used in the model for various cost and revenue components.
-- **Cell Range**: U32:V41
-- **Layout Structure**:
-    - **Row Headers Location**: Column U
-    - **Column Headers Location**: None
-    - **Data Range**: V33:V41
-- **Time Series Details**:
-    - **Date Range**: Not Applicable
-    - **Frequency**: Not Applicable
-- **Key Components**: Trucker Rate Inflation, EVG Rate Inflation, Terminal Rate Inflation, M&R Cost Inflation, Admin Cost Inflation, Repo Cost Inflation, Other Cost Inflation.
-- **Notes & Customizations**: This section is a simple table of inflation rates.
-
-### Revenue and Cost Analysis
-- **Section Type**: Custom P&L
-- **Description & Purpose**: This section details the revenue and cost components, calculating revenue, costs, and per-day metrics. It's used to analyze the profitability of the chassis operations.
-- **Cell Range**: B17:Q74
-- **Layout Structure**:
-    - **Row Headers Location**: Column B and C
-    - **Column Headers Location**: Row 16
-    - **Data Range**:
-      - Annual data: H17:Q74
-- **Time Series Details**:
-    - **Date Range**: 2015 to 2021
-    - **Frequency**: Annual
-- **Key Components**: EVG, M&R, Admin, Repo, Usage Days, Contr. Days, Revenue, EVG Street Costs, Terminal Billings, M&R Cost, Admin Expense, Repo Expense, Total Cost.
-- **Notes & Customizations**: Includes per-day cost calculations and breakdowns of revenue and cost components.
-
-### EBITDA Calculation
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section calculates EBITDA and related metrics, providing a measure of the operational profitability of the business.
-- **Cell Range**: B76:Q79
-- **Layout Structure**:
-    - **Row Headers Location**: Column B and C
-    - **Column Headers Location**: Row 6
-    - **Data Range**: H76:Q79
-- **Time Series Details**:
-    - **Date Range**: 2015 to 2021
-    - **Frequency**: Annual
-- **Key Components**: EBITDA, EBITDA per Usage Day, EBITDA per Chassis per Day, EBITDA Margin (%).
-- **Notes & Customizations**: Calculates EBITDA margin as a percentage.
-
-### Chassis Acquisition Analysis
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section analyzes the costs associated with acquiring chassis, including purchase price, reconditioning, and other related expenses.
-- **Cell Range**: B82:G100
-- **Layout Structure**:
-    - **Row Headers Location**: Column B
-    - **Column Headers Location**: Row 82
-    - **Data Range**: G83:G98
-- **Time Series Details**:
-    - **Date Range**: Not Applicable
-    - **Frequency**: Not Applicable
-- **Key Components**: Chassis to be Acquired, Average Book Value / Owned Chassis, Price per Chassis, Payment to EVG, Total Chassis Price, Reconditioning Costs, Total Effective Purchase Price, Cash Multiple of 2014 EBITDA - Owned.
-- **Notes & Customizations**: This section focuses on upfront costs and a multiple calculation.
-
-### Cash Flow Projections
-- **Section Type**: Custom Cash Flow
-- **Description & Purpose**: This section projects cash flows based on depreciated value exit and TEV exit, calculating NPV and IRR. It's used to assess the overall financial viability of the investment.
-- **Cell Range**: B104:Q136
-- **Layout Structure**:
-    - **Row Headers Location**: Column B
-    - **Column Headers Location**: Row 6
-    - **Data Range**:
-      - Annual data (Depreciated Value Exit): H108:Q115
-      - Annual data (TEV Exit): H125:L132
-- **Time Series Details**:
-    - **Date Range**: 2015 to 2021 (Depreciated Value Exit), 2015 to 2020 (TEV Exit)
-    - **Frequency**: Annual
-- **Key Components**: Investment, Accelerated Depreciation, EBIT, Cash Taxes @, Cash Income, WC Investment @, Capex, Cash Flow, Total Cash Flows, Unlevered IRR.
-- **Notes & Customizations**: Includes calculations for NPV and IRR based on projected cash flows. Two exit scenarios are considered: Depreciated Value and TEV.
-
-
-====================================================================================================
-# SHEET 17: NE
-====================================================================================================
-
-## 1. Spreadsheet Overview
-- **Sheet Name**: NE
-- **Key Sections Identified**:
-    - Utilization Summary
-    - Revenue and Cost Analysis
-    - EBITDA Calculation
-    - Chassis Acquisition Analysis
-    - Cash Flow Projections
-
-## 2. Detailed Section Analysis
-
-### Utilization Summary
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section provides a summary of utilization metrics for Street-MH, Street-EVG, and Terminal operations. It calculates utilization rates and percentages.
-- **Cell Range**: C5:Q13
-- **Layout Structure**:
-    - **Row Headers Location**: C5:C13
-    - **Column Headers Location**: G6:Q6 (Implied years, likely 2015-2021 based on other sections)
-    - **Data Range**: G7:Q12
-- **Time Series Details**:
-    - **Date Range**: 2015 to 2021 (inferred from other sections)
+    - **Date Range**: Year 0 to Year 10 (based on `ds_1` referenced in `G21:Q21`)
     - **Frequency**: Annual
 - **Key Components**: Street - MH, Terminal, Grand Total, % of Street - MH, % of Street - EVG, % of Total - Terminal, Utilization Rate
-- **Notes & Customizations**: The section calculates percentages of different categories and utilization rates.
+- **Notes & Customizations**: Includes percentage calculations based on street and terminal usage.
 
-### Revenue and Cost Analysis
-- **Section Type**: Custom P&L
-- **Description & Purpose**: This section analyzes revenue and costs related to EVG Street and Terminal operations. It calculates revenue, costs, and per-day metrics.
-- **Cell Range**: B16:Q74
-- **Layout Structure**:
-    - **Row Headers Location**: B17:B74, C19, C24, C29, C33, C37, C41, C42, C43, C57:C63
-    - **Column Headers Location**: H16:Q16 (Implied years, likely 2015-2021 based on other sections)
-    - **Data Range**:
-      - Annual data: H17:Q74
-- **Time Series Details**:
-    - **Date Range**: 2015 to 2021 (inferred from other sections)
-    - **Frequency**: Annual
-- **Key Components**: EVG Street Revenue, Terminal Revenue, Total Revenue, M&R Cost, Admin Expense, Repo Expense, Other Expense, Total Cost
-- **Notes & Customizations**: This section includes calculations for revenue, costs, and per-day metrics for both EVG Street and Terminal operations. It also includes annual inflation assumptions in columns U and V.
-
-### EBITDA Calculation
+### Section Name: Cost and Revenue Drivers
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section calculates EBITDA and related metrics, such as EBITDA per Usage Day, EBITDA per Chassis per Day, and EBITDA Margin (%).
+- **Description & Purpose**: Details the key cost and revenue drivers, including M&R, Admin, and Repo costs, as well as usage days and contribution days. This section provides insight into the factors influencing profitability.
+- **Cell Range**: B16:Q19
+- **Layout Structure**:
+    - **Row Headers Location**: B17:C19
+    - **Column Headers Location**: H16:Q16 (Implicitly, based on data structure)
+    - **Data Range**: E17:Q19
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10 (based on `ds_1` referenced in `G21:Q21`)
+    - **Frequency**: Annual
+- **Key Components**: EVG, Per Usage Day, Per Contr. Day, M&R, Admin, Repo, Usage Days, Contr. Days
+- **Notes & Customizations**: Includes costs per usage and contribution day.
+
+### Section Name: Revenue Projections
+- **Section Type**: Custom P&L (Revenue Section)
+- **Description & Purpose**: Projects revenue based on various factors such as chassis usage, rental rates, and inflation assumptions. This section is crucial for forecasting future income.
+- **Cell Range**: B21:Q46
+- **Layout Structure**:
+    - **Row Headers Location**: B23:C43
+    - **Column Headers Location**: G21:Q21 (Years)
+    - **Data Range**: H23:Q43
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10
+    - **Frequency**: Annual
+- **Key Components**: Chassis Used per Day, Trucker Street Usage Days, Trucker Rate, Trucker Street Revenue, EVG Street Rental Days, EVG Street Rate, EVG Street Revenue, Terminal Usage Days, Terminal Rate, Terminal Revenue, Total Usage Days, Contributed Days, Usage, Street Utilization
+- **Notes & Customizations**: Includes annual inflation assumptions for various rates and costs.
+
+### Section Name: Revenue Summary
+- **Section Type**: Custom P&L (Revenue Summary)
+- **Description & Purpose**: Summarizes the revenue projections, including total revenue and average costs per usage day. This section provides a consolidated view of revenue performance.
+- **Cell Range**: B45:Q54
+- **Layout Structure**:
+    - **Row Headers Location**: B45:B54
+    - **Column Headers Location**: H46:Q46 (Years)
+    - **Data Range**: H46:Q54
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10
+    - **Frequency**: Annual
+- **Key Components**: Revenue, EVG Street Costs, Terminal Billings, EVG Street Days, Terminal Days, EVG Average Cost per EVG Usage Day, EVG Average Cost per EVG Street Day, EVG Terminal Cost per Terminal Day
+- **Notes & Customizations**: Includes calculations for average costs per usage day.
+
+### Section Name: Cost Projections
+- **Section Type**: Custom P&L (Cost Section)
+- **Description & Purpose**: Projects costs based on per-usage-day costs, lease costs, and other expenses. This section is critical for forecasting future expenses.
+- **Cell Range**: B56:Q74
+- **Layout Structure**:
+    - **Row Headers Location**: B56:C73
+    - **Column Headers Location**: H57:Q57 (Years)
+    - **Data Range**: H57:Q74
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10
+    - **Frequency**: Annual
+- **Key Components**: Per Usage Day Costs, M&R Cost per Day, Admin Cost per Day, Repo Cost per Day, Other Cost per Day, Lease Cost per Day on EVG Chassis, Lease Cost per Day on EVG Leases, Incremental Pool Overuse Cost per Day, M&R Cost, Admin Expense, Repo Expense, Other Expense, Bad Debt Expense, Lease Cost on EVG Owned Chassis, Lease Cost on EVG Existing Leases, Lease Cost for Additional Capactiy, Gain Sharing with EVG on MH Conversion, Total Cost
+- **Notes & Customizations**: Includes various lease cost components and gain sharing arrangements.
+
+### Section Name: EBITDA Analysis
+- **Section Type**: Key Metrics Table
+- **Description & Purpose**: Analyzes EBITDA, including EBITDA per usage day and EBITDA margin. This section provides key profitability metrics.
 - **Cell Range**: B76:Q79
 - **Layout Structure**:
-    - **Row Headers Location**: B76, C77, C78, B79
-    - **Column Headers Location**: H16:Q16 (Implied years, likely 2015-2021 based on other sections)
-    - **Data Range**: H76:Q79
+    - **Row Headers Location**: B76:C78
+    - **Column Headers Location**: H77:Q77 (Years)
+    - **Data Range**: H77:Q79
 - **Time Series Details**:
-    - **Date Range**: 2015 to 2021 (inferred from other sections)
+    - **Date Range**: Year 0 to Year 10
     - **Frequency**: Annual
 - **Key Components**: EBITDA, EBITDA per Usage Day, EBITDA per Chassis per Day, EBITDA Margin (%)
-- **Notes & Customizations**: This section focuses on EBITDA-related metrics and their trends over time.
+- **Notes & Customizations**: Includes EBITDA margin calculation.
 
-### Chassis Acquisition Analysis
+### Section Name: Initial Investment
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section analyzes the costs associated with acquiring chassis, including the purchase price, reconditioning costs, and other related expenses.
+- **Description & Purpose**: Details the initial investment required, including chassis acquisition costs, reconditioning costs, and working capital investment. This section provides a summary of upfront costs.
 - **Cell Range**: B82:G100
 - **Layout Structure**:
-    - **Row Headers Location**: B83:B98, B100
-    - **Column Headers Location**: G82
-    - **Data Range**: G83:G98, G100
+    - **Row Headers Location**: B83:B98
+    - **Column Headers Location**: G82 (Single Column)
+    - **Data Range**: G83:G98
 - **Time Series Details**:
-    - **Date Range**: Single point in time (Upfront)
+    - **Date Range**: Not Time Series
     - **Frequency**: N/A
-- **Key Components**: Chassis to be Acquired, Price per Chassis, Total Chassis Price, Reconditioning Costs, Total Effective Purchase Price, Cash Multiple of 2014 EBITDA - Owned
-- **Notes & Customizations**: This section provides a detailed breakdown of the costs associated with acquiring chassis.
+- **Key Components**: Chassis to be Acquired, Average Book Value / Owned Chassis, Premium / (Discount) to Book, Price per Chassis, Payment to EVG, Sales Tax, Total Chassis Price, Reconditioning Costs, Decouping Costs, Repositioning, Retitling & Stenciling Costs, Working Capital Investment, Offhire Costs, Less: Scrap Chassis at $1,000 per Chassis, Transaction Expenses, Total Effective Purchase Price, Cash Multiple of 2014 EBITDA - Owned
+- **Notes & Customizations**: Includes calculations for total effective purchase price and cash multiple of EBITDA.
 
-### Cash Flow Projections
-- **Section Type**: Cash Flow Projections
-- **Description & Purpose**: This section projects cash flows based on depreciated value exit and TEV exit scenarios. It calculates key metrics such as Unlevered IRR and NPV.
-- **Cell Range**: B104:Q136
+### Section Name: Cash Flows - Depreciated Value Exit
+- **Section Type**: Cash Flow Projection
+- **Description & Purpose**: Projects cash flows based on a depreciated value exit strategy. This section is used to estimate the return on investment.
+- **Cell Range**: B104:Q119
 - **Layout Structure**:
-    - **Row Headers Location**: B104, B106, B105, B121, B123, B108:B117, B119, B125:B134, B136
-    - **Column Headers Location**: G104:Q104 (Years, likely 2015-2021), G121:L121 (Years, likely 2015-2020)
-    - **Data Range**:
-      - Annual data (Depreciated Value Exit): H108:Q115, G117
-      - Annual data (TEV Exit): H125:L132, G134
+    - **Row Headers Location**: B105:B117, F118
+    - **Column Headers Location**: G104:Q104 (Years)
+    - **Data Range**: H108:Q117, E119
 - **Time Series Details**:
-    - **Date Range**: 2015 to 2021 (Depreciated Value Exit), 2015 to 2020 (TEV Exit)
+    - **Date Range**: Year 0 to Year 10
     - **Frequency**: Annual
-- **Key Components**: Investment, EBITDA, Accelerated Depreciation, EBIT, Cash Taxes, Cash Income, WC Investment, Capex, Cash Flow, Total Cash Flows, Unlevered IRR, NPV
-- **Notes & Customizations**: This section includes two cash flow projection scenarios: one based on depreciated value exit and another based on TEV exit. It calculates key financial metrics such as Unlevered IRR and NPV.
+- **Key Components**: Investment, Accelerated Depreciation, EBIT, Cash Taxes @, Cash Income, WC Investment @, Capex, Cash Flow, Total Cash Flows, Unlevered IRR, NPV
+- **Notes & Customizations**: Includes calculations for unlevered IRR and NPV.
+
+### Section Name: Cash Flows - TEV Exit
+- **Section Type**: Cash Flow Projection
+- **Description & Purpose**: Projects cash flows based on a Total Enterprise Value (TEV) exit strategy. This section is used to estimate the return on investment under a different exit scenario.
+- **Cell Range**: B121:L136
+- **Layout Structure**:
+    - **Row Headers Location**: B122:B134, F118
+    - **Column Headers Location**: G121:L121 (Years)
+    - **Data Range**: H125:L134, E136
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 5
+    - **Frequency**: Annual
+- **Key Components**: Investment, Accelerated Depreciation, EBIT, Cash Taxes @, Cash Income, WC Investment @, Capex, Cash Flow, Total Cash Flows, Unlevered IRR, NPV
+- **Notes & Customizations**: Includes calculations for unlevered IRR and NPV.
 
 
 ====================================================================================================
-# SHEET 18: HRCP
+# SHEET 8: Evergreen
 ====================================================================================================
 
-## 1. Spreadsheet Overview
-- **Sheet Name**: HRCP
-- **Key Sections Identified**:
-    - Utilization Summary
-    - Revenue & Cost Analysis
-    - Chassis Acquisition Analysis
-    - Cash Flow Projections
+## 1. **Sheet Name**: Evergreen
 
-## 2. Detailed Section Analysis
-
-### Utilization Summary
+### Section Name: Utilization Summary
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section summarizes the utilization of assets (presumably chassis) across different categories (Street-MH, Street-EVG, Terminal). It provides key metrics like utilization rates and percentages.
+- **Description & Purpose**: This section summarizes the utilization of chassis across different categories (Street-MH, Street-EVG, Terminal) and calculates utilization rates. It provides a high-level overview of asset usage.
 - **Cell Range**: C5:Q13
 - **Layout Structure**:
-    - **Row Headers Location**: C5:C13
-    - **Column Headers Location**: G6:Q6 (Implied years, but not explicitly labeled)
-    - **Data Range**: G7:Q13
+    - **Row Headers Location**: C6:C13
+    - **Column Headers Location**: G6:Q6 (Implied: Years based on later sections)
+    - **Data Range**: G6:Q8, H10:Q13
 - **Time Series Details**:
-    - **Date Range**: Implied years, but not explicitly labeled. Assuming 2015 to 2021 based on the number of columns.
+    - **Date Range**: Year 0 to Year 10 (based on `date_series_definitions` and `G21:Q21`)
     - **Frequency**: Annual
-- **Key Components**: Net Lease Billed Days, Terminal, Grand Total, % of Street - MH, % of Street - EVG, % of Total - Terminal, Utilization Rate.
-- **Notes & Customizations**: Utilization metrics are calculated for different categories of assets.
+- **Key Components**: Street-MH, Street-EVG, Terminal, Grand Total, % of Street-MH, % of Street-EVG, % of Total - Terminal, Utilization Rate.
+- **Notes & Customizations**: Includes percentage calculations based on the different categories.
 
-### Revenue & Cost Analysis
-- **Section Type**: Custom P&L
-- **Description & Purpose**: This section analyzes revenue and costs associated with chassis usage, breaking down revenue by source (Trucker Street, Net Lease, Terminal) and costs by type (M&R, Admin, Repo, etc.). It calculates revenue, costs, and per-day metrics.
+### Section Name: Revenue and Cost Drivers
+- **Section Type**: Custom P&L - Revenue and Cost Driver Analysis
+- **Description & Purpose**: This section models the revenue and costs associated with chassis usage, including street and terminal operations. It projects revenue based on usage days, rates, and inflation assumptions. It also calculates per-day costs for various expense categories.
 - **Cell Range**: B16:Q79
 - **Layout Structure**:
-    - **Row Headers Location**: B17:B79 and C19, C24, C25, C29, C33, C37, C41, C42, C43, C57:C63, C77, C78
-    - **Column Headers Location**: H16:Q16 (Implied years, but not explicitly labeled)
-    - **Data Range**:
-      - Annual data: H17:Q79
+    - **Row Headers Location**: B17:C79
+    - **Column Headers Location**: H16, G21:Q21 (Years)
+    - **Data Range**: E17:G19, H17:Q79 (excluding row headers)
 - **Time Series Details**:
-    - **Date Range**: Implied years, but not explicitly labeled. Assuming 2015 to 2021 based on the number of columns.
+    - **Date Range**: Year 0 to Year 10 (G21:Q21)
     - **Frequency**: Annual
-- **Key Components**: Revenue, EVG Street Costs, Terminal Billings, M&R Cost, Admin Expense, Repo Expense, EBITDA, EBITDA per Usage Day, EBITDA Margin (%).
-- **Notes & Customizations**: The section includes calculations for per-usage-day costs and revenue.
+- **Key Components**: M&R, Admin, Repo (upfront costs), Usage Days, Chassis Used per Day, Trucker Street Usage Days, EVG Street Rental Days, Terminal Usage Days, Revenue, EVG Street Costs, Terminal Billings, Per Usage Day Costs (M&R, Admin, Repo, Other), Total Cost, EBITDA, EBITDA Margin.
+- **Notes & Customizations**: Includes inflation assumptions for various cost and revenue drivers. Calculates costs on both a total and per-usage-day basis.
 
-### Chassis Acquisition Analysis
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section analyzes the costs associated with acquiring chassis, including the purchase price, reconditioning costs, and other related expenses. It calculates the total effective purchase price and related metrics.
+### Section Name: Chassis Acquisition & Investment Analysis
+- **Section Type**: Investment Analysis
+- **Description & Purpose**: This section analyzes the costs associated with acquiring chassis, including the purchase price, reconditioning, and other related expenses. It calculates the total effective purchase price and provides metrics like cash multiple of EBITDA.
 - **Cell Range**: B82:G100
 - **Layout Structure**:
     - **Row Headers Location**: B83:B100
-    - **Column Headers Location**: G82
+    - **Column Headers Location**: None explicitly; single-column analysis.
     - **Data Range**: G83:G100
-- **Time Series Details**: This section does NOT contain a time series. It represents a one-time analysis.
-- **Frequency**: N/A
-- **Key Components**: Chassis to be Acquired, Price per Chassis, Payment to EVG, Total Chassis Price, Reconditioning Costs, Total Effective Purchase Price.
-- **Notes & Customizations**: This section focuses on upfront costs associated with acquiring chassis.
-
-### Cash Flow Projections
-- **Section Type**: Standard P&L
-- **Description & Purpose**: This section projects cash flows based on a depreciated value exit and a Total Enterprise Value (TEV) exit. It calculates key metrics like Unlevered IRR and NPV.
-- **Cell Range**: B104:Q136
-- **Layout Structure**:
-    - **Row Headers Location**: B105:B117, B119, B121, B123, B125:B134, B136
-    - **Column Headers Location**: G6:Q6 (Implied years, but not explicitly labeled)
-    - **Data Range**:
-      - Annual data (Depreciated Value Exit): H108:Q115
-      - Annual data (Total Enterprise Value Exit): H125:L132
 - **Time Series Details**:
-    - **Date Range**:
-      - Depreciated Value Exit: Implied years, but not explicitly labeled. Assuming 2015 to 2021 based on the number of columns.
-      - TEV Exit: Implied years, but not explicitly labeled. Assuming 2015 to 2019 based on the number of columns.
+    - **Date Range**: None. This is a static analysis.
+    - **Frequency**: N/A
+- **Key Components**: Chassis to be Acquired, Price per Chassis, Payment to EVG, Sales Tax, Total Chassis Price, Reconditioning Costs, Decoupling Costs, Repositioning, Retitling & Stenciling Costs, Working Capital Investment, Offhire Costs, Scrap Chassis, Transaction Expenses, Total Effective Purchase Price.
+- **Notes & Customizations**: Calculates the total investment required for chassis acquisition.
+
+### Section Name: Cash Flow Projections - Depreciated Value Exit
+- **Section Type**: Cash Flow Analysis
+- **Description & Purpose**: This section projects cash flows based on a depreciated value exit strategy. It calculates the investment and subsequent cash flows over a 10-year period.
+- **Cell Range**: B104:Q119
+- **Layout Structure**:
+    - **Row Headers Location**: B105:B119
+    - **Column Headers Location**: G104:Q104 (Years)
+    - **Data Range**: H108:Q117, E119
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10 (G104:Q104)
     - **Frequency**: Annual
-- **Key Components**: EBITDA, Investment, Accelerated Depreciation, EBIT, Cash Taxes @, Cash Income, WC Investment @, Capex, Cash Flow, Total Cash Flows, Unlevered IRR.
-- **Notes & Customizations**: The section includes two different exit scenarios (depreciated value and TEV), each with its own set of cash flow projections.
+- **Key Components**: Investment, Accelerated Depreciation, EBIT, Cash Taxes, Cash Income, WC Investment, Capex, Cash Flow, Total Cash Flows, Unlevered IRR, NPV.
+- **Notes & Customizations**: Includes accelerated depreciation and working capital investment assumptions.
 
-
-====================================================================================================
-# SHEET 19: Support Data -->
-====================================================================================================
-
-## 1. Spreadsheet Overview
-- **Sheet Name**: Support Data -->
-- **Key Sections Identified**: Header
-
-## 2. Detailed Section Analysis
-
-### Section Name (e.g., "Header")
-- **Section Type**: Header
-- **Description & Purpose**: Contains the sheet title.
-- **Cell Range**: A1:A1
+### Section Name: Cash Flow Projections - TEV Exit
+- **Section Type**: Cash Flow Analysis
+- **Description & Purpose**: This section projects cash flows based on a Total Enterprise Value (TEV) exit strategy. It calculates the investment and subsequent cash flows over a 5-year period.
+- **Cell Range**: B121:L136
 - **Layout Structure**:
-    - **Row Headers Location**: N/A
-    - **Column Headers Location**: N/A
-    - **Data Range**: A1:A1
+    - **Row Headers Location**: B122:B136
+    - **Column Headers Location**: G121:L121 (Years)
+    - **Data Range**: H125:L134, E136
 - **Time Series Details**:
-    - N/A
-- **Key Components**: Sheet Title
-- **Notes & Customizations**: N/A
+    - **Date Range**: Year 0 to Year 5 (G121:L121)
+    - **Frequency**: Annual
+- **Key Components**: Investment, Accelerated Depreciation, EBIT, Cash Taxes, Cash Income, WC Investment, Capex, Cash Flow, Total Cash Flows, Unlevered IRR.
+- **Notes & Customizations**: Includes accelerated depreciation and working capital investment assumptions. The exit multiple is specified.
 
-
-
-====================================================================================================
-# SHEET 20: PoP Usage Data
-====================================================================================================
-
-## 1. Spreadsheet Overview
-- **Sheet Name**: PoP Usage Data
-- **Key Sections Identified**:
-    - Title/Header
-    - Chassis Usage Data by Company
-    - Totals & Utilization Metrics
-    - Footnotes
-
-## 2. Detailed Section Analysis
-
-### Title/Header
-- **Section Type**: Title/Header
-- **Description & Purpose**: Contains the title of the report and a brief description.
-- **Cell Range**: C2:F3
+### Section Name: Repeating Cash Flow Projections - TEV Exit
+- **Section Type**: Cash Flow Analysis
+- **Description & Purpose**: This section projects cash flows based on a Total Enterprise Value (TEV) exit strategy. It calculates the investment and subsequent cash flows over a 5-year period, repeating the same values.
+- **Cell Range**: H129:L131
 - **Layout Structure**:
-    - **Row Headers Location**: N/A
-    - **Column Headers Location**: E3:F3
-    - **Data Range**: N/A
+    - **Row Headers Location**: None.
+    - **Column Headers Location**: H129:L129 (Years)
+    - **Data Range**: H130:L131
 - **Time Series Details**:
-    - **Date Range**: W.E. 3/7/2015 to W.E. 3/14/2015
-    - **Frequency**: Weekly
-- **Key Components**: Pool of Pools Chassis on the Street* - WEEKLY AVERAGE, W.E. 3/7/2015, W.E. 3/14/2015
-- **Notes & Customizations**: The title indicates that the data represents a weekly average of chassis on the street.
+    - **Date Range**: 1979-01-01 to 1979-01-01 (H129:L129)
+    - **Frequency**: Annual values repeating 5 times from 1979 to 1979
+- **Key Components**: Cash Flow.
+- **Notes & Customizations**: Repeating values.
 
-### Chassis Usage Data by Company
+
+
+====================================================================================================
+# SHEET 9: Sheet1
+====================================================================================================
+
+## 1. **Sheet Name**: Sheet1
+
+### Utilization Summary
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section presents the chassis usage data for various companies.
-- **Cell Range**: C4:F33
+- **Description & Purpose**: Presents a summary of utilization metrics for different categories (Street - MH, Street - EVG, Terminal, Grand Total) and their respective percentages. It helps to understand the efficiency of chassis usage.
+- **Cell Range**: C5:Q13
 - **Layout Structure**:
-    - **Row Headers Location**: C4:C33
-    - **Column Headers Location**: E3:F3
-    - **Data Range**: E4:F33
+    - **Row Headers Location**: C6:C13
+    - **Column Headers Location**: G6:Q6 (Implied "Year 0" to "Year 10" from date series)
+    - **Data Range**:
+      - Annual data: G7:Q13
 - **Time Series Details**:
-    - **Date Range**: W.E. 3/7/2015 to W.E. 3/14/2015
-    - **Frequency**: Weekly
-- **Key Components**: Horizon Lines, Hamburg Sud - SSA Piers A and J, Maersk, MSC, DCLP, APL, Evergreen - YTI, Hanjin - YTI, Hapag-Lloyd, Hyundai, MOL, NYK, OOCL, GACP, China Shipping, CMA-CGM, COSCO, Evergreen - All Other, Hamburg Sud - All Other, Hanjin - All Other, K Line, Pacific International, Polynesia Line, United Arab Shipping, Wan Hai Lines, Yang Ming Line, Zim Israel Navigation Co., LABP
-- **Notes & Customizations**: The data is scaled by 1000.
+    - **Date Range**: Year 0 to Year 10
+    - **Frequency**: Annual
+- **Key Components**: Street - MH, Street - EVG, Terminal, Grand Total, % of Street - MH, % of Street - EVG, % of Total - Terminal, Utilization Rate.
+- **Notes & Customizations**: Includes percentage calculations based on different categories.
 
-### DCSZ and Unassigned Chassis Data
+### Cost Breakdown (EVG)
+- **Section Type**: Cost Analysis Table
+- **Description & Purpose**: Breaks down the costs associated with EVG (Evergreen) operations, including M&R, Admin, and Repo costs, both in total and per usage day/contributed day.
+- **Cell Range**: B16:Q19
+- **Layout Structure**:
+    - **Row Headers Location**: B17:C19
+    - **Column Headers Location**: H16:Q16 (Implied "Year 0" to "Year 10" from date series)
+    - **Data Range**:
+      - Annual data: E17:Q19
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10
+    - **Frequency**: Annual
+- **Key Components**: M&R, Admin, Repo, Per Usage Day, Per Contr. Day.
+- **Notes & Customizations**: The table shows both total costs and costs per usage/contributed day.
+
+### Chassis Usage and Revenue Forecast
+- **Section Type**: Revenue and Usage Forecast
+- **Description & Purpose**: Forecasts chassis usage, rates, and revenue for different segments (Trucker Street, EVG Street, Terminal) over a 10-year period. Also includes inflation assumptions.
+- **Cell Range**: B21:Q46
+- **Layout Structure**:
+    - **Row Headers Location**: B23:C43
+    - **Column Headers Location**: G21:Q21 (Year 0 to Year 10)
+    - **Data Range**:
+      - Annual data: H23:Q43
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10
+    - **Frequency**: Annual
+- **Key Components**: Chassis Used per Day, Trucker Street Usage Days, Trucker Rate, Trucker Street Revenue, EVG Street Rental Days, EVG Street Rate, EVG Street Revenue, Terminal Usage Days, Terminal Rate, Terminal Revenue, Total Usage Days, Contributed Days, Usage, Street Utilization, Revenue.
+- **Notes & Customizations**: Includes annual inflation assumptions for various rates and costs.
+
+### Cost Analysis per Usage Day
+- **Section Type**: Cost Analysis Table
+- **Description & Purpose**: Analyzes costs per usage day for various expense categories.
+- **Cell Range**: B45:Q63
+- **Layout Structure**:
+    - **Row Headers Location**: B45:C63
+    - **Column Headers Location**: H46:Q46 (Implied "Year 0" to "Year 10" from date series)
+    - **Data Range**:
+      - Annual data: H46:Q63
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10
+    - **Frequency**: Annual
+- **Key Components**: Revenue, EVG Street Costs, Terminal Billings, EVG Street Days, Terminal Days, EVG Average Cost per EVG Usage Day, Per Usage Day Costs, M&R Cost per Day, Admin Cost per Day, Repo Cost per Day, Other Cost per Day, Lease Cost per Day on EVG Chassis, Lease Cost per Day on EVG Leases, Incremental Pool Overuse Cost per Day.
+- **Notes & Customizations**: Includes calculations for average costs per usage day.
+
+### Expense Forecast
+- **Section Type**: Expense Forecast
+- **Description & Purpose**: Forecasts various expenses including M&R, Admin, Repo, Other, Bad Debt, and Lease Costs.
+- **Cell Range**: B65:Q74
+- **Layout Structure**:
+    - **Row Headers Location**: B65:B74
+    - **Column Headers Location**: H66:Q66 (Implied "Year 0" to "Year 10" from date series)
+    - **Data Range**:
+      - Annual data: H65:Q74
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10
+    - **Frequency**: Annual
+- **Key Components**: M&R Cost, Admin Expense, Repo Expense, Other Expense, Bad Debt Expense, Lease Cost on EVG Owned Chassis, Lease Cost on EVG Existing Leases, Lease Cost for Additional Capactiy, Gain Sharing with EVG on MH Conversion, Total Cost.
+- **Notes & Customizations**: Includes different types of lease costs.
+
+### EBITDA and Margin Analysis
+- **Section Type**: Profitability Analysis
+- **Description & Purpose**: Calculates EBITDA, EBITDA per Usage Day, EBITDA per Chassis per Day, and EBITDA Margin.
+- **Cell Range**: B76:Q79
+- **Layout Structure**:
+    - **Row Headers Location**: B76:C79
+    - **Column Headers Location**: H77:Q77 (Implied "Year 0" to "Year 10" from date series)
+    - **Data Range**:
+      - Annual data: H77:Q79
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10
+    - **Frequency**: Annual
+- **Key Components**: EBITDA, EBITDA per Usage Day, EBITDA per Chassis per Day, EBITDA Margin (%).
+- **Notes & Customizations**: Includes calculations for EBITDA per usage day and per chassis per day.
+
+### Chassis Acquisition Costs
+- **Section Type**: Investment Analysis
+- **Description & Purpose**: Calculates the total cost of acquiring chassis, including purchase price, reconditioning costs, and other related expenses.
+- **Cell Range**: B82:G100
+- **Layout Structure**:
+    - **Row Headers Location**: B83:B98
+    - **Column Headers Location**: G82 (Single Column)
+    - **Data Range**:
+      - Annual data: G83:G98
+- **Time Series Details**:
+    - **Date Range**: Not time series, but related to upfront investment.
+    - **Frequency**: N/A
+- **Key Components**: Chassis to be Acquired, Price per Chassis, Payment to EVG, Sales Tax, Total Chassis Price, Reconditioning Costs, Decouping Costs, Repositioning, Retitling & Stenciling Costs, Working Capital Investment, Offhire Costs, Less: Scrap Chassis, Transaction Expenses, Total Effective Purchase Price.
+- **Notes & Customizations**: Includes various costs associated with chassis acquisition.
+
+### Cash Flow Analysis - Depreciated Value Exit
+- **Section Type**: Cash Flow Projection
+- **Description & Purpose**: Projects cash flows based on a depreciated value exit scenario.
+- **Cell Range**: B104:Q119
+- **Layout Structure**:
+    - **Row Headers Location**: B105:B119
+    - **Column Headers Location**: G104:Q104 (Year 0 to Year 10)
+    - **Data Range**:
+      - Annual data: H108:Q117
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10
+    - **Frequency**: Annual
+- **Key Components**: Investment, Accelerated Depreciation, EBIT, Cash Taxes @, Cash Income, WC Investment @, Capex, Cash Flow, Total Cash Flows, Unlevered IRR, NPV.
+- **Notes & Customizations**: Includes calculations for Unlevered IRR and NPV.
+
+### Cash Flow Analysis - TEV Exit
+- **Section Type**: Cash Flow Projection
+- **Description & Purpose**: Projects cash flows based on a Total Enterprise Value (TEV) exit scenario.
+- **Cell Range**: B121:L136
+- **Layout Structure**:
+    - **Row Headers Location**: B122:B136
+    - **Column Headers Location**: G121:L121 (Year 0 to Year 5)
+    - **Data Range**:
+      - Annual data: H125:L134
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 5
+    - **Frequency**: Annual
+- **Key Components**: Investment, Accelerated Depreciation, EBIT, Cash Taxes @, Cash Income, WC Investment @, Capex, Cash Flow, Total Cash Flows, Unlevered IRR.
+- **Notes & Customizations**: Includes calculations for Unlevered IRR.
+
+
+====================================================================================================
+# SHEET 10: Evergreen
+====================================================================================================
+
+## 1. **Sheet Name**: Evergreen
+
+### Section Name: Utilization Summary
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section presents the chassis usage data for DCSZ and Unassigned chassis.
-- **Cell Range**: C35:F37
+- **Description & Purpose**: This section summarizes the utilization rates and related metrics for different categories (Street - MH, Street - EVG, Terminal, Grand Total). It provides a high-level overview of asset usage.
+- **Cell Range**: C5:Q13
 - **Layout Structure**:
-    - **Row Headers Location**: C35:C37
-    - **Column Headers Location**: E3:F3
-    - **Data Range**: E35:F37
+    - **Row Headers Location**: C6:C13
+    - **Column Headers Location**: G21:Q21 (Years)
+    - **Data Range**:
+      - Annual data: H10:Q10, G11:Q11, H12:Q13
 - **Time Series Details**:
-    - **Date Range**: W.E. 3/7/2015 to W.E. 3/14/2015
-    - **Frequency**: Weekly
-- **Key Components**: DCSZ (bare outs, no SS SCAC)**, Unassigned (no SS SCAC or unauthorized)
-- **Notes & Customizations**: The data is scaled by 1000.
+    - **Date Range**: Year 0 to Year 10
+    - **Frequency**: Annual
+- **Key Components**: Street - MH, Street - EVG, Terminal, Grand Total, % of Street - MH, % of Street - EVG, % of Total - Terminal, Utilization Rate.
+- **Notes & Customizations**: Includes percentage calculations based on different categories.
 
-### Totals & Utilization Metrics
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section calculates totals and utilization metrics based on the chassis usage data.
-- **Cell Range**: C39:F54
+### Section Name: EVG Cost Analysis
+- **Section Type**: Cost Analysis Table
+- **Description & Purpose**: This section analyzes the costs associated with EVG operations, breaking them down by M&R, Admin, and Repo. It also includes calculations for per-usage-day costs.
+- **Cell Range**: B16:Q19
 - **Layout Structure**:
-    - **Row Headers Location**: C39:C54
-    - **Column Headers Location**: E3:F3
-    - **Data Range**: E39:F54
+    - **Row Headers Location**: B17:B19, C18:C19
+    - **Column Headers Location**: H16:Q16 (Usage Days, Contr. Days) and G21:Q21 (Years)
+    - **Data Range**:
+      - Annual data: H17:I17
 - **Time Series Details**:
-    - **Date Range**: W.E. 3/7/2015 to W.E. 3/14/2015
-    - **Frequency**: Weekly
-- **Key Components**: Total Chassis on the Street, Pool of Pools Fleet, Total Street Utilization (incl. DCSZ and unassigned), DCLP Fleet, GACP Fleet, DCLI-GACP Fleet, TRAC-GACP Fleet, LABP Fleet, DCLP Street Utilization, GACP Street Utilization, DCLI-GACP Street Utilization, TRAC-GACP Street Utilization, LABP Street Utilization
-- **Notes & Customizations**: Some data is scaled by 1000, while utilization is a percentage.
+    - **Date Range**: Year 0 to Year 10
+    - **Frequency**: Annual
+- **Key Components**: EVG, M&R, Admin, Repo, Usage Days, Contr. Days, Per Usage Day, Per Contr. Day.
+- **Notes & Customizations**: Includes cost breakdowns and per-day calculations.
 
-### Footnotes
-- **Section Type**: Notes
-- **Description & Purpose**: Provides additional context and explanations for the data.
-- **Cell Range**: C56:C57
+### Section Name: Revenue and Usage Days Forecast
+- **Section Type**: Revenue and Usage Forecast
+- **Description & Purpose**: This section forecasts revenue based on usage days, rates, and inflation assumptions for Trucker Street, EVG Street, and Terminal operations.
+- **Cell Range**: B21:Q46
 - **Layout Structure**:
-    - **Row Headers Location**: C56:C57
-    - **Column Headers Location**: N/A
-    - **Data Range**: N/A
-- **Time Series Details**: N/A
-- **Key Components**: * Reflects chassis with gated-out status by day by steamship line scac, ** Generally, DCSZ is used as the steamship scac when the chassis gates out bare with no container
-- **Notes & Customizations**: These footnotes clarify the meaning of certain data points and abbreviations used in the spreadsheet.
+    - **Row Headers Location**: B23:B41, C24:C43
+    - **Column Headers Location**: G21:Q21 (Years)
+    - **Data Range**:
+      - Annual data: H23:Q23, H24:Q26, H28:Q28, I29:Q29, H30:Q30, H32:Q32, H33, H34, H36:Q36, H37, H38, H40:Q41, H42:Q43, H45:Q45, H46:Q46
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10
+    - **Frequency**: Annual
+- **Key Components**: Chassis Used per Day, Trucker Street Usage Days, Trucker Rate, Trucker Street Revenue, EVG Street Rental Days, EVG Street Rate, EVG Street Revenue, Terminal Usage Days, Terminal Rate, Terminal Revenue, Total Usage Days, Contributed Days, Revenue.
+- **Notes & Customizations**: Includes annual inflation assumptions for various rates and costs.
+
+### Section Name: Cost per Usage Day Analysis
+- **Section Type**: Cost Analysis Table
+- **Description & Purpose**: This section analyzes the cost per usage day for EVG Street and Terminal operations, including M&R, Admin, Repo, and other costs.
+- **Cell Range**: B48:Q63
+- **Layout Structure**:
+    - **Row Headers Location**: B48:B54, C57:C63
+    - **Column Headers Location**: G21:Q21 (Years)
+    - **Data Range**:
+      - Annual data: H48:Q49, H50:Q51, H52:Q54, H57:Q57, H58:Q60, I61:Q63
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10
+    - **Frequency**: Annual
+- **Key Components**: EVG Street Costs, Terminal Billings, EVG Street Days, Terminal Days, EVG Average Cost per EVG Usage Day, M&R Cost per Day, Admin Cost per Day, Repo Cost per Day, Lease Cost per Day.
+- **Notes & Customizations**: Includes calculations for average costs per usage day.
+
+### Section Name: Expense Forecast
+- **Section Type**: Expense Forecast
+- **Description & Purpose**: This section forecasts various expenses, including M&R, Admin, Repo, Other, Bad Debt, and Lease Costs.
+- **Cell Range**: B65:Q74
+- **Layout Structure**:
+    - **Row Headers Location**: B65:B74
+    - **Column Headers Location**: G21:Q21 (Years)
+    - **Data Range**:
+      - Annual data: H65:Q65, H66:Q68, H69:Q69, H70:Q73, H74:Q74
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10
+    - **Frequency**: Annual
+- **Key Components**: M&R Cost, Admin Expense, Repo Expense, Other Expense, Bad Debt Expense, Lease Cost, Total Cost.
+- **Notes & Customizations**: Includes different types of lease costs and gain sharing.
+
+### Section Name: EBITDA Analysis
+- **Section Type**: Profitability Analysis
+- **Description & Purpose**: This section calculates EBITDA, EBITDA per Usage Day, EBITDA per Chassis per Day, and EBITDA Margin.
+- **Cell Range**: B76:Q79
+- **Layout Structure**:
+    - **Row Headers Location**: B76:B79, C77:C78
+    - **Column Headers Location**: G21:Q21 (Years)
+    - **Data Range**:
+      - Annual data: H77:Q78, H79:Q79
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10
+    - **Frequency**: Annual
+- **Key Components**: EBITDA, EBITDA per Usage Day, EBITDA per Chassis per Day, EBITDA Margin (%).
+- **Notes & Customizations**: Includes profitability metrics.
+
+### Section Name: Chassis Acquisition Costs
+- **Section Type**: Investment Analysis
+- **Description & Purpose**: This section details the costs associated with acquiring chassis, including the price per chassis, reconditioning costs, and other related expenses.
+- **Cell Range**: B82:G100
+- **Layout Structure**:
+    - **Row Headers Location**: B83:B98, B100
+    - **Column Headers Location**: None (Single Column)
+    - **Data Range**: G83, G84, G85, G86, G87, G88, G89, G90, G91, G92, G93, G94, G95, G96, G97, G98, G100
+- **Time Series Details**: None (Upfront Costs)
+- **Key Components**: Chassis to be Acquired, Price per Chassis, Payment to EVG, Sales Tax, Total Chassis Price, Reconditioning Costs, Decouping Costs, Repositioning, Retitling & Stenciling Costs, Working Capital Investment, Offhire Costs, Scrap Chassis, Transaction Expenses, Total Effective Purchase Price, Cash Multiple of 2014 EBITDA - Owned.
+- **Notes & Customizations**: Includes a breakdown of various acquisition-related costs.
+
+### Section Name: Cash Flows - Depreciated Value Exit
+- **Section Type**: Cash Flow Analysis
+- **Description & Purpose**: This section projects cash flows based on a depreciated value exit scenario.
+- **Cell Range**: B104:Q119
+- **Layout Structure**:
+    - **Row Headers Location**: B105:B119
+    - **Column Headers Location**: G104:Q104 (Years)
+    - **Data Range**:
+      - Annual data: H108:Q108, H109:Q109, H110:Q110, H111:Q114, H115:Q115, G117:Q117
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10
+    - **Frequency**: Annual
+- **Key Components**: Investment, Accelerated Depreciation, EBIT, Cash Taxes, Cash Income, WC Investment, Capex, Cash Flow, Total Cash Flows, Unlevered IRR, NPV.
+- **Notes & Customizations**: Includes calculations for IRR and NPV.
+
+### Section Name: Cash Flows - TEV Exit
+- **Section Type**: Cash Flow Analysis
+- **Description & Purpose**: This section projects cash flows based on a Total Enterprise Value (TEV) exit scenario.
+- **Cell Range**: B121:L136
+- **Layout Structure**:
+    - **Row Headers Location**: B121:B136
+    - **Column Headers Location**: G121:L121 (Years)
+    - **Data Range**:
+      - Annual data: H125:L125, H126:L126, H127:L127, H128:L131, H132:L132, G134:L134
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 5
+    - **Frequency**: Annual
+- **Key Components**: Investment, Accelerated Depreciation, EBIT, Cash Taxes, Cash Income, WC Investment, Capex, Cash Flow, Total Cash Flows, Unlevered IRR.
+- **Notes & Customizations**: Includes calculations for IRR and NPV.
 
 
 
 ====================================================================================================
-# SHEET 21: Fleet Summary - Pending
+# SHEET 11: (Assumed Sheet1, as the JSON doesn't explicitly name the sheet)
 ====================================================================================================
 
-## 1. Spreadsheet Overview
-- **Sheet Name**: Fleet Summary - Pending
-- **Key Sections Identified**:
-    - Header Information
-    - Assumptions
-    - Chassis Age Analysis
+## 1. **Sheet Name**: (Assumed Sheet1, as the JSON doesn't explicitly name the sheet)
 
-## 2. Detailed Section Analysis
-
-### Section Name: Header Information
-- **Section Type**: Header
-- **Description & Purpose**: Contains the company name and a brief description of the report.
-- **Cell Range**: A1:A3
+### Section Name: Utilization Summary
+- **Section Type**: Key Metrics Table
+- **Description & Purpose**: This section provides a summary of utilization metrics for different categories (Street - MH, Street - EVG, Terminal, Grand Total) and calculates utilization rates. It helps to understand how effectively the chassis are being used.
+- **Cell Range**: C5:Q13
 - **Layout Structure**:
-    - **Row Headers Location**: Column A
-    - **Column Headers Location**: None
-    - **Data Range**: A1:A3
-- **Time Series Details**: None
-- **Key Components**: Company Name, Report Title
-- **Notes & Customizations**: Basic header information.
+    - **Row Headers Location**: C6:C13
+    - **Column Headers Location**: G6:Q6 (Implied, based on data and formula structure)
+    - **Data Range**: G7:Q13
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10 (G21:Q21, inferred from `date_series_definitions.ds_1`)
+    - **Frequency**: Annual
+- **Key Components**: Street - MH, Street - EVG, Terminal, Grand Total, % of Street - MH, % of Street - EVG, % of Total - Terminal, Utilization Rate.
+- **Notes & Customizations**: Includes percentage calculations and grand totals.
+
+### Section Name: Cost and Revenue Assumptions
+- **Section Type**: Assumptions Table
+- **Description & Purpose**: This section outlines the cost and revenue assumptions used in the financial model, including M&R, Admin, and Repo costs, as well as usage days and rates.
+- **Cell Range**: B16:Q19
+- **Layout Structure**:
+    - **Row Headers Location**: B17:C19
+    - **Column Headers Location**: H16:Q16 (Implied, based on data and formula structure)
+    - **Data Range**: E17:Q19
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10 (G21:Q21, inferred from `date_series_definitions.ds_1`)
+    - **Frequency**: Annual
+- **Key Components**: EVG, Per Usage Day, M&R, Admin, Repo, Usage Days, Contr. Days.
+- **Notes & Customizations**: Includes cost per day calculations.
+
+### Section Name: Chassis Usage and Revenue Projections
+- **Section Type**: Revenue Forecast
+- **Description & Purpose**: This section projects chassis usage, rates, and revenue for various categories, including Street - Trucker, EVG Street, and Terminal. It's used to forecast revenue based on different usage scenarios.
+- **Cell Range**: B23:Q46
+- **Layout Structure**:
+    - **Row Headers Location**: B23:C43, B45
+    - **Column Headers Location**: G21:Q21 (Year 0 to Year 10)
+    - **Data Range**: H24:Q43, H46:Q46
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10 (G21:Q21, inferred from `date_series_definitions.ds_1`)
+    - **Frequency**: Annual
+- **Key Components**: Chassis Used per Day, Trucker Street Usage Days, Trucker Rate, Trucker Street Revenue, EVG Street Rental Days, EVG Street Rate, EVG Street Revenue, Terminal Usage Days, Terminal Rate, Terminal Revenue, Total Usage Days, Contributed Days, Usage, Street Utilization, Revenue.
+- **Notes & Customizations**: Includes calculations for usage, revenue, and utilization rates.
+
+### Section Name: Cost Analysis
+- **Section Type**: Cost Analysis
+- **Description & Purpose**: This section analyzes costs associated with EVG Street and Terminal operations, including costs per usage day and total costs.
+- **Cell Range**: B48:Q74
+- **Layout Structure**:
+    - **Row Headers Location**: B48:C74
+    - **Column Headers Location**: H16:Q16 (Implied, based on data and formula structure)
+    - **Data Range**: H46:Q46, H57:Q60, H61:Q63, H65:Q74
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10 (G21:Q21, inferred from `date_series_definitions.ds_1`)
+    - **Frequency**: Annual
+- **Key Components**: EVG Street Costs, Terminal Billings, EVG Street Days, Terminal Days, EVG Average Cost per EVG Usage Day, Per Usage Day Costs (M&R, Admin, Repo, Other, Lease), M&R Cost, Admin Expense, Repo Expense, Other Expense, Bad Debt Expense, Lease Cost, Total Cost.
+- **Notes & Customizations**: Includes cost per day calculations and total cost analysis.
+
+### Section Name: EBITDA and Margin Analysis
+- **Section Type**: Profitability Analysis
+- **Description & Purpose**: This section calculates EBITDA, EBITDA per usage day, EBITDA per chassis per day, and EBITDA margin.
+- **Cell Range**: B76:Q79
+- **Layout Structure**:
+    - **Row Headers Location**: B76:C79
+    - **Column Headers Location**: H16:Q16 (Implied, based on data and formula structure)
+    - **Data Range**: H77:Q79
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10 (G21:Q21, inferred from `date_series_definitions.ds_1`)
+    - **Frequency**: Annual
+- **Key Components**: EBITDA, EBITDA per Usage Day, EBITDA per Chassis per Day, EBITDA Margin (%).
+- **Notes & Customizations**: Includes EBITDA margin calculation.
+
+### Section Name: Chassis Acquisition Costs
+- **Section Type**: Investment Analysis
+- **Description & Purpose**: This section details the costs associated with acquiring chassis, including the price per chassis, reconditioning costs, and other related expenses.
+- **Cell Range**: B82:G100
+- **Layout Structure**:
+    - **Row Headers Location**: B83:B98, B100
+    - **Column Headers Location**: None (Single Point in Time)
+    - **Data Range**: G83:G98, G100
+- **Time Series Details**:
+    - **Date Range**: Not Applicable (Upfront Costs)
+    - **Frequency**: Not Applicable
+- **Key Components**: Chassis to be Acquired, Average Book Value / Owned Chassis, Premium / (Discount) to Book, Price per Chassis, Payment to EVG, Sales Tax, Total Chassis Price, Reconditioning Costs, Decouping Costs, Repositioning, Retitling & Stenciling Costs, Working Capital Investment, Offhire Costs, Less: Scrap Chassis, Transaction Expenses, Total Effective Purchase Price, Cash Multiple of 2014 EBITDA - Owned.
+- **Notes & Customizations**: Includes calculations for total effective purchase price and cash multiple.
+
+### Section Name: Cash Flow Analysis - Depreciated Value Exit
+- **Section Type**: Cash Flow Projection
+- **Description & Purpose**: This section projects cash flows based on a depreciated value exit strategy, including investment, accelerated depreciation, EBIT, cash taxes, cash income, WC investment, Capex, and cash flow.
+- **Cell Range**: B104:Q119
+- **Layout Structure**:
+    - **Row Headers Location**: B106:B115, F118, B117, B119
+    - **Column Headers Location**: G104:Q104 (Year 0 to Year 10)
+    - **Data Range**: H108:Q115, G117:Q117
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10 (G104:Q104, inferred from `date_series_definitions.ds_1`)
+    - **Frequency**: Annual
+- **Key Components**: Investment, Accelerated Depreciation, EBIT, Cash Taxes, Cash Income, WC Investment, Capex, Cash Flow, Total Cash Flows, Unlevered IRR, NPV.
+- **Notes & Customizations**: Includes calculations for unlevered IRR and NPV.
+
+### Section Name: Cash Flow Analysis - TEV Exit
+- **Section Type**: Cash Flow Projection
+- **Description & Purpose**: This section projects cash flows based on a TEV (Total Enterprise Value) exit strategy, including investment, accelerated depreciation, EBIT, cash taxes, cash income, WC investment, Capex, and cash flow.
+- **Cell Range**: B121:L136
+- **Layout Structure**:
+    - **Row Headers Location**: B122:B132, B134, B136
+    - **Column Headers Location**: G121:L121 (Year 0 to Year 5)
+    - **Data Range**: H125:L132, G134:L134
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 5 (G121:L121, inferred from `date_series_definitions.ds_3`)
+    - **Frequency**: Annual
+- **Key Components**: Investment, Accelerated Depreciation, EBIT, Cash Taxes, Cash Income, WC Investment, Capex, Cash Flow, Total Cash Flows, Unlevered IRR.
+- **Notes & Customizations**: Includes calculations for unlevered IRR.
+
+
+
+====================================================================================================
+# SHEET 12: Evergreen
+====================================================================================================
+
+## 1. **Sheet Name**: Evergreen
+
+### Section Name: Utilization Summary
+- **Section Type**: Key Metrics Table
+- **Description & Purpose**: Presents a summary of utilization metrics, including percentages of street and terminal usage.
+- **Cell Range**: C5:Q13
+- **Layout Structure**:
+    - **Row Headers Location**: C6:C13
+    - **Column Headers Location**: G6:Q6 (Implied Years based on later time series)
+    - **Data Range**: G6:Q13
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10 (based on `date_series_definitions` and G21:Q21)
+    - **Frequency**: Annual
+- **Key Components**: Street - MH, Terminal, Grand Total, % of Street - MH, % of Street - EVG, % of Total - Terminal, Utilization Rate.
+- **Notes & Customizations**: Includes percentage calculations based on street and terminal usage.
+
+### Section Name: Cost and Revenue Drivers
+- **Section Type**: Key Metrics Table
+- **Description & Purpose**: Details the key drivers of cost and revenue, including rates, usage days, and resulting revenue/costs.
+- **Cell Range**: B16:Q46
+- **Layout Structure**:
+    - **Row Headers Location**: B17:C43
+    - **Column Headers Location**: H16:Q16, G21:Q21 (Years)
+    - **Data Range**: E17:Q46
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10 (G21:Q21)
+    - **Frequency**: Annual
+- **Key Components**: M&R, Admin, Repo costs, Usage Days, Trucker Street Usage Days, EVG Street Rental Days, Terminal Usage Days, Total Usage Days, Revenue.
+- **Notes & Customizations**: Includes annual inflation assumptions in U32:V41.
+
+### Section Name: Revenue and Cost Analysis
+- **Section Type**: Standard P&L (Partial)
+- **Description & Purpose**: Analyzes revenue, costs, and profitability metrics.
+- **Cell Range**: B45:Q79
+- **Layout Structure**:
+    - **Row Headers Location**: B45:C79
+    - **Column Headers Location**: H46:Q46, G21:Q21 (Years)
+    - **Data Range**: H46:Q79
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10 (G21:Q21)
+    - **Frequency**: Annual
+- **Key Components**: Revenue, EVG Street Costs, Terminal Billings, M&R Cost, Admin Expense, Repo Expense, Total Cost, EBITDA, EBITDA Margin (%).
+- **Notes & Customizations**: Includes per usage day costs and profitability metrics. Contains a repeating annual series from 2080 to 2080 in H71:Q71.
+
+### Section Name: Chassis Acquisition
+- **Section Type**: Investment Analysis
+- **Description & Purpose**: Details the costs associated with chassis acquisition.
+- **Cell Range**: B82:G98
+- **Layout Structure**:
+    - **Row Headers Location**: B83:B98
+    - **Column Headers Location**: G82
+    - **Data Range**: G83:G98
+- **Time Series Details**:
+    - **Date Range**: Not applicable (Upfront costs)
+    - **Frequency**: Not applicable
+- **Key Components**: Chassis to be Acquired, Price per Chassis, Total Chassis Price, Reconditioning Costs, Transaction Expenses, Total Effective Purchase Price.
+- **Notes & Customizations**: Calculates the total cost of acquiring chassis, including various related expenses.
+
+### Section Name: Investment Analysis - Depreciated Value Exit
+- **Section Type**: Investment Analysis
+- **Description & Purpose**: Analyzes cash flows with a depreciated value exit strategy.
+- **Cell Range**: B104:Q119
+- **Layout Structure**:
+    - **Row Headers Location**: B105:B119
+    - **Column Headers Location**: G104:Q104 (Years)
+    - **Data Range**: H108:Q117
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10 (G104:Q104)
+    - **Frequency**: Annual
+- **Key Components**: Investment, Accelerated Depreciation, EBIT, Cash Taxes, Cash Income, WC Investment, Capex, Cash Flow, Total Cash Flows, Unlevered IRR, NPV.
+- **Notes & Customizations**: Calculates IRR and NPV based on projected cash flows and a depreciated value exit.
+
+### Section Name: Investment Analysis - TEV Exit
+- **Section Type**: Investment Analysis
+- **Description & Purpose**: Analyzes cash flows with a Total Enterprise Value (TEV) exit strategy.
+- **Cell Range**: B121:L136
+- **Layout Structure**:
+    - **Row Headers Location**: B122:B136
+    - **Column Headers Location**: G121:L121 (Years)
+    - **Data Range**: H125:L134
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 5 (G121:L121)
+    - **Frequency**: Annual
+- **Key Components**: Investment, Accelerated Depreciation, EBIT, Cash Taxes, Cash Income, WC Investment, Capex, Cash Flow, Total Cash Flows, Unlevered IRR.
+- **Notes & Customizations**: Calculates IRR based on projected cash flows and a TEV exit.
+
+
+
+====================================================================================================
+# SHEET 13: (Sheet name is not provided in the JSON, assuming it is "Sheet1")
+====================================================================================================
+
+## 1. **Sheet Name**: (Sheet name is not provided in the JSON, assuming it is "Sheet1")
+
+### Section Name: Chassis Purchase Options Analysis
+- **Section Type**: Key Metrics Table
+- **Description & Purpose**: This section summarizes different options for purchasing chassis, likely for EVG (Electric Vehicle Group) usage. It presents purchase prices, potential MH (Market Housing?) percentages, CH (Chassis Housing?) rates, and terminal rates for each option. The purpose is to compare the financial implications of various chassis acquisition strategies.
+- **Cell Range**: B13:G33
+- **Layout Structure**:
+    - **Row Headers Location**: B14:B33 (e.g., different chassis purchase options)
+    - **Column Headers Location**: C13:G13 (Purchase Price per Chassis, Total Purchase Price, MH %, CH Rate, Terminal Rate)
+    - **Data Range**:
+      - C14:G33 (numeric values and percentages for each option)
+- **Time Series Details**:
+    - There is no explicit time series in this section. It appears to be a static comparison of different purchase options at a single point in time.
+- **Key Components**: Purchase Price per Chassis, Total Purchase Price, MH %, CH Rate, Terminal Rate.
+- **Notes & Customizations**: The section includes assumptions (C5:C10) that are critical for understanding the context and limitations of the analysis. The MH and CH abbreviations are not explicitly defined, but context suggests they relate to different types of chassis usage or billing. The formatting suggests that some values may be negative (red formatting).
+
+
+
+====================================================================================================
+# SHEET 14: Sheet1
+====================================================================================================
+
+## 1. **Sheet Name**: Sheet1
 
 ### Section Name: Assumptions
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: Contains key assumptions used in the analysis, such as Value New, Residual Value, and Useful Life.
-- **Cell Range**: B5:C7
+- **Section Type**: Assumptions List
+- **Description & Purpose**: This section outlines the key assumptions used in the financial model. It provides context for understanding the calculations and projections.
+- **Cell Range**: C5:C10
 - **Layout Structure**:
-    - **Row Headers Location**: Column B
+    - **Row Headers Location**: C5:C10
     - **Column Headers Location**: None
-    - **Data Range**: C5:C7
+    - **Data Range**: C5:C10 (text values)
 - **Time Series Details**: None
-- **Key Components**: Value New, Residual Value, Useful Life
-- **Notes & Customizations**: Values are scaled by 1000.
+- **Key Components**: Assumptions related to chassis age, EVG usage, MH billing rate, and terminal usage.
+- **Notes & Customizations**: Numbered list format.
 
-### Section Name: ASI/CSG Premium
+### Section Name: Input Parameters
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: Contains ASI/CSG Premium value.
-- **Cell Range**: B8:D10
+- **Description & Purpose**: This section defines the input parameters used for the financial calculations, such as purchase price, MH percentage, CH rate, and terminal rate.
+- **Cell Range**: C13:G33 (inferred from remaining ranges and format_index)
 - **Layout Structure**:
-    - **Row Headers Location**: Column B
-    - **Column Headers Location**: None
-    - **Data Range**: D10
+    - **Row Headers Location**: B14:B33 (inferred from format_index)
+    - **Column Headers Location**: C13:G13
+    - **Data Range**: D14:G33 (numeric and text values)
 - **Time Series Details**: None
-- **Key Components**: Premium, ASI/CSG
-- **Notes & Customizations**: Single value.
+- **Key Components**: Purchase Price per Chassis, Total Purchase Price, MH %, CH Rate, Terminal Rate.
+- **Notes & Customizations**: The "Purchase Price per Chassis" and "Total Purchase Price" columns likely contain numeric values, while "MH %", "CH Rate", and "Terminal Rate" could be percentages or rates. The format_index indicates that cells B14:B33 contain values, likely labels for the input parameters.
 
-### Section Name: Chassis Age Analysis
+
+
+====================================================================================================
+# SHEET 15: Evergreen
+====================================================================================================
+
+## 1. **Sheet Name**: Evergreen
+
+### Section Name: Utilization Summary
+
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: Analyzes chassis based on age, providing counts, percentages, and value calculations.
-- **Cell Range**: B11:M13
+- **Description & Purpose**: Presents a summary of utilization metrics for different categories (Street-MH, Street-EVG, Terminal, Grand Total) and calculates utilization rates. It helps understand how effectively the chassis are being used.
+- **Cell Range**: C5:Q13
 - **Layout Structure**:
-    - **Row Headers Location**: Column B
-    - **Column Headers Location**: Row 11
-    - **Data Range**: D12:M13
-- **Time Series Details**: None
-- **Key Components**: Year, Date Estimate, Count, % of total, Book Value Per, Purchase Per, Total Purchase, Age 10 years Later, Depreciated 10 year value per, Depreciated 10 year value total
-- **Notes & Customizations**: Values are scaled by 1000. Contains calculations for 10-year depreciation.
+    - **Row Headers Location**: C6:C13
+    - **Column Headers Location**: G21:Q21 (Years)
+    - **Data Range**: H6:Q8, H10:Q13
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10
+    - **Frequency**: Annual
+- **Key Components**: Street - MH, Street - EVG, Terminal, Grand Total, % of Street - MH, % of Street - EVG, % of Total - Terminal, Utilization Rate.
+- **Notes & Customizations**: Includes percentage calculations based on different categories.
 
-### Section Name: Chassis Age Analysis - Detail
+### Section Name: Cost and Revenue Drivers
+
+- **Section Type**: Revenue and Cost Driver Analysis
+- **Description & Purpose**: This section analyzes the key drivers of revenue and costs, including usage days, rates, and inflation assumptions. It is used for forecasting revenue and expenses.
+- **Cell Range**: B16:Q43
+- **Layout Structure**:
+    - **Row Headers Location**: B17:C43
+    - **Column Headers Location**: G21:Q21 (Years)
+    - **Data Range**: H17:Q43, E17:G17
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10
+    - **Frequency**: Annual
+- **Key Components**: M&R, Admin, Repo, Usage Days, Contr. Days, Per Usage Day, Per Contr. Day, Chassis Used per Day, Trucker Street Usage Days, Trucker Rate, Trucker Street Revenue, EVG Street Rental Days, EVG Street Rate, EVG Street Revenue, Terminal Usage Days, Terminal Rate, Terminal Revenue, Total Usage Days, Contributed Days, Usage, Street Utilization, Annual Inflation Assumptions (Trucker Rate Inflation, EVG Rate Inflation, Terminal Rate Inflation, M&R Cost Inflation, Admin Cost Inflation, Repo Cost Inflation, Other Cost Inflation).
+- **Notes & Customizations**: Includes inflation assumptions for various cost and revenue components.
+
+### Section Name: Revenue and Cost Summary
+
+- **Section Type**: Summary P&L
+- **Description & Purpose**: This section summarizes the revenue, costs, and EBITDA, providing a high-level overview of the financial performance.
+- **Cell Range**: B45:Q79
+- **Layout Structure**:
+    - **Row Headers Location**: B45:C79
+    - **Column Headers Location**: G21:Q21 (Years)
+    - **Data Range**: H46:Q79, E18:G19
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10
+    - **Frequency**: Annual
+- **Key Components**: Revenue, EVG Street Costs, Terminal Billings, EVG Street Days, Terminal Days, EVG Average Cost per EVG Usage Day, EVG Average Cost per EVG Street Day, EVG Terminal Cost per Terminal Day, Per Usage Day Costs (M&R Cost per Day, Admin Cost per Day, Repo Cost per Day, Other Cost per Day, Lease Cost per Day on EVG Chassis, Lease Cost per Day on EVG Leases, Incremental Pool Overuse Cost per Day), M&R Cost, Admin Expense, Repo Expense, Other Expense, Bad Debt Expense, Lease Cost on EVG Owned Chassis, Lease Cost on EVG Existing Leases, Lease Cost for Additional Capactiy, Gain Sharing with EVG on MH Conversion, Total Cost, EBITDA, EBITDA per Usage Day, EBITDA per Chassis per Day, EBITDA Margin (%).
+- **Notes & Customizations**: Includes calculations for EBITDA per usage day and EBITDA margin.
+
+### Section Name: Initial Investment
+
+- **Section Type**: Initial Investment Analysis
+- **Description & Purpose**: This section details the upfront investment required, including chassis acquisition costs, reconditioning, and other related expenses.
+- **Cell Range**: B82:G100
+- **Layout Structure**:
+    - **Row Headers Location**: B83:B100
+    - **Column Headers Location**: None (Single Column)
+    - **Data Range**: G83:G98
+- **Time Series Details**:
+    - **Date Range**: Not Applicable (Upfront Costs)
+    - **Frequency**: Not Applicable
+- **Key Components**: Chassis to be Acquired, Average Book Value / Owned Chassis, Premium / (Discount) to Book, Price per Chassis, Payment to EVG, Sales Tax, Total Chassis Price, Reconditioning Costs, Decouping Costs, Repositioning, Retitling & Stenciling Costs, Working Capital Investment, Offhire Costs, Less: Scrap Chassis at $1,000 per Chassis, Transaction Expenses, Total Effective Purchase Price, Cash Multiple of 2014 EBITDA - Owned.
+- **Notes & Customizations**: Calculates the total effective purchase price based on various cost components.
+
+### Section Name: Cash Flow Analysis - Depreciated Value Exit
+
+- **Section Type**: Discounted Cash Flow Analysis
+- **Description & Purpose**: This section calculates the cash flows, NPV, and IRR based on a depreciated value exit scenario.
+- **Cell Range**: B104:Q119
+- **Layout Structure**:
+    - **Row Headers Location**: B105:B119
+    - **Column Headers Location**: G104:Q104 (Years)
+    - **Data Range**: H108:Q115
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10
+    - **Frequency**: Annual
+- **Key Components**: Investment, Accelerated Depreciation, EBIT, Cash Taxes @, Cash Income, WC Investment @, Capex, Cash Flow, Total Cash Flows, Unlevered IRR, NPV.
+- **Notes & Customizations**: Includes calculations for accelerated depreciation and working capital investment.
+
+### Section Name: Cash Flow Analysis - TEV Exit
+
+- **Section Type**: Discounted Cash Flow Analysis
+- **Description & Purpose**: This section calculates the cash flows, NPV, and IRR based on a Total Enterprise Value (TEV) exit scenario.
+- **Cell Range**: B121:L136
+- **Layout Structure**:
+    - **Row Headers Location**: B122:B136
+    - **Column Headers Location**: G121:L121 (Years)
+    - **Data Range**: H125:L132
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 5
+    - **Frequency**: Annual
+- **Key Components**: Investment, Accelerated Depreciation, EBIT, Cash Taxes @, Cash Income, WC Investment @, Capex, Cash Flow, Total Cash Flows, Unlevered IRR, NPV.
+- **Notes & Customizations**: Includes calculations for accelerated depreciation and working capital investment.
+
+
+
+====================================================================================================
+# SHEET 16: Evergreen
+====================================================================================================
+
+## 1. **Sheet Name**: Evergreen
+
+### Section Name: Utilization Summary
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: Provides a detailed breakdown of chassis book values.
+- **Description & Purpose**: This section summarizes the utilization of chassis across different categories (Street - MH, Street - EVG, Terminal, Grand Total) and calculates utilization rates. It provides a high-level overview of how effectively the chassis are being used.
+- **Cell Range**: C5:Q13
+- **Layout Structure**:
+    - **Row Headers Location**: C6:C13
+    - **Column Headers Location**: G6:Q6 (Implied Year 0 to Year 10 from date_series_definitions)
+    - **Data Range**: G6:Q13
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10
+    - **Frequency**: Annual
+- **Key Components**: Street - MH, Street - EVG, Terminal, Grand Total, % of Street - MH, % of Street - EVG, % of Total - Terminal, Utilization Rate.
+- **Notes & Customizations**: Includes percentage calculations based on the different categories.
+
+### Section Name: Cost and Revenue Assumptions
+- **Section Type**: Custom P&L
+- **Description & Purpose**: This section projects revenue and costs associated with chassis usage, including M&R, Admin, and Repo costs. It calculates revenue based on usage days and rates, and projects costs based on per-day costs.
+- **Cell Range**: B16:Q79
+- **Layout Structure**:
+    - **Row Headers Location**: B17:B79, C18:C19, C24, C29, C33, C37, C41, C57:C63
+    - **Column Headers Location**: G21:Q21 (Year 0 to Year 10)
+    - **Data Range**:
+      - Annual data: H17:Q79
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10
+    - **Frequency**: Annual
+- **Key Components**: EVG, M&R, Admin, Repo, Usage Days, Contr. Days, Chassis Used per Day, Trucker Street Usage Days, Trucker Rate, Trucker Street Revenue, EVG Street Rental Days, EVG Street Rate, EVG Street Revenue, Terminal Usage Days, Terminal Rate, Terminal Revenue, Total Usage Days, Contributed Days, Revenue, EVG Street Costs, Terminal Billings, EVG Street Days, Terminal Days, Per Usage Day Costs, M&R Cost per Day, Admin Cost per Day, Repo Cost per Day, Other Cost per Day, Lease Cost per Day, M&R Cost, Admin Expense, Repo Expense, Other Expense, Bad Debt Expense, Lease Cost, Total Cost, EBITDA, EBITDA per Usage Day, EBITDA per Chassis per Day, EBITDA Margin (%).
+- **Notes & Customizations**: Includes per-day cost calculations, lease costs, and gain sharing. Contains inflation assumptions in column U.
+
+### Section Name: Purchase Price Calculation
+- **Section Type**: Key Metrics Table
+- **Description & Purpose**: This section calculates the total effective purchase price for the chassis acquisition, including chassis price, reconditioning costs, decoupling costs, repositioning, retitling & stenciling costs, working capital investment, offhire costs, scrap chassis value, and transaction expenses.
+- **Cell Range**: B82:G100
+- **Layout Structure**:
+    - **Row Headers Location**: B83:B100
+    - **Column Headers Location**: None (Single Point in Time)
+    - **Data Range**: G83:G100
+- **Time Series Details**:
+    - **Date Range**: N/A
+    - **Frequency**: N/A
+- **Key Components**: Chassis to be Acquired, Average Book Value / Owned Chassis, Premium / (Discount) to Book, Price per Chassis, Payment to EVG, Sales Tax, Total Chassis Price, Reconditioning Costs, Decouping Costs, Repositioning, Retitling & Stenciling Costs, Working Capital Investment, Offhire Costs, Less: Scrap Chassis, Transaction Expenses, Total Effective Purchase Price, Cash Multiple of 2014 EBITDA - Owned.
+- **Notes & Customizations**: Includes a calculation of the cash multiple of 2014 EBITDA.
+
+### Section Name: Cash Flow Analysis - Depreciated Value Exit
+- **Section Type**: Waterfall Chart Data
+- **Description & Purpose**: This section projects cash flows based on a depreciated value exit scenario. It includes investment, accelerated depreciation, EBIT, cash taxes, cash income, WC investment, capex, and cash flow. It calculates the unlevered IRR and NPV.
+- **Cell Range**: B104:Q119
+- **Layout Structure**:
+    - **Row Headers Location**: B105:B119
+    - **Column Headers Location**: G104:Q104 (Year 0 to Year 10)
+    - **Data Range**: H108:Q117, E111:E113, E119
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10
+    - **Frequency**: Annual
+- **Key Components**: Investment, Accelerated Depreciation, EBIT, Cash Taxes, Cash Income, WC Investment, Capex, Cash Flow, Total Cash Flows, Unlevered IRR, NPV.
+- **Notes & Customizations**: Includes calculations for accelerated depreciation and working capital investment.
+
+### Section Name: Cash Flow Analysis - TEV Exit
+- **Section Type**: Waterfall Chart Data
+- **Description & Purpose**: This section projects cash flows based on a Total Enterprise Value (TEV) exit scenario. It includes investment, accelerated depreciation, EBIT, cash taxes, cash income, WC investment, capex, and cash flow. It calculates the unlevered IRR.
+- **Cell Range**: B121:L136
+- **Layout Structure**:
+    - **Row Headers Location**: B122:B136
+    - **Column Headers Location**: G121:L121 (Year 0 to Year 5)
+    - **Data Range**: H125:L134, E128, E130, E136
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 5
+    - **Frequency**: Annual
+- **Key Components**: Investment, Accelerated Depreciation, EBIT, Cash Taxes, Cash Income, WC Investment, Capex, Cash Flow, Total Cash Flows, Unlevered IRR.
+- **Notes & Customizations**: Includes an exit multiple calculation.
+
+
+
+====================================================================================================
+# SHEET 17: Evergreen
+====================================================================================================
+
+## 1. **Sheet Name**: Evergreen
+
+### Section Name: Utilization Summary
+- **Section Type**: Key Metrics Table
+- **Description & Purpose**: This section provides a summary of utilization metrics for different categories (Street - MH, Street - EVG, Terminal, Grand Total) and calculates utilization rates. It helps in understanding the efficiency of chassis usage.
+- **Cell Range**: C5:Q13
+- **Layout Structure**:
+    - **Row Headers Location**: C6:C13
+    - **Column Headers Location**: G6:Q6 (Implied Year 0 to Year 10 from G21:Q21)
+    - **Data Range**: G6:Q13
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10
+    - **Frequency**: Annual
+- **Key Components**: Street - MH, Street - EVG, Terminal, Grand Total, % of Street - MH, % of Street - EVG, % of Total - Terminal, Utilization Rate.
+- **Notes & Customizations**: Includes percentage calculations and grand totals.
+
+### Section Name: Cost and Revenue Drivers
+- **Section Type**: Key Metrics Table
+- **Description & Purpose**: This section outlines the key cost and revenue drivers related to EVG operations, including M&R, Admin, Repo costs, and usage days. It's used to project revenue and costs based on usage and rates.
+- **Cell Range**: B16:Q46
+- **Layout Structure**:
+    - **Row Headers Location**: B17:B46, C18:C43
+    - **Column Headers Location**: G21:Q21 (Years 0 to 10)
+    - **Data Range**: E17:Q46
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10
+    - **Frequency**: Annual
+- **Key Components**: EVG, M&R, Admin, Repo, Usage Days, Contr. Days, Per Usage Day, Per Contr. Day, Chassis Used per Day, Street - Trucker, Trucker Street Usage Days, Trucker Rate, Trucker Street Revenue, EVG Street Rental Days, EVG Street Rate, EVG Street Revenue, Terminal Usage Days, Terminal Rate, Terminal Revenue, Total Usage Days, Contributed Days, Usage, Street Utilization, Revenue.
+- **Notes & Customizations**: Includes annual inflation assumptions for various rates and costs, located in column U.
+
+### Section Name: Cost Analysis
+- **Section Type**: Cost Analysis Table
+- **Description & Purpose**: This section breaks down costs related to EVG operations, including per-usage-day costs, M&R, Admin, Repo, Lease costs, and total costs. It is used to calculate EBITDA and EBITDA margins.
+- **Cell Range**: B48:Q79
+- **Layout Structure**:
+    - **Row Headers Location**: B48:B79, C57:C63, C77:C78
+    - **Column Headers Location**: H21:Q21 (Years 0 to 10)
+    - **Data Range**: H46:Q79
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10
+    - **Frequency**: Annual
+- **Key Components**: EVG Street Costs, Terminal Billings, EVG Street Days, Terminal Days, Per Usage Day Costs, M&R Cost per Day, Admin Cost per Day, Repo Cost per Day, Other Cost per Day, Lease Costs, M&R Cost, Admin Expense, Repo Expense, Other Expense, Bad Debt Expense, Total Cost, EBITDA, EBITDA per Usage Day, EBITDA per Chassis per Day, EBITDA Margin (%).
+- **Notes & Customizations**: Includes calculations for average costs per usage day and EBITDA margin.
+
+### Section Name: Chassis Acquisition & Investment Analysis
+- **Section Type**: Investment Analysis
+- **Description & Purpose**: This section analyzes the costs associated with acquiring chassis, including purchase price, reconditioning, decoupling, repositioning, retitling, working capital investment, offhire costs, and scrap chassis. It calculates the total effective purchase price and provides metrics like cash multiple of EBITDA.
+- **Cell Range**: B82:Q100
+- **Layout Structure**:
+    - **Row Headers Location**: B83:B100
+    - **Column Headers Location**: G21:Q21 (Years 0 to 10)
+    - **Data Range**: G83:Q98
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10
+    - **Frequency**: Annual
+- **Key Components**: Chassis to be Acquired, Average Book Value / Owned Chassis, Price per Chassis, Payment to EVG, Sales Tax, Total Chassis Price, Reconditioning Costs, Decouping Costs, Repositioning, Retitling & Stenciling Costs, Working Capital Investment, Offhire Costs, Scrap Chassis, Transaction Expenses, Total Effective Purchase Price, Cash Multiple of 2014 EBITDA - Owned.
+- **Notes & Customizations**: Includes calculations for total effective purchase price and cash multiple of EBITDA.
+
+### Section Name: Cash Flow Analysis - Depreciated Value Exit
+- **Section Type**: Cash Flow Analysis
+- **Description & Purpose**: This section projects cash flows based on a depreciated value exit scenario. It includes investment, accelerated depreciation, EBIT, cash taxes, cash income, WC investment, Capex, and cash flow. It calculates NPV and Unlevered IRR.
+- **Cell Range**: B104:Q119
+- **Layout Structure**:
+    - **Row Headers Location**: B105:B119
+    - **Column Headers Location**: G104:Q104 (Years 0 to 10)
+    - **Data Range**: H108:Q117, E111:E119
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10
+    - **Frequency**: Annual
+- **Key Components**: Investment, Accelerated Depreciation, EBIT, Cash Taxes, Cash Income, WC Investment, Capex, Cash Flow, Total Cash Flows, Unlevered IRR, NPV.
+- **Notes & Customizations**: Includes calculations for NPV and Unlevered IRR.
+
+### Section Name: Cash Flow Analysis - TEV Exit
+- **Section Type**: Cash Flow Analysis
+- **Description & Purpose**: This section projects cash flows based on a Total Enterprise Value (TEV) exit scenario. It includes investment, accelerated depreciation, EBIT, cash taxes, cash income, WC investment, Capex, and cash flow. It calculates NPV and Unlevered IRR.
+- **Cell Range**: B121:L136
+- **Layout Structure**:
+    - **Row Headers Location**: B122:B136
+    - **Column Headers Location**: G121:L121 (Years 0 to 5)
+    - **Data Range**: H125:L134, E128:E136
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 5
+    - **Frequency**: Annual
+- **Key Components**: Investment, Accelerated Depreciation, EBIT, Cash Taxes, Cash Income, WC Investment, Capex, Cash Flow, Total Cash Flows, Unlevered IRR.
+- **Notes & Customizations**: Includes calculations for NPV and Unlevered IRR.
+
+
+
+====================================================================================================
+# SHEET 18: Evergreen
+====================================================================================================
+
+## 1. **Sheet Name**: Evergreen
+
+### Section Name: Utilization Summary
+- **Section Type**: Key Metrics Table
+- **Description & Purpose**: Provides a high-level overview of chassis utilization metrics, including billed days, percentages of total, and utilization rates. This section helps assess the efficiency of chassis usage.
+- **Cell Range**: C5:Q13
+- **Layout Structure**:
+    - **Row Headers Location**: C6:C13
+    - **Column Headers Location**: G6:Q6 (Implicitly, years are across columns)
+    - **Data Range**:
+      - Annual data: G6:Q8, H10:Q10, G11:Q11, H12:Q13
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10 (G21:Q21)
+    - **Frequency**: Annual
+- **Key Components**: Street - MH, Net Lease Billed Days, Grand Total, % of Street - MH, % of Street - EVG, % of Total - Terminal, Utilization Rate.
+- **Notes & Customizations**: Includes percentages calculated against different base values.
+
+### Section Name: Cost and Revenue Drivers
+- **Section Type**: Custom P&L
+- **Description & Purpose**: This section models the key revenue and cost drivers for the business, projecting revenue from various sources (Trucker Street, Net Lease, Terminal) and associated costs. It's used for forecasting and scenario analysis.
+- **Cell Range**: B16:Q46
+- **Layout Structure**:
+    - **Row Headers Location**: B17:C43
+    - **Column Headers Location**: G21:Q21 (Years across columns)
+    - **Data Range**:
+      - Annual data: E17:Q17, H17:I17, H23:Q23, H24:Q26, H28:Q28, I29:Q29, H30:Q30, H32:Q32, H33:Q34, H36:Q38, H40:Q43, H45:Q46
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10 (G21:Q21)
+    - **Frequency**: Annual
+- **Key Components**: M&R, Admin, Repo, Usage Days, Contr. Days, Chassis Used per Day, Trucker Street Usage Days, Trucker Rate, Trucker Street Revenue, Net Lease Days, Net Lease Rate, Net Lease Revenue, Terminal Usage Days, Terminal Rate, Terminal Revenue, Total Usage Days, Contributed Days, Revenue.
+- **Notes & Customizations**: Includes inflation assumptions for various cost and revenue components.
+
+### Section Name: Per Usage Day Costs & Total Costs
+- **Section Type**: Cost Analysis
+- **Description & Purpose**: Breaks down costs on a per-usage-day basis and then calculates total costs. This provides insight into cost efficiency and profitability.
+- **Cell Range**: B48:Q74
+- **Layout Structure**:
+    - **Row Headers Location**: B48:C73
+    - **Column Headers Location**: G21:Q21 (Years across columns)
+    - **Data Range**:
+      - Annual data: H48:Q51, H57:Q63, H65:Q74
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10 (G21:Q21)
+    - **Frequency**: Annual
+- **Key Components**: EVG Street Costs, Terminal Billings, EVG Street Days, Terminal Days, M&R Cost per Day, Admin Cost per Day, Repo Cost per Day, Other Cost per Day, Lease Cost per Day, M&R Cost, Admin Expense, Repo Expense, Other Expense, Total Cost.
+- **Notes & Customizations**: Includes lease costs on EVG-owned chassis and existing leases.
+
+### Section Name: EBITDA and Margin Analysis
+- **Section Type**: Key Metrics Table
+- **Description & Purpose**: Calculates EBITDA and related metrics, including EBITDA per usage day and EBITDA margin. This section assesses the overall profitability of the business.
+- **Cell Range**: B76:Q79
+- **Layout Structure**:
+    - **Row Headers Location**: B76:C78
+    - **Column Headers Location**: G21:Q21 (Years across columns)
+    - **Data Range**:
+      - Annual data: H77:Q79
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10 (G21:Q21)
+    - **Frequency**: Annual
+- **Key Components**: EBITDA, EBITDA per Usage Day, EBITDA per Chassis per Day, EBITDA Margin (%).
+- **Notes & Customizations**: Focuses on EBITDA-related profitability metrics.
+
+### Section Name: Chassis Acquisition & Initial Investment
+- **Section Type**: Investment Analysis
+- **Description & Purpose**: Details the costs associated with acquiring chassis, including the purchase price, reconditioning, and other related expenses. This section determines the initial investment required.
+- **Cell Range**: B82:G100
+- **Layout Structure**:
+    - **Row Headers Location**: B83:B98, B100
+    - **Column Headers Location**: None (Single Column)
+    - **Data Range**: G83:G100
+- **Time Series Details**:
+    - **Date Range**: N/A (Upfront Costs)
+    - **Frequency**: N/A
+- **Key Components**: Chassis to be Acquired, Price per Chassis, Payment to EVG, Sales Tax, Total Chassis Price, Reconditioning Costs, Decouping Costs, Repositioning, Retitling & Stenciling Costs, Working Capital Investment, Offhire Costs, Less: Scrap Chassis, Transaction Expenses, Total Effective Purchase Price.
+- **Notes & Customizations**: Includes adjustments for scrap chassis and transaction expenses.
+
+### Section Name: Cash Flow Analysis - Depreciated Value Exit
+- **Section Type**: Cash Flow Projection
+- **Description & Purpose**: Projects the cash flows based on a depreciated value exit scenario, calculating the unlevered IRR and NPV. This section evaluates the financial viability of the investment.
+- **Cell Range**: B104:Q119
+- **Layout Structure**:
+    - **Row Headers Location**: B105:B119
+    - **Column Headers Location**: G104:Q104 (Years across columns)
+    - **Data Range**: H108:Q115
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 10 (G104:Q104)
+    - **Frequency**: Annual
+- **Key Components**: Investment, Accelerated Depreciation, EBIT, Cash Taxes @, Cash Income, WC Investment @, Capex, Cash Flow, Total Cash Flows, Unlevered IRR, NPV.
+- **Notes & Customizations**: Includes accelerated depreciation and working capital investment assumptions.
+
+### Section Name: Cash Flow Analysis - TEV Exit
+- **Section Type**: Cash Flow Projection
+- **Description & Purpose**: Projects the cash flows based on a Total Enterprise Value (TEV) exit scenario, calculating the unlevered IRR and NPV. This section evaluates the financial viability of the investment under a different exit strategy.
+- **Cell Range**: B121:L136
+- **Layout Structure**:
+    - **Row Headers Location**: B122:B136
+    - **Column Headers Location**: G121:L121 (Years across columns)
+    - **Data Range**: H125:L132
+- **Time Series Details**:
+    - **Date Range**: Year 0 to Year 5 (G121:L121)
+    - **Frequency**: Annual
+- **Key Components**: Investment, Accelerated Depreciation, EBIT, Cash Taxes @, Cash Income, WC Investment @, Capex, Cash Flow, Total Cash Flows, Unlevered IRR.
+- **Notes & Customizations**: Uses a different exit multiple and a shorter time horizon (Year 0 to Year 5).
+
+
+
+====================================================================================================
+# SHEET 19: (Sheet name is not provided in the JSON. Assuming it's "Sheet1") Sheet1
+====================================================================================================
+
+## 1. **Sheet Name**: (Sheet name is not provided in the JSON. Assuming it's "Sheet1") Sheet1
+
+### Support Data Section
+- **Section Type**: `Support Data`
+- **Description & Purpose**: This section likely contains supporting data or metadata for the spreadsheet. The "-->" suggests that more data is located to the right. Without further information, it's impossible to determine the exact purpose.
+- **Cell Range**: `A1:ZZ1000` (Assuming the section extends to the right and down, since only A1 is specified. A more precise range would require more data.)
+- **Layout Structure**:
+    - **Row Headers Location**: Not specified in the provided data.
+    - **Column Headers Location**: Not specified in the provided data.
+    - **Data Range**: Not specified in the provided data.
+- **Time Series Details**:
+    - No time series data detected.
+- **Key Components**: Not specified in the provided data.
+- **Notes & Customizations**: The data is incomplete. More data is needed to determine the full scope and purpose of this section. The "-->" suggests that the data continues to the right.
+
+
+
+====================================================================================================
+# SHEET 20: (Assumed to be Sheet1 based on common convention, since the JSON doesn't explicitly name the sheet)
+====================================================================================================
+
+## 1. **Sheet Name**: (Assumed to be Sheet1 based on common convention, since the JSON doesn't explicitly name the sheet)
+
+### Chassis On-Street Analysis
+- **Section Type**: Key Metrics Table
+- **Description & Purpose**: This section tracks the number of chassis on the street (i.e., in use) by various steamship lines and aggregates them to calculate total chassis on the street and utilization rates. It provides insights into chassis usage and fleet management.
+- **Cell Range**: C2:F57
+- **Layout Structure**:
+    - **Row Headers Location**: Column C (C4:C54)
+    - **Column Headers Location**: Row 3 (E3:F3)
+    - **Data Range**: E4:F54
+- **Time Series Details**:
+    - **Date Range**: 2015-03-07 to 2015-03-14
+    - **Frequency**: Weekly
+- **Key Components**:
+    - Chassis counts for various steamship lines (Horizon Lines, Hamburg Sud, Maersk, MSC, etc.)
+    - Total Chassis on the Street
+    - Pool of Pools Fleet
+    - Total Street Utilization
+    - DCLP/GACP Fleet and Utilization
+- **Notes & Customizations**:
+    - The data reflects chassis with a gated-out status by steamship line.
+    - DCSZ is used as the steamship SCAC when the chassis gates out bare with no container.
+    - There are some italicized values in the data range.
+
+
+
+====================================================================================================
+# SHEET 21: (Assumed to be the default "Sheet1" since the JSON doesn't specify)
+====================================================================================================
+
+## 1. **Sheet Name**: (Assumed to be the default "Sheet1" since the JSON doesn't specify)
+
+### Chassis Valuation Analysis
+- **Section Type**: Key Metrics Table
+- **Description & Purpose**: This section calculates and displays the depreciated value of chassis assets based on their age and purchase price. It provides insights into the current book value and projected depreciated value after a specified number of years.
+- **Cell Range**: B5:M13
+- **Layout Structure**:
+    - **Row Headers Location**: B5:B8, B10:B13
+    - **Column Headers Location**: B11:M11
+    - **Data Range**:
+      - C5:C7 (Value New, Residual Value, Useful Life)
+      - D10, D12:D13 (ASI/CSG, Age)
+      - E12:F13 (Count, % of Total)
+      - G12:I13 (Book Value Per, Purchase Per, Total Purchase)
+      - K12:M13 (Age 10 years Later, Depreciated 10 year value per, Depreciated 10 year value total)
+- **Time Series Details**:
+    - **Date Range**: Not explicitly a time series, but "Age" in D11 and K11 implies a time-dependent calculation. The "10 Years Later" in K11 suggests a single point in the future relative to the "Age" in D11.
+    - **Frequency**: N/A
+- **Key Components**: Value New, Residual Value, Useful Life, Age, Count, % of Total, Book Value Per, Purchase Per, Total Purchase, Depreciated 10 year value per, Depreciated 10 year value total.
+- **Notes & Customizations**: The calculation projects the depreciated value 10 years into the future. The formatting of the "Value New" and "Residual Value" fields (C5, C6) is distinct, indicating potential emphasis or a specific data source.
+
+### Chassis Age Distribution
+- **Section Type**: Key Metrics Table
+- **Description & Purpose**: This section shows the distribution of chassis by age.
 - **Cell Range**: B16:C38
 - **Layout Structure**:
-    - **Row Headers Location**: Column B
-    - **Column Headers Location**: None
-    - **Data Range**: C19:C38
-- **Time Series Details**: None
-- **Key Components**: Book Value, PO
-- **Notes & Customizations**: Values are scaled by 1000.
-
-
-
-====================================================================================================
-# SHEET 22: Fleet Sizing
-====================================================================================================
-
-## 1. Spreadsheet Overview
-- **Sheet Name**: Fleet Sizing
-- **Key Sections Identified**:
-    - Fleet Sizing Calculation Table
-    - Data Source & Assumptions
-
-## 2. Detailed Section Analysis
-
-### Section Name: Fleet Sizing Calculation Table
-- **Section Type**: Key Metrics Table
-- **Description & Purpose**: This section calculates the required chassis for Evergreen PSW LSA/LGB operations based on gate-outs, dwell times, and stress levels. It aims to determine the optimal fleet size under different utilization scenarios (85% and 95%).
-- **Cell Range**: A1:D12
-- **Layout Structure**:
-    - **Row Headers Location**: Column A
-    - **Column Headers Location**: Row 1 (Evergreen PSW LSA/LGB), Row 2 (at 85%, at 95%)
+    - **Row Headers Location**: B16, B18:B38
+    - **Column Headers Location**: B18, C18
     - **Data Range**:
-      - B3:C12 (data for 85% and 95% utilization)
-      - D7:D12 (additional data, possibly a different calculation or scenario)
+      - C19:C38
 - **Time Series Details**:
-    - **Date Range**: Not explicitly time-series data, but rather scenario-based calculations.
-    - **Frequency**: N/A
-- **Key Components**: gate-outs in period, dwell, chassis on the street in period, days in period, chassis on street, stress, chassis required for street, percentage of terminal chassis, chassis required for terminal, chassis required for Evergreen.
-- **Notes & Customizations**: The calculations are performed for two different utilization rates (85% and 95%). The scale of some values is in thousands.
+    - **Date Range**: B20:B38 contains age in "Years", implying a time series. The specific years are not provided in the JSON extract.
+    - **Frequency**: Annual
+- **Key Components**: Age, Book Value
+- **Notes & Customizations**: The values in column B are formatted as "# \"Years\"", indicating the age of the chassis.
 
-### Section Name: Data Source & Assumptions
-- **Section Type**: Notes
-- **Description & Purpose**: This section provides information about the data sources used for the calculations and the assumptions made in the analysis.
-- **Cell Range**: A15:A17
+
+
+====================================================================================================
+# SHEET 22: (Assumed to be "Sheet1" as the JSON doesn't explicitly name it)
+====================================================================================================
+
+## 1. **Sheet Name**: (Assumed to be "Sheet1" as the JSON doesn't explicitly name it)
+
+### Chassis Requirement Analysis
+- **Section Type**: Key Metrics Table
+- **Description & Purpose**: This section calculates and displays the chassis requirements for Evergreen PSW LSA/LGB operations under different stress levels (85% and 95%). It uses gate-out data, dwell times, and days in the period to determine the number of chassis needed on the street and in the terminal.
+- **Cell Range**: A1:D13
 - **Layout Structure**:
-    - **Row Headers Location**: Column A
-    - **Column Headers Location**: None
-    - **Data Range**: A15:A17
+    - **Row Headers Location**: Column A (A3:A12)
+    - **Column Headers Location**: Row 2 (B2:C2)
+    - **Data Range**:
+      - B3:C10 (numeric values related to chassis requirements at 85% and 95% stress)
+      - D11 (chassis required for terminal)
+      - B12:D12 (chassis required for Evergreen)
 - **Time Series Details**:
-    - **Date Range**: Refers to data from April, May, June 2015 for dwell time analysis.
-    - **Frequency**: N/A
-- **Key Components**: Data source (CMS-PC and Evergreen statement), OOS (out-of-service) consideration, Dwell analysis period.
-- **Notes & Customizations**: This section contains textual descriptions of the data sources and assumptions.
+    - **Date Range**: Not explicitly defined in the provided data, but the notes mention "April, May, June 2015" for dwell analysis. This suggests a potential, but limited, time series context.
+    - **Frequency**: Not applicable, as the primary focus is on a static calculation based on period data, not a time series.
+- **Key Components**: gate-outs in period, dwell, chassis on the street in period, days in period, chassis on street, chassis required for street, percentage of terminal chassis, chassis required for terminal, chassis required for Evergreen.
+- **Notes & Customizations**: The analysis considers out-of-service (OOS) chassis and uses a data source of CMS-PC and Evergreen statement of 36k gate moves at Seaside per month. Dwell times are based on analysis of April, May, and June 2015 data.
 

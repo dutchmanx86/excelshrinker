@@ -1,0 +1,57 @@
+{
+  "sheet_name": "Evergreen",
+  "sections": [
+    {
+      "section_name": "Chassis Valuation Assumptions",
+      "section_type": "Assumptions Table",
+      "description": "Defines the key assumptions used for chassis valuation, including new value, residual value, useful life, and premium.",
+      "cell_range": {
+        "row_headers_location": "B5:B8",
+        "column_headers_location": "C5:C8",
+        "data_range": "C5:C8"
+      },
+      "time_series": [],
+      "key_components": [
+        "Value New",
+        "Residual Value",
+        "Useful Life",
+        "Premium"
+      ],
+      "notes": "Useful Life is in cell C7 and has a specific format."
+    },
+    {
+      "section_name": "Chassis Age and Book Value Analysis",
+      "section_type": "Depreciation Schedule",
+      "description": "Analyzes the book value of chassis based on their age, providing a breakdown by year, count, percentage of total, and depreciated values.",
+      "cell_range": {
+        "row_headers_location": "B11:B38",
+        "column_headers_location": "B11:M11",
+        "data_range": "B12:M38"
+      },
+      "time_series": [
+        {
+          "label": "Annual",
+          "start_date": "B12",
+          "end_date": "B12",
+          "frequency": "Annual",
+          "cell_range": "B12",
+          "anchor_points": null
+        }
+      ],
+      "key_components": [
+        "Year",
+        "Date Estimate",
+        "Age",
+        "Count",
+        "% of total",
+        "Book Value Per",
+        "Purchase Per",
+        "Total Purchase",
+        "Age 10 years Later",
+        "Depreciated 10 year value per",
+        "Depreciated 10 year value total"
+      ],
+      "notes": "Includes calculations for depreciated value 10 years later."
+    }
+  ]
+}

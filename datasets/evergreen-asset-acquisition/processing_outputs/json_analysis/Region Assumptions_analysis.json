@@ -1,0 +1,29 @@
+{
+  "sheet_name": "Evergreen Model Assumptions",
+  "sections": [
+    {
+      "section_name": "Evergreen Model Assumptions",
+      "section_type": "Key Metrics Table",
+      "description": "This section outlines the key assumptions used in the Evergreen model, including chassis-related metrics and cost factors for various regions.",
+      "cell_range": {
+        "row_headers_location": "A10:A20",
+        "column_headers_location": "B8:AF8",
+        "data_range": "C10:AF20"
+      },
+      "time_series": [],
+      "key_components": [
+        "Total EVG Owned Chassis",
+        "Total EVG Leased Chassis",
+        "Chassis Purchased by DCLI",
+        "EVG Average Daily Usage",
+        "EVG Utilization Rate",
+        "Average Book Value per Chassis",
+        "Purchase Price",
+        "Cost to Lease Owned EVG Chassis",
+        "Market MH Rate",
+        "MH Conversion per Year"
+      ],
+      "notes": "Assumptions are region-specific (MW, PNW, GUL, SE) and include cost factors related to chassis purchase, lease, maintenance, and other operational expenses."
+    }
+  ]
+}

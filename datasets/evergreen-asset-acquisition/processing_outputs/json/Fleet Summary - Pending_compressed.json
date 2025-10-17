@@ -1,5 +1,100 @@
 {
-  "inverted_index": {
+  "format_index": {
+    "fmt_1": {
+      "number_format": "\"$\"#,##0_);\\(\"$\"#,##0\\)",
+      "type": "number",
+      "ranges": [
+        "C5",
+        "C6"
+      ],
+      "bold": true,
+      "font_color": "rgb:FF3333FF"
+    },
+    "fmt_2": {
+      "number_format": "#,##0.0_);\\(#,##0.0\\)",
+      "type": "number",
+      "ranges": [
+        "D12",
+        "K12",
+        "D16",
+        "K16"
+      ]
+    },
+    "fmt_3": {
+      "number_format": "\"$\"#,##0_);\\(\"$\"#,##0\\)",
+      "type": "number",
+      "ranges": [
+        "G12:I12",
+        "L12:M12",
+        "G16",
+        "L16",
+        "C19",
+        "C20",
+        "C21",
+        "C22",
+        "C23",
+        "C24",
+        "C25",
+        "C26",
+        "C27",
+        "C28",
+        "C29",
+        "C30",
+        "C31",
+        "C32",
+        "C33",
+        "C34",
+        "C35",
+        "C36",
+        "C37",
+        "C38"
+      ]
+    },
+    "fmt_4": {
+      "number_format": "#,##0.0_);\\(#,##0.0\\)",
+      "type": "number",
+      "ranges": [
+        "D13",
+        "K13"
+      ],
+      "bold": true
+    },
+    "fmt_5": {
+      "number_format": "\"$\"#,##0_);\\(\"$\"#,##0\\)",
+      "type": "number",
+      "ranges": [
+        "G13:I13",
+        "L13:M13"
+      ],
+      "bold": true
+    },
+    "fmt_6": {
+      "number_format": "#\\ \"Years\"",
+      "type": "number",
+      "ranges": [
+        "B20",
+        "B21",
+        "B22",
+        "B23",
+        "B24",
+        "B25",
+        "B26",
+        "B27",
+        "B28",
+        "B29",
+        "B30",
+        "B31",
+        "B32",
+        "B33",
+        "B34",
+        "B35",
+        "B36",
+        "B37",
+        "B38"
+      ]
+    }
+  },
+  "string_index": {
     "Age": {
       "type": "string",
       "ranges": [
@@ -8,417 +103,169 @@
       ]
     }
   },
-  "data": {
-    "success": true,
-    "sheet_name": "Fleet Summary - Pending",
-    "format_ranges": [
-      {
-        "range": "A1",
-        "type": "string",
-        "value": "Direct ChassisLink, Inc."
-      },
-      {
-        "range": "A2",
-        "type": "string",
-        "value": "Evergreen"
-      },
-      {
-        "range": "A3",
-        "type": "string",
-        "value": "Chassis Age, Amount, Book"
-      },
-      {
-        "range": "B5",
-        "type": "string",
-        "value": "Value New"
-      },
-      {
-        "range": "C5",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B6",
-        "type": "string",
-        "value": "Residual Value"
-      },
-      {
-        "range": "C6",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B7",
-        "type": "string",
-        "value": "Useful Life"
-      },
-      {
-        "range": "C7",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B8",
-        "type": "string",
-        "value": "Premium"
-      },
-      {
-        "range": "B10",
-        "type": "string",
-        "value": "ASI/CSG"
-      },
-      {
-        "range": "D10",
-        "type": "number"
-      },
-      {
-        "range": "B11",
-        "type": "string",
-        "value": "Year"
-      },
-      {
-        "range": "C11",
-        "type": "string",
-        "value": "Date Estimate"
-      },
-      {
-        "range": "E11",
-        "type": "string",
-        "value": "Count"
-      },
-      {
-        "range": "F11",
-        "type": "string",
-        "value": "% of total"
-      },
-      {
-        "range": "G11",
-        "type": "string",
-        "value": "Book Value Per"
-      },
-      {
-        "range": "H11",
-        "type": "string",
-        "value": "Purchase Per"
-      },
-      {
-        "range": "I11",
-        "type": "string",
-        "value": "Total Purchase"
-      },
-      {
-        "range": "K11",
-        "type": "string",
-        "value": "Age 10 years Later"
-      },
-      {
-        "range": "L11",
-        "type": "string",
-        "value": "Depreciated 10 year value per"
-      },
-      {
-        "range": "M11",
-        "type": "string",
-        "value": "Depreciated 10 year value total"
-      },
-      {
-        "range": "B12",
-        "type": "number"
-      },
-      {
-        "range": "D12",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "E12",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "F12",
-        "type": "number"
-      },
-      {
-        "range": "G12:I12",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "K12",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "L12:M12",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "D13",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "E13",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "F13",
-        "type": "number"
-      },
-      {
-        "range": "G13:I13",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "K13",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "L13:M13",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "K15",
-        "type": "string",
-        "value": "9 Years Later"
-      },
-      {
-        "range": "B16",
-        "type": "string",
-        "value": "PO"
-      },
-      {
-        "range": "D16",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "G16",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "K16",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "L16",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "C18",
-        "type": "string",
-        "value": "Book Value"
-      },
-      {
-        "range": "C19",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B20",
-        "type": "number"
-      },
-      {
-        "range": "C20",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B21",
-        "type": "number"
-      },
-      {
-        "range": "C21",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B22",
-        "type": "number"
-      },
-      {
-        "range": "C22",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B23",
-        "type": "number"
-      },
-      {
-        "range": "C23",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B24",
-        "type": "number"
-      },
-      {
-        "range": "C24",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B25",
-        "type": "number"
-      },
-      {
-        "range": "C25",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B26",
-        "type": "number"
-      },
-      {
-        "range": "C26",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B27",
-        "type": "number"
-      },
-      {
-        "range": "C27",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B28",
-        "type": "number"
-      },
-      {
-        "range": "C28",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B29",
-        "type": "number"
-      },
-      {
-        "range": "C29",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B30",
-        "type": "number"
-      },
-      {
-        "range": "C30",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B31",
-        "type": "number"
-      },
-      {
-        "range": "C31",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B32",
-        "type": "number"
-      },
-      {
-        "range": "C32",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B33",
-        "type": "number"
-      },
-      {
-        "range": "C33",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B34",
-        "type": "number"
-      },
-      {
-        "range": "C34",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B35",
-        "type": "number"
-      },
-      {
-        "range": "C35",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B36",
-        "type": "number"
-      },
-      {
-        "range": "C36",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B37",
-        "type": "number"
-      },
-      {
-        "range": "C37",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B38",
-        "type": "number"
-      },
-      {
-        "range": "C38",
-        "type": "number",
-        "scale": 1000
-      }
-    ],
-    "statistics": {
-      "processing_time_ms": 51.6,
-      "cells_analyzed": 90,
-      "total_ranges": 83,
-      "format_counts": {
-        "string": 23,
-        "number": 60
-      }
+  "date_series_definitions": {},
+  "remaining_ranges": [
+    {
+      "range": "A1",
+      "type": "string",
+      "value": "Direct ChassisLink, Inc."
     },
-    "metadata": {
-      "detected_at": "2025-10-15T18:34:02.652521Z"
+    {
+      "range": "A2",
+      "type": "string",
+      "value": "Evergreen"
+    },
+    {
+      "range": "A3",
+      "type": "string",
+      "value": "Chassis Age, Amount, Book"
+    },
+    {
+      "range": "B5",
+      "type": "string",
+      "value": "Value New"
+    },
+    {
+      "range": "B6",
+      "type": "string",
+      "value": "Residual Value"
+    },
+    {
+      "range": "B7",
+      "type": "string",
+      "value": "Useful Life"
+    },
+    {
+      "range": "C7",
+      "type": "number",
+      "bold": true,
+      "font_color": "rgb:FF0000FF",
+      "format_code": "#,##0_);(#,##0)"
+    },
+    {
+      "range": "B8",
+      "type": "string",
+      "value": "Premium"
+    },
+    {
+      "range": "B10",
+      "type": "string",
+      "value": "ASI/CSG"
+    },
+    {
+      "range": "D10",
+      "type": "number",
+      "format_code": "General"
+    },
+    {
+      "range": "B11",
+      "type": "string",
+      "value": "Year"
+    },
+    {
+      "range": "C11",
+      "type": "string",
+      "value": "Date Estimate"
+    },
+    {
+      "range": "E11",
+      "type": "string",
+      "value": "Count"
+    },
+    {
+      "range": "F11",
+      "type": "string",
+      "value": "% of total"
+    },
+    {
+      "range": "G11",
+      "type": "string",
+      "value": "Book Value Per"
+    },
+    {
+      "range": "H11",
+      "type": "string",
+      "value": "Purchase Per"
+    },
+    {
+      "range": "I11",
+      "type": "string",
+      "value": "Total Purchase"
+    },
+    {
+      "range": "K11",
+      "type": "string",
+      "value": "Age 10 years Later"
+    },
+    {
+      "range": "L11",
+      "type": "string",
+      "value": "Depreciated 10 year value per"
+    },
+    {
+      "range": "M11",
+      "type": "string",
+      "value": "Depreciated 10 year value total"
+    },
+    {
+      "range": "B12",
+      "type": "number",
+      "bg_color": "theme:8+0.40",
+      "format_code": "General"
+    },
+    {
+      "range": "E12",
+      "type": "number",
+      "font_color": "rgb:FF008000",
+      "format_code": "#,##0_);(#,##0)"
+    },
+    {
+      "range": "F12",
+      "type": "number",
+      "format_code": "0.00%\\ ;\\(0.00%\\)"
+    },
+    {
+      "range": "E13",
+      "type": "number",
+      "bold": true,
+      "format_code": "#,##0_);(#,##0)"
+    },
+    {
+      "range": "F13",
+      "type": "number",
+      "bold": true,
+      "format_code": "0.00%\\ ;\\(0.00%\\)"
+    },
+    {
+      "range": "K15",
+      "type": "string",
+      "value": "9 Years Later"
+    },
+    {
+      "range": "B16",
+      "type": "string",
+      "value": "PO"
+    },
+    {
+      "range": "C18",
+      "type": "string",
+      "value": "Book Value"
     }
-  },
+  ],
   "compression_stats": {
-    "unique_values": 1,
-    "entries_moved_to_index": 2,
-    "entries_remaining": 81,
+    "format_signatures": 6,
+    "unique_strings": 1,
+    "entries_moved_to_index": 55,
+    "entries_remaining": 28,
     "min_occurrences_threshold": 2,
-    "original_size_bytes": 3934,
-    "compressed_size_bytes": 3890,
-    "inverted_index_size_bytes": 48,
-    "compressed_data_size_bytes": 3842,
-    "compression_ratio": 0.989,
-    "space_saved_bytes": 44,
-    "space_saved_percent": 1.1
+    "original_size_bytes": 6016,
+    "compressed_size_bytes": 2666,
+    "string_index_size_bytes": 48,
+    "format_index_size_bytes": 879,
+    "date_series_size_bytes": 2,
+    "compressed_ranges_size_bytes": 1737,
+    "compression_ratio": 0.443,
+    "space_saved_bytes": 3350,
+    "space_saved_percent": 55.7
   }
 }

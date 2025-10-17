@@ -51,7 +51,8 @@ class TimeRangeDetector:
         self,
         row_values: List[Any],
         row_number: int,
-        start_col: int = 0
+        start_col: int = 0,
+        format_codes: Optional[List[Optional[str]]] = None
     ) -> List[TimeSeriesInfo]:
         """
         Detect all time series patterns in a row.
@@ -60,6 +61,7 @@ class TimeRangeDetector:
             row_values: List of cell values in the row
             row_number: Row number (0-indexed)
             start_col: Starting column index (0-indexed)
+            format_codes: Optional list of Excel number format codes for each cell
 
         Returns:
             List of TimeSeriesInfo objects (may be empty if no patterns detected)
@@ -78,14 +80,20 @@ class TimeRangeDetector:
             if i >= len(row_values):
                 break
 
-            # Extract contiguous non-empty values
+            # Extract contiguous non-empty values with their format codes
             segment_start = i
             non_empty_values = []
+            segment_formats = []
 
             while i < len(row_values):
                 val = row_values[i]
                 if val is not None and str(val).strip():
                     non_empty_values.append((i, val))
+                    # Get format code if available
+                    if format_codes and i < len(format_codes):
+                        segment_formats.append(format_codes[i])
+                    else:
+                        segment_formats.append(None)
                     i += 1
                 else:
                     # Found a gap
@@ -98,7 +106,11 @@ class TimeRangeDetector:
             actual_end_col = start_col + non_empty_values[-1][0]
 
             # Try different pattern detectors in order of specificity
+            # Sequential with format comes first as it's most specific
             detectors = [
+                lambda vals, row, sc, ec: self._detect_sequential_with_format(
+                    vals, row, sc, ec, segment_formats
+                ),
                 self._detect_monthly_series,
                 self._detect_repeating_quarterly_series,
                 self._detect_quarterly_series,
@@ -113,6 +125,97 @@ class TimeRangeDetector:
                     break
 
         return detected_series
+
+    def _detect_sequential_with_format(
+        self,
+        values: List[Tuple[int, Any]],
+        row: int,
+        start_col: int,
+        end_col: int,
+        format_codes: List[Optional[str]]
+    ) -> Optional[TimeSeriesInfo]:
+        """
+        Detect sequential integer patterns with year/quarter-like format codes.
+        E.g., 0, 1, 2, 3... with format ["Year" 0] -> Annual series
+
+        Args:
+            values: List of (index, value) tuples
+            row: Row number
+            start_col: Starting column
+            end_col: Ending column
+            format_codes: List of format codes for each value
+
+        Returns:
+            TimeSeriesInfo if pattern detected, None otherwise
+        """
+        if len(values) < 2 or not format_codes:
+            return None
+
+        # Extract numeric values
+        numbers = []
+        for idx, val in values:
+            if isinstance(val, (int, float)):
+                numbers.append(int(val))
+            else:
+                return None
+
+        # Check if it's a sequential pattern starting from 0 or 1
+        if len(numbers) < 2:
+            return None
+
+        start_num = numbers[0]
+        if start_num not in (0, 1):
+            return None
+
+        # Verify it's sequential
+        for i, num in enumerate(numbers):
+            if num != start_num + i:
+                return None
+
+        # Check format codes for year/quarter/period indicators
+        # Look at the first format code as representative
+        first_format = format_codes[0] if format_codes else None
+        if not first_format or first_format == 'General':
+            return None
+
+        # Normalize format code to lowercase for matching
+        format_lower = first_format.lower()
+
+        # Detect pattern type from format code
+        if 'year' in format_lower or '"year"' in format_lower:
+            series_type = 'annual'
+            increment = '1 year'
+            pattern = f"Sequential annual series (Year {start_num} to Year {numbers[-1]})"
+            # Use relative year notation instead of actual dates
+            start_date = f"Year {start_num}"
+
+        elif 'quarter' in format_lower or '"q"' in format_lower or 'q0' in format_lower:
+            series_type = 'quarterly'
+            increment = '1 quarter'
+            pattern = f"Sequential quarterly series (Q{start_num} to Q{numbers[-1]})"
+            # Use relative quarter notation
+            start_date = f"Q{start_num if start_num > 0 else 1}"
+
+        elif 'period' in format_lower or 'month' in format_lower:
+            series_type = 'monthly'
+            increment = '1 month'
+            pattern = f"Sequential period series ({start_num} to {numbers[-1]})"
+            # Use relative period notation
+            start_date = f"Period {start_num}"
+
+        else:
+            # Has a custom format but not recognized as time series
+            return None
+
+        return TimeSeriesInfo(
+            start_col=start_col,
+            end_col=end_col,
+            row=row,
+            series_type=series_type,
+            increment=increment,
+            start_date=start_date,
+            pattern=pattern
+        )
 
     def _detect_annual_series(
         self,

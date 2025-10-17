@@ -22,12 +22,12 @@ from compression.format_detector.date_series_analyzer import DateSeriesAnalyzer
 class FormatDetector:
     """
     High-performance Excel number format detector.
-    
+
     Uses a hybrid approach:
     1. Calamine for fast cell value scanning
     2. Openpyxl for accurate number format code extraction
     """
-    
+
     def __init__(self, config: Optional[DetectionConfig] = None):
         """
         Initialize the format detector.
@@ -38,6 +38,72 @@ class FormatDetector:
         self.config = config or DetectionConfig()
         self.time_parser = TimePeriodParser()
         self.time_range_detector = TimeRangeDetector()
+
+    @staticmethod
+    def _safe_extract_color(color_obj) -> Optional[str]:
+        """
+        Safely extract color information from an openpyxl Color object.
+
+        Args:
+            color_obj: openpyxl.styles.colors.Color object or None
+
+        Returns:
+            String representation of the color, or None if no color
+        """
+        if not color_obj:
+            return None
+
+        # Check the color type to determine which attribute to access
+        color_type = getattr(color_obj, 'type', None)
+
+        if color_type == 'rgb':
+            # RGB color - access rgb attribute
+            rgb = getattr(color_obj, 'rgb', None)
+            if rgb and rgb not in ('00000000', 'FFFFFFFF'):  # Skip default/white
+                return f"rgb:{rgb}"
+
+        elif color_type == 'theme':
+            # Theme color - use theme index
+            theme = getattr(color_obj, 'theme', None)
+            tint = getattr(color_obj, 'tint', 0.0)
+            if theme is not None and theme != 1:  # Skip default theme
+                if tint != 0.0:
+                    return f"theme:{theme}+{tint:.2f}"
+                else:
+                    return f"theme:{theme}"
+
+        elif color_type == 'indexed':
+            # Indexed color
+            indexed = getattr(color_obj, 'indexed', None)
+            if indexed is not None and indexed != 64:  # 64 is auto/default
+                return f"indexed:{indexed}"
+
+        return None
+
+    @staticmethod
+    def _safe_extract_fill_color(fill_obj) -> Optional[str]:
+        """
+        Safely extract background color from a fill object.
+
+        Args:
+            fill_obj: openpyxl fill object
+
+        Returns:
+            String representation of the background color, or None
+        """
+        if not fill_obj:
+            return None
+
+        pattern_type = getattr(fill_obj, 'patternType', None)
+        if not pattern_type or pattern_type == 'none':
+            return None
+
+        # Try to get start_color
+        start_color = getattr(fill_obj, 'start_color', None)
+        if start_color:
+            return FormatDetector._safe_extract_color(start_color)
+
+        return None
     
     def detect(
         self,
@@ -87,18 +153,18 @@ class FormatDetector:
                 max_row = boundary_result.max_row
             
             # Scan formats using hybrid approach
-            format_ranges, cells_analyzed, sheet_data, start_row, start_col = self._scan_formats_hybrid(
+            format_ranges, cells_analyzed, sheet_data, start_row, start_col, format_cache = self._scan_formats_hybrid(
                 file_path, sheet_name, max_col, max_row, verbose=verbose
             )
 
-            # Detect and consolidate vertical (columnar) date series
-            columnar_ranges, consolidated_cells = self._detect_columnar_date_series(
-                format_ranges, max_row
+            # Detect and consolidate vertical (columnar) time series using TimeRangeDetector
+            columnar_ranges, consolidated_cells = self._detect_columnar_time_series(
+                sheet_data, max_col, max_row, start_row, start_col, format_cache
             )
 
             # Detect and consolidate horizontal time series, excluding cells from columnar ranges
             time_series_ranges, time_series_cells = self._detect_and_consolidate_time_series(
-                sheet_data, format_ranges, max_col, max_row, start_row, start_col, exclude_cells=consolidated_cells
+                sheet_data, format_ranges, max_col, max_row, start_row, start_col, format_cache, exclude_cells=consolidated_cells
             )
             
             # Combine all non-date, non-time-series ranges with the new consolidated ranges
@@ -113,15 +179,30 @@ class FormatDetector:
             final_ranges.extend(columnar_ranges)
             final_ranges.extend(time_series_ranges)
 
-            # Remove any single date cells that are now part of a consolidated range
+            # Remove any ranges that overlap with consolidated time series cells
             format_ranges = []
             all_consolidated_cells = consolidated_cells.union(time_series_cells)
             for fmt_range in final_ranges:
-                if ':' in fmt_range.range or fmt_range.range not in all_consolidated_cells:
-                    format_ranges.append(fmt_range)
+                # For single cells, check if they're in consolidated set
+                if ':' not in fmt_range.range:
+                    if fmt_range.range not in all_consolidated_cells:
+                        format_ranges.append(fmt_range)
+                else:
+                    # For ranges, check if ANY cell overlaps with time series
+                    # Only skip if it's a non-date range that overlaps
+                    if fmt_range.type == 'date':
+                        # Always keep date ranges (they ARE the time series)
+                        format_ranges.append(fmt_range)
+                    else:
+                        # For non-date ranges, check if they overlap with time series
+                        range_cells = self._get_cells_in_range(fmt_range.range)
+                        if not any(cell in all_consolidated_cells for cell in range_cells):
+                            # No overlap - keep the range
+                            format_ranges.append(fmt_range)
+                        # else: skip this range as it overlaps with a time series
             
-            # Sort final ranges by row position
-            format_ranges.sort(key=lambda r: self._get_row_from_range(r.range))
+            # Sort final ranges by row and then column position
+            format_ranges.sort(key=lambda r: (self._get_row_from_range(r.range), self._get_col_from_range(r.range)))
 
             # Merge consecutive rows with identical column spans into rectangular regions
             format_ranges = self._merge_rectangular_regions(format_ranges)
@@ -167,7 +248,7 @@ class FormatDetector:
             max_row: Maximum row to scan
 
         Returns:
-            Tuple of (list of FormatRange objects, cells_analyzed count, sheet data, start_row, start_col)
+            Tuple of (list of FormatRange objects, cells_analyzed count, sheet data, start_row, start_col, format_cache)
         """
         try:
             from python_calamine import CalamineWorkbook
@@ -201,7 +282,7 @@ class FormatDetector:
         if verbose:
             print(f"Pre-loading format cache for {max_row + 1} rows x {max_col + 1} columns...", file=sys.stderr)
             print(f"  Fetching formats from Excel rows {start_row + 1} to {start_row + max_row + 1}", file=sys.stderr)
-        format_cache = {}  # (row_idx, col_idx) -> (number_format, format_id)
+        format_cache = {}  # (row_idx, col_idx) -> (number_format, format_id, bold, italic, underline, font_color, bg_color)
 
         # Use iter_rows starting from where calamine's data actually begins
         for row_idx, row_cells in enumerate(sheet_xl.iter_rows(
@@ -213,8 +294,22 @@ class FormatDetector:
             for col_idx, cell_xl in enumerate(row_cells):
                 number_format = cell_xl.number_format or 'General'
                 format_id = cell_xl._style if hasattr(cell_xl, '_style') else 0
+
+                # Extract styling attributes
+                bold = bool(cell_xl.font and cell_xl.font.bold)
+                italic = bool(cell_xl.font and cell_xl.font.italic)
+                underline = bool(cell_xl.font and cell_xl.font.underline)
+
+                # Extract font color (safe extraction)
+                font_color = None
+                if cell_xl.font and cell_xl.font.color:
+                    font_color = self._safe_extract_color(cell_xl.font.color)
+
+                # Extract background color (safe extraction)
+                bg_color = self._safe_extract_fill_color(cell_xl.fill)
+
                 # Cache key matches calamine data indices (0-indexed from start of data)
-                format_cache[(row_idx, col_idx)] = (number_format, format_id)
+                format_cache[(row_idx, col_idx)] = (number_format, format_id, bold, italic, underline, font_color, bg_color)
 
         if verbose:
             print(f"Format cache loaded: {len(format_cache)} cells", file=sys.stderr)
@@ -260,7 +355,9 @@ class FormatDetector:
                 cells_analyzed += 1
 
                 # Get format from cache (instant lookup)
-                number_format, format_id = format_cache.get((row_idx, col_idx), ('General', 0))
+                number_format, format_id, bold, italic, underline, font_color, bg_color = format_cache.get(
+                    (row_idx, col_idx), ('General', 0, False, False, False, None, None)
+                )
 
                 # Check value type and handle accordingly
                 is_string_value = isinstance(cell_value, str)
@@ -332,7 +429,6 @@ class FormatDetector:
                 else:
                     # Non-string value - classify format
                     format_type = classify_format(number_format, format_id)
-                    scale = get_format_scale(number_format)
 
                     # Group adjacent cells with same format
                     # Convert calamine indices to Excel coordinates
@@ -343,20 +439,31 @@ class FormatDetector:
                     if current_range is None:
                         # Start new range
                         current_range = self._create_range(
-                            cell_ref, cell_ref, format_type, number_format, format_id, scale
+                            cell_ref, cell_ref, format_type, number_format, format_id,
+                            bold=bold or None, italic=italic or None,
+                            underline=underline or None, font_color=font_color, bg_color=bg_color
                         )
                     elif (current_range.type == format_type and
-                          current_range.format_code == number_format):
-                        # Extend current range
+                          current_range.format_code == number_format and
+                          current_range.bold == (bold or None) and
+                          current_range.italic == (italic or None) and
+                          current_range.underline == (underline or None) and
+                          current_range.font_color == font_color and
+                          current_range.bg_color == bg_color):
+                        # Extend current range (format AND styling match)
                         current_range = self._create_range(
                             current_range.start_cell, cell_ref, format_type,
-                            number_format, format_id, scale
+                            number_format, format_id,
+                            bold=bold or None, italic=italic or None,
+                            underline=underline or None, font_color=font_color, bg_color=bg_color
                         )
                     else:
-                        # Different format - save current and start new
+                        # Different format or styling - save current and start new
                         format_ranges.append(current_range)
                         current_range = self._create_range(
-                            cell_ref, cell_ref, format_type, number_format, format_id, scale
+                            cell_ref, cell_ref, format_type, number_format, format_id,
+                            bold=bold or None, italic=italic or None,
+                            underline=underline or None, font_color=font_color, bg_color=bg_color
                         )
 
             # End of row - save any open range
@@ -366,7 +473,7 @@ class FormatDetector:
 
         workbook_xl.close()
 
-        return format_ranges, cells_analyzed, data, start_row, start_col
+        return format_ranges, cells_analyzed, data, start_row, start_col, format_cache
 
     def _detect_and_consolidate_time_series(
         self,
@@ -376,6 +483,7 @@ class FormatDetector:
         max_row: int,
         start_row: int,
         start_col: int,
+        format_cache: dict,
         exclude_cells: set = None
     ) -> Tuple[List[FormatRange], set]:
         """
@@ -388,6 +496,7 @@ class FormatDetector:
             max_row: Maximum row index.
             start_row: Starting row offset from calamine (0-indexed).
             start_col: Starting column offset from calamine (0-indexed).
+            format_cache: Dictionary mapping (row_idx, col_idx) to (number_format, format_id).
             exclude_cells: A set of cell references (e.g., "A1") to exclude.
 
         Returns:
@@ -401,8 +510,18 @@ class FormatDetector:
 
         for row_idx in range(max_row + 1):
             row_data = data[row_idx] if row_idx < len(data) else []
+
+            # Extract format codes for this row
+            row_formats = []
+            for col_idx in range(len(row_data)):
+                if (row_idx, col_idx) in format_cache:
+                    number_format, *_ = format_cache[(row_idx, col_idx)]  # Unpack only number_format
+                    row_formats.append(number_format)
+                else:
+                    row_formats.append(None)
+
             series_list = self.time_range_detector.detect_row_series(
-                row_data, row_number=row_idx, start_col=0
+                row_data, row_number=row_idx, start_col=0, format_codes=row_formats
             )
 
             for series_info in series_list:
@@ -435,6 +554,110 @@ class FormatDetector:
                     type='date',
                     date_series_info={
                         'series_type': series_info.series_type,
+                        'increment': series_info.increment,
+                        'start_date': series_info.start_date,
+                        'pattern': series_info.pattern
+                    }
+                )
+                new_time_series_ranges.append(time_series_range)
+                time_series_cells.update(current_series_cells)
+
+        return new_time_series_ranges, time_series_cells
+
+    def _detect_columnar_time_series(
+        self,
+        data: List[List],
+        max_col: int,
+        max_row: int,
+        start_row: int,
+        start_col: int,
+        format_cache: dict,
+        exclude_cells: set = None
+    ) -> Tuple[List[FormatRange], set]:
+        """
+        Detect vertical (columnar) time series patterns using TimeRangeDetector.
+
+        Args:
+            data: Sheet data from calamine.
+            max_col: Maximum column index.
+            max_row: Maximum row index.
+            start_row: Starting row offset from calamine (0-indexed).
+            start_col: Starting column offset from calamine (0-indexed).
+            format_cache: Dictionary mapping (row_idx, col_idx) to (number_format, format_id).
+            exclude_cells: A set of cell references to exclude.
+
+        Returns:
+            A tuple of (new time series ranges, set of cells in these series).
+        """
+        if exclude_cells is None:
+            exclude_cells = set()
+
+        time_series_cells = set()
+        new_time_series_ranges = []
+
+        # Process column by column (transpose logic from row processing)
+        for col_idx in range(max_col + 1):
+            # Extract column data
+            col_data = []
+            col_formats = []
+
+            for row_idx in range(max_row + 1):
+                if row_idx < len(data):
+                    row = data[row_idx]
+                    cell_value = row[col_idx] if col_idx < len(row) else None
+                else:
+                    cell_value = None
+
+                col_data.append(cell_value)
+
+                # Get format code
+                if (row_idx, col_idx) in format_cache:
+                    number_format, *_ = format_cache[(row_idx, col_idx)]  # Unpack only number_format
+                    col_formats.append(number_format)
+                else:
+                    col_formats.append(None)
+
+            # Use detect_row_series for column data (it works the same way)
+            # We pass col_idx as "row_number" since it represents the series identifier
+            series_list = self.time_range_detector.detect_row_series(
+                col_data, row_number=col_idx, start_col=0, format_codes=col_formats
+            )
+
+            # Only keep series with minimum length (columnar series should be longer)
+            for series_info in series_list:
+                series_length = series_info.end_col - series_info.start_col + 1
+                if series_length < self.config.min_columnar_dates:
+                    continue
+
+                series_is_valid = True
+                current_series_cells = set()
+
+                # Check if any cell in the potential series is already excluded
+                # For columns: series_info.start_col/end_col represent row indices
+                for row_idx in range(series_info.start_col, series_info.end_col + 1):
+                    excel_row = start_row + row_idx + 1
+                    excel_col_letter = column_index_to_letter(start_col + col_idx)
+                    cell_ref = f"{excel_col_letter}{excel_row}"
+                    if cell_ref in exclude_cells:
+                        series_is_valid = False
+                        break
+                    current_series_cells.add(cell_ref)
+
+                if not series_is_valid:
+                    continue
+
+                # Create vertical range (same column, different rows)
+                start_excel_row = start_row + series_info.start_col + 1
+                end_excel_row = start_row + series_info.end_col + 1
+                excel_col_letter = column_index_to_letter(start_col + col_idx)
+                start_cell = f"{excel_col_letter}{start_excel_row}"
+                end_cell = f"{excel_col_letter}{end_excel_row}"
+
+                time_series_range = FormatRange(
+                    range=f"{start_cell}:{end_cell}",
+                    type='date',
+                    date_series_info={
+                        'series_type': series_info.series_type + '_column',  # Mark as column
                         'increment': series_info.increment,
                         'start_date': series_info.start_date,
                         'pattern': series_info.pattern
@@ -544,6 +767,61 @@ class FormatDetector:
 
         return int(match.group(2)) - 1
 
+    def _get_cells_in_range(self, range_str: str) -> set:
+        """
+        Get all cell references in a range.
+
+        Args:
+            range_str: Excel range like "G21:Q21" or "A1:C3"
+
+        Returns:
+            Set of cell references like {"G21", "H21", "I21", ...}
+        """
+        if ':' not in range_str:
+            return {range_str}
+
+        start_cell, end_cell = range_str.split(':')
+
+        # Parse cells
+        import re
+        start_match = re.match(r'^([A-Z]+)(\d+)$', start_cell)
+        end_match = re.match(r'^([A-Z]+)(\d+)$', end_cell)
+
+        if not start_match or not end_match:
+            return {range_str}
+
+        start_col_str = start_match.group(1)
+        start_row = int(start_match.group(2))
+        end_col_str = end_match.group(1)
+        end_row = int(end_match.group(2))
+
+        # Convert column letters to numbers
+        def col_to_num(col_str):
+            num = 0
+            for char in col_str:
+                num = num * 26 + (ord(char) - ord('A') + 1)
+            return num
+
+        def num_to_col(n):
+            result = ''
+            while n > 0:
+                n -= 1
+                result = chr(65 + n % 26) + result
+                n //= 26
+            return result
+
+        start_col_num = col_to_num(start_col_str)
+        end_col_num = col_to_num(end_col_str)
+
+        # Generate all cells in range
+        cells = set()
+        for row in range(start_row, end_row + 1):
+            for col_num in range(start_col_num, end_col_num + 1):
+                col_str = num_to_col(col_num)
+                cells.add(f"{col_str}{row}")
+
+        return cells
+
     def _get_row_from_range(self, range_str: str) -> int:
         """
         Extract row number from a range string for sorting.
@@ -566,6 +844,33 @@ class FormatDetector:
         # If parsing fails, return a large number to put it at the end
         return 999999
 
+    def _get_col_from_range(self, range_str: str) -> int:
+        """
+        Extract column number from a range string for sorting.
+
+        Args:
+            range_str: Cell range like "A1", "A1:C1", or "AF2:DW2"
+
+        Returns:
+            Column number (0-indexed) from the start of the range
+        """
+        import re
+        # Handle both single cells and ranges - just get the first cell
+        first_cell = range_str.split(':')[0]
+
+        # Extract column letters (e.g., "AF2" -> "AF")
+        match = re.match(r'^([A-Z]+)(\d+)$', first_cell)
+        if match:
+            col_letters = match.group(1)
+            # Convert column letters to number (A=0, B=1, ..., Z=25, AA=26, etc.)
+            col_num = 0
+            for char in col_letters:
+                col_num = col_num * 26 + (ord(char) - ord('A') + 1)
+            return col_num - 1  # Return 0-indexed
+
+        # If parsing fails, return a large number to put it at the end
+        return 999999
+
     def _create_range(
         self,
         start_cell: str,
@@ -573,19 +878,27 @@ class FormatDetector:
         format_type: str,
         number_format: str,
         format_id: int,
-        scale: Optional[int]
+        bold: Optional[bool] = None,
+        italic: Optional[bool] = None,
+        underline: Optional[bool] = None,
+        font_color: Optional[str] = None,
+        bg_color: Optional[str] = None
     ) -> FormatRange:
         """
         Create a FormatRange object.
-        
+
         Args:
             start_cell: Starting cell (e.g., "A1")
             end_cell: Ending cell (e.g., "C1")
             format_type: Format type classification
             number_format: Excel number format string
             format_id: Excel format ID
-            scale: Optional scaling factor
-        
+            bold: Optional bold styling
+            italic: Optional italic styling
+            underline: Optional underline styling
+            font_color: Optional font/text color
+            bg_color: Optional background color
+
         Returns:
             FormatRange object
         """
@@ -593,13 +906,17 @@ class FormatDetector:
             range_str = start_cell
         else:
             range_str = f"{start_cell}:{end_cell}"
-        
+
         return FormatRange(
             range=range_str,
             type=format_type,
             format_code=number_format,
             format_id=format_id,
-            scale=scale
+            bold=bold,
+            italic=italic,
+            underline=underline,
+            font_color=font_color,
+            bg_color=bg_color
         )
     
     def _merge_rectangular_regions(self, format_ranges: List[FormatRange]) -> List[FormatRange]:
@@ -616,29 +933,61 @@ class FormatDetector:
         if not format_ranges:
             return format_ranges
 
+        # Build a dictionary of mergeable ranges by (row, start_col, end_col) -> index
+        # This allows us to efficiently find consecutive rows without scanning the whole list
+        mergeable_by_position = {}
+        for i, fmt_range in enumerate(format_ranges):
+            # Only consider ranges (not single cells) that are mergeable (not date/string)
+            if ':' in fmt_range.range and fmt_range.type not in ('date', 'string'):
+                row = self._get_row_from_range(fmt_range.range)
+                start_col, _ = self._parse_cell_ref(fmt_range.range.split(':')[0])
+                end_col, _ = self._parse_cell_ref(fmt_range.range.split(':')[1])
+                key = (row, start_col, end_col)
+                mergeable_by_position[key] = i
+
+        # Track which ranges have been merged
+        merged_indices = set()
         merged_ranges = []
-        i = 0
 
-        while i < len(format_ranges):
-            current = format_ranges[i]
-
-            # Skip single cells and date series (don't merge these)
-            if ':' not in current.range or current.type == 'date' or current.type == 'string':
-                merged_ranges.append(current)
-                i += 1
+        for i, current in enumerate(format_ranges):
+            if i in merged_indices:
                 continue
 
-            # Try to find consecutive rows with matching attributes
+            # Skip single cells, dates, and strings (don't merge these)
+            if ':' not in current.range or current.type in ('date', 'string'):
+                merged_ranges.append(current)
+                continue
+
+            # Try to build a group of consecutive rows
             group = [current]
-            j = i + 1
+            merged_indices.add(i)
 
-            while j < len(format_ranges):
-                candidate = format_ranges[j]
+            # Get current range info
+            curr_row = self._get_row_from_range(current.range)
+            start_col, _ = self._parse_cell_ref(current.range.split(':')[0])
+            end_col, _ = self._parse_cell_ref(current.range.split(':')[1])
 
-                # Check if candidate can be merged with the group
-                if self._can_merge_into_rectangle(group[0], candidate):
+            # Look for consecutive rows with same column span
+            next_row = curr_row + 1
+            while True:
+                key = (next_row, start_col, end_col)
+                if key not in mergeable_by_position:
+                    break
+
+                candidate_idx = mergeable_by_position[key]
+                candidate = format_ranges[candidate_idx]
+
+                # Check if formats match (including styling)
+                if (current.type == candidate.type and
+                    current.format_code == candidate.format_code and
+                    current.bold == candidate.bold and
+                    current.italic == candidate.italic and
+                    current.underline == candidate.underline and
+                    current.font_color == candidate.font_color and
+                    current.bg_color == candidate.bg_color):
                     group.append(candidate)
-                    j += 1
+                    merged_indices.add(candidate_idx)
+                    next_row += 1
                 else:
                     break
 
@@ -648,8 +997,6 @@ class FormatDetector:
                 merged_ranges.append(merged_range)
             else:
                 merged_ranges.append(current)
-
-            i = j
 
         return merged_ranges
 
@@ -672,10 +1019,14 @@ class FormatDetector:
         if candidate.type in ('date', 'string'):
             return False
 
-        # Must have same type and format attributes
+        # Must have same type and format attributes (including styling)
         if (base_range.type != candidate.type or
             base_range.format_code != candidate.format_code or
-            base_range.scale != candidate.scale):
+            base_range.bold != candidate.bold or
+            base_range.italic != candidate.italic or
+            base_range.underline != candidate.underline or
+            base_range.font_color != candidate.font_color or
+            base_range.bg_color != candidate.bg_color):
             return False
 
         # Parse ranges
@@ -716,7 +1067,11 @@ class FormatDetector:
             type=first.type,
             format_code=first.format_code,
             format_id=first.format_id,
-            scale=first.scale
+            bold=first.bold,
+            italic=first.italic,
+            underline=first.underline,
+            font_color=first.font_color,
+            bg_color=first.bg_color
         )
 
     def _parse_cell_ref(self, cell_ref: str) -> Tuple[str, int]:

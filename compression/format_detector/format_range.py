@@ -17,9 +17,13 @@ class FormatRange:
         original_value: Optional original string value before parsing
         format_code: Optional Excel format code string (for debugging)
         format_id: Optional Excel format ID number
-        scale: Optional scaling factor (1000, 1000000) for formats like "$0.0,,"
+        bold: Optional bold styling
+        italic: Optional italic styling
+        underline: Optional underline styling
+        font_color: Optional font/text color
+        bg_color: Optional background color
     """
-    
+
     range: str
     type: str
     value: Optional[str] = None
@@ -27,7 +31,11 @@ class FormatRange:
     original_value: Optional[str] = None
     format_code: Optional[str] = None
     format_id: Optional[int] = None
-    scale: Optional[int] = None
+    bold: Optional[bool] = None
+    italic: Optional[bool] = None
+    underline: Optional[bool] = None
+    font_color: Optional[str] = None
+    bg_color: Optional[str] = None
     date_series_info: Optional[Dict[str, Any]] = None
     
     def __post_init__(self):
@@ -54,26 +62,41 @@ class FormatRange:
         # Add optional fields only if they have values
         if self.value is not None:
             result['value'] = self.value
-        
+
         if self.parsed_date is not None:
             result['parsed_date'] = self.parsed_date
-        
+
         if self.original_value is not None:
             result['original_value'] = self.original_value
-        
-        if self.scale is not None:
-            result['scale'] = self.scale
-        
+
+        # Add styling attributes as keys only (not key-value pairs) when truthy
+        if self.bold:
+            result['bold'] = True
+
+        if self.italic:
+            result['italic'] = True
+
+        if self.underline:
+            result['underline'] = True
+
+        if self.font_color:
+            result['font_color'] = self.font_color
+
+        if self.bg_color:
+            result['bg_color'] = self.bg_color
+
+        # Always include format_code for numbers (needed for inverted index compression)
+        if self.format_code is not None and self.type not in ('string', 'date'):
+            result['format_code'] = self.format_code
+
         if self.date_series_info is not None:
             result['date_series'] = self.date_series_info
-        
+
         # Debug information (optional)
         if include_debug:
-            if self.format_code is not None:
-                result['format_code'] = self.format_code
             if self.format_id is not None:
                 result['format_id'] = self.format_id
-        
+
         return result
     
     @property
@@ -103,7 +126,15 @@ class FormatRange:
             parts.append(f"value='{self.value}'")
         if self.parsed_date:
             parts.append(f"parsed_date='{self.parsed_date}'")
-        if self.scale:
-            parts.append(f"scale={self.scale}")
-        
+        if self.bold:
+            parts.append("bold")
+        if self.italic:
+            parts.append("italic")
+        if self.underline:
+            parts.append("underline")
+        if self.font_color:
+            parts.append(f"font_color='{self.font_color}'")
+        if self.bg_color:
+            parts.append(f"bg_color='{self.bg_color}'")
+
         return ', '.join(parts) + ')'

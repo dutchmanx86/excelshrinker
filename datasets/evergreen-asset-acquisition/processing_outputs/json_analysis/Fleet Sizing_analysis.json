@@ -1,0 +1,29 @@
+{
+  "sheet_name": "Evergreen Chassis Analysis",
+  "sections": [
+    {
+      "section_name": "Chassis Utilization Metrics",
+      "section_type": "Key Metrics Table",
+      "description": "This section calculates and presents key metrics related to chassis utilization for Evergreen PSW LSA/LGB operations, including gate-outs, dwell times, chassis on the street, and required chassis counts under different stress scenarios.",
+      "cell_range": {
+        "row_headers_location": "A3:A12",
+        "column_headers_location": "B2:C2",
+        "data_range": "B3:D12"
+      },
+      "time_series": [],
+      "key_components": [
+        "Gate-outs in period",
+        "Dwell",
+        "Chassis on the street in period",
+        "Days in period",
+        "Chassis on street",
+        "Stress",
+        "Chassis required for street",
+        "Percentage of terminal chassis",
+        "Chassis required for terminal",
+        "Chassis required for Evergreen"
+      ],
+      "notes": "Calculations are based on CMS-PC data and Evergreen's statement of 36k gate moves at Seaside per month. OOS (out-of-service) is considered with 85% stress. Dwell time is analyzed from April, May, and June 2015 data."
+    }
+  ]
+}

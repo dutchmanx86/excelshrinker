@@ -1,0 +1,24 @@
+{
+  "sheet_name": "Summary of Options for EVG",
+  "sections": [
+    {
+      "section_name": "EVG Chassis Purchase Options",
+      "section_type": "Key Metrics Table",
+      "description": "This section presents a summary of different options for purchasing chassis for EVG usage, including purchase price, potential MH (Market Handling) percentage, CH (Chassis Handling) rate, and terminal rate. It allows for comparison of different scenarios.",
+      "cell_range": {
+        "row_headers_location": "B14:B33",
+        "column_headers_location": "C13:G13",
+        "data_range": "C14:G33"
+      },
+      "time_series": [],
+      "key_components": [
+        "Purchase Price per Chassis",
+        "Total Purchase Price",
+        "MH %",
+        "CH Rate",
+        "Terminal Rate"
+      ],
+      "notes": "Assumptions regarding chassis age, EVG usage, transition to MH, market rate for MH, and terminal usage are outlined in cells C6:C10."
+    }
+  ]
+}

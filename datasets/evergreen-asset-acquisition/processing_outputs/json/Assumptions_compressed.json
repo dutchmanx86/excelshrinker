@@ -1,515 +1,475 @@
 {
-  "inverted_index": {},
-  "data": {
-    "success": true,
-    "sheet_name": "Assumptions",
-    "format_ranges": [
-      {
-        "range": "A1",
-        "type": "string",
-        "value": "Direct ChassisLink, Inc."
-      },
-      {
-        "range": "A2",
-        "type": "string",
-        "value": "Evergreen"
-      },
-      {
-        "range": "C2",
-        "type": "string",
-        "value": "Factor"
-      },
-      {
-        "range": "D2",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "A3",
-        "type": "string",
-        "value": "Drivers"
-      },
-      {
-        "range": "B5",
-        "type": "string",
-        "value": "Utilization Assumptions"
-      },
-      {
-        "range": "B6",
-        "type": "string",
-        "value": "Total EVG Chassis Purchased"
-      },
-      {
-        "range": "C6",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "F6",
-        "type": "string",
-        "value": "1 - DCLI leases chassis and provides chassis services"
-      },
-      {
-        "range": "E6",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B7",
-        "type": "string",
-        "value": "Total EVG Chassis Leased "
-      },
-      {
-        "range": "C7",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "F7",
-        "type": "string",
-        "value": "2 - DCLI purchases chassis and provides chassis services"
-      },
-      {
-        "range": "B8",
-        "type": "string",
-        "value": "Total EVG Chassis for Scrap"
-      },
-      {
-        "range": "C8",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B9",
-        "type": "string",
-        "value": "Total EVG Leases"
-      },
-      {
-        "range": "C9",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "F9",
-        "type": "string",
-        "value": "1 - DCLI Lease All Excess"
-      },
-      {
-        "range": "E9",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B10",
-        "type": "string",
-        "value": "Total Excess Chassis Leased"
-      },
-      {
-        "range": "C10",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "F10",
-        "type": "string",
-        "value": "2 - DCLI Backfill Some Excess"
-      },
-      {
-        "range": "B11",
-        "type": "string",
-        "value": "Total DCLI Backfill"
-      },
-      {
-        "range": "C11",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B12",
-        "type": "string",
-        "value": "EVG Average Daily Usage"
-      },
-      {
-        "range": "C12",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B13",
-        "type": "string",
-        "value": "EVG Utilization Rate"
-      },
-      {
-        "range": "C13",
-        "type": "number"
-      },
-      {
-        "range": "B14",
-        "type": "string",
-        "value": "Total Chassis Required for EVG Use"
-      },
-      {
-        "range": "C14",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B16",
-        "type": "string",
-        "value": "Purchase/Lease Assumptions"
-      },
-      {
-        "range": "B17",
-        "type": "string",
-        "value": "Average Book Value per Chassis"
-      },
-      {
-        "range": "C17",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B18",
-        "type": "string",
-        "value": "Premium / (Discount) to Book (Upfront)"
-      },
-      {
-        "range": "C18",
-        "type": "number"
-      },
-      {
-        "range": "B19",
-        "type": "string",
-        "value": "Premium / (Discount) to Book (PO)"
-      },
-      {
-        "range": "C19",
-        "type": "number"
-      },
-      {
-        "range": "B20",
-        "type": "string",
-        "value": "Purchase Price"
-      },
-      {
-        "range": "C20",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B22",
-        "type": "string",
-        "value": "Lease Cost per Day for EVG Chassis"
-      },
-      {
-        "range": "C22",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B23",
-        "type": "string",
-        "value": "Lease Cost per Day for EVG Leases"
-      },
-      {
-        "range": "C23",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B24",
-        "type": "string",
-        "value": "Lease Cost per Day for Add. Capacity"
-      },
-      {
-        "range": "C24",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B26",
-        "type": "string",
-        "value": "Upfront Investment"
-      },
-      {
-        "range": "B27",
-        "type": "string",
-        "value": "Repositioning"
-      },
-      {
-        "range": "C27",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B28",
-        "type": "string",
-        "value": "# of Chassis w/ Repositioning "
-      },
-      {
-        "range": "C28",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B30",
-        "type": "string",
-        "value": "Decouping Costs"
-      },
-      {
-        "range": "C30",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B31",
-        "type": "string",
-        "value": "Chassis to be Decouped"
-      },
-      {
-        "range": "C31",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B33",
-        "type": "string",
-        "value": "Reconditioning Costs"
-      },
-      {
-        "range": "C33",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B34",
-        "type": "string",
-        "value": "# of Chassis Requiring Reconditioning"
-      },
-      {
-        "range": "C34",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "F34",
-        "type": "string",
-        "value": "on/off"
-      },
-      {
-        "range": "E34",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B36",
-        "type": "string",
-        "value": "Retitling Costs"
-      },
-      {
-        "range": "C36",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B37",
-        "type": "string",
-        "value": "Chassis to be Retitled"
-      },
-      {
-        "range": "C37",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B39",
-        "type": "string",
-        "value": "Stenciling Costs"
-      },
-      {
-        "range": "C39",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B40",
-        "type": "string",
-        "value": "Chassis to be Stenciled"
-      },
-      {
-        "range": "C40",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B42",
-        "type": "string",
-        "value": "Offhire Costs"
-      },
-      {
-        "range": "C42",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B43",
-        "type": "string",
-        "value": "Chassis to be Offhired"
-      },
-      {
-        "range": "C43",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B45",
-        "type": "string",
-        "value": "Sales Tax"
-      },
-      {
-        "range": "C45",
-        "type": "number"
-      },
-      {
-        "range": "B47",
-        "type": "string",
-        "value": "Operating Assumptions"
-      },
-      {
-        "range": "B48",
-        "type": "string",
-        "value": "Terminal % Assumption Placeholder"
-      },
-      {
-        "range": "C48",
-        "type": "number"
-      },
-      {
-        "range": "B49",
-        "type": "string",
-        "value": "Terminal Billing Threshold"
-      },
-      {
-        "range": "C49",
-        "type": "number"
-      },
-      {
-        "range": "E50",
-        "type": "string",
-        "value": "M&R"
-      },
-      {
-        "range": "F50",
-        "type": "string",
-        "value": "Admin"
-      },
-      {
-        "range": "G50",
-        "type": "string",
-        "value": "Repo"
-      },
-      {
-        "range": "H50",
-        "type": "string",
-        "value": "Other"
-      },
-      {
-        "range": "B51",
-        "type": "string",
-        "value": "Cost Assumptions "
-      },
-      {
-        "range": "C51",
-        "type": "string",
-        "value": "See Right"
-      },
-      {
-        "range": "I51",
-        "type": "string",
-        "value": "Cost assumptions provided by operations"
-      },
-      {
-        "range": "E51:H51",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B53",
-        "type": "string",
-        "value": "PSW MH Rate"
-      },
-      {
-        "range": "C53",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B54",
-        "type": "string",
-        "value": "EVG CH Rate"
-      },
-      {
-        "range": "B55",
-        "type": "string",
-        "value": "Terminal Rate"
-      },
-      {
-        "range": "C55",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B57",
-        "type": "string",
-        "value": "MH Annual Conversion %"
-      },
-      {
-        "range": "C57",
-        "type": "number"
-      },
-      {
-        "range": "B58",
-        "type": "string",
-        "value": "Gain Sharing % on Conversion"
-      },
-      {
-        "range": "C58",
-        "type": "number"
-      },
-      {
-        "range": "B60",
-        "type": "string",
-        "value": "Bad Debt (as % of Revenue)"
-      },
-      {
-        "range": "C60",
-        "type": "number"
-      }
-    ],
-    "statistics": {
-      "processing_time_ms": 818.99,
-      "cells_analyzed": 101,
-      "total_ranges": 98,
-      "format_counts": {
-        "string": 57,
-        "number": 41
-      }
+  "format_index": {
+    "fmt_1": {
+      "number_format": "#,##0_);(#,##0)",
+      "type": "number",
+      "ranges": [
+        "C6",
+        "C7",
+        "C8",
+        "C9",
+        "C11",
+        "C12",
+        "C28",
+        "C31",
+        "E34"
+      ],
+      "font_color": "rgb:FF0000FF",
+      "bg_color": "theme:0"
     },
-    "metadata": {
-      "detected_at": "2025-10-15T18:32:15.077023Z"
+    "fmt_2": {
+      "number_format": "#,##0_);(#,##0)",
+      "type": "number",
+      "ranges": [
+        "C10",
+        "C14",
+        "C34",
+        "C37",
+        "C40",
+        "C43"
+      ],
+      "bg_color": "theme:0"
+    },
+    "fmt_3": {
+      "number_format": "0%;\\(0%\\)",
+      "type": "number",
+      "ranges": [
+        "C13",
+        "C49",
+        "C58"
+      ],
+      "font_color": "rgb:FF0000FF",
+      "bg_color": "theme:0"
+    },
+    "fmt_4": {
+      "number_format": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)",
+      "type": "number",
+      "ranges": [
+        "C23",
+        "C24",
+        "E51",
+        "G51:H51"
+      ],
+      "font_color": "rgb:FF0000FF",
+      "bg_color": "theme:0"
+    },
+    "fmt_5": {
+      "number_format": "\"$\"#,##0_);\\(\"$\"#,##0\\)",
+      "type": "number",
+      "ranges": [
+        "C27",
+        "C30",
+        "C33",
+        "C36",
+        "C39",
+        "C42"
+      ],
+      "font_color": "rgb:FF0000FF",
+      "bg_color": "theme:0"
     }
   },
+  "string_index": {},
+  "date_series_definitions": {},
+  "remaining_ranges": [
+    {
+      "range": "A1",
+      "type": "string",
+      "value": "Direct ChassisLink, Inc."
+    },
+    {
+      "range": "A2",
+      "type": "string",
+      "value": "Evergreen"
+    },
+    {
+      "range": "C2",
+      "type": "string",
+      "value": "Factor"
+    },
+    {
+      "range": "D2",
+      "type": "number",
+      "font_color": "rgb:FF0000FF",
+      "format_code": "#,##0_);(#,##0)"
+    },
+    {
+      "range": "A3",
+      "type": "string",
+      "value": "Drivers"
+    },
+    {
+      "range": "B5",
+      "type": "string",
+      "value": "Utilization Assumptions"
+    },
+    {
+      "range": "B6",
+      "type": "string",
+      "value": "Total EVG Chassis Purchased"
+    },
+    {
+      "range": "E6",
+      "type": "number",
+      "font_color": "rgb:FF008000",
+      "bg_color": "rgb:FFFFFF99",
+      "format_code": "#,##0_);(#,##0)"
+    },
+    {
+      "range": "F6",
+      "type": "string",
+      "value": "1 - DCLI leases chassis and provides chassis services"
+    },
+    {
+      "range": "B7",
+      "type": "string",
+      "value": "Total EVG Chassis Leased "
+    },
+    {
+      "range": "F7",
+      "type": "string",
+      "value": "2 - DCLI purchases chassis and provides chassis services"
+    },
+    {
+      "range": "B8",
+      "type": "string",
+      "value": "Total EVG Chassis for Scrap"
+    },
+    {
+      "range": "B9",
+      "type": "string",
+      "value": "Total EVG Leases"
+    },
+    {
+      "range": "E9",
+      "type": "number",
+      "font_color": "rgb:FF0000FF",
+      "bg_color": "rgb:FFFFFF99",
+      "format_code": "#,##0_);(#,##0)"
+    },
+    {
+      "range": "F9",
+      "type": "string",
+      "value": "1 - DCLI Lease All Excess"
+    },
+    {
+      "range": "B10",
+      "type": "string",
+      "value": "Total Excess Chassis Leased"
+    },
+    {
+      "range": "F10",
+      "type": "string",
+      "value": "2 - DCLI Backfill Some Excess"
+    },
+    {
+      "range": "B11",
+      "type": "string",
+      "value": "Total DCLI Backfill"
+    },
+    {
+      "range": "B12",
+      "type": "string",
+      "value": "EVG Average Daily Usage"
+    },
+    {
+      "range": "B13",
+      "type": "string",
+      "value": "EVG Utilization Rate"
+    },
+    {
+      "range": "B14",
+      "type": "string",
+      "value": "Total Chassis Required for EVG Use"
+    },
+    {
+      "range": "B16",
+      "type": "string",
+      "value": "Purchase/Lease Assumptions"
+    },
+    {
+      "range": "B17",
+      "type": "string",
+      "value": "Average Book Value per Chassis"
+    },
+    {
+      "range": "C17",
+      "type": "number",
+      "bg_color": "theme:0",
+      "format_code": "\"$\"#,##0_);\\(\"$\"#,##0\\)"
+    },
+    {
+      "range": "B18",
+      "type": "string",
+      "value": "Premium / (Discount) to Book (Upfront)"
+    },
+    {
+      "range": "C18",
+      "type": "number",
+      "font_color": "rgb:FF008000",
+      "bg_color": "theme:0",
+      "format_code": "0%\\ ;\\(0%\\)"
+    },
+    {
+      "range": "B19",
+      "type": "string",
+      "value": "Premium / (Discount) to Book (PO)"
+    },
+    {
+      "range": "C19",
+      "type": "number",
+      "bg_color": "theme:0",
+      "format_code": "0%\\ ;\\(0%\\)"
+    },
+    {
+      "range": "B20",
+      "type": "string",
+      "value": "Purchase Price"
+    },
+    {
+      "range": "C20",
+      "type": "number",
+      "bg_color": "theme:0",
+      "format_code": "\"$\"#,##0_);[Red]\\(\"$\"#,##0\\)"
+    },
+    {
+      "range": "B22",
+      "type": "string",
+      "value": "Lease Cost per Day for EVG Chassis"
+    },
+    {
+      "range": "C22",
+      "type": "number",
+      "font_color": "rgb:FF008000",
+      "bg_color": "theme:0",
+      "format_code": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+    },
+    {
+      "range": "B23",
+      "type": "string",
+      "value": "Lease Cost per Day for EVG Leases"
+    },
+    {
+      "range": "B24",
+      "type": "string",
+      "value": "Lease Cost per Day for Add. Capacity"
+    },
+    {
+      "range": "B26",
+      "type": "string",
+      "value": "Upfront Investment"
+    },
+    {
+      "range": "B27",
+      "type": "string",
+      "value": "Repositioning"
+    },
+    {
+      "range": "B28",
+      "type": "string",
+      "value": "# of Chassis w/ Repositioning "
+    },
+    {
+      "range": "B30",
+      "type": "string",
+      "value": "Decouping Costs"
+    },
+    {
+      "range": "B31",
+      "type": "string",
+      "value": "Chassis to be Decouped"
+    },
+    {
+      "range": "B33",
+      "type": "string",
+      "value": "Reconditioning Costs"
+    },
+    {
+      "range": "B34",
+      "type": "string",
+      "value": "# of Chassis Requiring Reconditioning"
+    },
+    {
+      "range": "F34",
+      "type": "string",
+      "value": "on/off"
+    },
+    {
+      "range": "B36",
+      "type": "string",
+      "value": "Retitling Costs"
+    },
+    {
+      "range": "B37",
+      "type": "string",
+      "value": "Chassis to be Retitled"
+    },
+    {
+      "range": "B39",
+      "type": "string",
+      "value": "Stenciling Costs"
+    },
+    {
+      "range": "B40",
+      "type": "string",
+      "value": "Chassis to be Stenciled"
+    },
+    {
+      "range": "B42",
+      "type": "string",
+      "value": "Offhire Costs"
+    },
+    {
+      "range": "B43",
+      "type": "string",
+      "value": "Chassis to be Offhired"
+    },
+    {
+      "range": "B45",
+      "type": "string",
+      "value": "Sales Tax"
+    },
+    {
+      "range": "C45",
+      "type": "number",
+      "font_color": "rgb:FF0000FF",
+      "bg_color": "theme:0",
+      "format_code": "0%\\ ;\\(0%\\)"
+    },
+    {
+      "range": "B47",
+      "type": "string",
+      "value": "Operating Assumptions"
+    },
+    {
+      "range": "B48",
+      "type": "string",
+      "value": "Terminal % Assumption Placeholder"
+    },
+    {
+      "range": "C48",
+      "type": "number",
+      "font_color": "rgb:FF006600",
+      "bg_color": "theme:0",
+      "format_code": "0.00%;\\(0.00%\\)"
+    },
+    {
+      "range": "B49",
+      "type": "string",
+      "value": "Terminal Billing Threshold"
+    },
+    {
+      "range": "E50",
+      "type": "string",
+      "value": "M&R"
+    },
+    {
+      "range": "F50",
+      "type": "string",
+      "value": "Admin"
+    },
+    {
+      "range": "G50",
+      "type": "string",
+      "value": "Repo"
+    },
+    {
+      "range": "H50",
+      "type": "string",
+      "value": "Other"
+    },
+    {
+      "range": "B51",
+      "type": "string",
+      "value": "Cost Assumptions "
+    },
+    {
+      "range": "C51",
+      "type": "string",
+      "value": "See Right"
+    },
+    {
+      "range": "F51",
+      "type": "number",
+      "font_color": "rgb:FFFF0000",
+      "bg_color": "theme:0",
+      "format_code": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+    },
+    {
+      "range": "I51",
+      "type": "string",
+      "value": "Cost assumptions provided by operations"
+    },
+    {
+      "range": "B53",
+      "type": "string",
+      "value": "PSW MH Rate"
+    },
+    {
+      "range": "C53",
+      "type": "number",
+      "font_color": "rgb:FF0000FF",
+      "format_code": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+    },
+    {
+      "range": "B54",
+      "type": "string",
+      "value": "EVG CH Rate"
+    },
+    {
+      "range": "B55",
+      "type": "string",
+      "value": "Terminal Rate"
+    },
+    {
+      "range": "C55",
+      "type": "number",
+      "font_color": "rgb:FF008000",
+      "bg_color": "rgb:FFFFFF99",
+      "format_code": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+    },
+    {
+      "range": "B57",
+      "type": "string",
+      "value": "MH Annual Conversion %"
+    },
+    {
+      "range": "C57",
+      "type": "number",
+      "font_color": "rgb:FF008000",
+      "bg_color": "rgb:FFFFFF99",
+      "format_code": "0%;\\(0%\\)"
+    },
+    {
+      "range": "B58",
+      "type": "string",
+      "value": "Gain Sharing % on Conversion"
+    },
+    {
+      "range": "B60",
+      "type": "string",
+      "value": "Bad Debt (as % of Revenue)"
+    },
+    {
+      "range": "C60",
+      "type": "number",
+      "font_color": "rgb:FF0000FF",
+      "format_code": "0.0%;\\(0.0%\\)"
+    }
+  ],
   "compression_stats": {
-    "unique_values": 0,
-    "entries_moved_to_index": 0,
-    "entries_remaining": 98,
+    "format_signatures": 5,
+    "unique_strings": 0,
+    "entries_moved_to_index": 28,
+    "entries_remaining": 72,
     "min_occurrences_threshold": 2,
-    "original_size_bytes": 5654,
-    "compressed_size_bytes": 5656,
-    "inverted_index_size_bytes": 2,
-    "compressed_data_size_bytes": 5654,
-    "compression_ratio": 1.0,
-    "space_saved_bytes": -2,
-    "space_saved_percent": -0.0
+    "original_size_bytes": 8751,
+    "compressed_size_bytes": 6136,
+    "string_index_size_bytes": 2,
+    "format_index_size_bytes": 771,
+    "date_series_size_bytes": 2,
+    "compressed_ranges_size_bytes": 5361,
+    "compression_ratio": 0.701,
+    "space_saved_bytes": 2615,
+    "space_saved_percent": 29.9
   }
 }

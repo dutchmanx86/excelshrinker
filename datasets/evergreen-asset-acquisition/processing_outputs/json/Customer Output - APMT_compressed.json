@@ -1,184 +1,121 @@
 {
-  "inverted_index": {},
-  "data": {
-    "success": true,
-    "sheet_name": "Customer Output - APMT",
-    "format_ranges": [
-      {
-        "range": "A1",
-        "type": "string",
-        "value": "Direct ChassisLink Inc."
-      },
-      {
-        "range": "A2",
-        "type": "string",
-        "value": "Summary of Options for EVG"
-      },
-      {
-        "range": "A3",
-        "type": "string",
-        "value": "APMT"
-      },
-      {
-        "range": "C5",
-        "type": "string",
-        "value": "Assumptions:"
-      },
-      {
-        "range": "C6",
-        "type": "string",
-        "value": "1.  Assumes chassis are an average of 15 years old"
-      },
-      {
-        "range": "C7",
-        "type": "string",
-        "value": "2.  Assumes all chassis purchased are needed for EVG usage"
-      },
-      {
-        "range": "C8",
-        "type": "string",
-        "value": "3.  Assumes curent usage is 100% CH, with potential to transition towards MH, as indicated in the table "
-      },
-      {
-        "range": "C9",
-        "type": "string",
-        "value": "4.  Should EVG transition to MH, assumes all MH will be billed at market rate of $20.25"
-      },
-      {
-        "range": "C10",
-        "type": "string",
-        "value": "5.  Assumes 19% terminal usage and billing for all terminal days"
-      },
-      {
-        "range": "C13",
-        "type": "string",
-        "value": "Purchase Price \r\nper Chassis"
-      },
-      {
-        "range": "D13",
-        "type": "string",
-        "value": "Total \r\nPurchase Price"
-      },
-      {
-        "range": "E13",
-        "type": "string",
-        "value": "MH %"
-      },
-      {
-        "range": "F13",
-        "type": "string",
-        "value": "CH Rate"
-      },
-      {
-        "range": "G13",
-        "type": "string",
-        "value": "Terminal Rate"
-      },
-      {
-        "range": "B14",
-        "type": "number"
-      },
-      {
-        "range": "B15",
-        "type": "number"
-      },
-      {
-        "range": "B16",
-        "type": "number"
-      },
-      {
-        "range": "B17",
-        "type": "number"
-      },
-      {
-        "range": "B18",
-        "type": "number"
-      },
-      {
-        "range": "B19",
-        "type": "number"
-      },
-      {
-        "range": "B20",
-        "type": "number"
-      },
-      {
-        "range": "B21",
-        "type": "number"
-      },
-      {
-        "range": "B22",
-        "type": "number"
-      },
-      {
-        "range": "B23",
-        "type": "number"
-      },
-      {
-        "range": "B24",
-        "type": "number"
-      },
-      {
-        "range": "B25",
-        "type": "number"
-      },
-      {
-        "range": "B26",
-        "type": "number"
-      },
-      {
-        "range": "B27",
-        "type": "number"
-      },
-      {
-        "range": "B28",
-        "type": "number"
-      },
-      {
-        "range": "B29",
-        "type": "number"
-      },
-      {
-        "range": "B30",
-        "type": "number"
-      },
-      {
-        "range": "B31",
-        "type": "number"
-      },
-      {
-        "range": "B32",
-        "type": "number"
-      },
-      {
-        "range": "B33",
-        "type": "number"
-      }
-    ],
-    "statistics": {
-      "processing_time_ms": 128.53,
-      "cells_analyzed": 34,
-      "total_ranges": 34,
-      "format_counts": {
-        "string": 14,
-        "number": 20
-      }
-    },
-    "metadata": {
-      "detected_at": "2025-10-15T18:32:53.518397Z"
+  "format_index": {
+    "fmt_1": {
+      "number_format": "General",
+      "type": "number",
+      "ranges": [
+        "B14",
+        "B15",
+        "B16",
+        "B17",
+        "B18",
+        "B19",
+        "B20",
+        "B21",
+        "B22",
+        "B23",
+        "B24",
+        "B25",
+        "B26",
+        "B27",
+        "B28",
+        "B29",
+        "B30",
+        "B31",
+        "B32",
+        "B33"
+      ],
+      "bg_color": "theme:0"
     }
   },
+  "string_index": {},
+  "date_series_definitions": {},
+  "remaining_ranges": [
+    {
+      "range": "A1",
+      "type": "string",
+      "value": "Direct ChassisLink Inc."
+    },
+    {
+      "range": "A2",
+      "type": "string",
+      "value": "Summary of Options for EVG"
+    },
+    {
+      "range": "A3",
+      "type": "string",
+      "value": "APMT"
+    },
+    {
+      "range": "C5",
+      "type": "string",
+      "value": "Assumptions:"
+    },
+    {
+      "range": "C6",
+      "type": "string",
+      "value": "1.  Assumes chassis are an average of 15 years old"
+    },
+    {
+      "range": "C7",
+      "type": "string",
+      "value": "2.  Assumes all chassis purchased are needed for EVG usage"
+    },
+    {
+      "range": "C8",
+      "type": "string",
+      "value": "3.  Assumes curent usage is 100% CH, with potential to transition towards MH, as indicated in the table "
+    },
+    {
+      "range": "C9",
+      "type": "string",
+      "value": "4.  Should EVG transition to MH, assumes all MH will be billed at market rate of $20.25"
+    },
+    {
+      "range": "C10",
+      "type": "string",
+      "value": "5.  Assumes 19% terminal usage and billing for all terminal days"
+    },
+    {
+      "range": "C13",
+      "type": "string",
+      "value": "Purchase Price \r\nper Chassis"
+    },
+    {
+      "range": "D13",
+      "type": "string",
+      "value": "Total \r\nPurchase Price"
+    },
+    {
+      "range": "E13",
+      "type": "string",
+      "value": "MH %"
+    },
+    {
+      "range": "F13",
+      "type": "string",
+      "value": "CH Rate"
+    },
+    {
+      "range": "G13",
+      "type": "string",
+      "value": "Terminal Rate"
+    }
+  ],
   "compression_stats": {
-    "unique_values": 0,
-    "entries_moved_to_index": 0,
-    "entries_remaining": 34,
+    "format_signatures": 1,
+    "unique_strings": 0,
+    "entries_moved_to_index": 20,
+    "entries_remaining": 14,
     "min_occurrences_threshold": 2,
-    "original_size_bytes": 1992,
-    "compressed_size_bytes": 1994,
-    "inverted_index_size_bytes": 2,
-    "compressed_data_size_bytes": 1992,
-    "compression_ratio": 1.001,
-    "space_saved_bytes": -2,
-    "space_saved_percent": -0.1
+    "original_size_bytes": 2892,
+    "compressed_size_bytes": 1310,
+    "string_index_size_bytes": 2,
+    "format_index_size_bytes": 205,
+    "date_series_size_bytes": 2,
+    "compressed_ranges_size_bytes": 1101,
+    "compression_ratio": 0.453,
+    "space_saved_bytes": 1582,
+    "space_saved_percent": 54.7
   }
 }

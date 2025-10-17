@@ -1,44 +1,15 @@
-## 1. Spreadsheet Overview
-- **Sheet Name**: Customer Output - LA
-- **Key Sections Identified**:
-    - Header
-    - Assumptions
-    - Scenario Table
+## 1. **Sheet Name**: (Sheet name is not provided in the JSON, assuming it is "Sheet1")
 
-## 2. Detailed Section Analysis
-
-### Header
-- **Section Type**: Header
-- **Description & Purpose**: Contains the company name and a brief description of the report.
-- **Cell Range**: A1:A3
-- **Layout Structure**:
-    - **Row Headers Location**: Column A
-    - **Column Headers Location**: None
-    - **Data Range**: A1:A3
-- **Time Series Details**: None
-- **Key Components**: Company Name, Report Title, Location
-- **Notes & Customizations**: Simple header information.
-
-### Assumptions
-- **Section Type**: Assumptions
-- **Description & Purpose**: Lists the key assumptions used in the calculations.
-- **Cell Range**: C5:C10
-- **Layout Structure**:
-    - **Row Headers Location**: Column C
-    - **Column Headers Location**: None
-    - **Data Range**: C5:C10
-- **Time Series Details**: None
-- **Key Components**: Chassis age, EVG usage, MH billing rate, Terminal usage.
-- **Notes & Customizations**: Numbered list of assumptions.
-
-### Scenario Table
+### Section Name: Chassis Purchase Options Analysis
 - **Section Type**: Key Metrics Table
-- **Description & Purpose**: Presents different scenarios with varying purchase prices, MH percentages, and rates.
+- **Description & Purpose**: This section summarizes different options for purchasing chassis, likely for EVG (Electric Vehicle Group) usage. It presents purchase prices, potential MH (Market Housing?) percentages, CH (Chassis Housing?) rates, and terminal rates for each option. The purpose is to compare the financial implications of various chassis acquisition strategies.
 - **Cell Range**: B13:G33
 - **Layout Structure**:
-    - **Row Headers Location**: Column B
-    - **Column Headers Location**: Row 13
-    - **Data Range**: C14:G33
-- **Time Series Details**: None
+    - **Row Headers Location**: B14:B33 (e.g., different chassis purchase options)
+    - **Column Headers Location**: C13:G13 (Purchase Price per Chassis, Total Purchase Price, MH %, CH Rate, Terminal Rate)
+    - **Data Range**:
+      - C14:G33 (numeric values and percentages for each option)
+- **Time Series Details**:
+    - There is no explicit time series in this section. It appears to be a static comparison of different purchase options at a single point in time.
 - **Key Components**: Purchase Price per Chassis, Total Purchase Price, MH %, CH Rate, Terminal Rate.
-- **Notes & Customizations**: Data is scaled by 1000 in columns C, D, F, and G.
+- **Notes & Customizations**: The section includes assumptions (C5:C10) that are critical for understanding the context and limitations of the analysis. The MH and CH abbreviations are not explicitly defined, but context suggests they relate to different types of chassis usage or billing. The formatting suggests that some values may be negative (red formatting).

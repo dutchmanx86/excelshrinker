@@ -1,0 +1,197 @@
+{
+  "sheet_name": "Evergreen",
+  "sections": [
+    {
+      "section_name": "Utilization Summary",
+      "section_type": "Key Metrics Table",
+      "description": "Presents a summary of utilization rates and percentages across different categories (Street - MH, Street - EVG, Terminal, Grand Total).",
+      "cell_range": {
+        "row_headers_location": "C6:C13",
+        "column_headers_location": "G6:Q6",
+        "data_range": "G7:Q13"
+      },
+      "time_series": [
+        {
+          "label": "Annual",
+          "start_date": "Year 0",
+          "end_date": "Year 10",
+          "frequency": "Annual",
+          "cell_range": "G21:Q21",
+          "anchor_points": null
+        }
+      ],
+      "key_components": [
+        "Street - MH",
+        "Street - EVG",
+        "Terminal",
+        "Grand Total",
+        "% of Street - MH",
+        "% of Street - EVG",
+        "% of Total - Terminal",
+        "Utilization Rate"
+      ],
+      "notes": "Calculates utilization rates as a percentage of total capacity."
+    },
+    {
+      "section_name": "Revenue and Cost Drivers",
+      "section_type": "Financial Projections",
+      "description": "Projects revenue and costs based on usage days, rates, and inflation assumptions for Street and Terminal operations.",
+      "cell_range": {
+        "row_headers_location": "B16:C43",
+        "column_headers_location": "G21:Q21",
+        "data_range": "G17:Q43"
+      },
+      "time_series": [
+        {
+          "label": "Annual",
+          "start_date": "Year 0",
+          "end_date": "Year 10",
+          "frequency": "Annual",
+          "cell_range": "G21:Q21",
+          "anchor_points": null
+        }
+      ],
+      "key_components": [
+        "M&R",
+        "Admin",
+        "Repo",
+        "Usage Days",
+        "Contr. Days",
+        "EVG",
+        "Chassis Used per Day",
+        "Trucker Street Usage Days",
+        "EVG Street Rental Days",
+        "Terminal Usage Days",
+        "Total Usage Days",
+        "Contributed Days",
+        "Street Utilization",
+        "Annual Inflation Assumptions"
+      ],
+      "notes": "Includes inflation assumptions for various cost and revenue components.  Calculates revenue based on usage days and rates."
+    },
+    {
+      "section_name": "Revenue and Cost Summary",
+      "section_type": "Financial Summary",
+      "description": "Summarizes revenue, costs, and profitability metrics, including EBITDA and related per-day figures.",
+      "cell_range": {
+        "row_headers_location": "B45:C79",
+        "column_headers_location": "H46:Q46",
+        "data_range": "H46:Q79"
+      },
+      "time_series": [
+        {
+          "label": "Annual",
+          "start_date": "Year 0",
+          "end_date": "Year 10",
+          "frequency": "Annual",
+          "cell_range": "G21:Q21",
+          "anchor_points": null
+        }
+      ],
+      "key_components": [
+        "Revenue",
+        "EVG Street Costs",
+        "Terminal Billings",
+        "Per Usage Day Costs",
+        "M&R Cost",
+        "Admin Expense",
+        "Repo Expense",
+        "Lease Cost",
+        "Total Cost",
+        "EBITDA",
+        "EBITDA per Usage Day",
+        "EBITDA Margin (%)"
+      ],
+      "notes": "Calculates EBITDA and EBITDA margin based on revenue and cost projections."
+    },
+    {
+      "section_name": "Chassis Acquisition and Investment Analysis",
+      "section_type": "Investment Analysis",
+      "description": "Analyzes the costs associated with acquiring chassis, including reconditioning, decoupling, and repositioning costs.  Calculates total effective purchase price and cash multiple of EBITDA.",
+      "cell_range": {
+        "row_headers_location": "B82:B100",
+        "column_headers_location": "G82",
+        "data_range": "G83:G100"
+      },
+      "time_series": [],
+      "key_components": [
+        "Chassis to be Acquired",
+        "Price per Chassis",
+        "Payment to EVG",
+        "Total Chassis Price",
+        "Reconditioning Costs",
+        "Decouping Costs",
+        "Total Effective Purchase Price",
+        "Cash Multiple of 2014 EBITDA - Owned"
+      ],
+      "notes": "Focuses on upfront investment costs and calculates a cash multiple of EBITDA."
+    },
+    {
+      "section_name": "Cash Flow Projections - Depreciated Value Exit",
+      "section_type": "Cash Flow Analysis",
+      "description": "Projects cash flows based on a depreciated value exit strategy, including investment, accelerated depreciation, cash taxes, and cash flow.",
+      "cell_range": {
+        "row_headers_location": "B104:B119",
+        "column_headers_location": "G104:Q104",
+        "data_range": "H108:Q119"
+      },
+      "time_series": [
+        {
+          "label": "Annual",
+          "start_date": "Year 0",
+          "end_date": "Year 10",
+          "frequency": "Annual",
+          "cell_range": "G104:Q104",
+          "anchor_points": null
+        }
+      ],
+      "key_components": [
+        "Investment",
+        "Accelerated Depreciation",
+        "EBIT",
+        "Cash Taxes @ ",
+        "Cash Income",
+        "WC Investment @",
+        "Capex",
+        "Cash Flow",
+        "Total Cash Flows",
+        "Unlevered IRR",
+        "NPV"
+      ],
+      "notes": "Calculates unlevered IRR and NPV based on projected cash flows."
+    },
+    {
+      "section_name": "Cash Flow Projections - TEV Exit",
+      "section_type": "Cash Flow Analysis",
+      "description": "Projects cash flows based on a Total Enterprise Value (TEV) exit strategy, including investment, accelerated depreciation, cash taxes, and cash flow.",
+      "cell_range": {
+        "row_headers_location": "B121:B136",
+        "column_headers_location": "G121:L121",
+        "data_range": "H125:L136"
+      },
+      "time_series": [
+        {
+          "label": "Annual",
+          "start_date": "Year 0",
+          "end_date": "Year 5",
+          "frequency": "Annual",
+          "cell_range": "G121:L121",
+          "anchor_points": null
+        }
+      ],
+      "key_components": [
+        "Investment",
+        "Accelerated Depreciation",
+        "EBIT",
+        "Cash Taxes @ ",
+        "Cash Income",
+        "WC Investment @",
+        "Capex",
+        "Cash Flow",
+        "Total Cash Flows",
+        "Unlevered IRR"
+      ],
+      "notes": "Calculates unlevered IRR based on projected cash flows with a TEV exit."
+    }
+  ]
+}

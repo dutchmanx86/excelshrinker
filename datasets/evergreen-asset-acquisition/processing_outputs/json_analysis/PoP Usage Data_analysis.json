@@ -1,0 +1,94 @@
+{
+  "sheet_name": "Sheet1",
+  "sections": [
+    {
+      "section_name": "Pool of Pools Chassis on the Street - Weekly Average",
+      "section_type": "Key Metrics Table",
+      "description": "This section tracks the weekly average of chassis on the street for various steamship lines and other categories, providing insights into equipment utilization and availability.",
+      "cell_range": {
+        "row_headers_location": "C4:C39",
+        "column_headers_location": "E3:F3",
+        "data_range": "E4:F39"
+      },
+      "time_series": [
+        {
+          "label": "Weekly",
+          "start_date": "3/7/2015",
+          "end_date": "3/14/2015",
+          "frequency": "Weekly",
+          "cell_range": "E3:F3",
+          "anchor_points": null
+        }
+      ],
+      "key_components": [
+        "Horizon Lines",
+        "Hamburg Sud - SSA Piers A and J",
+        "Maersk",
+        "MSC",
+        "DCLP",
+        "APL",
+        "Evergreen - YTI",
+        "Hanjin - YTI",
+        "Hapag-Lloyd",
+        "Hyundai",
+        "MOL",
+        "NYK",
+        "OOCL",
+        "GACP",
+        "China Shipping",
+        "CMA-CGM",
+        "COSCO",
+        "Evergreen - All Other",
+        "Hamburg Sud - All Other",
+        "Hanjin - All Other",
+        "K Line",
+        "Pacific International",
+        "Polynesia Line",
+        "United Arab Shipping",
+        "Wan Hai Lines",
+        "Yang Ming Line",
+        "Zim Israel Navigation Co.",
+        "LABP",
+        "DCSZ (bare outs, no SS SCAC)**",
+        "Unassigned (no SS SCAC or unauthorized)",
+        "Total Chassis on the Street"
+      ],
+      "notes": "Reflects chassis with gated-out status by day by steamship line scac. DCSZ is used as the steamship scac when the chassis gates out bare with no container."
+    },
+    {
+      "section_name": "Fleet and Utilization Metrics",
+      "section_type": "Key Metrics Table",
+      "description": "This section provides key metrics related to fleet size and street utilization for various chassis pools, offering insights into operational efficiency.",
+      "cell_range": {
+        "row_headers_location": "C41:C54",
+        "column_headers_location": "E3:F3",
+        "data_range": "E41:F54"
+      },
+      "time_series": [
+        {
+          "label": "Weekly",
+          "start_date": "3/7/2015",
+          "end_date": "3/14/2015",
+          "frequency": "Weekly",
+          "cell_range": "E3:F3",
+          "anchor_points": null
+        }
+      ],
+      "key_components": [
+        "Pool of Pools Fleet",
+        "Total Street Utilization (incl. DCSZ and unassigned)",
+        "DCLP Fleet",
+        "GACP Fleet",
+        "DCLI-GACP Fleet",
+        "TRAC-GACP Fleet",
+        "LABP Fleet",
+        "DCLP Street Utilization",
+        "GACP Street Utilization",
+        "DCLI-GACP Street Utilization",
+        "TRAC-GACP Street Utilization",
+        "LABP Street Utilization"
+      ],
+      "notes": "Italicized values in E46:F47 and E52:F53 are likely calculated or derived metrics."
+    }
+  ]
+}

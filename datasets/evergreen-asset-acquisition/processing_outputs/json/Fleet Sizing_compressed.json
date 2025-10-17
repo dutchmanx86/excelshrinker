@@ -1,173 +1,147 @@
 {
-  "inverted_index": {},
-  "data": {
-    "success": true,
-    "sheet_name": "Fleet Sizing",
-    "format_ranges": [
-      {
-        "range": "A1",
-        "type": "string",
-        "value": "Evergreen PSW LSA/LGB"
-      },
-      {
-        "range": "B2",
-        "type": "string",
-        "value": "at 85%"
-      },
-      {
-        "range": "C2",
-        "type": "string",
-        "value": "at 95%"
-      },
-      {
-        "range": "A3",
-        "type": "string",
-        "value": "gate-outs in period"
-      },
-      {
-        "range": "B3:C3",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "A4",
-        "type": "string",
-        "value": "dwell"
-      },
-      {
-        "range": "B4:C4",
-        "type": "number"
-      },
-      {
-        "range": "A5",
-        "type": "string",
-        "value": "chassis on the street in period"
-      },
-      {
-        "range": "B5:C5",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "A6",
-        "type": "string",
-        "value": "days in period"
-      },
-      {
-        "range": "B6:C6",
-        "type": "number"
-      },
-      {
-        "range": "A7",
-        "type": "string",
-        "value": "chassis on street"
-      },
-      {
-        "range": "B7:D7",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "A8",
-        "type": "string",
-        "value": "stress "
-      },
-      {
-        "range": "B8:C8",
-        "type": "number"
-      },
-      {
-        "range": "A9",
-        "type": "string",
-        "value": "chassis required for street"
-      },
-      {
-        "range": "B9:C9",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "A10",
-        "type": "string",
-        "value": "percentage of terminal chassis"
-      },
-      {
-        "range": "B10:C10",
-        "type": "number"
-      },
-      {
-        "range": "A11",
-        "type": "string",
-        "value": "chassis required for terminal"
-      },
-      {
-        "range": "B11:C11",
-        "type": "number"
-      },
-      {
-        "range": "D11",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "E11",
-        "type": "number"
-      },
-      {
-        "range": "A12",
-        "type": "string",
-        "value": "chassis required for Evergreen"
-      },
-      {
-        "range": "B12:D12",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "D13",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "A15",
-        "type": "string",
-        "value": "Data source: CMS-PC and Evergreen statement of 36k gate moves at Seaside per month"
-      },
-      {
-        "range": "A16",
-        "type": "string",
-        "value": "OOS: out-of-service taken into consideration with 85% stress"
-      },
-      {
-        "range": "A17",
-        "type": "string",
-        "value": "Dwell: analyzed April, May, June 2015 of Evergreen use to determine dwell"
-      }
-    ],
-    "statistics": {
-      "processing_time_ms": 45.18,
-      "cells_analyzed": 41,
-      "total_ranges": 29,
-      "format_counts": {
-        "string": 16,
-        "number": 13
-      }
+  "format_index": {
+    "fmt_1": {
+      "number_format": "_(* #,##0_);_(* \\(#,##0\\);_(* \"-\"??_);_(@_)",
+      "type": "number",
+      "ranges": [
+        "B3:C3",
+        "B5:C5",
+        "B7:D7",
+        "B9:C9",
+        "D11",
+        "B12:D12"
+      ]
     },
-    "metadata": {
-      "detected_at": "2025-10-15T18:33:57.677441Z"
+    "fmt_2": {
+      "number_format": "General",
+      "type": "number",
+      "ranges": [
+        "B4:C4",
+        "B6:C6"
+      ]
+    },
+    "fmt_3": {
+      "number_format": "0%",
+      "type": "number",
+      "ranges": [
+        "B8:C8",
+        "B10:C10"
+      ]
     }
   },
+  "string_index": {},
+  "date_series_definitions": {},
+  "remaining_ranges": [
+    {
+      "range": "A1",
+      "type": "string",
+      "value": "Evergreen PSW LSA/LGB"
+    },
+    {
+      "range": "B2",
+      "type": "string",
+      "value": "at 85%"
+    },
+    {
+      "range": "C2",
+      "type": "string",
+      "value": "at 95%"
+    },
+    {
+      "range": "A3",
+      "type": "string",
+      "value": "gate-outs in period"
+    },
+    {
+      "range": "A4",
+      "type": "string",
+      "value": "dwell"
+    },
+    {
+      "range": "A5",
+      "type": "string",
+      "value": "chassis on the street in period"
+    },
+    {
+      "range": "A6",
+      "type": "string",
+      "value": "days in period"
+    },
+    {
+      "range": "A7",
+      "type": "string",
+      "value": "chassis on street"
+    },
+    {
+      "range": "A8",
+      "type": "string",
+      "value": "stress "
+    },
+    {
+      "range": "A9",
+      "type": "string",
+      "value": "chassis required for street"
+    },
+    {
+      "range": "A10",
+      "type": "string",
+      "value": "percentage of terminal chassis"
+    },
+    {
+      "range": "A11",
+      "type": "string",
+      "value": "chassis required for terminal"
+    },
+    {
+      "range": "B11:C11",
+      "type": "number",
+      "format_code": "0"
+    },
+    {
+      "range": "E11",
+      "type": "number",
+      "format_code": "0.00%"
+    },
+    {
+      "range": "A12",
+      "type": "string",
+      "value": "chassis required for Evergreen"
+    },
+    {
+      "range": "D13",
+      "type": "number",
+      "format_code": "_(* #,##0.00_);_(* \\(#,##0.00\\);_(* \"-\"??_);_(@_)"
+    },
+    {
+      "range": "A15",
+      "type": "string",
+      "value": "Data source: CMS-PC and Evergreen statement of 36k gate moves at Seaside per month"
+    },
+    {
+      "range": "A16",
+      "type": "string",
+      "value": "OOS: out-of-service taken into consideration with 85% stress"
+    },
+    {
+      "range": "A17",
+      "type": "string",
+      "value": "Dwell: analyzed April, May, June 2015 of Evergreen use to determine dwell"
+    }
+  ],
   "compression_stats": {
-    "unique_values": 0,
-    "entries_moved_to_index": 0,
-    "entries_remaining": 29,
+    "format_signatures": 3,
+    "unique_strings": 0,
+    "entries_moved_to_index": 10,
+    "entries_remaining": 19,
     "min_occurrences_threshold": 2,
-    "original_size_bytes": 1909,
-    "compressed_size_bytes": 1911,
-    "inverted_index_size_bytes": 2,
-    "compressed_data_size_bytes": 1909,
-    "compression_ratio": 1.001,
-    "space_saved_bytes": -2,
-    "space_saved_percent": -0.1
+    "original_size_bytes": 2399,
+    "compressed_size_bytes": 1657,
+    "string_index_size_bytes": 2,
+    "format_index_size_bytes": 307,
+    "date_series_size_bytes": 2,
+    "compressed_ranges_size_bytes": 1346,
+    "compression_ratio": 0.691,
+    "space_saved_bytes": 742,
+    "space_saved_percent": 30.9
   }
 }

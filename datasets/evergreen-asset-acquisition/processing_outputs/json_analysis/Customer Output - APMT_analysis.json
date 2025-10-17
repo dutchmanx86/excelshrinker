@@ -1,0 +1,43 @@
+{
+  "sheet_name": "Summary of Options for EVG",
+  "sections": [
+    {
+      "section_name": "EVG Chassis Purchase Analysis",
+      "section_type": "Financial Analysis Table",
+      "description": "This section analyzes the financial implications of purchasing chassis for EVG usage, considering factors like purchase price, MH percentage, CH rate, and terminal rate. It provides a summary of different options and their associated costs.",
+      "cell_range": {
+        "row_headers_location": "B14:B33",
+        "column_headers_location": "C13:G13",
+        "data_range": "B14:G33"
+      },
+      "time_series": [],
+      "key_components": [
+        "Purchase Price per Chassis",
+        "Total Purchase Price",
+        "MH %",
+        "CH Rate",
+        "Terminal Rate"
+      ],
+      "notes": "Assumptions include chassis age, EVG usage, transition to MH, market rate for MH, and terminal usage billing."
+    },
+    {
+      "section_name": "Assumptions",
+      "section_type": "Assumptions List",
+      "description": "This section lists the key assumptions used in the EVG Chassis Purchase Analysis. These assumptions are critical for understanding the context and limitations of the analysis.",
+      "cell_range": {
+        "row_headers_location": "C5:C10",
+        "column_headers_location": "C5",
+        "data_range": "C5:C10"
+      },
+      "time_series": [],
+      "key_components": [
+        "Chassis age",
+        "EVG usage",
+        "Transition to MH",
+        "Market rate for MH",
+        "Terminal usage billing"
+      ],
+      "notes": "These assumptions are explicitly stated to provide transparency and allow for sensitivity analysis."
+    }
+  ]
+}

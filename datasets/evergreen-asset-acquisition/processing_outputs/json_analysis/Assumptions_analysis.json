@@ -1,0 +1,99 @@
+{
+  "sheet_name": "Sheet1",
+  "sections": [
+    {
+      "section_name": "Utilization Assumptions",
+      "section_type": "Input Table",
+      "description": "Defines the assumptions related to chassis utilization, leasing, and scraping.  It allows users to input values for various scenarios related to chassis management.",
+      "cell_range": {
+        "row_headers_location": "B6:B14",
+        "column_headers_location": "C6:E6",
+        "data_range": "C6:E14"
+      },
+      "time_series": [],
+      "key_components": [
+        "Total EVG Chassis Purchased",
+        "Total EVG Chassis Leased",
+        "Total EVG Chassis for Scrap",
+        "Total EVG Leases",
+        "Total Excess Chassis Leased",
+        "Total DCLI Backfill",
+        "EVG Average Daily Usage",
+        "EVG Utilization Rate",
+        "Total Chassis Required for EVG Use"
+      ],
+      "notes": "Input table for chassis utilization assumptions."
+    },
+    {
+      "section_name": "Purchase/Lease Assumptions",
+      "section_type": "Input Table",
+      "description": "Defines the assumptions related to the purchase and lease of chassis, including book value, premiums/discounts, and lease costs. This section allows users to input values for various cost components.",
+      "cell_range": {
+        "row_headers_location": "B17:B24",
+        "column_headers_location": "C17:C17",
+        "data_range": "C17:C24"
+      },
+      "time_series": [],
+      "key_components": [
+        "Average Book Value per Chassis",
+        "Premium / (Discount) to Book (Upfront)",
+        "Premium / (Discount) to Book (PO)",
+        "Purchase Price",
+        "Lease Cost per Day for EVG Chassis",
+        "Lease Cost per Day for EVG Leases",
+        "Lease Cost per Day for Add. Capacity"
+      ],
+      "notes": "Input table for purchase and lease assumptions."
+    },
+    {
+      "section_name": "Upfront Investment Assumptions",
+      "section_type": "Input Table",
+      "description": "Defines the assumptions related to upfront investment costs, including repositioning, decoupling, reconditioning, retitling, stenciling, and offhire costs. This section allows users to input values for various cost components.",
+      "cell_range": {
+        "row_headers_location": "B26:B43",
+        "column_headers_location": "C26:C43",
+        "data_range": "C26:C43"
+      },
+      "time_series": [],
+      "key_components": [
+        "Repositioning",
+        "# of Chassis w/ Repositioning",
+        "Decouping Costs",
+        "Chassis to be Decouped",
+        "Reconditioning Costs",
+        "# of Chassis Requiring Reconditioning",
+        "Retitling Costs",
+        "Chassis to be Retitled",
+        "Stenciling Costs",
+        "Chassis to be Stenciled",
+        "Offhire Costs",
+        "Chassis to be Offhired"
+      ],
+      "notes": "Input table for upfront investment assumptions."
+    },
+    {
+      "section_name": "Operating Assumptions",
+      "section_type": "Input Table",
+      "description": "Defines the operating assumptions, including terminal percentage, terminal billing threshold, and cost assumptions for M&R, Admin, Repo, and Other costs.",
+      "cell_range": {
+        "row_headers_location": "B45:B60",
+        "column_headers_location": "C45:H50",
+        "data_range": "C45:H60"
+      },
+      "time_series": [],
+      "key_components": [
+        "Sales Tax",
+        "Terminal % Assumption Placeholder",
+        "Terminal Billing Threshold",
+        "Cost Assumptions",
+        "PSW MH Rate",
+        "EVG CH Rate",
+        "Terminal Rate",
+        "MH Annual Conversion %",
+        "Gain Sharing % on Conversion",
+        "Bad Debt (as % of Revenue)"
+      ],
+      "notes": "Input table for operating assumptions."
+    }
+  ]
+}

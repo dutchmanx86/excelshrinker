@@ -1,5 +1,309 @@
 {
-  "inverted_index": {
+  "format_index": {
+    "fmt_1": {
+      "number_format": "_(* #,##0_);_(* \\(#,##0\\);_(* \"-\"_);_(@_)",
+      "type": "number",
+      "ranges": [
+        "D7",
+        "D8",
+        "D9",
+        "D11"
+      ],
+      "bg_color": "theme:0"
+    },
+    "fmt_2": {
+      "number_format": "#,##0_);(#,##0)",
+      "type": "number",
+      "ranges": [
+        "G7",
+        "G8",
+        "G9",
+        "D10",
+        "G10",
+        "G11",
+        "G12",
+        "P15"
+      ],
+      "bg_color": "theme:0"
+    },
+    "fmt_3": {
+      "number_format": "#,##0_);(#,##0)",
+      "type": "number",
+      "ranges": [
+        "L7",
+        "P8",
+        "P9",
+        "P10",
+        "P11",
+        "L12",
+        "P12",
+        "P13",
+        "L14",
+        "L16",
+        "P24",
+        "L25",
+        "P25",
+        "P26",
+        "C42"
+      ]
+    },
+    "fmt_4": {
+      "number_format": "\"$\"#,##0_);\\(\"$\"#,##0\\)",
+      "type": "number",
+      "ranges": [
+        "P7",
+        "E20:G20",
+        "I20",
+        "P32",
+        "I37",
+        "K37:L37",
+        "R37",
+        "F56",
+        "F57",
+        "F58",
+        "F59"
+      ]
+    },
+    "fmt_5": {
+      "number_format": "0%",
+      "type": "number",
+      "ranges": [
+        "L8",
+        "L9"
+      ],
+      "italic": true,
+      "bg_color": "theme:0"
+    },
+    "fmt_6": {
+      "number_format": "0%",
+      "type": "number",
+      "ranges": [
+        "L10",
+        "L11",
+        "L13"
+      ],
+      "italic": true
+    },
+    "fmt_7": {
+      "number_format": "#,##0_);(#,##0)",
+      "type": "number",
+      "ranges": [
+        "P14",
+        "P21",
+        "P22"
+      ],
+      "bg_color": "rgb:FFFFFF00"
+    },
+    "fmt_8": {
+      "number_format": "0%",
+      "type": "number",
+      "ranges": [
+        "L15",
+        "C47",
+        "C48",
+        "C49",
+        "C50",
+        "C51",
+        "C52",
+        "C53",
+        "C54"
+      ]
+    },
+    "fmt_9": {
+      "number_format": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)",
+      "type": "number",
+      "ranges": [
+        "C16:D16",
+        "N37:O37",
+        "D47",
+        "D48:E54",
+        "H56",
+        "H57",
+        "H58",
+        "H59"
+      ]
+    },
+    "fmt_10": {
+      "number_format": "\"$\"#,##0_);\\(\"$\"#,##0\\)",
+      "type": "number",
+      "ranges": [
+        "P16",
+        "P27"
+      ],
+      "bold": true
+    },
+    "fmt_11": {
+      "number_format": "_(* #,##0_);_(* \\(#,##0\\);_(* \"-\"_);_(@_)",
+      "type": "number",
+      "ranges": [
+        "L17",
+        "L18",
+        "L19"
+      ],
+      "italic": true
+    },
+    "fmt_12": {
+      "number_format": "\"$\"#,##0_);\\(\"$\"#,##0\\)",
+      "type": "number",
+      "ranges": [
+        "P20",
+        "P23"
+      ],
+      "bg_color": "rgb:FFFFFF00"
+    },
+    "fmt_13": {
+      "number_format": "_(* #,##0_);_(* \\(#,##0\\);_(* \"-\"_);_(@_)",
+      "type": "number",
+      "ranges": [
+        "L22",
+        "L23",
+        "L24"
+      ]
+    },
+    "fmt_14": {
+      "number_format": "0.0%;\\(0.0%\\)",
+      "type": "number",
+      "ranges": [
+        "P30",
+        "P31"
+      ],
+      "bg_color": "theme:0"
+    },
+    "fmt_15": {
+      "number_format": "0.0%\\ ;\\(0.0%\\)",
+      "type": "number",
+      "ranges": [
+        "M37",
+        "P37:Q37"
+      ]
+    },
+    "fmt_16": {
+      "number_format": "General",
+      "type": "number",
+      "ranges": [
+        "A38",
+        "A39",
+        "A40",
+        "A41"
+      ],
+      "font_color": "theme:0",
+      "bg_color": "theme:0"
+    },
+    "fmt_17": {
+      "number_format": "General",
+      "type": "number",
+      "ranges": [
+        "B38",
+        "B39",
+        "H39",
+        "B40",
+        "H40",
+        "B41",
+        "H41"
+      ],
+      "bg_color": "theme:0"
+    },
+    "fmt_18": {
+      "number_format": "0.0%_);\\(0.0%\\)",
+      "type": "number",
+      "ranges": [
+        "E38",
+        "G38",
+        "M38"
+      ],
+      "bold": true,
+      "font_color": "theme:0",
+      "bg_color": "theme:0+-0.50"
+    },
+    "fmt_19": {
+      "number_format": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)",
+      "type": "number",
+      "ranges": [
+        "F38",
+        "N38:O38"
+      ],
+      "bold": true,
+      "font_color": "theme:0",
+      "bg_color": "theme:0+-0.50"
+    },
+    "fmt_20": {
+      "number_format": "\"$\"#,##0_);\\(\"$\"#,##0\\)",
+      "type": "number",
+      "ranges": [
+        "I38",
+        "K38:L38",
+        "R38"
+      ],
+      "bold": true,
+      "font_color": "theme:0",
+      "bg_color": "theme:0+-0.50"
+    },
+    "fmt_21": {
+      "number_format": "\"$\"#,##0.00_);[Red]\\(\"$\"#,##0.00\\)",
+      "type": "number",
+      "ranges": [
+        "D39",
+        "D40",
+        "D41"
+      ],
+      "bg_color": "rgb:FFFFFF00"
+    },
+    "fmt_22": {
+      "number_format": "0.0%_);\\(0.0%\\)",
+      "type": "number",
+      "ranges": [
+        "E39",
+        "G39",
+        "M39",
+        "E40",
+        "G40",
+        "M40",
+        "E41",
+        "G41",
+        "M41",
+        "E42",
+        "G42"
+      ],
+      "bg_color": "theme:0"
+    },
+    "fmt_23": {
+      "number_format": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)",
+      "type": "number",
+      "ranges": [
+        "F39",
+        "N39:O41",
+        "F40",
+        "F41",
+        "F42"
+      ],
+      "bg_color": "theme:0"
+    },
+    "fmt_24": {
+      "number_format": "\"$\"#,##0_);\\(\"$\"#,##0\\)",
+      "type": "number",
+      "ranges": [
+        "I39",
+        "K39:L41",
+        "R39",
+        "I40",
+        "R40",
+        "I41",
+        "R41"
+      ],
+      "bg_color": "theme:0"
+    },
+    "fmt_25": {
+      "number_format": "0.0\"x\"\\ ;\\(0.0\"x\"\\)",
+      "type": "number",
+      "ranges": [
+        "J39",
+        "J40",
+        "J41"
+      ],
+      "bg_color": "theme:0"
+    }
+  },
+  "string_index": {
     "Future:": {
       "type": "string",
       "ranges": [
@@ -59,1371 +363,766 @@
       ]
     }
   },
-  "data": {
-    "success": true,
-    "sheet_name": "Deal Summary",
-    "format_ranges": [
-      {
-        "range": "A1",
-        "type": "string",
-        "value": "Direct ChassisLink, Inc."
-      },
-      {
-        "range": "A2",
-        "type": "string",
-        "value": "Evergreen Nationwide"
-      },
-      {
-        "range": "A3",
-        "type": "string",
-        "value": "Deal Summary"
-      },
-      {
-        "range": "C5",
-        "type": "string",
-        "value": "Fleet Summary"
-      },
-      {
-        "range": "H5",
-        "type": "string",
-        "value": " "
-      },
-      {
-        "range": "K5",
-        "type": "string",
-        "value": "Usage and Fleet Sizing"
-      },
-      {
-        "range": "N5",
-        "type": "string",
-        "value": "Investment Overview"
-      },
-      {
-        "range": "C6",
-        "type": "string",
-        "value": "Current EVG Fleet:"
-      },
-      {
-        "range": "K6",
-        "type": "string",
-        "value": "Current:"
-      },
-      {
-        "range": "N6",
-        "type": "string",
-        "value": "Type:"
-      },
-      {
-        "range": "P6",
-        "type": "string",
-        "value": "Upfront"
-      },
-      {
-        "range": "Q6",
-        "type": "string",
-        "value": "Commentary/Assumptions:"
-      },
-      {
-        "range": "E7",
-        "type": "string",
-        "value": "Purchased from EVG"
-      },
-      {
-        "range": "D7",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "G7",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "K7",
-        "type": "string",
-        "value": "Street"
-      },
-      {
-        "range": "L7",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "N7",
-        "type": "string",
-        "value": "Assets"
-      },
-      {
-        "range": "Q7",
-        "type": "string",
-        "value": "$4,000 per acquired chassis"
-      },
-      {
-        "range": "P7",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "E8",
-        "type": "string",
-        "value": "Leased from EVG"
-      },
-      {
-        "range": "D8",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "G8",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "K8",
-        "type": "string",
-        "value": "MH"
-      },
-      {
-        "range": "L8",
-        "type": "number"
-      },
-      {
-        "range": "N8",
-        "type": "string",
-        "value": "Repositioning"
-      },
-      {
-        "range": "Q8",
-        "type": "string",
-        "value": "$100 per chassis decooped from CCM"
-      },
-      {
-        "range": "P8",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "C9",
-        "type": "string",
-        "value": "Current Fleet"
-      },
-      {
-        "range": "E9",
-        "type": "string",
-        "value": "Scrapped"
-      },
-      {
-        "range": "D9",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "G9",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "K9",
-        "type": "string",
-        "value": "CH"
-      },
-      {
-        "range": "L9",
-        "type": "number"
-      },
-      {
-        "range": "N9",
-        "type": "string",
-        "value": "Working Capital"
-      },
-      {
-        "range": "Q9",
-        "type": "string",
-        "value": "4% of year 1 revenue"
-      },
-      {
-        "range": "P9",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "E10",
-        "type": "string",
-        "value": "EVG Leases Assumed"
-      },
-      {
-        "range": "D10",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "G10",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "L10",
-        "type": "number"
-      },
-      {
-        "range": "N10",
-        "type": "string",
-        "value": "Reconditioning"
-      },
-      {
-        "range": "Q10",
-        "type": "string",
-        "value": "$275 per non-CCM chassis"
-      },
-      {
-        "range": "P10",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "E11",
-        "type": "string",
-        "value": "Backfilled by DCLI"
-      },
-      {
-        "range": "D11",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "G11",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "K11",
-        "type": "string",
-        "value": "as % of total"
-      },
-      {
-        "range": "L11",
-        "type": "number"
-      },
-      {
-        "range": "N11",
-        "type": "string",
-        "value": "Decooping Costs"
-      },
-      {
-        "range": "Q11",
-        "type": "string",
-        "value": "Zero decooping costs assumed"
-      },
-      {
-        "range": "P11",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "G12",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "K12",
-        "type": "string",
-        "value": "Terminal"
-      },
-      {
-        "range": "L12",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "N12",
-        "type": "string",
-        "value": "Sales tax"
-      },
-      {
-        "range": "Q12",
-        "type": "string",
-        "value": "10% sales tax on asset purchase price"
-      },
-      {
-        "range": "P12",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "L13",
-        "type": "number"
-      },
-      {
-        "range": "N13",
-        "type": "string",
-        "value": "Re-title & stencil costs"
-      },
-      {
-        "range": "Q13",
-        "type": "string",
-        "value": "$225 per chassis"
-      },
-      {
-        "range": "P13",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "C14",
-        "type": "string",
-        "value": "Cost per Usage Day"
-      },
-      {
-        "range": "K14",
-        "type": "string",
-        "value": "Total Usage"
-      },
-      {
-        "range": "L14",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "N14",
-        "type": "string",
-        "value": "Offhire costs"
-      },
-      {
-        "range": "Q14",
-        "type": "string",
-        "value": "$550 per chassis"
-      },
-      {
-        "range": "P14",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "C15",
-        "type": "string",
-        "value": "M&R"
-      },
-      {
-        "range": "D15",
-        "type": "string",
-        "value": "Admin"
-      },
-      {
-        "range": "E15",
-        "type": "string",
-        "value": "Repo/Gate Fees"
-      },
-      {
-        "range": "F15",
-        "type": "string",
-        "value": "Ancillary"
-      },
-      {
-        "range": "G15",
-        "type": "string",
-        "value": "Lease Cost"
-      },
-      {
-        "range": "K15",
-        "type": "string",
-        "value": "Est. Utilization"
-      },
-      {
-        "range": "L15",
-        "type": "number"
-      },
-      {
-        "range": "N15",
-        "type": "string",
-        "value": "Value of Scrap Chassis"
-      },
-      {
-        "range": "Q15",
-        "type": "string",
-        "value": "$1,100 scrap value per unusable chassis"
-      },
-      {
-        "range": "P15",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "C16:D16",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "G16",
-        "type": "number"
-      },
-      {
-        "range": "L16",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "N16",
-        "type": "string",
-        "value": "Total Investment"
-      },
-      {
-        "range": "P16",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "L17",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "C18",
-        "type": "string",
-        "value": "Fair Market Value"
-      },
-      {
-        "range": "L18",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "N18",
-        "type": "string",
-        "value": "Financial Returns"
-      },
-      {
-        "range": "C19",
-        "type": "string",
-        "value": "Fleet Age"
-      },
-      {
-        "range": "D19",
-        "type": "string",
-        "value": "Useful Life"
-      },
-      {
-        "range": "E19",
-        "type": "string",
-        "value": "Cost New"
-      },
-      {
-        "range": "F19",
-        "type": "string",
-        "value": "Salvage Value"
-      },
-      {
-        "range": "G19",
-        "type": "string",
-        "value": "Scrap Value"
-      },
-      {
-        "range": "I19",
-        "type": "string",
-        "value": "FMV per Chassis"
-      },
-      {
-        "range": "L19",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "P19",
-        "type": "string",
-        "value": "Year 1"
-      },
-      {
-        "range": "Q19",
-        "type": "string",
-        "value": "Commentary"
-      },
-      {
-        "range": "C20:D20",
-        "type": "number"
-      },
-      {
-        "range": "E20:G20",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "I20",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "N20",
-        "type": "string",
-        "value": "CH Revenue"
-      },
-      {
-        "range": "Q20",
-        "type": "string",
-        "value": "$9.94 CH Rate"
-      },
-      {
-        "range": "P20",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "N21",
-        "type": "string",
-        "value": "MH Revenue"
-      },
-      {
-        "range": "Q21",
-        "type": "string",
-        "value": "Market MH Rate, if conversion occurs"
-      },
-      {
-        "range": "P21",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "C22",
-        "type": "string",
-        "value": "Summary of Assumptions"
-      },
-      {
-        "range": "L22",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "N22",
-        "type": "string",
-        "value": "Terminal revenue"
-      },
-      {
-        "range": "Q22",
-        "type": "string",
-        "value": "$0.00 per terminal usage day charged to EVG"
-      },
-      {
-        "range": "P22",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "C23",
-        "type": "string",
-        "value": "1.  Reconditioning costs for purchased chassis based on wtd. avg. M&R study performed onsite by Mike Murray"
-      },
-      {
-        "range": "L23",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "N23",
-        "type": "string",
-        "value": "Total Revenue"
-      },
-      {
-        "range": "P23",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "C24",
-        "type": "string",
-        "value": "2.  Under scenario where DCLI leases from EVG, units assumed to be operational.  DCLI investment only WC"
-      },
-      {
-        "range": "K24",
-        "type": "string",
-        "value": "Backfilled"
-      },
-      {
-        "range": "L24",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "N24",
-        "type": "string",
-        "value": "M&R Expense"
-      },
-      {
-        "range": "Q24",
-        "type": "string",
-        "value": "$4.88 per usage day"
-      },
-      {
-        "range": "P24",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "C25",
-        "type": "string",
-        "value": "3.  Current leases are transferred at no incremental cost to DCLI and rate remains at $2.85"
-      },
-      {
-        "range": "L25",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "N25",
-        "type": "string",
-        "value": "EVG Lease Expense"
-      },
-      {
-        "range": "Q25",
-        "type": "string",
-        "value": "$2.85 per chassis per day"
-      },
-      {
-        "range": "P25",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "C26",
-        "type": "string",
-        "value": "4.  Assets are appropriately located and no upfront repo is needed (excluding those being decooped from CCM)"
-      },
-      {
-        "range": "N26",
-        "type": "string",
-        "value": "Admin Expense"
-      },
-      {
-        "range": "Q26",
-        "type": "string",
-        "value": "$0.25 per chassis per day"
-      },
-      {
-        "range": "P26",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "C27",
-        "type": "string",
-        "value": "5.  Offhire cost of $550 per unit offhired (to be confirmed)"
-      },
-      {
-        "range": "N27",
-        "type": "string",
-        "value": "Adj. EBITDA"
-      },
-      {
-        "range": "P27",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "C28",
-        "type": "string",
-        "value": "6.  Chassis are salvaged for lower of $2,500 or purchase price at the end of year 10 "
-      },
-      {
-        "range": "N28",
-        "type": "string",
-        "value": "Margin %"
-      },
-      {
-        "range": "P28",
-        "type": "number"
-      },
-      {
-        "range": "N29",
-        "type": "string",
-        "value": "Purchase Multiple"
-      },
-      {
-        "range": "Q29",
-        "type": "string",
-        "value": "Total investment in terms of Yr 1 EBITDA"
-      },
-      {
-        "range": "P29",
-        "type": "number"
-      },
-      {
-        "range": "N30",
-        "type": "string",
-        "value": "Depr. Value 10-year IRR"
-      },
-      {
-        "range": "Q30",
-        "type": "string",
-        "value": "10 year depreciated value unlevered IRR "
-      },
-      {
-        "range": "P30",
-        "type": "number"
-      },
-      {
-        "range": "N31",
-        "type": "string",
-        "value": "TEV 5x Exit Multiple IRR"
-      },
-      {
-        "range": "Q31",
-        "type": "string",
-        "value": "5x EBITDA exit multiple unlevered IRR "
-      },
-      {
-        "range": "P31",
-        "type": "number"
-      },
-      {
-        "range": "N32",
-        "type": "string",
-        "value": "NPV "
-      },
-      {
-        "range": "Q32",
-        "type": "string",
-        "value": "10 year NPV using 12% discount rate "
-      },
-      {
-        "range": "P32",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "C34",
-        "type": "string",
-        "value": "SENSITIVITY ANALYSIS"
-      },
-      {
-        "range": "S34",
-        "type": "string",
-        "value": " "
-      },
-      {
-        "range": "T34",
-        "type": "string",
-        "value": " "
-      },
-      {
-        "range": "U34",
-        "type": "string",
-        "value": " "
-      },
-      {
-        "range": "C35",
-        "type": "string",
-        "value": "Model Inputs"
-      },
-      {
-        "range": "I35",
-        "type": "string",
-        "value": "Model Outputs"
-      },
-      {
-        "range": "U35",
-        "type": "string",
-        "value": " "
-      },
-      {
-        "range": "C36",
-        "type": "string",
-        "value": "Scenario"
-      },
-      {
-        "range": "D36",
-        "type": "string",
-        "value": "Lease Cost \r\nper Day to EVG"
-      },
-      {
-        "range": "E36",
-        "type": "string",
-        "value": "Average Prem/(Disc) per Chassis"
-      },
-      {
-        "range": "F36",
-        "type": "string",
-        "value": "Terminal Rate1"
-      },
-      {
-        "range": "G36",
-        "type": "string",
-        "value": "MH Conversion"
-      },
-      {
-        "range": "H36",
-        "type": "string",
-        "value": "Multiple Driver Dependent"
-      },
-      {
-        "range": "I36",
-        "type": "string",
-        "value": "Total Investment (Year 0 or PO)"
-      },
-      {
-        "range": "J36",
-        "type": "string",
-        "value": "Investment Multiple2"
-      },
-      {
-        "range": "K36",
-        "type": "string",
-        "value": "Purchase Price per Chassis"
-      },
-      {
-        "range": "L36",
-        "type": "string",
-        "value": "Average EBITDA"
-      },
-      {
-        "range": "M36",
-        "type": "string",
-        "value": "Average EBITDA \r\nMargin %"
-      },
-      {
-        "range": "N36",
-        "type": "string",
-        "value": "Average EBITDA per usage day"
-      },
-      {
-        "range": "O36",
-        "type": "string",
-        "value": "Average EBITDA per chassis per day"
-      },
-      {
-        "range": "P36",
-        "type": "string",
-        "value": "10 year depreciated value IRR %"
-      },
-      {
-        "range": "Q36",
-        "type": "string",
-        "value": "5x EBITDA exit multiple IRR %"
-      },
-      {
-        "range": "R36",
-        "type": "string",
-        "value": "NPV $"
-      },
-      {
-        "range": "I37",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "J37",
-        "type": "number"
-      },
-      {
-        "range": "K37:L37",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "M37",
-        "type": "number"
-      },
-      {
-        "range": "N37:O37",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "P37:Q37",
-        "type": "number"
-      },
-      {
-        "range": "R37",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "A38:B38",
-        "type": "number"
-      },
-      {
-        "range": "D38",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "E38",
-        "type": "number"
-      },
-      {
-        "range": "F38",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "G38",
-        "type": "number"
-      },
-      {
-        "range": "H38",
-        "type": "number"
-      },
-      {
-        "range": "I38",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "J38",
-        "type": "number"
-      },
-      {
-        "range": "K38:L38",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "M38",
-        "type": "number"
-      },
-      {
-        "range": "N38:O38",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "P38:Q38",
-        "type": "number"
-      },
-      {
-        "range": "R38",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "A39:B39",
-        "type": "number"
-      },
-      {
-        "range": "D39",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "E39",
-        "type": "number"
-      },
-      {
-        "range": "F39",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "G39",
-        "type": "number"
-      },
-      {
-        "range": "H39",
-        "type": "number"
-      },
-      {
-        "range": "I39",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "J39",
-        "type": "number"
-      },
-      {
-        "range": "K39:L39",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "M39",
-        "type": "number"
-      },
-      {
-        "range": "N39:O39",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "P39:Q39",
-        "type": "number"
-      },
-      {
-        "range": "R39",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "A40:B40",
-        "type": "number"
-      },
-      {
-        "range": "D40",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "E40",
-        "type": "number"
-      },
-      {
-        "range": "F40",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "G40",
-        "type": "number"
-      },
-      {
-        "range": "H40",
-        "type": "number"
-      },
-      {
-        "range": "I40",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "J40",
-        "type": "number"
-      },
-      {
-        "range": "K40:L40",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "M40",
-        "type": "number"
-      },
-      {
-        "range": "N40:O40",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "P40:Q40",
-        "type": "number"
-      },
-      {
-        "range": "R40",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "A41:B41",
-        "type": "number"
-      },
-      {
-        "range": "D41",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "E41",
-        "type": "number"
-      },
-      {
-        "range": "F41",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "G41",
-        "type": "number"
-      },
-      {
-        "range": "H41",
-        "type": "number"
-      },
-      {
-        "range": "I41",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "J41",
-        "type": "number"
-      },
-      {
-        "range": "K41:L41",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "M41",
-        "type": "number"
-      },
-      {
-        "range": "N41:O41",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "P41:Q41",
-        "type": "number"
-      },
-      {
-        "range": "R41",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B42",
-        "type": "number"
-      },
-      {
-        "range": "C42",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "D42",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "E42",
-        "type": "number"
-      },
-      {
-        "range": "F42",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "G42",
-        "type": "number"
-      },
-      {
-        "range": "J42",
-        "type": "string",
-        "value": "<< ACTIVE CASE"
-      },
-      {
-        "range": "C43",
-        "type": "string",
-        "value": "1.  Applies to all terminal usage"
-      },
-      {
-        "range": "C44",
-        "type": "string",
-        "value": "2.  Based on Year 1 EBITDA"
-      },
-      {
-        "range": "C46",
-        "type": "string",
-        "value": "% MH"
-      },
-      {
-        "range": "D46",
-        "type": "string",
-        "value": "CH Rate"
-      },
-      {
-        "range": "E46",
-        "type": "string",
-        "value": "Change in Rate "
-      },
-      {
-        "range": "C47",
-        "type": "number"
-      },
-      {
-        "range": "D47",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "C48",
-        "type": "number"
-      },
-      {
-        "range": "D48:E48",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "C49",
-        "type": "number"
-      },
-      {
-        "range": "D49:E49",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "C50",
-        "type": "number"
-      },
-      {
-        "range": "D50:E50",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "C51",
-        "type": "number"
-      },
-      {
-        "range": "D51:E51",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "C52",
-        "type": "number"
-      },
-      {
-        "range": "D52:E52",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "C53",
-        "type": "number"
-      },
-      {
-        "range": "D53:E53",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "C54",
-        "type": "number"
-      },
-      {
-        "range": "D54:E54",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "F55",
-        "type": "string",
-        "value": "Purchase Price \r\nPer Chassis"
-      },
-      {
-        "range": "G55",
-        "type": "string",
-        "value": "CH Rate \r\nper day"
-      },
-      {
-        "range": "H55",
-        "type": "string",
-        "value": "Terminal Rate \r\nper day"
-      },
-      {
-        "range": "E56",
-        "type": "string",
-        "value": "Option 1"
-      },
-      {
-        "range": "F56",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "H56",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "E57",
-        "type": "string",
-        "value": "Option 2"
-      },
-      {
-        "range": "F57",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "H57",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "E58",
-        "type": "string",
-        "value": "Option 3"
-      },
-      {
-        "range": "F58",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "H58",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "E59",
-        "type": "string",
-        "value": "Option 4"
-      },
-      {
-        "range": "F59",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "H59",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "C61",
-        "type": "string",
-        "value": "CH rate in model input table similar to CMA"
-      },
-      {
-        "range": "C62",
-        "type": "string",
-        "value": "CH rate summary"
-      },
-      {
-        "range": "C63",
-        "type": "string",
-        "value": "tie terminal rate to CH rate in same proportion as PSW"
-      },
-      {
-        "range": "C64",
-        "type": "string",
-        "value": "revisit large impact of $2,500 salvage"
-      },
-      {
-        "range": "C65",
-        "type": "string",
-        "value": "Replicate summary and usage by region instead"
-      },
-      {
-        "range": "C66",
-        "type": "string",
-        "value": "quick tab to value out management scenario"
-      }
-    ],
-    "statistics": {
-      "processing_time_ms": 47.66,
-      "cells_analyzed": 330,
-      "total_ranges": 300,
-      "format_counts": {
-        "string": 155,
-        "number": 145
-      }
+  "date_series_definitions": {},
+  "remaining_ranges": [
+    {
+      "range": "A1",
+      "type": "string",
+      "value": "Direct ChassisLink, Inc."
     },
-    "metadata": {
-      "detected_at": "2025-10-15T18:32:21.823020Z"
+    {
+      "range": "A2",
+      "type": "string",
+      "value": "Evergreen Nationwide"
+    },
+    {
+      "range": "A3",
+      "type": "string",
+      "value": "Deal Summary"
+    },
+    {
+      "range": "C5",
+      "type": "string",
+      "value": "Fleet Summary"
+    },
+    {
+      "range": "H5",
+      "type": "string",
+      "value": " "
+    },
+    {
+      "range": "K5",
+      "type": "string",
+      "value": "Usage and Fleet Sizing"
+    },
+    {
+      "range": "N5",
+      "type": "string",
+      "value": "Investment Overview"
+    },
+    {
+      "range": "C6",
+      "type": "string",
+      "value": "Current EVG Fleet:"
+    },
+    {
+      "range": "K6",
+      "type": "string",
+      "value": "Current:"
+    },
+    {
+      "range": "N6",
+      "type": "string",
+      "value": "Type:"
+    },
+    {
+      "range": "P6",
+      "type": "string",
+      "value": "Upfront"
+    },
+    {
+      "range": "Q6",
+      "type": "string",
+      "value": "Commentary/Assumptions:"
+    },
+    {
+      "range": "E7",
+      "type": "string",
+      "value": "Purchased from EVG"
+    },
+    {
+      "range": "K7",
+      "type": "string",
+      "value": "Street"
+    },
+    {
+      "range": "N7",
+      "type": "string",
+      "value": "Assets"
+    },
+    {
+      "range": "Q7",
+      "type": "string",
+      "value": "$4,000 per acquired chassis"
+    },
+    {
+      "range": "E8",
+      "type": "string",
+      "value": "Leased from EVG"
+    },
+    {
+      "range": "K8",
+      "type": "string",
+      "value": "MH"
+    },
+    {
+      "range": "N8",
+      "type": "string",
+      "value": "Repositioning"
+    },
+    {
+      "range": "Q8",
+      "type": "string",
+      "value": "$100 per chassis decooped from CCM"
+    },
+    {
+      "range": "C9",
+      "type": "string",
+      "value": "Current Fleet"
+    },
+    {
+      "range": "E9",
+      "type": "string",
+      "value": "Scrapped"
+    },
+    {
+      "range": "K9",
+      "type": "string",
+      "value": "CH"
+    },
+    {
+      "range": "N9",
+      "type": "string",
+      "value": "Working Capital"
+    },
+    {
+      "range": "Q9",
+      "type": "string",
+      "value": "4% of year 1 revenue"
+    },
+    {
+      "range": "E10",
+      "type": "string",
+      "value": "EVG Leases Assumed"
+    },
+    {
+      "range": "N10",
+      "type": "string",
+      "value": "Reconditioning"
+    },
+    {
+      "range": "Q10",
+      "type": "string",
+      "value": "$275 per non-CCM chassis"
+    },
+    {
+      "range": "E11",
+      "type": "string",
+      "value": "Backfilled by DCLI"
+    },
+    {
+      "range": "K11",
+      "type": "string",
+      "value": "as % of total"
+    },
+    {
+      "range": "N11",
+      "type": "string",
+      "value": "Decooping Costs"
+    },
+    {
+      "range": "Q11",
+      "type": "string",
+      "value": "Zero decooping costs assumed"
+    },
+    {
+      "range": "K12",
+      "type": "string",
+      "value": "Terminal"
+    },
+    {
+      "range": "N12",
+      "type": "string",
+      "value": "Sales tax"
+    },
+    {
+      "range": "Q12",
+      "type": "string",
+      "value": "10% sales tax on asset purchase price"
+    },
+    {
+      "range": "N13",
+      "type": "string",
+      "value": "Re-title & stencil costs"
+    },
+    {
+      "range": "Q13",
+      "type": "string",
+      "value": "$225 per chassis"
+    },
+    {
+      "range": "C14",
+      "type": "string",
+      "value": "Cost per Usage Day"
+    },
+    {
+      "range": "K14",
+      "type": "string",
+      "value": "Total Usage"
+    },
+    {
+      "range": "N14",
+      "type": "string",
+      "value": "Offhire costs"
+    },
+    {
+      "range": "Q14",
+      "type": "string",
+      "value": "$550 per chassis"
+    },
+    {
+      "range": "C15",
+      "type": "string",
+      "value": "M&R"
+    },
+    {
+      "range": "D15",
+      "type": "string",
+      "value": "Admin"
+    },
+    {
+      "range": "E15",
+      "type": "string",
+      "value": "Repo/Gate Fees"
+    },
+    {
+      "range": "F15",
+      "type": "string",
+      "value": "Ancillary"
+    },
+    {
+      "range": "G15",
+      "type": "string",
+      "value": "Lease Cost"
+    },
+    {
+      "range": "K15",
+      "type": "string",
+      "value": "Est. Utilization"
+    },
+    {
+      "range": "N15",
+      "type": "string",
+      "value": "Value of Scrap Chassis"
+    },
+    {
+      "range": "Q15",
+      "type": "string",
+      "value": "$1,100 scrap value per unusable chassis"
+    },
+    {
+      "range": "G16",
+      "type": "number",
+      "format_code": "[=0]\"Passthrough\";\"$\"0.00"
+    },
+    {
+      "range": "N16",
+      "type": "string",
+      "value": "Total Investment"
+    },
+    {
+      "range": "C18",
+      "type": "string",
+      "value": "Fair Market Value"
+    },
+    {
+      "range": "N18",
+      "type": "string",
+      "value": "Financial Returns"
+    },
+    {
+      "range": "C19",
+      "type": "string",
+      "value": "Fleet Age"
+    },
+    {
+      "range": "D19",
+      "type": "string",
+      "value": "Useful Life"
+    },
+    {
+      "range": "E19",
+      "type": "string",
+      "value": "Cost New"
+    },
+    {
+      "range": "F19",
+      "type": "string",
+      "value": "Salvage Value"
+    },
+    {
+      "range": "G19",
+      "type": "string",
+      "value": "Scrap Value"
+    },
+    {
+      "range": "I19",
+      "type": "string",
+      "value": "FMV per Chassis"
+    },
+    {
+      "range": "P19",
+      "type": "string",
+      "value": "Year 1"
+    },
+    {
+      "range": "Q19",
+      "type": "string",
+      "value": "Commentary"
+    },
+    {
+      "range": "C20:D20",
+      "type": "number",
+      "format_code": "0.0\\ \"yrs\""
+    },
+    {
+      "range": "N20",
+      "type": "string",
+      "value": "CH Revenue"
+    },
+    {
+      "range": "Q20",
+      "type": "string",
+      "value": "$9.94 CH Rate"
+    },
+    {
+      "range": "N21",
+      "type": "string",
+      "value": "MH Revenue"
+    },
+    {
+      "range": "Q21",
+      "type": "string",
+      "value": "Market MH Rate, if conversion occurs"
+    },
+    {
+      "range": "C22",
+      "type": "string",
+      "value": "Summary of Assumptions"
+    },
+    {
+      "range": "N22",
+      "type": "string",
+      "value": "Terminal revenue"
+    },
+    {
+      "range": "Q22",
+      "type": "string",
+      "value": "$0.00 per terminal usage day charged to EVG"
+    },
+    {
+      "range": "C23",
+      "type": "string",
+      "value": "1.  Reconditioning costs for purchased chassis based on wtd. avg. M&R study performed onsite by Mike Murray"
+    },
+    {
+      "range": "N23",
+      "type": "string",
+      "value": "Total Revenue"
+    },
+    {
+      "range": "C24",
+      "type": "string",
+      "value": "2.  Under scenario where DCLI leases from EVG, units assumed to be operational.  DCLI investment only WC"
+    },
+    {
+      "range": "K24",
+      "type": "string",
+      "value": "Backfilled"
+    },
+    {
+      "range": "N24",
+      "type": "string",
+      "value": "M&R Expense"
+    },
+    {
+      "range": "Q24",
+      "type": "string",
+      "value": "$4.88 per usage day"
+    },
+    {
+      "range": "C25",
+      "type": "string",
+      "value": "3.  Current leases are transferred at no incremental cost to DCLI and rate remains at $2.85"
+    },
+    {
+      "range": "N25",
+      "type": "string",
+      "value": "EVG Lease Expense"
+    },
+    {
+      "range": "Q25",
+      "type": "string",
+      "value": "$2.85 per chassis per day"
+    },
+    {
+      "range": "C26",
+      "type": "string",
+      "value": "4.  Assets are appropriately located and no upfront repo is needed (excluding those being decooped from CCM)"
+    },
+    {
+      "range": "N26",
+      "type": "string",
+      "value": "Admin Expense"
+    },
+    {
+      "range": "Q26",
+      "type": "string",
+      "value": "$0.25 per chassis per day"
+    },
+    {
+      "range": "C27",
+      "type": "string",
+      "value": "5.  Offhire cost of $550 per unit offhired (to be confirmed)"
+    },
+    {
+      "range": "N27",
+      "type": "string",
+      "value": "Adj. EBITDA"
+    },
+    {
+      "range": "C28",
+      "type": "string",
+      "value": "6.  Chassis are salvaged for lower of $2,500 or purchase price at the end of year 10 "
+    },
+    {
+      "range": "N28",
+      "type": "string",
+      "value": "Margin %"
+    },
+    {
+      "range": "P28",
+      "type": "number",
+      "italic": true,
+      "format_code": "0.0%;\\(0.0%\\)"
+    },
+    {
+      "range": "N29",
+      "type": "string",
+      "value": "Purchase Multiple"
+    },
+    {
+      "range": "P29",
+      "type": "number",
+      "bg_color": "theme:0",
+      "format_code": "0.0\\x;\\(0.0\\x\\)"
+    },
+    {
+      "range": "Q29",
+      "type": "string",
+      "value": "Total investment in terms of Yr 1 EBITDA"
+    },
+    {
+      "range": "N30",
+      "type": "string",
+      "value": "Depr. Value 10-year IRR"
+    },
+    {
+      "range": "Q30",
+      "type": "string",
+      "value": "10 year depreciated value unlevered IRR "
+    },
+    {
+      "range": "N31",
+      "type": "string",
+      "value": "TEV 5x Exit Multiple IRR"
+    },
+    {
+      "range": "Q31",
+      "type": "string",
+      "value": "5x EBITDA exit multiple unlevered IRR "
+    },
+    {
+      "range": "N32",
+      "type": "string",
+      "value": "NPV "
+    },
+    {
+      "range": "Q32",
+      "type": "string",
+      "value": "10 year NPV using 12% discount rate "
+    },
+    {
+      "range": "C34",
+      "type": "string",
+      "value": "SENSITIVITY ANALYSIS"
+    },
+    {
+      "range": "S34",
+      "type": "string",
+      "value": " "
+    },
+    {
+      "range": "T34",
+      "type": "string",
+      "value": " "
+    },
+    {
+      "range": "U34",
+      "type": "string",
+      "value": " "
+    },
+    {
+      "range": "C35",
+      "type": "string",
+      "value": "Model Inputs"
+    },
+    {
+      "range": "I35",
+      "type": "string",
+      "value": "Model Outputs"
+    },
+    {
+      "range": "U35",
+      "type": "string",
+      "value": " "
+    },
+    {
+      "range": "C36",
+      "type": "string",
+      "value": "Scenario"
+    },
+    {
+      "range": "D36",
+      "type": "string",
+      "value": "Lease Cost \r\nper Day to EVG"
+    },
+    {
+      "range": "E36",
+      "type": "string",
+      "value": "Average Prem/(Disc) per Chassis"
+    },
+    {
+      "range": "F36",
+      "type": "string",
+      "value": "Terminal Rate1"
+    },
+    {
+      "range": "G36",
+      "type": "string",
+      "value": "MH Conversion"
+    },
+    {
+      "range": "H36",
+      "type": "string",
+      "value": "Multiple Driver Dependent"
+    },
+    {
+      "range": "I36",
+      "type": "string",
+      "value": "Total Investment (Year 0 or PO)"
+    },
+    {
+      "range": "J36",
+      "type": "string",
+      "value": "Investment Multiple2"
+    },
+    {
+      "range": "K36",
+      "type": "string",
+      "value": "Purchase Price per Chassis"
+    },
+    {
+      "range": "L36",
+      "type": "string",
+      "value": "Average EBITDA"
+    },
+    {
+      "range": "M36",
+      "type": "string",
+      "value": "Average EBITDA \r\nMargin %"
+    },
+    {
+      "range": "N36",
+      "type": "string",
+      "value": "Average EBITDA per usage day"
+    },
+    {
+      "range": "O36",
+      "type": "string",
+      "value": "Average EBITDA per chassis per day"
+    },
+    {
+      "range": "P36",
+      "type": "string",
+      "value": "10 year depreciated value IRR %"
+    },
+    {
+      "range": "Q36",
+      "type": "string",
+      "value": "5x EBITDA exit multiple IRR %"
+    },
+    {
+      "range": "R36",
+      "type": "string",
+      "value": "NPV $"
+    },
+    {
+      "range": "J37",
+      "type": "number",
+      "format_code": "0.0\"x\"\\ ;\\(0.0\"x\"\\)"
+    },
+    {
+      "range": "D38",
+      "type": "number",
+      "bold": true,
+      "font_color": "theme:0",
+      "bg_color": "rgb:FFFFFF00",
+      "format_code": "\"$\"#,##0.00_);[Red]\\(\"$\"#,##0.00\\)"
+    },
+    {
+      "range": "H38",
+      "type": "number",
+      "bold": true,
+      "font_color": "theme:0",
+      "bg_color": "theme:0+-0.50",
+      "format_code": "General"
+    },
+    {
+      "range": "J38",
+      "type": "number",
+      "bold": true,
+      "font_color": "theme:0",
+      "bg_color": "theme:0+-0.50",
+      "format_code": "0.0\"x\"\\ ;\\(0.0\"x\"\\)"
+    },
+    {
+      "range": "P38:Q38",
+      "type": "number",
+      "bold": true,
+      "font_color": "theme:0",
+      "bg_color": "theme:0+-0.50",
+      "format_code": "0.0%\\ ;\\(0.0%\\)"
+    },
+    {
+      "range": "P39:Q41",
+      "type": "number",
+      "bg_color": "theme:0",
+      "format_code": "0.0%\\ ;\\(0.0%\\)"
+    },
+    {
+      "range": "B42",
+      "type": "number",
+      "bold": true,
+      "font_color": "rgb:FF0000FF",
+      "format_code": "General"
+    },
+    {
+      "range": "D42",
+      "type": "number",
+      "bg_color": "theme:0",
+      "format_code": "\"$\"#,##0.00_);[Red]\\(\"$\"#,##0.00\\)"
+    },
+    {
+      "range": "J42",
+      "type": "string",
+      "value": "<< ACTIVE CASE"
+    },
+    {
+      "range": "C43",
+      "type": "string",
+      "value": "1.  Applies to all terminal usage"
+    },
+    {
+      "range": "C44",
+      "type": "string",
+      "value": "2.  Based on Year 1 EBITDA"
+    },
+    {
+      "range": "C46",
+      "type": "string",
+      "value": "% MH"
+    },
+    {
+      "range": "D46",
+      "type": "string",
+      "value": "CH Rate"
+    },
+    {
+      "range": "E46",
+      "type": "string",
+      "value": "Change in Rate "
+    },
+    {
+      "range": "F55",
+      "type": "string",
+      "value": "Purchase Price \r\nPer Chassis"
+    },
+    {
+      "range": "G55",
+      "type": "string",
+      "value": "CH Rate \r\nper day"
+    },
+    {
+      "range": "H55",
+      "type": "string",
+      "value": "Terminal Rate \r\nper day"
+    },
+    {
+      "range": "E56",
+      "type": "string",
+      "value": "Option 1"
+    },
+    {
+      "range": "E57",
+      "type": "string",
+      "value": "Option 2"
+    },
+    {
+      "range": "E58",
+      "type": "string",
+      "value": "Option 3"
+    },
+    {
+      "range": "E59",
+      "type": "string",
+      "value": "Option 4"
+    },
+    {
+      "range": "C61",
+      "type": "string",
+      "value": "CH rate in model input table similar to CMA"
+    },
+    {
+      "range": "C62",
+      "type": "string",
+      "value": "CH rate summary"
+    },
+    {
+      "range": "C63",
+      "type": "string",
+      "value": "tie terminal rate to CH rate in same proportion as PSW"
+    },
+    {
+      "range": "C64",
+      "type": "string",
+      "value": "revisit large impact of $2,500 salvage"
+    },
+    {
+      "range": "C65",
+      "type": "string",
+      "value": "Replicate summary and usage by region instead"
+    },
+    {
+      "range": "C66",
+      "type": "string",
+      "value": "quick tab to value out management scenario"
     }
-  },
+  ],
   "compression_stats": {
-    "unique_values": 8,
-    "entries_moved_to_index": 22,
-    "entries_remaining": 278,
+    "format_signatures": 25,
+    "unique_strings": 8,
+    "entries_moved_to_index": 147,
+    "entries_remaining": 145,
     "min_occurrences_threshold": 2,
-    "original_size_bytes": 15833,
-    "compressed_size_bytes": 15130,
-    "inverted_index_size_bytes": 445,
-    "compressed_data_size_bytes": 14685,
-    "compression_ratio": 0.956,
-    "space_saved_bytes": 703,
-    "space_saved_percent": 4.4
+    "original_size_bytes": 22023,
+    "compressed_size_bytes": 13512,
+    "string_index_size_bytes": 445,
+    "format_index_size_bytes": 3329,
+    "date_series_size_bytes": 2,
+    "compressed_ranges_size_bytes": 9736,
+    "compression_ratio": 0.614,
+    "space_saved_bytes": 8511,
+    "space_saved_percent": 38.6
   }
 }

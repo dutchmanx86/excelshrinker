@@ -1,0 +1,158 @@
+{
+  "sheet_name": "Evergreen Nationwide",
+  "sections": [
+    {
+      "section_name": "Fleet Summary",
+      "section_type": "Key Metrics Table",
+      "description": "Summarizes the current and future fleet composition, including owned, leased, and required chassis.  Provides key inputs for the financial model.",
+      "cell_range": {
+        "row_headers_location": "C6:E11",
+        "column_headers_location": "C6:G6",
+        "data_range": "D7:G11"
+      },
+      "time_series": [],
+      "key_components": [
+        "Owned",
+        "Leased",
+        "Short/(Surpl)",
+        "Fleet Required"
+      ],
+      "notes": "Includes current EVG fleet and future fleet requirements.  'Short/(Surpl)' represents the difference between the fleet required and the current fleet."
+    },
+    {
+      "section_name": "Usage and Fleet Sizing",
+      "section_type": "Key Metrics Table",
+      "description": "Details the utilization and cost per usage day for the fleet.  Used to estimate revenue and expenses based on fleet activity.",
+      "cell_range": {
+        "row_headers_location": "K6:K15",
+        "column_headers_location": "K6:P6",
+        "data_range": "L7:P15"
+      },
+      "time_series": [],
+      "key_components": [
+        "Street",
+        "MH",
+        "CH",
+        "Terminal",
+        "Total Usage",
+        "Est. Utilization",
+        "M&R",
+        "Admin",
+        "Repo/Gate Fees",
+        "Ancillary",
+        "Lease Cost"
+      ],
+      "notes": "Provides estimates for utilization and cost per usage day, which are key drivers of the financial model."
+    },
+    {
+      "section_name": "Investment Overview",
+      "section_type": "Key Metrics Table",
+      "description": "Summarizes the upfront investment and financial returns associated with the deal.  Includes key metrics such as revenue, expenses, EBITDA, and IRR.",
+      "cell_range": {
+        "row_headers_location": "N6:N16",
+        "column_headers_location": "N6:Q6",
+        "data_range": "P7:Q16"
+      },
+      "time_series": [],
+      "key_components": [
+        "Assets",
+        "Repositioning",
+        "Working Capital",
+        "Reconditioning",
+        "Decooping Costs",
+        "Sales tax",
+        "Re-title & stencil costs",
+        "Offhire costs",
+        "Value of Scrap Chassis",
+        "Total Investment"
+      ],
+      "notes": "Provides an overview of the investment required and the expected financial returns.  Includes commentary on key assumptions."
+    },
+    {
+      "section_name": "Financial Returns - Year 1",
+      "section_type": "Key Metrics Table",
+      "description": "Details the financial returns for Year 1, including revenue, expenses, EBITDA, and key assumptions.  Used to evaluate the profitability of the deal.",
+      "cell_range": {
+        "row_headers_location": "N18:N27",
+        "column_headers_location": "N18:Q19",
+        "data_range": "P20:Q27"
+      },
+      "time_series": [],
+      "key_components": [
+        "CH Revenue",
+        "MH Revenue",
+        "Terminal revenue",
+        "Total Revenue",
+        "M&R Expense",
+        "EVG Lease Expense",
+        "Admin Expense",
+        "Adj. EBITDA"
+      ],
+      "notes": "Focuses on the financial performance in Year 1. Includes commentary on key revenue and expense assumptions."
+    },
+    {
+      "section_name": "Financial Returns - IRR and NPV",
+      "section_type": "Key Metrics Table",
+      "description": "Presents key financial return metrics such as Purchase Multiple, Depreciated Value IRR, TEV 5x Exit Multiple IRR, and NPV.  Used to assess the overall attractiveness of the investment.",
+      "cell_range": {
+        "row_headers_location": "N28:N32",
+        "column_headers_location": "N28:Q29",
+        "data_range": "P30:Q32"
+      },
+      "time_series": [],
+      "key_components": [
+        "Margin %",
+        "Purchase Multiple",
+        "Depr. Value 10-year IRR",
+        "TEV 5x Exit Multiple IRR",
+        "NPV"
+      ],
+      "notes": "Calculates key return metrics based on a 10-year projection. Includes commentary on the assumptions used."
+    },
+    {
+      "section_name": "Sensitivity Analysis",
+      "section_type": "Sensitivity Analysis Table",
+      "description": "Analyzes the sensitivity of key model outputs to changes in model inputs.  Used to understand the key drivers of the financial model and identify potential risks.",
+      "cell_range": {
+        "row_headers_location": "C36:C41",
+        "column_headers_location": "C36:R36",
+        "data_range": "D37:R41"
+      },
+      "time_series": [],
+      "key_components": [
+        "Lease Cost per Day to EVG",
+        "Average Prem/(Disc) per Chassis",
+        "Terminal Rate1",
+        "MH Conversion",
+        "Total Investment (Year 0 or PO)",
+        "Investment Multiple2",
+        "Purchase Price per Chassis",
+        "Average EBITDA",
+        "Average EBITDA Margin %",
+        "Average EBITDA per usage day",
+        "Average EBITDA per chassis per day",
+        "10 year depreciated value IRR %",
+        "5x EBITDA exit multiple IRR %",
+        "NPV $"
+      ],
+      "notes": "Examines the impact of changes in key assumptions on the model's outputs.  Helps to identify the most important drivers of the deal's profitability."
+    },
+    {
+      "section_name": "CH Rate Sensitivity",
+      "section_type": "Sensitivity Analysis Table",
+      "description": "Analyzes the impact of changes in CH Rate and Purchase Price on key model outputs.",
+      "cell_range": {
+        "row_headers_location": "E56:E59",
+        "column_headers_location": "E55:H55",
+        "data_range": "F56:H59"
+      },
+      "time_series": [],
+      "key_components": [
+        "Purchase Price Per Chassis",
+        "CH Rate per day",
+        "Terminal Rate per day"
+      ],
+      "notes": "Examines the impact of changes in CH Rate and Purchase Price on the model's outputs."
+    }
+  ]
+}

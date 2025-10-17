@@ -1,0 +1,139 @@
+{
+  "sheet_name": "EVG LA/LB Model",
+  "sections": [
+    {
+      "section_name": "Transaction Overview",
+      "section_type": "Financial Assumptions",
+      "description": "Details the costs associated with the chassis transaction, including purchase price, reconditioning, and other related expenses. It also includes working capital investment and offhire costs.",
+      "cell_range": {
+        "row_headers_location": "B7:B17",
+        "column_headers_location": "D4:F4",
+        "data_range": "D7:F17"
+      },
+      "time_series": [
+        {
+          "label": "Annual",
+          "start_date": "Yr. 1 PF",
+          "end_date": "Total",
+          "frequency": "Annual",
+          "cell_range": "D4:F4"
+        }
+      ],
+      "key_components": [
+        "Purchase Price/Chassis",
+        "Reconditioning Costs",
+        "Working Capital Investment",
+        "Total Transaction Cost"
+      ],
+      "notes": "Values are presented in both absolute amounts and totals."
+    },
+    {
+      "section_name": "Chassis Fleet Summary",
+      "section_type": "Fleet Analysis",
+      "description": "Provides a summary of the chassis fleet, including the number of chassis acquired, retained, and scrapped. It also includes information on EVG pooled chassis and DCLI chassis backfill.",
+      "cell_range": {
+        "row_headers_location": "B19:B31",
+        "column_headers_location": "D4:F4",
+        "data_range": "D21:F31"
+      },
+      "time_series": [
+        {
+          "label": "Annual",
+          "start_date": "Yr. 1 PF",
+          "end_date": "Total",
+          "frequency": "Annual",
+          "cell_range": "D4:F4"
+        }
+      ],
+      "key_components": [
+        "Chassis Acquired",
+        "Retained",
+        "Scrapped",
+        "Chassis Decouped at Close"
+      ],
+      "notes": "Includes surplus/shortage analysis and DCLI chassis backfill details."
+    },
+    {
+      "section_name": "Usage Agreement & Utilization",
+      "section_type": "Operational Metrics",
+      "description": "Details the usage agreement terms and chassis utilization metrics, including chassis contributed per day, chassis used per day, and total utilization percentages for MH, CH, and Terminal.",
+      "cell_range": {
+        "row_headers_location": "B33:B47",
+        "column_headers_location": "D4:F4",
+        "data_range": "D34:F47"
+      },
+      "time_series": [
+        {
+          "label": "Annual",
+          "start_date": "Yr. 1 PF",
+          "end_date": "Total",
+          "frequency": "Annual",
+          "cell_range": "D4:F4"
+        }
+      ],
+      "key_components": [
+        "Chassis Contributed per Day",
+        "Chassis Used per Day",
+        "Total Utilization (%)",
+        "Street Utilization (% of Total)"
+      ],
+      "notes": "Focuses on daily chassis usage and utilization rates across different categories."
+    },
+    {
+      "section_name": "Rates and Cost Summary",
+      "section_type": "Cost Analysis",
+      "description": "Presents rates for MH and CH in 2014, along with a cost summary per usage day, including M&R, repositioning, storage, and overhead costs. Also includes lease expense, revenue sharing, and other costs.",
+      "cell_range": {
+        "row_headers_location": "B50:B69",
+        "column_headers_location": "D4:F4",
+        "data_range": "D51:F69"
+      },
+      "time_series": [
+        {
+          "label": "Annual",
+          "start_date": "Yr. 1 PF",
+          "end_date": "Total",
+          "frequency": "Annual",
+          "cell_range": "D4:F4"
+        }
+      ],
+      "key_components": [
+        "MH Rate",
+        "CH Rate",
+        "M&R Cost",
+        "Repositioning Cost",
+        "Storage Cost"
+      ],
+      "notes": "Provides a detailed breakdown of costs associated with chassis usage."
+    },
+    {
+      "section_name": "Financial Summary & Returns",
+      "section_type": "Financial Performance",
+      "description": "Summarizes the financial performance, including contributed days, revenue, expense, EBITDA, and EBITDA margin for 2014E. Also includes EBITDA per usage day and per contributed day, along with IRR and NPV calculations.",
+      "cell_range": {
+        "row_headers_location": "B71:B86",
+        "column_headers_location": "D4:F4",
+        "data_range": "D73:F86"
+      },
+      "time_series": [
+        {
+          "label": "Annual",
+          "start_date": "Yr. 1 PF",
+          "end_date": "Total",
+          "frequency": "Annual",
+          "cell_range": "D4:F4"
+        }
+      ],
+      "key_components": [
+        "Contributed Days",
+        "Revenue",
+        "Expense",
+        "EBITDA",
+        "EBITDA Margin",
+        "Unlevered IRR",
+        "NPV"
+      ],
+      "notes": "Presents key financial metrics and return calculations."
+    }
+  ]
+}

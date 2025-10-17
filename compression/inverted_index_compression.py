@@ -35,7 +35,11 @@ class InvertedIndexCompressor:
     
     def compress(self, data: Dict[str, Any]) -> Dict[str, Any]:
         """
-        Compress format result data using inverted index (value -> locations mapping).
+        Compress format result data using inverted index.
+
+        Groups entries by:
+        1. String value (for strings that appear multiple times)
+        2. Format signature (for numbers with same format+style)
 
         Args:
             data: Format result data with 'format_ranges' list
@@ -43,82 +47,186 @@ class InvertedIndexCompressor:
         Returns:
             Compressed result with structure:
             {
-                "inverted_index": {
-                    "value1": {"type": "string", "ranges": ["A1", "A5", ...]},
-                    "value2": {"type": "number", "ranges": ["B1", "B2", ...]},
+                "format_index": {
+                    "fmt_1": {"number_format": "#,##0", "type": "number", "ranges": [...]},
                     ...
                 },
-                "data": {
-                    "format_ranges": [<entries not in inverted_index>],
-                    ...other fields from original data
+                "string_index": {
+                    "value1": {"type": "string", "ranges": ["A1", "A5", ...]},
+                    ...
                 },
+                "date_series_definitions": {...},
                 "compression_stats": {...}
             }
         """
         # Extract format_ranges
         format_ranges = data.get('format_ranges', [])
 
-        # Build inverted index: value -> {type, ranges}
-        inverted_index = defaultdict(lambda: {'type': None, 'ranges': []})
+        # Build string inverted index (existing logic)
+        string_index = defaultdict(lambda: {'type': None, 'ranges': []})
         value_counts = Counter()
 
-        # First pass: count occurrences
+        # Count string occurrences
         for entry in format_ranges:
             value = entry.get('value')
             if value is not None and isinstance(value, str) and len(value) >= self.min_length:
                 value_counts[value] += 1
 
-        # Second pass: build inverted index for qualifying values
-        qualifying_values = {
+        # Build string index for qualifying values
+        qualifying_strings = {
             value for value, count in value_counts.items()
             if count >= self.min_occurrences
         }
 
         for entry in format_ranges:
             value = entry.get('value')
-            if value in qualifying_values:
+            if value in qualifying_strings:
                 range_str = entry.get('range')
                 value_type = entry.get('type')
-                inverted_index[value]['type'] = value_type
-                inverted_index[value]['ranges'].append(range_str)
+                string_index[value]['type'] = value_type
+                string_index[value]['ranges'].append(range_str)
 
-        # Convert defaultdict to regular dict
-        inverted_index = {k: dict(v) for k, v in inverted_index.items()}
+        # Convert to regular dict
+        string_index = {k: dict(v) for k, v in string_index.items()}
+        string_index = self._optimize_ranges(string_index)
 
-        # Optimize ranges: convert consecutive cell references to range notation
-        inverted_index = self._optimize_ranges(inverted_index)
+        # Build format index (NEW: group numbers by format signature)
+        # Format signature = (number_format, bold, italic, underline, font_color, bg_color)
+        format_index = defaultdict(lambda: {
+            'number_format': None, 'type': None, 'ranges': [],
+            'bold': None, 'italic': None, 'underline': None, 'font_color': None, 'bg_color': None
+        })
+        format_counts = Counter()
 
-        # Third pass: build compressed data (exclude inverted entries)
+        # Count format signature occurrences for numbers
+        for entry in format_ranges:
+            entry_type = entry.get('type')
+            # Only group numbers (not strings or dates)
+            if entry_type not in ('string', 'date'):
+                # Create format signature: number_format + styling
+                format_code = entry.get('format_code')
+                bold = entry.get('bold')
+                italic = entry.get('italic')
+                underline = entry.get('underline')
+                font_color = entry.get('font_color')
+                bg_color = entry.get('bg_color')
+
+                if format_code:
+                    signature = (format_code, bold, italic, underline, font_color, bg_color)
+                    format_counts[signature] += 1
+
+        # Build format index for formats that appear multiple times
+        qualifying_signatures = {
+            sig for sig, count in format_counts.items()
+            if count >= self.min_occurrences
+        }
+
+        # Group ranges by format signature
+        for entry in format_ranges:
+            entry_type = entry.get('type')
+            if entry_type not in ('string', 'date'):
+                format_code = entry.get('format_code')
+                bold = entry.get('bold')
+                italic = entry.get('italic')
+                underline = entry.get('underline')
+                font_color = entry.get('font_color')
+                bg_color = entry.get('bg_color')
+
+                signature = (format_code, bold, italic, underline, font_color, bg_color)
+                if signature in qualifying_signatures:
+                    range_str = entry.get('range')
+                    format_index[signature]['number_format'] = format_code
+                    format_index[signature]['type'] = entry_type
+                    # Only add styling if truthy
+                    if bold:
+                        format_index[signature]['bold'] = True
+                    if italic:
+                        format_index[signature]['italic'] = True
+                    if underline:
+                        format_index[signature]['underline'] = True
+                    if font_color:
+                        format_index[signature]['font_color'] = font_color
+                    if bg_color:
+                        format_index[signature]['bg_color'] = bg_color
+                    format_index[signature]['ranges'].append(range_str)
+
+        # Convert to regular dict with cleaner keys
+        format_index_clean = {}
+        for idx, (signature, info) in enumerate(format_index.items(), 1):
+            # Remove None styling attributes from the output
+            clean_info = {k: v for k, v in info.items() if v is not None and v != []}
+            format_index_clean[f"fmt_{idx}"] = clean_info
+
+        # NOTE: Do NOT optimize format_index ranges - they're already ranges from format detector
+        # The _optimize_ranges function is designed for single cells only
+
+        # Extract date series (keep existing structure)
+        date_series_definitions = data.get('date_series_definitions', {})
+
+        # Build list of entries to exclude (in inverted indices)
+        excluded_ranges = set()
+        for info in string_index.values():
+            for range_str in info['ranges']:
+                excluded_ranges.add(range_str)
+        for info in format_index_clean.values():
+            for range_str in info['ranges']:
+                excluded_ranges.add(range_str)
+
+        # Compress ranges: exclude entries that are now in indices
         compressed_ranges = []
         for entry in format_ranges:
+            range_str = entry.get('range')
             value = entry.get('value')
-            if value not in qualifying_values:
-                compressed_ranges.append(entry)
+            entry_type = entry.get('type')
 
-        # Build compressed data structure
-        compressed_data = dict(data)  # Copy all other fields
-        compressed_data['format_ranges'] = compressed_ranges
+            # Skip if in string index
+            if value in qualifying_strings:
+                continue
+
+            # Skip if in format index (check if signature matches)
+            if entry_type not in ('string', 'date'):
+                format_code = entry.get('format_code')
+                bold = entry.get('bold')
+                italic = entry.get('italic')
+                underline = entry.get('underline')
+                font_color = entry.get('font_color')
+                bg_color = entry.get('bg_color')
+
+                signature = (format_code, bold, italic, underline, font_color, bg_color)
+                if signature in qualifying_signatures:
+                    continue
+
+            # Keep everything else
+            compressed_ranges.append(entry)
 
         # Calculate compression stats
         original_size = len(json.dumps(data, separators=(',', ':')))
-        inverted_index_size = len(json.dumps(inverted_index, separators=(',', ':')))
-        compressed_data_size = len(json.dumps(compressed_data, separators=(',', ':')))
-        compressed_size = inverted_index_size + compressed_data_size
+        string_index_size = len(json.dumps(string_index, separators=(',', ':')))
+        format_index_size = len(json.dumps(format_index_clean, separators=(',', ':')))
+        date_series_size = len(json.dumps(date_series_definitions, separators=(',', ':')))
+        compressed_ranges_size = len(json.dumps(compressed_ranges, separators=(',', ':')))
+
+        compressed_size = string_index_size + format_index_size + date_series_size + compressed_ranges_size
 
         entries_moved = len(format_ranges) - len(compressed_ranges)
 
         return {
-            "inverted_index": inverted_index,
-            "data": compressed_data,
+            "format_index": format_index_clean,
+            "string_index": string_index,
+            "date_series_definitions": date_series_definitions,
+            "remaining_ranges": compressed_ranges,
             "compression_stats": {
-                "unique_values": len(inverted_index),
+                "format_signatures": len(format_index_clean),
+                "unique_strings": len(string_index),
                 "entries_moved_to_index": entries_moved,
                 "entries_remaining": len(compressed_ranges),
                 "min_occurrences_threshold": self.min_occurrences,
                 "original_size_bytes": original_size,
                 "compressed_size_bytes": compressed_size,
-                "inverted_index_size_bytes": inverted_index_size,
-                "compressed_data_size_bytes": compressed_data_size,
+                "string_index_size_bytes": string_index_size,
+                "format_index_size_bytes": format_index_size,
+                "date_series_size_bytes": date_series_size,
+                "compressed_ranges_size_bytes": compressed_ranges_size,
                 "compression_ratio": round(compressed_size / original_size, 3) if original_size > 0 else 1.0,
                 "space_saved_bytes": original_size - compressed_size,
                 "space_saved_percent": round((1 - compressed_size / original_size) * 100, 1) if original_size > 0 else 0

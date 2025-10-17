@@ -1,5 +1,209 @@
 {
-  "inverted_index": {
+  "format_index": {
+    "fmt_1": {
+      "number_format": "#,##0_);(#,##0)",
+      "type": "number",
+      "ranges": [
+        "G6:Q8",
+        "H17:I17",
+        "I23:Q23"
+      ],
+      "bg_color": "theme:0"
+    },
+    "fmt_2": {
+      "number_format": "0.0%",
+      "type": "number",
+      "ranges": [
+        "H10:Q10",
+        "G12"
+      ],
+      "italic": true,
+      "font_color": "rgb:FF008000",
+      "bg_color": "theme:0"
+    },
+    "fmt_3": {
+      "number_format": "0.0%",
+      "type": "number",
+      "ranges": [
+        "G11:Q11",
+        "H12:Q13"
+      ],
+      "italic": true,
+      "bg_color": "theme:0"
+    },
+    "fmt_4": {
+      "number_format": "\"$\"#,##0.00_);[Red]\\(\"$\"#,##0.00\\)",
+      "type": "number",
+      "ranges": [
+        "E18:G18",
+        "H61",
+        "H62",
+        "H63"
+      ],
+      "font_color": "rgb:FF006600",
+      "bg_color": "theme:0"
+    },
+    "fmt_5": {
+      "number_format": "\"$\"#,##0.00_);[Red]\\(\"$\"#,##0.00\\)",
+      "type": "number",
+      "ranges": [
+        "E19:G19",
+        "H57:Q57",
+        "I61:Q63"
+      ],
+      "bg_color": "theme:0"
+    },
+    "fmt_6": {
+      "number_format": "#,##0_);(#,##0)",
+      "type": "number",
+      "ranges": [
+        "H23",
+        "H70:Q73"
+      ],
+      "font_color": "rgb:FF008000",
+      "bg_color": "theme:0"
+    },
+    "fmt_7": {
+      "number_format": "#,##0_);(#,##0)",
+      "type": "number",
+      "ranges": [
+        "H24:Q26",
+        "H28:Q28",
+        "H32:Q32",
+        "H36:Q36",
+        "H40:Q41",
+        "H50:Q51",
+        "H115:Q115"
+      ]
+    },
+    "fmt_8": {
+      "number_format": "\"$\"#,##0.00_);[Red]\\(\"$\"#,##0.00\\)",
+      "type": "number",
+      "ranges": [
+        "H29",
+        "H37"
+      ],
+      "font_color": "rgb:FF006600"
+    },
+    "fmt_9": {
+      "number_format": "\"$\"#,##0.00_);[Red]\\(\"$\"#,##0.00\\)",
+      "type": "number",
+      "ranges": [
+        "I29:Q29",
+        "I33:Q33",
+        "I37:Q37",
+        "H58:Q60",
+        "H77:Q78"
+      ]
+    },
+    "fmt_10": {
+      "number_format": "\"$\"#,##0_);\\(\"$\"#,##0\\)",
+      "type": "number",
+      "ranges": [
+        "H30:Q30",
+        "H34:Q34",
+        "H38:Q38",
+        "H48:Q49",
+        "G86",
+        "G88",
+        "H108:Q108",
+        "H110:Q110",
+        "L123",
+        "H125:L125",
+        "H127:L127",
+        "H132:L132"
+      ]
+    },
+    "fmt_11": {
+      "number_format": "0%",
+      "type": "number",
+      "ranges": [
+        "V33",
+        "V37",
+        "V38",
+        "V40",
+        "V41",
+        "E111",
+        "E113"
+      ],
+      "font_color": "rgb:FF0000FF"
+    },
+    "fmt_12": {
+      "number_format": "0%",
+      "type": "number",
+      "ranges": [
+        "V34",
+        "V36",
+        "E128",
+        "E130"
+      ]
+    },
+    "fmt_13": {
+      "number_format": "\"$\"#,##0_);[Red]\\(\"$\"#,##0\\)",
+      "type": "number",
+      "ranges": [
+        "H45:Q45",
+        "H74:Q74",
+        "H76:Q76"
+      ],
+      "bold": true
+    },
+    "fmt_14": {
+      "number_format": "\"$\"#,##0_);[Red]\\(\"$\"#,##0\\)",
+      "type": "number",
+      "ranges": [
+        "H65:Q65",
+        "G105",
+        "G117:Q117",
+        "F119",
+        "G122:L122",
+        "G134:L134"
+      ]
+    },
+    "fmt_15": {
+      "number_format": "#,##0_);(#,##0)",
+      "type": "number",
+      "ranges": [
+        "G83",
+        "G91",
+        "G92",
+        "G93",
+        "G95",
+        "G96"
+      ],
+      "font_color": "rgb:FF006600"
+    },
+    "fmt_16": {
+      "number_format": "\"$\"#,##0_);\\(\"$\"#,##0\\)",
+      "type": "number",
+      "ranges": [
+        "G87",
+        "G89",
+        "G97",
+        "G98"
+      ],
+      "bold": true
+    },
+    "fmt_17": {
+      "number_format": "_(* #,##0_);_(* \\(#,##0\\);_(* \"-\"??_);_(@_)",
+      "type": "number",
+      "ranges": [
+        "H109:Q109",
+        "H111:Q114",
+        "H126:L126",
+        "H128:L131"
+      ]
+    },
+    "fmt_18": {
+      "number_format": "0%\\ ;\\(0%\\)",
+      "type": "number",
+      "ranges": [
+        "E119",
+        "E136"
+      ]
+    }
+  },
+  "string_index": {
     "($000s)": {
       "type": "string",
       "ranges": [
@@ -107,1057 +311,638 @@
       ]
     }
   },
-  "data": {
-    "success": true,
-    "sheet_name": "MCCP",
-    "format_ranges": [
-      {
-        "range": "A1",
-        "type": "string",
-        "value": "Evergreen"
-      },
-      {
-        "range": "A3",
-        "type": "string",
-        "value": "MCCP"
-      },
-      {
-        "range": "F3",
-        "type": "string",
-        "value": "MH Erosion "
-      },
-      {
-        "range": "G3",
-        "type": "number"
-      },
-      {
-        "range": "C5",
-        "type": "string",
-        "value": "Utilization Summary"
-      },
-      {
-        "range": "C6",
-        "type": "string",
-        "value": "Street - MH"
-      },
-      {
-        "range": "G6:Q6",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "G7:Q7",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "G8:Q8",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "C9",
-        "type": "string",
-        "value": "Grand Total"
-      },
-      {
-        "range": "G9:Q9",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "C10",
-        "type": "string",
-        "value": "% of Street - MH"
-      },
-      {
-        "range": "G10:Q10",
-        "type": "number"
-      },
-      {
-        "range": "C11",
-        "type": "string",
-        "value": "% of Street - EVG"
-      },
-      {
-        "range": "G11:Q11",
-        "type": "number"
-      },
-      {
-        "range": "C12",
-        "type": "string",
-        "value": "% of Total - Terminal"
-      },
-      {
-        "range": "G12:Q12",
-        "type": "number"
-      },
-      {
-        "range": "C13",
-        "type": "string",
-        "value": "Utilization Rate"
-      },
-      {
-        "range": "H13:Q13",
-        "type": "number"
-      },
-      {
-        "range": "E16",
-        "type": "string",
-        "value": "M&R"
-      },
-      {
-        "range": "F16",
-        "type": "string",
-        "value": "Admin"
-      },
-      {
-        "range": "G16",
-        "type": "string",
-        "value": "Repo"
-      },
-      {
-        "range": "H16",
-        "type": "string",
-        "value": "Usage Days"
-      },
-      {
-        "range": "I16",
-        "type": "string",
-        "value": "Contr. Days"
-      },
-      {
-        "range": "B17",
-        "type": "string",
-        "value": "EVG"
-      },
-      {
-        "range": "E17:G17",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "H17:I17",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "E18:G18",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "C19",
-        "type": "string",
-        "value": "Per Contr. Day"
-      },
-      {
-        "range": "E19:G19",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "G21:Q21",
-        "type": "number"
-      },
-      {
-        "range": "B23",
-        "type": "string",
-        "value": "Chassis Used per Day"
-      },
-      {
-        "range": "H23:Q23",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "C24",
-        "type": "string",
-        "value": "Street - Trucker"
-      },
-      {
-        "range": "H24:Q24",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "H25:Q25",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "H26:Q26",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B28",
-        "type": "string",
-        "value": "Trucker Street Usage Days"
-      },
-      {
-        "range": "H28:Q28",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "C29",
-        "type": "string",
-        "value": "Trucker Rate"
-      },
-      {
-        "range": "H29:Q29",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B30",
-        "type": "string",
-        "value": "Trucker Street Revenue"
-      },
-      {
-        "range": "H30:Q30",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B32",
-        "type": "string",
-        "value": "EVG Street Rental Days"
-      },
-      {
-        "range": "H32:Q32",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "U32",
-        "type": "string",
-        "value": "Annual Inflation Assumptions:"
-      },
-      {
-        "range": "C33",
-        "type": "string",
-        "value": "EVG Street Rate"
-      },
-      {
-        "range": "H33:Q33",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "U33",
-        "type": "string",
-        "value": "Trucker Rate Inflation"
-      },
-      {
-        "range": "V33",
-        "type": "number"
-      },
-      {
-        "range": "B34",
-        "type": "string",
-        "value": "EVG Street Revenue"
-      },
-      {
-        "range": "H34:Q34",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "U34",
-        "type": "string",
-        "value": "EVG Rate Inflation"
-      },
-      {
-        "range": "V34",
-        "type": "number"
-      },
-      {
-        "range": "B36",
-        "type": "string",
-        "value": "Terminal Usage Days"
-      },
-      {
-        "range": "H36:Q36",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "U36",
-        "type": "string",
-        "value": "Terminal Rate Inflation"
-      },
-      {
-        "range": "V36",
-        "type": "number"
-      },
-      {
-        "range": "C37",
-        "type": "string",
-        "value": "Terminal Rate"
-      },
-      {
-        "range": "H37:Q37",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "U37",
-        "type": "string",
-        "value": "M&R Cost Inflation"
-      },
-      {
-        "range": "V37",
-        "type": "number"
-      },
-      {
-        "range": "B38",
-        "type": "string",
-        "value": "Terminal Revenue"
-      },
-      {
-        "range": "H38:Q38",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "U38",
-        "type": "string",
-        "value": "Admin Cost Inflation"
-      },
-      {
-        "range": "V38",
-        "type": "number"
-      },
-      {
-        "range": "B40",
-        "type": "string",
-        "value": "Total Usage Days"
-      },
-      {
-        "range": "H40:Q40",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "U40",
-        "type": "string",
-        "value": "Repo Cost Inflation"
-      },
-      {
-        "range": "V40",
-        "type": "number"
-      },
-      {
-        "range": "C41",
-        "type": "string",
-        "value": "Contributed Days"
-      },
-      {
-        "range": "H41:Q41",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "U41",
-        "type": "string",
-        "value": "Other Cost Inflation"
-      },
-      {
-        "range": "V41",
-        "type": "number"
-      },
-      {
-        "range": "C42",
-        "type": "string",
-        "value": "Usage"
-      },
-      {
-        "range": "H42:Q42",
-        "type": "number"
-      },
-      {
-        "range": "C43",
-        "type": "string",
-        "value": "Street Utilization"
-      },
-      {
-        "range": "H43:Q43",
-        "type": "number"
-      },
-      {
-        "range": "B45",
-        "type": "string",
-        "value": "Revenue"
-      },
-      {
-        "range": "H45:Q45",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "H46:Q46",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B48",
-        "type": "string",
-        "value": "EVG Street Costs "
-      },
-      {
-        "range": "H48:Q48",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B49",
-        "type": "string",
-        "value": "Terminal Billings"
-      },
-      {
-        "range": "H49:Q49",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B50",
-        "type": "string",
-        "value": "EVG Street Days "
-      },
-      {
-        "range": "H50:Q50",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B51",
-        "type": "string",
-        "value": "Terminal Days"
-      },
-      {
-        "range": "H51:Q51",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B52",
-        "type": "string",
-        "value": "EVG Average Cost per EVG Usage Day"
-      },
-      {
-        "range": "H52:Q52",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B53",
-        "type": "string",
-        "value": "EVG Average Cost per EVG Street Day"
-      },
-      {
-        "range": "H53:Q53",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B54",
-        "type": "string",
-        "value": "EVG Terminal Cost per Terminal Day"
-      },
-      {
-        "range": "H54:Q54",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B56",
-        "type": "string",
-        "value": "Per Usage Day Costs"
-      },
-      {
-        "range": "C57",
-        "type": "string",
-        "value": "M&R Cost per Day"
-      },
-      {
-        "range": "H57:Q57",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "C58",
-        "type": "string",
-        "value": "Admin Cost per Day"
-      },
-      {
-        "range": "H58:Q58",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "C59",
-        "type": "string",
-        "value": "Repo Cost per Day"
-      },
-      {
-        "range": "H59:Q59",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "C60",
-        "type": "string",
-        "value": "Other Cost per Day"
-      },
-      {
-        "range": "H60:Q60",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "C61",
-        "type": "string",
-        "value": "Lease Cost per Day on EVG Chassis"
-      },
-      {
-        "range": "H61:Q61",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "C62",
-        "type": "string",
-        "value": "Lease Cost per Day on EVG Leases"
-      },
-      {
-        "range": "H62:Q62",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "C63",
-        "type": "string",
-        "value": "Incremental Pool Overuse Cost per Day"
-      },
-      {
-        "range": "H63:Q63",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B65",
-        "type": "string",
-        "value": "M&R Cost"
-      },
-      {
-        "range": "H65:Q65",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B66",
-        "type": "string",
-        "value": "Admin Expense"
-      },
-      {
-        "range": "H66:Q66",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B67",
-        "type": "string",
-        "value": "Repo Expense"
-      },
-      {
-        "range": "H67:Q67",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B68",
-        "type": "string",
-        "value": "Other Expense"
-      },
-      {
-        "range": "H68:Q68",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B69",
-        "type": "string",
-        "value": "Bad Debt Expense"
-      },
-      {
-        "range": "H69:Q69",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B70",
-        "type": "string",
-        "value": "Lease Cost on EVG Owned Chassis"
-      },
-      {
-        "range": "H70:Q70",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B71",
-        "type": "string",
-        "value": "Lease Cost on EVG Existing Leases "
-      },
-      {
-        "range": "H71:Q71",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B72",
-        "type": "string",
-        "value": "Lease Cost for Additional Capactiy"
-      },
-      {
-        "range": "H72:Q72",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B73",
-        "type": "string",
-        "value": "Gain Sharing with EVG on MH Conversion"
-      },
-      {
-        "range": "H73:Q73",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B74",
-        "type": "string",
-        "value": "Total Cost"
-      },
-      {
-        "range": "H74:Q74",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "H76:Q76",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "C77",
-        "type": "string",
-        "value": "EBITDA per Usage Day"
-      },
-      {
-        "range": "H77:Q77",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "C78",
-        "type": "string",
-        "value": "EBITDA per Chassis per Day"
-      },
-      {
-        "range": "H78:Q78",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B79",
-        "type": "string",
-        "value": "EBITDA Margin (%)"
-      },
-      {
-        "range": "H79:Q79",
-        "type": "number"
-      },
-      {
-        "range": "G82",
-        "type": "string",
-        "value": "Total (Upfront)"
-      },
-      {
-        "range": "B83",
-        "type": "string",
-        "value": "Chassis to be Acquired"
-      },
-      {
-        "range": "G83",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B84",
-        "type": "string",
-        "value": "Average Book Value / Owned Chassis"
-      },
-      {
-        "range": "G84",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B85",
-        "type": "string",
-        "value": "Premium / (Discount) to Book"
-      },
-      {
-        "range": "G85",
-        "type": "number"
-      },
-      {
-        "range": "B86",
-        "type": "string",
-        "value": "Price per Chassis"
-      },
-      {
-        "range": "G86",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B87",
-        "type": "string",
-        "value": "Payment to EVG "
-      },
-      {
-        "range": "G87",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B88",
-        "type": "string",
-        "value": "Sales Tax "
-      },
-      {
-        "range": "F88",
-        "type": "number"
-      },
-      {
-        "range": "G88",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B89",
-        "type": "string",
-        "value": "Total Chassis Price"
-      },
-      {
-        "range": "G89",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B90",
-        "type": "string",
-        "value": "Reconditioning Costs"
-      },
-      {
-        "range": "G90",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B91",
-        "type": "string",
-        "value": "Decouping Costs"
-      },
-      {
-        "range": "G91",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B92",
-        "type": "string",
-        "value": "Repositioning"
-      },
-      {
-        "range": "G92",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B93",
-        "type": "string",
-        "value": "Retitling & Stenciling Costs"
-      },
-      {
-        "range": "G93",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B94",
-        "type": "string",
-        "value": "Working Capital Investment"
-      },
-      {
-        "range": "G94",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B95",
-        "type": "string",
-        "value": "Offhire Costs"
-      },
-      {
-        "range": "G95",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B96",
-        "type": "string",
-        "value": "Less:  Scrap Chassis at $1,000 per Chassis"
-      },
-      {
-        "range": "G96",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B97",
-        "type": "string",
-        "value": "Transaction Expenses"
-      },
-      {
-        "range": "G97",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B98",
-        "type": "string",
-        "value": "Total Effective Purchase Price"
-      },
-      {
-        "range": "G98",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B100",
-        "type": "string",
-        "value": "Cash Multiple of 2014 EBITDA - Owned"
-      },
-      {
-        "range": "G100",
-        "type": "number"
-      },
-      {
-        "range": "B104",
-        "type": "string",
-        "value": "Cash Flows - Depreciated Value Exit"
-      },
-      {
-        "range": "G104:Q104",
-        "type": "number"
-      },
-      {
-        "range": "G105",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B106",
-        "type": "string",
-        "value": "Exit (Upfront Investment)"
-      },
-      {
-        "range": "Q106",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "H108:Q108",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "H109:Q109",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "H110:Q110",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "E111",
-        "type": "number"
-      },
-      {
-        "range": "H111:Q111",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "H112:Q112",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "E113",
-        "type": "number"
-      },
-      {
-        "range": "H113:Q113",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "H114:Q114",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "H115:Q115",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "G117:Q117",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "F118",
-        "type": "string",
-        "value": "NPV"
-      },
-      {
-        "range": "E119",
-        "type": "number"
-      },
-      {
-        "range": "F119",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B121",
-        "type": "string",
-        "value": "Cash Flows - TEV Exit"
-      },
-      {
-        "range": "G121:L121",
-        "type": "number"
-      },
-      {
-        "range": "G122:L122",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "B123",
-        "type": "string",
-        "value": "Exit @"
-      },
-      {
-        "range": "E123",
-        "type": "number"
-      },
-      {
-        "range": "L123",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "H125:L125",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "H126:L126",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "H127:L127",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "E128",
-        "type": "number"
-      },
-      {
-        "range": "H128:L128",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "H129:L129",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "E130",
-        "type": "number"
-      },
-      {
-        "range": "H130:L130",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "H131:L131",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "H132:L132",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "G134:L134",
-        "type": "number",
-        "scale": 1000
-      },
-      {
-        "range": "E136",
-        "type": "number"
-      }
-    ],
-    "statistics": {
-      "processing_time_ms": 57.61,
-      "cells_analyzed": 899,
-      "total_ranges": 241,
-      "format_counts": {
-        "string": 123,
-        "number": 118
-      }
+  "date_series_definitions": {
+    "ds_1": {
+      "series_type": "annual",
+      "increment": "1 year",
+      "start_date": "Year 0",
+      "pattern": "Sequential annual series (Year 0 to Year 10)"
     },
-    "metadata": {
-      "detected_at": "2025-10-15T18:32:39.707277Z"
+    "ds_2": {
+      "series_type": "annual",
+      "increment": "1 year",
+      "start_date": "Year 0",
+      "pattern": "Sequential annual series (Year 0 to Year 5)"
     }
   },
+  "remaining_ranges": [
+    {
+      "range": "A1",
+      "type": "string",
+      "value": "Evergreen"
+    },
+    {
+      "range": "A3",
+      "type": "string",
+      "value": "MCCP"
+    },
+    {
+      "range": "F3",
+      "type": "string",
+      "value": "MH Erosion "
+    },
+    {
+      "range": "G3",
+      "type": "number",
+      "bold": true,
+      "font_color": "rgb:FF0000FF",
+      "format_code": "0%"
+    },
+    {
+      "range": "C5",
+      "type": "string",
+      "value": "Utilization Summary"
+    },
+    {
+      "range": "C6",
+      "type": "string",
+      "value": "Street - MH"
+    },
+    {
+      "range": "C9",
+      "type": "string",
+      "value": "Grand Total"
+    },
+    {
+      "range": "G9",
+      "type": "number",
+      "bold": true,
+      "font_color": "rgb:FF008000",
+      "bg_color": "theme:0",
+      "format_code": "#,##0_);(#,##0)"
+    },
+    {
+      "range": "H9:Q9",
+      "type": "number",
+      "bold": true,
+      "bg_color": "theme:0",
+      "format_code": "#,##0_);(#,##0)"
+    },
+    {
+      "range": "C10",
+      "type": "string",
+      "value": "% of Street - MH"
+    },
+    {
+      "range": "G10",
+      "type": "number",
+      "italic": true,
+      "font_color": "rgb:FF0000FF",
+      "bg_color": "theme:0",
+      "format_code": "0.0%"
+    },
+    {
+      "range": "C11",
+      "type": "string",
+      "value": "% of Street - EVG"
+    },
+    {
+      "range": "C12",
+      "type": "string",
+      "value": "% of Total - Terminal"
+    },
+    {
+      "range": "C13",
+      "type": "string",
+      "value": "Utilization Rate"
+    },
+    {
+      "range": "E16",
+      "type": "string",
+      "value": "M&R"
+    },
+    {
+      "range": "F16",
+      "type": "string",
+      "value": "Admin"
+    },
+    {
+      "range": "G16",
+      "type": "string",
+      "value": "Repo"
+    },
+    {
+      "range": "H16",
+      "type": "string",
+      "value": "Usage Days"
+    },
+    {
+      "range": "I16",
+      "type": "string",
+      "value": "Contr. Days"
+    },
+    {
+      "range": "B17",
+      "type": "string",
+      "value": "EVG"
+    },
+    {
+      "range": "E17:G17",
+      "type": "number",
+      "bg_color": "theme:0",
+      "format_code": "\"$\"#,##0_);\\(\"$\"#,##0\\)"
+    },
+    {
+      "range": "C19",
+      "type": "string",
+      "value": "Per Contr. Day"
+    },
+    {
+      "range": "G21:Q21",
+      "type": "date",
+      "date_series_id": "ds_1"
+    },
+    {
+      "range": "B23",
+      "type": "string",
+      "value": "Chassis Used per Day"
+    },
+    {
+      "range": "C24",
+      "type": "string",
+      "value": "Street - Trucker"
+    },
+    {
+      "range": "B28",
+      "type": "string",
+      "value": "Trucker Street Usage Days"
+    },
+    {
+      "range": "C29",
+      "type": "string",
+      "value": "Trucker Rate"
+    },
+    {
+      "range": "B30",
+      "type": "string",
+      "value": "Trucker Street Revenue"
+    },
+    {
+      "range": "B32",
+      "type": "string",
+      "value": "EVG Street Rental Days"
+    },
+    {
+      "range": "U32",
+      "type": "string",
+      "value": "Annual Inflation Assumptions:"
+    },
+    {
+      "range": "C33",
+      "type": "string",
+      "value": "EVG Street Rate"
+    },
+    {
+      "range": "H33",
+      "type": "number",
+      "font_color": "rgb:FF0000FF",
+      "bg_color": "rgb:FFFFFF00",
+      "format_code": "\"$\"#,##0.00_);[Red]\\(\"$\"#,##0.00\\)"
+    },
+    {
+      "range": "U33",
+      "type": "string",
+      "value": "Trucker Rate Inflation"
+    },
+    {
+      "range": "B34",
+      "type": "string",
+      "value": "EVG Street Revenue"
+    },
+    {
+      "range": "U34",
+      "type": "string",
+      "value": "EVG Rate Inflation"
+    },
+    {
+      "range": "B36",
+      "type": "string",
+      "value": "Terminal Usage Days"
+    },
+    {
+      "range": "U36",
+      "type": "string",
+      "value": "Terminal Rate Inflation"
+    },
+    {
+      "range": "C37",
+      "type": "string",
+      "value": "Terminal Rate"
+    },
+    {
+      "range": "U37",
+      "type": "string",
+      "value": "M&R Cost Inflation"
+    },
+    {
+      "range": "B38",
+      "type": "string",
+      "value": "Terminal Revenue"
+    },
+    {
+      "range": "U38",
+      "type": "string",
+      "value": "Admin Cost Inflation"
+    },
+    {
+      "range": "B40",
+      "type": "string",
+      "value": "Total Usage Days"
+    },
+    {
+      "range": "U40",
+      "type": "string",
+      "value": "Repo Cost Inflation"
+    },
+    {
+      "range": "C41",
+      "type": "string",
+      "value": "Contributed Days"
+    },
+    {
+      "range": "U41",
+      "type": "string",
+      "value": "Other Cost Inflation"
+    },
+    {
+      "range": "C42",
+      "type": "string",
+      "value": "Usage"
+    },
+    {
+      "range": "H42:Q43",
+      "type": "number",
+      "format_code": "0.0%"
+    },
+    {
+      "range": "C43",
+      "type": "string",
+      "value": "Street Utilization"
+    },
+    {
+      "range": "B45",
+      "type": "string",
+      "value": "Revenue"
+    },
+    {
+      "range": "H46:Q46",
+      "type": "number",
+      "bold": true,
+      "format_code": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+    },
+    {
+      "range": "B48",
+      "type": "string",
+      "value": "EVG Street Costs "
+    },
+    {
+      "range": "B49",
+      "type": "string",
+      "value": "Terminal Billings"
+    },
+    {
+      "range": "B50",
+      "type": "string",
+      "value": "EVG Street Days "
+    },
+    {
+      "range": "B51",
+      "type": "string",
+      "value": "Terminal Days"
+    },
+    {
+      "range": "B52",
+      "type": "string",
+      "value": "EVG Average Cost per EVG Usage Day"
+    },
+    {
+      "range": "H52:Q54",
+      "type": "number",
+      "bold": true,
+      "italic": true,
+      "format_code": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+    },
+    {
+      "range": "B53",
+      "type": "string",
+      "value": "EVG Average Cost per EVG Street Day"
+    },
+    {
+      "range": "B54",
+      "type": "string",
+      "value": "EVG Terminal Cost per Terminal Day"
+    },
+    {
+      "range": "B56",
+      "type": "string",
+      "value": "Per Usage Day Costs"
+    },
+    {
+      "range": "C57",
+      "type": "string",
+      "value": "M&R Cost per Day"
+    },
+    {
+      "range": "C58",
+      "type": "string",
+      "value": "Admin Cost per Day"
+    },
+    {
+      "range": "C59",
+      "type": "string",
+      "value": "Repo Cost per Day"
+    },
+    {
+      "range": "C60",
+      "type": "string",
+      "value": "Other Cost per Day"
+    },
+    {
+      "range": "C61",
+      "type": "string",
+      "value": "Lease Cost per Day on EVG Chassis"
+    },
+    {
+      "range": "C62",
+      "type": "string",
+      "value": "Lease Cost per Day on EVG Leases"
+    },
+    {
+      "range": "C63",
+      "type": "string",
+      "value": "Incremental Pool Overuse Cost per Day"
+    },
+    {
+      "range": "B65",
+      "type": "string",
+      "value": "M&R Cost"
+    },
+    {
+      "range": "B66",
+      "type": "string",
+      "value": "Admin Expense"
+    },
+    {
+      "range": "H66:Q68",
+      "type": "number",
+      "format_code": "#,##0_);[Red](#,##0)"
+    },
+    {
+      "range": "B67",
+      "type": "string",
+      "value": "Repo Expense"
+    },
+    {
+      "range": "B68",
+      "type": "string",
+      "value": "Other Expense"
+    },
+    {
+      "range": "B69",
+      "type": "string",
+      "value": "Bad Debt Expense"
+    },
+    {
+      "range": "H69:Q69",
+      "type": "number",
+      "font_color": "rgb:FF008000",
+      "format_code": "#,##0_);[Red](#,##0)"
+    },
+    {
+      "range": "B70",
+      "type": "string",
+      "value": "Lease Cost on EVG Owned Chassis"
+    },
+    {
+      "range": "B71",
+      "type": "string",
+      "value": "Lease Cost on EVG Existing Leases "
+    },
+    {
+      "range": "B72",
+      "type": "string",
+      "value": "Lease Cost for Additional Capactiy"
+    },
+    {
+      "range": "B73",
+      "type": "string",
+      "value": "Gain Sharing with EVG on MH Conversion"
+    },
+    {
+      "range": "B74",
+      "type": "string",
+      "value": "Total Cost"
+    },
+    {
+      "range": "C77",
+      "type": "string",
+      "value": "EBITDA per Usage Day"
+    },
+    {
+      "range": "C78",
+      "type": "string",
+      "value": "EBITDA per Chassis per Day"
+    },
+    {
+      "range": "B79",
+      "type": "string",
+      "value": "EBITDA Margin (%)"
+    },
+    {
+      "range": "H79:Q79",
+      "type": "number",
+      "bold": true,
+      "format_code": "0.0%"
+    },
+    {
+      "range": "G82",
+      "type": "string",
+      "value": "Total (Upfront)"
+    },
+    {
+      "range": "B83",
+      "type": "string",
+      "value": "Chassis to be Acquired"
+    },
+    {
+      "range": "B84",
+      "type": "string",
+      "value": "Average Book Value / Owned Chassis"
+    },
+    {
+      "range": "G84",
+      "type": "number",
+      "font_color": "rgb:FF006600",
+      "format_code": "\"$\"#,##0_);\\(\"$\"#,##0\\)"
+    },
+    {
+      "range": "B85",
+      "type": "string",
+      "value": "Premium / (Discount) to Book"
+    },
+    {
+      "range": "G85",
+      "type": "number",
+      "font_color": "rgb:FF006600",
+      "format_code": "0.0%;\\(0.0%\\)"
+    },
+    {
+      "range": "B86",
+      "type": "string",
+      "value": "Price per Chassis"
+    },
+    {
+      "range": "B87",
+      "type": "string",
+      "value": "Payment to EVG "
+    },
+    {
+      "range": "B88",
+      "type": "string",
+      "value": "Sales Tax "
+    },
+    {
+      "range": "F88",
+      "type": "number",
+      "font_color": "rgb:FF006600",
+      "format_code": "0.0%"
+    },
+    {
+      "range": "B89",
+      "type": "string",
+      "value": "Total Chassis Price"
+    },
+    {
+      "range": "B90",
+      "type": "string",
+      "value": "Reconditioning Costs"
+    },
+    {
+      "range": "G90",
+      "type": "number",
+      "font_color": "rgb:FF006600",
+      "format_code": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+    },
+    {
+      "range": "B91",
+      "type": "string",
+      "value": "Decouping Costs"
+    },
+    {
+      "range": "B92",
+      "type": "string",
+      "value": "Repositioning"
+    },
+    {
+      "range": "B93",
+      "type": "string",
+      "value": "Retitling & Stenciling Costs"
+    },
+    {
+      "range": "B94",
+      "type": "string",
+      "value": "Working Capital Investment"
+    },
+    {
+      "range": "G94",
+      "type": "number",
+      "bg_color": "theme:0",
+      "format_code": "_(* #,##0_);_(* \\(#,##0\\);_(* \"-\"??_);_(@_)"
+    },
+    {
+      "range": "B95",
+      "type": "string",
+      "value": "Offhire Costs"
+    },
+    {
+      "range": "B96",
+      "type": "string",
+      "value": "Less:  Scrap Chassis at $1,000 per Chassis"
+    },
+    {
+      "range": "B97",
+      "type": "string",
+      "value": "Transaction Expenses"
+    },
+    {
+      "range": "B98",
+      "type": "string",
+      "value": "Total Effective Purchase Price"
+    },
+    {
+      "range": "B100",
+      "type": "string",
+      "value": "Cash Multiple of 2014 EBITDA - Owned"
+    },
+    {
+      "range": "G100",
+      "type": "number",
+      "bold": true,
+      "format_code": "0.00\\x_)"
+    },
+    {
+      "range": "B104",
+      "type": "string",
+      "value": "Cash Flows - Depreciated Value Exit"
+    },
+    {
+      "range": "G104:Q104",
+      "type": "date",
+      "date_series_id": "ds_1"
+    },
+    {
+      "range": "B106",
+      "type": "string",
+      "value": "Exit (Upfront Investment)"
+    },
+    {
+      "range": "Q106",
+      "type": "number",
+      "bg_color": "theme:0",
+      "format_code": "\"$\"#,##0_);[Red]\\(\"$\"#,##0\\)"
+    },
+    {
+      "range": "F118",
+      "type": "string",
+      "value": "NPV"
+    },
+    {
+      "range": "B121",
+      "type": "string",
+      "value": "Cash Flows - TEV Exit"
+    },
+    {
+      "range": "G121:L121",
+      "type": "date",
+      "date_series_id": "ds_2"
+    },
+    {
+      "range": "B123",
+      "type": "string",
+      "value": "Exit @"
+    },
+    {
+      "range": "E123",
+      "type": "number",
+      "bold": true,
+      "font_color": "rgb:FF0000FF",
+      "format_code": "0.00\\x"
+    }
+  ],
   "compression_stats": {
-    "unique_values": 15,
-    "entries_moved_to_index": 31,
-    "entries_remaining": 210,
+    "format_signatures": 18,
+    "unique_strings": 15,
+    "entries_moved_to_index": 109,
+    "entries_remaining": 115,
     "min_occurrences_threshold": 2,
-    "original_size_bytes": 12933,
-    "compressed_size_bytes": 12095,
-    "inverted_index_size_bytes": 852,
-    "compressed_data_size_bytes": 11243,
-    "compression_ratio": 0.935,
-    "space_saved_bytes": 838,
-    "space_saved_percent": 6.5
+    "original_size_bytes": 17066,
+    "compressed_size_bytes": 11412,
+    "string_index_size_bytes": 852,
+    "format_index_size_bytes": 2456,
+    "date_series_size_bytes": 264,
+    "compressed_ranges_size_bytes": 7840,
+    "compression_ratio": 0.669,
+    "space_saved_bytes": 5654,
+    "space_saved_percent": 33.1
   }
 }

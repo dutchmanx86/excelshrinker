@@ -60,6 +60,7 @@ When analyzing time series:
 2. Check if there are gaps between column groups (suggesting separate time series)
 3. Identify if data spans different date column groups
 4. Report ALL time series horizons found, not just one
+5. **IMPORTANT**: If there is only one time series range on a whole sheet or for a large section of a sheet, that series often applies as a column or row header across multiple sections.
 
 # OUTPUT REQUIREMENTS
 Generate a markdown document with the following EXACT structure for each sheet:
